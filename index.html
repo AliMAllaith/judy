@@ -438,7 +438,7 @@ function renderAbout(){
     <table class="ref-table"><thead><tr>
       <th>${esc(t('refModelKey'))}</th><th>${esc(t('refFamily'))}</th><th>${esc(t('refDescription'))}</th>
     </tr></thead><tbody>${modRows}</tbody></table>
-    <p style="margin:14px 0 0;color:var(--muted);font-size:12px">${esc(t('refSource'))}</p>`;
+    
   if ($('aboutBody')) $('aboutBody').innerHTML = html;
   if ($('referenceBody')) $('referenceBody').innerHTML = html;
 }
