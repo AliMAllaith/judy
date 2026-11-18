@@ -8,10 +8,10 @@
 body.light{--bg:#f3f6fb;--panel:#fff;--panel2:#edf2f8;--line:#d6dfeb;--text:#182338;--muted:#60718a;--cyan:#087e96;--violet:#6851b8;--green:#16865b;--red:#c63f58;--amber:#9a6500;background:radial-gradient(ellipse at 15% -10%,#dce9f8 0,transparent 42%),var(--bg)}
 body.light .card{background:linear-gradient(155deg,#fff,#f4f7fb)}body.light button{background:#edf2f8;color:var(--text)}body.light .toolbar select,body.light .toolbar input{background:#fff;color:var(--text)}body.light .notice{background:#e7f1fa;color:#30445e;border-color:#c4d7e9}body.light .json{background:#f7f9fc;color:#24334a}body.light .speech{background:#f4f7fb;color:#24334a}body.light .transcript{color:#24334a}body.light .listitem:hover,body.light .listitem.active{background:#e7eef8}body.light .tab.active{background:#e2edf8}body.light .pill{background:#e4ebf4;color:#34465f}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -10%,#1d3150 0,transparent 40%),var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
-button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--line);background:#1a2942;color:var(--text);padding:9px 13px;border-radius:10px}button:hover{border-color:var(--cyan);background:#203450}.primary{background:linear-gradient(120deg,#257e91,#6554b5);border:0;font-weight:700}.top{padding:28px clamp(16px,4vw,56px) 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.brand{display:flex;gap:14px;align-items:center}.logo{width:150px;height:150px;border-radius:15px;background:linear-gradient(135deg,#5ee2e8,#9278ff);display:grid;place-items:center;color:#081323;font-size:22px;font-weight:900}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.17em;font-weight:800}.title{font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.04em}.sub{color:var(--muted);margin-top:3px}.actions{display:flex;gap:9px;flex-wrap:wrap}.wrap{max-width:1600px;margin:auto;padding:24px clamp(14px,3vw,42px) 60px}.notice{background:#17263b;border:1px solid #31516a;padding:13px 16px;border-radius:12px;color:#c9d9ec;margin-bottom:20px}.notice strong{color:var(--cyan)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.toolbar select,.toolbar input{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 12px;min-width:180px}.status{margin-left:auto;color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card{background:linear-gradient(155deg,#17233a,#111a2c);border:1px solid var(--line);border-radius:16px;padding:17px;min-width:0}.metric-label{color:var(--muted);font-size:12px}.metric{font-size:30px;font-weight:800;letter-spacing:-.04em;margin:5px 0}.metric-note{color:var(--muted);font-size:11px}.section{margin-top:24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}.section h2{font-size:17px;margin:0;letter-spacing:-.02em}.hint{font-size:12px;color:var(--muted)}.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}.chart{height:260px;display:flex;align-items:end;gap:13px;padding:18px 8px 24px;overflow-x:auto}.barwrap{height:100%;min-width:65px;flex:1;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:7px}.bararea{height:190px;width:100%;display:flex;align-items:end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 46px,#26355055 47px,#26355055 48px)}.bar{width:min(38px,65%);border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,var(--cyan),#4b77c9);min-height:2px;position:relative}.barval{font-size:11px;color:var(--text);font-weight:700;margin-bottom:4px}.barlabel{font-size:10px;color:var(--muted);text-align:center;max-width:90px;overflow-wrap:anywhere}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.tablebox{overflow:auto}.data{width:100%;border-collapse:collapse;min-width:600px}.data th,.data td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);font-size:12px}.data th{color:var(--muted);font-weight:600}.data tr:hover td{background:#ffffff08}.pill{display:inline-block;padding:3px 8px;border-radius:99px;background:#263651;color:#c6d8f2;font-size:10px}.good{color:var(--green)}.bad{color:var(--red)}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}.tab{background:transparent;color:var(--muted)}.tab.active{background:#253957;color:var(--cyan);border-color:#42617e}.browser{display:grid;grid-template-columns:280px minmax(0,1fr);gap:13px;min-height:440px}.side{max-height:650px;overflow:auto}.listitem{padding:10px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}.listitem:hover,.listitem.active{background:#20324d}.listitem small{display:block;color:var(--muted);font-size:10px}.detail{min-width:0}.detailhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}.json{white-space:pre-wrap;overflow-wrap:anywhere;background:#080e1a;border:1px solid var(--line);border-radius:12px;padding:16px;max-height:650px;overflow:auto;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;color:#c6d7f2}.search{width:min(320px,100%)}.empty{padding:40px;text-align:center;color:var(--muted)}.transcript{white-space:pre-wrap;line-height:1.8;color:#d4def0}.speech{padding:13px;margin:9px 0;background:#0e192b;border:1px solid var(--line);border-radius:10px}.speechhead{display:flex;justify-content:space-between;color:var(--cyan);font-size:11px;margin-bottom:7px}.footer{color:var(--muted);font-size:11px;margin-top:26px}.justification{max-width:440px;white-space:pre-wrap;overflow-wrap:anywhere}.justification.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.expand{padding:3px 8px;margin-top:6px;font-size:12px;border-radius:7px;min-width:28px}.just-cell{min-width:230px}.ground-table{direction:rtl;text-align:right;min-width:1120px}.ground-table th,.ground-table td{text-align:right;white-space:normal;vertical-align:top}.ground-table td:nth-child(2){direction:ltr;text-align:left;min-width:230px}.ground-table a{color:var(--cyan);text-decoration:none}.ground-table a:hover{text-decoration:underline}.ground-count{color:var(--muted);font-size:12px;margin:8px 0 12px}.ground-panel[hidden],.browser[hidden]{display:none}
+button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--line);background:#1a2942;color:var(--text);padding:9px 13px;border-radius:10px}button:hover{border-color:var(--cyan);background:#203450}.primary{background:linear-gradient(120deg,#257e91,#6554b5);border:0;font-weight:700}.top{padding:28px clamp(16px,4vw,56px) 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.brand{display:flex;gap:14px;align-items:center}.logo{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,#5ee2e8,#9278ff);display:grid;place-items:center;color:#081323;font-size:22px;font-weight:900}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.17em;font-weight:800}.title{font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.04em}.sub{color:var(--muted);margin-top:3px}.actions{display:flex;gap:9px;flex-wrap:wrap}.wrap{max-width:1600px;margin:auto;padding:24px clamp(14px,3vw,42px) 60px}.notice{background:#17263b;border:1px solid #31516a;padding:13px 16px;border-radius:12px;color:#c9d9ec;margin-bottom:20px}.notice strong{color:var(--cyan)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.toolbar select,.toolbar input{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 12px;min-width:180px}.status{margin-left:auto;color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card{background:linear-gradient(155deg,#17233a,#111a2c);border:1px solid var(--line);border-radius:16px;padding:17px;min-width:0}.metric-label{color:var(--muted);font-size:12px}.metric{font-size:30px;font-weight:800;letter-spacing:-.04em;margin:5px 0}.metric-note{color:var(--muted);font-size:11px}.section{margin-top:24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}.section h2{font-size:17px;margin:0;letter-spacing:-.02em}.hint{font-size:12px;color:var(--muted)}.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}.chart{height:260px;display:flex;align-items:end;gap:13px;padding:18px 8px 24px;overflow-x:auto}.barwrap{height:100%;min-width:65px;flex:1;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:7px}.bararea{height:190px;width:100%;display:flex;align-items:end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 46px,#26355055 47px,#26355055 48px)}.bar{width:min(38px,65%);border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,var(--cyan),#4b77c9);min-height:2px;position:relative}.barval{font-size:11px;color:var(--text);font-weight:700;margin-bottom:4px}.barlabel{font-size:10px;color:var(--muted);text-align:center;max-width:90px;overflow-wrap:anywhere}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.tablebox{overflow:auto}.data{width:100%;border-collapse:collapse;min-width:600px}.data th,.data td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);font-size:12px}.data th{color:var(--muted);font-weight:600}.data tr:hover td{background:#ffffff08}.pill{display:inline-block;padding:3px 8px;border-radius:99px;background:#263651;color:#c6d8f2;font-size:10px}.good{color:var(--green)}.bad{color:var(--red)}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}.tab{background:transparent;color:var(--muted)}.tab.active{background:#253957;color:var(--cyan);border-color:#42617e}.browser{display:grid;grid-template-columns:280px minmax(0,1fr);gap:13px;min-height:440px}.side{max-height:650px;overflow:auto}.listitem{padding:10px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}.listitem:hover,.listitem.active{background:#20324d}.listitem small{display:block;color:var(--muted);font-size:10px}.detail{min-width:0}.detailhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}.json{white-space:pre-wrap;overflow-wrap:anywhere;background:#080e1a;border:1px solid var(--line);border-radius:12px;padding:16px;max-height:650px;overflow:auto;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;color:#c6d7f2}.search{width:min(320px,100%)}.empty{padding:40px;text-align:center;color:var(--muted)}.transcript{white-space:pre-wrap;line-height:1.8;color:#d4def0}.speech{padding:13px;margin:9px 0;background:#0e192b;border:1px solid var(--line);border-radius:10px}.speechhead{display:flex;justify-content:space-between;color:var(--cyan);font-size:11px;margin-bottom:7px}.footer{color:var(--muted);font-size:11px;margin-top:26px}.justification{max-width:440px;white-space:pre-wrap;overflow-wrap:anywhere}.justification.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.expand{padding:3px 8px;margin-top:6px;font-size:12px;border-radius:7px;min-width:28px}.just-cell{min-width:230px}.ground-table{direction:rtl;text-align:right;min-width:1120px}.ground-table th,.ground-table td{text-align:right;white-space:normal;vertical-align:top}.ground-table td:nth-child(2){direction:ltr;text-align:left;min-width:230px}.ground-table a{color:var(--cyan);text-decoration:none}.ground-table a:hover{text-decoration:underline}.ground-count{color:var(--muted);font-size:12px;margin:8px 0 12px}.ground-panel[hidden],.browser[hidden]{display:none}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.twocol{grid-template-columns:1fr}.browser{grid-template-columns:1fr}.side{max-height:240px}}
 @media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.metric{font-size:24px}.top{align-items:flex-start}.status{margin-left:0;width:100%}}
-.logo{width:100px;height:100px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.logo{width:55px;height:55px;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .logo img{width:100%;height:100%;object-fit:contain}
 /* Pagination */
 .pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin:14px 0 4px}
@@ -50,7 +50,7 @@ details summary{cursor:pointer;list-style:none}
     <div>
       <div class="eyebrow" data-i18n="eyebrow">JUDY · RESEARCH CONSOLE</div>
       <div class="title" data-i18n="title">Experiment Observatory</div>
-      <div class="sub" data-i18n="subtitle">Exploring how AI models judge competitive debates — and how often they agree with human experts.</div>
+      <div class="sub" data-i18n="subtitle">Debate adjudication · model evaluation · ground-truth benchmarking</div>
     </div>
   </div>
   <div class="actions">
@@ -230,7 +230,8 @@ const I18N = {
     refExperiments: "Experiments",
     refModels: "Models",
     refContext: "Evaluation context",
-    refFolderKey: "Folder",
+    refSource: "Source: Judy: Leveraging Artificial Intelligence to Standardize and Debias Debate Judging — §3 Dataset, §5.1 Experimental Setup, §5.2 Models, §5.3 Metrics, §6 Results.",
+    refFolderKey: "Folder key",
     refExperiment: "Experiment",
     refWhat: "What it does",
     refWhy: "Why it exists",
@@ -241,7 +242,7 @@ const I18N = {
   ar: {
     eyebrow: "JUDY · لوحة البحث",
     title: "مرصد التجارب",
-    subtitle: "استكشاف كيفية تقييم نماذج الذكاء الاصطناعي للمناظرات التنافسية، ومدى توافقها مع آراء الخبراء البشريين.",
+    subtitle: "تحكيم المناظرات · تقييم النماذج · مقارنة بالحقيقة المرجعية",
     themeLight: "الوضع الفاتح",
     themeDark: "الوضع الداكن",
     reload: "إعادة تحميل البيانات",
@@ -335,7 +336,8 @@ const I18N = {
     refExperiments: "التجارب",
     refModels: "النماذج",
     refContext: "سياق التقييم",
-    refFolderKey: "المجلد",
+    refSource: "المصدر: Judy: Leveraging Artificial Intelligence to Standardize and Debias Debate Judging — القسم 3 البيانات، القسم 5.1 الإعداد التجريبي، القسم 5.2 النماذج، القسم 5.3 المقاييس، القسم 6 النتائج.",
+    refFolderKey: "مفتاح المجلد",
     refExperiment: "التجربة",
     refWhat: "ما الذي تفعله",
     refWhy: "لماذا وُجدت",
@@ -351,36 +353,36 @@ function t(key){ return (I18N[LANG] && I18N[LANG][key]) || I18N.en[key] || key; 
 // ============ Reference data (from the paper) ============
 const EXPERIMENT_INFO = {
   en: [
-    { key: "Zero-shot generic", name: "Zero-shot generic prompt",
+    { key: "outputs", name: "Zero-shot generic prompt",
       desc: "Minimal instruction: act as an expert judge, read the motion + transcript, pick a winner. No QDC rules, no examples, no steps.",
       role: "Baseline for the model's general knowledge." },
     { key: "QDC rubric prompt", name: "QDC rubric prompt",
       desc: "System prompt contains the Qatar Debate Center manual: persuasion standard, clash analysis, content/style/strategy, placement rules, fairness (ignore names, no personal opinion). Returns structured JSON (ground, arguments, clashes, decision, speaker scores, feedback).",
       role: "Tests whether grounding in official criteria improves alignment (RQ2)." },
-    { key: "QDC retrieval (RAG)", name: "RAG over QDC materials",
+    { key: "RAG", name: "RAG over QDC materials",
       desc: "QDC manual chunked at ≤900 chars, embedded with bge-m3, queried with 6 fixed judging questions + motion. Top-8 chunks fed into a short prompt.",
       role: "Tests whether the model needs the whole rubric or only the relevant parts." },
-    { key: "QDC multi-step pipeline", name: "Multi-step pipeline",
+    { key: "pipeline", name: "Multi-step pipeline",
       desc: "4 model calls: (1) problem + definitions + clash type, (2) per-speech argument extraction with exact quotes, (3) clash analysis from step 1–2 output, (4) verdict + margin + reasons using QDC weighing rules.",
       role: "Tests whether decomposing the task helps and improves explainability." },
-    { key: "Baseline", name: "Length-only predictor (control)",
+    { key: "Length-only", name: "Length-only predictor (control)",
       desc: "No LLM. Counts words in main speeches only; the longer team wins.",
       role: "Verbosity control — a model that isn't better than this may be rewarding length, not argument quality." }
   ],
   ar: [
-    { key: "Zero-shot generic", name: "موجّه عام بدون أمثلة",
+    { key: "outputs", name: "موجّه عام بدون أمثلة",
       desc: "تعليمات مختصرة: تصرّف كخبير تحكيم، اقرأ الاقتراح والنص، واختر فائزًا. لا قواعد QDC، لا أمثلة، لا خطوات.",
       role: "خط الأساس للمعرفة العامة للنموذج." },
     { key: "QDC rubric prompt", name: "موجّه بدليل QDC",
       desc: "يحتوي موجه النظام على دليل مركز قطر للمناظرات: معيار الإقناع، تحليل التعارض، المحتوى والأسلوب والاستراتيجية، قواعد الموضع، والإنصاف (تجاهل الأسماء، لا رأي شخصي). يعيد JSON منظمًا (الأرضية، الحجج، التعارضات، القرار، درجات المتحدثين، الملاحظات).",
       role: "يختبر ما إذا كان التأصيل في المعايير الرسمية يحسّن التوافق (سؤال البحث 2)." },
-    { key: "QDC retrieval (RAG)", name: "استرجاع RAG من مواد QDC",
+    { key: "RAG", name: "استرجاع RAG من مواد QDC",
       desc: "يُقسَّم دليل QDC إلى مقاطع ≤900 حرف، تُضمَّن بـ bge-m3، وتُستعلم بـ6 أسئلة تحكيم ثابتة + الاقتراح. تُغذّى أفضل 8 مقاطع في موجه قصير.",
       role: "يختبر ما إذا كان النموذج يحتاج الدليل كاملًا أم الأجزاء ذات الصلة فقط." },
-    { key: "QDC multi-step pipeline", name: "خط متعدد الخطوات",
+    { key: "pipeline", name: "خط متعدد الخطوات",
       desc: "4 استدعاءات للنموذج: (1) المشكلة والتعريفات ونوع التعارض، (2) استخراج الحجج لكل خطاب مع اقتباسات دقيقة، (3) تحليل التعارض من مخرجات الخطوتين 1–2، (4) الحكم والهامش والأسباب باستخدام قواعد ترجيح QDC.",
       role: "يختبر ما إذا كان تقسيم المهمة يساعد ويحسّن قابلية التفسير." },
-    { key: "Baseline", name: "متنبئ الطول فقط (ضابط)",
+    { key: "Length-only", name: "متنبئ الطول فقط (ضابط)",
       desc: "بدون نموذج لغوي. يعدّ الكلمات في الخطابات الرئيسية فقط؛ يفوز الفريق الأطول.",
       role: "ضابط الإسهاب — النموذج الذي ليس أفضل من هذا قد يكافئ الطول لا جودة الحجة." }
   ]
@@ -437,7 +439,8 @@ function renderAbout(){
     <div class="ref-section-title">${esc(t('refModels'))}</div>
     <table class="ref-table"><thead><tr>
       <th>${esc(t('refModelKey'))}</th><th>${esc(t('refFamily'))}</th><th>${esc(t('refDescription'))}</th>
-    </tr></thead><tbody>${modRows}</tbody></table>;
+    </tr></thead><tbody>${modRows}</tbody></table>
+    <p style="margin:14px 0 0;color:var(--muted);font-size:12px">${esc(t('refSource'))}</p>`;
   if ($('aboutBody')) $('aboutBody').innerHTML = html;
   if ($('referenceBody')) $('referenceBody').innerHTML = html;
 }
