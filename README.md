@@ -127,32 +127,10 @@ Individual verdict files contain model-generated evaluation results, including p
 - Search and filtering.
 - JSON inspection and copying.
 
-## Hosting with GitHub Pages
-
-The dashboard is hosted using GitHub Pages.
-
-To enable or update hosting:
-
-1. Open the repository's **Settings**.
-2. Navigate to **Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Select the `main` branch.
-5. Select the `/ (root)` directory.
-6. Click **Save**.
-
 The dashboard is available at:
 
 https://alimallaith.github.io/judy/
 
-## Updating the Dataset
-
-To update the project:
-
-1. Add or replace the relevant debate transcript files in `debates/`.
-2. Update `ground_truth.json` when reference outcomes change.
-3. Update `detailed_ground_truth.csv` when detailed annotations change.
-4. Add new experiment results to the corresponding output directories.
-5. Commit and push the changes to GitHub.
 
 **Important:** The dashboard's data-loading implementation must reference the repository's current file paths. If new files or directories are added, ensure they are included in the dashboard's data index or loading logic.
 
@@ -166,5 +144,5 @@ It provides a structured environment for analyzing model performance, identifyin
 
 ## License and Usage
 
-Please refer to the repository's license and data-source permissions before redistributing the dataset, transcripts, or other materials.
+
 
