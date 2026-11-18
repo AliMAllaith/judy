@@ -28,9 +28,9 @@ button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--li
 </style>
 </head>
 <body>
-<header class="top"><div class="logo">
+<header class="top"><div class="brand"><div class="logo">
     <img src="judy-logo.png" alt="JUDY Logo">
-</div><div><div class="eyebrow">JUDY · RESEARCH CONSOLE</div><div class="title">Experiment Observatory</div><div class="sub">Debate adjudication · model outputs · ground-truth analysis</div></div>
+</div><div><div class="eyebrow">JUDY · RESEARCH CONSOLE</div><div class="title">Experiment Observatory</div><div class="sub">Debate adjudication · model outputs · ground-truth analysis</div></div></div>
 <div class="actions"><button id="theme">☼ Light theme</button><button id="rescan">↻ Reload data</button></div></header>
 <main class="wrap">
 <div class="notice" id="loadNotice"><strong>Loading research data from GitHub…</strong> The dashboard automatically reads the JSON files stored alongside this page in the GitHub repository.</div>
@@ -41,14 +41,15 @@ button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--li
 <div class="card"><div class="metric-label">Overall accuracy</div><div class="metric" id="mAccuracy">—</div><div class="metric-note">Against official winners · filtered view</div></div>
 <div class="card"><div class="metric-label">Mean confidence</div><div class="metric" id="mConfidence">—</div><div class="metric-note">Available confidence values</div></div>
 </div>
-<div class="section card"><div class="section-head"><h2>Ground truth vs model decisions</h2><span class="hint">Every loaded verdict compared with the official debate outcome</span></div><div class="tablebox"><table class="data" style="min-width:900px"><thead><tr><th>Debate</th><th>Ground truth</th><th>Experiment</th><th>Model</th><th>Model output</th><th>Match</th><th>Justification</th></tr></thead><tbody id="comparison"><tr><td colspan="7">Loading data…</td></tr></tbody></table></div></div>
 <div class="section twocol">
 <div class="card"><div class="section-head"><h2>Accuracy by model</h2><span class="hint">Filtered verdicts</span></div><div id="accuracyChart" class="chart"><div class="empty">Loading data…</div></div></div>
 <div class="card"><div class="section-head"><h2>Verdict distribution</h2><span class="hint">Proposition vs Opposition</span></div><div id="winnerChart" class="chart"></div><div class="legend"><span><i class="dot" style="background:var(--cyan)"></i>Proposition</span><span><i class="dot" style="background:var(--violet)"></i>Opposition</span></div></div>
 </div>
 <div class="section card"><div class="section-head"><h2>Experiment × model performance</h2><span class="hint">Accuracy, agreement and coverage</span></div><div class="tablebox"><table class="data"><thead><tr><th>Experiment</th><th>Model</th><th>Correct</th><th>Accuracy</th><th>Coverage</th><th>Mean confidence</th></tr></thead><tbody id="performance"></tbody></table></div></div>
 <div class="section card"><div class="section-head"><h2>Explore source data</h2><span class="hint">Inspect complete JSON, including nested fields and justifications</span></div>
-<div class="tabs"><button class="tab active" data-tab="verdicts">Model output JSON</button><button class="tab" data-tab="ground">Ground truth JSON</button><button class="tab" data-tab="detailed-ground">Detailed Ground Truth (CSV)</button><button class="tab" data-tab="debates">Debate transcripts</button><button class="tab" data-tab="files">All JSON files</button></div>
+<div class="section card"><div class="section-head"><h2>Ground truth vs model decisions</h2><span class="hint">Every loaded verdict compared with the official debate outcome</span></div><div class="tablebox"><table class="data" style="min-width:900px"><thead><tr><th>Debate</th><th>Ground truth</th><th>Experiment</th><th>Model</th><th>Model output</th><th>Match</th><th>Justification</th></tr></thead><tbody id="comparison"><tr><td colspan="7">Loading data…</td></tr></tbody></table></div></div>
+
+  <div class="tabs"><button class="tab active" data-tab="verdicts">Model output JSON</button><button class="tab" data-tab="ground">Ground truth JSON</button><button class="tab" data-tab="detailed-ground">Detailed Ground Truth (CSV)</button><button class="tab" data-tab="debates">Debate transcripts</button><button class="tab" data-tab="files">All JSON files</button></div>
 <div id="detailedGroundPanel" class="ground-panel" hidden><div class="ground-count" id="groundCount">20 detailed debate records · Source: detailed_ground_truth.csv</div><div class="tablebox"><table class="data ground-table"><thead><tr><th>#</th><th>YouTube URL</th><th>البطولة</th><th>مستوى المناظرة</th><th>الموالاة</th><th>المعارصة</th><th>الفريق الفائز</th><th>ID</th></tr></thead><tbody id="detailedGroundRows"><tr><td colspan="8">Loading detailed ground truth…</td></tr></tbody></table></div></div>
 <div class="browser" id="sourceBrowser"><div class="card side" id="fileList"><div class="empty">Loading data…</div></div><div class="detail"><div class="detailhead"><strong id="detailTitle">Select a file</strong><button id="copy" disabled>Copy JSON</button></div><div id="detailContent" class="json"><div class="empty">Full JSON content will appear here.</div></div></div></div></div>
 <div class="footer">Runs entirely in your browser. On GitHub Pages, data is fetched from the public repository when the page opens. For a private repository or custom domain, set the repository constants near the top of the script.</div>
