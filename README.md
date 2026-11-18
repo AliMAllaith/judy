@@ -127,10 +127,6 @@ Individual verdict files contain model-generated evaluation results, including p
 - Search and filtering.
 - JSON inspection and copying.
 
-The dashboard is available at:
-
-https://alimallaith.github.io/judy/
-
 
 **Important:** The dashboard's data-loading implementation must reference the repository's current file paths. If new files or directories are added, ensure they are included in the dashboard's data index or loading logic.
 
