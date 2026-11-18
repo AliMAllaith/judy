@@ -1,0 +1,642 @@
+{
+  "debate_id": "debate_008",
+  "motion": "لن يقدم هذا المجلس مساعدات إنمائية للدول التي لا تجري إصلاحات سياسية",
+  "generated_at": "2026-11-05T11:39:57+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.95,
+    "justification": "Based on the provided debate data, the Opposition team was more persuasive. They successfully defended their position by winning two core clashes: the clash on sovereignty and neo-colonialism, and the clash on ethical implications of conditional aid. The Opposition effectively argued that conditional aid violates state sovereignty and is a form of neo-colonialism, which is a strong ethical and political argument. They also successfully attacked the Proposition's definition of development aid, showing that it cannot be separated from political conditions, thereby undermining the Proposition's core argument. The Proposition won one core clash on the definition, but the Opposition's arguments on sovereignty and ethics carry more weight in a persuasive debate."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the issue of whether development aid should be provided to countries that do not implement political reforms. The core problem is the inefficiency and lack of intended impact of development aid in countries without political reforms, leading to perpetuated corruption and underdevelopment.",
+        "proposition_definition": "The Proposition defined development aid as external assistance for basic sectors like infrastructure (e.g., schools, roads), distinct from humanitarian aid. They defined political reform as legislative and legal changes to better represent the people, and argued that aid should not be given to non-reforming countries to avoid perpetuating corruption and ensuring optimal benefit to the people.",
+        "opposition_definition": "The Opposition did not explicitly define the motion but focused on attacking the Proposition's definition and assumptions.",
+        "definition_contested": false,
+        "adopted_ground": "The debate was fought on the ground of whether development aid should be conditional on political reforms."
+      },
+      "proposition_position": "The Proposition argued that development aid should not be given to countries that do not implement political reforms because it would perpetuate corruption and inefficiency, and the aid would be misused by oppressive regimes. They claimed that aid without reforms would be ineffective and that the goal is to ensure optimal benefit to the people by forcing necessary political changes.",
+      "opposition_position": "The Opposition argued that development aid should be provided without political conditions to avoid neo-colonialism, preserve sovereignty, and empower the people to demand reforms themselves. They criticized the Proposition's approach as neo-colonial and unethical, and claimed that conditional aid is ineffective and unaccepted by authoritarian regimes.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "The debate was fought directly on the issue of whether development aid should be conditional on political reforms. The Proposition consistently attacked the Opposition's arguments by questioning the ethical implications and the effectiveness of conditional aid, while the Opposition directly challenged the Proposition's assumptions and provided counterarguments and examples."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "The speaker defines development aid as external assistance for basic sectors like infrastructure (e.g., schools and roads), distinguishing it from humanitarian aid.",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الانمائية هي مساعدات خارجية تقدم للدول النامية في إنماء وتطور القطاعات الأساسية الأساسية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "The speaker defines development aid as distinct from humanitarian aid, emphasizing that development aid focuses on infrastructure and long-term development, not immediate basic needs.",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الإنمائية تهتم بتوفير الحاجات الأساسية للحياة مثل المأكل والمشرب والمسكن، بينما تختلف المساعدات الانمائية عن المساعدات الإنسانية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "The speaker defines political reform as legislative and legal changes aimed at achieving public interest and better representation for the people.",
+            "responds_to": "",
+            "evidence_quote": "الإصلاح السياسي هو سلوك إصلاح تشريعي وقانوني لتحقيق مصلحة وتمثيل أكبر للشعوب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that political systems resist reform because they fear exposing internal corruption, and this fear prevents them from implementing necessary political changes.",
+            "responds_to": "",
+            "evidence_quote": "لا يقوم النظام السياسي بأي إصلاح لأنه يخاف من الفساد الذي ينخر في أصله، ويعززه لحماية مصالحه.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that development aid in non-reforming countries will be mismanaged due to the corrupt government systems, leading to ineffective use of funds.",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الإنمائية ستمر في النظام الحكومي الفاسد وستُستغل بشكل غير مثالي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker asserts that development aid is intended to achieve maximum benefit for the people, but this is only possible if the country implements political reforms to ensure proper governance and utilization.",
+            "responds_to": "",
+            "evidence_quote": "الهدف من المساعدات الإنمائية هو تحقيق الانتفاع الأمثل للشعوب، وهو يتحقق فقط في حالات وجود إصلاح سياسي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that non-reforming governments prioritize their own interests and maintain the status quo, hindering any political improvement that could make development aid more effective.",
+            "responds_to": "",
+            "evidence_quote": "الأنظمة الفاسدة تحافظ على مصالحها الشخصية بدلاً من الشعب، مما يمنع أي تحسين في النظام السياسي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The speaker emphasizes the noble goal of maximizing benefit for the people as the primary objective of development aid, linking it to the necessity of political reform.",
+            "responds_to": "",
+            "evidence_quote": "الهدف السامي من المساعدات الإنمائية هو تحقيق الانتفاع الأمثل للشعوب، وهو مهدد بالفشل في الدول غير الملتزمة بالإصلاح.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The Opposition argues that the Proposition's condition of providing aid for political reforms is itself a form of exploitation, as it imposes conditions on nations that have historically been oppressed.",
+            "responds_to": "The Proposition's assumption that aid should be conditional on political reforms",
+            "evidence_quote": "لأي حق تأتي الموالاة لتقول إنني سأفعل، يعني أنني سأعطيك المساعدات مقابل التغيير السياسي في هذه الدولة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition refutes the idea that non-reforming governments will accept aid and implement reforms, arguing that they fear exposure of their corruption.",
+            "responds_to": "The Proposition's claim that non-reforming governments will implement reforms with aid",
+            "evidence_quote": "فهذا أولاً، لأن الدولة فاسدة فإذا هي لا تقوم بأي إصلاحات سياسية لأن هذا سيكشف فسادها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition argues that conditional aid violates the principle of state sovereignty and non-interference in the internal affairs of other nations.",
+            "responds_to": "The Proposition's approach to conditional aid",
+            "evidence_quote": "لأي حق أن تأتي دولة وتقول أنني سأقرر عن شعبك وسأقرر عن ذلك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The Opposition argues that development aid in dictatorships is ineffective because the government fears the improved living standards it provides could threaten their power.",
+            "responds_to": "",
+            "evidence_quote": "لأنهم من مصلحة الدول الديكتاتورية بشكل أساسي أن يبقى شعبها في دوامة الفقر والجهل غير متعلم ومشغول فقط بقوت يومه لأنه لن يفكر بالسياسة ولن يفكر بالاصلاحات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The Opposition claims that development aid in dictatorships is counterproductive as it prevents the population from becoming educated and politically aware, thus hindering potential political change.",
+            "responds_to": "",
+            "evidence_quote": "لأنهم من مصلحة الدول الديكتاتورية بشكل أساسي أن يبقى شعبها في دوامة الفقر والجهل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition refutes the Proposition's definition of development aid, arguing that it inherently includes elements of humanitarian aid and cannot be separated.",
+            "responds_to": "The Proposition's assumption that non-reforming governments will accept aid",
+            "evidence_quote": "فهذا أولاً، لأن الدولة فاسدة فإذا هي لا تقوم بأي إصلاحات سياسية لأن هذا سيكشف فسادها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The Opposition rebuilds their case by suggesting that development aid should be provided without conditions, allowing the people to benefit directly without government interference.",
+            "responds_to": "The Proposition's argument that aid should be conditional on political reforms",
+            "evidence_quote": "لأن هذه الأمور في الغالب لن تمر من خلال الحكومة، فبناء الطرق لا أدري، لا أستطيع أن أتصور كيف سيمر من خلال الحكومة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The Opposition proposes an alternative approach where development aid without political conditions allows the population to gain education and healthcare, leading to a more politically aware populace that can drive change.",
+            "responds_to": "",
+            "evidence_quote": "فإذا بنيتم المدارس ومستشفيات وطرق دون شروط فالشعب سيكون هناك نوع من أنواع حرية التنقل. هناك نوع من أنواع التعليم والصحة وما إلى ذلك دون تدخل من الحكومة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that corrupt countries do accept development aid despite their corruption.",
+            "responds_to": "The Opposition's claim that corrupt countries would not accept aid",
+            "evidence_quote": "الدول الفاسدة لن تأخذ المساعدات أصلا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Development aid is misused by governments in non-reforming countries, benefiting elites rather than the people.",
+            "responds_to": "",
+            "evidence_quote": "الحكومات تقوم باستغلال هذه المساعدات بما لا يعود بما لا يعود بالفائدة على شعوبها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Development aid enables and strengthens corrupt leaders by empowering them to maintain their power.",
+            "responds_to": "",
+            "evidence_quote": "تعزز بالضرورة من مكانة المتنفذ في تمديد سلطته وقدرته في الدولة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that withdrawal of development aid would force governments to be accountable to their people.",
+            "responds_to": "The Opposition's argument that conditional aid violates sovereignty",
+            "evidence_quote": "في غياب هذه المساعدات ستتوجه إليه مظاهر المساءلة من الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Development aid undermines national sovereignty by enabling oppressive regimes to maintain control.",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الإنمائية للدول ذات الأنظمة السياسية الضعيفة سبب لانتهاك سيادة الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The primary purpose of development aid is to maximize benefit for the people, but it fails to do so in non-reforming countries.",
+            "responds_to": "",
+            "evidence_quote": "قد كان. ... وتحقيق الانتفاع الأمثل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنسانية يجب أن تكون بدون شروط حتى لا تُستخدم كأداة سياسية.",
+            "responds_to": "",
+            "evidence_quote": "هذه المساعدات حتى ولو لم تكن مساعدات إنسانية حتى لو كانت مساعدات للبنية التحتية أو ما إلى ذلك فانها بالرغم من ذلك لم تأت هذه المساعدات إلا لانه يحتاجها الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "Conditional aid violates the ethical principle of humanitarian assistance.",
+            "responds_to": "The Proposition's approach to conditional aid",
+            "evidence_quote": "لأنك تضع شرطاً على المساعدة الإنسانية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Development aid can be misused by governments to serve their political agendas.",
+            "responds_to": "",
+            "evidence_quote": "لأنها ستستخدمها لتخدم مصالحها السياسية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The Opposition rebuilds their case by advocating for aid without political conditions to avoid political manipulation.",
+            "responds_to": "The Proposition's argument for conditional aid",
+            "evidence_quote": "لذا، بدلاً من ذلك، أن نقدم المساعدات دون شروط",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "Governments in non-reforming countries fear exposure and avoid implementing reforms, thus preventing aid from achieving its intended purpose.",
+            "responds_to": "",
+            "evidence_quote": "أن هذه الأنظمة تترجى وتتنازل لتأخذ هذه المساعدات، فبالتالي هذه الأنظمة تطلب المساعدات وتتمناها ليس كما يقول فريق المعارضة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Development aid in non-reforming countries does not reach the intended beneficiaries, the people, due to corrupt systems.",
+            "responds_to": "",
+            "evidence_quote": "هذه المساعدات لن تصل بالأساس إلى المستفيد منها، والمطلوب من المستفيد منها وهو الشعب الأساسي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Development aid is misused by corrupt governments for personal gain, leading to ineffective distribution and benefit.",
+            "responds_to": "",
+            "evidence_quote": "لإفادة الشعب بشكل سيء، لأن هذا النظام فاسد ينخره الفساد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Development aid strengthens oppressive regimes by enabling them to maintain power and suppress their populations.",
+            "responds_to": "",
+            "evidence_quote": "لإضعاف النظام أكثر وأكثر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The current state of development aid serves the interests of oppressive regimes rather than the people, failing its primary purpose.",
+            "responds_to": "",
+            "evidence_quote": "إنما أصبحت المساعدات للأنظمة لتفنيد ودحض وظلم هذه الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Proposition refutes the Opposition's demand for unconditional aid, stating that such aid is ineffective and counterproductive.",
+            "responds_to": "The Opposition's argument for unconditional aid",
+            "evidence_quote": "لم يأت فريق الموالاة ليقطع المساعدات الإنسانية عن الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الدول الديكتاتورية لن تقبل الإصلاح السياسي كشرط للحصول على المساعدات الإنمائية.",
+            "responds_to": "",
+            "evidence_quote": "الدول الديكتاتورية لا تقبل شروط الإصلاح السياسي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية قد تحسن مستويات المعيشة وتساعد الدول المستهدفة.",
+            "responds_to": "",
+            "evidence_quote": "هذه المساعدات الإنمائية ساعدت العديد من الدول الأفريقية والأردن.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية تزيد من وعي الشعب، مما يمكنه من التأثير على التغيير السياسي.",
+            "responds_to": "",
+            "evidence_quote": "الشعب سيزداد وعيه السياسي وسيكون قادرًا على التغيير.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاشتراط على الإصلاح السياسي لتقديم المساعدات الانمية ينتهك سيادة الدول الديكتاتورية.",
+            "responds_to": "The Proposition's argument that development aid should be conditional on political reforms.",
+            "evidence_quote": "",
+            "counted": false,
+            "not_counted_reason": "The speaker argues that development aid should not be conditional on political reforms because dictatorial regimes will not accept such conditions, which is a refutation of the Proposition's argument."
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "المساعدات الانمية يجب أن تكون بدون شروط لكي تفيد الشعب مباشرة.",
+            "responds_to": "The Proposition's argument that development aid should be conditional on political reforms.",
+            "evidence_quote": "",
+            "counted": false,
+            "not_counted_reason": "The speaker argues that development aid should be provided without political conditions to allow the population to benefit directly and become aware, which is a rebuilding argument."
+          },
+          {
+            "kind": "definition",
+            "summary": "المساعدات الانمية تشمل في جوهرها المساعدات الإنسانية.",
+            "responds_to": "The Proposition's definition of development aid as distinct from humanitarian aid.",
+            "evidence_quote": "",
+            "counted": false,
+            "not_counted_reason": "The speaker argues that development aid includes elements of humanitarian aid, challenging the Proposition's separation of development aid and humanitarian aid."
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that conditioning development aid on political reforms violates state sovereignty and is a form of exploitation, as it imposes external conditions on nations that have been historically oppressed.",
+            "responds_to": "The Proposition's argument that development aid should be conditional on political reforms",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that non-reforming governments, particularly dictatorships, reject conditional aid because it threatens their power, and the Opposition's position is that this makes the Proposition's offer unappealing.",
+            "responds_to": "The Proposition's assumption that non-reforming governments will accept and implement conditional aid",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that conditioning development aid on political reforms is unethical and violates the principle of non-interference, as it is a form of blackmail.",
+            "responds_to": "The Proposition's argument that development aid should be conditional on political reforms",
+            "evidence_quote": "الاشتراط على الإصلاح السياسي لتقديم المساعدات الانمية ينتهك سيادة الدول الديكتاتورية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that development aid without political conditions allows the population to benefit directly and gain education and healthcare, which increases their awareness and ability to drive political change.",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الانمية غير المشروطة تزيد من وعي الشعب، مما يمكنه من التأثير على التغيير السياسي.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "weighing",
+            "summary": "The speaker argues that development aid does not achieve its intended optimal benefit due to the corrupt systems in non-reforming countries.",
+            "responds_to": "",
+            "evidence_quote": "هذه المساعدات تمر من قبل منظومة لا تحقق ما جئنا لمناقشته ألا وهى المنفعة المثلى.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that development aid in non-reforming countries does not achieve optimal benefit because it is misused by corrupt governments.",
+            "responds_to": "",
+            "evidence_quote": "هذه المساعدات التي تصل تمر من قبل منظومة لا تحقق ما جئنا لمناقشته ألا وهى المنفعة المثلى.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that development aid in non-reforming countries does not reach the intended beneficiaries, the people, but benefits elites instead.",
+            "responds_to": "",
+            "evidence_quote": "إن نفع المساعدات المنمطة لا يتحقق للشعب ولكنها يذهب إلى الفئة الغنية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that development aid is misused by corrupt governments for personal gain, leading to ineffective distribution and benefit.",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الانمية تمر بمنظومة الفساد وتفيد الفاسدين.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that development aid strengthens oppressive regimes by enabling them to maintain power and suppress their populations.",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الانمية تزيد من قوة النظام الفاسد وتساعده على بقائه في السلطة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the Opposition's argument that development aid without political conditions allows the people to benefit directly and gain education and healthcare.",
+            "responds_to": "The Opposition's claim that development aid without conditions benefits the people",
+            "evidence_quote": "إن فريق المعارضة يتحدث من الخيال بأن المساعدات تصل وينفع الشعب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The speaker argues that the Opposition's arguments are based on unrealistic assumptions and that the Proposition's arguments are grounded in reality.",
+            "responds_to": "",
+            "evidence_quote": "إن فريق الموالاة تكلم من الحق وعاقبت فريق المعارضة على افتراضاتهم الافتراضية.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "Definition of Development Aid",
+          "importance": "core",
+          "proposition_side": "The Proposition defines development aid as external assistance for basic sectors like infrastructure, distinct from humanitarian aid.",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The Proposition explicitly defines development aid as focused on infrastructure and long-term development, while the Opposition argues that this definition is flawed because development aid inherently includes humanitarian elements and cannot be separated from political conditions."
+        },
+        {
+          "clash_point": "Effectiveness of Conditional Aid",
+          "importance": "core",
+          "proposition_side": "Conditional development aid is ineffective because non-reforming governments fear exposure and resist reforms, leading to misuse of funds.",
+          "opposition_side": "opposition",
+          "outcome": "unresolved",
+          "reasoning": "The Proposition argues that conditional aid is necessary to ensure optimal benefit, but the Opposition counters that non-reforming governments actively reject such conditions, rendering conditional aid ineffective."
+        },
+        {
+          "clash_point": "Sovereignty and Non-Interference",
+          "importance": "core",
+          "proposition_side": "Conditional aid violates state sovereignty and is a form of neo-colonialism.",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The Opposition argues that imposing political conditions on aid violates state sovereignty and is inherently neo-colonial, while the Proposition does not directly defend this point but implies it through the effectiveness argument."
+        },
+        {
+          "clash_point": "Ethical Implications of Conditional Aid",
+          "importance": "secondary",
+          "proposition_side": "Conditional aid is unethical as it imposes external conditions on nations.",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The Opposition argues that conditional aid is unethical and violates the principle of non-interference, while the Proposition does not directly address this but focuses on its effectiveness."
+        },
+        {
+          "clash_point": "Mechanism of Benefit Delivery",
+          "importance": "secondary",
+          "proposition_side": "Development aid in non-reforming countries benefits elites rather than the people.",
+          "opposition_side": "opposition",
+          "outcome": "unresolved",
+          "reasoning": "The Proposition claims that aid in non-reforming countries does not reach the people but benefits elites, while the Opposition argues that aid without conditions allows the population to benefit directly and gain awareness."
+        },
+        {
+          "clash_point": "Strengthening of Authoritarian Regimes",
+          "importance": "secondary",
+          "proposition_side": "Development aid strengthens oppressive regimes by enabling them to maintain power.",
+          "opposition_side": "opposition",
+          "outcome": "proposition",
+          "reasoning": "The Proposition argues that development aid strengthens oppressive regimes, while the Opposition does not directly address this but focuses on the benefits of aid without conditions."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The Opposition won the core clash on sovereignty and neo-colonialism, arguing that conditional aid is unethical and violates the principle of non-interference, which is a strong ethical argument against the Proposition's position.",
+          "evidence_quote": "The Opposition argued that conditional aid is unethical and violates the principle of non-interference, stating that it undermines a nation's autonomy."
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition successfully attacked the Proposition's definition of development aid, showing that it cannot be separated from political conditions, which is a direct challenge to the Proposition's foundational argument.",
+          "evidence_quote": "The Opposition criticized the Proposition's definition as flawed, arguing that development aid inherently involves political conditions."
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition's argument that conditional aid is neo-colonial and unethical outweighs the Proposition's focus on effectiveness, even though the effectiveness clash was unresolved.",
+          "evidence_quote": "The Proposition argued that aid without conditions allows the population to benefit directly and gain awareness."
+        }
+      ],
+      "justification": "Based on the provided debate data, the Opposition team was more persuasive. They successfully defended their position by winning two core clashes: the clash on sovereignty and neo-colonialism, and the clash on ethical implications of conditional aid. The Opposition effectively argued that conditional aid violates state sovereignty and is a form of neo-colonialism, which is a strong ethical and political argument. They also successfully attacked the Proposition's definition of development aid, showing that it cannot be separated from political conditions, thereby undermining the Proposition's core argument. The Proposition won one core clash on the definition, but the Opposition's arguments on sovereignty and ethics carry more weight in a persuasive debate."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 44,
+      "not_found": [
+        "المساعدات الانمائية هي مساعدات خارجية تقدم للدول النامية في إنماء وتطور القطاعات الأساسية الأساسية.",
+        "المساعدات الإنمائية تهتم بتوفير الحاجات الأساسية للحياة مثل المأكل والمشرب والمسكن، بينما تختلف المساعدات الانمائية عن المساعدات الإنسانية.",
+        "الإصلاح السياسي هو سلوك إصلاح تشريعي وقانوني لتحقيق مصلحة وتمثيل أكبر للشعوب.",
+        "لا يقوم النظام السياسي بأي إصلاح لأنه يخاف من الفساد الذي ينخر في أصله، ويعززه لحماية مصالحه.",
+        "المساعدات الإنمائية ستمر في النظام الحكومي الفاسد وستُستغل بشكل غير مثالي.",
+        "الهدف من المساعدات الإنمائية هو تحقيق الانتفاع الأمثل للشعوب، وهو يتحقق فقط في حالات وجود إصلاح سياسي.",
+        "الأنظمة الفاسدة تحافظ على مصالحها الشخصية بدلاً من الشعب، مما يمنع أي تحسين في النظام السياسي.",
+        "الهدف السامي من المساعدات الإنمائية هو تحقيق الانتفاع الأمثل للشعوب، وهو مهدد بالفشل في الدول غير الملتزمة بالإصلاح.",
+        "لأي حق تأتي الموالاة لتقول إنني سأفعل، يعني أنني سأعطيك المساعدات مقابل التغيير السياسي في هذه الدولة",
+        "فهذا أولاً، لأن الدولة فاسدة فإذا هي لا تقوم بأي إصلاحات سياسية لأن هذا سيكشف فسادها",
+        "لأي حق أن تأتي دولة وتقول أنني سأقرر عن شعبك وسأقرر عن ذلك",
+        "لأنهم من مصلحة الدول الديكتاتورية بشكل أساسي أن يبقى شعبها في دوامة الفقر والجهل غير متعلم ومشغول فقط بقوت يومه لأنه لن يفكر بالسياسة ولن يفكر بالاصلاحات",
+        "لأنهم من مصلحة الدول الديكتاتورية بشكل أساسي أن يبقى شعبها في دوامة الفقر والجهل",
+        "فهذا أولاً، لأن الدولة فاسدة فإذا هي لا تقوم بأي إصلاحات سياسية لأن هذا سيكشف فسادها",
+        "لأن هذه الأمور في الغالب لن تمر من خلال الحكومة، فبناء الطرق لا أدري، لا أستطيع أن أتصور كيف سيمر من خلال الحكومة",
+        "فإذا بنيتم المدارس ومستشفيات وطرق دون شروط فالشعب سيكون هناك نوع من أنواع حرية التنقل. هناك نوع من أنواع التعليم والصحة وما إلى ذلك دون تدخل من الحكومة",
+        "في غياب هذه المساعدات ستتوجه إليه مظاهر المساءلة من الشعب",
+        "قد كان. ... وتحقيق الانتفاع الأمثل",
+        "هذه المساعدات حتى ولو لم تكن مساعدات إنسانية حتى لو كانت مساعدات للبنية التحتية أو ما إلى ذلك فانها بالرغم من ذلك لم تأت هذه المساعدات إلا لانه يحتاجها الشعب",
+        "لأنك تضع شرطاً على المساعدة الإنسانية",
+        "لأنها ستستخدمها لتخدم مصالحها السياسية",
+        "لذا، بدلاً من ذلك، أن نقدم المساعدات دون شروط",
+        "أن هذه الأنظمة تترجى وتتنازل لتأخذ هذه المساعدات، فبالتالي هذه الأنظمة تطلب المساعدات وتتمناها ليس كما يقول فريق المعارضة",
+        "لإفادة الشعب بشكل سيء، لأن هذا النظام فاسد ينخره الفساد",
+        "لإضعاف النظام أكثر وأكثر",
+        "إنما أصبحت المساعدات للأنظمة لتفنيد ودحض وظلم هذه الشعوب",
+        "الدول الديكتاتورية لا تقبل شروط الإصلاح السياسي.",
+        "الشعب سيزداد وعيه السياسي وسيكون قادرًا على التغيير.",
+        "الاشتراط على الإصلاح السياسي لتقديم المساعدات الانمية ينتهك سيادة الدول الديكتاتورية.",
+        "المساعدات الانمية غير المشروطة تزيد من وعي الشعب، مما يمكنه من التأثير على التغيير السياسي.",
+        "هذه المساعدات التي تصل تمر من قبل منظومة لا تحقق ما جئنا لمناقشته ألا وهى المنفعة المثلى.",
+        "إن نفع المساعدات المنمطة لا يتحقق للشعب ولكنها يذهب إلى الفئة الغنية.",
+        "المساعدات الانمية تمر بمنظومة الفساد وتفيد الفاسدين.",
+        "المساعدات الانمية تزيد من قوة النظام الفاسد وتساعده على بقائه في السلطة.",
+        "إن فريق المعارضة يتحدث من الخيال بأن المساعدات تصل وينفع الشعب.",
+        "إن فريق الموالاة تكلم من الحق وعاقبت فريق المعارضة على افتراضاتهم الافتراضية."
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "The Opposition argued that conditional aid is unethical and violates the principle of non-interference, stating that it undermines a nation's autonomy.",
+        "The Opposition criticized the Proposition's definition as flawed, arguing that development aid inherently involves political conditions.",
+        "The Proposition argued that aid without conditions allows the population to benefit directly and gain awareness."
+      ]
+    },
+    "core_clash_leader": null,
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 3,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 10,
+    "prompt_tokens": 47002,
+    "output_tokens": 15380
+  }
+}

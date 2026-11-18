@@ -1,0 +1,266 @@
+{
+  "debate_id": "debate_012",
+  "motion": "سيلغي هذا المجلس التاشيره بين الدول العربيه",
+  "generated_at": "2026-11-04T08:45:40+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.78,
+    "justification": "Opposition’s case was more persuasive because it addressed each core clash point with concrete examples and logical rebuttals, whereas Proposition’s case was repetitive and lacked depth.",
+    "best_speaker": "المعارضة - المتحدث الثاني"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "إلغاء نظام التأشيرة بين الدول العربية",
+      "proposition_definition": "الموالاة يطالبون بإلغاء التأشيرة بين الدول العربية",
+      "opposition_definition": "المعارضة يرفضون إلغاء التأشيرة بين الدول العربية",
+      "definition_contested": false,
+      "adopted_ground": "إلغاء التأشيرة بين الدول العربية"
+    },
+    "positions": {
+      "proposition": "يدعم إلغاء التأشيرة بين الدول العربية",
+      "opposition": "يعارض إلغاء التأشيرة بين الدول العربية"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "إلغاء التأشيرة سيقلل البطالة ويعزز تبادل الخبرات ويقوي الوحدة العربية",
+        "evidence_quote": "\"تخفيض نسبه البطاله بتسهيل الحصول على\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "يستجيب لمخاوف الأمن من المعارضة ويؤكد وجود لجنة مراقبة",
+        "evidence_quote": "\"نضع لجنة مشتركة لمراقبة الدخول والخروج\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "إلغاء التأشيرة سيزيد من مخاطر الأمن ويؤدي إلى هجرة غير شرعية وتفاوت اقتصادي",
+        "evidence_quote": "\"الهجرة الغير شرعية\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "يستجيب لمطالب الموالاة بتقليل البطالة ويشير إلى أن التبادل غير متوازن",
+        "evidence_quote": "\"الفجوة الاقتصادية\"",
+        "counted": false,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "أمن",
+        "importance": "core",
+        "proposition_side": "refuted",
+        "opposition_side": "maintained",
+        "outcome": "opposition",
+        "reasoning": "Opposition presented concrete examples of security incidents and argued that monitoring alone is insufficient."
+      },
+      {
+        "clash_point": "اقتصاد",
+        "importance": "core",
+        "proposition_side": "maintained",
+        "opposition_side": "refuted",
+        "outcome": "opposition",
+        "reasoning": "Opposition highlighted brain‑drain and economic imbalance, undermining Proposition’s claim of reduced unemployment."
+      },
+      {
+        "clash_point": "وحدة",
+        "importance": "core",
+        "proposition_side": "maintained",
+        "opposition_side": "refuted",
+        "outcome": "opposition",
+        "reasoning": "Opposition argued that open borders would actually exacerbate divisions rather than unify."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition presented more concrete examples and addressed each core clash point directly.",
+      "style": "Both sides had weak clarity; Opposition’s language was slightly more focused.",
+      "strategy": "Opposition adhered to the role of refuting each Proposition claim; Proposition’s strategy was repetitive."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.78,
+      "key_reasons": [
+        {
+          "reason": "Opposition’s arguments survived all refutations and addressed core clash points.",
+          "where": "Speech 2 and Speech 4",
+          "effect": "Demonstrated stronger logical chain and concrete evidence.",
+          "evidence_quote": "\"الهجرة الغير شرعية\""
+        },
+        {
+          "reason": "Proposition’s arguments were largely repetitive and lacked specific evidence.",
+          "where": "Speech 1 and Speech 3",
+          "effect": "Failed to convincingly counter Opposition’s points.",
+          "evidence_quote": "\"تخفيض نسبه البطاله بتسهيل الحصول على\""
+        }
+      ]
+    },
+    "justification": "Opposition’s case was more persuasive because it addressed each core clash point with concrete examples and logical rebuttals, whereas Proposition’s case was repetitive and lacked depth.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 69,
+        "note": "Repetitive, unclear structure."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "More structured, some concrete examples."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "Attempted refutation but weak."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "Best speaker; clear refutation."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "Very weak content."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "Weak but more coherent."
+      },
+      {
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 37,
+        "note": "Average reply."
+      },
+      {
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 35,
+        "note": "Weak reply."
+      }
+    ],
+    "best_speaker": "المعارضة - المتحدث الثاني",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Attempted to present economic benefits of visa abolition.",
+          "Repeated emphasis on unity and anti-corruption."
+        ],
+        "improvements": [
+          "Provide concrete evidence and examples.",
+          "Avoid repetition; structure arguments clearly.",
+          "Address Opposition’s core points directly."
+        ],
+        "recommendations": [
+          "Use specific data on unemployment and expertise flow.",
+          "Prepare counter‑examples for security concerns."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Addressed core clash points (security, economy, unity).",
+          "Used concrete examples (Yemen‑Saudi, Iraq‑Kuwait).",
+          "Maintained role of refutation throughout."
+        ],
+        "improvements": [
+          "Improve clarity and reduce digressions.",
+          "Strengthen logical links between examples and claims."
+        ],
+        "recommendations": [
+          "Organize points into clear sections.",
+          "Use concise language to enhance persuasion."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription errors and garbled speech in several passages",
+      "unintelligible segments in Speech 5 and Speech 6"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 5,
+      "match_ratio": 0.833,
+      "unverified_quotes": [
+        "\"نضع لجنة مشتركة لمراقبة الدخول والخروج\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 232,
+      "opposition": 250
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13852,
+        "output": 1792
+      }
+    ]
+  }
+}

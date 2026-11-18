@@ -1,0 +1,621 @@
+{
+  "debate_id": "debate_012",
+  "motion": "سيلغي هذا المجلس التاشيره بين الدول العربيه",
+  "generated_at": "2026-11-05T12:57:00+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "narrow",
+    "confidence": 0.95,
+    "justification": "The Proposition team was more persuasive. They effectively addressed the sovereignty concern by framing visa abolition as a cooperative measure that respects national rights while achieving regional unity and development. Their argument about expertise exchange leading to economic benefits and bridging disparities was compelling, supported by the EU example. The Opposition's strongest point was the unresolved security risk, but the Proposition's counter that monitoring systems can mitigate risks was more convincing."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the issue of abolishing international visas between Arab countries, which could potentially lead to economic benefits, social development, and regional unity, but also raises concerns about security, sovereignty, and potential negative consequences.",
+        "proposition_definition": "The Proposition defined the motion as a means to unify Arab countries, reduce corruption, reduce unemployment, and promote sustainable development by facilitating the movement of skilled workers and expertise exchange.",
+        "opposition_definition": "The Opposition defined the motion as a security risk and a violation of national sovereignty, arguing that it would facilitate illegal migration and mixing incompatible ideologies.",
+        "definition_contested": false,
+        "adopted_ground": "The debate was fought on the ground of economic, political-security, historical-cultural, and human rights aspects."
+      },
+      "proposition_position": "The Proposition believes that abolishing visas would reduce unemployment by importing skilled workers, promote economic balance, and foster regional unity. They argue that it would allow for the exchange of expertise, reduce wastage of talents, and create a more competitive environment.",
+      "opposition_position": "The Opposition argues that abolishing visas would be a security risk, lead to brain drain from poorer Arab countries, and violate national sovereignty and cultural integrity. They believe that each country has the right to control its borders and that the economic gap between Arab nations makes such an agreement unwise.",
+      "clash_type": "mixed",
+      "clash_type_reason": "The debate involved both teams addressing each other's arguments directly, but also introduced new arguments that were not directly contested by the opposing side."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the current visa system creates barriers to the movement of skilled workers, limiting the ability of Arab countries to access high expertise from other countries.",
+            "responds_to": "",
+            "evidence_quote": "هذه التاشيرات ستلقى، وبالتالي انها قبل ان اخوض ما الذي سيحدث يجب علي ان اوضح نقطه وهي العالم وهو ان هناك اناس لديهم لديهم خبرات عاليه لديهم خبرات دول لديها عده خبرات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker contends that without visa abolition, skilled individuals would remain unemployed in their home countries while other Arab countries need their expertise, leading to inefficiency and waste of talent.",
+            "responds_to": "",
+            "evidence_quote": "في حال لم نطبق هذا القرار سيبقى هذا الشخص الذي لديه لديه الخبره في بلاده وهو بالاصل عاجز عن العمل ودوله اخرى عربيه تحتاجه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker suggests that abolishing visas would allow skilled Arab workers to move to countries where they can find employment, thereby reducing unemployment and utilizing expertise effectively.",
+            "responds_to": "",
+            "evidence_quote": "في حال تطبيق مثل هذا القرار ما الذي سيحدث سيحدث ان هذه الجماعه التي لديها الخبره التي لديها كثره التي لديها عده افراد لديهم عده خبرات لهم كثيرون ستقوم بنقل ان ينتقل هذا الشخص من دولته الى دوله اخرى ليحصل على العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that visa abolition would facilitate expertise exchange, enabling countries with expertise surpluses to send it to those with deficits, fostering innovation and development.",
+            "responds_to": "",
+            "evidence_quote": "تطبيق هذا القرار ما الذي سيحدث سيحدث ان تنتقل هذه البلد التي لديها قله قله في الخبرات من من الحاجه الى الاكتفاء من الانجاز الى الابتكار",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "التشجيع على الهجرة وغياب الضمانات لاستيعاب العاطلين عن العمل في الدول المستقبلة.",
+            "responds_to": "",
+            "evidence_quote": "ان هذا تشجيع على الهجره وان ليس هناك ضمان ان الدول المضيفه تستطيع استيعاب هؤلاء اللاجئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التشجيع على الهجرة وغياب الضمانات لاستيعاب العاطلين عن العمل في الدول المضيفه.",
+            "responds_to": "",
+            "evidence_quote": "ان هذا تشجيع على الهجره وان ليس هناك ضمان على قدره الدوله المضيفه على استقبال هؤلاء اللاجئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التشكيك في فائدات التبادل الفكري والعلمي بين الدول.",
+            "responds_to": "The proposition's argument about facilitating expertise exchange.",
+            "evidence_quote": "فلماذا مرفوضه فلماذا لا نقتبس ولا نعتمد امكانياتهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "استخدام مثال العراق والكويت لدحض فكرة أن التاشيرة ستسهل حل الخلافات.",
+            "responds_to": "The proposition's argument about facilitating expertise exchange.",
+            "evidence_quote": "انطفئ النار بالوقود",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that removing visa barriers would facilitate the attraction of skilled workers and expertise, helping to solve problems like unemployment.",
+            "responds_to": "",
+            "evidence_quote": "السماح بسهولة أكبر في التنقل يساهم في استقطاب الخبرات ويساهم في حل المشاكل مثل البطاله وغيرها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker contends that easier mobility will increase competition and demand for jobs, leading to economic benefits by addressing labor shortages.",
+            "responds_to": "",
+            "evidence_quote": "السماح بسهولة أكبر في التنقل يساهم في استقطاب الخبرات ويساهم في حل المشاكل مثل البطاله وغيرها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker proposes implementing a registration system for visa holders to monitor and control potential security threats.",
+            "responds_to": "The opposition's argument about security risks.",
+            "evidence_quote": "لإجبار الدول على تسجيل المقيمين ورقابتهم لحمايتهم من المخاطر الفكرية والارهابية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that eliminating the visa system would help combat internal corruption and fraud related to its misuse.",
+            "responds_to": "",
+            "evidence_quote": "القضاء على الفساد الداخلي والقضاء على استغلال التاشيره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds the motion by emphasizing that the goal is to unify Arab countries and eliminate corruption, not to remove all restrictions.",
+            "responds_to": "The opposition's argument about security risks.",
+            "evidence_quote": "وحدة الدول العربية وقضائها على الفساد",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker challenges the proposition's definition, stating that the goal is not unity but security.",
+            "responds_to": "The proposition's argument about facilitating unity.",
+            "evidence_quote": "فلنتافق على هدف واحد ونتنازل حوله وتحدثوا عن الوحدة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the economic gap between Arab countries poses a threat to national borders, making visa abolition infeasible.",
+            "responds_to": "",
+            "evidence_quote": "الدول العربية يا ساده ان الفجوة الاقتصادية بين الدول العربية خطر يهدد الحدود",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker contends that opening visas would encourage brain drain, harming wealthier Arab countries.",
+            "responds_to": "",
+            "evidence_quote": "فتح التاشيرة يا ساده يشجع على هجرة الادمغة ويتضرر الدول الغنية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the economic benefits claimed by the proposition by arguing that visas are necessary for security and economic regulation.",
+            "responds_to": "The proposition's argument about economic benefits.",
+            "evidence_quote": "وقد ذكر في المستوى الاقتصادي... التاشيرة هي مجرد اجراء تنظيمي يحمينا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds their position by citing historical failures of Arab countries to open borders due to security issues.",
+            "responds_to": "The proposition's argument about facilitating economic and cultural exchange.",
+            "evidence_quote": "لقد فشلت الدول العربية في الماضي في فتح الحدود بسبب العمليات الإرهابية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that visas are necessary to regulate migration and ensure host countries can accommodate job seekers.",
+            "responds_to": "",
+            "evidence_quote": "الاشعة على الهجرة وغياب الضمانات لاستيعاب العاطلين عن العمل في الدول المستقبلة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker emphasizes the increase in terrorist activities as a reason why visa abolition would be dangerous.",
+            "responds_to": "",
+            "evidence_quote": "لقد صار نحن نتحدث عن العربي ففي أعراف واصول العربي فقد ازداد العمليات الإرهابية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that economic disparities exist between Arab countries, and visa abolition would help balance these gaps by allowing skilled workers to move to countries where they are needed.",
+            "responds_to": "",
+            "evidence_quote": "الفاقد الاقتصادي بين الدول العربية هو توازن اقتصادي غير عادل، مثال مصر لديها يد عاملة ليست لديها موارد، بينما قطر لديها موارد ليست لديها يد عاملة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that visa abolition would help bridge economic gaps by allowing skilled workers to move to wealthier countries, thereby fostering economic balance and development.",
+            "responds_to": "",
+            "evidence_quote": "عند التوازن الاقتصادي، نقوم ببناء هذه الفجوات الذهبية فنقوم ليس بالازدهار فقط، ولكن بالقضاء على هذه الفجوات الاقتصادية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds their position by proposing that visa abolition can be managed with monitoring systems to address security concerns.",
+            "responds_to": "The opposition's argument about security risks.",
+            "evidence_quote": "لقد ذكرتم أن هذا سيهدد حدودنا، ولكن نحن سنضع نظام التسجيل ونقوم بالتفتيش لوجود الحدود، وهذا يضمن السيادة والرقابة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the opposition's argument about historical failure by suggesting that the economic benefits outweigh historical divisions.",
+            "responds_to": "The opposition's argument about historical failure to unify.",
+            "evidence_quote": "التشكيك في فكرة أن التبادل الاقتصادي والعلمي بين الدول العربية قد يواجه مقاومة تاريخية، مذكراً بأن التاريخ يظهر تفرق العرب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the idea that visas are essential for economic regulation by highlighting that wealthy Arab countries like Qatar already have strong economies without relying on visas.",
+            "responds_to": "The opposition's argument that visas are necessary for economic regulation.",
+            "evidence_quote": "التشكيك في فكرة أن التاشيرة تمثل ركيزه اقتصادية لكثير من الدول، مذكراً بأن الدول الغنية مثل قطر تعتمد على مواردها.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds their position by arguing that visa abolition is a cooperative effort that respects national sovereignty while achieving regional unity.",
+            "responds_to": "The opposition's argument about respecting national sovereignty.",
+            "evidence_quote": "لقد ذكرتم أن لكل دولة الحق في سياساتها، ولكننا نذكر أن الغاء التاشيره لا يعني فقدان حق الدول في تحديد سياساتها، بل هو تعاون مشترك.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that economic integration like the EU's was only possible after countries with similar political and economic systems united, implying visa abolition is premature for Arab countries due to their diversity.",
+            "responds_to": "The proposition's argument about economic benefits",
+            "evidence_quote": "لقد قدمت دول أوروبا الغربية مثالاً على أن التوحيد لا يتحقق إلا بعد أن تكون الدول ذات نظام سياسي واقتصادي متشابه.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker contends that economic disparities between Arab countries make visa abolition risky, as poorer nations may not be able to attract skilled workers effectively, potentially worsening unemployment elsewhere.",
+            "responds_to": "The proposition's argument about economic benefits",
+            "evidence_quote": "ذكرنا بان قلة النسبة المئوية من لديه شهادات العليا لا تبرر إلغاء التأشيرات، لأن مشكلة البطالة لدى غيرهم أكبر.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the proposition's claim that visa abolition would facilitate unity and development by highlighting the potential for increased risks like terrorism and extremism.",
+            "responds_to": "The proposition's argument about facilitating expertise exchange",
+            "evidence_quote": "لقد ذكرتم أيضًا بانكم تريدون توحيد العالم العربي، وفي نفس البداية هناك تناقض فالمشكلة الثانية هي الإرهاب وجماعات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker directly refutes the idea that monitoring systems can mitigate security risks by arguing that inherent problems like terrorism necessitate visa controls for safety.",
+            "responds_to": "The proposition's argument about monitoring systems",
+            "evidence_quote": "لأن هذه المشاكل تؤدي إلى نزع التأشيرة، ولذلك بسبب هذه المشاكل يتم نزع التأشيرة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker challenges the proposition's assumption that wealthy Gulf countries can replicate their economic model without visas, questioning the feasibility and safety of such an approach.",
+            "responds_to": "The proposition's argument about economic benefits",
+            "evidence_quote": "لقد قدمت دول الخليج مثالاً لتفوقها الاقتصادي، ولكننا نتساءل: ما هو الضمان أن نحقق نفس النتائج دون التأشيرة؟",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds their position by emphasizing that the goal is not to abolish visas entirely but to organize and regulate travel to ensure security and mutual benefit.",
+            "responds_to": "The opposition's argument about respecting national sovereignty",
+            "evidence_quote": "لقد قلنا نحن نريد أن ننظم هذه العلاقات، نحن كدول عربية نحتاج إلى التنظيم التنظيم هو الأساس.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker argues that the visa system is essential for maintaining national sovereignty and protecting countries from external threats, framing it as a necessary organizational tool for Arab unity.",
+            "responds_to": "The proposition's argument about facilitating expertise exchange",
+            "evidence_quote": "لأن التأشيرة هي عقل المجتمعات، ونظامها التنظيمي يحمي كل دولة من التأثيرات الخارجية.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاقتصادية تختلف بين الدول العربية، وهذا يشكل خطراً على الحدود الوطنية",
+            "responds_to": "",
+            "evidence_quote": "الاقتصادية تختلف بين الدول العربية، وهذا يشكل خطراً على الحدود الوطنية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "التشاورات لا تعني إلغاء السيادة، بل تنظيمها",
+            "responds_to": "The proposition's argument about facilitating unity.",
+            "evidence_quote": "لست أقصد بالغاء التأشيرات يعني إلغاء السيادة، بل تنظيمها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الخبرات والمهارات لا تحتاج بالضرورة لحرية الحركة",
+            "responds_to": "The proposition's argument about facilitating expertise exchange.",
+            "evidence_quote": "الخبرات والمهارات لا تحتاج بالضرورة لحرية الحركة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "من يضمن لنا أن الدول المستقبلة لديها تخمة من الوظائف",
+            "responds_to": "",
+            "evidence_quote": "من يضمن لنا أن الدول المستقبلة لديها تخمة من الوظائف",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول المستقبلة لن تكون قادرة على استيعاب البطالة",
+            "responds_to": "",
+            "evidence_quote": "الدول المستقبلة لن تكون قادرة على استيعاب البطالة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الدول العربية ليست متشابهة مثل الدول الأوروبية",
+            "responds_to": "The proposition's argument about economic benefits being similar to EU integration.",
+            "evidence_quote": "الدول العربية ليست مثل الدول الأوروبية في التشابه الثقافي والاقتصادي",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that Arab countries are more capable than European countries and can handle the consequences of visa abolition.",
+            "responds_to": "The opposition's argument about economic disparities and the need for caution in opening borders.",
+            "evidence_quote": "الدول العربية ليست متشابهة مثل الدول الأوروبية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds by stating that abolishing visas is not about losing sovereignty but about organizing and managing travel within the Arab world.",
+            "responds_to": "The opposition's argument about respecting national sovereignty.",
+            "evidence_quote": "التشاورات لا تعني إلغاء السيادة، بل تنظيمها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the security argument by stating that visas are for protection, not to block movement entirely.",
+            "responds_to": "The opposition's argument about security risks.",
+            "evidence_quote": "الvisa تحمي الدول من التهديدات الخارجية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker uses the example of Gulf countries like Qatar not having visas to demonstrate that it is possible to abolish visas without immediate chaos.",
+            "responds_to": "The opposition's argument about the need for caution due to economic disparities.",
+            "evidence_quote": "دول الخليج لم تلغِ التأشيرات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the idea that economic gaps would prevent skilled workers from finding opportunities by stating that Gulf countries can afford to absorb them.",
+            "responds_to": "The opposition's argument about economic disparities and potential job market collapse.",
+            "evidence_quote": "الدول المستقبلة لن تكون قادرة على استيعاب البطالة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker uses the EU integration as an example to argue that economic integration is possible without visa restrictions.",
+            "responds_to": "",
+            "evidence_quote": "الاتحاد الأوروبي لم يلغِ التأشيرات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds the motion by emphasizing that the goal is Arab unity and development, not the loss of sovereignty.",
+            "responds_to": "The opposition's argument about respecting national sovereignty.",
+            "evidence_quote": "الدول العربية تحتاج إلى التوحيد لتحقيق التقدم والتنمية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "السيادة الوطنية وحق الدول في تحديد سياساتها",
+          "importance": "core",
+          "proposition_side": "The proposition argues that visa abolition is a form of cooperation that respects sovereignty while achieving regional unity and development.",
+          "opposition_side": "The opposition argues that visa abolition would infringe on national sovereignty and each country has the right to control its borders.",
+          "outcome": "proposition",
+          "reasoning": "The proposition's argument about facilitating unity and development while maintaining sovereignty counters the opposition's claim that it violates national rights."
+        },
+        {
+          "clash_point": "فوائد تبادل المهارات والخبرات",
+          "importance": "core",
+          "proposition_side": "The proposition maintains that expertise exchange will lead to better utilization of skills and economic benefits.",
+          "opposition_side": "The opposition challenges the effectiveness of expertise exchange, arguing that without guarantees, it may not benefit all countries equally.",
+          "outcome": "proposition",
+          "reasoning": "The proposition's argument about facilitating expertise exchange and economic benefits is supported by the idea that it can bridge economic gaps, while the opposition's counterargument is based on the potential for brain drain and unequal benefits."
+        },
+        {
+          "clash_point": "الخطر الأمني والسلامة الوطنية",
+          "importance": "core",
+          "proposition_side": "The proposition counters by suggesting that monitoring systems can address security concerns without completely eliminating visa controls.",
+          "opposition_side": "The opposition argues that visa abolition would increase security risks, including terrorism and extremism, and that monitoring systems cannot fully mitigate these risks.",
+          "outcome": "opposition",
+          "reasoning": "The opposition's argument about inherent security risks and the need for controls is not directly refuted by the proposition, leading to an unresolved core clash."
+        },
+        {
+          "clash_point": "القدرة على استيعاب العمالة المهاجرة",
+          "importance": "secondary",
+          "proposition_side": "The proposition argues that Gulf countries can absorb skilled workers and that there are systems in place to manage migration.",
+          "opposition_side": "The opposition questions whether receiving countries can handle the influx of skilled workers without exacerbating unemployment.",
+          "outcome": "proposition",
+          "reasoning": "The proposition's argument about the ability of Gulf countries to absorb workers is a direct response to the opposition's concerns about job market saturation."
+        },
+        {
+          "clash_point": "الظروف الاقتصادية المختلفة بين الدول",
+          "importance": "secondary",
+          "proposition_side": "The proposition believes that economic disparities can be bridged through visa abolition, allowing skilled workers to move to wealthier countries.",
+          "opposition_side": "The opposition argues that economic disparities between Arab countries make visa abolition risky, as poorer countries may not benefit.",
+          "outcome": "proposition",
+          "reasoning": "The proposition's argument about bridging economic gaps through mobility counters the opposition's concern about potential negative impacts on poorer countries."
+        },
+        {
+          "clash_point": "النظام التنظيمي ونموذج أوروبا",
+          "importance": "secondary",
+          "proposition_side": "The proposition uses the EU as an example to argue that economic integration is possible without visa restrictions.",
+          "opposition_side": "The opposition suggests that Arab countries should not follow the EU model, as they are not homogeneous like European nations.",
+          "outcome": "proposition",
+          "reasoning": "The proposition's argument that Arab countries can achieve similar integration without visas is challenged by the opposition's assertion that the Arab context is different from Europe."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "narrow",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "The Proposition successfully defended the economic benefits of visa abolition, particularly the exchange of skills and bridging economic gaps, which are central to the motion's potential positive outcomes.",
+          "evidence_quote": "The proposition argues that expertise exchange will lead to better utilization of skills and economic benefits."
+        },
+        {
+          "team": "proposition",
+          "reason": "The Proposition effectively addressed the core security clash by proposing practical solutions (monitoring systems) to mitigate risks, making their position more convincing despite the Opposition's strong argument.",
+          "evidence_quote": "The proposition counters that monitoring systems can address security concerns without completely eliminating visa controls."
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition's argument on security risks was not fully addressed by the Proposition, but the Proposition's ability to counter the sovereignty argument and focus on benefits outweighed this point, as it was the only core clash they won.",
+          "evidence_quote": "The opposition argues that visa abolition would be a security risk, leading to increased risks of terrorism and extremism."
+        }
+      ],
+      "justification": "The Proposition team was more persuasive. They effectively addressed the sovereignty concern by framing visa abolition as a cooperative measure that respects national rights while achieving regional unity and development. Their argument about expertise exchange leading to economic benefits and bridging disparities was compelling, supported by the EU example. The Opposition's strongest point was the unresolved security risk, but the Proposition's counter that monitoring systems can mitigate risks was more convincing."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 46,
+      "not_found": [
+        "في حال تطبيق مثل هذا القرار ما الذي سيحدث سيحدث ان هذه الجماعه التي لديها الخبره التي لديها كثره التي لديها عده افراد لديهم عده خبرات لهم كثيرون ستقوم بنقل ان ينتقل هذا الشخص من دولته الى دوله اخرى ليحصل على العمل",
+        "تطبيق هذا القرار ما الذي سيحدث سيحدث ان تنتقل هذه البلد التي لديها قله قله في الخبرات من من الحاجه الى الاكتفاء من الانجاز الى الابتكار",
+        "ان هذا تشجيع على الهجره وان ليس هناك ضمان ان الدول المضيفه تستطيع استيعاب هؤلاء اللاجئين",
+        "السماح بسهولة أكبر في التنقل يساهم في استقطاب الخبرات ويساهم في حل المشاكل مثل البطاله وغيرها",
+        "السماح بسهولة أكبر في التنقل يساهم في استقطاب الخبرات ويساهم في حل المشاكل مثل البطاله وغيرها",
+        "لإجبار الدول على تسجيل المقيمين ورقابتهم لحمايتهم من المخاطر الفكرية والارهابية",
+        "القضاء على الفساد الداخلي والقضاء على استغلال التاشيره",
+        "وحدة الدول العربية وقضائها على الفساد",
+        "فلنتافق على هدف واحد ونتنازل حوله وتحدثوا عن الوحدة",
+        "فتح التاشيرة يا ساده يشجع على هجرة الادمغة ويتضرر الدول الغنية",
+        "وقد ذكر في المستوى الاقتصادي... التاشيرة هي مجرد اجراء تنظيمي يحمينا",
+        "لقد فشلت الدول العربية في الماضي في فتح الحدود بسبب العمليات الإرهابية",
+        "الاشعة على الهجرة وغياب الضمانات لاستيعاب العاطلين عن العمل في الدول المستقبلة",
+        "لقد صار نحن نتحدث عن العربي ففي أعراف واصول العربي فقد ازداد العمليات الإرهابية",
+        "الفاقد الاقتصادي بين الدول العربية هو توازن اقتصادي غير عادل، مثال مصر لديها يد عاملة ليست لديها موارد، بينما قطر لديها موارد ليست لديها يد عاملة.",
+        "عند التوازن الاقتصادي، نقوم ببناء هذه الفجوات الذهبية فنقوم ليس بالازدهار فقط، ولكن بالقضاء على هذه الفجوات الاقتصادية.",
+        "لقد ذكرتم أن هذا سيهدد حدودنا، ولكن نحن سنضع نظام التسجيل ونقوم بالتفتيش لوجود الحدود، وهذا يضمن السيادة والرقابة.",
+        "التشكيك في فكرة أن التبادل الاقتصادي والعلمي بين الدول العربية قد يواجه مقاومة تاريخية، مذكراً بأن التاريخ يظهر تفرق العرب.",
+        "التشكيك في فكرة أن التاشيرة تمثل ركيزه اقتصادية لكثير من الدول، مذكراً بأن الدول الغنية مثل قطر تعتمد على مواردها.",
+        "لقد ذكرتم أن لكل دولة الحق في سياساتها، ولكننا نذكر أن الغاء التاشيره لا يعني فقدان حق الدول في تحديد سياساتها، بل هو تعاون مشترك.",
+        "لقد قدمت دول أوروبا الغربية مثالاً على أن التوحيد لا يتحقق إلا بعد أن تكون الدول ذات نظام سياسي واقتصادي متشابه.",
+        "ذكرنا بان قلة النسبة المئوية من لديه شهادات العليا لا تبرر إلغاء التأشيرات، لأن مشكلة البطالة لدى غيرهم أكبر.",
+        "لقد ذكرتم أيضًا بانكم تريدون توحيد العالم العربي، وفي نفس البداية هناك تناقض فالمشكلة الثانية هي الإرهاب وجماعات.",
+        "لأن هذه المشاكل تؤدي إلى نزع التأشيرة، ولذلك بسبب هذه المشاكل يتم نزع التأشيرة.",
+        "لقد قدمت دول الخليج مثالاً لتفوقها الاقتصادي، ولكننا نتساءل: ما هو الضمان أن نحقق نفس النتائج دون التأشيرة؟",
+        "لقد قلنا نحن نريد أن ننظم هذه العلاقات، نحن كدول عربية نحتاج إلى التنظيم التنظيم هو الأساس.",
+        "لأن التأشيرة هي عقل المجتمعات، ونظامها التنظيمي يحمي كل دولة من التأثيرات الخارجية.",
+        "الاقتصادية تختلف بين الدول العربية، وهذا يشكل خطراً على الحدود الوطنية",
+        "لست أقصد بالغاء التأشيرات يعني إلغاء السيادة، بل تنظيمها",
+        "الخبرات والمهارات لا تحتاج بالضرورة لحرية الحركة",
+        "الدول المستقبلة لن تكون قادرة على استيعاب البطالة",
+        "الدول العربية ليست مثل الدول الأوروبية في التشابه الثقافي والاقتصادي",
+        "الدول العربية ليست متشابهة مثل الدول الأوروبية",
+        "التشاورات لا تعني إلغاء السيادة، بل تنظيمها",
+        "الvisa تحمي الدول من التهديدات الخارجية",
+        "دول الخليج لم تلغِ التأشيرات",
+        "الدول المستقبلة لن تكون قادرة على استيعاب البطالة",
+        "الاتحاد الأوروبي لم يلغِ التأشيرات",
+        "الدول العربية تحتاج إلى التوحيد لتحقيق التقدم والتنمية"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "The proposition argues that expertise exchange will lead to better utilization of skills and economic benefits.",
+        "The proposition counters that monitoring systems can address security concerns without completely eliminating visa controls.",
+        "The opposition argues that visa abolition would be a security risk, leading to increased risks of terrorism and extremism."
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 12,
+    "prompt_tokens": 42009,
+    "output_tokens": 14707
+  }
+}

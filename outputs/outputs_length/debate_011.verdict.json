@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_011",
+  "motion": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.057,
+    "justification": "main_words: proposition=2011, opposition=2256"
+  },
+  "features": {
+    "proposition": 2011.0,
+    "opposition": 2256.0,
+    "tie": false
+  }
+}

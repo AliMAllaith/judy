@@ -1,0 +1,670 @@
+{
+  "debate_id": "debate_017",
+  "motion": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+  "generated_at": "2026-11-06T09:20:41+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "decisive",
+    "confidence": 0.92,
+    "justification": "في النزاع، حُكم على ثلاث نقاط أساسية. فاز الطرف الموالاة في تعريف الدول المتقدمة والأراضي غير الماهولة، كما فاز في وجود أراضي غير مستغلة في الدول المتقدمة، بينما فاز الطرف المعارض في النقطة الجوهرية للواقعية والفعالية. بما أن النقاط الجوهرية تُعطي أوزاناً أكبر، فإن فوز الموالاة في نقطتين مقابل نقطة واحدة للمعارض يُعطيه النتيجة النهائية. النقاط الثانوية، رغم أن المعارض فاز فيها في ثلاثة من أصل ستة، لا تُعادل الأهمية الجوهرية للنقاط التي حُكم عليها. لذلك، يُعتبر الموالاة أكثر إقناعاً، إذ قدم تعريفاً واضحاً، وأثبت وجود أراضي غير مستغلة، وتجاوز اعتراضات المعارض على الواقعية بفضل تفوقه في النقاط الجوهرية."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "قضية اقتطاع جزء من أراضي الدول المتقدمة وتوزيعه على الدول المتضررة من تغير المناخ.",
+        "proposition_definition": "دول العالم الأول = الدول المتطورة اجتماعياً واقتصادياً وثقافياً، والأراضي غير الماهولة = الأراضي غير المستغلة أو غير المشغولة بالسكان أو المصانع، والدول المتضررة = الدول التي تتأثر بشكل واضح مباشر أو غير مباشر بتغير المناخ.",
+        "opposition_definition": "يُحاجج بأن تعريفات الطرفين غير واضحة أو غير محددة، ويُشير إلى غموض المصطلحات ولا يقدم تعريفاً بديلاً محدداً.",
+        "definition_contested": true,
+        "adopted_ground": "تعريف الدول المتقدمة والأراضي غير الماهولة والدول المتضررة."
+      },
+      "proposition_position": "يدعم اقتطاع جزء من أراضي الدول المتقدمة وتوزيعه على الدول المتضررة لتوفير توازن اقتصادي واجتماعي وحماية البيئة.",
+      "opposition_position": "يعارض الاقتطاع، ويستند إلى عدم واقعية الفكرة، عدم فعاليتها، وضوح التعريفات، وانتهاك حقوق المواطنين في الدول المتقدمة.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "الطرفان يردان على حجج بعضهما البعض، مع هجوم مباشر على تعريفات ومفاهيم الطرف الآخر."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف الدول المتقدمة والأراضي غير الماهولة والدول المتضررة.",
+            "responds_to": "",
+            "evidence_quote": "دول العالم الاول هو الدول المتطوره اجتماعيا واقتصاديا وثقافيا وماليا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اقتطاع الأراضي يضمن استمرارية الموارد للدول الفقيرة كحل دائم.",
+            "responds_to": "",
+            "evidence_quote": "اقتطاع هذه الاراضي سيضمن استمراريه الموارد لهذه الدول الفقيره كحل دائم وجذري",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول المتقدمة قادرة على معالجة المشكلات المناخية بمواردها.",
+            "responds_to": "",
+            "evidence_quote": "دول العالم الاول هي قادره بامكانياتها ومواردها على معالجه هذه الاشكاليات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية الدول المتضررة اقتصادياً من انتشار الأمراض نتيجة التغير المناخي.",
+            "responds_to": "",
+            "evidence_quote": "حمايه الدول المتضرره اقتصاديا حيث ان التغير المناخي سيؤثر على الدوله بشكل عام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المحور الدبلوماسي يعزز العلاقات بين الدول المتقدمة والمتضررة.",
+            "responds_to": "",
+            "evidence_quote": "المحور الدبلوماسي فحجتي في هذا المقام تقوم على تعزيز العلاقات الدبلوماسيه والدوليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التغير المناخي يسبب مشاكل صحية، وتحتاج الدول المتضررة إلى موارد للتعامل معها.",
+            "responds_to": "",
+            "evidence_quote": "التغير المناخي يسبب العديد من المشاكل الصحيه والدول التي تسببت بهذه التغيرات المناخيه لها مسؤوليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "30٪ من أراضي العالم غير مستغلة، مما يبرر اقتطاعها.",
+            "responds_to": "",
+            "evidence_quote": "هناك ثلاثين بالمئه من دول العالم غير ماهوله وغير مستغله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهدف هو خلق توازن وعيش كريم للدول المتضررة وتحمل الدول المتقدمة المسؤولية.",
+            "responds_to": "",
+            "evidence_quote": "نحن نتحدث عن حل دائم نتحدث عن اراضي وبالتالي نستطيع اقامات البيوت والمصانع",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "المعارض يوضح أن تعريف الدول المتقدمة والأراضي غير الماهولة غير واضح، ما يضعف أساس القرار.",
+            "responds_to": "",
+            "evidence_quote": "جاءت بالتعريف انه غامض جدا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يعارض عدم واقعية وفعالية القرار، إذ لا يحقق هدفه في معالجة المشكلة.",
+            "responds_to": "",
+            "evidence_quote": "عدم واقعيه وعدم فاعليه هذا القرار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يؤكد أن اقتطاع الأراضي لا يحل المشكلة من أصلها، بل يتركها كما هي.",
+            "responds_to": "",
+            "evidence_quote": "لا يحل المشكله من اصلها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة، ما يزيد العبء بدلاً من تخفيفه.",
+            "responds_to": "",
+            "evidence_quote": "حتى لو حصلوا على هذه الاراضي هم سوف يلوثون",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يستند إلى عدم وجود أراضي غير مستغلة في الدول المتقدمة، ما يجعل الاقتطاع غير ممكن.",
+            "responds_to": "",
+            "evidence_quote": "لا يوجد أرض غير مستغلة في الدول المتقدمة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التفنيد على عدم وضوح تعريف الدول المتقدمة والأراضي غير الماهولة",
+            "responds_to": "المعارض يوضح أن تعريف الدول المتقدمة والأراضي غير الماهولة غير واضح",
+            "evidence_quote": "جزءا غير مستغل لا مشغولا بالسكان ولا باي مصانع",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التفنيد على ادعاء أن سنغافورة لا تستطيع منح أراضي",
+            "responds_to": "يستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة",
+            "evidence_quote": "نحن لا نأخذ اي أرض من سنغافورة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "العدالة العالمية تتطلب توزيع الأراضي حسب الحاجة",
+            "responds_to": "",
+            "evidence_quote": "إذا كانت سنغافورة دولة محتاجة لجزء من الأرض سنعطيها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التكافل الاجتماعي ضرورة للحفاظ على كوكب الأرض",
+            "responds_to": "",
+            "evidence_quote": "التكافل الاجتماعي ضرورة للحفاظ على كوكب الأرض",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية اللاجئين البيئيين ضرورة",
+            "responds_to": "",
+            "evidence_quote": "حماية اللاجئين البيئيين ضرورة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اللاجئين البيئيين يواجهون صراعات ثقافية",
+            "responds_to": "",
+            "evidence_quote": "اللاجئين البيئيين يواجهون صراعات ثقافية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم اتخاذ القرار يؤدي إلى تفكك المجتمعات",
+            "responds_to": "",
+            "evidence_quote": "عدم اتخاذ القرار يؤدي إلى تفكك المجتمعات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المجتمعات المتقدمة تتحمل مسؤولية حماية المتضررين",
+            "responds_to": "",
+            "evidence_quote": "المجتمعات المتقدمة تتحمل مسؤولية حماية المتضررين",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "عدم واقعية تنفيذ القرار",
+            "responds_to": "",
+            "evidence_quote": "نحن نعارض هذه القضية نظرا الى عدم واقعيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "انتهاك حقوق مواطني الدول المتقدمة",
+            "responds_to": "",
+            "evidence_quote": "القرار ينتهك حقوق مواطني الدول العالم الاول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التفنيد على ادعاء أن سنغافورة لا تستطيع منح أراضي",
+            "responds_to": "يستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة",
+            "evidence_quote": "نستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "خلق توازن وعيش كريم لكافة دول العالم، خاصة دول العالم الثالث",
+            "responds_to": "",
+            "evidence_quote": "خلق توازن وعيش كريم لكافة دول العالم وخاصه دول العالم الثالث",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "وجود أراضي غير ماهولة واحتباس حراري يمكن استغلالها",
+            "responds_to": "",
+            "evidence_quote": "هناك أراضي غير ماهوله والواقع ان هناك احتباس حراري",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "لجنة خبراء ستحدد نسب الاقتطاع بشكل متناسب",
+            "responds_to": "",
+            "evidence_quote": "لجنة من الخبراء في البيئة والجغرافيا ... يعملون نسبه وتناسب في اقتطاع هذه الأراضي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الملكية الخاصة غير مهددة، فقط الملكية الحكومية غير الماهولة",
+            "responds_to": "",
+            "evidence_quote": "نحن لا نناقض الملكيه الخاصه نحن نحفظ الملكيه الخاصه ... لا يمكن التعرض لها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "استخدام الأراضي الحكومية لزراعة الأشجار لتقليل مشاكل البيئة",
+            "responds_to": "",
+            "evidence_quote": "نحن نتحدث عن ملكيه الحكومه الاراضي غير الماهوله ... يمكنهم تزرع الاشجار لحل المشاكل البيئية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية اللاجئين البيئيين وتجنب أن يصبحوا عبئاً على الدول الأخرى",
+            "responds_to": "",
+            "evidence_quote": "نحن نعطي هذه نحمي هذه الدول واقتصادها ونعمل على عدم ظهور مشاكل صحيه في الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تعزيز العلاقات الدبلوماسية والتكافل بين الدول المتقدمة والمتضررة",
+            "responds_to": "",
+            "evidence_quote": "نحن نعمل على عدم خلط مشكله لاجئين بيئيين ... نعطي هذه نحمي هذه الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "سنغافورة يمكن أن تتبرع بأراضيها غير الماهولة",
+            "responds_to": "",
+            "evidence_quote": "كيف ليناخذ من سنغافوره وهي ماهوله بشكل كامل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "القرار غير واقعي وغير فعال في حل المشكلة البيئية الجذرية.",
+            "responds_to": "",
+            "evidence_quote": "عدم واقعيه القضيه وعدم فعاليتها لحل اصل المشكله البيئيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إعطاء الأراضي لا يحل المشكلة لأن الدول المتضررة تمتلك أراضي بالفعل.",
+            "responds_to": "اقتطاع الأراضي يضمن استمرارية الموارد للدول الفقيرة كحل دائم",
+            "evidence_quote": "فهل نحل المشكله باعطاء اراضي كثيره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "سنغافورة لا تستطيع تبرع بأراضيها، وإذا فعلت ستؤثر سلباً.",
+            "responds_to": "يستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة",
+            "evidence_quote": "سيساعد دوله سنغافوره اذا اصابت بالاثار السلبيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إعطاء الأراضي ينتهك حقوق مواطني الدول المتقدمة.",
+            "responds_to": "حماية اللاجئين البيئيين ضرورة",
+            "evidence_quote": "ان إعطاء هذه الاراضي يعد انتهاكا لحقوق هؤلاء المواطنين في الدول الاولى",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الإعطاء لا يوقف التلوث الصناعي من الدول المتقدمة.",
+            "responds_to": "الدول المتقدمة قادرة على معالجة المشكلات المناخية بمواردها",
+            "evidence_quote": "اذا اعطينا الاراضي الى هؤلاء الدول لاحقا ... ما زالت تستطيع ان تنتهك هذه الاراضي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الإعطاء لا يعزز العلاقات الدبلوماسية لأن الدول المتقدمة لا تزال تلوث.",
+            "responds_to": "المحور الدبلوماسي يعزز العلاقات بين الدول المتقدمة والمتضررة",
+            "evidence_quote": "حقيقة لا يمكن تحقيق علاقة دبلوماسيه مع ان ما زالت هذه الدول تنتهك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الإعطاء لا يحل المشاكل الصحية الناتجة عن التلوث.",
+            "responds_to": "حماية الدول المتضررة اقتصادياً من انتشار الأمراض نتيجة التغير المناخي",
+            "evidence_quote": "نستطيع ان نحل المشاكل الصحيه عبر اعطاء الاراضي الى الدول المتضرره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الإعطاء يشجع الدول المتقدمة على الاستمرار في التلوث.",
+            "responds_to": "",
+            "evidence_quote": "نحن فقط نعطي الدافع الاكثر للدول الاولى لان تستمر بهذه المشاكل البيئيه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "رفض اقتطاع الأراضي من دول العالم الأول",
+            "responds_to": "",
+            "evidence_quote": "نحن لا نؤيد أن المجلس يعطي أو يقطع جزءا من أراضي دول العالم الأول",
+            "counted": false,
+            "not_counted_reason": "New refutation presented in a reply speech, which is not allowed."
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم فاعلية وواقعية القرار",
+            "responds_to": "",
+            "evidence_quote": "هذا القرار لا فاعلية ولا واقعية، ولن يحل أصل المشكلة",
+            "counted": false,
+            "not_counted_reason": "New substantive argument presented in a reply speech, which is not allowed."
+          },
+          {
+            "kind": "substantive",
+            "summary": "أصل المشكلة: تغير المناخي لا يُحل بإعطاء الأراضي",
+            "responds_to": "",
+            "evidence_quote": "أصل المشكلة: تغير المناخي لا يُحل بإعطاء الأراضي",
+            "counted": false,
+            "not_counted_reason": "New substantive argument presented in a reply speech, which is not allowed."
+          },
+          {
+            "kind": "substantive",
+            "summary": "الواقعية: لا توجد أراضي غير مستغلة في الدول المتقدمة لتمنحها",
+            "responds_to": "",
+            "evidence_quote": "لا توجد أراضي غير مستغلة في الدول المتقدمة لتمنحها",
+            "counted": false,
+            "not_counted_reason": "New substantive argument presented in a reply speech, which is not allowed."
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحقوقية: منح الأراضي ينتهك حقوق المواطنين في الدول المتقدمة",
+            "responds_to": "",
+            "evidence_quote": "منح الأراضي ينتهك حقوق المواطنين في الدول المتقدمة",
+            "counted": false,
+            "not_counted_reason": "New substantive argument presented in a reply speech, which is not allowed."
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول المتضررة قد تلوث الأراضي الممنوحة",
+            "responds_to": "",
+            "evidence_quote": "نستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "خلق توازن وعيش كريم للدول المتضرره",
+            "responds_to": "",
+            "evidence_quote": "خلق توازن وعيش كريم للدول المتضرره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نحن لا نناظر عن قضيه التغير المناخي نحن نتحدث عن جزء من التعويض",
+            "responds_to": "",
+            "evidence_quote": "نحن لا نناظر عن قضيه التغير المناخي نحن نتحدث عن جزء من التعويض",
+            "counted": false,
+            "not_counted_reason": "New substantive argument introduced in a reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأراضي غير ماهوله وبالتالي هي مليئه بالاشجار",
+            "responds_to": "",
+            "evidence_quote": "الأراضي غير ماهوله وبالتالي هي مليئه بالاشجار",
+            "counted": false,
+            "not_counted_reason": "New substantive argument introduced in a reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "نحن نريد حمايه اللاجئين البيئيين",
+            "responds_to": "",
+            "evidence_quote": "نحن نريد حمايه اللاجئين البيئيين",
+            "counted": false,
+            "not_counted_reason": "New substantive argument introduced in a reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "نريد تحقيق العداله الانساني",
+            "responds_to": "",
+            "evidence_quote": "نريد تحقيق العداله الانساني",
+            "counted": false,
+            "not_counted_reason": "New substantive argument introduced in a reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "نريد منع التضارب الثقافي بين المجتمعات",
+            "responds_to": "",
+            "evidence_quote": "نريد منع التضارب الثقافي بين المجتمعات",
+            "counted": false,
+            "not_counted_reason": "New substantive argument introduced in a reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأثار الاقتصادية الكبيرة التي ستنتج عن قرار المجلس",
+            "responds_to": "",
+            "evidence_quote": "الأثار الاقتصادية الكبيرة التي ستنتج عن قرار المجلس",
+            "counted": false,
+            "not_counted_reason": "New substantive argument introduced in a reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "دول العالم الاول لا ننكر انها تتاثر من التغير المناخي",
+            "responds_to": "",
+            "evidence_quote": "دول العالم الاول لا ننكر انها تتاثر من التغير المناخي",
+            "counted": false,
+            "not_counted_reason": "New substantive argument introduced in a reply speech"
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "تعريف الدول المتقدمة والأراضي غير الماهولة",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "الموالاة قدمت تعريفاً واضحاً (speech 1). المعارضة اعترضت على وضوح التعريف (speech 2). الموالاة ردّ على اعتراض المعارضة بتفنيد عدم وضوح التعريف (speech 3). لا توجد حجة معارضة أخرى، لذا يبقى تعريف الموالاة قائمًا."
+        },
+        {
+          "clash_point": "الواقعية والفعالية للقرار",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "المعارضة أبدت اعتراضاً على واقعية وفعالية القرار (speech 2) ثم أضافت اعتراضاً مماثلاً (speech 6). الموالاة لم تُقدّم أي حجة مباشرةً تُفنّد هذه الاعتراضات، وبالتالي يبقى اعتراض المعارضة قائمًا."
+        },
+        {
+          "clash_point": "وجود أراضي غير مستغلة في الدول المتقدمة",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "المعارضة قالت إن لا توجد أراضي غير مستغلة (speech 2). الموالاة قدمت حجة بأن 30 ٪ من أراضي العالم غير مستغلة (speech 1) وأكدت وجود أراضي غير ماهولة (speech 5). لا توجد حجة معارضة أخرى، لذا يبقى موقف الموالاة قائمًا."
+        },
+        {
+          "clash_point": "مخاطر تلوث الأراضي الممنوحة من قبل الدول المتضررة",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "المعارضة أبدت اعتراضاً على احتمال تلوث الأراضي (speech 2). الموالاة لم تُقدّم حجة مباشرةً تُفنّد هذا الاعتراض، بل ركّزت على حماية اللاجئين البيئيين (speech 3). لذلك يبقى اعتراض المعارضة قائمًا."
+        },
+        {
+          "clash_point": "انتهاك حقوق مواطني الدول المتقدمة",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "المعارضة أبدت اعتراضاً على انتهاك حقوق المواطنين (speech 4). الموالاة ردّ على ذلك بحجة أن الملكية الخاصة غير مهددة (speech 5). لا توجد حجة معارضة أخرى، لذا يبقى موقف الموالاة قائمًا."
+        },
+        {
+          "clash_point": "تحسين العلاقات الدبلوماسية بين الدول المتقدمة والمتضررة",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "الموالاة أبدت حجة بأن القرار سيعزز العلاقات الدبلوماسية (speech 1). المعارضة أبدت اعتراضاً على ذلك (speech 6). لا توجد حجة معارضة أخرى، لذا يبقى اعتراض المعارضة قائمًا."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "decisive",
+      "confidence": 0.92,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "تعريف الدول المتقدمة والأراضي غير الماهولة",
+          "evidence_quote": "تعريف الدول المتقدمة والأراضي غير الماهولة"
+        },
+        {
+          "team": "opposition",
+          "reason": "الواقعية والفعالية للقرار",
+          "evidence_quote": "الواقعية والفعالية للقرار"
+        },
+        {
+          "team": "proposition",
+          "reason": "وجود أراضي غير مستغلة في الدول المتقدمة",
+          "evidence_quote": "وجود أراضي غير مستغلة في الدول المتقدمة"
+        }
+      ],
+      "justification": "في النزاع، حُكم على ثلاث نقاط أساسية. فاز الطرف الموالاة في تعريف الدول المتقدمة والأراضي غير الماهولة، كما فاز في وجود أراضي غير مستغلة في الدول المتقدمة، بينما فاز الطرف المعارض في النقطة الجوهرية للواقعية والفعالية. بما أن النقاط الجوهرية تُعطي أوزاناً أكبر، فإن فوز الموالاة في نقطتين مقابل نقطة واحدة للمعارض يُعطيه النتيجة النهائية. النقاط الثانوية، رغم أن المعارض فاز فيها في ثلاثة من أصل ستة، لا تُعادل الأهمية الجوهرية للنقاط التي حُكم عليها. لذلك، يُعتبر الموالاة أكثر إقناعاً، إذ قدم تعريفاً واضحاً، وأثبت وجود أراضي غير مستغلة، وتجاوز اعتراضات المعارض على الواقعية بفضل تفوقه في النقاط الجوهرية."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 54,
+      "not_found": [
+        "حتى لو حصلوا على هذه الاراضي هم سوف يلوثون",
+        "لا يوجد أرض غير مستغلة في الدول المتقدمة",
+        "نحن لا نأخذ اي أرض من سنغافورة",
+        "إذا كانت سنغافورة دولة محتاجة لجزء من الأرض سنعطيها",
+        "التكافل الاجتماعي ضرورة للحفاظ على كوكب الأرض",
+        "حماية اللاجئين البيئيين ضرورة",
+        "اللاجئين البيئيين يواجهون صراعات ثقافية",
+        "عدم اتخاذ القرار يؤدي إلى تفكك المجتمعات",
+        "المجتمعات المتقدمة تتحمل مسؤولية حماية المتضررين",
+        "نستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة",
+        "خلق توازن وعيش كريم لكافة دول العالم وخاصه دول العالم الثالث",
+        "لجنة من الخبراء في البيئة والجغرافيا ... يعملون نسبه وتناسب في اقتطاع هذه الأراضي",
+        "نحن لا نناقض الملكيه الخاصه نحن نحفظ الملكيه الخاصه ... لا يمكن التعرض لها",
+        "نحن نتحدث عن ملكيه الحكومه الاراضي غير الماهوله ... يمكنهم تزرع الاشجار لحل المشاكل البيئية",
+        "نحن نعمل على عدم خلط مشكله لاجئين بيئيين ... نعطي هذه نحمي هذه الدول",
+        "اذا اعطينا الاراضي الى هؤلاء الدول لاحقا ... ما زالت تستطيع ان تنتهك هذه الاراضي",
+        "حقيقة لا يمكن تحقيق علاقة دبلوماسيه مع ان ما زالت هذه الدول تنتهك",
+        "نحن لا نؤيد أن المجلس يعطي أو يقطع جزءا من أراضي دول العالم الأول",
+        "هذا القرار لا فاعلية ولا واقعية، ولن يحل أصل المشكلة",
+        "أصل المشكلة: تغير المناخي لا يُحل بإعطاء الأراضي",
+        "لا توجد أراضي غير مستغلة في الدول المتقدمة لتمنحها",
+        "منح الأراضي ينتهك حقوق المواطنين في الدول المتقدمة",
+        "نستدعي أن الدول المتضررة قد تلوث الأراضي الممنوحة",
+        "نحن نريد حمايه اللاجئين البيئيين"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "تعريف الدول المتقدمة والأراضي غير الماهولة",
+        "الواقعية والفعالية للقرار",
+        "وجود أراضي غير مستغلة في الدول المتقدمة"
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 12,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 1,
+    "prompt_tokens": 54536,
+    "output_tokens": 6190
+  }
+}

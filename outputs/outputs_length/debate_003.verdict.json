@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_003",
+  "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "proposition",
+    "confidence": 0.037,
+    "justification": "main_words: proposition=2922, opposition=2713"
+  },
+  "features": {
+    "proposition": 2922.0,
+    "opposition": 2713.0,
+    "tie": false
+  }
+}

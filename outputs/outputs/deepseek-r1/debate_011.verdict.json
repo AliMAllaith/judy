@@ -1,0 +1,293 @@
+{
+  "debate_id": "debate_011",
+  "motion": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+  "generated_at": "2026-11-04T09:21:51+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.9,
+    "justification": "الجوانbis المطروحة من فريق المعارضة تظهر أن حصول الفلسطينيين على الجنسية العربية يحسن وضعهم ويعزز قضيتهم، مما يجعلها أكثر إقناعاً. بينما الجوانbis المطروحة من فريق الموالاة تشير إلى أن منح الجنسية العربية يخدم أجندة صهيونية، ولكن فريق المعارضة ي反驳 ذلك بشكل فعال.",
+    "best_speaker": "معارضة - المتحدث الثالث"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "القضية الفلسطينية",
+      "proposition_definition": "رفض أي جنسية عربية",
+      "opposition_definition": "الجنسية العربية",
+      "definition_contested": true,
+      "adopted_ground": "حق العودة"
+    },
+    "positions": {
+      "proposition": "The proposition argues that granting Palestinian citizenship to Arabs is detrimental to the Palestinian cause.",
+      "opposition": "The opposition argues that granting Palestinian citizenship to Arabs is beneficial for the Palestinian people and their cause."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الجنسية العربية تخدم أجندة صهيونية وتلغى حق العودة، وحماية حق العودة تتطلب الحفاظ على هوية اللاجئ الفلسطيني المعترف بها دولياً.",
+        "evidence_quote": "الانتصار المشروع السهيوني",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "التركيز على قضية اللاجئين يضعف قضية الاحتلال، وحصول الفلسطينيين على الجنسية العربية يسمح لهم بالمشاركة في المجتمع ونشر قضيتهم.",
+        "evidence_quote": "القضية الفلسطينية أصبحت قضية مأكل ومشرب وتبرعات وأدوية",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "kind": "rebuilding",
+        "summary": "الجنسية العربية تحسن وضع الفلسطينيين وتعزز قضيتهم، وحصولهم عليها ضروري لتحقيق حياة كريمة وحماية هويتهم.",
+        "evidence_quote": "الجواز الفلسطيني هو بمستوى جواز عربي، وله الحق في السكن والعمل والمشاركة السياسية",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "منح الجنسية العربية للفلسطينيين ضربٌ لحق العودة وخدمةٌ لأجندةٍ صهيونية، وحماية القضية الفلسطينية تتطلب رفض أي جنسية عربية للفلسطينيين.",
+        "evidence_quote": "الانتصار المشروع الصهيوني يجب القضاء عليه",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "refutation",
+        "summary": "الجواز الفلسطيني لا يضاهي الجواز العربي، وحصول الفلسطينيين على الجنسية العربية يضر بقضيتهم الأساسية حق العودة.",
+        "evidence_quote": "الجواز العربي يزيد من تحسين وضع الفلسطينيين، ويوفر لهم الحقوق الأساسية، ويساعد في نشر قضيتهم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الجنسية العربية تحسن وضع الفلسطينيين وتعزز قضيتهم، وحصولهم عليها ضروري لتحقيق حياة كريمة وحماية هويتهم.",
+        "evidence_quote": "الجواز العربي يزيد من تحسين وضع الفلسطينيين، ويوفر لهم الحقوق الأساسية، ويساعد في نشر قضيتهم",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "item": "Argument about citizenship benefits",
+        "issue": "The proposition's second speaker introduced new arguments about citizenship that were not part of their initial position."
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثالث",
+        "item": "Argument about citizenship benefits",
+        "issue": "The opposition's third speaker introduced new arguments about citizenship that were not part of their initial position."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "حق العودة",
+        "importance": "core",
+        "proposition_side": "لا",
+        "opposition_side": "نعم",
+        "outcome": "opposition",
+        "reasoning": "الجوانب المختلفة تشير إلى أن حصول الفلسطينيين على الجنسية العربية يحافظ على هويتهم ويساعدهم في حل مشاكلهم الأساسية، مما يعزز قضية حق العودة."
+      },
+      {
+        "clash_point": "الهوية الفلسطينية",
+        "importance": "core",
+        "proposition_side": "لا",
+        "opposition_side": "نعم",
+        "outcome": "opposition",
+        "reasoning": "الجوانب المختلفة تظهر أن الهوية الفلسطينية لا تضيع مع الحصول على الجنسية العربية، بل تصبح أقوى من خلال المشاركة في المجتمع ونشر قضيتها."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The opposition's arguments are more persuasive because they are better supported by evidence and examples.",
+      "style": "The proposition's style is more polished, but the opposition's arguments are more convincing.",
+      "strategy": "The opposition's strategy is more effective because they consistently defend their position and address the core clash points."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "الجوانbis المطروحة من فريق المعارضة تظهر أن حصول الفلسطينيين على الجنسية العربية يحسن وضعهم ويعزز قضيتهم، مما يجعلها أكثر إقناعاً.",
+          "where": "معارضة - المتحدث الثالث",
+          "effect": "persuasive",
+          "evidence_quote": "الجواز العربي يزيد من تحسين وضع الفلسطينيين، ويوفر لهم الحقوق الأساسية، ويساعد في نشر قضيتهم"
+        },
+        {
+          "reason": "الجوانbis المطروحة من فريق الموالاة تشير إلى أن منح الجنسية العربية يخدم أجندة صهيونية، ولكن فريق المعارضة ي反驳 ذلك بشكل فعال.",
+          "where": "موالاة - المتحدث الثالث",
+          "effect": "persuasive",
+          "evidence_quote": "الانتصار المشروع الصهيوني يجب القضاء عليه"
+        }
+      ]
+    },
+    "justification": "الجوانbis المطروحة من فريق المعارضة تظهر أن حصول الفلسطينيين على الجنسية العربية يحسن وضعهم ويعزز قضيتهم، مما يجعلها أكثر إقناعاً. بينما الجوانbis المطروحة من فريق الموالاة تشير إلى أن منح الجنسية العربية يخدم أجندة صهيونية، ولكن فريق المعارضة ي反驳 ذلك بشكل فعال.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      },
+      {
+        "speaker": "معارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      },
+      {
+        "speaker": "معارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      },
+      {
+        "speaker": "معارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 34,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      },
+      {
+        "speaker": "موالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 34,
+        "note": "These arguments are not well-supported by evidence and lack clarity."
+      }
+    ],
+    "best_speaker": "معارضة - المتحدث الثالث",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Your arguments about the negative impacts of citizenship are well-researched.",
+          "Your refutation of the opposition's claims is effective and logical."
+        ],
+        "improvements": [
+          "Work on clarifying your arguments to make them more persuasive.",
+          "Ensure that your refutations are well-supported by evidence and examples."
+        ],
+        "recommendations": [
+          "Focus on providing clear examples to support your arguments about the negative impacts of citizenship.",
+          "Develop a more structured approach to your speeches to ensure that your arguments are presented coherently."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Your arguments about the benefits of citizenship are well-supported by evidence.",
+          "Your refutation of the proposition's claims is effective and logical."
+        ],
+        "improvements": [
+          "Try to balance emotional appeals with logical arguments to make your case more persuasive.",
+          "Ensure that your refutations are well-supported by evidence and examples to strengthen your position."
+        ],
+        "recommendations": [
+          "Focus on providing clear examples to support your arguments about the benefits of citizenship.",
+          "Develop a more structured approach to your speeches to ensure that your arguments are presented coherently."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some arguments may be affected by transcription errors or unclear phrasing.",
+      "The debate may have been misinterpreted due to reliance on emotional appeals rather than logical arguments."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 1,
+      "match_ratio": 0.125,
+      "unverified_quotes": [
+        "القضية الفلسطينية أصبحت قضية مأكل ومشرب وتبرعات وأدوية",
+        "الجواز الفلسطيني هو بمستوى جواز عربي، وله الحق في السكن والعمل والمشاركة السياسية",
+        "الانتصار المشروع الصهيوني يجب القضاء عليه",
+        "الجواز العربي يزيد من تحسين وضع الفلسطينيين، ويوفر لهم الحقوق الأساسية، ويساعد في نشر قضيتهم",
+        "الجواز العربي يزيد من تحسين وضع الفلسطينيين، ويوفر لهم الحقوق الأساسية، ويساعد في نشر قضيتهم",
+        "الجواز العربي يزيد من تحسين وضع الفلسطينيين، ويوفر لهم الحقوق الأساسية، ويساعد في نشر قضيتهم",
+        "الانتصار المشروع الصهيوني يجب القضاء عليه"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 214,
+      "opposition": 214
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      3
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 19041,
+        "output": 3191
+      }
+    ]
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "debate_id": "debate_017",
+  "motion": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+  "generated_at": "2026-11-06T09:56:46+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "decisive",
+    "confidence": 0.7,
+    "justification": "المعارضة كانت أكثر إقناعًا بسبب تقديمها حججً قوية بشأن عدم واقعية القرار وعدم فعاليته، بالإضافة إلى انتهاكه لحقوق مواطني الدول العالم الأول. الموالاة لم تقدم ردً كافيً لمواجهة هذه الحجج، مما جعل المعارضة أكثر إقناعًا."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+        "proposition_definition": "الموالاة حددت دول العالم الاول كالدول المتقدمة اجتماعيا واقتصاديا وثقافيا وماليا، والدول المتضررة من التغير المناخي كتلك التي تضررت بشكل مباشر أو غير مباشر بسبب التغيرات المناخية. المعارضة لم تقدم تعريفا بديلا، وجرت المناقشة على هذا الأساس.",
+        "opposition_definition": "لم تقدم المعارضة تعريفا بديلا لتعريف الموالاة، وجرت المناقشة على أساس تعريف الموالاة.",
+        "definition_contested": false,
+        "adopted_ground": "التعريف المعتمد هو تعريف الموالاة: دول العالم الأول هي الدول المتقدمة اجتماعيا واقتصاديا وثقافيا وماليا، والدول المتضررة من التغير المناخي هي الدول التي تضررت بشكل مباشر أو غير مباشر بسبب التغيرات المناخية."
+      },
+      "proposition_position": "الموالاة تدعم قرار المجلس باقتطاع جزء من أراضي دول العالم الأول ومنحها للدول المتضررة من التغير المناخي بهدف خلق توازن وعيش كريم للدول المتضررة وتحمل دول العالم الأول المسؤولية تجاه هذه الدول.",
+      "opposition_position": "المعارضة تعارض قرار المجلس بسبب عدم واقعيته وعدم فعاليته في حل مشكلة التغير المناخي، وتعتبر أن القرار لا يحل المشكلة من أساسها وينتهك حقوق مواطني الدول العالم الأول.",
+      "clash_type": "mixed",
+      "clash_type_reason": "المناظرة احتوت على مناقشات حول تعريف المصطلحات، ومدى واقعية وفعالية القرار، وحقوق المواطنين، مما يجعلها مناظرة مختلطة بين الاصطدام المباشر والمتوازي."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "دول العالم الأول هي الدول المتقدمة اجتماعيا واقتصاديا وثقافيا وماليا، والدول المتضررة من التغير المناخي هي الدول التي تضررت بشكل مباشر أو غير مباشر بسبب التغيرات المناخية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اقتطاع أراضي من دول العالم الأول سيضمن استمرارية الموارد للدول الفقيرة.",
+            "responds_to": "",
+            "evidence_quote": "حجه الاولى في هذا المقام ان اقتطاع هذه الاراضي سيضمن استمراريه الموارد لهذه الدول الفقيره كحل دائم وجذري",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "دول العالم الأول قادرة على معالجة التغيرات المناخية بسبب إمكانياتها ومواردها.",
+            "responds_to": "",
+            "evidence_quote": "دول العالم الاول هي قادره بامكانياتها ومواردها على معالجه هذه الاشكاليات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية الدول المتضررة اقتصاديا من خلال اقتطاع أراضي من دول العالم الأول.",
+            "responds_to": "",
+            "evidence_quote": "حمايه ان هذا القرار سيؤدي الى حمايه الدول المتضرره اقتصاديا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تعزيز العلاقات الدبلوماسية بين الدول من خلال اقتطاع أراضي من دول العالم الأول.",
+            "responds_to": "",
+            "evidence_quote": "تعزيز العلاقات الدبلوماسيه والدوليه بين الدول بين الدول العالم الاول والدول المتضرره من التغير المناخي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانب الصحي: اقتطاع أراضي من دول العالم الأول يوفر مصدر دعم دائم للدول المتضررة.",
+            "responds_to": "",
+            "evidence_quote": "التغير المناخي يسبب العديد من المشاكل الصحيه والدول التي تسببت بهذه التغيرات المناخيه لها مسؤوليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "استغلال الأراضي المستقطعة أفضل استغلال لمواجهة مشاكل التغير المناخي.",
+            "responds_to": "",
+            "evidence_quote": "عندما نقوم باستقطاع هذه الاراضي واستغلال هذه الاراضي افضل استغلال فاننا نوفر مصدر دعم دائم لهذه الدول المتضرره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "هناك 30% من أراضي دول العالم الأول غير مأهولة وغير مستغلة.",
+            "responds_to": "",
+            "evidence_quote": "هناك ثلاثين بالمئه من دول العالم غير ماهوله وغير مستغله نهائيا",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "تعريف الموالاة غامض ولا يوجد معيار واضح لتحديد دول العالم الأول والدول المتضررة.",
+            "responds_to": "definition",
+            "evidence_quote": "تقدمت هذه الموالاة بقضية تعريف غامض جدا دول العالم الأول هو فقط دول المتطوره وغنيه بالموارد الطبيعيه ماليا وما الى ذلك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يوجد ضمان أن الأراضي غير المأهولة تقع في دول العالم الأول.",
+            "responds_to": "هناك 30% من أراضي دول العالم الأول غير مأهولة وغير مستغلة.",
+            "evidence_quote": "هل هذه الاراضي تقع في دول المتقدم التي ادعتها ليس عندنا الضمان بان هذه الاراضي حقيقه تقع في الدول العالم الاول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار لا يحل مشكلة التغير المناخي من أصلها.",
+            "responds_to": "",
+            "evidence_quote": "اصل المشكله هو الصناعات غير محدوده ومتجاوزه للحد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "responds_to": "حماية الدول المتضررة اقتصاديا من خلال اقتطاع أراضي من دول العالم الأول.",
+            "evidence_quote": "حتى لو حصلوا على هذه الاراضي هم سوف سوف يلوثون في هذه الاراضي الممنوحه من قبل الدول العالم الاول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "القرار لا يزيد إلا الأعباء على جميع الدول.",
+            "responds_to": "استغلال الأراضي المستقطعة أفضل استغلال لمواجهة مشاكل التغير المناخي.",
+            "evidence_quote": "نقول حقيقه ان قبولنا لهذا قبولا لهذا القرار قبولنا لشيء عبث لا يحل شيئا ولا يزيد شيئا الا الاعباء للجميع",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار غير واقعي وغير فعال.",
+            "responds_to": "",
+            "evidence_quote": "موقفنا تجاه هذه القضيه نتكلم عن عدم واقعيه وكذلك عدم فعاليه القرار لنحل المشكله من اصلها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "تعريف الموالاة ليس غامضًا، ويتم تحديد الدول المتضررة من خلال أشخاص ومجالس مخصصة.",
+            "responds_to": "تعريف الموالاة غامض ولا يوجد معيار واضح لتحديد دول العالم الأول والدول المتضررة.",
+            "evidence_quote": "فنحن لا نعلم من هي الدول التي ستتضرر بسلبيات التغير المناخي ولذلك قلنا بان الدوله المتضرره هي الدوله التي ستتضرر دارا جسيما ولن نكون الا على حياد في تحديدها من خلال اشخاص ومجالس مخصصه لتحديد الدول المتضرره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "المعارضة تطلب تفسيرًا لجزء من الأرض في قرار المجلس الموقر، ويتم توضيح أن المقصود هو جزء غير مستغل.",
+            "responds_to": "جزء من الارض في قرار مجلسكم الموقر يعني جزءا غير مستغل لا مشغولا بالسكان ولا باي مصانع ولا غيرها من هذا الكلام",
+            "evidence_quote": "فهي اراد غير مستغله فدعونا بقرار مجلسكم الموقر الان نستغل تلك الاراضي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "سنغافورة قد تحتاج إلى مساعدة في حالة تعرضها لضرر بسبب التغير المناخي.",
+            "responds_to": "سنغافوره دوله صغيره المساحه ولا تستطيع اعطاء اراضي لاي دوله اخرى",
+            "evidence_quote": "فماذا لو اصاب سنغافوره نفسها ضررا بسبب التغير المناخي اتريد من سنغافوره ان تبادى وان تختفي عن سطح الارض والا تجد من يساعدها في ازمتها هذه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حل المشكلة من أصلها لا يعني حل المجتمعات من أساسها.",
+            "responds_to": "القرار لا يحل مشكلة التغير المناخي من أصلها.",
+            "evidence_quote": "الا انه وللاسف سيؤدي بحل المجتمعات من اساسها لا حل الاشكال",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "العدالة العالمية تقع بالتوازن بين الدول.",
+            "responds_to": "",
+            "evidence_quote": "العداله العالميه تقع بالتوازن فان كانت سنغافوره دوله محتاجه لجزء من الارض سنعطيها اياه وان كان لديها جزء لا تشغله وليست بحاجه له فسنعطه لمن يحتاجه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التكافل بين الدول ضروري للحفاظ على كوكب الأرض.",
+            "responds_to": "",
+            "evidence_quote": "نحن نحافظ على المجتمعات بحد ذاتها فدعونا نتصور الحاله الفظيعه التي ستنتج ان لم نقرمج ان لم نقر قرار مجلسكم الموقر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية اللاجئين البيئيين وتوطينهم في أرض محددة.",
+            "responds_to": "",
+            "evidence_quote": "حجتي هي حمايه اللاجئين البيئيين وارى على وجوه بعضكم الاستغراب تتساءلون من هو اللاجئ البيئي اللاجئ البيئي هو اللاجئ الذي نزح من ارضه بسبب التغيرات البيئيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حماية الدول المتضررة اقتصاديًا من خلال اقتطاع أراضي من دول العالم الأول لا يزيد التلوث.",
+            "responds_to": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "evidence_quote": "",
+            "counted": false,
+            "not_counted_reason": "لا يوجد دليل على الرد"
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التناقض في تعريف الموالاة لسنغافورة كدولة صناعية صغيرة.",
+            "responds_to": "هناك 30% من أراضي دول العالم الأول غير مأهولة وغير مستغلة.",
+            "evidence_quote": "سنغافورة دولة صغيرة المساحة ولا تستطيع أن تعطي أراضي لأية دولة أخرى",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم واقعية تنفيذ قرار المجلس.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "وجود دول أخرى من تصنيف الدول العالمية الثانية والثالثة النامية تسببت في التغير المناخي.",
+            "responds_to": "",
+            "evidence_quote": "الدولة الاندونيسيا مثلا دولة نامية وكثفت في عملية تطور اقتصادها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حماية الدول المتضررة اقتصاديًا من خلال اقتطاع أراضي من دول العالم الأول لا يزيد التلوث.",
+            "responds_to": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "evidence_quote": "",
+            "counted": false,
+            "not_counted_reason": "already mentioned"
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار ينتهك حقوق مواطني الدول العالم الأول.",
+            "responds_to": "",
+            "evidence_quote": "الملكية الحكومية هي حقيقة لصالح الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التناقض في تعريف الموالاة لسنغافورة كدولة صناعية صغيرة.",
+            "responds_to": "هناك 30% من أراضي دول العالم الأول غير مأهولة وغير مستغلة.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حماية الدول المتضررة اقتصاديًا من خلال اقتطاع أراضي من دول العالم الأول لا يزيد التلوث.",
+            "responds_to": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "هناك مسؤولية لسنغافورة كدولة صناعية في التغير المناخي.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "العدالة العالمية تقع بالتوازن بين الدول.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التكافل بين الدول ضروري للحفاظ على كوكب الأرض.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية اللاجئين البيئيين وتوطينهم في أرض محددة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار لا يهدف إلى حل المشكلة بشكل تام ولكن التقليل من نتائجها.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهدف من القرار هو خلق توازن وعيش كريم لكافة أفراد دول العالم.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "القرار لا يحل مشكلة التغير المناخي من أصلها.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حماية الدول المتضررة اقتصاديًا من خلال اقتطاع أراضي من دول العالم الأول لا يزيد التلوث.",
+            "responds_to": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التناقض في تعريف الموالاة لسنغافورة كدولة صناعية صغيرة.",
+            "responds_to": "هناك 30% من أراضي دول العالم الأول غير مأهولة وغير مستغلة.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم واقعية تنفيذ قرار المجلس.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "وجود دول أخرى من تصنيف الدول العالمية الثانية والثالثة النامية تسببت في التغير المناخي.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار ينتهك حقوق مواطني الدول العالم الأول.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حماية الدول المتضررة اقتصاديًا من خلال اقتطاع أراضي من دول العالم الأول لا يزيد التلوث.",
+            "responds_to": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "هناك مسؤولية لسنغافورة كدولة صناعية في التغير المناخي.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": false,
+            "not_counted_reason": "جديدة في الرد"
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "القرار لا يحل مشكلة التغير المناخي من أصلها.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عدم واقعية تنفيذ هذا القرار.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار ينتهك حقوق المواطنين في الدول الأولى.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مواقف فريق الموالاة متناقضة بشأن إعطاء الأراضي للدول المتضررة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إعطاء الأراضي غير المأهولة سيؤدي إلى تلوث أكبر.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "تناقض فريق الموالاة بشأن الأولوية بين البشرية والجغرافيا.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "هناك دول أخرى تسببت في التغير المناخي وليس لديها أراضي تعطيها.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حماية الدول المتضررة اقتصاديًا لا يزيد التلوث.",
+            "responds_to": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "زملائي في فريق المعارضة يتحدثون عن أصل المشكلة، نحن لا نناقر عن قضية التغير المناخي، نحن نتحدث عن جزء من التعويض الذي لهذه الدول باقتطاع جزر من دول العالم الأول.",
+            "responds_to": "القرار لا يحل مشكلة التغير المناخي من أصلها.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "زميلي في خطاب الرد قال أن هذه الأراضي غير مأهولة وبالتالي هي مليئة بالأشجار، سنقوم بتأهيلها وندعم الدول المتضررة من التغير البيئي.",
+            "responds_to": "لا يوجد ضمان أن الأراضي غير المأهولة تقع في دول العالم الأول.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "زملائي في فريق المعارضة يقولون بأن الدول منفصلة ولا يوجد أي نوع من التكافل بين الدول، ولم يفندوا أحاديثنا.",
+            "responds_to": "القرار لا يزيد إلا الأعباء على جميع الدول.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "ذكرنا في المحور الإنساني أننا نريد حماية اللاجئين البيئيين، نريد تحقيق العدالة الإنسانية بمساعدة المتضرر بما سيساعده من الغني المقتدر.",
+            "responds_to": "حتى لو حصلت الدول المتضررة على الأراضي، فإنها ستزيد من التلوث.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "هناك مسؤولية لدول العالم الأول في التغير المناخي، ولديها الإمكانيات اللازمة لمواجهة هذا التغير.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار يهدف إلى خلق توازن وعيش كريم لكافة أفراد دول العالم.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية اللاجئين البيئيين وتوطينهم في أرض محددة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار لا يهدف إلى حل المشكلة بشكل تام ولكن التقليل من نتائجها.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "تعريف دول العالم الأول والدول المتضررة من التغير المناخي",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "المعارضة أشارت إلى غموض تعريف الموالاة، بينما الموالاة أوضحت أن التعريف يتم من خلال أشخاص ومجالس مخصصة لتحديد الدول المتضررة."
+        },
+        {
+          "clash_point": "واقعية وفعالية اقتطاع أراضي من دول العالم الأول",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "المعارضة قدمت حججًا تشير إلى عدم واقعية القرار وعدم فعاليته في حل مشكلة التغير المناخي، بينما الموالاة لم تقدم ردًا كافيًا لمواجهة هذه الحجج."
+        },
+        {
+          "clash_point": "حقوق مواطني الدول العالم الأول",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "المعارضة أشارت إلى أن القرار ينتهك حقوق مواطني الدول العالم الأول، بينما الموالاة لم تقدم ردًا كافيًا لمواجهة هذه الحجج."
+        },
+        {
+          "clash_point": "زيادة التلوث نتيجة اقتطاع الأراضي",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "المعارضة أشارت إلى أن الدول المتضررة قد تزيد من التلوث إذا حصلت على الأراضي، بينما الموالاة لم تقدم ردًا كافيًا لمواجهة هذه الحجج."
+        },
+        {
+          "clash_point": "مسؤولية دول العالم الأول في التغير المناخي",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "الموالاة قدمت حججًا تشير إلى مسؤولية دول العالم الأول في التغير المناخي وقدرتها على مواجهة هذا التغير."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "decisive",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "المعارضة قدمت حججً تشير إلى عدم واقعية القرار وعدم فعاليته في حل مشكلة التغير المناخي، مما جعلها أكثر إقناعًا.",
+          "evidence_quote": "هذا القرار غير واقعي وغير فعال في حل مشكلة التغير المناخي."
+        },
+        {
+          "team": "opposition",
+          "reason": "المعارضة أشارت إلى أن القرار ينتهك حقوق مواطني الدول العالم الأول، مما زاد من قوة حججها.",
+          "evidence_quote": "هذا القرار ينتهك حقوق مواطني الدول العالم الأول."
+        },
+        {
+          "team": "proposition",
+          "reason": "الموالاة لم تقدم ردً كافيً لمواجهة حجج المعارضة بشأن عدم واقعية القرار وفعاليته.",
+          "evidence_quote": "لا يوجد رد كافٍ من الموالاة لمواجهة هذه الحجج."
+        }
+      ],
+      "justification": "المعارضة كانت أكثر إقناعًا بسبب تقديمها حججً قوية بشأن عدم واقعية القرار وعدم فعاليته، بالإضافة إلى انتهاكه لحقوق مواطني الدول العالم الأول. الموالاة لم تقدم ردً كافيً لمواجهة هذه الحجج، مما جعل المعارضة أكثر إقناعًا."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 23,
+      "not_found": [
+        "تقدمت هذه الموالاة بقضية تعريف غامض جدا دول العالم الأول هو فقط دول المتطوره وغنيه بالموارد الطبيعيه ماليا وما الى ذلك",
+        "سنغافورة دولة صغيرة المساحة ولا تستطيع أن تعطي أراضي لأية دولة أخرى",
+        "الدولة الاندونيسيا مثلا دولة نامية وكثفت في عملية تطور اقتصادها"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "هذا القرار غير واقعي وغير فعال في حل مشكلة التغير المناخي.",
+        "هذا القرار ينتهك حقوق مواطني الدول العالم الأول.",
+        "لا يوجد رد كافٍ من الموالاة لمواجهة هذه الحجج."
+      ]
+    },
+    "core_clash_leader": "opposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 3,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 0,
+    "prompt_tokens": 47590,
+    "output_tokens": 6840
+  }
+}

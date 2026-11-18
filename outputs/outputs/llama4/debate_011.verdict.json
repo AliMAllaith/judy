@@ -1,0 +1,254 @@
+{
+  "debate_id": "debate_011",
+  "motion": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+  "generated_at": "2026-11-04T12:14:19+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.8,
+    "justification": "الموالاة قدمت حججًا قوية حول تأثير التجنيس على حق العودة والاستقرار السياسي في الدول العربية، بينما لم تقدم المعارضة ردًا كافيًا على هذه الحجج.",
+    "best_speaker": "المتحدث الثالث - الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+      "proposition_definition": "على الفلسطينيين رفض أي جنسية عربية",
+      "opposition_definition": "لا يجب على الفلسطينيين رفض الجنسية العربية",
+      "definition_contested": true,
+      "adopted_ground": "حماية القضية الفلسطينية وحق العودة"
+    },
+    "positions": {
+      "proposition": "يجب على الفلسطينيين رفض أي جنسية عربية",
+      "opposition": "لا يجب على الفلسطينيين رفض الجنسية العربية"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "التجنيس في الدول العربية يضرب حق العودة وخدمة لأجندات صهيونية",
+        "evidence_quote": "التجنيس يضرب حق العودة لأنه إذا تم الحصول على جنسية أخرى، تنتفي صفة اللاجئ الدولي وبالتالي تخسر القضية الفلسطينية في المحافل الدولية",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "لا دليل على أن التجنيس يضرب حق العودة، والواقع يظهر أن اللاجئين الذين حصلوا على جنسيات عربية لم يستفيدوا شيئًا",
+        "evidence_quote": "هل الفلسطيني يملك جوازًا فلسطينيًا عندما لجأ إلى دول الجوار؟",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "منح الجنسيات العربية للفلسطينيين يضرب الموازين السياسية في الدول العربية وخدمة للأجندات الصهيونية",
+        "evidence_quote": "إذا منحنا الجنسية الأردنية للفلسطينيين في الأردن، سيختل الميزان السياسي وسيهدد الاستقرار السياسي",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "الحصول على الجنسية العربية لا يضر بالهوية الفلسطينية ويساهم في تحسين أوضاع اللاجئين",
+        "evidence_quote": "الهوية العربية هي قضية قومية لكل عربي، وليست قضية محلية للوطن الفلسطيني",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديدة لا تدخل في النقاط المطروحة",
+        "issue": "تحدث عن أمثلة غير متعلقة"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "حق العودة",
+        "importance": "core",
+        "proposition_side": "proposition",
+        "opposition_side": "opposition",
+        "outcome": "proposition",
+        "reasoning": "البرهان على أن التجنيس يضرب حق العودة لم يُدحض بشكل كافٍ من قبل المعارضة"
+      },
+      {
+        "clash_point": "الوضع السياسي والاجتماعي للفلسطينيين",
+        "importance": "core",
+        "proposition_side": "opposition",
+        "opposition_side": "proposition",
+        "outcome": "opposition",
+        "reasoning": "المعارضة أظهرت أن الحصول على الجنسية العربية يمكن أن يحسن أوضاع اللاجئين ويعزز مشاركتهم السياسية والاجتماعية"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition",
+      "style": "proposition",
+      "strategy": "proposition"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.8,
+      "key_reasons": [
+        {
+          "reason": "البرهان على أن التجنيس يضرب حق العودة أقوى من أي حجة مضادة قدمتها المعارضة",
+          "where": "speech 1",
+          "effect": "تأثير كبير على نتيجة المناظرة لصالح الموالاة",
+          "evidence_quote": "التجنيس يضرب حق العودة لأنه إذا تم الحصول على جنسية أخرى، تنتفي صفة اللاجئ الدولي وبالتالي تخسر القضية الفلسطينية في المحافل الدولية"
+        }
+      ]
+    },
+    "justification": "الموالاة قدمت حججًا قوية حول تأثير التجنيس على حق العودة والاستقرار السياسي في الدول العربية، بينما لم تقدم المعارضة ردًا كافيًا على هذه الحجج.",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حجج قوية ومتقنة"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "تحليل عميق ومتقن"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "حجج قوية ومتقنة"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث - المعارضة (خطاب الرد)",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث - الموالاة (خطاب الرد)",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "professional",
+        "score": 40,
+        "note": "حجج قوية ومتقنة"
+      }
+    ],
+    "best_speaker": "المتحدث الثالث - الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حجج قوية ومتقنة حول تأثير التجنيس على حق العودة والاستقرار السياسي"
+        ],
+        "improvements": [
+          "التركيز على الجوانب العملية والتفصيلية في الحجج"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم الحجج القوية والمتقنة"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج جيدة حول أوضاع اللاجئين وتحسين أوضاعهم"
+        ],
+        "improvements": [
+          "تعزيز الحجج حول تأثير التجنيس على حق العودة"
+        ],
+        "recommendations": [
+          "التركيز على الجوانب العملية والتفصيلية في الحجج"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcript seems mostly accurate",
+      "some parts of the transcript may contain minor errors"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 1,
+      "match_ratio": 0.2,
+      "unverified_quotes": [
+        "التجنيس يضرب حق العودة لأنه إذا تم الحصول على جنسية أخرى، تنتفي صفة اللاجئ الدولي وبالتالي تخسر القضية الفلسطينية في المحافل الدولية",
+        "إذا منحنا الجنسية الأردنية للفلسطينيين في الأردن، سيختل الميزان السياسي وسيهدد الاستقرار السياسي",
+        "الهوية العربية هي قضية قومية لكل عربي، وليست قضية محلية للوطن الفلسطيني",
+        "التجنيس يضرب حق العودة لأنه إذا تم الحصول على جنسية أخرى، تنتفي صفة اللاجئ الدولي وبالتالي تخسر القضية الفلسطينية في المحافل الدولية"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 283,
+      "opposition": 269
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13749,
+        "output": 1934
+      }
+    ]
+  }
+}

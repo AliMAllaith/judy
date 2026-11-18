@@ -1,0 +1,284 @@
+{
+  "debate_id": "debate_007",
+  "motion": "يرى هذا المجلس أن تدخُّل الدول الكبرى ومواقفها السياسية سبب رئيسي في تدهور دول العالم الثالث",
+  "generated_at": "2026-11-04T09:15:42+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.9,
+    "justification": "The Opposition was more persuasive because they correctly identified that external intervention is a consequence of internal decay, not the cause. They provided evidence of international organizations intervening to prevent decay, which contradicts the Proposition's claim. Additionally, they acknowledged that external intervention can be positive, which strengthens their position. The Proposition's arguments were less persuasive because they failed to address the Opposition's key points about the root causes of decay.",
+    "best_speaker": "المعارضة - المتحدث الأول"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "Countries in the third world are experiencing decay.",
+      "proposition_definition": "Countries in the third world are those that are experiencing decay due to external intervention.",
+      "opposition_definition": "Countries in the third world are those that are experiencing internal decay.",
+      "definition_contested": true,
+      "adopted_ground": "The debate is focused on the main cause of decay in third world countries."
+    },
+    "positions": {
+      "proposition": "Countries in the third world are experiencing decay due to external intervention.",
+      "opposition": "Countries in the third world are experiencing decay due to external intervention."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الدول الكبرى تقدم مساعدات مشروطة تضر بالدول الفقيرة",
+        "evidence_quote": "الولايات المتحدة والحكومات الغربية تبرعت بمليوني ونصف تريليون دولار لمساعدة البلاد الأفريقية، ومع ذلك، وما زال لدى إفريقيا ما يقارب ثلثي دين العالم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الدول الكبرى هي السبب الرئيسي في تدهور الدول Third",
+        "evidence_quote": "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الدول الكبرى هي من تملك القدرات اللازمة للتأثير في العالم Third",
+        "evidence_quote": "الدول الكبرى هي من تملك القدرات الاقتصادية والاجتماعية، والسياسية والعسكرية وإلى آخره من قدراتٍ تسم Rachmahها بالامساك بزمام الأمور",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم",
+        "evidence_quote": "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الدول الكبرى هي من تملك القدرات اللازمة للتأثير في العالم Third",
+        "evidence_quote": "الدول الكبرى هي من تملك القدرات الاقتصادية والاجتماعية، والسياسية والعسكرية وإلى آخره من قدراتٍ تسم Rachmahها بالامساك بزمام الأمور",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "item": "Definition of third world countries",
+        "issue": "The Proposition introduced a new definition of 'third world countries' in their main speech."
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "item": "Definition of third world countries",
+        "issue": "The Opposition introduced a new definition of 'third world countries' in their main speech."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "سبب تدهور الدول Third",
+        "importance": "core",
+        "proposition_side": "الموالاة",
+        "opposition_side": "المعارضة",
+        "outcome": "opposition",
+        "reasoning": "الموالاة يركزون على تدخل الدول الكبرى كسبب رئيسي، بينما المعارضة يركزون على عوامل داخلية كسبب رئيسي"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Opposition had stronger arguments because they provided evidence of international organizations intervening to prevent decay.",
+      "style": "The Proposition had a better style because they used a strong opening statement.",
+      "strategy": "The Opposition had a better strategy because they focused on the root causes of decay."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "The Opposition effectively refutes the Proposition's claim by showing that external intervention is a result of internal problems, not the cause.",
+          "where": "Speech 2 and Speech 4",
+          "effect": "The Opposition's arguments are more persuasive because they correctly identify that external intervention is a consequence of internal decay, not the cause.",
+          "evidence_quote": "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها"
+        },
+        {
+          "reason": "The Opposition uses the example of international intervention to show that external forces can help prevent decay, strengthening their position.",
+          "where": "Speech 4",
+          "effect": "The Opposition's arguments are more persuasive because they provide evidence of international organizations intervening to prevent decay, contradicting the Proposition's claim.",
+          "evidence_quote": "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها"
+        },
+        {
+          "reason": "The Opposition recognizes that external intervention can be beneficial, which makes their argument more balanced and persuasive.",
+          "where": "Speech 6",
+          "effect": "The Opposition's arguments are more persuasive because they acknowledge that external intervention can be positive, whereas the Proposition focuses only on negative aspects.",
+          "evidence_quote": "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها"
+        }
+      ]
+    },
+    "justification": "The Opposition was more persuasive because they correctly identified that external intervention is a consequence of internal decay, not the cause. They provided evidence of international organizations intervening to prevent decay, which contradicts the Proposition's claim. Additionally, they acknowledged that external intervention can be positive, which strengthens their position. The Proposition's arguments were less persuasive because they failed to address the Opposition's key points about the root causes of decay.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الأول (Reply)",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول (Reply)",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "The speaker did not clearly communicate their position or provide evidence to support it."
+      }
+    ],
+    "best_speaker": "المعارضة - المتحدث الأول",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Clearly stated their position on the motion.",
+          "Provided examples of external intervention causing decay.",
+          "Used a strong opening statement to set the tone for the debate."
+        ],
+        "improvements": [
+          "Try to provide more evidence to support your claim that external intervention is the main cause of decay.",
+          "Focus on the negative aspects of external intervention more clearly."
+        ],
+        "recommendations": [
+          "Develop a stronger case for why external intervention is harmful to countries in the third world.",
+          "Use more persuasive language to emphasize the negative impact of external intervention."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Effectively refuted the Proposition's claim by showing that external intervention is a consequence, not the cause.",
+          "Provided evidence of international organizations intervening to prevent decay.",
+          "Acknowledged that external intervention can be positive."
+        ],
+        "improvements": [
+          "Try to provide more concrete examples of how internal decay leads to external intervention.",
+          "Focus on the positive aspects of external intervention more clearly."
+        ],
+        "recommendations": [
+          "Develop a stronger case for why external intervention is necessary to prevent decay.",
+          "Use more persuasive language to emphasize the negative impact of internal decay."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some arguments may be difficult to follow due to unclear speech recognition.",
+      "Some points may be lost due to transcription errors."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 1,
+      "match_ratio": 0.125,
+      "unverified_quotes": [
+        "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها",
+        "الدول الكبرى هي من تملك القدرات الاقتصادية والاجتماعية، والسياسية والعسكرية وإلى آخره من قدراتٍ تسم Rachmahها بالامساك بزمام الأمور",
+        "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها",
+        "الدول الكبرى هي من تملك القدرات الاقتصادية والاجتماعية، والسياسية والعسكرية وإلى آخره من قدراتٍ تسم Rachmahها بالامساك بزمام الأمور",
+        "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها",
+        "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها",
+        "الدول الكبرى هي السبب الرئيسي لأنها هي صانعة القرار في العالم، تمحور القرار كيفما تشاء وبحسب مصالحها"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 252,
+      "opposition": 252
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      3
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 17322,
+        "output": 3343
+      }
+    ]
+  }
+}

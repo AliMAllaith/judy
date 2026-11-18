@@ -1,0 +1,205 @@
+{
+  "debate_id": "debate_003",
+  "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+  "generated_at": "2026-11-03T11:07:56+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "proposition قدم حجج قوية حول الهجرة إلى الغرب وتأثيرها على الشاب المسلم، بينما opposition قدم حجج قوية حول وجود الشاب المسلم في البلاد المسلمة وعدم هجرته. ولكن proposition نجح في إقناع القاضي بأن الهجرة إلى الغرب هي الخيار الأفضل للشاب المسلم",
+    "best_speaker": "المتحدث الثاني - proposition"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "الهجرة إلى الغرب",
+      "proposition_definition": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+      "opposition_definition": "وجود الشاب المسلم في البلاد المسلمة وعدم هجرته",
+      "definition_contested": false,
+      "adopted_ground": "الهجرة إلى الغرب وتأثيرها على الشاب المسلم"
+    },
+    "positions": {
+      "proposition": "يعتقد أن الهجرة إلى الغرب هي الخيار الأفضل للشاب المسلم لتحقيق مصالحه",
+      "opposition": "يعتقد أن وجود الشاب المسلم في البلاد المسلمة وعدم هجرته هو الخيار الأفضل"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الهجرة إلى الغرب توفر فرص تعليمية واقتصادية أفضل للشاب المسلم",
+        "evidence_quote": "في ظل الديمقراطية التفارق تكون بسيطة بل وجود جالية واحدة مسلمة اليوم يشكل فارقا مؤثرا ومهما في العالم الذي أعيش فيه كمسلم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "وجود الشاب المسلم في البلاد المسلمة ضروري ومحوري وقرار الهجرة له آثار سلبية",
+        "evidence_quote": "الهجرة إلى الغرب تؤدي إلى تجريد المسلم من هويته وتفكيره الإسلامي",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "الأسلاموفوبيا في الغرب ليست بنفس الصورة التي كانت عليها بعد 11 سبتمبر",
+        "evidence_quote": "مثال فرنسا لا تقارن بفعاليتها في السابق",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الهجرة إلى الغرب تؤدي إلى تشويه المجتمع الإسلامي",
+        "evidence_quote": "المجتمعات الغربية تهدف إلى تفكيك المجتمعات الإسلامية",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديد تعريف",
+        "issue": "لا ينتمي إلى النقاط الرئيسية"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "خصوصية الشاب المسلم",
+        "importance": "core",
+        "proposition_side": "المتحدث الأول",
+        "opposition_side": "المتحدث الأول",
+        "outcome": "proposition",
+        "reasoning": "المتحدث الأول من proposition قدم حجج قوية حول خصوصية الشاب المسلم وتحدياته"
+      },
+      {
+        "clash_point": "تأثير الهجرة على المجتمع الإسلامي",
+        "importance": "core",
+        "proposition_side": "المتحدث الثاني",
+        "opposition_side": "المتحدث الثاني",
+        "outcome": "opposition",
+        "reasoning": "المتحدث الثاني من opposition قدم حجج قوية حول تأثير الهجرة على المجتمع الإسلامي"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition قدم حجج قوية حول الهجرة إلى الغرب وتأثيرها على الشاب المسلم، بينما opposition قدم حجج قوية حول وجود الشاب المسلم في البلاد المسلمة وعدم هجرته",
+      "style": "كلا الفريقين قدم خطابات واضحة ومقنعة",
+      "strategy": "proposition ركز على تقديم حجج قوية حول الهجرة إلى الغرب، بينما opposition ركز على تقديم حجج قوية حول وجود الشاب المسلم في البلاد المسلمة"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "proposition قدم حجج قوية حول الهجرة إلى الغرب وتأثيرها على الشاب المسلم",
+          "where": "المتحدث الأول والثاني",
+          "effect": "قنع القاضي بأن الهجرة إلى الغرب هي الخيار الأفضل للشاب المسلم",
+          "evidence_quote": "في ظل الديمقراطية التفارق تكون بسيطة بل وجود جالية واحدة مسلمة اليوم يشكل فارقا مؤثرا ومهما في العالم الذي أعيش فيه كمسلم"
+        }
+      ]
+    },
+    "justification": "proposition قدم حجج قوية حول الهجرة إلى الغرب وتأثيرها على الشاب المسلم، بينما opposition قدم حجج قوية حول وجود الشاب المسلم في البلاد المسلمة وعدم هجرته. ولكن proposition نجح في إقناع القاضي بأن الهجرة إلى الغرب هي الخيار الأفضل للشاب المسلم",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - proposition",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حجج قوية حول الهجرة إلى الغرب وتأثيرها على الشاب المسلم"
+      },
+      {
+        "speaker": "المتحدث الأول - opposition",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "حجج قوية حول وجود الشاب المسلم في البلاد المسلمة وعدم هجرته"
+      }
+    ],
+    "best_speaker": "المتحدث الثاني - proposition",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حجج قوية حول الهجرة إلى الغرب وتأثيرها على الشاب المسلم"
+        ],
+        "improvements": [
+          "يجب تقديم حجج أكثر قوة حول خصوصية الشاب المسلم وتحدياته في البلاد المسلمة"
+        ],
+        "recommendations": [
+          "يجب تقديم أمثلة واقعية حول تأثير الهجرة على الشاب المسلم"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج قوية حول وجود الشاب المسلم في البلاد المسلمة وعدم هجرته"
+        ],
+        "improvements": [
+          "يجب تقديم حجج أكثر قوة حول تأثير الهجرة على المجتمع الإسلامي"
+        ],
+        "recommendations": [
+          "يجب تقديم أمثلة واقعية حول تأثير وجود الشاب المسلم في البلاد المسلمة"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "المتحدث الثالث من proposition قدم حجج غير واضحة حول خصوصية الشاب المسلم"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 1,
+      "match_ratio": 0.2,
+      "unverified_quotes": [
+        "في ظل الديمقراطية التفارق تكون بسيطة بل وجود جالية واحدة مسلمة اليوم يشكل فارقا مؤثرا ومهما في العالم الذي أعيش فيه كمسلم",
+        "الهجرة إلى الغرب تؤدي إلى تجريد المسلم من هويته وتفكيره الإسلامي",
+        "المجتمعات الغربية تهدف إلى تفكيك المجتمعات الإسلامية",
+        "في ظل الديمقراطية التفارق تكون بسيطة بل وجود جالية واحدة مسلمة اليوم يشكل فارقا مؤثرا ومهما في العالم الذي أعيش فيه كمسلم"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 80,
+      "opposition": 76
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14973,
+        "output": 1645
+      }
+    ]
+  }
+}

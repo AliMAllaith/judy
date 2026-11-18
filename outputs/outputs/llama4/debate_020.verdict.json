@@ -1,0 +1,252 @@
+{
+  "debate_id": "debate_020",
+  "motion": "يؤمن هذا المجلس بأن تدهور اللغة العربية سببُه اللهجات العامية المختلفة",
+  "generated_at": "2026-11-05T12:16:31+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "المعارضة قدمت حججًا أقوى وأشمل، خاصة في موضوع الاستعمار الثقافي وعدم كفاية المجمعات اللغوية العربية. كما نجحت في تفنيد حجج الموالاة بشكل فعال، مما جعلها الفريق الأكثر إقناعًا.",
+    "best_speaker": "المتحدث الثاني - المعارضة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "تدهور اللغة العربية",
+      "proposition_definition": "你 يؤمن هذا المجلس بأن تدهور اللغة العربية سببه اللهجات العامية المختلفة",
+      "opposition_definition": "لا يؤمن هذا المجلس بأن تدهور اللغة العربية سببه اللهجات العامية المختلفة",
+      "definition_contested": false,
+      "adopted_ground": "تدهور اللغة العربية واللهجات العامية المختلفة"
+    },
+    "positions": {
+      "proposition": "اللهجات العامية المختلفة هي سبب تدهور اللغة العربية",
+      "opposition": "اللهجات العامية المختلفة ليست سبب تدهور اللغة العربية"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "خصائص اللهجات العامية تختلف كثيرًا عن اللغة العربية وتؤثر عليها",
+        "evidence_quote": "خصائص اللهجات العامية تختلف كثيرًا عن اللغة العربية، وتبتعد عنها أيما بعد صوتيًا وصرفيًا ونحويًا",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الاستعمار الثقافي لا يؤثر على اللغة العربية",
+        "evidence_quote": "يا عزيزي إن العربية قادرة على وصف وتعريب أي مصطلح لأي آلة ولأي تكنية حديثة",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الاستعمار الثقافي يؤثر على اللغة العربية",
+        "evidence_quote": "الدول التي استعمرت الدول العربية سابقًا لم تتركها في حال سبيلها عندما أعطت لها الاستقرار",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "عدم إنشاء مجمعات لتعزيز اللغة العربية يؤثر على تدهورها",
+        "evidence_quote": "من أهم العوامل المساعدة على نشر وحفظ أي لغة هو إنشاء مراكز ذات فعالية وتحرك سريع كبير",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديد تقديم حجج في الرد",
+        "issue": "جلب حجج جديدة في خطاب الرد لا يُحتسب"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الاستعمار الثقافي",
+        "importance": "core",
+        "proposition_side": "لا يؤثر الاستعمار الثقافي على اللغة العربية",
+        "opposition_side": "الاستعمار الثقافي يؤثر على اللغة العربية",
+        "outcome": "opposition",
+        "reasoning": "حجج المعارضة كانت أكثر إقناعًا في هذا الموضوع"
+      },
+      {
+        "clash_point": "خصائص اللهجات العامية",
+        "importance": "core",
+        "proposition_side": "خصائص اللهجات العامية تؤثر على اللغة العربية",
+        "opposition_side": "لا يوجد تأثير للهجات العامية على اللغة العربية",
+        "outcome": "proposition",
+        "reasoning": "حجج الموالاة كانت أكثر إقناعًا في هذا الموضوع"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الموالاة: 72 ، المعارضة: 78",
+      "style": "الموالاة: 75 ، المعارضة: 80",
+      "strategy": "الموالاة: 70 ، المعارضة: 85"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "حجج المعارضة كانت أكثر شمولاً وتأثيرًا",
+          "where": "speech 2, speech 4",
+          "effect": "قلب موازين الحجة لصالح المعارضة في نقاط الاستعمار الثقافي وعدم إنشاء مجمعات لتعزيز اللغة العربية",
+          "evidence_quote": "الدول التي استعمرت الدول العربية سابقًا لم تتركها في حال سبيلها عندما أعطت لها الاستقرار"
+        }
+      ]
+    },
+    "justification": "المعارضة قدمت حججًا أقوى وأشمل، خاصة في موضوع الاستعمار الثقافي وعدم كفاية المجمعات اللغوية العربية. كما نجحت في تفنيد حجج الموالاة بشكل فعال، مما جعلها الفريق الأكثر إقناعًا.",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "جيد في العرض، لكنه لم يغطِ كل الحجج"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 79,
+        "note": "جيد في العرض وغطاء الحجج"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "جيد، لكنه أخطأ في الرد على بعض الحجج"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "ممتاز في العرض و الرد"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 74,
+        "note": "عرض جيد، لكنه لم يغطِ كل الحجج"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 79,
+        "note": "ممتاز في الرد على الحجج"
+      },
+      {
+        "speaker": "المتحدث - الموالاة (الرد)",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "جيد، لكنه لم يغطِ كل الحجج"
+      },
+      {
+        "speaker": "المتحدث - المعارضة (الرد)",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 39,
+        "note": "ممتاز في الرد على الحجج"
+      }
+    ],
+    "best_speaker": "المتحدث الثاني - المعارضة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "العرض الجيد للحجج اللغوية"
+        ],
+        "improvements": [
+          "تحسين الرد على حجج المعارضة، وتقديم حجج أكثر شمولاً"
+        ],
+        "recommendations": [
+          "التركيز على نقاط الضعف في حجج المعارضة، وتقديم حلول عملية"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "العرض الشامل للحجج، والتفنيج الفعال لحجج الموالاة"
+        ],
+        "improvements": [
+          "تحسين العرض والوضوح في بعض النقاط"
+        ],
+        "recommendations": [
+          "التركيز على نقاط القوة في حجج الموالاة، وتقديم حجج أكثر إقناعًا"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "لا توجد مشاكل في النص"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 2,
+      "match_ratio": 0.4,
+      "unverified_quotes": [
+        "خصائص اللهجات العامية تختلف كثيرًا عن اللغة العربية، وتبتعد عنها أيما بعد صوتيًا وصرفيًا ونحويًا",
+        "الدول التي استعمرت الدول العربية سابقًا لم تتركها في حال سبيلها عندما أعطت لها الاستقرار",
+        "الدول التي استعمرت الدول العربية سابقًا لم تتركها في حال سبيلها عندما أعطت لها الاستقرار"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 264,
+      "opposition": 279
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14402,
+        "output": 1923
+      }
+    ]
+  }
+}

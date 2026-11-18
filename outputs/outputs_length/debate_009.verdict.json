@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_009",
+  "motion": "سيعطي هذا المجلس الاولويه في التبرع بالاعضاء لمن يمارس اسلوبا صحيا سليما",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.059,
+    "justification": "main_words: proposition=2257, opposition=2540"
+  },
+  "features": {
+    "proposition": 2257.0,
+    "opposition": 2540.0,
+    "tie": false
+  }
+}

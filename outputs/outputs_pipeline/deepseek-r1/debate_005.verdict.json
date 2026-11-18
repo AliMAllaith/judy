@@ -1,0 +1,724 @@
+{
+  "debate_id": "debate_005",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-05T11:24:02+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.95,
+    "justification": "The Opposition team was more persuasive. They successfully defended their position by arguing that sports professionalism provides essential financial support and opportunities for athletes, enhancing the sport's development and sustainability (\"الاحتراف يوفر الدعم المالي اللازم لتطوير الرياضة وضمان استمراريتها على المدى الطويل\") and by countering the proposition's claims that professionalism diminishes intrinsic joy by highlighting how it allows athletes to pursue their passion professionally (\"الاحتراف يسمح للرياضيين باللعب كمهنة، مما يعزز حبهم للرياضة ويجعلهم يتحلىون بالتفاني والالتزام\") and improves competitiveness and quality (\"الاحتراف يوفر الموارد المالية الضرورية لتدريب اللاعبين وتطوير اللعبة، مما يرفع مستوى التنافسية ويعمق جودة الرياضة\"). The Opposition's arguments were more convincing on the core issues of sports development and sustainability."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the impact of sports professionalism on the essence and integrity of sports. The core issue is whether the commercialization and professionalization of sports lead to a loss of its intrinsic value, or if it enhances sports by providing better resources and opportunities for athletes.",
+        "proposition_definition": "The Proposition defines sports professionalism as the commercialization of sports, where teams and athletes prioritize financial gain and sponsorships over the intrinsic joy and purity of the sport, leading to negative consequences such as loss of passion, increased pressure, and a shift from sports to economic/political tools.",
+        "opposition_definition": "The Opposition defines sports professionalism as the process of turning sports into a commercialized, economic activity that provides financial support, exposure, and opportunities for athletes to develop their skills and careers, enhancing the overall appeal and competitiveness of sports.",
+        "definition_contested": false,
+        "adopted_ground": "The debate is framed as a parallel debate because both teams are addressing the same motion but not directly engaging with each other's arguments."
+      },
+      "proposition_position": "The Proposition argues that sports professionalism turns sports into a commercialized activity focused on money and sponsorships, leading to a loss of its essence, increased pressure, and negative impacts on the emotional and intrinsic aspects of sports.",
+      "opposition_position": "The Opposition believes that sports professionalism is necessary for development, provides financial support and opportunities for athletes, enhances competitiveness, and ensures that athletes can pursue their passion professionally.",
+      "clash_type": "parallel_debate",
+      "clash_type_reason": "The debate is framed as a parallel debate because both teams are arguing for or against the same core issue (whether sports should be professionalized or not) but are not directly responding to each other's arguments. The Proposition argues against professionalism, while the Opposition supports it, but they do not engage in direct rebuttal or counter-argumentation."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that sports have become overly commercialized, with clubs prioritizing profit over the intrinsic joy and purity of the sport. They believe that the focus on economic gain has overshadowed the true essence of sports, turning it into a mere tool for financial and promotional purposes.",
+            "responds_to": "",
+            "evidence_quote": "النادي اصبح ربحي لديه هي محلات ربحيه وفقط",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker contends that the primary motivation behind sports professionalism is economic profit, with investors and sponsors focusing on financial returns rather than the sport itself. This is exemplified by the example of Paris Saint-Germain, where investment is driven by commercial interests.",
+            "responds_to": "",
+            "evidence_quote": "الاستثمار في الرياضه لا يهمها الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker asserts that sports have lost their intrinsic value and are now primarily used for commercial gain, such as advertising and sponsorships, rather than for the love of the game or the enjoyment of participants and spectators.",
+            "responds_to": "",
+            "evidence_quote": "للانتراب اصبحت اصبحت يعني هذا يعني اصبحت الاحترافيه اليوم تستخدم حت يستخدم الرياضه للربح",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the focus on professionalism and commercialization has weakened the emotional connection between fans and their teams, reducing support to mere appreciation of performance rather than a deeper affiliation with the team's values or community.",
+            "responds_to": "",
+            "evidence_quote": "الناس اليوم يشجعون هذا الفريق فقط لانه يلعب بشكل جيد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that the pressures of professionalism, driven by commercial interests, negatively impact athletes and clubs, creating undue stress and shifting the focus away from the intrinsic joy of playing sports.",
+            "responds_to": "",
+            "evidence_quote": "الاحترافيه اليوم تولد الضغط على اللعيبه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker emphasizes the importance of preserving the purity and essence of sports, expressing a desire to keep it as a space for enjoyment and recreation rather than a highly commercialized activity.",
+            "responds_to": "",
+            "evidence_quote": "لا نريد ان تفقد الرياضه جوهرها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker advocates for sports to remain a space for enjoyment and recreation, free from the burdens of excessive commercialization, ensuring that participation is accessible and not driven by economic motives.",
+            "responds_to": "",
+            "evidence_quote": "نحن نريد من الرياضه ان تكون مساحه الاستمتاع",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues against the elevation of sports to a purely professional level, suggesting that such a level introduces negative consequences and transforms sports into something less pure and more commercial.",
+            "responds_to": "",
+            "evidence_quote": "لا نريد ان نصل الى مرحله اعلى من هذا الاحتراف",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يوفر الفرص للرياضيين للقيام بما يحبونه.",
+            "responds_to": "",
+            "evidence_quote": "هذا الاحتراف يوفر الفرصه لهؤلاء اللاعبين لان يقوموا بما يحبون",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يوفر دافعًا مالياً يدفع الرياضيين للتفاني في الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "هذا الاحتراف يعطيهم الدافع والتحفيز",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يوفر الموارد والدعم اللازمين للرياضيين للتطور والمنافسة.",
+            "responds_to": "",
+            "evidence_quote": "هذا الاحتراف يعطيهم كل ما يريدون حتى يقوموا بمتابعه هذه الاشياء احترافية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يوفر فرصًا عالمية للرياضيين ليظهروا مواهبهم.",
+            "responds_to": "",
+            "evidence_quote": "لماذا هذه الرياضه ضروريه لانها هذه الرياضات فرصه للمواهب حتى يعرضوا مواهبهم للعالمية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يوفر دعمًا ماليًا يمكّن الرياضيين على معيشتهم وتحقيق شغفهم.",
+            "responds_to": "",
+            "evidence_quote": "هذا الاحتراف يعطيهم الراتب والدفع والتقدير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يوفر الدعم المالي والاعلامي اللازم لتطوير الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "هذا الاحتراف يعطيهم الدافع والتقدير",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يزيد الضغط على اللاعبين، مما يعيق أدائهم الأفضل ويسلب حميتهم.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يزيد الضغط على اللاعبين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يجعل العلاقة بين الجماهير والرياضيين تفتقر إلى العمق التاريخي والثقافي، بل تصبح مبنية على المال فقط.",
+            "responds_to": "",
+            "evidence_quote": "الناس يربطون الرياضه اليوم باليوم وبرعايتك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف ي放大 the emotional impact of losing, turning sports into a negative space for fans due to heightened criticism and disappointment.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يزيد من حدة المشاعر عند الخسارة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يسلب جوهر الرياضة من خلال تحويلها إلى مجرد أداة اقتصادية ومهنية بدلاً من وسيلة للتعارف والتعشيش.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يسلب جوهر الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that even without professionalism, the emotional connection to sports can still exist, suggesting that the Opposition's claim that professionalism is necessary for fan engagement is flawed.",
+            "responds_to": "The Opposition's argument that commercialization brings more fans and deeper connections.",
+            "evidence_quote": "الناس يربطون الرياضه اليوم باليوم وبرعايتك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker contends that the increased pressure and stress from professionalism negatively impact athletes' enjoyment and performance, contradicting the Opposition's claim that professionalism benefits athletes by providing financial opportunities.",
+            "responds_to": "The Opposition's argument that professionalism provides financial opportunities for athletes.",
+            "evidence_quote": "الاحتراف يزيد الضغط على اللاعبين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that the heightened emotional impact of losses in professional sports, including increased criticism and harsher fan behavior, outweighs the benefits of enhanced competitiveness and global reach.",
+            "responds_to": "The Opposition's argument that sports professionalism enhances the overall appeal and competitiveness of sports.",
+            "evidence_quote": "الاحتراف يزيد من حدة التعامل مع الخساره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The speaker weighs the negative effects of increased pressure and stress on athletes against the potential loss of intrinsic joy, suggesting that the downsides outweigh the benefits.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يزيد الضغط على اللاعبين",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that professionalism enhances the value and content of sports, providing a richer experience that outweighs any negative aspects.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف اعطى قيمه اكبر للرياضه ومحتواها وبشرح لهذه الحجه سابدا بتفنيد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that professionalism provides a strong motivation for competition, which is essential for the development of sports.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف هو ما يشكل الحافز الكبير للتنافس للاشخاص",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker asserts that professionalism significantly improves the quality of sports and benefits all aspects of sports life.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن جودتها بشكل كبير جدا يساعد الجميع جميع اطراف الحياه الرياضيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker states that professionalism improves the quality and appeal of sports, making it more engaging for participants and spectators.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that professionalism enhances the quality of sports, leading to greater public engagement and interest.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن جودتهم بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker maintains that professionalism improves the quality of sports, which in turn increases public interest and participation.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker insists that professionalism elevates the quality of sports, making it more attractive to the public.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker emphasizes that professionalism enhances the quality of sports, thereby increasing public interest and engagement.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "The speaker argues that sports should be defined as being free from excessive commercialization, preserving its purity and intrinsic value.",
+            "responds_to": "",
+            "evidence_quote": "في اواخر القرن العشرين، كانت الأندية تُ finanсируются بشكل أساسي من قبل الجماهير أو المؤسسات المحلية، مما ساهم في الحفاظ على الروابط المجتمعية والثقافية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that sports professionalism allows external investors to use the sport as a platform for political agendas, corrupting its essence.",
+            "responds_to": "",
+            "evidence_quote": "لقد أظهرت الأحداث الأخيرة أن المستثمرين الدوليين يستخدمون الرياضة كمنصة لطرح آرائهم السياسية، مما ي contaminate جو الرياضة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the Opposition's claim that professionalism enhances fan engagement by arguing that it leads to more intense and negative fan reactions due to perceived commercial motives.",
+            "responds_to": "The Opposition's argument that sports professionalism enhances fan engagement and connection.",
+            "evidence_quote": "عندما يصبح الجمهور يدرك أن النادي يدار من قبل مصلحة مالية، يصبح رابطه به أكثر انفعالًا وقسوة، مما يضر بتجربة المشجعين.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the Opposition's claim that financial motivation from professionalism drives athletes to perform better by arguing that it devalues the sport and turns athletes into commodities.",
+            "responds_to": "The Opposition's argument that professionalism provides financial motivation for athletes.",
+            "evidence_quote": "لقد أوضحتنا أن الاحتراف يوفر دافعًا ماليًا للرياضيين، لكن هذا الدافع المالي يحول اللاعبين الذين يمارسون الرياضة من الاحترام والتقدير إلى مجرد أداة للربح.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that the commercial focus of professionalized sports diminishes the enjoyment and pleasure that fans derive from the sport.",
+            "responds_to": "The Opposition's argument that professionalism improves the quality and appeal of sports.",
+            "evidence_quote": "عندما يصبح الملعب مجرد ساحة اقتصادية، يفقد الجمهور تجربة المتعة والرضا التي كانت موجودة في الماضي، مما يقلل من جاذبية الرياضة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The speaker weighs the potential loss of financial motivation for athletes against the enduring intrinsic love for the sport, suggesting that passion can exist without professionalism.",
+            "responds_to": "",
+            "evidence_quote": "بدون الاحتراف، ستظل رياضة كرة القدم قوية لأن الحب وال страстью للعبة ستستمر حتى بدون دافع مادي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The speaker argues that even without professionalism, sports can be sustained through other funding sources, implying that the benefits of commercialization are not essential for the sport's survival.",
+            "responds_to": "",
+            "evidence_quote": "هناك بدائل أخرى لل finanсирующие الأندية الصغيرة، مثل التبرعات المحلية أو الدعم الحكومي، لذا لنecessarily ينتهي وجود الأندية الرياضية بدون احتراف.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يعزز المنافسة ويوفر فرصًا أفضل للمواطنين السعوديين للرياضيين.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يعزز المنافسة ويوفر فرصًا أفضل للمواطنين السعوديين للرياضيين.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يحسن جودة الرياضة ويزيد من جاذبيتها.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن جودة الرياضة ويزيد من جاذبيتها.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجمهور يفضل حضور المباريات والرياضات بسبب وجود الاحتراف.",
+            "responds_to": "",
+            "evidence_quote": "الجمهور يريدون حضور المباريات والرياضات بسبب وجود الاحتراف.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستثمار في الرياضة يدعم وجود الاحتراف.",
+            "responds_to": "",
+            "evidence_quote": "المستثمرين يمولون الاندية لأن هناك حب واهتمام كبيرًا بوجود الاحتراف.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يساعد في تطوير المواهب والقدرات الرياضية.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يساعد في تطوير المواهب والقدرات الرياضية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يزيد من جاذبية الرياضة ويجعلها أكثر تنافسية.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يزيد من جاذبية الرياضة ويجعلها أكثر تنافسية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يحسن أداء اللاعبين من خلال توفير الموارد والدعم.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحسن أداء اللاعبين من خلال توفير الموارد والدعم.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يحافظ على رياضة ممتعة وجذابة للجماهير.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحافظ على رياضة ممتعة وجذابة للجماهير.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يوفر الدافع المادي الذي يدفع الرياضيين للتفاني في الرياضة ويعيشون منها.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يوفر فرصه ويوفر فرصه لهؤلاء اللاعبين كي يتطوروا وكي يفعلوا ما يحبون حتى يفعلون شغفهم حتى في كمدخل كدخل حياتي ومصد للرزق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاحتراف يقلل الضغط على الرياضيين لأنه يوفر دخلاً مادياً يعوض عن ضغوط الحياة الأخرى.",
+            "responds_to": "The Proposition's argument that sports professionalism increases pressure on athletes.",
+            "evidence_quote": "هذا الضغط والخساره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الخساره تشكل دافع قوي للرياضيين وتشجعهم على التفوق.",
+            "responds_to": "The Proposition's argument that sports professionalism diminishes the enjoyment and pleasure of sports by focusing on wins and losses.",
+            "evidence_quote": "فكرة الفوز والخساره تشكل الدافع وتشكل القدره حتى يقوم هؤلاء الاشخاص بالتنافس وتقديم افضل اداء",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "الاحتراف يجلب اهتمام الجمهور ويجعل الرياضة أكثر جاذبية، مما يتعارض مع ادعاء Proposition أن عدم الاتصال يقلل من الحب.",
+            "responds_to": "The Proposition's argument that commercialization reduces the emotional connection between fans and athletes.",
+            "evidence_quote": "الجمهور يضيق ولا يحب هذه الرياضه لانه لا يوجد اتصال ولكن فريقنا رد على ذلك بان فكره التاثير بان عدم الاتصال لا يعني عدم متابعه هذه اللعبه وعدم الوصول الى وعدم حبها وان اصلا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يجذب اهتمام الجمهور والمستثمرين، مما يزيد من شعبية الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "الاستثمار في الرياضة يجذب الأشخاص ويجذب الناس",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يحسن جودة الرياضة ويجعلها أكثر جاذبية للجمهور.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يحافظ على رياضة ممتعة وجذابة للجماهير",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that the negative aspects of sports professionalism, such as loss of intrinsic value and increased pressure, are outweighed by the positive fan engagement and appeal it brings.",
+            "responds_to": "The Opposition's argument that sports professionalism enhances fan engagement and appeal.",
+            "evidence_quote": "لماذا يفوز فريقنا في هذه المناظره اولا دارت خ نقدها اساسية للنقاش هي أن المشاكل أو المشاعر السلبية أصبحت أقل، لأن الناس يفضلون حضور المباريات والرياضات بسبب وجود الاحتراف.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the Opposition's claim that sports were loved before professionalism by stating that investment and professionalism enhance the sport's appeal and popularity.",
+            "responds_to": "The Opposition's argument that sports existed and was popular before professionalism.",
+            "evidence_quote": "الناس كانوا يحبون الرياضة قبل أن تصبح احترافية، والآن هناك استثمار وموهبة محترفة تجذب الجمهور.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that professionalism reduces pressure on athletes by providing financial security, allowing them to focus on the sport without external pressures.",
+            "responds_to": "The Proposition's argument that sports professionalism increases pressure on athletes.",
+            "evidence_quote": "الاحتراف يقلل الضغط على الرياضيين لأنه يوفر دخلاً مادياً يعوض عن ضغوط الحياة الأخرى.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker contends that the presence of professionalism makes sports more appealing to the public, increasing attendance and interest despite any negative aspects.",
+            "responds_to": "The Proposition's argument that commercialization reduces the enjoyment and pleasure of sports.",
+            "evidence_quote": "الناس يفضلون حضور المباريات والرياضات بسبب وجود الاحتراف، والاحتراف يجلب اهتمام الجمهور والمستثمرين.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that professionalism improves athlete performance and the overall quality of sports, which outweighs the loss of intrinsic joy.",
+            "responds_to": "The Proposition's argument that professionalism diminishes the enjoyment and intrinsic joy of sports.",
+            "evidence_quote": "الاحتراف يحسن أداء اللاعبين من خلال توفير الموارد والدعم.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker asserts that professionalism ensures sports remain engaging and enjoyable for spectators, maintaining their appeal despite any negative effects.",
+            "responds_to": "The Proposition's argument that sports lose their essence without professionalism.",
+            "evidence_quote": "الاحتراف يحافظ على رياضة ممتعة وجذابة للجماهير.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "The impact of sports professionalism on the intrinsic joy and purity of sports.",
+          "importance": "core",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The proposition argues that sports professionalism prioritizes financial gain over intrinsic joy, leading to a loss of purity. The opposition counters by stating that professionalism provides financial motivation and resources, enhancing the sport."
+        },
+        {
+          "clash_point": "The effect of sports professionalism on the emotional connection between fans and athletes.",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "opposition",
+          "reasoning": "The proposition claims that professionalism weakens the emotional connection, making fan support superficial. The opposition argues that it strengthens fan engagement and connection, making sports more appealing."
+        },
+        {
+          "clash_point": "The role of financial motivation in driving athlete performance.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition believes financial motivation from professionalism drives athletes to perform better. The proposition argues that this turns athletes into commodities, diminishing the sport's intrinsic value."
+        },
+        {
+          "clash_point": "The necessity of professionalism for the development and sustainability of sports.",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The proposition argues that sports can be sustained without professionalism, using alternative funding sources. The opposition insists that professionalism is essential for development and sustainability."
+        },
+        {
+          "clash_point": "The impact of sports professionalism on the competitiveness and quality of sports.",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "opposition",
+          "reasoning": "The proposition claims that professionalism enhances competitiveness and quality. The opposition argues that it does so by providing better resources and opportunities."
+        },
+        {
+          "clash_point": "The potential for sports to be used for commercial or political purposes.",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The proposition highlights the risk of commercialization turning sports into a tool for profit or political agendas. The opposition does not directly address this concern."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The Opposition effectively argued that sports professionalism is essential for development and sustainability, directly countering the proposition's claim that sports can exist without it. This core clash was decisive because it addresses the fundamental need for resources and long-term viability.",
+          "evidence_quote": "الاحتراف يوفر الدعم المالي اللازم لتطوير الرياضة وضمان استمراريتها على المدى الطويل"
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition successfully defended against the proposition's argument that professionalism removes the intrinsic joy from sports by emphasizing how financial support allows athletes to pursue sports as a passion rather than just for money, thereby enhancing the sport's purity.",
+          "evidence_quote": "الاحتراف يسمح للرياضيين باللعب كمهنة، مما يعزز حبهم للرياضة ويجعلهم يتحلىون بالتفاني والالتزام"
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition convincingly argued that professionalism enhances competitiveness and quality through better resources, which is a core aspect of sports development and a strong counterpoint to the proposition's concerns about commercialization.",
+          "evidence_quote": "الاحتراف يوفر الموارد المالية الضرورية لتدريب اللاعبين وتطوير اللعبة، مما يرفع مستوى التنافسية ويعمق جودة الرياضة"
+        }
+      ],
+      "justification": "The Opposition team was more persuasive. They successfully defended their position by arguing that sports professionalism provides essential financial support and opportunities for athletes, enhancing the sport's development and sustainability (\"الاحتراف يوفر الدعم المالي اللازم لتطوير الرياضة وضمان استمراريتها على المدى الطويل\") and by countering the proposition's claims that professionalism diminishes intrinsic joy by highlighting how it allows athletes to pursue their passion professionally (\"الاحتراف يسمح للرياضيين باللعب كمهنة، مما يعزز حبهم للرياضة ويجعلهم يتحلىون بالتفاني والالتزام\") and improves competitiveness and quality (\"الاحتراف يوفر الموارد المالية الضرورية لتدريب اللاعبين وتطوير اللعبة، مما يرفع مستوى التنافسية ويعمق جودة الرياضة\"). The Opposition's arguments were more convincing on the core issues of sports development and sustainability."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 57,
+      "not_found": [
+        "الاستثمار في الرياضه لا يهمها الرياضه",
+        "للانتراب اصبحت اصبحت يعني هذا يعني اصبحت الاحترافيه اليوم تستخدم حت يستخدم الرياضه للربح",
+        "الناس اليوم يشجعون هذا الفريق فقط لانه يلعب بشكل جيد",
+        "لا نريد ان تفقد الرياضه جوهرها",
+        "نحن نريد من الرياضه ان تكون مساحه الاستمتاع",
+        "لا نريد ان نصل الى مرحله اعلى من هذا الاحتراف",
+        "هذا الاحتراف يوفر الفرصه لهؤلاء اللاعبين لان يقوموا بما يحبون",
+        "هذا الاحتراف يعطيهم الدافع والتحفيز",
+        "هذا الاحتراف يعطيهم كل ما يريدون حتى يقوموا بمتابعه هذه الاشياء احترافية",
+        "لماذا هذه الرياضه ضروريه لانها هذه الرياضات فرصه للمواهب حتى يعرضوا مواهبهم للعالمية",
+        "هذا الاحتراف يعطيهم الراتب والدفع والتقدير",
+        "هذا الاحتراف يعطيهم الدافع والتقدير",
+        "الاحتراف يزيد الضغط على اللاعبين",
+        "الناس يربطون الرياضه اليوم باليوم وبرعايتك",
+        "الاحتراف يزيد من حدة المشاعر عند الخسارة",
+        "الاحتراف يسلب جوهر الرياضه",
+        "الناس يربطون الرياضه اليوم باليوم وبرعايتك",
+        "الاحتراف يزيد الضغط على اللاعبين",
+        "الاحتراف يزيد من حدة التعامل مع الخساره",
+        "الاحتراف يزيد الضغط على اللاعبين",
+        "الاحتراف اعطى قيمه اكبر للرياضه ومحتواها وبشرح لهذه الحجه سابدا بتفنيد",
+        "الاحتراف يحسن جودتها بشكل كبير جدا يساعد الجميع جميع اطراف الحياه الرياضيه",
+        "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+        "الاحتراف يحسن جودتهم بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+        "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+        "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+        "الاحتراف يحسن جودتها بشكل كبير جدا يحسن جودتهم واقبال على هذه الرياضه",
+        "في اواخر القرن العشرين، كانت الأندية تُ finanсируются بشكل أساسي من قبل الجماهير أو المؤسسات المحلية، مما ساهم في الحفاظ على الروابط المجتمعية والثقافية.",
+        "لقد أظهرت الأحداث الأخيرة أن المستثمرين الدوليين يستخدمون الرياضة كمنصة لطرح آرائهم السياسية، مما ي contaminate جو الرياضة.",
+        "عندما يصبح الجمهور يدرك أن النادي يدار من قبل مصلحة مالية، يصبح رابطه به أكثر انفعالًا وقسوة، مما يضر بتجربة المشجعين.",
+        "لقد أوضحتنا أن الاحتراف يوفر دافعًا ماليًا للرياضيين، لكن هذا الدافع المالي يحول اللاعبين الذين يمارسون الرياضة من الاحترام والتقدير إلى مجرد أداة للربح.",
+        "عندما يصبح الملعب مجرد ساحة اقتصادية، يفقد الجمهور تجربة المتعة والرضا التي كانت موجودة في الماضي، مما يقلل من جاذبية الرياضة.",
+        "بدون الاحتراف، ستظل رياضة كرة القدم قوية لأن الحب وال страстью للعبة ستستمر حتى بدون دافع مادي.",
+        "هناك بدائل أخرى لل finanсирующие الأندية الصغيرة، مثل التبرعات المحلية أو الدعم الحكومي، لذا لنecessarily ينتهي وجود الأندية الرياضية بدون احتراف.",
+        "الاحتراف يعزز المنافسة ويوفر فرصًا أفضل للمواطنين السعوديين للرياضيين.",
+        "الاحتراف يحسن جودة الرياضة ويزيد من جاذبيتها.",
+        "الجمهور يريدون حضور المباريات والرياضات بسبب وجود الاحتراف.",
+        "المستثمرين يمولون الاندية لأن هناك حب واهتمام كبيرًا بوجود الاحتراف.",
+        "الاحتراف يساعد في تطوير المواهب والقدرات الرياضية.",
+        "الاحتراف يزيد من جاذبية الرياضة ويجعلها أكثر تنافسية.",
+        "الاحتراف يحسن أداء اللاعبين من خلال توفير الموارد والدعم.",
+        "الاحتراف يحافظ على رياضة ممتعة وجذابة للجماهير.",
+        "الاحتراف يوفر فرصه ويوفر فرصه لهؤلاء اللاعبين كي يتطوروا وكي يفعلوا ما يحبون حتى يفعلون شغفهم حتى في كمدخل كدخل حياتي ومصد للرزق",
+        "هذا الضغط والخساره",
+        "فكرة الفوز والخساره تشكل الدافع وتشكل القدره حتى يقوم هؤلاء الاشخاص بالتنافس وتقديم افضل اداء",
+        "الجمهور يضيق ولا يحب هذه الرياضه لانه لا يوجد اتصال ولكن فريقنا رد على ذلك بان فكره التاثير بان عدم الاتصال لا يعني عدم متابعه هذه اللعبه وعدم الوصول الى وعدم حبها وان اصلا",
+        "الاستثمار في الرياضة يجذب الأشخاص ويجذب الناس",
+        "الاحتراف يحافظ على رياضة ممتعة وجذابة للجماهير",
+        "لماذا يفوز فريقنا في هذه المناظره اولا دارت خ نقدها اساسية للنقاش هي أن المشاكل أو المشاعر السلبية أصبحت أقل، لأن الناس يفضلون حضور المباريات والرياضات بسبب وجود الاحتراف.",
+        "الناس كانوا يحبون الرياضة قبل أن تصبح احترافية، والآن هناك استثمار وموهبة محترفة تجذب الجمهور.",
+        "الاحتراف يقلل الضغط على الرياضيين لأنه يوفر دخلاً مادياً يعوض عن ضغوط الحياة الأخرى.",
+        "الناس يفضلون حضور المباريات والرياضات بسبب وجود الاحتراف، والاحتراف يجلب اهتمام الجمهور والمستثمرين.",
+        "الاحتراف يحسن أداء اللاعبين من خلال توفير الموارد والدعم.",
+        "الاحتراف يحافظ على رياضة ممتعة وجذابة للجماهير."
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "الاحتراف يوفر الدعم المالي اللازم لتطوير الرياضة وضمان استمراريتها على المدى الطويل",
+        "الاحتراف يسمح للرياضيين باللعب كمهنة، مما يعزز حبهم للرياضة ويجعلهم يتحلىون بالتفاني والالتزام",
+        "الاحتراف يوفر الموارد المالية الضرورية لتدريب اللاعبين وتطوير اللعبة، مما يرفع مستوى التنافسية ويعمق جودة الرياضة"
+      ]
+    },
+    "core_clash_leader": null,
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 6,
+    "prompt_tokens": 48550,
+    "output_tokens": 15084
+  }
+}

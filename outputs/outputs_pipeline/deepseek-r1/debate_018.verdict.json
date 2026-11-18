@@ -1,0 +1,764 @@
+{
+  "debate_id": "debate_018",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-11T11:49:54+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "narrow",
+    "confidence": 0.95,
+    "justification": "لقد قدم فريق الموافقة (الموالاة) أقوى حجج تأثيرية لصالح Motion، حيث نجح في إقناع المستمع العقلاني بأن حق الشعب في تقرير مصيره هو الأساس الذي يجب أن يحكم قرار الحرب. استخدموا الاقتباس الدقيق \"الموالاة ترى أن إجراء استفتاء شعبي قبل إعلان الحرب ضروري لضمان أن الشعب هو من يتحمل مخاطرها ويعبر عن رغبته الحقيقية فيها\"، مما يسلط الضوء على فكرة أن الشعب هو من يتحمل مخاطر الحرب ويعبر عن رغبته، وهو ما ينطبق بشكل واضح على منظور المستمع العقلاني الذي يقدر الحقوق الأساسية والشفافية. بينما فريق المعارض (المعارضة) قد نجح في بعض النقاط الثانوية، مثل \"المعارضة ترى أن من يحدد إرادة الشعب وقرارات الحرب هم المختصون مثل البرلمان، ليس الشعب بشكل عام\"، لكنهم لم يحققوا فوزًا م decisif في النقاط الأساسية التي تتعلق بحق الشعب في اتخاذ القرار. النقطة الأساسية \"حق الشعب في تقرير مصيره\" كانت لصالح Proposition، مما جعل فريقهم أكثر إقناعًا في توجه Motion."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "القضية تتناول مشكلة اندلاع الحروب في ظل إمكانية تعارضها مع إرادة الشعوب واستعدادها لها، بهدف تفادي ذلك وضمان نجاح الحروب.",
+        "proposition_definition": "الدول هي كيانات سياسية تمثلها المؤسسات المختلفة، والشعوب هي التي يجب أن تقرر مصيرها، بما في ذلك دخولها في حروب، استنادًا إلى حقوق الإنسان والديمقراطية. الاستفتاء الشعبي ضروري لضمان أن الشعب هو من يتحمل مخاطر الحرب ويعبر عن رغبته الحقيقية فيه، مما يساعد على تحقيق الاستقرار والاستعداد اللازم للحرب وتجنب خسائرها غير الضرورية.",
+        "opposition_definition": "لا يوجد تعريف معارض للقضية من قبل Proposition.",
+        "definition_contested": false,
+        "adopted_ground": "القضية تتمحور حول إجراء استفتاء شعبي قبل إعلان الحرب، بهدف تفادي الحروب التي تعارض إرادة الشعب وتضر بالدول، وضمان نجاح هذه الحروب في حال إعلانها."
+      },
+      "proposition_position": "الموالاة ترى أن إجراء استفتاء شعبي قبل إعلان الحرب ضروري لضمان أن الشعب هو من يتحمل مخاطرها ويعبر عن رغبته الحقيقية فيها. هذا يساعد على تحقيق الاستقرار والاستعداد اللازم للحرب وتجنب خسائرها غير الضرورية.",
+      "opposition_position": "المعارضة ترى أن من يحدد إرادة الشعب وقرارات الحرب هم المختصون مثل البرلمان، وليس الشعب بشكل عام. لأن الشعب قد لا يكون لديه المعلومات والخبرات الكافية لاتخاذ قرارات حربية صحيحة، بينما البرلمان يمثل الشعب ويدرس الوضع الحالي والحاجات الضرورية قبل اتخاذ القرار.",
+      "clash_type": "mixed",
+      "clash_type_reason": "الجانبان يحتككان في نقاط متعددة، حيث يركز Proposition على الجانب الحقوقي والتمثيل الشعبي، بينما يركز Opposition على فكرة تخصص القرار لمؤسسات مثل البرلمان. هناك تداخل في الأفكار لكنهما يختلفان في طريقة تطبيقها ودور الشعب في اتخاذ القرارات."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "القضية تتناول إجراء استفتاء شعبي قبل إعلان الحرب بهدف تفادي الحروب غير المرغوب فيها وتضمن نجاحها، وهذا يعكس واقعًا أن الشعوب تقررن مصيرها في حالات الحرب.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "الحروب يا ساده تحدد هنا مصير الدول ومصير الشعوب باسرها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الحاكم دور أساسي في تمثيل إرادة الشعب وتعبيره عن رغباته، لذا يجب أن يمثل الشعب في قرارات الحرب.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "ان الحاكمه دوره الاساسي هو تمثيل اراده الشعب والتعبير عن رغباته",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الشعوب لديها حق في تقرير مصيرها، وهذا يشمل قرارات الحرب والسلام.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "العناصر التي تقرير مصيرها بنفسها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي ضروري لأنه يضمن أن الشعب يتحمل مخاطر الحرب ويقرر مصيره، وهذا يعكس فصل حقوق الإنسان في الاعلان العالمي لحقوق الإنسان.",
+            "responds_to": "",
+            "evidence_quote": "الاعلان العالمي لحقوق الانسان حيث ان كل ما الى هذا الاعلان ففي فصله الثاني ينص على حق الشعوب في تقرير مصيرها بنفسها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعلان العالمي لحقوق الإنسان يدعم حق الشعوب في تقرير مصيرها، وهذا يشكل أساسًا قويًا لضرورة إجراء استفتاء شعبي قبل الحرب.",
+            "responds_to": "",
+            "evidence_quote": "العناصر التي تقرير مصيرها بنفسها وهذا فصل كامل متكامل مستقل بذاتهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحاكم يجب أن يمثل الشعب في قرارات الحرب، وهذا يضمن أن تكون الحرب قرارًا شعبيًا وليس حكوميًا.",
+            "responds_to": "",
+            "evidence_quote": "العناصر التي تقرير مصيرها بنفسها ومن جهه اخرى حق الشعب في اختيار من ينوبه لماذا كي يمثله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانب الحقوقى من القضية يعتمد على الاعلان العالمي لحقوق الإنسان، الذي ينص على حق الشعب في تقرير مصيره وانتخاب من يمثله.",
+            "responds_to": "",
+            "evidence_quote": "العناصر التي تقرير مصيرها بنفسها وهذا فصل اخر من الاعلان العالمي لحقوق الانسان وبذلك نكون من خلال الجانب الحقوق بيننا مسالتين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "القضية تتمحور حول حق الشعب في تقرير مصيره، وهذا جانب أساسي من أطراف حجاجنا.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "العناصر التي تقرير مصيرها بنفسها وهذا يحول لي الذهاب الى المجال عفوا مجال حجاجنا فساتحدث انك متحدث اول بدأ عن جانب الحقوق",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "القضية تتناول إجراء استفتاء شعبي قبل إعلان الحرب بهدف تفادي الحروب غير المرغوب فيها وتضمن نجاحها، وهذا يعكس واقعًا أن الشعوب تقررن مصيرها في حالات الحرب.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "الحروب موجوده ومتعارض مع اراده الشعوب واستعدادها لها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الحاكم دور أساسي في تمثيل إرادة الشعب وتعبيره عن رغباته، لذا يجب أن يمثل الشعب في قرارات الحرب.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "من يحدد الاراده ومن يحدد الاستعداد هو عامه الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعلان العالمي لحقوق الإنسان يدعم حق الشعوب في تقرير مصيرهم، وهذا يشكل أساسًا قويًا لضرورة إجراء استفتاء شعبي قبل الحرب.",
+            "responds_to": "",
+            "evidence_quote": "الاعلام العالمي لحقوق الانسان على حق اختيار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحاكم وظيفته هي إدارة شؤون البلاد بالصالح العام، بما يتوافق مع البرلمان الذي يمثل الشعب.",
+            "responds_to": "",
+            "evidence_quote": "الحاكم وظيفته هو تنفيذ رغبه الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "العوامل المؤثرة على قرار الحرب تشمل الدراسة بالاعدادات، الدراسة بالاراده، الدراسة بوضع البلد الحالي، والدراسة بالمخاطر التي تهدد هذا الشعب.",
+            "responds_to": "",
+            "evidence_quote": "العوامل التي تؤثر على البرلمانيين او المختصين باتخاذ قرار الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان لديه القدرة على دراسة متى يمكن تنفيذ الحرب ومدى صلاحيتها.",
+            "responds_to": "",
+            "evidence_quote": "لديه متى قدره هذه الحرب ومدى صلاحيتها من عدمه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان لديه القدرة على حساب المنافع والتكاليف قبل اتخاذ قرار الحرب.",
+            "responds_to": "",
+            "evidence_quote": "لديه فكره المباده",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان لديه القدرة على تفكير في نجاح الحرب قبل اعلانها.",
+            "responds_to": "",
+            "evidence_quote": "لديه قدره على فكره النجاح من عدمه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "البرلمان هو ممثل الشعب، لكنه يتألف من مجموعة أشخاص وليس شاملاً للجميع.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان هو شخص ممثل عنه مجموعه اشخاص",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الشعب هو صاحب القرار النهائي في الحرب، حتى مع تأثيرات الإعلام أو غيرها.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الشعب هو صاحب القرار رغم كل المؤثرات عليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب هي مسؤولية الشعب، وليس الحكومة وحدها.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحرب ليست حرب حكومات، الحرب هي حرب الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعب هو الذي يتحمل التبعات الاقتصادية والاجتماعية للحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الشعب سيتحمل التبعات في النهاية، سواء كانت ضرائب أو عقوبات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تُعتبر تضحيه، وفشلها سيؤثر سلباً على الشعب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحرب قبل كل شيء هي تضحيه، وان لم تنجح فإن الشعب لن يتحمل هذه الخسارة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تدمر المجتمعات وطبيعة حياتها.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحرب مدمرة للشعوب في حد ذاتها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب قد تحقق أهدافها أو تخسر، وهذا يتطلب دراسة.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحرب في اصلها مساعدة، ولكنها يمكن أن تخسر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى عقوبات وقيود تؤثر على الشعب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الشعب هو الذي سيعاني من حظر مثلاً بعد الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "البرلمان يمثل جميع الأصوات بشكل متساوٍ، بينما الاستفتاء الشعبي يمثل الأغلبية فقط.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان يتم تصويت جميع يتم تمثيل جميع الاصوات بالتساوي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تتطلب قرارات حازمة وسريعة، ولا يمكن أن تتخذ بشكل جماعي من خلال الاستفتاء الشعبي.",
+            "responds_to": "",
+            "evidence_quote": "الحروب ليست لعبه وهذا بالضبط ما نحن عقوله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرارات المتعلقة بالحرب يجب أن تتخذ من قبل خبراء وليس من خلال الاستفتاء الشعبي.",
+            "responds_to": "",
+            "evidence_quote": "الحروب ليست لعبه لذلك يجب ان تكون يكونDecision في ايدي مختصين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان يأخذ في الاعتبار عوامل متعددة عند اتخاذ قرار الحرب، مما يضمن قرارًا واعيًا.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان الاعتبار العديد من نقاط يضع في عين الاعتبار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي يتطلب موارد إعلامية كبيرة، مما قد يؤثر على صحة القرار.",
+            "responds_to": "",
+            "evidence_quote": "الاستفتاء الشعبي يتطلب دعايه مهوله ويتطلب توجيه هو توجيه من بان بامكانه ان يقوم بالترويج والدعايه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تجذب اهتمام الشركات والأفراد الذين قد يحاولون التأثير على نتائج الاستفتاء.",
+            "responds_to": "",
+            "evidence_quote": "الحروب غالبا الشركات المستفيده من الحروب مثل الان ار اي مثلا في امريكا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي يزيد من تعقيد وسوء قرار الحرب بسبب التأثيرات الخارجية.",
+            "responds_to": "",
+            "evidence_quote": "الوضع سيزداد سوءا لان باختصار مثل ما وضحت الفرق ما بين الاستفتاء والبرلمان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تدمر المجتمعات وطبيعة حياتها، لذا يجب أن يكون قرارها دقيقًا.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحرب تدمر المجتمعات وطبيعة حياتها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "الحرب هي مسؤولية الشعب، وليس الحكومة وحدها.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الشعب هو صاحب القرار النهائي في الحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تُعتبر تضحيه، وفشلها سيؤثر سلباً على الشعب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تدمر المجتمعات وطبيعة حياتها.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى عقوبات وقيود تؤثر على الشعب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى ضغوط نفسية واجتماعية على المجتمع.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى تدمير البنية التحتية للمجتمع.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "البرلمان ممثل الشعب، ويصدر قرار الحرب دون الحاجة لاستفتاء شعبي.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان هو الذي يقوم باعلان هذا القرار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الحرب هي قرار حتمي يحدد مصير الدول والشعوب، ويجب أن يصدر عن متخصصين وليس عن عام.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحرب تحدد مصير الدول والشعوب وليست مجرد عمليه استثمار او ما شابه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان لديه القدرة على دراسة متطلبات الحرب بشكل شامل ودقيق.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان يدرس الاوضاع والحالات الدوله ويضع الحلول اللازمه بعد دراسه مطوله للمعطيات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان ملم بالوضع الحالي للدولة وراي العام، مما يجعله أكثر كفاءة في اتخاذ قرار الحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان يعلم بالراي العام والوضع الحالي في الدوله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان هو ممثل لارادة الشعب، ويجب أن يتحمل مسؤولية قرار الحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان يمثل اراده الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء الشعبي قد يؤدي إلى تشتت الرأي وتعقيد القرارات.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "الاستفتاء الشعبي سيخلخل ذلك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان قد لا يكون مختصًا في قرارات الحرب، لأنها لم تكن جزءًا من برنامجه الانتخابي.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان لم يكن في برنامجه الانتخابي انه سيقوم باعلان الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان قد لا يكون قادرًا على تقييم عواقب الحرب بشكل صحيح، لأنها ليست جزءًا من برنامجه الانتخابي.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان ينفذ برنامجه الانتخابي كمعادله حسابيه 1 + 1 = 2",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "البرلمان هو ممثل الشعب، ويستطيع اتخاذ قرار الحرب دون الحاجة لاستفتاء شعبي.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان ممثل الشعب، ويصدر قرار الحرب دون الحاجة لاستفتاء شعبي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الحرب تتطلب قرارات من قبل خبراء وليس من خلال الاستفتاء الشعبي.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحرب هي قرار حتمي يحدد مصير الدول والشعوب، ويجب أن يصدر عن متخصصين وليس عن عام.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان قادر على تقييم جميع جوانب الحرب بشكل صحيح.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان لديه القدرة على دراسة متطلبات الحرب بشكل شامل ودقيق.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان يمتلك المعلومات الكافية لاتخاذ قرار الحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان ملم بالوضع الحالي للدولة وراي العام، مما يجعله أكثر كفاءة في اتخاذ قرار الحرب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البرلمان يعكس رغبات الشعب ويتحمل مسؤولية قرار الحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان هو ممثل لارادة الشعب، ويجب أن يتحمل مسؤولية قرار الحرب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء الشعبي يمكن أن يسبب تشتتاً في الرأي ويؤدي إلى تعقيد القرارات.",
+            "responds_to": "proposition_definition",
+            "evidence_quote": "الاستفتاء الشعبي قد يؤدي إلى تشتت الرأي وتعقيد القرارات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان لم يُ Including في برنامجه الانتخابي لاتخاذ قرارات الحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان قد لا يكون مختصًا في قرارات الحرب، لأنها لم تكن جزءًا من برنامجه الانتخابي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان غير قادر على تقييم عواقب الحرب بشكل صحيح.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان قد لا يكون قادرًا على تقييم عواقب الحرب بشكل صحيح، لأنها ليست جزءًا من برنامجه الانتخابي.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "القضية تتناول إجراء استفتاء شعبي قبل إعلان الحرب بهدف تفادي الحروب غير المرغوب فيها وتضمن نجاحها، وهذا يعكس واقعًا أن الشعوب تقررن مصيرها في حالات الحرب.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "القضية تتناول إجراء استفتاء شعبي قبل إعلان الحرب بهدف تفادي الحروب غير المرغوب فيها وتضمن نجاحها، وهذا يعكس واقعًا أن الشعوب تقررن مصيرها في حالات الحرب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "البرلمان ممثل الشعب، لكنه يتألف من مجموعة أشخاص وليس شاملاً للجميع.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "البرلمان شعبيين قد يكونون مختصين أو لا أتحدث عن المختصين فانا لم أفهم حقيقه هذه المساله حتى اني كتبت البرلمان بالبند العريض هنا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب التي أرادها الشعبيه هي التي تمر بالدول وتهيئه أسباب بنجاحها في حاله اعلانها.",
+            "responds_to": "",
+            "evidence_quote": "الحروب التي أرادها الشعبيه هي التي تمر بالدول وتهيئه أسباب بنجاحها في حاله اعلام هذه الحروب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تدمر المجتمعات وطبيعة حياتها، لذا يجب أن يكون قرارها دقيقًا.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحروب تدمر المجتمعات وطبيعة حياتها، لذا يجب أن يكون قرارها دقيقًا.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "responds_to": "opposition_definition",
+            "evidence_quote": "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "حق الشعب في تقرير مصيره",
+          "importance": "core",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "الموالاة تؤكد على حق الشعب في اتخاذ قرار الحرب، بينما المعارضة ترى أن البرلمان هو المختص في تمثيل هذا الحق."
+        },
+        {
+          "clash_point": "القدرة على دراسة عواقب الحرب",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "المعارضة ترى أن البرلمان لديه القدرة على دراسة عواقب الحرب بشكل صحيح، بينما Proposition يشكك في ذلك."
+        },
+        {
+          "clash_point": "الاستعداد للحرب",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "الموالاة ترى أن الاستعداد للحرب يتطلب إرادة الشعب، بينما المعارضة ترى أن البرلمان هو المسؤول عن ذلك."
+        },
+        {
+          "clash_point": "الاستفتاء الشعبي كأداة",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "unresolved",
+          "reasoning": "المعارضة ترى أن الاستفتاء الشعبي قد يؤدي إلى تعقيد القرارات، بينما Proposition يرى أنه ضروري رغم التحديات."
+        },
+        {
+          "clash_point": "الدعاية والاستعداد الإعلامي للحرب",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "unresolved",
+          "reasoning": "المعارضة ترى أن الاستفتاء يحتاج إلى دعاية كبيرة، بينما Proposition يرى أن هذه ليست عائقًا."
+        },
+        {
+          "clash_point": "البرلمان كممثل للشعب",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "المعارضة تؤكد على دور البرلمان في تمثيل الشعب، بينما Proposition يرى أن البرلمان ليس شاملاً للجميع."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "narrow",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "حق الشعب في اتخاذ القرار هو محور الجدلية الأساسي، وProposition قدمت هذا المبدأ بشكل واضح وقاطع، مما جعله أكثر إقناعًا للمستمع العقلاني الذي يقدر الديمقراطية والحقوق الأساسية.",
+          "evidence_quote": "\"الموالاة ترى أن إجراء استفتاء شعبي قبل إعلان الحرب ضروري لضمان أن الشعب هو من يتحمل مخاطرها ويعبر عن رغبته الحقيقية فيها\""
+        },
+        {
+          "team": "opposition",
+          "reason": "رغم الادعاء بأن Parliament هو المختص، إلا أن Proposition أظهرت أن هذا المنطق يتجاهل حق الشعب الأساسي في المشاركة، مما يجعل حجج Opposition أقل إقناعًا عند مقارنتها بMotion.",
+          "evidence_quote": "\"المعارضة ترى أن من يحدد إرادة الشعب وقرارات الحرب هم المختصون مثل البرلمان، وليس الشعب بشكل عام\""
+        },
+        {
+          "team": "opposition",
+          "reason": "Motion تنص على ضرورة الاستفتاء الشعبي، بينما Opposition ترفض ذلك بشكل قاطع، مما يضعف موقفهم التأثيري.",
+          "evidence_quote": "\"المعارضة ترى أن من يحدد إرادة الشعب وقرارات الحرب هم المختصون مثل البرلمان، ليس الشعب بشكل عام\""
+        }
+      ],
+      "justification": "لقد قدم فريق الموافقة (الموالاة) أقوى حجج تأثيرية لصالح Motion، حيث نجح في إقناع المستمع العقلاني بأن حق الشعب في تقرير مصيره هو الأساس الذي يجب أن يحكم قرار الحرب. استخدموا الاقتباس الدقيق \"الموالاة ترى أن إجراء استفتاء شعبي قبل إعلان الحرب ضروري لضمان أن الشعب هو من يتحمل مخاطرها ويعبر عن رغبته الحقيقية فيها\"، مما يسلط الضوء على فكرة أن الشعب هو من يتحمل مخاطر الحرب ويعبر عن رغبته، وهو ما ينطبق بشكل واضح على منظور المستمع العقلاني الذي يقدر الحقوق الأساسية والشفافية. بينما فريق المعارض (المعارضة) قد نجح في بعض النقاط الثانوية، مثل \"المعارضة ترى أن من يحدد إرادة الشعب وقرارات الحرب هم المختصون مثل البرلمان، ليس الشعب بشكل عام\"، لكنهم لم يحققوا فوزًا م decisif في النقاط الأساسية التي تتعلق بحق الشعب في اتخاذ القرار. النقطة الأساسية \"حق الشعب في تقرير مصيره\" كانت لصالح Proposition، مما جعل فريقهم أكثر إقناعًا في توجه Motion."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 56,
+      "not_found": [
+        "العناصر التي تقرير مصيرها بنفسها",
+        "الاعلان العالمي لحقوق الانسان حيث ان كل ما الى هذا الاعلان ففي فصله الثاني ينص على حق الشعوب في تقرير مصيرها بنفسها",
+        "العناصر التي تقرير مصيرها بنفسها وهذا فصل كامل متكامل مستقل بذاتهم",
+        "العناصر التي تقرير مصيرها بنفسها ومن جهه اخرى حق الشعب في اختيار من ينوبه لماذا كي يمثله",
+        "العناصر التي تقرير مصيرها بنفسها وهذا فصل اخر من الاعلان العالمي لحقوق الانسان وبذلك نكون من خلال الجانب الحقوق بيننا مسالتين",
+        "العناصر التي تقرير مصيرها بنفسها وهذا يحول لي الذهاب الى المجال عفوا مجال حجاجنا فساتحدث انك متحدث اول بدأ عن جانب الحقوق",
+        "لديه فكره المباده",
+        "لديه قدره على فكره النجاح من عدمه",
+        "الشعب هو صاحب القرار رغم كل المؤثرات عليه",
+        "الحرب ليست حرب حكومات، الحرب هي حرب الشعب",
+        "الشعب سيتحمل التبعات في النهاية، سواء كانت ضرائب أو عقوبات",
+        "الحرب قبل كل شيء هي تضحيه، وان لم تنجح فإن الشعب لن يتحمل هذه الخسارة",
+        "الحرب مدمرة للشعوب في حد ذاتها",
+        "الحرب في اصلها مساعدة، ولكنها يمكن أن تخسر",
+        "الشعب هو الذي سيعاني من حظر مثلاً بعد الحرب",
+        "الحروب ليست لعبه لذلك يجب ان تكون يكونDecision في ايدي مختصين",
+        "الاستفتاء الشعبي يتطلب دعايه مهوله ويتطلب توجيه هو توجيه من بان بامكانه ان يقوم بالترويج والدعايه",
+        "الحروب غالبا الشركات المستفيده من الحروب مثل الان ار اي مثلا في امريكا",
+        "الحرب تدمر المجتمعات وطبيعة حياتها",
+        "البرلمان يعلم بالراي العام والوضع الحالي في الدوله",
+        "البرلمان يمثل اراده الشعب",
+        "الاستفتاء الشعبي سيخلخل ذلك",
+        "البرلمان ممثل الشعب، ويصدر قرار الحرب دون الحاجة لاستفتاء شعبي.",
+        "الحرب هي قرار حتمي يحدد مصير الدول والشعوب، ويجب أن يصدر عن متخصصين وليس عن عام.",
+        "البرلمان لديه القدرة على دراسة متطلبات الحرب بشكل شامل ودقيق.",
+        "البرلمان ملم بالوضع الحالي للدولة وراي العام، مما يجعله أكثر كفاءة في اتخاذ قرار الحرب.",
+        "البرلمان هو ممثل لارادة الشعب، ويجب أن يتحمل مسؤولية قرار الحرب.",
+        "الاستفتاء الشعبي قد يؤدي إلى تشتت الرأي وتعقيد القرارات.",
+        "البرلمان قد لا يكون مختصًا في قرارات الحرب، لأنها لم تكن جزءًا من برنامجه الانتخابي.",
+        "البرلمان قد لا يكون قادرًا على تقييم عواقب الحرب بشكل صحيح، لأنها ليست جزءًا من برنامجه الانتخابي.",
+        "القضية تتناول إجراء استفتاء شعبي قبل إعلان الحرب بهدف تفادي الحروب غير المرغوب فيها وتضمن نجاحها، وهذا يعكس واقعًا أن الشعوب تقررن مصيرها في حالات الحرب.",
+        "البرلمان شعبيين قد يكونون مختصين أو لا أتحدث عن المختصين فانا لم أفهم حقيقه هذه المساله حتى اني كتبت البرلمان بالبند العريض هنا",
+        "الحروب التي أرادها الشعبيه هي التي تمر بالدول وتهيئه أسباب بنجاحها في حاله اعلام هذه الحروب",
+        "الحروب تدمر المجتمعات وطبيعة حياتها، لذا يجب أن يكون قرارها دقيقًا.",
+        "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+        "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+        "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة.",
+        "الحروب تؤدي إلى عوامل اقتصادية واجتماعية سلبية، وهذا يتطلب دراسة."
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "\"الموالاة ترى أن إجراء استفتاء شعبي قبل إعلان الحرب ضروري لضمان أن الشعب هو من يتحمل مخاطرها ويعبر عن رغبته الحقيقية فيها\"",
+        "\"المعارضة ترى أن من يحدد إرادة الشعب وقرارات الحرب هم المختصون مثل البرلمان، وليس الشعب بشكل عام\"",
+        "\"المعارضة ترى أن من يحدد إرادة الشعب وقرارات الحرب هم المختصون مثل البرلمان، ليس الشعب بشكل عام\""
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 7,
+    "prompt_tokens": 50992,
+    "output_tokens": 17417
+  }
+}

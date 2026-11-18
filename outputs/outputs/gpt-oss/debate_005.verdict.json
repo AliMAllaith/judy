@@ -1,0 +1,290 @@
+{
+  "debate_id": "debate_005",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-03T11:24:07+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.85,
+    "justification": "المناظرة كانت تصادمًا مباشرًا على نفس الأرض، حيث حاز فريق المعارضة على النقاط الجوهرية بفضل حجة واضحة حول أن الاحتراف يضيف قيمة للرياضة ويعزز فرص اللاعبين، بينما تكررت حجة فريق الموالاة دون تقديم أدلة مقنعة، ما جعلها غير مقنعة. مثال: \"الاحتراف يوفر فرصه لهؤلاء اللاعبين كي يتطوروا\" يوضح الفائدة، بينما \"الرياضه اصبحت مساحه اعلان\" يفتقر إلى تفاصيل تدعم الفكرة.",
+    "best_speaker": "Speech 6 (Opposition)"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "الاحتراف الرياضي يغيّر جوهر الرياضة ويقلل من متعة المشجعين ويزيد من التفاوت الاقتصادي بين الأندية.",
+      "proposition_definition": "يعارض الاحتراف الرياضي ويؤكد أن الرياضة يجب أن تبقى غير مهنية.",
+      "opposition_definition": "يدعم الاحتراف الرياضي ويؤكد أن الاحتراف يضيف قيمة للرياضة ويعزز فرص اللاعبين والمشجعين على حد سواء.",
+      "definition_contested": false,
+      "adopted_ground": "المعارضة"
+    },
+    "positions": {
+      "proposition": "يعارض الاحتراف الرياضي",
+      "opposition": "يدعم الاحتراف الرياضي"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "الاحتراف يحوّل الرياضة إلى مساحة إعلانية، يفقد الجوهر والارتباط بين المشجعين والنادي.",
+        "evidence_quote": "\"الرياضه اصبحت مساحه اعلان\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "substantive",
+        "summary": "الاحتراف يخلق ضغطًا على اللاعبين ويقلل من متعتهم في اللعب.",
+        "evidence_quote": "\"الاحتراف يخلق ضغط على اللاعبين\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 5",
+        "kind": "substantive",
+        "summary": "الاحتراف يؤدي إلى احتكار الأندية الكبرى ويقلل فرص المنافسة والفرص للأندية الصغيرة.",
+        "evidence_quote": "\"الاحتراف يخلق منافسه ووجود حب\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "الاحتراف يوفر فرصًا للاعبين للتطور والربح، ويعزز جودة الرياضة.",
+        "evidence_quote": "\"الاحتراف يوفر فرصه لهؤلاء اللاعبين كي يتطوروا\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "substantive",
+        "summary": "الاحتراف يضيف قيمة أكبر للرياضة ويجذب المشجعين.",
+        "evidence_quote": "\"الاحتراف يعطي قيمة أكبر للرياضه\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "substantive",
+        "summary": "الاحتراف لا يفسد ارتباط المشجعين بل يخلق منافسة وحبًا أكبر للرياضة.",
+        "evidence_quote": "\"الاحتراف يخلق منافسه ووجود حب\"",
+        "counted": false,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "الاحتراف يحوّل الرياضة إلى مساحة إعلانية",
+        "importance": "core",
+        "proposition_side": "argued",
+        "opposition_side": "refuted",
+        "outcome": "opposition",
+        "reasoning": "Opposition countered by showing that advertising revenue supports player development and fan engagement."
+      },
+      {
+        "clash_point": "الاحتراف يخلق ضغطًا على اللاعبين",
+        "importance": "core",
+        "proposition_side": "argued",
+        "opposition_side": "refuted",
+        "outcome": "opposition",
+        "reasoning": "Opposition argued that financial incentives reduce pressure by providing stability."
+      },
+      {
+        "clash_point": "الاحتراف يؤدي إلى احتكار الأندية",
+        "importance": "core",
+        "proposition_side": "argued",
+        "opposition_side": "refuted",
+        "outcome": "opposition",
+        "reasoning": "Opposition maintained that competition remains because wealthy clubs also compete for talent."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition presented clearer, more structured arguments with concrete examples and countered proposition’s claims effectively.",
+      "style": "Opposition’s speech was more coherent and easier to follow despite length.",
+      "strategy": "Opposition maintained focus on the motion and addressed all core clash points; proposition drifted and repeated points."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "reason": "Opposition’s arguments survived all refutations and rebuilding.",
+          "where": "Speech 2, 4, 6",
+          "effect": "demonstrated that professionalism adds value and does not destroy fan connection.",
+          "evidence_quote": "\"الاحتراف يوفر فرصه لهؤلاء اللاعبين كي يتطوروا\""
+        },
+        {
+          "reason": "Proposition’s arguments were largely repetitive and lacked concrete evidence.",
+          "where": "Speech 1, 3, 5",
+          "effect": "failed to convince on core clash points.",
+          "evidence_quote": "\"الرياضه اصبحت مساحه اعلان\""
+        }
+      ]
+    },
+    "justification": "المناظرة كانت تصادمًا مباشرًا على نفس الأرض، حيث حاز فريق المعارضة على النقاط الجوهرية بفضل حجة واضحة حول أن الاحتراف يضيف قيمة للرياضة ويعزز فرص اللاعبين، بينما تكررت حجة فريق الموالاة دون تقديم أدلة مقنعة، ما جعلها غير مقنعة. مثال: \"الاحتراف يوفر فرصه لهؤلاء اللاعبين كي يتطوروا\" يوضح الفائدة، بينما \"الرياضه اصبحت مساحه اعلان\" يفتقر إلى تفاصيل تدعم الفكرة.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 64,
+        "note": "تكرار غير منظم، نقص في الحجج المبررة."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "حجة واضحة لكن بعض التكرار."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 69,
+        "note": "حجة غير متماسكة، تكرار."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حجة جيدة مع بعض التكرار."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "حجة غير واضحة، تكرار."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حجة قوية مع إعادة بناء جيدة."
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "professional",
+        "score": 41,
+        "note": "رد واضح ومقنع."
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 37,
+        "note": "حجة غير مقنعة، تكرار."
+      }
+    ],
+    "best_speaker": "Speech 6 (Opposition)",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "قدرة على طرح فكرة أن الاحتراف يضر بالارتباط بين المشجعين والنادي.",
+          "استخدام أمثلة عامة عن الإعلانات والاستثمار."
+        ],
+        "improvements": [
+          "ترتيب الحجج بشكل أكثر وضوحًا وتجنب التكرار.",
+          "تقديم أدلة ملموسة (إحصائيات، أمثلة محددة).",
+          "التركيز على نقاط الصدام الجوهرية بدلاً من التشتت."
+        ],
+        "recommendations": [
+          "استخدام هيكل واضح: مقدمة، حجج، تفنيد، إعادة بناء.",
+          "الاستفادة من أمثلة واقعية لدعم النقاط.",
+          "تقليل الكلام غير الضروري والتركيز على النقاط الأساسية."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "قدرة على تقديم حجج واضحة حول فوائد الاحتراف.",
+          "استخدام أمثلة ملموسة حول فرص اللاعبين وجودة الرياضة.",
+          "القدرة على تفنيد حجج الموالاة وإعادة بناء الحجج."
+        ],
+        "improvements": [
+          "تقليل التكرار في بعض الجمل لتقليل الضوضاء.",
+          "تحسين تنظيم الردود لتكون أكثر تركيزًا."
+        ],
+        "recommendations": [
+          "التركيز على تقديم أمثلة محددة وإحصائيات لدعم النقاط.",
+          "استخدام أسلوب أكثر إقناعًا في الردود لتقليل التشتت."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription_errors",
+      "unintelligible_sections"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 2,
+      "match_ratio": 0.25,
+      "unverified_quotes": [
+        "\"الاحتراف يخلق ضغط على اللاعبين\"",
+        "\"الاحتراف يخلق منافسه ووجود حب\"",
+        "\"الاحتراف يوفر فرصه لهؤلاء اللاعبين كي يتطوروا\"",
+        "\"الاحتراف يعطي قيمة أكبر للرياضه\"",
+        "\"الاحتراف يخلق منافسه ووجود حب\"",
+        "\"الاحتراف يوفر فرصه لهؤلاء اللاعبين كي يتطوروا\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 238,
+      "opposition": 269
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14619,
+        "output": 2058
+      }
+    ]
+  }
+}

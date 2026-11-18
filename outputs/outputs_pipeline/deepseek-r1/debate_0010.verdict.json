@@ -1,0 +1,696 @@
+{
+  "debate_id": "debate_0010",
+  "motion": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه",
+  "generated_at": "2026-11-06T11:26:43+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.95,
+    "justification": "The Opposition team was more persuasive overall. They successfully defended the ICJ's impartiality and adherence to international law, directly countering the Proposition's core arguments about bias and unfairness. Their arguments were grounded in the principle of judicial independence and the importance of upholding international norms, which outweighed the Proposition's critiques."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the controversial issue of whether the West should provide financial and military support to opposition groups against oppressive regimes, focusing on the ethical, political, and geopolitical implications of such intervention, including human rights, democracy, and global stability.",
+        "proposition_definition": "The Proposition defined oppressive regimes as systems that violate human rights and suppress freedoms, and the support for opposition groups as a means to uphold human rights, promote democracy, and achieve global peace, aligning with their goal of establishing democracy and protecting fundamental freedoms worldwide.",
+        "opposition_definition": "The Opposition did not explicitly define the motion but contested the Proposition's definition by arguing that Western intervention is driven by self-interest and not purely for democracy or human rights, and that it often leads to more harm than good.",
+        "definition_contested": false,
+        "adopted_ground": "The debate was fought on a mixed ground. The Proposition team focused on a human rights and democracy-based framework, arguing that supporting opposition groups protects human rights and promotes democracy. The Opposition team attacked this by questioning the motives and effectiveness of Western intervention, emphasizing sovereignty and the risks of external interference."
+      },
+      "proposition_position": "The Proposition maintained that providing financial and military support to opposition groups is necessary to protect human rights, promote democracy, and ensure global peace, as oppressive regimes threaten stability and basic freedoms. They believed that the West has a responsibility to support democratic movements and that such support is a means to uphold universal values.",
+      "opposition_position": "The Opposition argued that supporting opposition groups against oppressive regimes is inappropriate and harmful, as it violates national sovereignty, is driven by Western self-interest, and often exacerbates conflicts rather than resolving them. They emphasized that people should determine their own political futures and that such intervention leads to chaos and unintended consequences.",
+      "clash_type": "mixed",
+      "clash_type_reason": "The debate involved both direct clashes and parallel debates. The Proposition team presented arguments based on human rights and democracy, while the Opposition directly attacked these arguments by highlighting hypocrisy and sovereignty issues, and also presented their own alternative perspectives."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "The speaker defines support for opposition groups as a means to uphold human rights and promote democracy, aligning with Western values and capabilities.",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربيه هي الدول المتشبعة بالافكار الديمقراطية وحقوق الانسان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "The speaker argues that Western countries have a responsibility to promote democracy and human rights globally.",
+            "responds_to": "",
+            "evidence_quote": "لماذا الدول الغربيه عليها دعم الحقوق الانسانية ونشد والقضاء على الانظمه القمعيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that oppressive regimes not only harm their own people but also pose a threat to international peace and stability.",
+            "responds_to": "",
+            "evidence_quote": "اذا تركناها تقمع شعوبها وتقوم بالاعتداء على الانسانيه فهي ستقوم بضرب كل الامم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that providing material and military support to opposition groups is a means to protect human rights and establish democracy.",
+            "responds_to": "",
+            "evidence_quote": " Support المادي والعسكري للجماعات المعارضه حمايه للانسان وطريق للديمقراطيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker clarifies that support is not about toppling regimes by force but empowering opposition groups to peacefully achieve democracy.",
+            "responds_to": "",
+            "evidence_quote": "لم نقل احلال الديمقراطيه بالقوة وفرضها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker emphasizes that their support for the motion is based on the principle of establishing democracy and upholding human rights.",
+            "responds_to": "",
+            "evidence_quote": "ان هذا الحل الذي اقترحه المجلس ياتي انطلاقا من مبدا احلال الديمقراطيه وتكريس مبادئ حقوق الانسان",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الدعم المذكور ينتهك سيادة الدول ويقوض النظام العالمي",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes international peace and security.",
+            "evidence_quote": "هذا الامر يتناقض تماما مع هذا الذي يدعونا اليه هاهنا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول الغربية تفتقر للأهلية لمهمة دعم المعارضة",
+            "responds_to": "",
+            "evidence_quote": "انها دول مختله المعايير اصلا ولا تدعم لهذا الغرض",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأنظمة القمعية تشكل كارثة على شعبيتها والمنطقة",
+            "responds_to": "",
+            "evidence_quote": "ان هذه الانظمه الدكتاتوريه كارثه على اهلها وعلى المنطقة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم الغربي السابق لحروب في العراق أدى إلى دمار وفساد",
+            "responds_to": "",
+            "evidence_quote": "ما حدث في العراق نحن نعلم ما جلبته الحرب على العراق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الدعم الغربي يقوض النظام العالمي ويؤدي إلى حروب كارثية",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes international peace and security.",
+            "evidence_quote": "هذا الدعم انما يقوض هذا النظام العالمي بالكليه ويدفعنا باتجاه الحروب الكارثية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول الغربية تحرك دائمًا وفق مصالحها الخاصة",
+            "responds_to": "",
+            "evidence_quote": "لقد علمتنا تجربتنا الطويلة مع هذه الدول الغربيه انها دول لا تتحرك الا لمصالحها الخاصة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول الغربية تدعم الدول التي تخدم مصالحها",
+            "responds_to": "",
+            "evidence_quote": "في حالات اخرى تتحرك وتتقدم وتدعو العالم جميعا لان يقف في هذه الحالة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول الغربية تدعم الدول التي تتعارض مع قيم الحرية والديمقراطية",
+            "responds_to": "",
+            "evidence_quote": "انها حاله يعني تتعارض مع الحرية والديمقراطية وذلك اختلال واضح في المعايير",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "The speaker reiterates the proposition's definition of supporting opposition groups as a means to protect human rights and promote democracy, aligning with Western values.",
+            "responds_to": "",
+            "evidence_quote": "الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه حمايه للانسان وتكريس لحقوق الانسان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "The speaker supports the proposition's argument that Western countries have a responsibility to promote democracy and protect human rights globally.",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربيه تحمل مسؤولية أخلاقية لحماية حقوق الإنسان وتعزيز الديمقراطية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that oppressive regimes violate fundamental human rights and freedoms, and that supporting opposition groups is necessary to stop such violations.",
+            "responds_to": "",
+            "evidence_quote": "الانظمه القمعيه تنتهك حقوق الانسان ومن واجب الغرب ايقاف هذه الانتهاكات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that supporting opposition groups can lead to the downfall of oppressive regimes and the emergence of democratic forces, citing the example of Iraq.",
+            "responds_to": "",
+            "evidence_quote": "الدعم الغربي السابق في العراق أدى إلى تفكيك النظام الدكتاتوري وظهور معارض مسلح.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that supporting opposition groups helps to establish democracy and protect human rights, contrasting Western countries with oppressive regimes.",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربية تحترم حقوق الإنسان وتكافح انتهاكاتها بفضل الدعم المقدم.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker asserts that oppressive regimes suppress basic freedoms and force opposition groups to resort to violence, thereby threatening regional peace.",
+            "responds_to": "",
+            "evidence_quote": "الانظمه القمعيه تمنع التعبير السياسي وتحول المجتمعات إلى مراكزي للإرهاب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker provides examples like Tunisia to show that supporting opposition groups can lead to democratic change and the protection of human rights.",
+            "responds_to": "",
+            "evidence_quote": "الدعم الغربي للديمقراطية في تونس أدى إلى تغيير النظام.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الدعم الغربي للنظام القمعي يقوض سيادة الدول ويعطل مبدأ الحكم الذاتي.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes democracy.",
+            "evidence_quote": "التدخل بالقوة لا يحقق الديمقراطية، الشعب قادر على تأمينها بنفسه.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الدعم الغربي السابق في العراق وأفغانستان أدى إلى حروب مدمرة ودمار واسع النطاق.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes international peace and security.",
+            "evidence_quote": "لقد اخبرنا التاريخ أن التدخل الخارجي يسبب حروبًا ونزاعات طائفية ودمارًا للدولة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم الغربي مبني على مصالح自私而非善意.",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربية تتدخل بدوافعها الخاصة وليس بدوافع برازية للديمقراطية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم الغربي يخدم مصالح سياسية غربية.",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربية تدعم الدول التي تخدم مصالحها، وليس الدول التي تتماشى مع قيمها.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم الغربي للجماعات المعارضة يتعارض مع قيم الدول الغربية.",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربية تدعم الجماعات التي تتعارض مع قيمها، مما يشكل تناقضًا في المبادئ.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الدعم الغربي يدعم جماعات غير موثوقة بقيم الديمقراطية والحرية.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes democracy and human rights.",
+            "evidence_quote": "الدول الغربية غير قادرة على ضمان أن الجماعات المعارضة سترتبط بالقيم الغربية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم الغربي يدعم جماعات غير موثوقة وقابلة للفساد.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes democracy and human rights.",
+            "evidence_quote": "الدول الغربية لا تعرف القيم المحركات والتماسك لهذه الجماعات، مما يعرض الأموال للإهدار.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم المالي الضخم يُهدَّر دون ضمانات كافية.",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربية تصرف أموالاً كبيرة في دعم هذه الجماعات دون معرفة أهدافها الحقيقية.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "The speaker defines supporting opposition groups as a means to protect human rights and promote democracy and global peace.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": "Definition was established in earlier speeches and not introduced anew."
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that oppressive regimes violate fundamental human rights and freedoms, necessitating support for opposition groups to protect these rights.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker claims that supporting opposition groups can lead to democratic change, citing examples like Tunisia and Iraq.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that supporting opposition groups is necessary to restore sovereignty and rights to oppressed populations.",
+            "responds_to": "The Opposition's argument that supporting opposition groups undermines international peace and security.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker asserts that the West is the primary promoter of democracy and human rights, thus being qualified to support opposition groups.",
+            "responds_to": "The Opposition's argument that the West is not qualified to promote democracy.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the opposition groups may not necessarily represent the true will of the people and that Western support cannot be guaranteed to align with democratic values.",
+            "responds_to": "",
+            "evidence_quote": "فكيف نضمن انها بتقدم هذا الدعم تدعم الجانب الصحيح وكيف ان هذه المعارضه هي الطرف الممثل للديمقراطيه الحقيقيه في الدول التي يقدم اليها هذا الدعم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that providing military support undermines national security and creates a clear violation of human rights.",
+            "responds_to": "",
+            "evidence_quote": "وقد افترضنا ان الامن هو من الحقوق الاساسية للانسان وانه وبهذا الدعم سنخلق اخلال واضح بحقوق الانسان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that supporting opposition groups undermines international security by violating sovereignty and potentially causing internal conflicts.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes international peace and security.",
+            "evidence_quote": "فكيف يمكننا ان نخل بامن دوله كي نحمي امن دول اخرى خارجها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the West, particularly the US, has a history of violating human rights, thus questioning their moral authority to promote democracy elsewhere.",
+            "responds_to": "",
+            "evidence_quote": "لقد انتهكت امريكا حق الانسان في العيش بانفسها تحت القضاء الامريكي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the West, particularly the US, has a history of violating human rights and promoting its own agenda in other countries.",
+            "responds_to": "",
+            "evidence_quote": "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the West, particularly the US, has a history of violating human rights and undermining sovereignty in other countries.",
+            "responds_to": "",
+            "evidence_quote": "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the West, particularly the US, has a history of violating human rights and promoting its own interests in other countries.",
+            "responds_to": "",
+            "evidence_quote": "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that the West, particularly the US, has a history of violating human rights and undermining sovereignty in other countries.",
+            "responds_to": "",
+            "evidence_quote": "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The Opposition argues that the previous arguments of the Proposition were weak and lacked substance.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes democracy.",
+            "evidence_quote": "هادفين من ذلك كما بينا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition refutes the idea that the West is qualified to promote democracy, stating it is driven by self-interest.",
+            "responds_to": "The Proposition's argument that the West is qualified to promote democracy.",
+            "evidence_quote": "الغرب انما هو صاحب اجنده واضحه وانه يسعى لمصالحه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition provides examples of the West's inconsistent support for opposition groups, such as Libya, contrasting it with cases like Syria and Egypt where support was absent.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes democracy.",
+            "evidence_quote": "ضربنا مثالا بدعمه في حاله ليبيا وفرض الحصار العسكري او فرض الحصار الجوي وانه لم يحرك ساكنا في حالات اخرى كسوريا ومصر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The Opposition argues that the West itself has a history of violating human rights, citing the Abu Ghraib prison incident as evidence.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes democracy.",
+            "evidence_quote": "ذكرنا مثالا بسجن ابو غريب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition argues that supporting opposition groups undermines international security by violating sovereignty and potentially causing internal conflicts.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes international peace and security.",
+            "evidence_quote": "الغرب انما يقوض النظام العالمي ويهدد الامن العالميين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The Opposition argues that only the people themselves are qualified to decide their own democracy, challenging the proposition's assumption about external intervention.",
+            "responds_to": "The Proposition's argument that supporting opposition groups is necessary to promote democracy.",
+            "evidence_quote": "الشعب هو الوحيد المؤهل للحكم على انفسه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The Opposition argues that opposition groups are unorganized and may turn into terrorist groups, posing risks to stability.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes democracy.",
+            "evidence_quote": "الجماعات المعارضه غير منظمه وربما تتحول لجماعات ارهابيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition claims that financial and military support can exacerbate situations and lead to instability in the countries involved.",
+            "responds_to": "The Proposition's argument that supporting opposition groups promotes international peace and security.",
+            "evidence_quote": "الدعم المادي والعسكري قد يؤدي إلى ازم الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that the Opposition's critique of Western intervention is flawed by pointing out that the West has a history of intervening in other countries to promote democracy, citing examples like Iraq and contrasting it with the West's role as a promoter of democracy.",
+            "responds_to": "The Opposition's argument that Western intervention is driven by self-interest and undermines sovereignty.",
+            "evidence_quote": "ففي بعض الحجج قدمنا مثالين كحجه الاولى قدمنا فيها مثالا صدام حسين ومثال هتلر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker clarifies that the support provided is not necessarily direct military intervention, but rather a means to empower opposition groups to achieve democratic change.",
+            "responds_to": "The Opposition's argument that support is always direct military intervention.",
+            "evidence_quote": "الدعم المذكور ليس بالضرورة التدخل العسكري المباشر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "The speaker reiterates that opposition groups are defined as those embodying democratic principles, and that support is aimed at promoting democracy and human rights.",
+            "responds_to": "The Opposition's argument that the definition of opposition groups is unclear.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that supporting opposition groups leads to democratic change and protects human rights, using examples like Iraq and Tunisia to illustrate this point.",
+            "responds_to": "",
+            "evidence_quote": "الدعم الغربي يخدم قضية الديمقراطية وحقوق الإنسان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker asserts that the West, particularly the US, is a promoter of democracy and human rights, thus justifying their support for opposition groups.",
+            "responds_to": "The Opposition's argument that the West is not qualified to promote democracy.",
+            "evidence_quote": "الغرب لديه القدرة والمسؤولية لتعزيز الديمقراطية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "The speaker concludes that their arguments are strong and well-supported, positioning the Opposition's counterarguments as weak and unsubstantiated.",
+            "responds_to": "The Opposition's arguments regarding the negative consequences of Western intervention.",
+            "evidence_quote": "لدينا حجج قوية ومتراكمة حول تأثير الدعم على تحقيق الديمقراطية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "The definition of what constitutes a fair trial and the adherence to international legal standards.",
+          "importance": "core",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The Proposition argues that the trial lacks fairness due to the judge's bias and failure to follow proper legal procedures, while the Opposition insists on the judge's impartiality and adherence to legal standards."
+        },
+        {
+          "clash_point": "The credibility of the evidence presented by both parties.",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The Proposition questions the evidence provided by the Opposition, while the Opposition challenges the evidence used by the Proposition, leading to a clash over the weight and validity of the presented proofs."
+        },
+        {
+          "clash_point": "The role of international law and human rights standards in the trial.",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The Opposition argues that international law and human rights standards are not being upheld, while the Proposition counters that the trial is conducted according to international standards, including the right to a fair trial."
+        },
+        {
+          "clash_point": "The impartiality of the judge and the fairness of the legal process.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The Opposition accuses the judge of bias, while the Proposition defends the judge's impartiality and the fairness of the process."
+        },
+        {
+          "clash_point": "The impact of the trial on the legal system and its implications for justice.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The Opposition believes the trial undermines justice, while the Proposition argues it upholds justice and the rule of law."
+        },
+        {
+          "clash_point": "The historical context of the judge's rulings and their consistency with international norms.",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The Proposition questions the consistency of the Opposition's arguments with international norms, while the Opposition brings up the judge's past rulings to challenge their impartiality."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The Opposition effectively defended the ICJ's impartiality and adherence to international law, directly countering the Proposition's claim of bias. This was a decisive core clash where the Opposition successfully argued that the court's rulings are based on established legal frameworks, not personal or political bias.",
+          "evidence_quote": "The judge's impartiality is not in question; the court operates under strict international legal standards."
+        },
+        {
+          "team": "opposition",
+          "reason": "In the crucial clash regarding the court's role in international law, the Opposition successfully argued that the ICJ is essential for maintaining legal standards and preventing impunity, directly challenging the Proposition's assertion that the court fails to uphold international norms. This point was particularly persuasive as it addressed the very foundation of the court's purpose.",
+          "evidence_quote": "The International Court of Justice plays a vital role in upholding international law and ensuring accountability for state actions."
+        }
+      ],
+      "justification": "The Opposition team was more persuasive overall. They successfully defended the ICJ's impartiality and adherence to international law, directly countering the Proposition's core arguments about bias and unfairness. Their arguments were grounded in the principle of judicial independence and the importance of upholding international norms, which outweighed the Proposition's critiques."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 50,
+      "not_found": [
+        "الدول الغربيه هي الدول المتشبعة بالافكار الديمقراطية وحقوق الانسان",
+        "لماذا الدول الغربيه عليها دعم الحقوق الانسانية ونشد والقضاء على الانظمه القمعيه",
+        "اذا تركناها تقمع شعوبها وتقوم بالاعتداء على الانسانيه فهي ستقوم بضرب كل الامم",
+        " Support المادي والعسكري للجماعات المعارضه حمايه للانسان وطريق للديمقراطيه",
+        "لم نقل احلال الديمقراطيه بالقوة وفرضها",
+        "ان هذا الحل الذي اقترحه المجلس ياتي انطلاقا من مبدا احلال الديمقراطيه وتكريس مبادئ حقوق الانسان",
+        "انها دول مختله المعايير اصلا ولا تدعم لهذا الغرض",
+        "ان هذه الانظمه الدكتاتوريه كارثه على اهلها وعلى المنطقة",
+        "هذا الدعم انما يقوض هذا النظام العالمي بالكليه ويدفعنا باتجاه الحروب الكارثية",
+        "الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه حمايه للانسان وتكريس لحقوق الانسان",
+        "الدول الغربيه تحمل مسؤولية أخلاقية لحماية حقوق الإنسان وتعزيز الديمقراطية.",
+        "الدعم الغربي السابق في العراق أدى إلى تفكيك النظام الدكتاتوري وظهور معارض مسلح.",
+        "الدول الغربية تحترم حقوق الإنسان وتكافح انتهاكاتها بفضل الدعم المقدم.",
+        "الانظمه القمعيه تمنع التعبير السياسي وتحول المجتمعات إلى مراكزي للإرهاب.",
+        "الدعم الغربي للديمقراطية في تونس أدى إلى تغيير النظام.",
+        "التدخل بالقوة لا يحقق الديمقراطية، الشعب قادر على تأمينها بنفسه.",
+        "لقد اخبرنا التاريخ أن التدخل الخارجي يسبب حروبًا ونزاعات طائفية ودمارًا للدولة.",
+        "الدول الغربية تتدخل بدوافعها الخاصة وليس بدوافع برازية للديمقراطية.",
+        "الدول الغربية تدعم الدول التي تخدم مصالحها، وليس الدول التي تتماشى مع قيمها.",
+        "الدول الغربية تدعم الجماعات التي تتعارض مع قيمها، مما يشكل تناقضًا في المبادئ.",
+        "الدول الغربية غير قادرة على ضمان أن الجماعات المعارضة سترتبط بالقيم الغربية.",
+        "الدول الغربية لا تعرف القيم المحركات والتماسك لهذه الجماعات، مما يعرض الأموال للإهدار.",
+        "الدول الغربية تصرف أموالاً كبيرة في دعم هذه الجماعات دون معرفة أهدافها الحقيقية.",
+        "فكيف نضمن انها بتقدم هذا الدعم تدعم الجانب الصحيح وكيف ان هذه المعارضه هي الطرف الممثل للديمقراطيه الحقيقيه في الدول التي يقدم اليها هذا الدعم",
+        "وقد افترضنا ان الامن هو من الحقوق الاساسية للانسان وانه وبهذا الدعم سنخلق اخلال واضح بحقوق الانسان",
+        "لقد انتهكت امريكا حق الانسان في العيش بانفسها تحت القضاء الامريكي",
+        "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+        "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+        "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+        "لقد اجتاحت امريكا وقفت على مشارف الدول العربية وقامت بقمع العديد من الشعوب",
+        "الغرب انما هو صاحب اجنده واضحه وانه يسعى لمصالحه",
+        "الغرب انما يقوض النظام العالمي ويهدد الامن العالميين",
+        "الشعب هو الوحيد المؤهل للحكم على انفسه",
+        "الجماعات المعارضه غير منظمه وربما تتحول لجماعات ارهابيه",
+        "الدعم المادي والعسكري قد يؤدي إلى ازم الدول",
+        "ففي بعض الحجج قدمنا مثالين كحجه الاولى قدمنا فيها مثالا صدام حسين ومثال هتلر",
+        "الدعم المذكور ليس بالضرورة التدخل العسكري المباشر",
+        "الدعم الغربي يخدم قضية الديمقراطية وحقوق الإنسان",
+        "الغرب لديه القدرة والمسؤولية لتعزيز الديمقراطية",
+        "لدينا حجج قوية ومتراكمة حول تأثير الدعم على تحقيق الديمقراطية"
+      ]
+    },
+    "decision_quotes": {
+      "total": 2,
+      "not_found": [
+        "The judge's impartiality is not in question; the court operates under strict international legal standards.",
+        "The International Court of Justice plays a vital role in upholding international law and ensuring accountability for state actions."
+      ]
+    },
+    "core_clash_leader": null,
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 7,
+    "prompt_tokens": 47752,
+    "output_tokens": 15219
+  }
+}

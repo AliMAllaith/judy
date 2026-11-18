@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_019",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "proposition",
+    "confidence": 0.152,
+    "justification": "main_words: proposition=1881, opposition=1385"
+  },
+  "features": {
+    "proposition": 1881.0,
+    "opposition": 1385.0,
+    "tie": false
+  }
+}

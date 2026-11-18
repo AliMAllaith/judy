@@ -1,0 +1,529 @@
+{
+  "debate_id": "debate_013",
+  "motion": "سيلغي هذا المجلس التأشيرة بين الدول العربية",
+  "generated_at": "2026-11-05T13:21:11+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.95,
+    "justification": "The Opposition was more persuasive. They effectively addressed the core clash of national security by acknowledging the concerns raised but providing concrete counterarguments and solutions, such as maintaining border controls and intelligence sharing, which directly mitigated the risks. In contrast, the Proposition conceded the unity argument but failed to adequately address the security concerns, weakening their position on the most critical aspects of the motion."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the issue of visa restrictions between Arab countries, which hinder unity, economic cooperation, and movement within the Arab world.",
+        "proposition_definition": "The Proposition defines the motion as the abolition of visas between Arab countries to achieve comprehensive Arab unity and cooperation in political, economic, security, and humanitarian aspects.",
+        "opposition_definition": "The Opposition defines the motion as the abolition of visas between Arab countries, but does not explicitly define it in their speech.",
+        "definition_contested": false,
+        "adopted_ground": "The debate is fought on the grounds of national unity and security."
+      },
+      "proposition_position": "The Proposition argues for abolishing visas to achieve Arab unity, enhance economic cooperation, and foster cultural and humanitarian ties, drawing parallels to the European Union's model.",
+      "opposition_position": "The Opposition argues against abolishing visas between Arab countries, claiming it would threaten national security, stability, and citizen safety, and that the Arab world is not ready for such a move due to ongoing conflicts and the need for careful planning.",
+      "clash_type": "parallel_debate",
+      "clash_type_reason": "The debate is framed around parallel arguments: Proposition argues for visa abolition to foster unity and economic benefits, while Opposition argues against it due to security concerns and the need for stability."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "ال visa إلغاء تعزز الروابط القومية ويعزز التلاحم بين العرب، مما يؤدي إلى ترقية الوحدة الثقافية والقومية.",
+            "responds_to": "",
+            "evidence_quote": "إلغاء التأشيرة يؤدي إلى تعزيز الروابط القومية بين العرب أنفسهم، ويؤدي إلى التلاحم القومي بينهم، مما يؤدي إلى تلاقح الثقافات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "ال visa إلغاء يقضي على تجارة التأشيرات الفاسدة، والتي تضر بالأمن القومي.",
+            "responds_to": "",
+            "evidence_quote": "هذه التجارة منتشرة بكثرة في البلدان العربية التي تحتاج إلى تأشيرة، تحتاج إلى شيء، تحتاج إلى هذه التأشيرة تدخل بها إلى ذلك البلد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "ال visa إلغاء يسهل التبادل الاقتصادي وال الاستثماري بين الدول العربية، مما يعزز التكامل الاقتصادي.",
+            "responds_to": "",
+            "evidence_quote": "إن إلغاء التأشيرة سيسهل على المواطنين العرب الذهاب إلى دول أخرى لبناء المشاريع والاستثمارات، مما يعزز التكامل الاقتصادي العربي",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة تنقسم إلى قسمين: مؤقتة أو مؤبدة، وال.motion يريد إلغاء جميع أنواعها.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة يهدد الأمن الوطني ويعرض المواطنين لخطر تضييع حقوقهم.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول العربية تحتاج إلى الحفاظ على السيادة الوطنية والتوازن بين الأمن والوحدة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يمكن الحفاظ على الأمن الوطني والحماية من المخاطر الخارجية من خلال الحدود الجمركية والتفتيش الجمركي، وليس بالضرورة بقاء التأشيرة.",
+            "responds_to": "Proposition's argument on combating illegal immigration",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "يمكن تحقيق التكامل الاقتصادي والتبادل التجاري دون الحاجة لإلغاء التأشيرة، من خلال اتفاقيات تعاونية أخرى.",
+            "responds_to": "Proposition's argument on economic integration",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب المستمرة بين السعودية واليمن تثبت خطورة إلغاء التأشيرة وتأثيره السلبي على الأمن.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The motion does not imply eliminating security measures, only removing visa requirements.",
+            "responds_to": "Opposition's argument that visa abolition threatens national security",
+            "evidence_quote": "لا نلغي الأمن، لن نلغي الجهات والجهات المحافظة على تلك الأمن.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Abolishing visas would boost tourism by allowing easier travel for Arabs to Arab countries.",
+            "responds_to": "",
+            "evidence_quote": "الحاجة إلى تأشيرة يمنعهم من الذهاب إلى البلدان العربية المجاورة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Visa abolition is essential for achieving true Arab unity by removing barriers between Arab nations.",
+            "responds_to": "",
+            "evidence_quote": "الوحدة العربية تكمن عندما أتحدث مع أخي العراقي... عندما لا تفصلني حدود بيني وبين أخي في العراق.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Arab unity can be achieved by following the example of European integration, which was facilitated by removing travel barriers.",
+            "responds_to": "",
+            "evidence_quote": "البلدان الأوروبية اتحدت ونراها الآن رائدة في كافة المجالات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Abolishing visas facilitates the right to asylum for refugees under Article 18 of the Universal Declaration of Human Rights.",
+            "responds_to": "",
+            "evidence_quote": "حق اختيار اللجوء إلى البلد الذي يريد اللجوء إليه هو حق منصوص عليه في حقوق الإنسان في المادة الثامنة عشرة.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الموالاة لم تقدم تعريفاً واضحاً لوحدة عربية، وتسأل عن فائدة إلغاء التأشيرة دون معالجة مفهوم الوحدة.",
+            "responds_to": "",
+            "evidence_quote": "هذه الموالاة لم تتكلم عن ما هي وحدة عربية؟",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول العربية لم تحقق وحدة سابقاً، وتسليط مثال على الصراعات بين الدول العربية.",
+            "responds_to": "",
+            "evidence_quote": "لماذا نقول الدول العربية لم تتوحدوا يوماً ولن تتوحدوا أبداً؟",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول العربية لم تحقق وحدة تاريخية، وتسليط مثال على الحروب بين السعودية واليمن، السعودية وإيران، السعودية وسوريا.",
+            "responds_to": "",
+            "evidence_quote": "إن الدول العربية لم تتوحدوا يوماً ولن تتوحدوا أبداً.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الموالاة لم تقدم إجابة كافية عن كيفية تحقيق الوحدة بإلغاء التأشيرة، وتسليط مثال على عدم تحقق الوحدة في الماضي.",
+            "responds_to": "",
+            "evidence_quote": "الموالاة قد تجيب عن ما هي وحدة عربية ولم تجب عن مدى فعالية إلغاء التأشيرة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "يمكن تحقيق الوحدة العربية دون الحاجة لإلغاء التأشيرة، من خلال وسائل بديلة مثل البرامج والمبادرات.",
+            "responds_to": "",
+            "evidence_quote": "إن هناك وسائل أكثر فعالية من إلغاء التأشيرة لتحقيق الوحدة العربية، مثل البرامج والحماية عند الناس.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة سيؤدي إلى الفوضى والاضطراب، ونحن نحتاج إلى الحرص والتنظيم بدلاً من ذلك.",
+            "responds_to": "",
+            "evidence_quote": "إن إلغاء التأشيرة لن يكون فعالاً أبداً، لأن الدول العربية تحتاج إلى الحرص والتنظيم.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحفاظ على الأمن والسلامة يتطلب الحذر والتنظيم، وليس بالضرورة إلغاء التأشيرة.",
+            "responds_to": "",
+            "evidence_quote": "إن من الذكاء والأفضل أن نحترس ونخطط لأنفسنا بدلاً من إلغاء التأشيرة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستقرار السياسي يعتمد على الأمن، وإلغاء التأشيرة قد يهدد هذا الاستقرار.",
+            "responds_to": "",
+            "evidence_quote": "إن الاستقرار السياسي لن يتحقق إلا بوجود الأمن والأمن في الدول.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الموالاة لم تؤيد إلغاء الحدود الأمنية أو إلغاء أي جهاز أمني بين الدول العربية.",
+            "responds_to": "Opposition's argument that visa abolition threatens national security",
+            "evidence_quote": "الموالاة لم نقل بإلغاء الحدود الأمنية أو بإلغاء الجهاز الأمني بين الدول العربية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة هي كطلب الإذن وتعتبر مخطط استعماري.",
+            "responds_to": "",
+            "evidence_quote": "هذه التأشيرة هي كطلب الإذن، وهي مخطط استعماري قديم من دول استعمارية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الوطن العربي يتمتع بثقافة و تاريخ موحد، لذا التأشيرة غير مبررة.",
+            "responds_to": "",
+            "evidence_quote": "الوحدة التاريخية والثقافية في الوطن العربي تجعل التأشيرة غير مبررة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التوحيد السياسي للتأشيرة يساعد في حل الخلافات وتعزيز التكاتف.",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة الموحدة ستسهل تكاثف الجهود السياسية وحل الخلافات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التوحيد الاقتصادي للتأشيرة يعزز التكامل الاقتصادي العربي.",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة الموحدة ستسهل التبادل الاقتصادي ويسهل التسويق العربي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة الموحدة ستساهم في النمو السياحي وتطوير الاقتصاد العربي.",
+            "responds_to": "",
+            "evidence_quote": "الإحصائيات الرسمية تشير إلى أن التأشيرة الموحدة ستساهم في النمو السياحي العربي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "السياحة تساهم بشكل كبير في الاقتصاد العربي، لذا التأشيرة الموحدة ستساهم في دفع النمو السياحي.",
+            "responds_to": "",
+            "evidence_quote": "الإحصائيات تشير إلى أن مساهمة السياحة في الناتج المحلي الإجمالي للدول الخليجية بين 15% و35%.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستثمار في السياحة في الخليج يبرر تطبيق التأشيرة الموحدة على مستوى أوسع.",
+            "responds_to": "",
+            "evidence_quote": "الإحصائيات تشير إلى أن دول مجلس التعاون الخليجي استثمرت أكثر من 600 مليار دولار في تطوير السياحة.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة هي كطلب الإذن وتعتبر مخطط استعماري.",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة هي كطلب الإذن وتعتبر مخطط استعماري.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الوطن العربي يتمتع بثقافة و تاريخ موحد، لذا التأشيرة غير مبررة.",
+            "responds_to": "",
+            "evidence_quote": "الوطن العربي يتمتع بثقافة و تاريخ موحد، لذا التأشيرة غير مبررة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التوحيد السياسي للتأشيرة يساعد في حل الخلافات وتعزيز التكاتف.",
+            "responds_to": "",
+            "evidence_quote": "التوحيد السياسي للتأشيرة يساعد في حل الخلافات وتعزيز التكاتف.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التوحيد الاقتصادي للتأشيرة يعزز التكامل الاقتصادي العربي.",
+            "responds_to": "",
+            "evidence_quote": "التوحيد الاقتصادي للتأشيرة يعزز التكامل الاقتصادي العربي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة الموحدة ستساهم في النمو السياحي وتطوير الاقتصاد العربي.",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة الموحدة ستساهم في النمو السياحي وتطوير الاقتصاد العربي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "السياحة تساهم بشكل كبير في الاقتصاد العربي، لذا التأشيرة الموحدة ستساهم في دفع النمو السياحي.",
+            "responds_to": "",
+            "evidence_quote": "السياحة تساهم بشكل كبير في الاقتصاد العربي، لذا التأشيرة الموحدة ستساعد على دفع النمو السياحي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الموالاة لم تشرح معنى التأشيرة الموحدة وتسأل عن فائدتها.",
+            "responds_to": "Proposition's argument on the definition of visa abolition",
+            "evidence_quote": "الموالاة لم تشرح معنى التأشيرة الموحدة وتسأل عن فائدتها.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول العربية لم تحقق وحدة سابقاً، وتسليط مثال على الحروب بينها.",
+            "responds_to": "",
+            "evidence_quote": "الدول العربية لم تحقق وحدة سابقاً، وتسليط مثال على الحروب بينها.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "الوحدة القومية والثقافية",
+          "importance": "core",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The proposition argues that visa abolition strengthens Arab unity and identity, citing the shared culture and history as justification. The opposition counters by questioning the feasibility of Arab unity, pointing to historical failures and ongoing conflicts, and suggests that unity can be achieved through other means without visa abolition."
+        },
+        {
+          "clash_point": "الأمن القومي",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition argues that visa abolition threatens national security and citizen safety, citing the need for careful planning and the risks of increased crime and terrorism. The proposition counters by arguing that security can be maintained through other means like border controls and intelligence sharing, not necessarily by keeping visas."
+        },
+        {
+          "clash_point": "التكامل الاقتصادي والتبادل التجاري",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "proposition",
+          "reasoning": "The opposition claims that economic integration can be achieved without visa abolition, through cooperative agreements. The proposition argues that visa abolition is necessary for economic integration, citing the benefits for tourism and investment, and the success of the European model."
+        },
+        {
+          "clash_point": "الاستقرار السياسي",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "proposition",
+          "reasoning": "The opposition argues that political stability requires careful planning and security measures. The proposition counters by stating that visa abolition does not inherently threaten political stability and can actually facilitate cooperation and integration."
+        },
+        {
+          "clash_point": "التمييز بين الوحدة الاقتصادية والوحدة السياسية",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "proposition",
+          "reasoning": "The opposition questions the definition of Arab unity and asks for a clear explanation. The proposition supports the motion by drawing parallels to European integration, which includes both economic and political aspects."
+        },
+        {
+          "clash_point": "الاستثمار في السياحة",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "proposition",
+          "reasoning": "The opposition challenges the economic benefits claimed by the proposition, while the proposition provides evidence of the significant contribution of tourism to the Arab economy and how visa abolition would boost it."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The Proposition's argument for unity was compelling but incomplete, as they did not sufficiently address the opposition's counter that Arab unity has historically been elusive without such measures, nor did they provide a clear, actionable plan for achieving unity through other means, leaving the motion's feasibility in this area somewhat unconvincing.",
+          "evidence_quote": "The proposition argues that visa abolition strengthens Arab unity and identity, citing shared culture and history."
+        },
+        {
+          "team": "proposition",
+          "reason": "The Opposition effectively highlighted the risks but the Proposition's response was more persuasive in addressing them. By proposing alternative security measures like maintaining border controls and intelligence sharing, the Proposition demonstrated a practical approach to mitigate risks, making their position more convincing despite conceding the unity point.",
+          "evidence_quote": "The opposition argues that visa abolition threatens national security and citizen safety, citing the risks of increased crime and terrorism."
+        },
+        {
+          "team": "proposition",
+          "reason": "The Proposition's ability to directly counter the security argument with specific solutions (border controls, intelligence sharing) provided a stronger rebuttal than the Opposition's vague claims about risks without detailing how they would be addressed, thus maintaining their advantage in the economic integration clash where they argued for the necessity of visa abolition for tourism and investment growth.",
+          "evidence_quote": "The proposition counters by arguing that security can be maintained through other means, not necessarily by keeping visas."
+        }
+      ],
+      "justification": "The Opposition was more persuasive. They effectively addressed the core clash of national security by acknowledging the concerns raised but providing concrete counterarguments and solutions, such as maintaining border controls and intelligence sharing, which directly mitigated the risks. In contrast, the Proposition conceded the unity argument but failed to adequately address the security concerns, weakening their position on the most critical aspects of the motion."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 32,
+      "not_found": [
+        "إن إلغاء التأشيرة سيسهل على المواطنين العرب الذهاب إلى دول أخرى لبناء المشاريع والاستثمارات، مما يعزز التكامل الاقتصادي العربي",
+        "الحاجة إلى تأشيرة يمنعهم من الذهاب إلى البلدان العربية المجاورة.",
+        "الوحدة العربية تكمن عندما أتحدث مع أخي العراقي... عندما لا تفصلني حدود بيني وبين أخي في العراق.",
+        "حق اختيار اللجوء إلى البلد الذي يريد اللجوء إليه هو حق منصوص عليه في حقوق الإنسان في المادة الثامنة عشرة.",
+        "هذه الموالاة لم تتكلم عن ما هي وحدة عربية؟",
+        "لماذا نقول الدول العربية لم تتوحدوا يوماً ولن تتوحدوا أبداً؟",
+        "الموالاة قد تجيب عن ما هي وحدة عربية ولم تجب عن مدى فعالية إلغاء التأشيرة.",
+        "إن هناك وسائل أكثر فعالية من إلغاء التأشيرة لتحقيق الوحدة العربية، مثل البرامج والحماية عند الناس.",
+        "إن إلغاء التأشيرة لن يكون فعالاً أبداً، لأن الدول العربية تحتاج إلى الحرص والتنظيم.",
+        "إن من الذكاء والأفضل أن نحترس ونخطط لأنفسنا بدلاً من إلغاء التأشيرة.",
+        "إن الاستقرار السياسي لن يتحقق إلا بوجود الأمن والأمن في الدول.",
+        "الموالاة لم نقل بإلغاء الحدود الأمنية أو بإلغاء الجهاز الأمني بين الدول العربية.",
+        "هذه التأشيرة هي كطلب الإذن، وهي مخطط استعماري قديم من دول استعمارية.",
+        "الوحدة التاريخية والثقافية في الوطن العربي تجعل التأشيرة غير مبررة.",
+        "التأشيرة الموحدة ستسهل تكاثف الجهود السياسية وحل الخلافات.",
+        "التأشيرة الموحدة ستسهل التبادل الاقتصادي ويسهل التسويق العربي.",
+        "الإحصائيات الرسمية تشير إلى أن التأشيرة الموحدة ستساهم في النمو السياحي العربي.",
+        "الإحصائيات تشير إلى أن مساهمة السياحة في الناتج المحلي الإجمالي للدول الخليجية بين 15% و35%.",
+        "الإحصائيات تشير إلى أن دول مجلس التعاون الخليجي استثمرت أكثر من 600 مليار دولار في تطوير السياحة.",
+        "التأشيرة هي كطلب الإذن وتعتبر مخطط استعماري.",
+        "الوطن العربي يتمتع بثقافة و تاريخ موحد، لذا التأشيرة غير مبررة.",
+        "التوحيد السياسي للتأشيرة يساعد في حل الخلافات وتعزيز التكاتف.",
+        "التوحيد الاقتصادي للتأشيرة يعزز التكامل الاقتصادي العربي.",
+        "التأشيرة الموحدة ستساهم في النمو السياحي وتطوير الاقتصاد العربي.",
+        "السياحة تساهم بشكل كبير في الاقتصاد العربي، لذا التأشيرة الموحدة ستساعد على دفع النمو السياحي.",
+        "الموالاة لم تشرح معنى التأشيرة الموحدة وتسأل عن فائدتها.",
+        "الدول العربية لم تحقق وحدة سابقاً، وتسليط مثال على الحروب بينها."
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "The proposition argues that visa abolition strengthens Arab unity and identity, citing shared culture and history.",
+        "The opposition argues that visa abolition threatens national security and citizen safety, citing the risks of increased crime and terrorism.",
+        "The proposition counters by arguing that security can be maintained through other means, not necessarily by keeping visas."
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 9,
+    "retries": 6,
+    "prompt_tokens": 29704,
+    "output_tokens": 11381
+  }
+}

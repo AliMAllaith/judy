@@ -1,0 +1,318 @@
+{
+  "debate_id": "debate_019",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-05T10:26:26+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.7,
+    "justification": "The opposition’s arguments were more logically connected, directly addressed the core clash points, and provided specific evidence. The proposition’s speeches were repetitive, lacked clear refutations, and failed to counter the opposition’s key points effectively.",
+    "best_speaker": "المعارضة - المتحدث الأول"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "هل يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب؟",
+      "proposition_definition": "الدول يجب أن تُجرى استفتاء شعبي لتقرير ما إذا كانت ستدخل في حرب.",
+      "opposition_definition": "الدول لا يجب أن تُجرى استفتاء شعبي قبل إعلان الحرب؛ القرار يُترك للسلطات المختصة.",
+      "definition_contested": false,
+      "adopted_ground": "المحور المشترك هو السؤال حول ضرورة الاستفتاء قبل الحرب."
+    },
+    "positions": {
+      "proposition": "يدعم إجراء الاستفتاء الشعبي قبل إعلان الحرب.",
+      "opposition": "يعارض إجراء الاستفتاء الشعبي قبل إعلان الحرب."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الاستفتاء يحقق مبادئ الديمقراطية ويمنح الشعب حق اتخاذ القرار في مسألة حاسمة.",
+        "evidence_quote": "\"حكم الشعب\" \"القرار الأساسي للشعوب\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "يُحاول إلغاء حجة عدم ملاءمة الاستفتاء بالاعتماد على أمثلة اقتصادية واجتماعية.",
+        "evidence_quote": "\"الاقتصاد\" \"الأثر الاجتماعي\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الاستفتاء يضمن دعم الشعب للقرارات العسكرية ويقلل من النزاعات الداخلية.",
+        "evidence_quote": "\"الاستفتاء\" \"دعم الشعب\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الاستفتاء يحقق التوازن بين الديمقراطية والاقتصاد والأمن.",
+        "evidence_quote": "\"الاقتصاد\" \"الأمن\" \"الديمقراطية\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الاستفتاء غير مناسب للقرارات العسكرية بسبب تعقيدها واحتياج الخبرة.",
+        "evidence_quote": "\"الاستفتاء\" \"غير مناسب\" \"حكم\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "الديمقراطية لا تتطلب استفتاءً، بل تمثيلًا، ويُظهر الاستفتاء خطرًا على الأمن.",
+        "evidence_quote": "\"الديمقراطية\" \"التمثيل\" \"الأمن\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الاستفتاء قد يؤدي إلى قرارات خاطئة (مثال بريطانيا، العراق).",
+        "evidence_quote": "\"بريطانيا\" \"العراق\" \"الاستفتاء\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الاستفتاء يضع المسؤولية على الشعب غير مؤهل، ويُقلل من كفاءة اتخاذ القرار.",
+        "evidence_quote": "\"الشعب\" \"غير مؤهل\" \"القرار\"",
+        "counted": false,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "هل يحقق الاستفتاء الشعبي مبادئ الديمقراطية؟",
+        "importance": "core",
+        "proposition_side": "استفتاء = حكم الشعب",
+        "opposition_side": "الديمقراطية لا تتطلب استفتاءً، بل تمثيلًا",
+        "outcome": "opposition",
+        "reasoning": "أظهر Opposition أن الديمقراطية لا تستلزم استفتاءً، وقدم أمثلة على فشل الاستفتاءات."
+      },
+      {
+        "clash_point": "هل الاستفتاء مناسب للقرارات العسكرية؟",
+        "importance": "core",
+        "proposition_side": "الاستفتاء يضمن دعم الشعب ويقلل النزاعات",
+        "opposition_side": "الاستفتاء غير مناسب بسبب تعقيد الحرب واحتياج الخبرة",
+        "outcome": "opposition",
+        "reasoning": "Opposition قدم حجة قوية بأن الاستفتاء يفتقر إلى المعلومات الضرورية ويعرض الأمن للخطر."
+      },
+      {
+        "clash_point": "هل الاستفتاء يؤدي إلى نتائج أفضل؟",
+        "importance": "secondary",
+        "proposition_side": "الاستفتاء يؤدي إلى دعم مالي ومورالي",
+        "opposition_side": "الاستفتاء قد يؤدي إلى قرارات خاطئة (بريطانيا، العراق)",
+        "outcome": "opposition",
+        "reasoning": "Opposition استخدم أمثلة واقعية لإظهار مخاطر الاستفتاء."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition presented clearer, more structured arguments and directly refuted Proposition’s claims.",
+      "style": "Opposition’s speech was more coherent despite transcription errors; Proposition’s speeches were repetitive and unclear.",
+      "strategy": "Opposition maintained focus on the motion and addressed all core clash points; Proposition’s speakers often repeated points without advancing the case."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "reason": "Opposition successfully refuted the proposition’s claim that referendum is necessary for democracy.",
+          "where": "Speech 2",
+          "effect": "shifted the balance on the democratic principle clash point.",
+          "evidence_quote": "\"الديمقراطية لا تتطلب استفتاءً\""
+        },
+        {
+          "reason": "Opposition argued that referendum is unsuitable for war decisions due to complexity and expertise requirements.",
+          "where": "Speech 2",
+          "effect": "demonstrated a stronger case on the suitability clash point.",
+          "evidence_quote": "\"الاستفتاء غير مناسب للقرارات العسكرية\""
+        },
+        {
+          "reason": "Opposition provided concrete examples (Brexit, Iraq) to show negative outcomes of referendums.",
+          "where": "Speech 2",
+          "effect": "strengthened the argument against referendum’s effectiveness.",
+          "evidence_quote": "\"بريطانيا\" \"العراق\" \"الاستفتاء\""
+        }
+      ]
+    },
+    "justification": "The opposition’s arguments were more logically connected, directly addressed the core clash points, and provided specific evidence. The proposition’s speeches were repetitive, lacked clear refutations, and failed to counter the opposition’s key points effectively.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 65,
+        "note": "Repetitive, unclear chain, minimal refutation."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "Structured, addressed core points, provided examples."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 66,
+        "note": "Similar issues to first speaker."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "Good structure but less clear than first speaker."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "Repetition, weak refutation."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "Clear refutation, examples."
+      },
+      {
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 39,
+        "note": "Concise summary, effective refutation."
+      },
+      {
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "Similar to opposition reply, but less persuasive."
+      }
+    ],
+    "best_speaker": "المعارضة - المتحدث الأول",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "التركيز على مبادئ الديمقراطية.",
+          "استخدام أمثلة اقتصادية واجتماعية."
+        ],
+        "improvements": [
+          "تقديم حجة أكثر تنظيمًا وتجنب التكرار.",
+          "إضافة أمثلة واقعية تدعم الفكرة.",
+          "تحسين أسلوب العرض لتوضيح السلسلة المنطقية."
+        ],
+        "recommendations": [
+          "استخدام هيكل واضح: تعريف، حجة، مثال، تأثير، ثم تفنيد.",
+          "التركيز على نقاط الصدام الأساسية وتقديم ردود فعل مباشرة."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "تقديم حجة واضحة ومتماسكة.",
+          "استخدام أمثلة واقعية (بريطانيا، العراق).",
+          "تفنيد حجة الموالاة بفعالية."
+        ],
+        "improvements": [
+          "تقليل التكرار في بعض النقاط.",
+          "تحسين الوضوح في بعض الجمل غير المفهومة."
+        ],
+        "recommendations": [
+          "الاستمرار في التركيز على نقاط الصدام الأساسية.",
+          "إضافة أمثلة إضافية تدعم حجة عدم ملاءمة الاستفتاء."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcript_garbled",
+      "speech_length_issues"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 11,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "\"حكم الشعب\" \"القرار الأساسي للشعوب\"",
+        "\"الاقتصاد\" \"الأثر الاجتماعي\"",
+        "\"الاستفتاء\" \"دعم الشعب\"",
+        "\"الاقتصاد\" \"الأمن\" \"الديمقراطية\"",
+        "\"الاستفتاء\" \"غير مناسب\" \"حكم\"",
+        "\"الديمقراطية\" \"التمثيل\" \"الأمن\"",
+        "\"بريطانيا\" \"العراق\" \"الاستفتاء\"",
+        "\"الشعب\" \"غير مؤهل\" \"القرار\"",
+        "\"الديمقراطية لا تتطلب استفتاءً\"",
+        "\"الاستفتاء غير مناسب للقرارات العسكرية\"",
+        "\"بريطانيا\" \"العراق\" \"الاستفتاء\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 237,
+      "opposition": 266
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 11700,
+        "output": 2505
+      }
+    ]
+  }
+}

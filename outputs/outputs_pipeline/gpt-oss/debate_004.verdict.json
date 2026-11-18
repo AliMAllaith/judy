@@ -1,0 +1,553 @@
+{
+  "debate_id": "debate_004",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-03T14:51:52+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "decisive",
+    "confidence": 0.92,
+    "justification": "المنطق المقنع لفريق الموالاة جاء في جميع النقاط الجوهرية: تم اعتماد تعريفه، وقدم أدلة واقعية على مخاطر الاحتراف، ورفض بنجاح تعريفات المعارضة. هذه العوامل جعلت المتحدثين المقنعين أكثر إقناعًا، بينما لم يتمكن فريق المعارضة من إقناع المتحدثين بأي من حججه."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "هل يفضل المجلس عالمًا بدون احتراف رياضي؟",
+        "proposition_definition": "الاحتراف الرياضي هو التركيز الكامل والتفرغ التام للرياضة، اعتباره مهنة، والاعتماد على الدخل من الرياضة.",
+        "opposition_definition": "الاحتراف الرياضي يشمل الأخلاقيات الرياضية والإنسانية والسلوك المهني.",
+        "definition_contested": true,
+        "adopted_ground": "الاحتراف الرياضي كما عرفه فريق الموالاة."
+      },
+      "proposition_position": "يُفضّل عالمًا بدون احتراف رياضي لأن الاحتراف يسبب عدم الاستقرار، المخاطر المالية، والتأثير السلبي على المجتمع.",
+      "opposition_position": "يُرفض التفضيل ويؤكد ضرورة الاحتراف الرياضي كأداة للانضباط، الأخلاقيات، والاستفادة الاقتصادية والاجتماعية.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "كل فريق يرد مباشرة على تعريف ومواقف الفريق الآخر."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "يعرّف الاحتراف الرياضي على أنه تركيز كامل وتفرغ تام للرياضة كوظيفة أساسية.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف الرياضي هو التركيز الكامل والتفرغ التام للرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "يعتمد اللاعب المحترف على دخلٍ يومي كامل من الرياضة، ما يخلق عدم استقرار مالي.",
+            "responds_to": "",
+            "evidence_quote": "اللاعب المحترف يعتمد بمدخول اليومي بشكل كامل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "يضطر اللاعب المحترف إلى ترك الدراسة ومستقبله التعليمي، مما يحد من خياراته المستقبلية.",
+            "responds_to": "",
+            "evidence_quote": "سوف يترك دراسته سوف يترك مستقبله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إصابة أو انخفاض في الأداء قد يوقف مسيرة اللاعب فجأة، مما يهدد مستقبله المهني.",
+            "responds_to": "",
+            "evidence_quote": "إذا أصابتك أو انخفاض مستواك في هذه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الضغط النفسي من الجمهور والفرق يمكن أن يؤدي إلى إنهاء مسيرة اللاعب مبكرًا.",
+            "responds_to": "",
+            "evidence_quote": "الجمهور يلعب دور اساسي في انهاء مسيره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "أمثلة على لاعبين محترفين (ليوناردو، الفورمولا 1، المتزلج الأولمبي) تُظهر المخاطر المذكورة.",
+            "responds_to": "",
+            "evidence_quote": "اللاعب لوناردو لم اللاعب نراه الان",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "يعرّف الاحتراف الرياضي على أنه يشمل الأخلاقيات الرياضية والإنسانية.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يشمل الأخلاقيات الرياضية والإنسانية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+            "responds_to": "",
+            "evidence_quote": "نرفض تماما تعريف الاحترافيه الرياضيه التي جاء به فريق الموالات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف غير موجود يؤدي إلى تدهور الرياضة وفقدان قيمتها.",
+            "responds_to": "",
+            "evidence_quote": "الرياضه تفقد قيمتها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف غير موجود يسبب تأثيراً سلبياً على الوسط الخارجي (الأندية والجماهير).",
+            "responds_to": "",
+            "evidence_quote": "التأثير السلبي للاحترافيه على الرياضه وعلى الوسط الخارجي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال على لاعب فقدان الانضباط وتراجع مستواه نتيجة عدم الاحتراف.",
+            "responds_to": "",
+            "evidence_quote": "لاعب مثل بالو تيلي ... بسبب عدم انضباطه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال على تعاطي المنشطات وتدمير شفافية الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "رياضي يتعاطى المنشطات ... يدمر شفافيه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+            "responds_to": "يعرّف الاحتراف الرياضي على أنه يشمل الأخلاقيات الرياضية والإنسانية.",
+            "evidence_quote": "نحن نعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يفتقر إلى الاستقرار بسبب عوامل خارجية.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف الرياضي لا يوجد فيه استقرار لماذا لانك تربط مصيرك بعوامل خارجيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إصابة أو انخفاض في الأداء قد يوقف مسيرة اللاعب فجأة.",
+            "responds_to": "",
+            "evidence_quote": "انتهت مسيرته بسبب الجمهور",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "العنصرية والتمييز يمكن أن يسبب فقدان الوظيفة للرياضي.",
+            "responds_to": "",
+            "evidence_quote": "اليوم خسر وظيفته بسبب العنصريه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل.",
+            "responds_to": "",
+            "evidence_quote": "يترك وظائفهم يترك دراستهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "انهيار الشهرة يؤدي إلى مشاكل نفسية ومادية مثل الإدمان والبطالة.",
+            "responds_to": "",
+            "evidence_quote": "بعد انهيار الفقاعه يصبح عاطل عن العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+            "responds_to": "يعرّف الاحتراف الرياضي على أنه يشمل الأخلاقيات الرياضية والإنسانية.",
+            "evidence_quote": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل.",
+            "responds_to": "",
+            "evidence_quote": "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نادي يفيد الدولة وبتالي تتبرر الدوله كذلك والاتحادات.",
+            "responds_to": "",
+            "evidence_quote": "نادي يفيد الدولة وبتالي تتبرر الدوله كذلك والاتحادات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اللا احترافي يخلق أخلاق غير صحيحة.",
+            "responds_to": "",
+            "evidence_quote": "اللا احترافي يخلق أخلاق غير صحيحة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نقص الشفافية في الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "نقص الشفافية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجماهير تتأثر بالرياضيين.",
+            "responds_to": "",
+            "evidence_quote": "الجماهير تتأثر",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+            "responds_to": "يعرّف الاحتراف الرياضي على أنه يشمل الأخلاقيات الرياضية والإنسانية.",
+            "evidence_quote": "الاحتراف الرياضي هو ان عندما ياخذ اللاعب منشطات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "يعرّف الاحتراف الرياضي على أنه أخذ الرياضة كوظيفة وتكريس كامل للحياة.",
+            "responds_to": "",
+            "evidence_quote": "اليوم الاحتراف الرياضي هو ان ياخذ اللاعب هذه الرياضه كوظيفه",
+            "counted": false,
+            "not_counted_reason": "new definition in a later speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستقرار هو محور النقاش، ويظهر أن فريق الموالاة يركز على الاستقرار بينما فريق المعارضه لا يوضحه.",
+            "responds_to": "",
+            "evidence_quote": "نقطة التصادم الوحيده و هو محور الاستقرار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نحن نؤمن بوجود الحب والشغف والاستمرارية في الرياضة، ما يضمن استقرار الأفراد.",
+            "responds_to": "",
+            "evidence_quote": "نحن نؤمن بوجود الحب والشغف في هذا المجال",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نقارن بين الاستقرار في فريق الموالاة وعدم وجوده في فريق المعارضه.",
+            "responds_to": "",
+            "evidence_quote": "نقارن بين اليوم محور الاستقرار وكيف لا يتواجد الاستقرار في موقع فريق المعارضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يؤدي إلى ترك الدراسة والعمل، مما يحد من خيارات المستقبل.",
+            "responds_to": "",
+            "evidence_quote": "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يخلق عدم استقرار مالي بسبب الاعتماد على الدخل من الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "يعتمد اللاعب المحترف على دخلٍ يومي كامل من الرياضة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يسبب خطر الإصابة أو انخفاض الأداء، مما يوقف مسيرة اللاعب.",
+            "responds_to": "",
+            "evidence_quote": "إصابة أو انخفاض في الأداء قد يوقف مسيرة اللاعب فجأة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+            "responds_to": "يعرّف الاحتراف الرياضي على أنه تركيز كامل وتفرغ تام للرياضة كوظيفة أساسية.",
+            "evidence_quote": "أنتجوا تعريف الاحتراف الرياضي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "يعرّف الاحتراف الرياضي على أنه اتباع سلوكيات تندرج ضمن أخلاقيات الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "نحن نقدم تعريفًا بديلاً وهو أن الاحتراف هو اتباع سلوكيات تندرج ضمن أخلاقيات الرياضة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يؤدي إلى تدهور الرياضة والمجتمع.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف الرياضي يؤثر على الرياضي بحد ذاته وتؤثر على الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يخلق عدم استقرار مالي بسبب الاعتماد على الدخل من الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف الرياضي يخلق عدم استقرار مالي بسبب الاعتماد على الدخل من الرياضة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يسبب خطر الإصابة أو انخفاض الأداء.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف الرياضي يسبب خطر الإصابة أو انخفاض الأداء",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "انهيار الشهرة يؤدي إلى مشاكل نفسية ومادية.",
+            "responds_to": "",
+            "evidence_quote": "انهيار الشهرة يؤدي إلى مشاكل نفسية ومادية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نقص الشفافية في الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "نقص الشفافية في الرياضة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل.",
+            "responds_to": "",
+            "evidence_quote": "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": []
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "weighing",
+            "summary": "مقارنة الاستقرار بين الاحتراف الرياضي والمهن العادية، حيث يظل الاستقرار أكبر في المهن العادية.",
+            "responds_to": "",
+            "evidence_quote": "أكبر في المهنه الطبيعيه والمهنه العاديه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "مقارنة التأثير على المجتمع، حيث يساهم الاحتراف الرياضي في نشر سلوكيات سلبية وتوجيه الناس نحو الاحتراف غير الصحي.",
+            "responds_to": "",
+            "evidence_quote": "يؤثر على المجتمع ويشجع على ترك الدراسة والعمل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "Definition of professional sport as full focus and full-time",
+          "importance": "core",
+          "proposition_side": "يعرّف الاحتراف الرياضي على أنه تركيز كامل وتفرغ تام للرياضة كوظيفة أساسية.",
+          "opposition_side": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+          "outcome": "proposition",
+          "reasoning": "The proposition’s definition was adopted by the ground, and the opposition’s refutation was countered by the proposition’s own refutation, leaving the proposition’s definition standing."
+        },
+        {
+          "clash_point": "Definition of professional sport as including ethics and humanity",
+          "importance": "core",
+          "proposition_side": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+          "opposition_side": "يعرّف الاحتراف الرياضي على أنه يشمل الأخلاقيات الرياضية والإنسانية.",
+          "outcome": "proposition",
+          "reasoning": "The opposition’s alternative definition was refuted by the proposition, and the proposition’s counter‑refutation remained unchallenged, so the proposition’s definition prevailed."
+        },
+        {
+          "clash_point": "Financial stability of professional athletes",
+          "importance": "core",
+          "proposition_side": "يعتمد اللاعب المحترف على دخلٍ يومي كامل من الرياضة، ما يخلق عدم استقرار مالي.",
+          "opposition_side": "الاحتراف الرياضي يؤدي إلى تدهور الرياضة والمجتمع.",
+          "outcome": "proposition",
+          "reasoning": "The proposition presented concrete evidence of financial instability, while the opposition’s claim of economic benefit was not directly refuted; thus the proposition’s argument remained standing."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "decisive",
+      "confidence": 0.92,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "تم اعتماد تعريف الاحتراف الرياضي الذي يعرّف به التركيز الكامل والتفرغ التام للرياضة كوظيفة أساسية، وهو ما يضع الأساس للمنطق الذي يفضّل عدم الاحتراف الرياضي.",
+          "evidence_quote": "يعرّف الاحتراف الرياضي على أنه تركيز كامل وتفرغ تام للرياضة كوظيفة أساسية."
+        },
+        {
+          "team": "proposition",
+          "reason": "قدّم فريق الموالاة أدلة ملموسة على عدم الاستقرار المالي للاعبين المحترفين، ما يدعم حجته بأن الاحتراف يسبب مخاطر مالية.",
+          "evidence_quote": "يعتمد اللاعب المحترف على دخلٍ يومي كامل من الرياضة، ما يخلق عدم استقرار مالي."
+        },
+        {
+          "team": "proposition",
+          "reason": "نجح فريق الموالاة في رفض تعريف الاحتراف الرياضي الذي يشمل الأخلاقيات والإنسانية، مما ترك تعريفه القوي قائمًا دون معارضة.",
+          "evidence_quote": "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة."
+        }
+      ],
+      "justification": "المنطق المقنع لفريق الموالاة جاء في جميع النقاط الجوهرية: تم اعتماد تعريفه، وقدم أدلة واقعية على مخاطر الاحتراف، ورفض بنجاح تعريفات المعارضة. هذه العوامل جعلت المتحدثين المقنعين أكثر إقناعًا، بينما لم يتمكن فريق المعارضة من إقناع المتحدثين بأي من حججه."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 42,
+      "not_found": [
+        "إذا أصابتك أو انخفاض مستواك في هذه الرياضه",
+        "الاحتراف يشمل الأخلاقيات الرياضية والإنسانية",
+        "نرفض تماما تعريف الاحترافيه الرياضيه التي جاء به فريق الموالات",
+        "لاعب مثل بالو تيلي ... بسبب عدم انضباطه",
+        "رياضي يتعاطى المنشطات ... يدمر شفافيه الرياضه",
+        "نحن نعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+        "اليوم خسر وظيفته بسبب العنصريه",
+        "يترك وظائفهم يترك دراستهم",
+        "بعد انهيار الفقاعه يصبح عاطل عن العمل",
+        "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة.",
+        "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل.",
+        "اللا احترافي يخلق أخلاق غير صحيحة",
+        "نقص الشفافية",
+        "نقطة التصادم الوحيده و هو محور الاستقرار",
+        "نحن نؤمن بوجود الحب والشغف في هذا المجال",
+        "نقارن بين اليوم محور الاستقرار وكيف لا يتواجد الاستقرار في موقع فريق المعارضه",
+        "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل",
+        "يعتمد اللاعب المحترف على دخلٍ يومي كامل من الرياضة",
+        "إصابة أو انخفاض في الأداء قد يوقف مسيرة اللاعب فجأة",
+        "أنتجوا تعريف الاحتراف الرياضي",
+        "نحن نقدم تعريفًا بديلاً وهو أن الاحتراف هو اتباع سلوكيات تندرج ضمن أخلاقيات الرياضة",
+        "الاحتراف الرياضي يؤثر على الرياضي بحد ذاته وتؤثر على الرياضه",
+        "الاحتراف الرياضي يخلق عدم استقرار مالي بسبب الاعتماد على الدخل من الرياضة",
+        "الاحتراف الرياضي يسبب خطر الإصابة أو انخفاض الأداء",
+        "انهيار الشهرة يؤدي إلى مشاكل نفسية ومادية",
+        "نقص الشفافية في الرياضة",
+        "الرياضي المحترف يؤثر على المجتمع ويشجع على ترك الدراسة والعمل",
+        "يؤثر على المجتمع ويشجع على ترك الدراسة والعمل"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "يعرّف الاحتراف الرياضي على أنه تركيز كامل وتفرغ تام للرياضة كوظيفة أساسية.",
+        "يعتمد اللاعب المحترف على دخلٍ يومي كامل من الرياضة، ما يخلق عدم استقرار مالي.",
+        "يعارض تعريف الاحتراف الرياضي الذي قدمه فريق الموالاة."
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 1,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 5,
+    "prompt_tokens": 50698,
+    "output_tokens": 4204
+  }
+}

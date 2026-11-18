@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_006",
+  "motion": "يدعم هذا المجلس تقسيم الطلاب على الفصول الدراسيه حسب قدراتهم الاكاديميه",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.03,
+    "justification": "main_words: proposition=2578, opposition=2738"
+  },
+  "features": {
+    "proposition": 2578.0,
+    "opposition": 2738.0,
+    "tie": false
+  }
+}

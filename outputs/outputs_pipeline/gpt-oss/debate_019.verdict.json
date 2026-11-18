@@ -1,0 +1,680 @@
+{
+  "debate_id": "debate_019",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-06T09:26:54+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "decisive",
+    "confidence": 0.92,
+    "justification": "الفريق البندوي فاز في نقطتين أساسيين (النقطة 2 و 3) بينما لم ينجح الفريق المعارض في أي نقطة أساسية، ما يجعل موقفه أكثر إقناعاً. تم تقديم حجة واضحة ومباشرة حول نقص المعرفة العامة، مع خطة عملية لتصويت الشعب، وأكد على أن القرار النهائي يعود للشعب، وهو ما يحقق المبدأ الديمقراطي المطلوب. هذه الحجج المتماسكة والفعّالة في النقاط الجوهرية تجعل الفريق البندوي أكثر إقناعاً."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "هل يجب على الدول إجراء استفتاء شعبي قبل إعلانها الدخول في الحروب؟",
+        "proposition_definition": "يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب.",
+        "opposition_definition": "لا يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب.",
+        "definition_contested": true,
+        "adopted_ground": "المحور: هل يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب؟"
+      },
+      "proposition_position": "يدعم أن الدول يجب أن تُجرى استفتاء شعبي قبل إعلان الحرب.",
+      "opposition_position": "يعارض أن الدول يجب أن تُجرى استفتاء شعبي قبل إعلان الحرب.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "كل فريق يرد على حجج الفريق الآخر ويستعرض نقاط القوة والضعف في حججه."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "يُعرّف أن الدول يجب أن تُجرى استفتاء شعبي قبل إعلان الحرب.",
+            "responds_to": "",
+            "evidence_quote": "نحن فريق من ... يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تُستنزف أرواحاً وأموالاً هائلة وتقتل آلاف، ما يسبب أضراراً سلبيةً على الشعوب.",
+            "responds_to": "",
+            "evidence_quote": "الحروب صارت تستنجد أرواحاً وأموالاً هائلة وتقتل آلاف",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تُسبب أضراراً اقتصادية وأمنية، مما يجعل الشعوب تتحمل المسؤولية.",
+            "responds_to": "",
+            "evidence_quote": "تسبب أضرار اقتصادية وأمنية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرارات الاستثنائية مثل الحرب يجب أن تعود إلى الشعوب لضمان الديمقراطية.",
+            "responds_to": "",
+            "evidence_quote": "القرارات الاستثنائية يجب أن تعود إلى الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تكلف الدول مبالغ ضخمة، كما في 2003 عندما تكلف الولايات المتحدة 7 تريليون دولار.",
+            "responds_to": "",
+            "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحدة 7 تريليون دولار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تستمر آثار الحروب لسنوات طويلة، ما يؤثر مباشرة على الأجيال القادمة.",
+            "responds_to": "",
+            "evidence_quote": "تستمر آثارها لسنوات طويلة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعوب لا تستطيع اتخاذ قرارات الحرب بمفردها، لذا يجب أن تُمنح السلطة لتجنب المشاكل.",
+            "responds_to": "",
+            "evidence_quote": "الشعوب لا تستطيع اتخاذ قرارات الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء يمنح الشعب صوتاً مباشراً، ما يقلل الخلافات ويعزز المشاركة الديمقراطية.",
+            "responds_to": "",
+            "evidence_quote": "الاستفتاء يمنح الشعب صوتاً مباشرًا",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "المعارضة تُعرّف أن الدول لا يجب أن تُجرى استفتاء شعبي قبل إعلان الحرب.",
+            "responds_to": "",
+            "evidence_quote": "نحن نقول بانه ليس على الدول لا يجب على الدول اجراء استفتاء شعبي قبل اعلان الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي يسبب سلبيات عند إعلان الحرب.",
+            "responds_to": "",
+            "evidence_quote": "هذا نظرا الى السلبيات المترتبه من اجراء هذا الاستفتاء الشعبي لاعلان الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء غير مناسب لقرارات الحرب بسبب تعقيد العلاقات الدولية.",
+            "responds_to": "",
+            "evidence_quote": "الاستفتاء الشعبي التي تكون غير مناسبه لاعلان الحرب وكذلك كون الحرب جزء من العلاقات الدولية المعقدة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "كل قرارات الدولة تعود في النهاية إلى مصلحة الشعب.",
+            "responds_to": "الحروب تُستنزف أرواحاً وأموالاً هائلة وتقتل آلاف، ما يسبب أضراراً سلبيةً على الشعوب.",
+            "evidence_quote": "كل ذلك سوف يرجع الى مصلحة الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا حاجة لجعل قرار الشعب هو الأخير لتحقيق حكم الشعب.",
+            "responds_to": "القرارات الاستثنائية مثل الحرب يجب أن تعود إلى الشعوب لضمان الديمقراطية.",
+            "evidence_quote": "كلا داعي لنجعل قرارهم هو الاخير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المجتمع يفتقر إلى معرفة كافية حول الحرب، ما يعيق اتخاذ قرارات صحيحة.",
+            "responds_to": "",
+            "evidence_quote": "نحن سنتناول الموضوع من ثلاثه المحاور ... ضعف معرفة المجتمع حول الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال بريطانيا على خروجها من الاتحاد الأوروبي يوضح ندم الشعب.",
+            "responds_to": "",
+            "evidence_quote": "مثلا الاستفتاء شعبي لخروج بريطانيا من الاتحاد الاوروبي ... نادم على ذلك القرار الخاطئ",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "لا نعتمد على قرار الشعب لأنهم لا يملكون وعيًا كافيًا عن الحرب.",
+            "responds_to": "",
+            "evidence_quote": "فلذلك لا نعتمد ابدا على قرار الشعب لانه ليس لديه وعي عن الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الحرب تضر بالاقتصاد، مثال الولايات المتحدة على العراق.",
+            "responds_to": "",
+            "evidence_quote": "الخسائر الاقتصاديه التي وقعت فيها الولايات المتحده الامريكيه جراء الحرب على العراق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تسبّب خسائر اجتماعية من خلال فقدان الجنود وأسرهم.",
+            "responds_to": "",
+            "evidence_quote": "عندما يموتون يحصل ضرر كبير للمعارف والاهل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحرب تخلق أضرار أمنية، مثل تدخل روسيا في سوريا.",
+            "responds_to": "",
+            "evidence_quote": "روسيا قامت بالتدخل في سوريا ... اليوم روسيا تعاني من الارهاب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الديمقراطية تتطلب مشاركة الشعب، إذا رفضوا الحرب لا يدعمونها.",
+            "responds_to": "",
+            "evidence_quote": "إذا كان الشعب غير راضي عن قرار الحرب، فلن يدعم الحكومة ابدا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال السودان: دعم الشعب للقتال رغم عدم رضاه.",
+            "responds_to": "",
+            "evidence_quote": "في السودان لم يكن هنال رضى شعبي واضح عن الحرب على الجنوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يُرد على أن جميع القرارات تصب في صالح الشعب.",
+            "responds_to": "جميع القرارات او المؤسسات تصب في صالح الشعب، ولكن هذه المؤسسات الخاصة",
+            "evidence_quote": "جميع القرارات او المؤسسات تصب في صالح الشعب، ولكن هذه المؤسسات الخاصة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يُرد على أن لا حاجة لجعل قرار الشعب الأخير.",
+            "responds_to": "لا حاجة لجعل قرار الشعب هو الأخير لتحقيق حكم الشعب",
+            "evidence_quote": "نحن نتحدث عن خصوصية الحرب ... ليست الحرب ... لها دور خاص",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "يُرد على أن الاستفتاء غير مناسب لقرارات الحرب.",
+            "responds_to": "الاستفتاء غير مناسب لقرارات الحرب بسبب تعقيد العلاقات الدولية",
+            "evidence_quote": "الاستفتاء الشعبي ... يجب عليها ان يقرر هل يود الدخول في مثل هذا الحروب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي غير مناسب لقرارات الحرب بسبب نقص المعرفة لدى الشعب.",
+            "responds_to": "",
+            "evidence_quote": "الشعب لا يعرفون حقيقة الحرب، ولا يستطيعون اي لا يعرفون المعلومات كلها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي لا يتيح النقاش بعد القرار، ويؤدي إلى نتيجة نهائية خطيرة.",
+            "responds_to": "",
+            "evidence_quote": "لا نستطيع النقاش بعد قرار الاستفتاء الشعبي، وهذا شيء خطير حيث نتيجته نتيجه اخيرة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية.",
+            "responds_to": "",
+            "evidence_quote": "الوزراء هؤلاء يستطيعون اتخاذ القرارات النهائية المناسبة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال بريطانيا يوضح أن قرار الشعب قد يكون خاطئًا، مما يسبب ندمًا لاحقًا.",
+            "responds_to": "",
+            "evidence_quote": "بعد هذا القرار ندم هؤلاء بخروجهم",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب.",
+            "responds_to": "",
+            "evidence_quote": "يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حرب العراق تكلف أمريكا 1.7 مليار دولار، يمكن أن تكون الأموال مورد للشعب.",
+            "responds_to": "",
+            "evidence_quote": "حرب العراق كلفت أمريكا 1.7 مليار دولار، يمكن أن تكون الأموال مورد للشعب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعب هو أكثر من يتأثر بالحرب، فلماذا لا تعطونه الحق في قرار مصيري.",
+            "responds_to": "",
+            "evidence_quote": "الشعب هو أكثر من يتأثر بالحرب، فلماذا لا تعطونه الحق في قرار مصيري.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار الأول يكون من الحكومة عن دراسة ثم إذا رضي الشعب فتدخل الحكومة في الحرب.",
+            "responds_to": "",
+            "evidence_quote": "القرار الأول يكون من الحكومة عن دراسة ثم اذا رضي الشعب فتدخل الحكومة في الحرب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تستنفذ اموال وارواح من الشعب، ولا يكون للشعب الحق في الاختيار لدخول الحرب.",
+            "responds_to": "",
+            "evidence_quote": "الحروب تستنفذ اموال وارواح من الشعب، ولا يكون للشعب الحق في الاختيار لدخول الحرب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاثار الاقتصادية لحرب العراق تؤثر على الشعب.",
+            "responds_to": "",
+            "evidence_quote": "في الاثار الاقتصاديه في حرب العراق.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجنود في حرب العراق قتلوا، وأسرهم تكبدوا خسائر.",
+            "responds_to": "",
+            "evidence_quote": "الجنود في حرب العراق قتلوا، وأسرهم تكبدوا خسائر.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعب عندما يقرر الحرب قد يقدم دعما ماديا ويكون على علم بعواقبها.",
+            "responds_to": "",
+            "evidence_quote": "الشعب عندما يقرر الحرب قد يقدم دعما ماديا ويكون على علم بعواقبها.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء الشعبي يسبب سلبيات عند إعلان الحرب",
+            "responds_to": "الاستفتاء يمنح الشعب صوتاً مباشراً",
+            "evidence_quote": "الاستفتاء الشعبي يسبب سلبيات عند إعلان الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء غير مناسب لقرارات الحرب بسبب تعقيد العلاقات الدولية",
+            "responds_to": "الحروب تتطلب مشاركة الشعب لضمان الديمقراطية",
+            "evidence_quote": "الاستفتاء غير مناسب لقرارات الحرب بسبب تعقيد العلاقات الدولية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية",
+            "responds_to": "الحروب تتطلب مشاركة الشعب لضمان الديمقراطية",
+            "evidence_quote": "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مثال بريطانيا يوضح أن قرار الشعب قد يكون خاطئًا",
+            "responds_to": "الحروب تتطلب مشاركة الشعب لضمان الديمقراطية",
+            "evidence_quote": "مثال بريطانيا يوضح أن قرار الشعب قد يكون خاطئًا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي يسبب سلبيات عند إعلان الحرب",
+            "responds_to": "",
+            "evidence_quote": "الاستفتاء الشعبي يسبب سلبيات عند إعلان الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء غير مناسب لقرارات الحرب بسبب نقص المعرفة لدى الشعب",
+            "responds_to": "",
+            "evidence_quote": "الاستفتاء غير مناسب لقرارات الحرب بسبب نقص المعرفة لدى الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية",
+            "responds_to": "",
+            "evidence_quote": "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال بريطانيا يوضح أن قرار الشعب قد يكون خاطئًا",
+            "responds_to": "",
+            "evidence_quote": "مثال بريطانيا يوضح أن قرار الشعب قد يكون خاطئًا",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "weighing",
+            "summary": "مقارنة نقاط القوة والضعف بين فريق المعارضة وفريق الموالاة",
+            "responds_to": "",
+            "evidence_quote": "نقاط القوة في فريقنا فريق المعارضة وكذلك نقاط الضعف عند فريق الموالاه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي ليس وسيلة مناسبة لاتخاذ قرار الحرب",
+            "responds_to": "",
+            "evidence_quote": "الاستفتاء الشعبي ليست وسيلة مناسبة لاتخاذ هذا القرار المهم الكبير",
+            "counted": false,
+            "not_counted_reason": "new argument in reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال بريطانيا على خروجها من الاتحاد الأوروبي يوضح ندم الشعب",
+            "responds_to": "",
+            "evidence_quote": "خروج بريطانيا من الاتحاد الأوروبي كان الشعب نادما بعد تصويتهم",
+            "counted": false,
+            "not_counted_reason": "new argument in reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحكومة والوزارات هي الهيئات المناسبة لاتخاذ قرار الحرب",
+            "responds_to": "",
+            "evidence_quote": "الحكومة والوزاراة المتعلقه والاجراءات من خلال المناقشات في البرلمان",
+            "counted": false,
+            "not_counted_reason": "new argument in reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "القرار في الاستفتاء يكون بنعم أو لا فقط",
+            "responds_to": "",
+            "evidence_quote": "القرار في الاستفتاء فقط يكون بنعم او لا",
+            "counted": false,
+            "not_counted_reason": "new argument in reply speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "المشكلة عند الموالاة هو التناقض الكبير في موقفها",
+            "responds_to": "",
+            "evidence_quote": "المشكلة عند الموالاة هو التناقض الكبير انها ادعت ان القرار من الشعب",
+            "counted": false,
+            "not_counted_reason": "new argument in reply speech"
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "القرار الأخير هو للشعب",
+            "responds_to": "كل قرارات الدولة تعود في النهاية إلى مصلحة الشعب",
+            "evidence_quote": "\"القرار الأخير هو للشعب\"",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حق الانتخاب لا يعتمد على وعي الشعوب",
+            "responds_to": "الاستفتاء غير مناسب لقرارات الحرب بسبب نقص المعرفة لدى الشعب",
+            "evidence_quote": "\"حق الانتخاب يا ساده لا يعتمد في الأساس على وعي هذه الشعوب\"",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مثال بريطانيا غير صحيح",
+            "responds_to": "مثال بريطانيا على خروجها من الاتحاد الأوروبي يوضح ندم الشعب",
+            "evidence_quote": "\"مثالهم عن انفصال بريطانيا وان الشعوب نادمه عن هذا القرار\"",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحكومة تقدم القرار ثم يعرض على الشعب",
+            "responds_to": "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية",
+            "evidence_quote": "\"الحكومة هي من تقدم القرار أولا ثم يعرض على الشعب\"",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعب هو المتأثر الأساسي بقرار الحرب",
+            "responds_to": "",
+            "evidence_quote": "\"الشعب هو المتاثر الأساسي بقرار الحرب\"",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأولوية لمن يتأثر سالباً بالحرب",
+            "responds_to": "",
+            "evidence_quote": "\"الأولوية لمن يتاثر سالباً بالحرب\"",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "1",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "unresolved",
+          "reasoning": "Both teams presented a definition argument in their first speeches, but neither side offered a refutation or rebuilding of the other's definition. The debate therefore remains unresolved on whether a referendum is necessary before war."
+        },
+        {
+          "clash_point": "2",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "proposition",
+          "reasoning": "Opposition raised the issue of the public’s lack of knowledge about war. Proposition responded with a two‑step process (government study followed by a public vote) that directly refuted the knowledge claim. No counter‑refutation was offered by opposition, so the proposition’s stance wins."
+        },
+        {
+          "clash_point": "3",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "proposition",
+          "reasoning": "Proposition argued that war decisions should be democratic. Opposition refuted by claiming all decisions ultimately serve the people, and then argued that experts should decide. Proposition rebutted both by asserting that the final decision is still the people’s. The proposition’s claim remains standing, so it wins."
+        },
+        {
+          "clash_point": "4",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "unresolved",
+          "reasoning": "Proposition presented cost and impact arguments for a referendum. Opposition did not provide a direct refutation or rebuilding of these cost arguments, leaving the point unresolved."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "decisive",
+      "confidence": 0.92,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "أظهر الفريق أن النقاش حول معرفة الجمهور بالوضع العسكري غير كافٍ، وبالتالي احتاج إلى استفتاء لضمان تمثيل إرادة الشعب",
+          "evidence_quote": "Opposition raised the issue of the public’s lack of knowledge about war."
+        },
+        {
+          "team": "proposition",
+          "reason": "أجاب الفريق على هذه النقطة بتقديم عملية ثنائية (دراسة حكومية ثم تصويت شعبي) تُعَدّ حلاً عملياً يحقق الديمقراطية",
+          "evidence_quote": "Proposition responded with a two‑step process (government study followed by a public vote) that directly refuted the knowledge claim."
+        },
+        {
+          "team": "proposition",
+          "reason": "أكد الفريق على أن قرارات الحرب يجب أن تُتخذ بطريقة ديمقراطية، وهو ما يضعه في موقع قوة مقارنةً بالاعتراض على أن الخبراء وحدهم يجب أن يقرروا",
+          "evidence_quote": "Proposition argued that war decisions should be democratic."
+        }
+      ],
+      "justification": "الفريق البندوي فاز في نقطتين أساسيين (النقطة 2 و 3) بينما لم ينجح الفريق المعارض في أي نقطة أساسية، ما يجعل موقفه أكثر إقناعاً. تم تقديم حجة واضحة ومباشرة حول نقص المعرفة العامة، مع خطة عملية لتصويت الشعب، وأكد على أن القرار النهائي يعود للشعب، وهو ما يحقق المبدأ الديمقراطي المطلوب. هذه الحجج المتماسكة والفعّالة في النقاط الجوهرية تجعل الفريق البندوي أكثر إقناعاً."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 56,
+      "not_found": [
+        "نحن فريق من ... يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب",
+        "الحروب صارت تستنجد أرواحاً وأموالاً هائلة وتقتل آلاف",
+        "تسبب أضرار اقتصادية وأمنية",
+        "القرارات الاستثنائية يجب أن تعود إلى الشعوب",
+        "في عام 2003 حينما دخلت الولايات المتحدة 7 تريليون دولار",
+        "تستمر آثارها لسنوات طويلة",
+        "الشعوب لا تستطيع اتخاذ قرارات الحرب",
+        "الاستفتاء يمنح الشعب صوتاً مباشرًا",
+        "كلا داعي لنجعل قرارهم هو الاخير",
+        "نحن سنتناول الموضوع من ثلاثه المحاور ... ضعف معرفة المجتمع حول الحرب",
+        "مثلا الاستفتاء شعبي لخروج بريطانيا من الاتحاد الاوروبي ... نادم على ذلك القرار الخاطئ",
+        "روسيا قامت بالتدخل في سوريا ... اليوم روسيا تعاني من الارهاب",
+        "إذا كان الشعب غير راضي عن قرار الحرب، فلن يدعم الحكومة ابدا",
+        "جميع القرارات او المؤسسات تصب في صالح الشعب، ولكن هذه المؤسسات الخاصة",
+        "نحن نتحدث عن خصوصية الحرب ... ليست الحرب ... لها دور خاص",
+        "الاستفتاء الشعبي ... يجب عليها ان يقرر هل يود الدخول في مثل هذا الحروب",
+        "الشعب لا يعرفون حقيقة الحرب، ولا يستطيعون اي لا يعرفون المعلومات كلها",
+        "لا نستطيع النقاش بعد قرار الاستفتاء الشعبي، وهذا شيء خطير حيث نتيجته نتيجه اخيرة",
+        "الوزراء هؤلاء يستطيعون اتخاذ القرارات النهائية المناسبة",
+        "حرب العراق كلفت أمريكا 1.7 مليار دولار، يمكن أن تكون الأموال مورد للشعب.",
+        "الحروب تستنفذ اموال وارواح من الشعب، ولا يكون للشعب الحق في الاختيار لدخول الحرب.",
+        "الجنود في حرب العراق قتلوا، وأسرهم تكبدوا خسائر.",
+        "الشعب عندما يقرر الحرب قد يقدم دعما ماديا ويكون على علم بعواقبها.",
+        "الاستفتاء الشعبي يسبب سلبيات عند إعلان الحرب",
+        "الاستفتاء غير مناسب لقرارات الحرب بسبب تعقيد العلاقات الدولية",
+        "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية",
+        "مثال بريطانيا يوضح أن قرار الشعب قد يكون خاطئًا",
+        "الاستفتاء الشعبي يسبب سلبيات عند إعلان الحرب",
+        "الاستفتاء غير مناسب لقرارات الحرب بسبب نقص المعرفة لدى الشعب",
+        "الخبراء والوزراء يجب أن يقرروا الحرب لأن لديهم المعرفة الكافية",
+        "مثال بريطانيا يوضح أن قرار الشعب قد يكون خاطئًا",
+        "الاستفتاء الشعبي ليست وسيلة مناسبة لاتخاذ هذا القرار المهم الكبير",
+        "الحكومة والوزاراة المتعلقه والاجراءات من خلال المناقشات في البرلمان",
+        "المشكلة عند الموالاة هو التناقض الكبير انها ادعت ان القرار من الشعب"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "Opposition raised the issue of the public’s lack of knowledge about war.",
+        "Proposition responded with a two‑step process (government study followed by a public vote) that directly refuted the knowledge claim.",
+        "Proposition argued that war decisions should be democratic."
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 5,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 2,
+    "prompt_tokens": 56046,
+    "output_tokens": 5742
+  }
+}

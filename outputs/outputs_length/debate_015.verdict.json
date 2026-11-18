@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_015",
+  "motion": "سيمنع المجلس الدولة ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.083,
+    "justification": "main_words: proposition=2294, opposition=2712"
+  },
+  "features": {
+    "proposition": 2294.0,
+    "opposition": 2712.0,
+    "tie": false
+  }
+}

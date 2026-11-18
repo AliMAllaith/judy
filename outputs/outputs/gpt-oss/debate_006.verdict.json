@@ -1,0 +1,286 @@
+{
+  "debate_id": "debate_006",
+  "motion": "يدعم هذا المجلس تقسيم الطلاب على الفصول الدراسيه حسب قدراتهم الاكاديميه",
+  "generated_at": "2026-11-03T11:25:56+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.75,
+    "justification": "حجة الموالاة حول الفائدة الأكاديمية للتقسيم أقوى، بينما حجة المعارضة حول الأضرار الاجتماعية لم تُقنّ حجة الموالاة حول عدم وجود منافسة غير عادلة.",
+    "best_speaker": "الموالاة 3"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "المجلس يدعم تقسيم الطلاب على الفصول الدراسية حسب قدراتهم الأكاديمية.",
+      "proposition_definition": "التقسيم يُعنى بتقسيم الطلاب إلى فصول منفصلة وفقًا لمستوى أدائهم الأكاديمي.",
+      "opposition_definition": "المعارضة ترى أن التقسيم سيضر بالتماسك الاجتماعي ويخلق منافسة غير عادلة، وتؤيد التعليم الشامل لجميع الطلاب في فصول واحدة.",
+      "definition_contested": false,
+      "adopted_ground": "الموالاة"
+    },
+    "positions": {
+      "proposition": "يدعم التقسيم.",
+      "opposition": "يعارض التقسيم."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة 1",
+        "kind": "substantive",
+        "summary": "التقسيم يتيح تعليمًا مخصصًا للطلاب الضعفاء والقويين، يقلل من هدر الوقت ويزيد الفعالية.",
+        "evidence_quote": "نحن نرى أن الطلاب يتلقون نفس هذا التدريس ... نحتاج إلى تقسيمهم",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة 1",
+        "kind": "substantive",
+        "summary": "التقسيم يضر بالتماسك الاجتماعي ويخلق منافسة غير عادلة، ويقلل التفاعل بين الطلاب.",
+        "evidence_quote": "نحن نؤمن بوجود فروقات ... لكن لا نريد تقسيمهم",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة 2",
+        "kind": "refutation",
+        "summary": "التقسيم لا يضر بالطلاب ولا يخلق منافسة غير عادلة؛ يتيح للمعلم توجيه الدرس وفقًا لقدرات كل فئة.",
+        "evidence_quote": "نرفض فكرة أن التقسيم سيضر بالطلاب",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة 2",
+        "kind": "refutation",
+        "summary": "التقسيم يؤدي إلى انعدام التفاعل وتفكك المجتمع المدرسي.",
+        "evidence_quote": "التقسيم سيخلق منافسة غير عادلة",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة 3",
+        "kind": "rebuilding",
+        "summary": "التقسيم لا يخلق منافسة غير عادلة؛ بل يخلق تحديات مناسبة لكل فئة.",
+        "evidence_quote": "التقسيم لا يخلق منافسة غير عادلة",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة 3",
+        "kind": "rebuilding",
+        "summary": "التقسيم سيؤدي إلى انعدام التفاعل بين الطلاب.",
+        "evidence_quote": "التقسيم سيؤدي إلى انعدام التفاعل",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "الفائدة الأكاديمية للتقسيم",
+        "importance": "core",
+        "proposition_side": "proposition",
+        "opposition_side": "opposition",
+        "outcome": "proposition",
+        "reasoning": "حجة الموالاة حول تخصيص التعليم للطلاب الضعفاء والقويين أقوى من حجة المعارضة حول الأضرار الاجتماعية، ولم تُقنّ حجة المعارضة بفعالية."
+      },
+      {
+        "clash_point": "التأثير الاجتماعي للتقسيم",
+        "importance": "secondary",
+        "proposition_side": "proposition",
+        "opposition_side": "opposition",
+        "outcome": "opposition",
+        "reasoning": "حجة المعارضة حول انعدام التفاعل كانت مقنعة، لكن لم تُقنّ حجة الموالاة حول عدم وجود منافسة غير عادلة."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الموالاة",
+      "style": "الموالاة",
+      "strategy": "الموالاة"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.75,
+      "key_reasons": [
+        {
+          "reason": "حجة الموالاة حول الفائدة الأكاديمية للتقسيم أقوى من حجة المعارضة حول الأضرار الاجتماعية.",
+          "where": "الموالاة 1",
+          "effect": "أقوى حجة في النقطة الأساسية.",
+          "evidence_quote": "نحن نرى أن الطلاب يتلقون نفس هذا التدريس ... نحتاج إلى تقسيمهم"
+        },
+        {
+          "reason": "المعارضة لم تُقنّ حجة الموالاة حول عدم وجود منافسة غير عادلة.",
+          "where": "المعارضة 2",
+          "effect": "فشل في إلغاء حجة الموالاة.",
+          "evidence_quote": "التقسيم سيخلق منافسة غير عادلة"
+        }
+      ]
+    },
+    "justification": "حجة الموالاة حول الفائدة الأكاديمية للتقسيم أقوى، بينما حجة المعارضة حول الأضرار الاجتماعية لم تُقنّ حجة الموالاة حول عدم وجود منافسة غير عادلة.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "حجة أساسية، لكنها متكررة."
+      },
+      {
+        "speaker": "المعارضة 1",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "حجة أساسية، لكنها متكررة."
+      },
+      {
+        "speaker": "الموالاة 2",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "تفنيد جيد، إعادة بناء."
+      },
+      {
+        "speaker": "المعارضة 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "تفنيد غير قوي."
+      },
+      {
+        "speaker": "الموالاة 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "إعادة بناء قوية."
+      },
+      {
+        "speaker": "المعارضة 3",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "إعادة بناء ضعيفة."
+      },
+      {
+        "speaker": "المعارضة رد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 37,
+        "note": "تفنيد غير قوي."
+      },
+      {
+        "speaker": "الموالاة رد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 39,
+        "note": "تفنيد وإعادة بناء."
+      }
+    ],
+    "best_speaker": "الموالاة 3",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "تعريف واضح للقدرات الأكاديمية.",
+          "حجة متمثلة في تخصيص التعليم للطلاب الضعفاء والقويين.",
+          "توضيح دور المعلم في الفصل المتخصص."
+        ],
+        "improvements": [
+          "تقليل التكرار غير الضروري.",
+          "إضافة أدلة ملموسة (دراسات، إحصائيات).",
+          "تقوية التفنيد مع التركيز على نقاط الخصم."
+        ],
+        "recommendations": [
+          "استخدام أمثلة محددة وقصص واقعية.",
+          "تقوية التفنيد مع التركيز على نقاط الخصم.",
+          "تقليل التكرار لزيادة الوضوح."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "تسليط الضوء على الجوانب الاجتماعية.",
+          "ذكر أهداف المدرسة المتعددة.",
+          "إشارة إلى المنافسة غير العادلة."
+        ],
+        "improvements": [
+          "تقديم أدلة محددة على الأضرار الاجتماعية.",
+          "تقوية التفنيد مع التركيز على نقاط الخصم.",
+          "تقليل التكرار لزيادة الوضوح."
+        ],
+        "recommendations": [
+          "تقديم أدلة محددة على الأضرار الاجتماعية.",
+          "تقوية التفنيد مع التركيز على نقاط الخصم.",
+          "تقليل التكرار لزيادة الوضوح."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "الترجمة غير واضحة، تكرار مفرط، بنية غير منضبطة"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "نحن نرى أن الطلاب يتلقون نفس هذا التدريس ... نحتاج إلى تقسيمهم",
+        "نحن نؤمن بوجود فروقات ... لكن لا نريد تقسيمهم",
+        "نرفض فكرة أن التقسيم سيضر بالطلاب",
+        "التقسيم سيخلق منافسة غير عادلة",
+        "التقسيم لا يخلق منافسة غير عادلة",
+        "التقسيم سيؤدي إلى انعدام التفاعل",
+        "نحن نرى أن الطلاب يتلقون نفس هذا التدريس ... نحتاج إلى تقسيمهم",
+        "التقسيم سيخلق منافسة غير عادلة"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 266,
+      "opposition": 256
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      3
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 18781,
+        "output": 2087
+      }
+    ]
+  }
+}

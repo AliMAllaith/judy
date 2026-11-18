@@ -1,0 +1,266 @@
+{
+  "debate_id": "debate_006",
+  "motion": "يدعم هذا المجلس تقسيم الطلاب على الفصول الدراسيه حسب قدراتهم الاكاديميه",
+  "generated_at": "2026-11-03T10:58:56+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "The Opposition was more persuasive because they successfully defended their position by emphasizing the importance of comprehensive education beyond academics, while the Proposition focused narrowly on academic development without addressing the broader implications. The core clash points were the individual differences between students and the comprehensive nature of education. The Opposition's arguments were more convincing because they addressed the need for social and skill development, which the Proposition ignored.",
+    "best_speaker": "معارضة - المتحدث الثاني"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "The current education system does not account for individual differences in student abilities, leading to inefficiency and lack of development for all students.",
+      "proposition_definition": "القدرات الاكاديميه هي قدرات الطلاب الفردية التي يجب مراعاتها في النظام التعليمي",
+      "opposition_definition": "القدرات الاكاديميه هي اداء الطلاب في الامتحانات والتقييمات والذي ينعكس في معدلاتهم",
+      "definition_contested": true,
+      "adopted_ground": "The Opposition's ground"
+    },
+    "positions": {
+      "proposition": "The Proposition argued that dividing students based on academic abilities is necessary to provide them with the appropriate education and to ensure their development.",
+      "opposition": "The Opposition argued that the education system should not be divided based on academic abilities, but rather should focus on comprehensive development including social and skill aspects."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الفرق الفردية بين الطلاب تختلف، والتعامل معهم كأحد يؤدي إلى عدم تطويرهم بشكل فعال، لذا يجب تقسيم الفصول بناءً على قدراتهم الأكاديمية لتوفير التعليم المناسب لكل منهم.",
+        "evidence_quote": "لا يمكن لنا ان نكرر هذه الفروقات ويجمع جميع الطلاب ويعاملهم كانهم واحد",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "التنافس بين الطلاب من نفس المستوى يعزز التطور، وفصل المتميزين عن الآخرين يخلق حاجزاً اجتماعياً يمنع التطور المشترك.",
+        "evidence_quote": "التطور الاكاديمي يتحقق بالانخراط مع المستويات المتفرقة، والتنافس الداخلي يدفع الطلاب لتحقيق تطور أكبر",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "التعليم ليس هو الهدف الوحيد، بل يجب أن تشمل المدرسة تطوير جميع الجوانب الاجتماعية والمهارية للطالب.",
+        "evidence_quote": "الهدف الأساسي للمدرسة هو التعليم، ولكن يجب أن نراعي جميع الجوانب التي يحتاجها الطالب في مرحلته الانتقالية",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "العدالة تعني أن جميع الطلاب يتلقون نفس التعليم، حتى لو بطرق مختلفة، وهذا يمنع تكريس المعلم لطرق تعليمية غير مناسبة.",
+        "evidence_quote": "الطلاب الذين يتم تقييمهم بناءً على نفس المنهج سيكونون في نفس المستوى، وهذا يضمن العدالة والمساواة في التلقي",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "item": "definition",
+        "issue": "New definition introduced in later speeches"
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "item": "argument",
+        "issue": "New arguments introduced in later speeches"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الفرق الفردية بين الطلاب",
+        "importance": "core",
+        "proposition_side": "معارضة",
+        "opposition_side": "موالاة",
+        "outcome": "proposition",
+        "reasoning": "الفرق الفردية بين الطلاب تختلف، والتعامل معهم كأحد يؤدي إلى عدم تطويرهم بشكل فعال، لذا يجب تقسيم الفصول بناءً على قدراتهم الأكاديمية لتوفير التعليم المناسب لكل منهم."
+      },
+      {
+        "clash_point": "العدالة والمساواة في التلقي",
+        "importance": "core",
+        "proposition_side": "معارضة",
+        "opposition_side": "موالاة",
+        "outcome": "proposition",
+        "reasoning": "العدالة تعني أن جميع الطلاب يتلقون نفس التعليم، حتى لو بطرق مختلفة، وهذا يمنع تكريس المعلم لطرق تعليمية غير مناسبة."
+      },
+      {
+        "clash_point": "الهدف الأساسي للمدرسة",
+        "importance": "core",
+        "proposition_side": "موالاة",
+        "opposition_side": "معارضة",
+        "outcome": "proposition",
+        "reasoning": "الهدف الأساسي للمدرسة هو التعليم، ولكن يجب أن نراعي جميع الجوانب التي يحتاجها الطالب في مرحلته الانتقالية."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Opposition's arguments were more comprehensive and addressed the broader implications of education.",
+      "style": "The Proposition's style was clearer and more focused, while the Opposition's style was more persuasive overall.",
+      "strategy": "The Opposition's strategy was more effective because they focused on challenging the Proposition's narrow view of education."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "الهدف الأساسي للمدرسة هو التعليم، ولكن يجب أن نراعي جميع الجوانب التي يحتاجها الطالب في مرحلته الانتقالية",
+          "where": "معارضة - المتحدث الأول",
+          "effect": "The Opposition successfully defended their position by emphasizing the importance of comprehensive education beyond academics, while the Proposition focused narrowly on academic development without addressing the broader implications.",
+          "evidence_quote": "التعليم ليس هو الهدف الوحيد، بل يجب أن تشمل المدرسة تطوير جميع الجوانب الاجتماعية والمهارية للطالب."
+        },
+        {
+          "reason": "الفرق الفردية بين الطلاب تختلف، والتعامل معهم كأحد يؤدي إلى عدم تطويرهم بشكل فعال، لذا يجب تقسيم الفصول بناءً على قدراتهم الأكاديمية لتوفير التعليم المناسب لكل منهم.",
+          "where": "موالاة - المتحدث الثالث",
+          "effect": "The Opposition effectively challenged the Proposition's narrow view of education by highlighting the need for social and skill development, which the Proposition ignored.",
+          "evidence_quote": "التطور الاكاديمي يتحقق بالانخراط مع المستويات المتفرقة، والتنافس الداخلي يدفع الطلاب لتحقيق تطور أكبر"
+        }
+      ]
+    },
+    "justification": "The Opposition was more persuasive because they successfully defended their position by emphasizing the importance of comprehensive education beyond academics, while the Proposition focused narrowly on academic development without addressing the broader implications. The core clash points were the individual differences between students and the comprehensive nature of education. The Opposition's arguments were more convincing because they addressed the need for social and skill development, which the Proposition ignored.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "On average, your arguments were clear and persuasive, but you could have provided more specific examples to strengthen your case."
+      },
+      {
+        "speaker": "معارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "Your arguments were well-structured and addressed the core clash points effectively, but you could have been more specific in your examples."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "Your arguments were strong and well-supported, but you could have been more concise in some parts."
+      },
+      {
+        "speaker": "معارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "Your arguments were well-structured and persuasive, but you could have been more specific in your examples."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "Your arguments were clear and persuasive, but you could have been more specific in your examples."
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "Your arguments were well-structured and addressed the core clash points effectively, but you could have been more specific in your examples."
+      }
+    ],
+    "best_speaker": "معارضة - المتحدث الثاني",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Your arguments are clear and focused on the academic aspect.",
+          "You effectively communicated the need for differentiated education."
+        ],
+        "improvements": [
+          "Expand your arguments to include the broader implications of education.",
+          "Provide more specific examples to support your claims."
+        ],
+        "recommendations": [
+          "Consider the social and skill development aspects of education in your future debates.",
+          "Develop a more comprehensive understanding of the motion before constructing your arguments."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Your arguments are well-structured and clearly communicated.",
+          "You effectively challenged the Proposition's narrow view of education."
+        ],
+        "improvements": [
+          "Continue to emphasize the importance of comprehensive education and social development in your arguments.",
+          "Ensure that your refutations are specific and tied to the core clash points."
+        ],
+        "recommendations": [
+          "Develop stronger examples to illustrate the impact of your arguments.",
+          "Focus on building a cohesive case that integrates all aspects of education."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some arguments may be difficult to follow due to overlapping speech or unclear transitions.",
+      "The transcript may contain transcription errors or punctuation mistakes that could affect clarity."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "لا يمكن لنا ان نكرر هذه الفروقات ويجمع جميع الطلاب ويعاملهم كانهم واحد",
+        "التطور الاكاديمي يتحقق بالانخراط مع المستويات المتفرقة، والتنافس الداخلي يدفع الطلاب لتحقيق تطور أكبر",
+        "الهدف الأساسي للمدرسة هو التعليم، ولكن يجب أن نراعي جميع الجوانب التي يحتاجها الطالب في مرحلته الانتقالية",
+        "الطلاب الذين يتم تقييمهم بناءً على نفس المنهج سيكونون في نفس المستوى، وهذا يضمن العدالة والمساواة في التلقي",
+        "التعليم ليس هو الهدف الوحيد، بل يجب أن تشمل المدرسة تطوير جميع الجوانب الاجتماعية والمهارية للطالب.",
+        "التطور الاكاديمي يتحقق بالانخراط مع المستويات المتفرقة، والتنافس الداخلي يدفع الطلاب لتحقيق تطور أكبر"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 228,
+      "opposition": 228
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      3
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 19704,
+        "output": 3099
+      }
+    ]
+  }
+}

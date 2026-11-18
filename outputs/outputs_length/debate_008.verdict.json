@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_008",
+  "motion": "لن يقدم هذا المجلس مساعدات إنمائية للدول التي لا تجري إصلاحات سياسية",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.082,
+    "justification": "main_words: proposition=2460, opposition=2899"
+  },
+  "features": {
+    "proposition": 2460.0,
+    "opposition": 2899.0,
+    "tie": false
+  }
+}

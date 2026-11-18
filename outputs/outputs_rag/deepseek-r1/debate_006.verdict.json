@@ -1,0 +1,97 @@
+{
+  "debate_id": "debate_006",
+  "motion": "يدعم هذا المجلس تقسيم الطلاب على الفصول الدراسيه حسب قدراتهم الاكاديميه",
+  "generated_at": "2026-11-03T12:10:02+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 2048
+    },
+    "n_runs": 1,
+    "prompt_version": "rag-v1",
+    "embed_model": "bge-m3",
+    "corpus": "fallback",
+    "n_chunks": 14,
+    "index_key": "56248217b45c5737",
+    "top_k": 8,
+    "per_query": 2,
+    "debate_top": 3,
+    "chunk_chars": 900
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.9,
+    "justification": "في بداية المناظرة، تطرقت كلا الفرق إلى نفس المفهوم وهو تقسيم الطلاب حسب قدراتهم الأكاديمية، مما يدل على وجود صدام مباشر. فريق الموالاة اعتبر أن التقسيم ضروريًا لضمان تطور الطلاب وتوفير التعليم المناسب، بينما فريق المعارضة أبدع في تفنيد هذه الفكرة من خلال التركيز على الجوانب الاجتماعية والنفسية، وقدم حججًا قوية حول ضرورة الانسجام والتفاعل داخل الفصل الواحد. فريق المعارضة نجح في تفنيدها الفعالة لحجج الموالاة، وبناءً على ذلك، اعتقدت لجنة التحكيم أن فريق المعارضة قد انتصر في النقاط الجوهرية من خلال تقديم حجج شاملة ومؤثرة تغطي جميع جوانب المحتوى."
+  },
+  "verdict": {
+    "winner": "opposition",
+    "confidence": 0.9,
+    "justification": "في بداية المناظرة، تطرقت كلا الفرق إلى نفس المفهوم وهو تقسيم الطلاب حسب قدراتهم الأكاديمية، مما يدل على وجود صدام مباشر. فريق الموالاة اعتبر أن التقسيم ضروريًا لضمان تطور الطلاب وتوفير التعليم المناسب، بينما فريق المعارضة أبدع في تفنيد هذه الفكرة من خلال التركيز على الجوانب الاجتماعية والنفسية، وقدم حججًا قوية حول ضرورة الانسجام والتفاعل داخل الفصل الواحد. فريق المعارضة نجح في تفنيدها الفعالة لحجج الموالاة، وبناءً على ذلك، اعتقدت لجنة التحكيم أن فريق المعارضة قد انتصر في النقاط الجوهرية من خلال تقديم حجج شاملة ومؤثرة تغطي جميع جوانب المحتوى."
+  },
+  "retrieval": [
+    {
+      "id": "rubric_from_notebook#3",
+      "score": 0.6682,
+      "query": "rubric",
+      "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+    },
+    {
+      "id": "rubric_from_notebook#4",
+      "score": 0.5722,
+      "query": "rubric",
+      "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+    },
+    {
+      "id": "rubric_from_notebook#5",
+      "score": 0.6933,
+      "query": "rubric",
+      "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+    },
+    {
+      "id": "rubric_from_notebook#6",
+      "score": 0.6309,
+      "query": "rubric",
+      "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+    },
+    {
+      "id": "rubric_from_notebook#7",
+      "score": 0.6328,
+      "query": "rubric",
+      "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+    },
+    {
+      "id": "rubric_from_notebook#10",
+      "score": 0.607,
+      "query": "rubric",
+      "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+    },
+    {
+      "id": "rubric_from_notebook#11",
+      "score": 0.5566,
+      "query": "debate",
+      "text": "76-79   above_average (فوق المتوسط): convincing defence, full command of the topic and clash points, builds own case and demolishes the opponent's effectively and logically, persuasive style, uses the whole role.\n80-82   professional (محترف): deep analysis, strong well-founded arguments that are hard to demolish, refutation that turns the opponent's argument in the team's favour, simplifies complex content, organised strategy.\nReply speeches use half the scale: 29 violation; 30-31 very_weak; 32-33 weak; 34-35 below_average; 36-37 average; 38-39 above_average; 40-41 professional.\nScores are not a formula for the winner; the winner is decided by persuasion at the core clashes. Score every speech in the transcript. Name the best speaker."
+    }
+  ],
+  "checks": {
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13150,
+        "output": 799
+      }
+    ]
+  }
+}

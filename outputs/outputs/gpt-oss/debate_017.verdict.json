@@ -1,0 +1,290 @@
+{
+  "debate_id": "debate_017",
+  "motion": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+  "generated_at": "2026-11-05T10:15:49+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.8,
+    "justification": "المعارضة نجحت في إثبات أن الموالاة لم تقدم تعريفاً واضحاً للـ \"الدول المتقدمة والمتضررة\"، وأن الاقتطاع غير واقعي ولا يحل المشكلة الجذرية. هذه النقاط الأساسية هي التي حسمت الجدل، حيث لم يرد الموالاة على هذه الاعتراضات بشكل مقنع.",
+    "best_speaker": "Speech 4"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "المجلس سيقتطع جزءاً من أراضي دول العالم الأول ويمنحها للدول المتضررة من التغير المناخي.",
+      "proposition_definition": "الدول العالم الأول = الدول المتطورة اجتماعياً واقتصادياً وثقافياً، التي قامت بالثورة الصناعية.",
+      "opposition_definition": "الدول المتقدمة غير محددة بوضوح، وتؤكد على ضرورة تحديد دقيقة للدول المتضررة.",
+      "definition_contested": true,
+      "adopted_ground": "المجلس"
+    },
+    "positions": {
+      "proposition": "يدعم اقتطاع الأراضي لتوفير موارد للدول المتضررة، ويؤكد على مسؤولية الدول المتقدمة.",
+      "opposition": "يعارض الاقتطاع بسبب عدم واقعية الفكرة، انتهاك حقوق المواطنين، وعدم حل المشكلة الجذرية."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "اقتصادي: اقتطاع الأراضي يضمن موارد مستدامة للدول الفقيرة.",
+        "evidence_quote": "\"سيضمن استمرارية الموارد لهذه الدول الفقيرة كحل دائم وجذري\"",
+        "counted": false,
+        "not_counted_reason": "مكرر وغير مدعم بأمثلة محددة."
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "refutation",
+        "summary": "يستهدف تعريف المعارضة للـ \"الدول المتضررة\".",
+        "evidence_quote": "\"نحن لا نعلم من هي الدول التي ستتضرر بسلبيات التغير المناخي\"",
+        "counted": false,
+        "not_counted_reason": "لم يرد على اعتراض واضح."
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "تعريف غير واضح: لا يحدد بدقة الدول المتقدمة والمتضررة.",
+        "evidence_quote": "\"التعريف غامض جدا\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "refutation",
+        "summary": "يستهدف واقعية الاقتطاع، يذكر أن الدول المتقدمة لا تحتاج إلى الأراضي.",
+        "evidence_quote": "\"حتى لو حصلوا على هذه الأراضي هم سوف يلوثون\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "substantive",
+        "summary": "انتهاك حقوق المواطنين: اقتطاع الأراضي يخل بحقوق الملكية.",
+        "evidence_quote": "\"القرار ينتهك حقوق مواطني الدول الأولى\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "refutation",
+        "summary": "يستهدف تعريف غير واضح للـ \"الدول المتضررة\".",
+        "evidence_quote": "\"التعريف غامض جدا\"",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 5",
+        "item": "تحديد غير واضح للدول المتضررة",
+        "issue": "تم ذكره في رد على المعارضة، لكنه لم يُعاد صياغته في الخطاب الرئيسي."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "تعريف الدول المتقدمة والمتضررة",
+        "importance": "core",
+        "proposition_side": "موقف غير واضح، يفتقر إلى تعريف دقيق.",
+        "opposition_side": "يطلب تعريفاً واضحاً، ويعترض على غموض الموالاة.",
+        "outcome": "opposition",
+        "reasoning": "الاعتراض واضح ومقنع، بينما الموالاة لا تقدم تعريفاً محدداً."
+      },
+      {
+        "clash_point": "واقعية الاقتطاع",
+        "importance": "core",
+        "proposition_side": "يؤكد على توفير موارد مستدامة.",
+        "opposition_side": "يستدعي أن الاقتطاع غير عملي وأنه لا يحل المشكلة الجذرية.",
+        "outcome": "opposition",
+        "reasoning": "الاعتراض يستند إلى أمثلة واقعية (التلوث) ويقن بأن الفكرة غير قابلة للتنفيذ."
+      },
+      {
+        "clash_point": "انتهاك حقوق المواطنين",
+        "importance": "secondary",
+        "proposition_side": "لا يذكره.",
+        "opposition_side": "يستدعي أن اقتطاع الأراضي ينتهك حقوق الملكية.",
+        "outcome": "opposition",
+        "reasoning": "الاعتراض يضيف طبقة إضافية من الحجج التي لا يرد عليها الموالاة."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "opposition",
+      "style": "opposition",
+      "strategy": "opposition"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.8,
+      "key_reasons": [
+        {
+          "reason": "تعريف غير واضح للـ \"الدول المتقدمة والمتضررة\"، واعتراض واضح من المعارضة.",
+          "where": "Speech 2 و Speech 4",
+          "effect": "أقنع القاضي بأن الموالاة لم تقدم تعريفاً كافياً، مما يضعها في موقف ضعيف على هذا النقطة الأساسية.",
+          "evidence_quote": "\"التعريف غامض جدا\""
+        },
+        {
+          "reason": "الاعتراض على واقعية الاقتطاع، مع أمثلة على التلوث والحقوق.",
+          "where": "Speech 2 و Speech 4",
+          "effect": "أظهر أن الموالاة لا تقدم حلاً عملياً، مما يضعف حججها.",
+          "evidence_quote": "\"حتى لو حصلوا على هذه الأراضي هم سوف يلوثون\""
+        }
+      ]
+    },
+    "justification": "المعارضة نجحت في إثبات أن الموالاة لم تقدم تعريفاً واضحاً للـ \"الدول المتقدمة والمتضررة\"، وأن الاقتطاع غير واقعي ولا يحل المشكلة الجذرية. هذه النقاط الأساسية هي التي حسمت الجدل، حيث لم يرد الموالاة على هذه الاعتراضات بشكل مقنع.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "مكرر، غير منظم، يفتقر إلى أمثلة محددة."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "تعريف واضح، اعتراضات واقعية، أمثلة."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "محاولة تفنيد، لكنها لا تزال ضعيفة."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "أكثر قوة من Speech 2، يضيف اعتراضات على حقوق الملكية."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 69,
+        "note": "طويل، غير منظم، يفتقر إلى أمثلة."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "طويل، غير مركز، يكرر نفس النقاط."
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "ملخص، لكنه يفتقر إلى تفنيد جديد."
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 34,
+        "note": "مكرر، لا يضيف جديداً."
+      }
+    ],
+    "best_speaker": "Speech 4",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حاولوا تغطية عدة محاور (اقتصادي، دبلوماسي، صحي).",
+          "استخدموا أمثلة عامة (سنغافورة، فلسطين)."
+        ],
+        "improvements": [
+          "تحديد أكثر دقة للـ \"الدول المتقدمة\" و\"المتضررة\".",
+          "تقديم أمثلة محددة ومدعومة بأرقام.",
+          "تركيز أكثر على ردود الفعل على اعتراضات المعارضة."
+        ],
+        "recommendations": [
+          "استخدام هيكل واضح: تعريف، فرضية، حجة، مثال، تأثير، رد.",
+          "تجنب التكرار والتركيز على نقاط القمة."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "اعتراض واضح على تعريف الموالاة.",
+          "تسليط الضوء على واقعية الاقتطاع وانتهاك الحقوق.",
+          "استخدام أمثلة واقعية (التلوث، حقوق الملكية)."
+        ],
+        "improvements": [
+          "تقليل التكرار في الخطاب الرئيسي.",
+          "تقديم أمثلة أكثر تحديداً (دراسات حالة، إحصائيات)."
+        ],
+        "recommendations": [
+          "تركيز على نقاط القمة في كل خطاب.",
+          "استخدام أسلوب أكثر إقناعاً في الردود على الموالاة."
+        ]
+      }
+    },
+    "data_quality_flags": []
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 5,
+      "match_ratio": 0.625,
+      "unverified_quotes": [
+        "\"حتى لو حصلوا على هذه الأراضي هم سوف يلوثون\"",
+        "\"القرار ينتهك حقوق مواطني الدول الأولى\"",
+        "\"حتى لو حصلوا على هذه الأراضي هم سوف يلوثون\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 248,
+      "opposition": 265
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14168,
+        "output": 2346
+      }
+    ]
+  }
+}

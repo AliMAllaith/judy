@@ -1,0 +1,255 @@
+{
+  "debate_id": "debate_008",
+  "motion": "لن يقدم هذا المجلس مساعدات إنمائية للدول التي لا تجري إصلاحات سياسية",
+  "generated_at": "2026-11-03T10:41:27+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "The Opposition was more persuasive because they effectively argued that conditional aid violates sovereignty and is unethical, which resonates more with the judge's impartial perspective. Their refutation of the Proposition's position was stronger, demonstrating that aid is often accepted by corrupt regimes, contradicting the motion's core requirement.",
+    "best_speaker": "معارضة - المتحدث الثاني"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "The motion requires a clear definition of development aid and political reform.",
+      "proposition_definition": "Development aid should be conditional on political reform to ensure maximum benefit to the people.",
+      "opposition_definition": "Political reform must be defined by the people and cannot be imposed by external actors.",
+      "definition_contested": true,
+      "adopted_ground": "The debate is centered on the ethical implications of providing development aid to corrupt regimes."
+    },
+    "positions": {
+      "proposition": "The Proposition argues that development aid should be conditional on political reform to ensure maximum benefit to the people.",
+      "opposition": "The Opposition argues that development aid should not be conditional on political reform, as this violates sovereignty and is unethical."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم تعريفاً واضحاً للمساعدات الإنمائية والإصلاح السياسي، وتعلن عن موقفها المعارض للمساعدات دون شروط إصلاحية.",
+        "evidence_quote": "بسم الله الرحمن الرحيم. سيدي رئيس الجلسة. الحكام الكرام. زملائي في فريقي الموالاة والمعارضة. جمهورنا الكريم. السلام عليكم ورحمة الله وبركاته. وبركاته. أتينا نحن اليوم فريق الموالاة لنواري مقولة هذا المجلس أنه لن يقدم هذا المجلس المساعدات الإنمائية للدول التي لا تجرى إصلاحا سياسيا.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "المعارضة تطرح مبدأ السيادة ورفض الابتزاز، وتعترض على فكرة شرط الإصلاح السياسي على المساعدات.",
+        "evidence_quote": "السلام عليكم ورحمة الله وبركاته. أولا اعتذر على هذا الصوت ولكن لا تسمعوا الصوت وأيقنوا المضمون.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "المعارضة تؤكد على الحق الإنساني للدول في المساعدة دون شروط، وتعلن عن خطر الاستغلال السياسي.",
+        "evidence_quote": "الدول الفاسدة لن تأخذ المساعدات أصلاً. أحسنت يا صديقي. يبدو أنك لا تعيش في الوطن العربي معنا.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم مثالاً على فشل المساعدات في تحقيق التنمية، وتعلن عن رفضهم لشروط الإصلاح السياسي.",
+        "evidence_quote": "بسم الله الرحمن الرحيم. سادتي الكرام. دولنا العربية تأخذ المساعدات من عشرات السنين كما يطالبها فريق المعارضة، ولم تضمن هذه المساعدات أي فرصة للشعوب لتقدم أو تحقق أي تنمية كما يريد.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "المعارضة ترفض فكرة شرط الإصلاح السياسي على المساعدات، وتعلن عن فشل Proposition في تقديم حجج مقنعة.",
+        "evidence_quote": "السلام ختام.",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "item": "Speech 1 | Proposition - First Speaker",
+        "issue": "New definitions introduced after the first speaker."
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثالث",
+        "item": "Speech 7 | Opposition - Reply Speech",
+        "issue": "New arguments introduced in reply speeches."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الإصلاح السياسي",
+        "importance": "core",
+        "proposition_side": "موالاة",
+        "opposition_side": "المعارضة",
+        "outcome": "opposition",
+        "reasoning": "المعارضة تؤكد أن الإصلاح السياسي يجب أن يأتي من الشعب، بينما الموالاة ترى أنه يمكن أن يتحقق من خلال المساعدات."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Opposition's arguments about sovereignty and ethical aid are more substantive.",
+      "style": "The Proposition's arguments are clearer in structure, but the Opposition's refutation is more persuasive.",
+      "strategy": "The Opposition's strategy of defending the motion's definition is more effective."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "The Opposition effectively argues that conditional aid violates sovereignty and is unethical, which resonates more with the judge's impartial perspective.",
+          "where": "Speech 2 | Opposition - First Speaker",
+          "effect": "The Opposition's arguments about the ethical implications of conditional aid are more persuasive.",
+          "evidence_quote": "السلام عليكم ورحمة الله وبركاته. أحسنت يا صديقي. يبدو أنك لا تعيش في الوطن العربي معنا."
+        },
+        {
+          "reason": "The Opposition successfully demonstrates that the Proposition's position is flawed by showing that aid is often accepted by corrupt regimes, contradicting the motion's core requirement.",
+          "where": "Speech 2 | Opposition - First Speaker",
+          "effect": "The Opposition's refutation of the Proposition's position is stronger.",
+          "evidence_quote": "الدول الفاسدة لن تأخذ المساعدات أصلاً. أحسنت يا صديقي. يبدو أنك لا تعيش في الوطن العربي معنا."
+        }
+      ]
+    },
+    "justification": "The Opposition was more persuasive because they effectively argued that conditional aid violates sovereignty and is unethical, which resonates more with the judge's impartial perspective. Their refutation of the Proposition's position was stronger, demonstrating that aid is often accepted by corrupt regimes, contradicting the motion's core requirement.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 30,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 30,
+        "note": ""
+      }
+    ],
+    "best_speaker": "معارضة - المتحدث الثاني",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Your arguments about the negative impact of aid are well-reasoned.",
+          "Your use of examples helps to illustrate your points."
+        ],
+        "improvements": [
+          "Clarify your definition of political reform to avoid ambiguity.",
+          "Provide more specific examples to back up your claims."
+        ],
+        "recommendations": [
+          "Focus on the practical implications of your arguments rather than abstract concepts.",
+          "Develop a clearer strategy for how aid can lead to political reform."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Your arguments about sovereignty and ethical aid are well-supported.",
+          "Your refutation of the Proposition's position is effective."
+        ],
+        "improvements": [
+          "Consider providing more concrete examples to strengthen your arguments.",
+          "Work on structuring your speeches more clearly to avoid confusion."
+        ],
+        "recommendations": [
+          "Focus on the ethical implications of conditional aid to make your case more persuasive.",
+          "Develop a stronger strategy for defining the motion's key terms."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some arguments may be difficult to follow due to transcription errors or unclear speech.",
+      "The debate is heavily focused on the definition of political reform, which may limit the analysis of other aspects."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 7,
+      "quotes_found": 5,
+      "match_ratio": 0.714,
+      "unverified_quotes": [
+        "بسم الله الرحمن الرحيم. سادتي الكرام. دولنا العربية تأخذ المساعدات من عشرات السنين كما يطالبها فريق المعارضة، ولم تضمن هذه المساعدات أي فرصة للشعوب لتقدم أو تحقق أي تنمية كما يريد.",
+        "السلام عليكم ورحمة الله وبركاته. أحسنت يا صديقي. يبدو أنك لا تعيش في الوطن العربي معنا."
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 150,
+      "opposition": 150
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 16793,
+        "output": 2873
+      }
+    ]
+  }
+}

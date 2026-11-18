@@ -1,0 +1,233 @@
+{
+  "debate_id": "debate_0010",
+  "motion": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه",
+  "generated_at": "2026-11-03T11:06:33+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "الموالاة قدمت حججاً أكثر إقناعاً ومتسلسلة حول ضرورة دعم الغرب للمعارضة في الأنظمة القمعية لحماية الإنسان وفرض الديمقراطية",
+    "best_speaker": "المتحدث الثالث - الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضة للأنظمة القمعية",
+      "proposition_definition": "تقديم الدعم المادي والعسكري للجماعات المعارضة للأنظمة القمعية",
+      "opposition_definition": "لا يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضة للأنظمة القمعية",
+      "definition_contested": false,
+      "adopted_ground": "حماية الإنسان وطريق للديمقراطية"
+    },
+    "positions": {
+      "proposition": "الغرب يجب أن يقدم الدعم المادي والعسكري للجماعات المعارضة للأنظمة القمعية",
+      "opposition": "الغرب لا يجب أن يقدم الدعم المادي والعسكري للجماعات المعارضة للأنظمة القمعية"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الدول الغربية هي الأكثر تأهيلاً لدعم المعارضة لأنها تعيش في ظل ديمقراطي وتفهم قيمة الإنسان",
+        "evidence_quote": "الدول الغربية هي هاته الدول المتشبعة بالافكار الديمقراطية وبحقوق الإنسان",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "دعم الغرب للمعارضة ينتهك سيادة الدول",
+        "evidence_quote": "النظام الدولي أيها السادة إنما يقوم على مبدأ السيادة الدوليه",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "دعم المعارضة لا يعتبر انتهاكاً لسيادة الدول",
+        "evidence_quote": "هل لنا أن نرجع لمفهوم الدولة؟ الدولة يا سادتي هي سلطه واقليم وشعب",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "التدخل العسكري أو الدعم المادي والعسكري للمعارضة يؤدي إلى تازم الأوضاع",
+        "evidence_quote": "كل تدخل تم فيه تدخل بالقوة أو إمداد المعارضة أو كل ما تم باسم حقوق الإنسان",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثالث",
+        "item": "حجج جديدة في الرد",
+        "issue": "جديدة وغير مذكورة سابقاً"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "دعم الغرب للمعارضة",
+        "importance": "core",
+        "proposition_side": "الغرب يجب أن يقدم الدعم",
+        "opposition_side": "الغرب لا يجب أن يقدم الدعم",
+        "outcome": "proposition",
+        "reasoning": "حجج وافية ومتسلسلة"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition",
+      "style": "proposition",
+      "strategy": "proposition"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "حجج متسلسلة ومتينة",
+          "where": "المتحدث الأول والثاني من الموالاة",
+          "effect": "أقنع القاضي بأن الموالاة قدمت حججاً أفضل وأكثر إقناعاً",
+          "evidence_quote": "تقديم الدعم المادي والعسكري للجماعات المعارضة للأنظمة القمعية حماية للإنسان وطريق للديمقراطية"
+        }
+      ]
+    },
+    "justification": "الموالاة قدمت حججاً أكثر إقناعاً ومتسلسلة حول ضرورة دعم الغرب للمعارضة في الأنظمة القمعية لحماية الإنسان وفرض الديمقراطية",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "أجاد في تقديم الحجج الرئيسية"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "طرح أفكاراً جيدة لكن لم يوفق في الرد على بعض النقاط"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "أكمل الحجج بشكل منطقي وقدم أمثلة مؤثرة"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "أجاد في الرد على بعض النقاط لكن لم يوفق في تقديم حلول بديلة"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "أكمل الحجج بشكل متسلسل وقدم ردود فعل قوية"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "طرح أفكاراً جيدة لكن لم يوفق في الرد على بعض النقاط"
+      }
+    ],
+    "best_speaker": "المتحدث الثالث - الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حجج متسلسلة ومتينة",
+          "أمثلة مؤثرة"
+        ],
+        "improvements": [
+          "التركيز على نقاط الضعف في حجج المعارضة",
+          "تحسين الرد على بعض النقاط"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم الحجج المتسلسلة",
+          "تحسين الرد على النقاط الضعف"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "طرح أفكار جيدة",
+          "الرد على بعض النقاط"
+        ],
+        "improvements": [
+          "تحسين الحجج الرئيسية",
+          "تقديم حلول بديلة"
+        ],
+        "recommendations": [
+          "التركيز على نقاط القوة في حجج المعارضة",
+          "تحسين تقديم الحجج الرئيسية"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "الخطاب غير مكتمل"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 3,
+      "match_ratio": 0.6,
+      "unverified_quotes": [
+        "الدول الغربية هي هاته الدول المتشبعة بالافكار الديمقراطية وبحقوق الإنسان",
+        "النظام الدولي أيها السادة إنما يقوم على مبدأ السيادة الدوليه"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 243,
+      "opposition": 231
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14637,
+        "output": 1722
+      }
+    ]
+  }
+}

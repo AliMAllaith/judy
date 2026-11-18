@@ -1,0 +1,314 @@
+{
+  "debate_id": "debate_015",
+  "motion": "سيمنع المجلس الدولة ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+  "generated_at": "2026-11-04T09:31:29+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "narrow",
+    "confidence": 0.9,
+    "justification": "The Proposition team was more persuasive because their arguments directly addressed the core clash points and provided logical reasoning and examples. They effectively refuted the Opposition's claims by highlighting the benefits of unity and stability, and by providing evidence of how registration can lead to division and conflict. The Opposition's arguments, while well-intentioned, lacked specific evidence and fell into contradictions, making them less convincing.",
+    "best_speaker": "موالاة - المتحدث الأول"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "The motion addresses the issue of ethnic and religious registration in multi-ethnic countries and its impact on unity, diversity, and human rights.",
+      "proposition_definition": "The Proposition team's definition is that prohibiting registration of ethnic and religious backgrounds in multi-ethnic countries promotes unity and stability.",
+      "opposition_definition": "The Opposition team's ground is the preservation of cultural diversity and human rights by allowing the registration of ethnic and religious backgrounds.",
+      "definition_contested": true,
+      "adopted_ground": "The Proposition team's ground is the promotion of unity and stability by prohibiting the registration of ethnic and religious backgrounds in multi-ethnic countries."
+    },
+    "positions": {
+      "proposition": "The Proposition team's position is that prohibiting the registration of ethnic and religious backgrounds in multi-ethnic countries promotes unity and stability.",
+      "opposition": "The Opposition team's position is that registering ethnic and religious backgrounds in multi-ethnic countries preserves cultural diversity and human rights."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم حججًا تركز على أن إلغاء تسجيل الخلفيات العرقية والعقائدية يعزز الوحدة الوطنية والعيش المشترك، ويقلل من البطالة ويدعم الأمن والاستقرار. تقدم أمثلة عن تأثيرات سلبية لتسجيل الخلفيات على المجتمعات، مثل تشجيع النزاعات والتمييز، وذكر أن عدم التسجيل يساعد في بناء مجتمع متماسك.",
+        "evidence_quote": "السادة المحكمين زملائي في فريق الموالاة والمعارضة،الحضور الكريم إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الopposition تقدم حججًا تركز على أن تسجيل الخلفيات العرقية والعقائدية يحافظ على التنوع الثقافي والغنى، ويسهل التنظيم والحفاظ على حقوق الأفراد. يذكر أمثلة عن فشل القومية العربية، وتأثير تسجيل الخلفيات على تنظيم المجتمعات، وحقوق الإنسان.",
+        "evidence_quote": "السادة المحكمون زملائي في الموالاة والمعارضة،الجمهور الكريم أنا المتحدث الأول من فريق المعارضة أتيت إلى هنا اليوم لأعارض رأي المجلس وأدعم إيمانه ضعم وأدحض إيمانه دحضا كاملا",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم حججًا تركز على أن إلغاء تسجيل الخلفيات يعزز روح التعاون والوحدة الوطنية، ويقلل من الفجوات بين الأعراق والعقائد. يذكر أمثلة عن تأثيرات سلبية لتسجيل الخلفيات، مثل تشجيع النزاعات والتمييز، وذكر IBM كمثال على فوائد التنوع في العمل.",
+        "evidence_quote": "السادة المحكمون زملائي في الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن هذه القضية شاملة وهي تخص جميع المجتمعات وهذا الجدال هو قضية عامة",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الopposition تقدم حججًا تركز على أن تسجيل الخلفيات العرقية والعقائدية يحافظ على التنوع الثقافي والغنى، ويسهل التنظيم والحفاظ على حقوق الأفراد. يذكر أمثلة عن فشل القومية العربية، وتأثير تسجيل الخلفيات على تنظيم المجتمعات، وحقوق الإنسان.",
+        "evidence_quote": "السادة المحكمون زملائي في الموالاة والمعارضة،الحضور جميعا سلام من الله يخشاكم وعين الله ترعاكم أتينا اليوم لنعارض موقف المجلس القائل بأنه سيمنع هذا المجلس الدول ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الopposition تقدم حججًا تركز على أن تسجيل الخلفيات العرقية والعقائدية يحافظ على التنوع الثقافي والغنى، ويسهل التنظيم والحفاظ على حقوق الأفراد. يذكر أمثلة عن فشل القومية العربية، وتأثير تسجيل الخلفيات على تنظيم المجتمعات، وحقوق الإنسان.",
+        "evidence_quote": "السادة المحكمين أصدقائي موالاة ومعارضة سلام الله عليكم جميعا ورحمته وبركاته أنا المتحدث الثالث من فريق المعارضة أعود وأؤكد معارضة فريقي لقرار المجلس ألا وهو سيمنع هذا المجلس الدول ذات التنوع العرقي من تسجيل خلفيات مواطنها العرقية أو العقائدية",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم حججًا تركز على أن إلغاء تسجيل الخلفيات العرقية والعقائدية يعزز روح التعاون والوحدة الوطنية، ويقلل من الفجوات بين الأعراق والعقائد. يذكر أمثلة عن تأثيرات سلبية لتسجيل الخلفيات، مثل تشجيع النزاعات والتمييز، وذكر IBM كمثال على فوائد التنوع في العمل.",
+        "evidence_quote": "السادة المحكمين زملائي في الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "item": "Definition of unity and stability",
+        "issue": "The Proposition team's first speaker introduced the concept of unity and stability, but did not clearly define it."
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "item": "Definition of diversity and human rights",
+        "issue": "The Opposition team's first speaker introduced the concept of diversity and human rights, but did not clearly define it."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الوحدة الوطنية مقابل التنوع الثقافي",
+        "importance": "core",
+        "proposition_side": "الموالاة",
+        "opposition_side": "الopposition",
+        "outcome": "proposition",
+        "reasoning": "الموالاة تركز على أن إلغاء تسجيل الخلفيات يعزز الوحدة الوطنية والعيش المشترك، بينما تركز الopposition على أن تسجيل الخلفيات يحافظ على التنوع الثقافي والغنى. هناك تصادم في الموقف الأساسي للقضية."
+      },
+      {
+        "clash_point": "المساواة في الحقوق مقابل الحفاظ على الخصوصية",
+        "importance": "core",
+        "proposition_side": "الopposition",
+        "opposition_side": "الموالاة",
+        "outcome": "opposition",
+        "reasoning": "الopposition تركز على أن تسجيل الخلفيات يحافظ على الخصوصية وحقوق الإنسان، بينما ترى الموالاة أن هذا القرار ينتهك حق الخصوصية. هناك تصادم في الموقف الأساسي للقضية."
+      },
+      {
+        "clash_point": "الحد من البطالة مقابل الحفاظ على التنوع",
+        "importance": "core",
+        "proposition_side": "الموالاة",
+        "opposition_side": "الموالاة",
+        "outcome": "proposition",
+        "reasoning": "الموالاة تركز على أن إلغاء تسجيل الخلفيات يقلل من البطالة ويعزز فرص العمل، بينما ترى الopposition أن هذا القرار يزيد من البطالة ويسبب تمييزًا. هناك تصادم في الموقف الأساسي للقضية."
+      },
+      {
+        "clash_point": "الحد من النزاعات مقابل الحفاظ على التنوع",
+        "importance": "core",
+        "proposition_side": "الموالاة",
+        "opposition_side": "الopposition",
+        "outcome": "proposition",
+        "reasoning": "الموالاة تركز على أن إلغاء تسجيل الخلفيات يقلل من النزاعات والتمييز، بينما ترى الopposition أن هذا القرار يزيد من التنوع ويدعم الحفاظ على الحقوق. هناك تصادم في الموقف الأساسي للقضية."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Proposition team's arguments are more substantive and well-supported.",
+      "style": "The Proposition team's arguments are clearer and more persuasive.",
+      "strategy": "The Proposition team's strategy is more effective in addressing the core clash points."
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "narrow",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "The Proposition team's arguments are more persuasive because they directly address the core clash points and provide logical reasoning and examples.",
+          "where": "Speech 1 | Proposition - First Speaker",
+          "effect": "The Proposition team's arguments are more persuasive because they directly address the core clash points and provide logical reasoning and examples.",
+          "evidence_quote": "السادة المحكمين زملائي في فريق الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس"
+        },
+        {
+          "reason": "The Opposition team's arguments are less persuasive because they lack clear evidence and fall into contradictions.",
+          "where": "Speech 2 | Opposition - Second Speaker",
+          "effect": "The Opposition team's arguments are less persuasive because they lack clear evidence and fall into contradictions.",
+          "evidence_quote": "السادة المحكمين زملائي في الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس"
+        }
+      ]
+    },
+    "justification": "The Proposition team was more persuasive because their arguments directly addressed the core clash points and provided logical reasoning and examples. They effectively refuted the Opposition's claims by highlighting the benefits of unity and stability, and by providing evidence of how registration can lead to division and conflict. The Opposition's arguments, while well-intentioned, lacked specific evidence and fell into contradictions, making them less convincing.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 30,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 30,
+        "note": ""
+      }
+    ],
+    "best_speaker": "موالاة - المتحدث الأول",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Clear and logical presentation of arguments.",
+          "Effective use of examples to illustrate points.",
+          "Strong focus on unity and stability."
+        ],
+        "improvements": [
+          "Enhance the depth of analysis with more specific examples and data.",
+          "Improve the articulation of impacts to make the case more compelling.",
+          "Develop a more nuanced understanding of the Opposition's arguments."
+        ],
+        "recommendations": [
+          "Incorporate more data-driven examples to support the case.",
+          "Practice articulating the impacts of arguments more clearly.",
+          "Anticipate and prepare for potential counterarguments from the Opposition."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Strong emphasis on cultural diversity and human rights.",
+          "Effective use of counterarguments to challenge the Proposition team."
+        ],
+        "improvements": [
+          "Focus on providing specific examples and evidence to support arguments.",
+          "Improve clarity and coherence in arguments to avoid confusion.",
+          "Develop a more structured approach to refutation and rebuilding."
+        ],
+        "recommendations": [
+          "Research and prepare more concrete examples to strengthen the case.",
+          "Practice structuring arguments with clear claims, reasoning, and impacts.",
+          "Target the opponent's arguments more effectively in refutation."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some speeches may have transcription errors or unclear phrasing, but not severe enough to invalidate analysis.",
+      "Debaters occasionally repeat points or use colloquial language, but content is generally clear."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 1,
+      "match_ratio": 0.125,
+      "unverified_quotes": [
+        "السادة المحكمين زملائي في فريق الموالاة والمعارضة،الحضور الكريم إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس",
+        "السادة المحكمون زملائي في الموالاة والمعارضة،الجمهور الكريم أنا المتحدث الأول من فريق المعارضة أتيت إلى هنا اليوم لأعارض رأي المجلس وأدعم إيمانه ضعم وأدحض إيمانه دحضا كاملا",
+        "السادة المحكمون زملائي في الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن هذه القضية شاملة وهي تخص جميع المجتمعات وهذا الجدال هو قضية عامة",
+        "السادة المحكمون زملائي في الموالاة والمعارضة،الحضور جميعا سلام من الله يخشاكم وعين الله ترعاكم أتينا اليوم لنعارض موقف المجلس القائل بأنه سيمنع هذا المجلس الدول ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+        "السادة المحكمين زملائي في الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس",
+        "السادة المحكمين زملائي في فريق الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس",
+        "السادة المحكمين زملائي في الموالاة والمعارضة،الحضور الكريم تحية طيبة وبعد إن تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني الإقليمي أو العالمي تزيد من الاختلاف بين الناس"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 210,
+      "opposition": 210
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13934,
+        "output": 3914
+      }
+    ]
+  }
+}

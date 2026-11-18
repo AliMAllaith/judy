@@ -1,0 +1,630 @@
+{
+  "debate_id": "debate_003",
+  "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+  "generated_at": "2026-11-04T08:56:10+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "decisive",
+    "confidence": 0.78,
+    "justification": "في النقاط الجوهرية الأربعة، فازت المعارضة في واحدة فقط، وهي النقطة التي تتعلق بالاستعمار والتفكيك، حيث لم تُفنّد حجة الموالاة هذه الحجة، ما يمنح المعارضة ميزة واضحة. بينما تبقى النقاط الثلاث الأخرى غير محلولة؛ لم تُقدم الموالاة ردوداً كافية على حجج المعارضة حول فقدان الهوية والقيم، أو الإسلاموفوبيا، أو فرص التعليم والعمل. نتيجة لذلك، فإن الموقف المعارضة يظل أكثر إقناعاً، إذ يملك حجة واحدة غير مُفنّدة في مجال أساسي، بينما يظل الموالاة في وضع غير حاسم. هذا التوازن يُفضي إلى قرار واضح بأن المعارضة هي الفائزة في هذا الجدل. "
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "مناقشة ما إذا كان شاب مسلم يجب أن يهاجر إلى الغرب",
+        "proposition_definition": "المحور يُعرّف على أنه شاب مسلم يقرر الهجرة إلى الغرب، وقد اتفق الطرفان على هذه التعريف.",
+        "opposition_definition": "المحور يُعرّف على أنه شاب مسلم يقرر الهجرة إلى الغرب، وقد اتفق الطرفان على هذه التعريف.",
+        "definition_contested": false,
+        "adopted_ground": "المحور يُعرّف على أنه شاب مسلم يقرر الهجرة إلى الغرب، وقد اتفق الطرفان على هذه التعريف."
+      },
+      "proposition_position": "يدعم الهجرة إلى الغرب، ويؤكد أن ذلك يحقق مصالح الشاب المسلم.",
+      "opposition_position": "يعارض الهجرة إلى الغرب، ويؤكد أن البقاء في الدول الإسلامية أفضل.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "كل فريق يرد مباشرة على حجج الفريق الآخر، ويستهدفون نقاطًا محددة في خطاباتهم."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "عدم الاستقرار السياسي والاقتصادي في الدول الإسلامية يحدّ من فرص التعليم والعمل.",
+            "responds_to": "",
+            "evidence_quote": "عدم الاستقرار السياسي والاقتصادي وقلة التعليم وحتى عدم توافر الفرص",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يقدّم بيئة أكثر قبولاً للمسلمين، مع انخفاض مستويات الإسلاموفوبيا.",
+            "responds_to": "",
+            "evidence_quote": "الغرب ينساق نحو الأحزاب اليسارية… المسلمين الذين هاجروا… نجحوا في تقديم نظره مغايرة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التعليم والفرص الوظيفية في الغرب أفضل من تلك المتاحة في الدول الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "مستوى التعليم الجامعي في الدول الغربية دائماً يفضّل الخبرات الأجنبية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "في الدول الإسلامية، يُعاقب على الفكر الإسلامي السياسي، بينما يُقبل في الغرب.",
+            "responds_to": "",
+            "evidence_quote": "في الوطن العربي… يشهد قمعاً ضد الإسلام السياسي… في الغرب غير مصنفين كإرهاب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الفساد في الحكومات العربية يعيق تحقيق الأهداف الشخصية للمواطنين.",
+            "responds_to": "",
+            "evidence_quote": "الفساد اليوم… لا أستطيع الوصول إلى الوظيفة بسبب ربط العائلة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاختيار إلى الهجرة يُعتبر خياراً مشروعاً للطالب المسلم لتحقيق مصالحه الشخصية.",
+            "responds_to": "",
+            "evidence_quote": "من حق اليوم كشاب مسلم أن يختار الطريقه الأنسب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "المحور يعرّف على أنه شاب مسلم يقرر الهجرة إلى الغرب.",
+            "responds_to": "",
+            "evidence_quote": "المحور يعرّف على أنه شاب مسلم يقرر الهجرة إلى الغرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "other",
+            "summary": "الخطاب يوضح أن الهجرة إلى الغرب تحقق المصلحة الأمثل للشاب المسلم.",
+            "responds_to": "",
+            "evidence_quote": "الهجرة إلى الغرب ستحقق المصلحة الأمثل لي بصفه شاب مسلم",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الغرب استعماري ويهدف إلى تفكيك الأمم الموحدة للمسلمين.",
+            "responds_to": "",
+            "evidence_quote": "الغرب هو استعماري خلق وهم الحدود في الدول التي استعمرتها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يفرض سياسات تهدف إلى إلغاء الحجاب وتقييد الإسلام السياسي.",
+            "responds_to": "",
+            "evidence_quote": "فرنسا بارغا امها المسلمات المحجبات على نزع الحجاب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البقاء في الدول المسلمة يحافظ على الهوية والعائلة والمجتمع.",
+            "responds_to": "",
+            "evidence_quote": "وجودي كشاب مسلم في البلاد المسلمة وعدم هجرتي ضروري ومحوري",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهجرة تؤدي إلى فقدان الهوية وتدمير القيم الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "هذا المسلم في حال كان يعتبر جزء اساسي من دوره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يفرض ثقافة علمانية تهدد القيم الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "الممارسات التي تجعل هذا المسلم مسلما في تصرفاته في هويته",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهدف من الاندماج هو جعل المهاجرين يتماهون مع المجتمع الغربي.",
+            "responds_to": "",
+            "evidence_quote": "الهدف هو أن يتماهى الفرد مع المجتمع الغربي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستعمار يهدف إلى تفكيك الأمم الموحدة للمسلمين.",
+            "responds_to": "",
+            "evidence_quote": "الهدف من الاستعمار هو تفكيك هذه الأمم الموحدة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يخلق تناقضاً بين قبول الجاليات وقلقهم من تأثيرها.",
+            "responds_to": "",
+            "evidence_quote": "يخافون من هذه أفكار هذه الجاليات",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "تفنيد ادعاء المعارض حول عدم وجود إسلاموفوبيا في الغرب",
+            "responds_to": "الغرب يفرض سياسات تهدف إلى إلغاء الحجاب وتقييد الإسلام السياسي",
+            "evidence_quote": "الاسلاموفوبيا اليوم لا تقارن بصوره الاسلاموفوبيا في 11 سبتمبر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "محدودية فرص المسلمين في بلادهم بسبب عدم الاستقرار السياسي والاقتصادي",
+            "responds_to": "",
+            "evidence_quote": "محدوده الفرص للمسلمين في بلادهم اليوم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "انعدام الأمن السياسي في الدول ذات الأغلبية المسلمة يعيق التنمية",
+            "responds_to": "",
+            "evidence_quote": "ان معظم هذه الدول تعاني من مشاكل انعدام امن سياسي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الفساد في الحكومات العربية يعيق تحقيق الأهداف الشخصية للمواطنين",
+            "responds_to": "",
+            "evidence_quote": "الفساد في الحكومات العربية يعيق تحقيق الأهداف",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستقرار السياسي والاقتصادي في الغرب يفوق بكثير الدول الإسلامية",
+            "responds_to": "",
+            "evidence_quote": "في بلاد الغرب استقرار سياسي واقتصادي نسبي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "فرص التعليم والعمل في الغرب في تزايد مستمر",
+            "responds_to": "",
+            "evidence_quote": "فرص التعليميه والعمليه هي ايضا في تزايد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الفيزا الشنجن تسمح للشباب بالبحث عن عمل في دول الاتحاد الأوروبي",
+            "responds_to": "",
+            "evidence_quote": "فيزا شنجن تسمح للشباب بالبحث عن عمل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهجرة إلى الغرب تمكن المسلم من تحقيق مصالحه الشخصية والعائلية والمجتمعية",
+            "responds_to": "",
+            "evidence_quote": "تحقيق مصالح هذا الشاب المسلم اولها طبعا",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "تفنيد ادعاء أن الغرب هو الوجهة الوحيدة للمسلمين",
+            "responds_to": "التعليم والفرص الوظيفية في الغرب أفضل",
+            "evidence_quote": "الغرب هو من يحيط بالاسلام السياسي وهذا خاطئ",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول الخليجية مثال على التطوير في الدول المسلمة",
+            "responds_to": "",
+            "evidence_quote": "دول الخليج اليوم هي أكبر مثال على الدول المسلمة دول رائده في مجال التطوير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يمارس حربًا ناعمة على المجتمعات الإسلامية",
+            "responds_to": "",
+            "evidence_quote": "الغرب يمارس الحرب الناعمه على مجتمعاتنا الاسلاميه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهجرة تترك فراغًا في الخطاب الإسلامي",
+            "responds_to": "",
+            "evidence_quote": "إذا هاجرت فقد تركت الساحه لغيري",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البقاء يساهم في مقاومة الفكر الغربي",
+            "responds_to": "",
+            "evidence_quote": "إذا بقيت انا كشاب مسلم لتطبيق مسؤوليتي الاجتماعية فانا اساهم في مقاومه الفكر الغربي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهجرة تؤدي إلى تفكك الأسرة والقيم",
+            "responds_to": "",
+            "evidence_quote": "كيف سيؤثر على الاسره وتفككها بقيم غربيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "البقاء ضروري لتطوير الخطاب الإسلامي",
+            "responds_to": "",
+            "evidence_quote": "أنا كشاب مسلم يجب ان ابقى لادع فكري الاسلامي",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "تفنيد ادعاء أن الهجرة تؤدي إلى فقدان الهوية وتدمير القيم الإسلامية.",
+            "responds_to": "الهجرة تؤدي إلى فقدان الهوية وتدمير القيم الإسلامية",
+            "evidence_quote": "الذهاب الى الدول الغربيه يؤدي الى التجريد من الهويه والتفكير الاسلامي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المسلمين يعانون اضطهاداً في الدول المسلمة.",
+            "responds_to": "",
+            "evidence_quote": "المسلمين يعانون من اضطهاد كبير ولا يتم اعطائهم اي نوع من انواع حقوقهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "العالم الإسلامي غير موحد ومجزأ.",
+            "responds_to": "",
+            "evidence_quote": "الوضع هو كالتالي اولا دول متقطعه الاوصال غير موحده اصلا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "فرص عمل أفضل في دول الخليج.",
+            "responds_to": "",
+            "evidence_quote": "فرص أكبر للشاب المتعلم في الدول الغربيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التعليم في الغرب أعلى جودة.",
+            "responds_to": "",
+            "evidence_quote": "التعليم اعلى وافضل من الموجود في الدول العربيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحصول على جنسية غربية يعزز الأسرة.",
+            "responds_to": "",
+            "evidence_quote": "الحصول على الجنسيه ب بهذه الدوله الغربيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب خالٍ من الجماعات المتطرفة.",
+            "responds_to": "",
+            "evidence_quote": "الدول غربيه لا يوجد فيها هذه الجماعات الاسلاميه المتطرفه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستقرار الاقتصادي والسياسي في الغرب أعلى.",
+            "responds_to": "",
+            "evidence_quote": "الاستقرار الاقتصادي والسياسي فيكون أعلى بمراحل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "تفنيد ادعاء أن الغرب يحمينا من الإسلاموفوبيا.",
+            "responds_to": "",
+            "evidence_quote": "الغرب هو من يخلق الاسلاموفوبيا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "تفنيد ادعاء أن الهجرة تؤدي إلى فقدان الهوية وتدمير القيم الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "الهجرة تؤدي إلى فقدان الهوية وتدمير القيم الإسلامية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المحور يركز على الاقتصاد ولا يولي أهمية للفكر الإسلامي.",
+            "responds_to": "",
+            "evidence_quote": "فريق الموالات لا يركز على الفكر الإسلامي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يفرض ثقافة علمانية تهدد القيم الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "الغرب يفرض ثقافة علمانية تهدد القيم الإسلامية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يحيط ويحمي الإسلام السياسي لكنه يخلق تناقضاً.",
+            "responds_to": "",
+            "evidence_quote": "الغرب هو من يحيط ويحمي الاسلام السياسي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الوضع المعيشي أفضل في الخارج، لكن ذلك لا يحافظ على الهوية.",
+            "responds_to": "",
+            "evidence_quote": "الوضع المعيشي للشاب أفضل سيكون في الخارج",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": []
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بوجود الإسلاموفوبيا في الغرب وبين الواقع.",
+            "responds_to": "",
+            "evidence_quote": "الاسلاموفوبيا في بلاد الغرب هي بنفس الصوره التي كانت موجوده منذ 11 سبتمبر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بوجود الإسلاموفوبيا في الدول الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "الاسلاموفوبيا موجوده ايضا في الدول الاسلاميه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بالفساد في الدول الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "الفساد الذي يفتك اليوم بهذه الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بتفضيل الشهادات الأجنبية.",
+            "responds_to": "",
+            "evidence_quote": "فكرة تفضيل حاملي الشهادات الاجنبيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بالاستقرار السياسي والاقتصادي في الغرب.",
+            "responds_to": "",
+            "evidence_quote": "الاستقرار السياسي والاقتصادي في الغرب يفوق بكثير الدول الإسلامية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بأن البقاء يحافظ على الهوية.",
+            "responds_to": "",
+            "evidence_quote": "سأصبح مجرد عبئ على هذا المجتمع",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بأن الغرب يحمي من الإسلاموفوبيا.",
+            "responds_to": "",
+            "evidence_quote": "الاسلاموفوبيا في بلاد الغرب هي بنفس الصوره التي كانت موجوده منذ 11 سبتمبر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "المقارنة بين ادعاء المعارض بتطوير دول الخليج.",
+            "responds_to": "",
+            "evidence_quote": "الاستقرار الاقتصادي والسياسي في الغرب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "فرص التعليم والعمل",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة قدمت حجة بأن التعليم والفرص الوظيفية في الغرب أفضل، بينما ردت المعارضة بحجة أن دول الخليج مثال على التطوير في الدول المسلمة. ثم قدمت الموالاة تفنيدًا بأن الغرب ليس الوجهة الوحيدة للمسلمين، لكن المعارضة لم تقدم ردًا مباشرًا على هذه الحجة، مما يترك كلا الطرفين مع حجج قائمة. لذلك لا يمكن تحديد فائز واضح في هذه النقطة."
+        },
+        {
+          "clash_point": "فقدان الهوية والقيم",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "المعارضة حجة بأن الهجرة تؤدي إلى فقدان الهوية وتدمير القيم الإسلامية، وردت الموالاة بتفنيد هذه الحجة. ثم أعادت المعارضة إظهار أن الهجرة تؤدي إلى تفكك الأسرة والقيم. لم تقدم الموالاة ردًا إضافيًا، لذا تبقى الحجج قائمة على كلا الطرفين."
+        },
+        {
+          "clash_point": "الإسلاموفوبيا والقيود على الحجاب",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "المعارضة حجة بأن الغرب يفرض سياسات تهدف إلى إلغاء الحجاب وتقييد الإسلام السياسي، وردت الموالاة بتفنيد ادعاء عدم وجود إسلاموفوبيا في الغرب. ثم ردت المعارضة بتفنيد تفنيد الموالاة بأن الغرب يحمينا من الإسلاموفوبيا. لم تقدم الموالاة ردًا إضافيًا، لذا تبقى الحجج قائمة على كلا الطرفين."
+        },
+        {
+          "clash_point": "الاستعمار والتفكيك",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "المعارضة قدمت حجة بأن الغرب استعماري ويهدف إلى تفكيك الأمم الموحدة للمسلمين، ولم تقدم الموالاة أي تفنيد مباشر لهذه الحجة. وبالتالي تبقى حجة المعارضة قائمة، وتُعتبر الفائز في هذه النقطة."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "decisive",
+      "confidence": 0.78,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "أثبتت المعارضة أن الغرب يملك نوايا استعمارية تهدف إلى تفكيك الأمم الموحدة للمسلمين، وهو حجة أساسية لم تُفنّد من قبل الموالاة.",
+          "evidence_quote": "المعارضة قدمت حجة بأن الغرب استعماري ويهدف إلى تفكيك الأمم الموحدة للمسلمين"
+        }
+      ],
+      "justification": "في النقاط الجوهرية الأربعة، فازت المعارضة في واحدة فقط، وهي النقطة التي تتعلق بالاستعمار والتفكيك، حيث لم تُفنّد حجة الموالاة هذه الحجة، ما يمنح المعارضة ميزة واضحة. بينما تبقى النقاط الثلاث الأخرى غير محلولة؛ لم تُقدم الموالاة ردوداً كافية على حجج المعارضة حول فقدان الهوية والقيم، أو الإسلاموفوبيا، أو فرص التعليم والعمل. نتيجة لذلك، فإن الموقف المعارضة يظل أكثر إقناعاً، إذ يملك حجة واحدة غير مُفنّدة في مجال أساسي، بينما يظل الموالاة في وضع غير حاسم. هذا التوازن يُفضي إلى قرار واضح بأن المعارضة هي الفائزة في هذا الجدل. "
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 53,
+      "not_found": [
+        "الغرب ينساق نحو الأحزاب اليسارية… المسلمين الذين هاجروا… نجحوا في تقديم نظره مغايرة",
+        "مستوى التعليم الجامعي في الدول الغربية دائماً يفضّل الخبرات الأجنبية",
+        "في الوطن العربي… يشهد قمعاً ضد الإسلام السياسي… في الغرب غير مصنفين كإرهاب",
+        "الفساد اليوم… لا أستطيع الوصول إلى الوظيفة بسبب ربط العائلة",
+        "من حق اليوم كشاب مسلم أن يختار الطريقه الأنسب",
+        "المحور يعرّف على أنه شاب مسلم يقرر الهجرة إلى الغرب",
+        "الهدف هو أن يتماهى الفرد مع المجتمع الغربي",
+        "الهدف من الاستعمار هو تفكيك هذه الأمم الموحدة",
+        "محدوده الفرص للمسلمين في بلادهم اليوم",
+        "الفساد في الحكومات العربية يعيق تحقيق الأهداف",
+        "دول الخليج اليوم هي أكبر مثال على الدول المسلمة دول رائده في مجال التطوير",
+        "الاستقرار الاقتصادي والسياسي فيكون أعلى بمراحل",
+        "الغرب هو من يخلق الاسلاموفوبيا",
+        "الهجرة تؤدي إلى فقدان الهوية وتدمير القيم الإسلامية",
+        "فريق الموالات لا يركز على الفكر الإسلامي",
+        "الغرب يفرض ثقافة علمانية تهدد القيم الإسلامية",
+        "الاسلاموفوبيا في بلاد الغرب هي بنفس الصوره التي كانت موجوده منذ 11 سبتمبر",
+        "الاسلاموفوبيا موجوده ايضا في الدول الاسلاميه",
+        "الاستقرار السياسي والاقتصادي في الغرب يفوق بكثير الدول الإسلامية",
+        "الاسلاموفوبيا في بلاد الغرب هي بنفس الصوره التي كانت موجوده منذ 11 سبتمبر",
+        "الاستقرار الاقتصادي والسياسي في الغرب"
+      ]
+    },
+    "decision_quotes": {
+      "total": 1,
+      "not_found": [
+        "المعارضة قدمت حجة بأن الغرب استعماري ويهدف إلى تفكيك الأمم الموحدة للمسلمين"
+      ]
+    },
+    "core_clash_leader": "opposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 5,
+    "prompt_tokens": 59819,
+    "output_tokens": 5165
+  }
+}

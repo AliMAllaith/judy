@@ -1,0 +1,249 @@
+{
+  "debate_id": "debate_004",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-03T11:08:39+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "فريق الموالاة قدم حجج قوية حول تأثير الاحتراف الرياضي على الاستقرار وعلى المجتمع، بينما فريق المعارضة لم يستطع أن يرد بشكل مقنع على هذه الحجج.",
+    "best_speaker": "المتحدث الثاني - الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "المناظرة تدور حول تفضيل عالم بدون احتراف رياضي",
+      "proposition_definition": "الاحتراف الرياضي هو اتخاذ الرياضة كمهنة واعتبارها المصدر الوحيد للدخل",
+      "opposition_definition": "الاحتراف الرياضي يشمل الأخلاقيات الرياضية بالإضافة إلى الأخلاقيات الإنسانية",
+      "definition_contested": true,
+      "adopted_ground": "المناظرة تتناول تأثير الاحتراف الرياضي على الاستقرار وعلى المجتمع"
+    },
+    "positions": {
+      "proposition": "يفضل عالم بدون احتراف رياضي",
+      "opposition": "لا يفضل عالم بدون احتراف رياضي"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الاحتراف الرياضي يفتقر إلى الاستقرار لأن اللاعب يعتمد على عوامل خارجية مثل الإصابة والجمهور",
+        "evidence_quote": "اللاعب المحترف يعتمد بمدخوله اليومي بشكل كامل وأساسي على هذه الرياضة التي يحترفها",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "رفض تعريف الاحتراف الرياضي المقدم من فريق الموالاة",
+        "evidence_quote": "نرفض تماما تعريف الاحترافيه الرياضيه التي جاء به فريق الموالد",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "اللا احترافيه تؤثر سلبا على الرياضة وعلى المجتمع",
+        "evidence_quote": "الرياضه تعني الانضباط وان الرياضه تعني السلوك والانضباط",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "rebuilding",
+        "summary": "تأثير الاحتراف الرياضي على المجتمع هو تأثير سلبي لأنه يجذب الناس للدخول في هذه الفقاعة",
+        "evidence_quote": "تاثيره على المجتمع انه سوف يجذب الكثير من الناس للدخول الى هذا الى هذه الفقاعه",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديد تعريف الاحتراف الرياضي في الرد",
+        "issue": "جاء متأخرا ولا يمكن للفريق الآخر الرد عليه"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الاستقرار",
+        "importance": "core",
+        "proposition_side": "الاحتراف الرياضي يفتقر إلى الاستقرار",
+        "opposition_side": "الاحتراف الرياضي ضروري ولا بديل له",
+        "outcome": "proposition",
+        "reasoning": "الاحتراف الرياضي يعتمد على عوامل خارجية مثل الإصابة والجمهور"
+      },
+      {
+        "clash_point": "تأثير على المجتمع",
+        "importance": "core",
+        "proposition_side": "الاحتراف الرياضي له تأثير سلبي على المجتمع",
+        "opposition_side": "الاحتراف الرياضي له تأثير إيجابي على المجتمع",
+        "outcome": "proposition",
+        "reasoning": "الاحتراف الرياضي يجذب الناس للدخول في هذه الفقاعة ويؤثر على قيم المجتمع"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition",
+      "style": "tie",
+      "strategy": "proposition"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "الاحتراف الرياضي يفتقر إلى الاستقرار",
+          "where": "المتحدث الأول من فريق الموالاة",
+          "effect": "قلب موازين المناظرة لصالح فريق الموالاة",
+          "evidence_quote": "اللاعب المحترف يعتمد بمدخوله اليومي بشكل كامل وأساسي على هذه الرياضة التي يحترفها"
+        },
+        {
+          "reason": "تأثير الاحتراف الرياضي على المجتمع",
+          "where": "المتحدث الثاني من فريق الموالاة",
+          "effect": "أكد تأثير الاحتراف الرياضي السلبي على المجتمع",
+          "evidence_quote": "تاثيره على المجتمع انه سوف يجذب الكثير من الناس للدخول الى هذا الى هذه الفقاعه"
+        }
+      ]
+    },
+    "justification": "فريق الموالاة قدم حجج قوية حول تأثير الاحتراف الرياضي على الاستقرار وعلى المجتمع، بينما فريق المعارضة لم يستطع أن يرد بشكل مقنع على هذه الحجج.",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حسن تقديم الحجج حول تأثير الاحتراف الرياضي"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "أكد تأثير الاحتراف الرياضي على المجتمع بشكل مقنع"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "حسن تقديم الحجج حول الأخلاقيات في الرياضة"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حسن تقديم الحجج حول تأثير اللا احترافيه على المجتمع"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "حسن تقديم الحجج حول تأثير الاحتراف الرياضي على الاستقرار"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حسن تقديم الحجج حول الأخلاقيات في الرياضة"
+      }
+    ],
+    "best_speaker": "المتحدث الثاني - الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حسن تقديم الحجج حول تأثير الاحتراف الرياضي",
+          "أكد تأثير الاحتراف الرياضي على المجتمع بشكل مقنع"
+        ],
+        "improvements": [
+          "التركيز على الأخلاقيات في الرياضة",
+          "تحسين تقديم الحجج حول الاستقرار في الاحتراف الرياضي"
+        ],
+        "recommendations": [
+          "التركيز على تقديم حجج قوية حول الأخلاقيات في الرياضة",
+          "تحسين تقديم الحجج حول الاستقرار في الاحتراف الرياضي"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حسن تقديم الحجج حول الأخلاقيات في الرياضة",
+          "حسن تقديم الحجج حول تأثير اللا احترافيه على المجتمع"
+        ],
+        "improvements": [
+          "تحسين تقديم الحجج حول تأثير الاحتراف الرياضي على الاستقرار",
+          "التركيز على الأخلاقيات في الرياضة"
+        ],
+        "recommendations": [
+          "تحسين تقديم الحجج حول تأثير الاحتراف الرياضي على الاستقرار",
+          "التركيز على الأخلاقيات في الرياضة"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "المناظرة قد تحتوي على بعض الأخطاء في التعاريف والمفاهيم"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 2,
+      "match_ratio": 0.333,
+      "unverified_quotes": [
+        "اللاعب المحترف يعتمد بمدخوله اليومي بشكل كامل وأساسي على هذه الرياضة التي يحترفها",
+        "تاثيره على المجتمع انه سوف يجذب الكثير من الناس للدخول الى هذا الى هذه الفقاعه",
+        "اللاعب المحترف يعتمد بمدخوله اليومي بشكل كامل وأساسي على هذه الرياضة التي يحترفها",
+        "تاثيره على المجتمع انه سوف يجذب الكثير من الناس للدخول الى هذا الى هذه الفقاعه"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 243,
+      "opposition": 231
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13614,
+        "output": 1968
+      }
+    ]
+  }
+}

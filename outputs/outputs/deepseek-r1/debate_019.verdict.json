@@ -1,0 +1,302 @@
+{
+  "debate_id": "debate_019",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-05T09:20:52+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.9,
+    "justification": "The Opposition team was more persuasive because they effectively refuted the Proposition's arguments by highlighting the lack of public awareness and the complexity of war decisions. They demonstrated that popular vote is not suitable for such critical decisions due to the potential for regret and the inability of the public to fully grasp the implications. The Proposition's arguments, while based on democratic principles, lacked depth and failed to address the practical risks associated with popular vote on war decisions.",
+    "best_speaker": "المعارضة - المتحدث الأول"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "The decision to go to war.",
+      "proposition_definition": "Countries should conduct a popular vote before declaring war to empower citizens and uphold democratic principles.",
+      "opposition_definition": "The decision to go to war should not be left to popular vote due to the lack of public awareness and the complexity of war decisions.",
+      "definition_contested": true,
+      "adopted_ground": "The Opposition's ground."
+    },
+    "positions": {
+      "proposition": "Countries should conduct a popular vote before declaring war to empower citizens and uphold democratic principles.",
+      "opposition": "The decision to go to war should not be left to popular vote due to the lack of public awareness and the complexity of war decisions."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم مثالاً على تأثيرات الحرب الاقتصادية في العراق وتأثيرها على رأي الشعب لاحقًا، وتعتبر أن الشعب لديه الحق في اتخاذ القرار المصيري بعد أن تظهر له عواقبه، وتعتمد على مبدأ أن الحكم يجب أن يكون شعبيًا في القرارات المصيرية التي تؤثر على الشعب بشكل مباشر.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الموالاة تؤكد على فكرة أن الشعب هو الأكثر تأثراً بعواقب الحرب، وأن قرار الحرب يجب أن يكون في يده، وتعتمد على مبدأ أن الشعب يجب أن يكون له الحق في تقرير المصير بعد أن يفهم جميع الجوانب، وتعتبر أن الاستفتاء الشعبي هو الطريقة المناسبة لفرض هذا الحق.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم مثالاً على تأثيرات الحرب على المجتمعات، وتعتبر أن الشعب هو الذي يتحمل المسؤولية النهائية عن القرارات المصيرية، وتعتمد على فكرة أن قرارات الحرب يجب أن تعود إلى الشعب بعد دراسة جميع الجوانب، وتعتبر أن هذا يعزز الديمقراطية.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الموالاة تؤكد على فكرة أن الشعب هو الأكثر قدرةً على اتخاذ القرارات المصيرية، وأن قرار الحرب يجب أن يكون في يده، وتعتبر أن هذا يحمي الشعب من القرارات الخاطئة، وتعتمد على مثال بريطانيا لدعم موقفيها.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم مثالاً على تأثيرات الحرب على المجتمعات، وتعتبر أن الشعب هو الذي يتحمل المسؤولية النهائية عن القرارات المصيرية، وتعتمد على فكرة أن قرارات الحرب يجب أن تعود إلى الشعب بعد دراسة جميع الجوانب، وتعتبر أن هذا يعزز الديمقراطية.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الموالاة تؤكد على فكرة أن الشعب هو الأكثر قدرةً على اتخاذ القرارات المصيرية، وأن قرار الحرب يجب أن يكون في يده، وتعتبر أن هذا يحمي الشعب من القرارات الخاطئة، وتعتمد على مثال بريطانيا لدعم موقفيها.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الموالاة تقدم مثالاً على تأثيرات الحرب على المجتمعات، وتعتبر أن الشعب هو الذي يتحمل المسؤولية النهائية عن القرارات المصيرية، وتعتمد على فكرة أن قرارات الحرب يجب أن تعود إلى الشعب بعد دراسة جميع الجوانب، وتعتبر أن هذا يعزز الديمقراطية.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الموالاة تؤكد على فكرة أن الشعب هو الأكثر قدرةً على اتخاذ القرارات المصيرية، وأن قرار الحرب يجب أن يكون في يده، وتعتبر أن هذا يحمي الشعب من القرارات الخاطئة، وتعتمد على مثال بريطانيا لدعم موقفيها.",
+        "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "item": "Refutation of the Opposition's arguments.",
+        "issue": "New arguments introduced in later speeches."
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "item": "Rebuilding of their own arguments.",
+        "issue": "New arguments introduced in later speeches."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الحقوق الأساسية للشعب في تقرير المصير",
+        "importance": "core",
+        "proposition_side": "المعارضة",
+        "opposition_side": "موالاة",
+        "outcome": "opposition",
+        "reasoning": "الموالاة تقدم حججًا تؤكد أن الشعب يجب أن يكون له الحق في اتخاذ القرارات المصيرية، بينما تعارض المعارضة ذلك بادعاء أن الشعب ليس لديه القدرة على فهم تعقيدات الحرب وتأثيراتها، وأن قرارات الحرب يجب أن تظل في يد الحكومات والخبراء."
+      },
+      {
+        "clash_point": "الاستثمار في المجتمع وDemocratic Process",
+        "importance": "core",
+        "proposition_side": "المعارضة",
+        "opposition_side": "موالاة",
+        "outcome": "opposition",
+        "reasoning": "الموالاة تؤكد أن الاستثمار في المجتمع و Democratization يعزز قدرة الشعب على اتخاذ القرارات، بينما تعارض المعارضة ذلك بادعاء أن هذه العملية قد تؤدي إلى قرارات خاطئة وغير واعية، خاصة في سياق الحرب."
+      },
+      {
+        "clash_point": "الاستخدام الفعال للصوت الشعبي",
+        "importance": "core",
+        "proposition_side": "موالاة",
+        "opposition_side": "المعارضة",
+        "outcome": "proposition",
+        "reasoning": "الموالاة تقدم حججًا تؤكد أن الصوت الشعبي يمكن أن يكون أداة فعالة لاتخاذ القرارات المصيرية، بينما تعارض المعارضة ذلك بادعاء أن الصوت الشعبي ليس كافياً لفهم تعقيدات الحرب، وأن القرارات يجب أن تظل في يد الخبراء."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Opposition had stronger and more persuasive arguments regarding the risks of popular vote on war decisions.",
+      "style": "The Proposition had clearer and more organized speeches, while the Opposition's style was more effective in refutation.",
+      "strategy": "The Opposition maintained a consistent strategy throughout the debate, while the Proposition's strategy was less cohesive."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "The Opposition effectively dismantled the Proposition's reliance on public opinion by emphasizing the potential for regret and lack of expertise, which outweighed the Proposition's arguments for democratic empowerment.",
+          "where": "Speech 4 | المعارضة - المتحدث الثاني | reply speech",
+          "effect": "The Opposition successfully refuted the Proposition's arguments by highlighting the lack of public awareness and the complexity of war decisions, leading to a stronger case against popular vote.",
+          "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم"
+        },
+        {
+          "reason": "The Opposition's arguments were more persuasive in showing the risks associated with popular vote, such as the potential for irreversible decisions and the lack of public knowledge on complex geopolitical matters.",
+          "where": "Speech 4 | المعارضة - المتحدث الثاني | reply speech",
+          "effect": "The Opposition demonstrated a more comprehensive understanding of the implications of popular vote on war decisions, covering social, political, and practical aspects.",
+          "evidence_quote": "في عام 2003 حينما دخلت الولايات المتحده الام ريكيه استنفذه واحد فاصل سبعه تريليون دولار كميزانيه في الشعور وبعد ذلك الحرم ترى التي جعلت هذه الشعوب تندم"
+        }
+      ]
+    },
+    "justification": "The Opposition team was more persuasive because they effectively refuted the Proposition's arguments by highlighting the lack of public awareness and the complexity of war decisions. They demonstrated that popular vote is not suitable for such critical decisions due to the potential for regret and the inability of the public to fully grasp the implications. The Proposition's arguments, while based on democratic principles, lacked depth and failed to address the practical risks associated with popular vote on war decisions.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "These speeches were effective in presenting the Proposition's position but lacked depth in refutation and rebuilding."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "These speeches were effective in presenting the Opposition's position but lacked clarity in some arguments."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "These speeches were effective in presenting the Proposition's position but failed to address the Opposition's counter-arguments adequately."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "These speeches were effective in presenting the Opposition's position but lacked persuasiveness in some areas."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "These speeches were effective in presenting the Proposition's position but failed to fully rebuild arguments after refutation."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "These speeches were effective in presenting the Opposition's position but lacked clarity in some arguments."
+      }
+    ],
+    "best_speaker": "المعارضة - المتحدث الأول",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Effective use of historical examples to support the argument for popular vote.",
+          "Clear articulation of the Proposition's position on democratic empowerment.",
+          "Good organization of arguments in the main speeches."
+        ],
+        "improvements": [
+          "Provide more specific examples to support the claim that popular vote enhances democratic principles.",
+          "Address the Opposition's counter-arguments more directly and comprehensively.",
+          "Improve the clarity and structure of arguments to avoid confusion."
+        ],
+        "recommendations": [
+          "Focus on the benefits of popular vote in a more organized manner.",
+          "Use simpler language and clearer examples to strengthen the persuasive impact.",
+          "Develop a stronger case for why popular vote is the most effective way to handle war decisions."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Strong refutation of the Proposition's arguments regarding public awareness and decision-making capabilities.",
+          "Effective use of historical examples to illustrate the risks of popular vote on war decisions.",
+          "Clear articulation of the Opposition's position on the complexity of war decisions."
+        ],
+        "improvements": [
+          "Focus on providing more concrete examples to support arguments about public awareness and decision-making capabilities.",
+          "Develop a clearer strategy for refuting the Proposition's claims about democratic empowerment.",
+          "Improve the organization of arguments to ensure they are presented logically and sequentially."
+        ],
+        "recommendations": [
+          "Research and present more detailed counter-arguments to the Proposition's use of historical examples.",
+          "Emphasize the practical implications of popular vote on war decisions more effectively.",
+          "Work on simplifying complex points to make them more accessible to the audience."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Transcript contains apparent transcription errors and punctuation mistakes.",
+      "Some speeches are unclear and may contain repetitions or disjointed arguments.",
+      "The debate transcript is long and may contain redundant points."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 10,
+      "quotes_found": 10,
+      "match_ratio": 1.0,
+      "unverified_quotes": []
+    },
+    "team_score_totals": {
+      "proposition": 216,
+      "opposition": 216
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 9579,
+        "output": 4222
+      }
+    ]
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "debate_id": "debate_018",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-11T11:22:38+00:00",
+  "config": {
+    "model": "qwen3.5",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.7,
+    "justification": "فازت المعارضة لأنها قدمت حججاً عملية وأمنية أكثر إقناعاً من الفريق الموالي. ركزت المعارضة على المخاطر الحقيقية للاستفتاء مثل كشف النوايا للعدو وتأخر القرار في حالات العدوان، بينما اعتمد الفريق الموالي بشكل كبير على المبادئ العامة دون معالجة كافية لمخاطر الأمن القومي وسرعة الاستجابة. كما أن حجة المعارضة حول كفاءة البرلمان في دراسة المعطيات كانت أكثر منطقية من حجة الفريق الموالي حول تحمل الشعب للتبعات، حيث أن اتخاذ قرار الحرب يتطلب تخصصاً لا يملكه الشعب العام مباشرة."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "تتناول الحركة مشكله اندلاع الحروب وكيفية توافقها مع اراده الشعوب واستعدادها لها، وتبحث في شرعية وضرورة إجراء استفتاء شعبي كشرط مسبق لإعلان الحرب.",
+        "proposition_definition": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب لضمان توافق القرار مع اراده الشعوب واستعدادها لها.",
+        "opposition_definition": "لا يجب اجراء استفتاء شعبي، بل يجب ان يكون القرار بيد البرلمان المختص الذي يمثل الشعب بطريقه اكثر تخصصيه ودقه.",
+        "definition_contested": true,
+        "adopted_ground": "هل الاستفتاء الشعبي هو الآلية الصحيحة لاتخاذ قرار الحرب أم أن إحالة القرار إلى البرلمان هي الآلية الأنسب؟"
+      },
+      "proposition_position": "يجب على الدول إجراء استفتاء شعبي قبل إعلان الحرب لضمان توافقها مع الإرادة الشعبية وتجهيز أسباب النجاح.",
+      "opposition_position": "يجب عدم إجراء استفتاء شعبي، بل إحالة قرار الحرب إلى البرلمان المختص لضمان الخبرة وتمثيل الشعب بدقة وتجنب التلاعب.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "تتناول الفريقان نفس المحور وهو آلية اتخاذ القرار (استفتاء مقابل برلمان) ويرد كل فريق على حجج الفريق الآخر مباشرة."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف مصطلحات القضية: الدولة كيان سياسي متكامل، الاستفتاء الشعبي عملية تصويت بنعم أو لا، والحروب مجموعة من النزاعات المتبادلة بين دول متعارضة.",
+            "responds_to": "",
+            "evidence_quote": "الدول هي كيانات سياسيه مختلفه في تركيبتها تتكون من مجلس اعلى للسلطه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعب له حق تقرير مصيره واختيار الدخول في الحرب أو عدمها، والدور الأساسي للحاكم هو تمثيل إرادة الشعب وتنفيذ رغباته.",
+            "responds_to": "",
+            "evidence_quote": "كلنا نعلم ان الحروب تحدد مصير الدول ولا تحددوا فقط مساله اجرائيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحروب تحدد مصير الشعوب بأسرها، ومن حق الشعب أن يقرر مصيره سواء بالانتصار أو الخسارة أو التفتت.",
+            "responds_to": "",
+            "evidence_quote": "من الشعوب تقرير مصيرها بنفسها وبالتالي فان الشعب يحق له ان يقرر اذا ما كان سيدخل في تلك الحرب ام لا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي يحل مشكلتين: هل الشعب مريد لهذه الحرب أم لا، وهل الشعب مستعد حقا لهذه الحرب أم لا.",
+            "responds_to": "",
+            "evidence_quote": "المشكل هنا هو كثره اندلاع الحروب في ظل امكان تعارض ذلك مع اراده الشعوب واستعدادها لها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاستفتاء الشعبي يضمن عدم وجود حرب تتعارض مع إرادة الشعب، ويوفر تفادي حروب تضر بالدول.",
+            "responds_to": "",
+            "evidence_quote": "بضمان هذا الاجراء الاستفتائي بالتصويت بنعم او لا فنضمن انه لا يوجد حرب تتعارض مع اراده الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعلان العالمي لحقوق الانسان يؤكد حق الشعوب في تقرير مصيرها بنفسها، وهو ما يدعم حق الشعب في اختيار الحرب.",
+            "responds_to": "",
+            "evidence_quote": "في فصله الثاني يمص الاعلان العالمي لحقوق الانسان على حق الشعوب في تقرير مصيرها بنفسها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "البرلمان أكثر تخصصاً ودقة من عامة الشعب في تحديد الإرادة والاستعداد للحرب.",
+            "responds_to": "substantive argument from proposition speech 1 about popular will determining war decisions",
+            "evidence_quote": "من يحدد الاراده ومن يحدد الاستعداد هو البرلمان الممثل عن الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء الشعبي سيكشف معلومات استخباراتية سريه للعدو.",
+            "responds_to": "substantive argument from proposition speech 1 about referendum solving problems",
+            "evidence_quote": "اذا ساقوم باستفتاء شعبي مسح شعبي لغلايين من البشر هيا يا جماعه المجاوره ام لا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الشعب ليس لديه معلومات كافية عن نجاح الحرب أو تكاليفها.",
+            "responds_to": "substantive argument from proposition speech 1 about referendum ensuring war aligns with people's will",
+            "evidence_quote": "لديه المعطيات لديه بعض النظر عن ما قد ستؤدي بهذه الحرب ولديه متى قدره هذه الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التجنيد الإلزامي والخوف على العائلة يؤثران سلباً على قرار الشعب.",
+            "responds_to": "",
+            "evidence_quote": "اذا كنت انا ولدي ابنه الان في العسكريه هناك تجميد اجباري في في حاله الانغراض في الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المصلحة الاقتصادية للشعب ستجعلهم يتنازلون عن المصلحة العامة.",
+            "responds_to": "",
+            "evidence_quote": "سيخافون وتولون مصلحتهم الاقتصاديه اليوم عن المصلحه العامه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء سيكشف معلومات استخباراتية للعدو ويضعف الأمن القومي.",
+            "responds_to": "substantive argument from proposition speech 1 about referendum ensuring war aligns with people's will",
+            "evidence_quote": "ستكون هذه البلاد المعاديه قد عرفت بالطبع ما الذي سالني به وستتكون لدي مشاكل كبيره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "قرار البرلمان أكثر دراية بالمعطيات والتكاليف من قرار الشعب.",
+            "responds_to": "substantive argument from proposition speech 1 about referendum solving problems",
+            "evidence_quote": "لدينا هذه الكفه التي تعرف المعطيات تعرف التكاليف تحسب كل شيء",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء الشعبي سيزيد الوضع سوءاً بدلاً من تحسينه.",
+            "responds_to": "substantive argument from proposition speech 1 about referendum ensuring war aligns with people's will",
+            "evidence_quote": "اننا نرى بان بهذه الطريقه ستزيد الوضع سوءا",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "البرلمان لم يذكر في برنامج الانتخابي ما إذا كان سيقبل حرباً أو يرفضها، والشعب هو صاحب القرار رغم المؤثرات عليه.",
+            "responds_to": "substantive argument from opposition speech 2 about parliament being more specialized and accurate than the people",
+            "evidence_quote": "البرلمان سيدتي لن يجد اذا هو ربما له العلم بضروات واحتياجات الشعب ولكنه لم يذكر في مثلا في يعني في برنامج الانتخابي ان كان سيقبل شعب حربا او يرفضها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعب هو صاحب القرار رغم المؤثرات عليه، وهو الذي سيتحمل تبعات الحرب وليس البرلمان أو الحكومات.",
+            "responds_to": "",
+            "evidence_quote": "رغم كل شيء الشعب هو صاحب القرار برغم كل المؤثرات عليه فهو الذي سيتحمل التابعات في نهايه الامن وليس البرلمان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "استقرار الشعب شرط أساسي لنجاح الحرب، إذا كان الشعب غير مستقر فلا يمكنه خوض حرب خارجية.",
+            "responds_to": "",
+            "evidence_quote": "ان كان هناك حرجع بذاته فكيف له ان يخوض حربا خارجيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال حرب العراق: مظاهرات بالآلاف ضد قرار الحرب أدى إلى اهتزاز الدولة، مما يثبت حاجة الاستفتاء.",
+            "responds_to": "",
+            "evidence_quote": "انجلترا بعد حرب العراق ماذا حصل مظاهرات بالالاف ضد قرار اذا هنا تم اهتزاز الدول عماله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعب يتحمل تبعات الحرب الاقتصادية والاجتماعية بعد الخسارة، والضرائب والحظر يقع على عاتقه.",
+            "responds_to": "",
+            "evidence_quote": "هو الذي سيتحمل مبيعات هذه الحروب وطبيعه الحروب يعني لا احد يمكن ان نوجد التحدث عنها في في بعض في القليل من الوقت تابعه بالحروب مدمره المدمره للشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إذا كان الشعب غير مقتنع بالحرب، فسيساهم بنجاحها اقتصادياً وإعلامياً، وإذا لم يكن مستعداً سيتحول ضد الحكام.",
+            "responds_to": "",
+            "evidence_quote": "اذا هنا نحن بحاجه الى قبول الشعب بجميع اطيافه لهذه الحرب من الف انف يحقق نجح هذه الحرب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "البرلمان يترجم أصوات الشعب بدقة أكثر من الاستفتاء الشعبي الذي يمثل الأغلبية على حساب الأقلية.",
+            "responds_to": "substantive argument from proposition speech 3 about people being the decision makers despite influences",
+            "evidence_quote": "في البرلمان يتم تصويت جميع يتم تمثيل جميع الاصوات بالتساوي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء الشعبي يتطلب دعائية هائلة وتوجيه من شركات الأسلحة التي تروج للحروب.",
+            "responds_to": "substantive argument from proposition speech 3 about referendum ensuring war aligns with people's will",
+            "evidence_quote": "الاستفتاء الشعبي سيدي الرئيس الجلسه يتطلب دعايه مهوله ويتطلب توجيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "في حال عدوان خارجي، الاستفتاء سيأخذ وقتاً طويلاً بينما الدولة تحتاج لاتخاذ قرار حازم سريع.",
+            "responds_to": "substantive argument from proposition speech 3 about people bearing war consequences",
+            "evidence_quote": "اذا كان هنالك عدوان خارجي كما سبق وذكرت اذا كان هنالك عدوان خارجي وليس من صالح الدوله ابدا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء سيكشف معلومات استخباراتية للعدو ويضعف الأمن القومي في حالات العدوان الخارجي.",
+            "responds_to": "substantive argument from proposition speech 3 about people bearing war consequences",
+            "evidence_quote": "ان العدو سيعرف ما هي نوايا الدوله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "قرار البرلمان أكثر دراية بالمعطيات والتكاليف من قرار الشعب الذي يتأثر بالإعلام والضغط المالي.",
+            "responds_to": "substantive argument from proposition speech 3 about people bearing war consequences",
+            "evidence_quote": "اما في الاستفتاء الشعبي فانت تمثل الاغلبيه على حساب الاقليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الجماعات المعارضة للحرب لا تملك مالا كافيا لمنع الحرب، بينما البرلمان أكثر توازناً.",
+            "responds_to": "substantive argument from proposition speech 3 about people bearing war consequences",
+            "evidence_quote": "اي ان تاثيرها على الاستفتاء سيكون صفر مقابل مقارنه بضغط شركات الاسلحه ولوبياتها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "رد على ادعاء المعارضة بأن شركات الاسلحه تتحكم في الحروب: الحرب قرار دولي وليس قرار شركات خاصه.",
+            "responds_to": "substantive argument from opposition speech 4 about arms companies directing wars",
+            "evidence_quote": "الحرب هي قرار دولي وليس قرار شركة خواص",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على ادعاء المعارضة بأن الاستفتاء سيكشف معلومات استخباراتية: الحروب الاستخباراتيه موجوده في كافه انواع الحارب.",
+            "responds_to": "substantive argument from opposition speech 4 about referendum revealing intelligence",
+            "evidence_quote": "الحروب الاستخباراتيه هي موجوده في كافه انواع الحروب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حق الشعوب في تقرير مصيرها كركيزة من ركائز الديمقراطيه يجب ان تكون متواجده.",
+            "responds_to": "",
+            "evidence_quote": "من حق الشعوب تقرير مصيرها وان التمثيليه الديمقراطيه يجب التمثيليات الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعوب تدعم الحروب مالياً وإعلامياً وتسويقياً لنجاحها، لذا يجب موافقتها على القرار.",
+            "responds_to": "",
+            "evidence_quote": "الدول هي بحاجه لشعوبها ان الشعوب هي التي تدعم دونها سواء ماليا سواء اعلاميا تسويقيا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اقصاء الشعب يهدد الاستقرار الداخلي للدوله، والدول غير متماسكه داخلياً لا تنجح في الحروب.",
+            "responds_to": "",
+            "evidence_quote": "اقصى اعشاب من شانه ان يهدد الاستقرار الداخلي لهذه الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على ادعاء المعارضة بأن البرلمان يمثل الشعب: البرلمان لم يذكر في برنامج الانتخابي ما اذا كان سيقبل حرباً.",
+            "responds_to": "substantive argument from opposition speech 4 about parliament representing people",
+            "evidence_quote": "البرلمان هو يمثل الشعب وسيمثل قراره وبيننا لكم جليا ان اللحظه التي قد اخت الشعب الممثله في البرلمان قد اختارها من اجل بيانا انتخاب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "البرلمان ممثل عن الشعب واختاره الشعب ليعبر عن إرادته، لذا يستطيع البرلمان أن يعبر عن إرادة الشعب.",
+            "responds_to": "substantive argument from proposition speech 5 about people having right to choose war decisions",
+            "evidence_quote": "البرلمان الذي اختاره الشعب وارتضاه حين اقدم على انتخابه ان يعبر عن اراده الشعب بالطبع يستطيع",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان يدرس الأوضاع والحالات ويضع الحلول اللازمة بعد دراسة مطولة للمعطيات وليس مجرد قرار.",
+            "responds_to": "substantive argument from proposition speech 3 about people bearing war consequences",
+            "evidence_quote": "البرلمان يدرس الاوضاع والحالات الدوله ويضع الحلول اللازمه بعد دراسه مطوله للمعطيات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحرب تحدد مصير الدول والشعوب وجب أن يكون قرارها يصدر عن متخصصين وليس عن عامة الشعب.",
+            "responds_to": "substantive argument from proposition speech 3 about war determining people's fate",
+            "evidence_quote": "وذكر نص الاعلانسان ونحن لا نعرف هذا النص ابدا فلشعب حق الاختيار لان ونحن وضعنا البرلمان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان ينفذ برنامج انتخابه كمعادلة حسابية 1+1=2 ويضع الحلول اللازمة دون أي دراسة.",
+            "responds_to": "substantive argument from proposition speech 5 about parliament not mentioning war in election program",
+            "evidence_quote": "البرلمان ينفذ برنامجه الانتخابي كمعادله حسابيه 1 + 1 = 2 البرلمان يدرس الاوضاع والحالات الدوله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان ملم بالراي العام والوضع الحالي في الدوله فهو الوحيد الذي يستطيع دراسه هذا الامر واتخاذ القرار الانسب.",
+            "responds_to": "substantive argument from proposition speech 5 about people supporting war financially and media-wise",
+            "evidence_quote": "ولنفترض ان البرلمان غير واعي للراي العام ولا لحال الدوله ولان البرلمان ملم بالراي العام والوضع الحالي في الدوله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الشفافيه العاليه ستخلق لوبيات جديده، والاستفتاء الشعبي سيكشف معلومات استخباراتية للعدو ويضعف الأمن القومي.",
+            "responds_to": "substantive argument from opposition speech 4 about arms companies directing wars",
+            "evidence_quote": "سنلت في اللوبيات باراده الشعب كيف الشفافيه العاليه اللوبيات بالشفافيه العاليه نفعل استفتاء شعبيه جميع الدول تمسكين اللوبيا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاعلامي والاقتصادي والفيزيائي قد يكون ممثلا بهذا البرنامج وبالتالي هو له الصوت داخل هذا البرنامج.",
+            "responds_to": "substantive argument from proposition speech 5 about people supporting war financially and media-wise",
+            "evidence_quote": "قال بان الاعلامي والاقتصادي في هذه الحرب واقول بان الاعلامي والاقتصادي والفيزيائي قد يكون ممثلا بهذا البرنامج وبالتالي هو له الصوت داخل هذا البرنامج",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان ممثل عن الشعب وليس مجرد برلمان، ويمثل إرادة الشعب الذي اختاره.",
+            "responds_to": "substantive argument from proposition speech 3 about people being decision makers despite influences",
+            "evidence_quote": "فنكون حللنا مشكلتكم في تعارض القرار مع اراده الشعوب لان القرار سيصدر عن ممثلي الشعب وبالتالي ممثلي اراده الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "البرلمان أكثر تخصصاً ودقة من عامة الشعب في تحديد الإرادة والاستعداد للحرب.",
+            "responds_to": "substantive argument from proposition speech 1 about popular will determining war decisions",
+            "evidence_quote": "البرلمان يعلم ولديه الخبره الكافيه ولديه المعطيات الكافيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء الشعبي سيكشف معلومات استخباراتية للعدو ويضعف الأمن القومي.",
+            "responds_to": "substantive argument from proposition speech 1 about referendum solving problems",
+            "evidence_quote": "كيف يكون لديك اعلان الحرب الاستخباراتيه كيف يكون لديك اعل الحرب الاعلاميه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "في حال عدوان خارجي، الاستفتاء سيأخذ وقتاً طويلاً بينما الدولة تحتاج لاتخاذ قرار حازم سريع.",
+            "responds_to": "substantive argument from proposition speech 3 about people bearing war consequences",
+            "evidence_quote": "كيف لك ان تعلن عن الحظ اين المباد في الحظ",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "قرار البرلمان أكثر دراية بالمعطيات والتكاليف من قرار الشعب الذي يتأثر بالإعلام والضغط المالي.",
+            "responds_to": "substantive argument from proposition speech 3 about people bearing war consequences",
+            "evidence_quote": "البرلمان يدرس الأوضاع والحالات ويضع الحلول اللازمة بعد دراسة مطولة للمعطيات وليس مجرد قرار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان ممثل عن الشعب واختاره الشعب ليعبر عن إرادته، لذا يستطيع البرلمان أن يعبر عن إرادة الشعب.",
+            "responds_to": "substantive argument from proposition speech 5 about people having right to choose war decisions",
+            "evidence_quote": "البرلمان ممثل عن الشعب وليس مجرد برلمان، ويمثل إرادة الشعب الذي اختاره",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "البرلمان لم يذكر في برنامج الانتخابي ما إذا كان سيقبل حرباً أو يرفضها، والشعب هو صاحب القرار رغم المؤثرات عليه.",
+            "responds_to": "substantive argument from opposition speech 6 about parliament representing people",
+            "evidence_quote": "الحاكمه قد تم اختياره متى قد تم اختياره قبل الحرب واحيانا كما بينا قبل ظرفيه الحرب وقبل اندلاع اسبابها اصلا فكيف هم يريدون ذلك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاستفتاء هو أفضل ما يمثل الشعب بدقة، وبالتالي نخدم هذه الجملة التي تعرفت إليها.",
+            "responds_to": "substantive argument from opposition speech 4 about parliament representing people accurately",
+            "evidence_quote": "اذا كان يجب تمثيل الشعب بدقه قلنا لماذا الهروب اذا من الاستفتاء اذا الاستفتاء هو افضل ما يمثل الشعب بدقه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحكماء دور والعقلاء دور المختصين دورهم هو التوجيه فنحن لم نقصيهم وانتم اقررتم اننا وافقنا انه يجب ان يقرب نحن قلنا انهم يوجهون ولا يقرروا بدل الشعب.",
+            "responds_to": "substantive argument from opposition speech 6 about parliament being more specialized",
+            "evidence_quote": "دورهم هو التوجيه فنحن لم نقصيهم وانتم اقررتم اننا وافقنا انه يجب ان يقرب نحن قلنا انهم يوجهون ولا يقرروا بدل الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إذا كان الشعب مع اندلاع الحرب وداعماً لها بكل وسائله وبكل شرائحه سيكون ذلك داعماً لتهيئة ظروف النجاح وستنجح الحرب.",
+            "responds_to": "",
+            "evidence_quote": "اذا كان الشعب مع اندلاع الحربي وداعما لها بكل وسائله وبكل شرائحه سيكون ذلك داعما لتهيئه ظروف النجاح وستنجح الحرب",
+            "counted": false,
+            "not_counted_reason": "خطاب الرد لا يجوز تقديم حجة جديدة، فقط المقارنة والوزن"
+          },
+          {
+            "kind": "refutation",
+            "summary": "البرلمان يدرس الأوضاع والحالات ويضع الحلول اللازمة بعد دراسة مطولة للمعطيات وليس مجرد قرار.",
+            "responds_to": "substantive argument from opposition speech 6 about parliament studying situations",
+            "evidence_quote": "البرلمان يدرس الاوضاع والحالات ويضع الحلول اللازمه بعد دراسه مطوله للمعطيات وليس مجرد قرار",
+            "counted": false,
+            "not_counted_reason": "خطاب الرد لا يجوز تقديم حجة جديدة، فقط المقارنة والوزن"
+          },
+          {
+            "kind": "weighing",
+            "summary": "الاستفتاء يمثل إرادة الشعب بدقة أكثر من البرلمان الذي قد لا يوافق على الحرب في برنامج انتخابه.",
+            "responds_to": "substantive argument from opposition speech 6 about parliament representing people's will",
+            "evidence_quote": "اذا كان يجب تمثيل الشعب بدقه قلنا لماذا الهروب اذا من الاستفتاء اذا الاستفتاء هو افضل ما يمثل الشعب بدقه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "من يجب أن يقرر الحرب: الشعب عبر الاستفتاء أم البرلمان؟",
+          "importance": "core",
+          "proposition_side": "الشعب هو صاحب القرار لأنه يتحمل تبعات الحرب ويحق له تقرير مصيره",
+          "opposition_side": "البرلمان أكثر تخصصاً ودقة ويمثل إرادة الشعب بدقة عبر الانتخابات",
+          "outcome": "unresolved",
+          "reasoning": "كل فريق حافظ على حججه الأساسية دون أن ينهار بشكل كامل. المعارضة ركزت على كفاءة البرلمان، والموالاة ركزت على حق الشعب في تقرير المصير."
+        },
+        {
+          "clash_point": "هل الاستفتاء يكشف معلومات استخباراتية للعدو ويضعف الأمن القومي؟",
+          "importance": "core",
+          "proposition_side": "الحروب الاستخباراتية موجودة في كل أنواع الحروب، والاستفتاء لا يغير ذلك",
+          "opposition_side": "الاستفتاء سيكشف نوايا الدولة للعدو وسيضعف الأمن القومي بشكل كبير",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة رفضت أن الاستفتاء يكشف معلومات استخباراتية، لكن المعارضة أكدت أن الإعلان عن الحرب نفسه يكشف النوايا."
+        },
+        {
+          "clash_point": "هل البرلمان يمثل الشعب بدقة أم أن الاستفتاء أفضل في تمثيل الإرادة الشعبية؟",
+          "importance": "core",
+          "proposition_side": "الاستفتاء هو الأفضل لتمثيل الشعب بدقة، والبرلمان لم يذكر موقفه من الحرب في برنامج انتخابي",
+          "opposition_side": "البرلمان يدرس الأوضاع ويضع الحلول بعد دراسة مطولة ويمثل جميع الأصوات بالتساوي",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة حجت بأن البرلمان لم يحدد موقفه الانتخابياً من الحرب، بينما المعارضة حجت أن البرلمان يدرس المعطيات بدقة."
+        },
+        {
+          "clash_point": "هل الشعب لديه المعلومات الكافية لاتخاذ قرار الحرب أم أن البرلمان أكثر دراية بالمعطيات والتكاليف؟",
+          "importance": "core",
+          "proposition_side": "الشعب يتحمل تبعات الحرب الاقتصادية والاجتماعية، لذا يجب موافقته على القرار",
+          "opposition_side": "البرلمان يدرس الأوضاع والحالات ويضع الحلول اللازمة بعد دراسة مطولة للمعطيات",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة حجت بأن الشعب يتحمل تبعات الحرب، بينما المعارضة حجت أن البرلمان أكثر دراية بالمعطيات."
+        },
+        {
+          "clash_point": "هل يمكن اتخاذ قرار الحرب بسرعة في حال عدوان خارجي؟",
+          "importance": "secondary",
+          "proposition_side": "الشعب مع الحرب يدعمها مالياً وإعلامياً لنجاحها",
+          "opposition_side": "في حال عدوان خارجي، الاستفتاء سيأخذ وقتاً طويلاً بينما الدولة تحتاج لاتخاذ قرار حازم سريع",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة لم تتناول سرعة القرار بشكل مباشر، بينما المعارضة ركزت على الحاجة لقرار سريع في حالات العدوان."
+        },
+        {
+          "clash_point": "هل شركات الأسلحة يمكنها توجيه الاستفتاء الشعبي؟",
+          "importance": "secondary",
+          "proposition_side": "الحرب قرار دولي وليس قرار شركة خاصة، وشركات الأسلحة لا تتحكم في الحروب",
+          "opposition_side": "الاستفتاء يتطلب دعائية هائلة وتوجيه من شركات الأسلحة التي تروج للحروب",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة رفضت أن الحرب قرار شركات خاصة، بينما المعارضة حجت أن الاستفتاء سيتأثر بتوجيه شركات الأسلحة."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "أبرزت المعارضة مخاطر الأمن القومي الناتجة عن الاستفتاء بشكل مقنع.",
+          "evidence_quote": "الاستفتاء سيكشف نوايا الدولة للعدو وسيضعف الأمن القومي بشكل كبير"
+        },
+        {
+          "team": "opposition",
+          "reason": "دعت المعارضة إلى ضرورة سرعة اتخاذ القرار في حالات الطوارئ العسكرية.",
+          "evidence_quote": "في حال عدوان خارجي، الاستفتاء سيأخذ وقتاً طويلاً بينما الدولة تحتاج لاتخاذ قرار حازم سريع"
+        },
+        {
+          "team": "opposition",
+          "reason": "أكدت المعارضة على كفاءة البرلمان في دراسة المعطيات بدقة مقارنة بالاستفتاء العاطفي.",
+          "evidence_quote": "البرلمان يدرس الأوضاع والحالات ويضع الحلول اللازمة بعد دراسة مطولة للمعطيات"
+        }
+      ],
+      "justification": "فازت المعارضة لأنها قدمت حججاً عملية وأمنية أكثر إقناعاً من الفريق الموالي. ركزت المعارضة على المخاطر الحقيقية للاستفتاء مثل كشف النوايا للعدو وتأخر القرار في حالات العدوان، بينما اعتمد الفريق الموالي بشكل كبير على المبادئ العامة دون معالجة كافية لمخاطر الأمن القومي وسرعة الاستجابة. كما أن حجة المعارضة حول كفاءة البرلمان في دراسة المعطيات كانت أكثر منطقية من حجة الفريق الموالي حول تحمل الشعب للتبعات، حيث أن اتخاذ قرار الحرب يتطلب تخصصاً لا يملكه الشعب العام مباشرة."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 51,
+      "not_found": [
+        "كلنا نعلم ان الحروب تحدد مصير الدول ولا تحددوا فقط مساله اجرائيه",
+        "لديه المعطيات لديه بعض النظر عن ما قد ستؤدي بهذه الحرب ولديه متى قدره هذه الحرب",
+        "اننا نرى بان بهذه الطريقه ستزيد الوضع سوءا",
+        "اذا كان هنالك عدوان خارجي كما سبق وذكرت اذا كان هنالك عدوان خارجي وليس من صالح الدوله ابدا",
+        "وذكر نص الاعلانسان ونحن لا نعرف هذا النص ابدا فلشعب حق الاختيار لان ونحن وضعنا البرلمان",
+        "قال بان الاعلامي والاقتصادي في هذه الحرب واقول بان الاعلامي والاقتصادي والفيزيائي قد يكون ممثلا بهذا البرنامج وبالتالي هو له الصوت داخل هذا البرنامج",
+        "البرلمان يدرس الأوضاع والحالات ويضع الحلول اللازمة بعد دراسة مطولة للمعطيات وليس مجرد قرار",
+        "البرلمان ممثل عن الشعب وليس مجرد برلمان، ويمثل إرادة الشعب الذي اختاره",
+        "البرلمان يدرس الاوضاع والحالات ويضع الحلول اللازمه بعد دراسه مطوله للمعطيات وليس مجرد قرار"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "الاستفتاء سيكشف نوايا الدولة للعدو وسيضعف الأمن القومي بشكل كبير",
+        "في حال عدوان خارجي، الاستفتاء سيأخذ وقتاً طويلاً بينما الدولة تحتاج لاتخاذ قرار حازم سريع",
+        "البرلمان يدرس الأوضاع والحالات ويضع الحلول اللازمة بعد دراسة مطولة للمعطيات"
+      ]
+    },
+    "core_clash_leader": null,
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 2,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 9,
+    "prompt_tokens": 55698,
+    "output_tokens": 7629
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "debate_id": "debate_018",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-05T09:17:59+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.9,
+    "justification": "The Opposition was more persuasive because they effectively refuted the Proposition's arguments by demonstrating that the people lack the necessary expertise to make informed decisions about war, and that relying on their votes could lead to disastrous outcomes. They successfully linked the concept of national security to the need for expert decision-making, which was a key point in their favor.",
+    "best_speaker": "معارضة - المتحدث الأول"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "The problem is the prevalence of wars that often contradict the will and readiness of the people.",
+      "proposition_definition": "The issue is about the necessity of popular consultation before countries declare war, focusing on the people's right to self-determination and the need to avoid wars that contradict their will.",
+      "opposition_definition": "The issue is about the necessity of specialized consultation before countries declare war, focusing on the people's right to self-determination but requiring expert oversight.",
+      "definition_contested": true,
+      "adopted_ground": "The issue revolves around the necessity of popular consultation before countries declare war, focusing on the people's right to self-determination and the need to avoid wars that contradict their will."
+    },
+    "positions": {
+      "proposition": "The Proposition's position is that countries should hold popular votes before declaring war, to ensure that the war aligns with the people's will and readiness.",
+      "opposition": "The Opposition's position is that countries should not hold popular votes before declaring war, but should instead rely on specialized bodies like the parliament."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الحروب ليست مجرد عمليات اجرائية، بل تحديد مصير الدول والشعوب، مما يعطي الحق للشعب في تقرير مصيره.",
+        "evidence_quote": "الحروب تحدد مصير الدول والشعوب ولا تحددوا فقط مساله اختيار وليست هي مساله اجرائيه كالاستثمار او كفتح مدينه جديده",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "البرلمان هو ممثل الشعب، ولهذا يجب ان يكون هو الجهة المختصة باعلان الحرب، لانه يعكس اراده الشعب بشكل دقيق.",
+        "evidence_quote": "البرلمان ممثل عن الشعب وليس لانه مجرد برلمان لانه يمثل اراده كان لساما ان يكون هو الذي يعرض عن هذا القرار",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الحروب لها عواقب وخيمة، ولهذا يجب ان يكون قرار الحرب في يد مختصين لتجنب الخسائر.",
+        "evidence_quote": "الحروب ليست لعبه وهذا بالضبط ما نحن عقوله الحروب ليست لعبه لانها قد تؤدي الدوله لفقدان السياده وربما لانها قد تؤدي لخساره الحرب",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "البرلمان هو ممثل الشعب، ولهذا يجب ان يكون هو الجهة المختصة باعلان الحرب، لانه يعكس اراده الشعب بشكل دقيق.",
+        "evidence_quote": "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الحروب ليست لعبه، ولهذا يجب ان يكون قرار الحرب في يد مختصين لتجنب الخسائر.",
+        "evidence_quote": "الحروب ليست لعبه لانها قد تؤدي الدوله لفقدان السياده وربما لانها قد تؤدي لخساره الحرب",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "البرلمان هو ممثل الشعب، ولهذا يجب ان يكون هو الجهة المختصة باعلان الحرب، لانه يعكس اراده الشعب بشكل دقيق.",
+        "evidence_quote": "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - خطاب الرد",
+        "kind": "substantive",
+        "summary": "البرلمان هو ممثل الشعب، ولهذا يجب ان يكون هو الجهة المختصة باعلان الحرب، لانه يعكس اراده الشعب بشكل دقيق.",
+        "evidence_quote": "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "item": "Definition",
+        "issue": "The Proposition introduced a new definition of the ground in their third speaker's speech."
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الأول",
+        "item": "Definition",
+        "issue": "The Opposition introduced a new definition of the ground in their first speaker's speech."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الاراده الشعبيه",
+        "importance": "secondary",
+        "proposition_side": "الشعب هو صاحب الحق في التمثيليه",
+        "opposition_side": "البرلمان هو الذي يمثل اراده الشعب",
+        "outcome": "opposition",
+        "reasoning": "البرلمان هو ممثل الشعب، ولهذا يجب ان يكون هو الجهة المختصة باعلان الحرب، لانه يعكس اراده الشعب بشكل دقيق."
+      },
+      {
+        "clash_point": "الاستعداد للحرب",
+        "importance": "secondary",
+        "proposition_side": "الشعب هو الذي يجب ان يقرر اذا كان مستعدا للحرب",
+        "opposition_side": "الشعب ليس مستعدا للحرب بشكل كافٍ",
+        "outcome": "opposition",
+        "reasoning": "الشعب هو الذي يجب ان يقرر اذا كان مستعدا للحرب، لانه هو الذي سيتحمل تبعاتها."
+      },
+      {
+        "clash_point": "التأثير على القرار",
+        "importance": "secondary",
+        "proposition_side": "الاستفتاء الشعبي هو الذي يجب ان يتخذ القرار",
+        "opposition_side": "البرلمان هو الذي يجب ان يتخذ القرار",
+        "outcome": "opposition",
+        "reasoning": "البرلمان هو الذي يجب ان يتخذ القرار، لانه لديه القدرة على دراسة الوضع بشكل متخصص."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Opposition had stronger and more relevant arguments.",
+      "style": "The Proposition had slightly better clarity in their arguments.",
+      "strategy": "The Opposition had a clearer and more consistent strategy."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "The Opposition effectively dismantled the Proposition's argument by demonstrating that the parliament is the appropriate body to represent the people's will in matters of war, due to its specialized expertise and ability to analyze complex situations without the biases that affect the general population.",
+          "where": "معارضة - المتحدث الأول",
+          "effect": "The Opposition successfully refuted the Proposition's claim that the people are the best judges of war decisions, by arguing that the people lack the necessary expertise and are easily swayed by media and interest groups.",
+          "evidence_quote": "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره"
+        },
+        {
+          "reason": "The Opposition convincingly argued that war decisions require specialized knowledge and strategic foresight, which the general populace lacks, making the parliament a more suitable choice for such decisions.",
+          "where": "معارضة - المتحدث الثاني",
+          "effect": "The Opposition convincingly argued that war decisions require specialized knowledge and strategic foresight, which the general populace lacks, making the parliament a more suitable choice for such decisions.",
+          "evidence_quote": "الحروب ليست لعبه وهذا بالضبط ما نحن عقوله الحروب ليست لعبه لانها قد تؤدي الدوله لفقدان السياده وربما لانها قد تؤدي لخساره الحرب"
+        },
+        {
+          "reason": "The Opposition tied the concept of national security to the necessity of expert decision-making, showing that relying on the people's vote could lead to disastrous outcomes due to lack of knowledge and susceptibility to manipulation.",
+          "where": "معارضة - المتحدث الثالث",
+          "effect": "The Opposition tied the concept of national security to the necessity of expert decision-making, showing that relying on the people's vote could lead to disastrous outcomes due to lack of knowledge and susceptibility to manipulation.",
+          "evidence_quote": "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره"
+        }
+      ]
+    },
+    "justification": "The Opposition was more persuasive because they effectively refuted the Proposition's arguments by demonstrating that the people lack the necessary expertise to make informed decisions about war, and that relying on their votes could lead to disastrous outcomes. They successfully linked the concept of national security to the need for expert decision-making, which was a key point in their favor.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 30,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 31,
+        "note": ""
+      }
+    ],
+    "best_speaker": "معارضة - المتحدث الأول",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Good use of the concept of popular sovereignty to support your position.",
+          "Clear articulation of the benefits of a popular vote for war decisions."
+        ],
+        "improvements": [
+          "Try to be more specific in your arguments to avoid being vague.",
+          "Work on addressing the Opposition's points more directly in your speeches."
+        ],
+        "recommendations": [
+          "Develop a clearer strategy for how your position can be implemented in practice.",
+          "Focus on the potential risks of not having a popular vote for war decisions."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Excellent use of the United Nations Declaration of Human Rights to support your position.",
+          "Strong refutation of the Proposition's arguments, demonstrating their weaknesses effectively."
+        ],
+        "improvements": [
+          "Consider providing more concrete examples to support your arguments.",
+          "Work on structuring your speeches more clearly to avoid confusion."
+        ],
+        "recommendations": [
+          "Focus on the practical implications of your arguments to make them more persuasive.",
+          "Develop a stronger case for why the people are not the best suited to make war decisions."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some arguments may be difficult to understand due to unclear language or transcription errors.",
+      "Some speeches may be incomplete or garbled, making analysis challenging."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 10,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "الحروب تحدد مصير الدول والشعوب ولا تحددوا فقط مساله اختيار وليست هي مساله اجرائيه كالاستثمار او كفتح مدينه جديده",
+        "البرلمان ممثل عن الشعب وليس لانه مجرد برلمان لانه يمثل اراده كان لساما ان يكون هو الذي يعرض عن هذا القرار",
+        "الحروب ليست لعبه وهذا بالضبط ما نحن عقوله الحروب ليست لعبه لانها قد تؤدي الدوله لفقدان السياده وربما لانها قد تؤدي لخساره الحرب",
+        "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره",
+        "الحروب ليست لعبه لانها قد تؤدي الدوله لفقدان السياده وربما لانها قد تؤدي لخساره الحرب",
+        "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره",
+        "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره",
+        "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره",
+        "الحروب ليست لعبه وهذا بالضبط ما نحن عقوله الحروب ليست لعبه لانها قد تؤدي الدوله لفقدان السياده وربما لانها قد تؤدي لخساره الحرب",
+        "البرلمان هو الذي يقوم باعلان هذا القرار سيحل مشكلتهم في اراده الشعوب لانه الشعب ارتضى هذا البرلمان واختاره"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 210,
+      "opposition": 211
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 17304,
+        "output": 3786
+      }
+    ]
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "debate_id": "debate_015",
+  "motion": "سيمنع المجلس الدولة ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+  "generated_at": "2026-11-04T10:51:54+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "decisive",
+    "confidence": 0.85,
+    "justification": "في النقاط الجوهرية، فاز فريق الموالاة في نقطتين (التسجيل يسهل عمليات إرهابية، وانتهاك حق الخصوصية) بينما فاز فريق المعارضة في نقطة واحدة (التسجيل يسبب الانقسام والتمييز). بما أن النقاط الجوهرية هي الأكثر أهمية، فإن فوز فريق الموالاة في أكثر من نصف النقاط الجوهرية يجعلهم أكثر إقناعاً. النقاط الثانوية غير محلولة ولا تغير النتيجة. لذلك، يُعتبر فريق الموالاة أكثر إقناعاً."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "هل يجب على المجلس منع الدول ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية؟",
+        "proposition_definition": "التسجيل هو إدراج خلفيات المواطنين العرقية والعقائدية في الوثائق الرسمية مثل بطاقات الهوية.",
+        "opposition_definition": "التسجيل هو إدراج خلفيات المواطنين العرقية والعقائدية في الوثائق الرسمية مثل بطاقات الهوية.",
+        "definition_contested": false,
+        "adopted_ground": "التسجيل هو إدراج خلفيات المواطنين العرقية والعقائدية في الوثائق الرسمية."
+      },
+      "proposition_position": "يدعم فريق الموالاة قرار المجلس، ويؤكد أن حظر تسجيل الخلفيات سيقلل الفجوة بين الأعراق والعقائد، ويعزز الوحدة الوطنية، ويقلل التمييز والبطالة، ويزيد الأمن والاستقرار.",
+      "opposition_position": "يدعم فريق المعارضة قرار المجلس، ويؤكد أن تسجيل الخلفيات ضروري لتنظيم الدولة، يحافظ على التنوع الثقافي، لا يسبب التمييز، ويعزز حقوق الأفراد، ويمنع انتهاك الخصوصية.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "كل فريق يرد مباشرة على حجج الفريق الآخر ويستهدف نقاطه."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يزيد الانقسام ويؤدي إلى النزاعات.",
+            "responds_to": "",
+            "evidence_quote": "تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني ... يزيد من الاختلاف بين الناس",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم تسجيل الخلفيات يعزز المساواة في فرص العمل.",
+            "responds_to": "",
+            "evidence_quote": "عندما يتقدم شخص ما لطلب وظيفة ما ينظر رب العمل في البداية على خلفياته المذهبية العقائدية والعرقية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يخلق انتماءً ضعيفاً للهوية الوطنية.",
+            "responds_to": "",
+            "evidence_quote": "يؤدي إلى عدم الانتماء أو تضاعف الانتماء الوطني لهؤلاء المجموعات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التسجيل يعزز الوحدة الوطنية.",
+            "responds_to": "",
+            "evidence_quote": "إلغاء التسجيل سوف يؤدي إلى انصهار بين المواطنين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يعرقل تحقيق المساواة في الحقوق.",
+            "responds_to": "",
+            "evidence_quote": "يؤدي إلى عدم المساواة بين المواطنين في الوظائف",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التمييز العنصري لا ينتج عن تسجيل الخلفيات بل عن غياب الدولة التي تساوي جميع مواطنيها.",
+            "responds_to": "1,2,3,4,5",
+            "evidence_quote": "التمييز العنصري لا يأتي بسبب أننا كتبنا على خلفية أو على هوية شخص",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التنوع هو قوة وثقافة وغنى حضاري يجب الحفاظ عليه.",
+            "responds_to": "",
+            "evidence_quote": "التنوع قوة، والتنوع ثقافة، والتنوع غنى حضاري",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تسجيل الخلفيات يساعد الدولة على تنظيم سياساتها وتلبية احتياجات مختلف المجموعات.",
+            "responds_to": "",
+            "evidence_quote": "تسجيل الخلفيات يساعد الدولة على تنظيم سياساتها وقدرتها على معرفة حاجات أفرادها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "محاولات إلغاء الهوية (مثل القومية العربية) فشلت وأدت إلى آثار سلبية.",
+            "responds_to": "",
+            "evidence_quote": "فشل القومية العربية وأدت إلى آثار سلبية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "نحن مع حرية المعتقد ولا ندعو إلى إلغاء هذه المعتقدات والانتماءات.",
+            "responds_to": "",
+            "evidence_quote": "نحن مع حرية المعتقد ونحن لا ندعو إلى إلغاء هذه المعتقدات والانتماءات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "سيحل الإلغاء عن الهويات أو الأوراق الثبوتية المشاكل في العديد من الصعد.",
+            "responds_to": "",
+            "evidence_quote": "سيحل المشاكل في العديد من الصعد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "نحن مع حرية المعتقد ونضمن الخصوصية لكل فرد.",
+            "responds_to": "",
+            "evidence_quote": "نحن مع حرية المعتقد ونحن نريد أن يتمسك كل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "نحن لا نرمي إلى إلغاء المساجد أو الكنائس.",
+            "responds_to": "",
+            "evidence_quote": "نحن لا نرمي إلى إلغاء المساجد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يؤدي إلى انقسام الأفراد في مناطق.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يؤدي أولا إلى انقسام الأفراد في مناطق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء الخلفيات والعقائد عن بطاقات التعريف سيزيد من تقربهم وتقبل الفرد للآخر.",
+            "responds_to": "",
+            "evidence_quote": "إلغاء الخلفيات والعقائد عن بطاقات التعريف سيزيد من تقربهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "شركة IBM تستفيد من التنوع في الإنتاجية.",
+            "responds_to": "",
+            "evidence_quote": "شركة IBM الشركة العالمية الكبيرة التي تستفيد من هذا التنوع",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يساعد في استهداف الفئات والمجموعات الطائفية والعقائدية.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يساعد في استهداف الفئات والمجموعات الطائفية والعقائدية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "انتهاك حق الخصوصية",
+            "responds_to": "",
+            "evidence_quote": "هذا القرار ينتهك الحقوق العالمية المنصوصة حول حق الخصوصية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "زيادة التمييز العنصري",
+            "responds_to": "",
+            "evidence_quote": "إلغاء تسجيل الخلفيات سيزيد من التمييز العنصري",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تسبب في البطالة",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يؤدي إلى البطالة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التعبير والاعتزاز",
+            "responds_to": "",
+            "evidence_quote": "إلغاء تسجيل الخلفيات يلغي فكرة التعبير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم تحديد احتياجات المجموعات",
+            "responds_to": "",
+            "evidence_quote": "عدم تسجيل الخلفيات يمنع تحديد احتياجات المجموعات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم تقبل الرأي الآخر",
+            "responds_to": "",
+            "evidence_quote": "هذا القرار يدل على عدم تقبل الموالاة للرأي الآخر",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "نرفض أن يرتبط تسجيل الانتماءات بسياسات الدولة، وبالتالي نرفض تسجيل الخلفيات في السجلات الرسمية.",
+            "responds_to": "",
+            "evidence_quote": "نرفض أن يرتبط ذلك بسياسات الدول وبالتالي نرفض تسجيل الانتماءات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يساعد في استهداف الفئات والمجموعات الطائفية والعقائدية.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يساعد في استهداف الفئات والمجموعات الطائفية والعقائدية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يسبب البطالة.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يسبب البطالة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يخلق انتماءً ضعيفاً للهوية الوطنية.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يخلق انتماءً ضعيفاً للهوية الوطنية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يعرقل تحقيق المساواة في الحقوق.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يعرقل تحقيق المساواة في الحقوق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يؤدي إلى تيسير عمليات إرهابية.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يؤدي إلى تيسير عمليات إرهابية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء الخلفيات عن الأوراق القانونية سيعزز انتمائهم إلى الوطن.",
+            "responds_to": "",
+            "evidence_quote": "إلغاء الخلفيات عن الأوراق القانونية سيعزز انتمائهم إلى الوطن",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التسجيل يؤدي إلى انقسام الأفراد في مناطق.",
+            "responds_to": "",
+            "evidence_quote": "التسجيل يؤدي إلى انقسام الأفراد في مناطق",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التسجيل غير ضروري لزيادة الانتماء أو التعاون؛ مثال أمريكا يوضح التمييز.",
+            "responds_to": "",
+            "evidence_quote": "في أمريكا هناك جامعة متخصصة كو كولومبوس فقط للأمريكيين من أصل إفريقي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عدم تسجيل الخلفيات لا يمنع التمييز في سوق العمل؛ مثال على رفض العمل.",
+            "responds_to": "",
+            "evidence_quote": "عندما يرى هوية من يتقدم إلى ذلك العمل لا يقبله إن لم تعجبه تلك الفئة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عدم تسجيل الخلفيات لا يؤدي إلى إلغاء المساجد أو الكنائس.",
+            "responds_to": "",
+            "evidence_quote": "أنت لا ترد على مداخلتي أنا بهل سنلغي المساجد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "التسجيل يساعد في تنظيم الخدمات وتلبية احتياجات المجموعات.",
+            "responds_to": "",
+            "evidence_quote": "إذا خالد سين محمد عين وبالتالي علمنا أن هؤلاء المسيح يجب وضعهم في مدرسة مسيحية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "التسجيل يضمن توزيع المدارس وفق الخلفيات الدينية.",
+            "responds_to": "",
+            "evidence_quote": "إذا خالد سين محمد عين وبالتالي علمنا أن هؤلاء المسيح يجب وضعهم في مدرسة مسيحية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "التسجيل يحافظ على حقوق الأفراد ويعزز التنوع الثقافي.",
+            "responds_to": "",
+            "evidence_quote": "نحن هدفنا منذ البداية بجمع هؤلاء المواطنين وربطنا فرص العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم تسجيل الخلفيات يسبب فشل الدول العربية في تنظيم المجتمع.",
+            "responds_to": "",
+            "evidence_quote": "في كثير من البلدان العربية قد أثبتت فشلها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "weighing",
+            "summary": "لم يردوا على حجة التنظيم التي تؤكد دور التسجيل في بناء المساجد.",
+            "responds_to": "",
+            "evidence_quote": "لم يردوا أو بالأحرى لم يفندوا هذه الحجة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "لم يردوا على حجة الخصوصية في الفكر والتعبير، ما يثبت ضعف دفاعهم.",
+            "responds_to": "",
+            "evidence_quote": "لم يردوا على حجة الخصوصية في الفكر والتعبير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "لم يوضحوا كيف سيقرب التسجيل طبقات المجتمع، مما يضعف حجتهم.",
+            "responds_to": "",
+            "evidence_quote": "لم يوضحوا كيف سيقربوا بين طبقات المجتمع",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "لم يقدّموا إحصائيات تدعم ادعاء تقليل البطالة، ما يضعف حجتهم.",
+            "responds_to": "",
+            "evidence_quote": "لم يبينوا في أي حجة أو إحصائية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "لم يربطوا هدفهم بحججهم، ما يضعف صلة الحجج بالهدف.",
+            "responds_to": "",
+            "evidence_quote": "لم يربطوا هدفهم بحججهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "أمثلة أمريكا تُظهر أن التسجيل لا يسبب التمييز، ما يدحض ادعاء الخصوم.",
+            "responds_to": "",
+            "evidence_quote": "أمثلة أمريكا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "لم يردوا على حجة الحروب العنصرية، ما يضعف دفاعهم.",
+            "responds_to": "",
+            "evidence_quote": "لم يردوا على حجة الحروب العنصرية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "لم يردوا على حجة البطالة، ما يضعف حجتهم.",
+            "responds_to": "",
+            "evidence_quote": "لم يردوا على حجة البطالة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "المعارضة اعطت أمثلة خاصة لا تشمل الجميع",
+            "responds_to": "",
+            "evidence_quote": "أعطيتم أمثلة خاصة ولا تشمل الجميع",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          },
+          {
+            "kind": "substantive",
+            "summary": "فريق الموالاة أكثر إقناعا فقدموا حججاً منطقية",
+            "responds_to": "",
+            "evidence_quote": "فريق الموالاة أكثر إقناعا فقدمنا حججا منطقية",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          },
+          {
+            "kind": "substantive",
+            "summary": "المعارضة أضافت إلى موقفنا وزادت إقناعنا",
+            "responds_to": "",
+            "evidence_quote": "أضافوها بنوا موقفنا وزادوه إقناعا",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          },
+          {
+            "kind": "substantive",
+            "summary": "هدفنا منذ البداية هو العيش المشترك وضمان الوحدة الوطنية",
+            "responds_to": "",
+            "evidence_quote": "هدفنا منذ البداية إلى العيش المشترك وضمان الوحدة الوطنية",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          },
+          {
+            "kind": "substantive",
+            "summary": "نحن لا نحارب هذه الانتماءات",
+            "responds_to": "",
+            "evidence_quote": "نحن لا نحارب هذه الانتماءات",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          },
+          {
+            "kind": "substantive",
+            "summary": "المعارضة تطلب إلغاء هذه التسجيلات",
+            "responds_to": "",
+            "evidence_quote": "أنتظرون إلغاء هذه التسجيلات",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          },
+          {
+            "kind": "substantive",
+            "summary": "سوف يزيد الانتماء إلى هذه المجموعات",
+            "responds_to": "",
+            "evidence_quote": "سوف يزيد الانتماء إلى هذه المجموعات",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          },
+          {
+            "kind": "substantive",
+            "summary": "نحن لم نتنكر للحقوق",
+            "responds_to": "",
+            "evidence_quote": "نحن لم نتنكر للحقوق",
+            "counted": false,
+            "not_counted_reason": "reply speech may only compare and weigh what was already argued"
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "التسجيل يسبب الانقسام والتمييز",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "الموالاة قدمت حجة أن التسجيل يزيد الانقسام ويؤدي إلى النزاعات (speech 1, arg 1). المعارضة ردت برفض هذه الفكرة، موضحة أن التمييز العنصري لا ينتج عن تسجيل الخلفيات بل عن غياب الدولة التي تساوي جميع مواطنيها (speech 2, arg 1). ثم أعادت المعارضة بناءً على أن التسجيل يساعد الدولة على تنظيم سياساتها وتلبية احتياجات المجموعات (speech 6, rebuilding 1). بما أن المعارضة قدمت ردًا مباشرًا على حجة الموالاة وأثبتت أن التسجيل لا يسبب الانقسام، فإنها تفوز بالنقطة. لا توجد حجة من الموالاة تعيد بناءً على هذه النقطة، لذا تبقى حجة المعارضة صالحة."
+        },
+        {
+          "clash_point": "انتهاك حق الخصوصية",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "المعارضة أظهرت أن التسجيل ينتهك حق الخصوصية (speech 4, arg 1). الموالاة ردت على هذه الحجة بالقول إنهم مع حرية المعتقد ويضمنون الخصوصية لكل فرد (speech 3, refutation). لم تقدم المعارضة أي رد آخر على هذه الحجة، وبالتالي تبقى حجة الموالاة صالحة وتفوز بالنقطة."
+        },
+        {
+          "clash_point": "التسجيل يسبب البطالة",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "المعارضة ادعت أن التسجيل يسبب البطالة (speech 4, arg 3). الموالاة لم تقدم ردًا مباشرًا على هذه الحجة، لكنهم أشاروا في speech 5, arg 3 إلى أن التسجيل يسبب البطالة، ما يعكس نفس وجهة النظر. بما أن كلا الطرفين يملك حجة صالحة ولا يوجد رد أو إعادة بناء، فإن النقطة تبقى غير محسومة."
+        },
+        {
+          "clash_point": "التسجيل يسهل عمليات إرهابية",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "الموالاة قدمت حجة أن التسجيل يؤدي إلى تيسير عمليات إرهابية (speech 5, arg 6). المعارضة لم تقدم أي رد أو إعادة بناء على هذه الحجة، لذا تبقى حجة الموالاة صالحة وتفوز بالنقطة."
+        },
+        {
+          "clash_point": "التسجيل يعزز الوحدة الوطنية",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة حجة أن إلغاء التسجيل يعزز الوحدة الوطنية (speech 1, arg 4). المعارضة قدمت حجة متضادة بأن التسجيل يساعد الدولة على تنظيم سياساتها وتلبية احتياجات المجموعات، ما يعزز الوحدة (speech 2, arg 3). لا يوجد رد أو إعادة بناء من أي طرف، لذا تبقى النقطة غير محسومة."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "decisive",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "الموالاة قدمت حجة أن التسجيل يؤدي إلى تيسير عمليات إرهابية (speech 5, arg 6).",
+          "evidence_quote": "الموالاة قدمت حجة أن التسجيل يؤدي إلى تيسير عمليات إرهابية (speech 5, arg 6)."
+        },
+        {
+          "team": "proposition",
+          "reason": "الموالاة ردت على هذه الحجة بالقول إنهم مع حرية المعتقد ويضمنون الخصوصية لكل فرد (speech 3, refutation).",
+          "evidence_quote": "الموالاة ردت على هذه الحجة بالقول إنهم مع حرية المعتقد ويضمنون الخصوصية لكل فرد (speech 3, refutation)."
+        },
+        {
+          "team": "opposition",
+          "reason": "المعارضة ردت برفض هذه الفكرة، موضحة أن التمييز العنصري لا ينتج عن تسجيل الخلفيات بل عن غياب الدولة التي تساوي جميع مواطنيها (speech 2, arg 1).",
+          "evidence_quote": "المعارضة ردت برفض هذه الفكرة، موضحة أن التمييز العنصري لا ينتج عن تسجيل الخلفيات بل عن غياب الدولة التي تساوي جميع مواطنيها (speech 2, arg 1)."
+        }
+      ],
+      "justification": "في النقاط الجوهرية، فاز فريق الموالاة في نقطتين (التسجيل يسهل عمليات إرهابية، وانتهاك حق الخصوصية) بينما فاز فريق المعارضة في نقطة واحدة (التسجيل يسبب الانقسام والتمييز). بما أن النقاط الجوهرية هي الأكثر أهمية، فإن فوز فريق الموالاة في أكثر من نصف النقاط الجوهرية يجعلهم أكثر إقناعاً. النقاط الثانوية غير محلولة ولا تغير النتيجة. لذلك، يُعتبر فريق الموالاة أكثر إقناعاً."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 54,
+      "not_found": [
+        "تسجيل الانتماءات العرقية والعقائدية إن كانت على الصعيد الوطني ... يزيد من الاختلاف بين الناس",
+        "يؤدي إلى عدم الانتماء أو تضاعف الانتماء الوطني لهؤلاء المجموعات",
+        "تسجيل الخلفيات يساعد الدولة على تنظيم سياساتها وقدرتها على معرفة حاجات أفرادها",
+        "فشل القومية العربية وأدت إلى آثار سلبية",
+        "نحن مع حرية المعتقد ونحن لا ندعو إلى إلغاء هذه المعتقدات والانتماءات",
+        "إلغاء الخلفيات والعقائد عن بطاقات التعريف سيزيد من تقربهم",
+        "التسجيل يساعد في استهداف الفئات والمجموعات الطائفية والعقائدية",
+        "إلغاء تسجيل الخلفيات سيزيد من التمييز العنصري",
+        "التسجيل يؤدي إلى البطالة",
+        "إلغاء تسجيل الخلفيات يلغي فكرة التعبير",
+        "عدم تسجيل الخلفيات يمنع تحديد احتياجات المجموعات",
+        "هذا القرار يدل على عدم تقبل الموالاة للرأي الآخر",
+        "التسجيل يساعد في استهداف الفئات والمجموعات الطائفية والعقائدية",
+        "التسجيل يسبب البطالة",
+        "التسجيل يخلق انتماءً ضعيفاً للهوية الوطنية",
+        "التسجيل يعرقل تحقيق المساواة في الحقوق",
+        "التسجيل يؤدي إلى تيسير عمليات إرهابية",
+        "إلغاء الخلفيات عن الأوراق القانونية سيعزز انتمائهم إلى الوطن",
+        "التسجيل يؤدي إلى انقسام الأفراد في مناطق",
+        "في أمريكا هناك جامعة متخصصة كو كولومبوس فقط للأمريكيين من أصل إفريقي",
+        "عندما يرى هوية من يتقدم إلى ذلك العمل لا يقبله إن لم تعجبه تلك الفئة",
+        "أنت لا ترد على مداخلتي أنا بهل سنلغي المساجد",
+        "إذا خالد سين محمد عين وبالتالي علمنا أن هؤلاء المسيح يجب وضعهم في مدرسة مسيحية",
+        "إذا خالد سين محمد عين وبالتالي علمنا أن هؤلاء المسيح يجب وضعهم في مدرسة مسيحية",
+        "لم يردوا أو بالأحرى لم يفندوا هذه الحجة",
+        "لم يردوا على حجة الخصوصية في الفكر والتعبير",
+        "لم يوضحوا كيف سيقربوا بين طبقات المجتمع",
+        "لم يبينوا في أي حجة أو إحصائية",
+        "أمثلة أمريكا",
+        "لم يردوا على حجة الحروب العنصرية",
+        "لم يردوا على حجة البطالة",
+        "هدفنا منذ البداية إلى العيش المشترك وضمان الوحدة الوطنية",
+        "أنتظرون إلغاء هذه التسجيلات",
+        "سوف يزيد الانتماء إلى هذه المجموعات"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "الموالاة قدمت حجة أن التسجيل يؤدي إلى تيسير عمليات إرهابية (speech 5, arg 6).",
+        "الموالاة ردت على هذه الحجة بالقول إنهم مع حرية المعتقد ويضمنون الخصوصية لكل فرد (speech 3, refutation).",
+        "المعارضة ردت برفض هذه الفكرة، موضحة أن التمييز العنصري لا ينتج عن تسجيل الخلفيات بل عن غياب الدولة التي تساوي جميع مواطنيها (speech 2, arg 1)."
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 8,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 4,
+    "prompt_tokens": 54578,
+    "output_tokens": 5944
+  }
+}

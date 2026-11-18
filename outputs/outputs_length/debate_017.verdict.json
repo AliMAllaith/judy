@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_017",
+  "motion": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.085,
+    "justification": "main_words: proposition=1940, opposition=2301"
+  },
+  "features": {
+    "proposition": 1940.0,
+    "opposition": 2301.0,
+    "tie": false
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "debate_id": "debate_016",
+  "motion": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+  "generated_at": "2026-11-06T09:17:39+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "decisive",
+    "confidence": 0.85,
+    "justification": "في المناقشة، كان النقاط الأساسية هي الأكثر وزنًا. ففريق الموالاة نجح في إقناع القاضي بأن الاعتذار ضروري، وهو ما يُظهر أن لديهم حجة قوية ومقنعة في هذا الصدد. بينما فاز فريق المعارضة في نقطة ثانوية، لكنها لا تُعادل أهمية النقطة الأساسية التي فاز بها فريق الموالاة. كما أن النقاط الأساسية الأخرى كانت غير محلولة، مما لم يغير نتيجة النقطة التي فاز بها فريق الموالاة. بالتالي، فريق الموالاة هو الأكثر إقناعًا، لأن حججه في النقطة الأساسية كانت أقوى وأقنع القاضي بالموقف الذي يدعيه."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "المشكلة التي يطرحها التحريك هي ما إذا كان على المسلمين المعتدلين الاعتذار ونقد العمليات الإرهابية التي تُجرى باسم الإسلام، وذلك في سياق مكافحة الإسلاموفوبيا وتعزيز سمعة الإسلام.",
+        "proposition_definition": "المسلمين المعتدلين: المسلمون الذين لا ينتمون إلى الفكر الإرهابي، ويشكلون غالبية المسلمين من المثقفين والباحثين والعوام. الاعتذار: الاعتراف بالخطأ والتعبير عن الأسف عن العمليات الإرهابية التي تُجرى باسم الإسلام. النقد: التقييم والانتقاد للعمليات الإرهابية التي تُجرى باسم الإسلام.",
+        "opposition_definition": "الاعتذار: الاعتراف بالخطأ، وبالتالي لا يمكن للمسلمين المعتدلين الاعتذار لأنهم لم يرتكبوا الخطأ. النقد: لا يُشمل في التحريك، أو لا يُعتبر جزءًا من المطلوب. المسلمين المعتدلين: لا يُعزى لهم مسؤولية العمليات الإرهابية.",
+        "definition_contested": true,
+        "adopted_ground": "المحور الأساسي للمناظرة هو ما إذا كان على المسلمين المعتدلين الاعتذار عن العمليات الإرهابية التي تُجرى باسم الإسلام، مع نقاش حول معنى الاعتذار، مسؤولية المسلمين، ودور النقد في تحسين سمعة الإسلام."
+      },
+      "proposition_position": "يدعم فريق الموالاة قرار المجلس، ويؤكد أن الاعتذار والنقد للعمليات الإرهابية التي تُجرى باسم الإسلام سيعززان سمعة الإسلام ويحميان المسلمين من الإسلاموفوبيا.",
+      "opposition_position": "يعارض فريق المعارضة القرار، ويؤكد أن المسلمين المعتدلين لا يتحملون مسؤولية العمليات الإرهابية، وبالتالي لا ينبغي عليهم الاعتذار، وأن الاعتذار يعرّفهم كمسؤولين عن هذه الأعمال.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "كل فريق يرد مباشرة على حجج الفريق الآخر، مع توجيه نقد مباشر للمنطق والافتراضات التي طرحها الطرف المقابل."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف المسلمين المعتدلين",
+            "responds_to": "",
+            "evidence_quote": "المسلمون المعتدلون هم المسلمون الذين لا ينتمون إلى الفكر الإرهابي وهم أغلبية المسلمين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "تعريف الاعتذار والنقد",
+            "responds_to": "",
+            "evidence_quote": "الاعتذار والنقد فيكون منه نفي انتساب الارهاب الى الاسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار والنقد يحسن سمعة الإسلام ويقلل من الإسلاموفوبيا",
+            "responds_to": "",
+            "evidence_quote": "نرى انه على المسلمين المعتدلين الاعتذار ونقد الأعمال الإرهابية التي تحدث باسم الإسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تصحيح مفهوم الجهاد يقلل من الانجذاب للإرهاب",
+            "responds_to": "",
+            "evidence_quote": "تصحيح المفاهيم يؤدي الى ابعاد المسلمين من الميل نحو فكره الارهاب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "آليات النقد عبر الإعلام والمؤتمرات والبحوث",
+            "responds_to": "",
+            "evidence_quote": "اليات النقد عبر وسائل الاعلام وكذلك المؤتمرات والبرامج والبحوث",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على المعارضة التي تقول لا ضرورة للاعتذار والنقد",
+            "responds_to": "Opposition’s claim that no apology or criticism is needed",
+            "evidence_quote": "نحن نواجه المعارضة في ان تبرهن لنا ان لا يوجد ضرورة للنقد والاعتذار",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف الاعتذار كإقرار بالخطأ",
+            "responds_to": "",
+            "evidence_quote": "الاعتذار يعني أن تعتذر عن شيء خاطئ قمت به",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+            "responds_to": "",
+            "evidence_quote": "إذا اعتذر المسلمون عن خطأ لم يرتكبه، فإن ذلك يزيد من مشكلة الإسلاموفوبيا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الإسلاموفوبيا ناتجة عن خطاب الكراهية في الغرب وليس عن العمليات الإرهابية",
+            "responds_to": "",
+            "evidence_quote": "الإسلاموفوبيا لم تبدأ بسبب العمليات الإرهابية وإنما بسبب خطاب الكراهية الموحد ضد الإسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار يقر بالخطأ ويزيد من تطبيع فكرة الإرهاب",
+            "responds_to": "",
+            "evidence_quote": "الاعتذار يقر بالخطأ، وبالتالي يزيد من تطبيع فكرة الإرهاب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على ادعاء أن الاعتذار يقلل من الإسلاموفوبيا",
+            "responds_to": "الاعتذار والنقد يحسن سمعة الإسلام ويقلل من الإسلاموفوبيا",
+            "evidence_quote": "الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "إعادة تأكيد عدم ضرورة الاعتذار لأن المسلمين لم يرتكبوا الخطأ",
+            "responds_to": "الاعتذار يجب أن يقدمه المسلمون",
+            "evidence_quote": "نحن لا نعتذر لأننا لم نرتكب الخطأ",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار والنقد يبرئ الإسلام من مسؤولية الإرهاب ويظهر المبادئ الإنسانية",
+            "responds_to": "",
+            "evidence_quote": "من المعلوم ان جميع الاديان وكذلك جميع الناس في العالم يقولون ويعتقدون ان المبدا الانساني هو مبدا لا يستطيع ان يفر منه اي احد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار والنقد يقلل من الإسلاموفوبيا ويغيّر الانطباع السلبي عن الإسلام",
+            "responds_to": "",
+            "evidence_quote": "فمن اثار السلبيه لهذا الانطباع السيء من المجتمع في العالم هو سوء المعامله مع المسلمين جميعا، مثلا هناك المقاطعه والقتال او الانفجارات الحادثه ضد المسلمين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار والنقد يمكن أن يغير السياسات في الدول ويعزز حقوق المسلمين",
+            "responds_to": "",
+            "evidence_quote": "في المحور السياسي نقول ان النقد يستطيع تغير السياسات في تلك الدول بحقوق المسلمين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على ادعاء المعارضة بأن الاعتذار غير ضروري",
+            "responds_to": "Opposition’s claim that no apology or criticism is needed",
+            "evidence_quote": "عندما جاءت المعارضه وقالت باننا قد تناقضنا في موقفنا، ولكن ايها السادة الموالاة اخطأت في فهم هذا الموقف او كلمه الاعتذار",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "Apology should come from non‑Muslims, not Muslims, because Muslims are victims of Islamophobia",
+            "responds_to": "",
+            "evidence_quote": "الاعتذار لا بد ان يكون من غير المسلمين للمسلمين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Apology legitimises extremist groups, increasing Islamophobia",
+            "responds_to": "",
+            "evidence_quote": "الاعتذار يثبت فكره ان هؤلاء الجماعات تنتمي للاسلام بينما الواقع يقول ان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Apology misattributes cause; extremist acts are driven by political motives",
+            "responds_to": "",
+            "evidence_quote": "العمليات الارهابيه ليست منا في شيء والاسلام يحاربها على جميع الاصعده",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Apology could be used by governments to legitimize extremist groups",
+            "responds_to": "",
+            "evidence_quote": "الاعتراف بان هؤلاء منا وان هؤلاء الاشخاص قاموا بخطا وهو ليس من الاسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "Rejects proposition that apology reduces Islamophobia",
+            "responds_to": "الاعتذار والنقد يحسن سمعة الإسلام ويقلل من الإسلاموفوبيا",
+            "evidence_quote": "الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "Reasserts that Muslims did not commit the error, so apology is unnecessary",
+            "responds_to": "الاعتذار يجب أن يقدمه المسلمون",
+            "evidence_quote": "المسلمين المعتدلين لم يرتكبوا الخطأ",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "إعادة تأكيد أن المسلمين المعتدلين يجب أن يعتذروا ويقدّموا نقداً للعمليات الإرهابية باسم الإسلام.",
+            "responds_to": "",
+            "evidence_quote": "نؤكد من جديد على قرار المجلس ان على المسلمين الاعتذار عن ونقد العمليات الارهابية التي تحدث باسم الاسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على المعارضة التي تركت النقد جانباً وركّزت فقط على الاعتذار.",
+            "responds_to": "",
+            "evidence_quote": "المعارضة تجاهلت كلمة النقد في هذا الموضوع، وركزت فقط على موضوع الاعتذار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار لا يكفي وحده؛ يجب أن يرافقه النقد لتصحيح صورة الإسلام.",
+            "responds_to": "",
+            "evidence_quote": "نحن في الموالاة نقول ان الاعتذار لا يكون لوحده بل ويكون معه النقد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على المعارضة التي تقول أن الاعتذار غير ضروري لأن المسلمين لم يرتكبوا الخطأ.",
+            "responds_to": "",
+            "evidence_quote": "الموالاة في حجتهم الاولى ان الاعتذار اقرار باننا اخطأنا في البداية، ولكن المعارصة تجاهلت ان العمليات الارهابية جرت باسم الاسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار والنقد يحدّ من انتشار الإسلاموفوبيا ويُحسّن سمعة الإسلام.",
+            "responds_to": "",
+            "evidence_quote": "في محور الوعي قلنا ان الاعتذار والنقد خطوة اساسية لحل المشكلة من اساسها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "النقد يمنع المسلمين من المشاركة في العمليات الإرهابية ويحميهم من الهجمات المجتمعية.",
+            "responds_to": "",
+            "evidence_quote": "النقد يمنع المسلمين من المشاركة في العمليات الارهابية، وكيف ان ذلك يحمي المسليمن من الهجوم من المجتمعات الاخرى",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار والنقد يحدّ من عوامل أخرى للإسلاموفوبيا خارج نطاق المناقشة.",
+            "responds_to": "",
+            "evidence_quote": "الموالاة في حجتهم الثانية تحدثوا عن عدم فعالية الحل وقالوا ان هناك عوامل اخرى للاسلاموفوبيا، ولكن هذه العوامل الاخرى خارج نطاق المناظرة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار والنقد يساهمان في حماية المسلمين من العواقب السلبية للعمليات الإرهابية.",
+            "responds_to": "",
+            "evidence_quote": "نؤكد من جديد على قرار المجلس ان على المسلمين الاعتذار عن ونقد العمليات الارهابية التي تحدث باسم الاسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "rebuilding",
+            "summary": "إعادة تأكيد عدم ضرورة الاعتذار لأن المسلمين لم يرتكبوا الخطأ",
+            "responds_to": "الاعتذار يجب أن يقدمه المسلمون",
+            "evidence_quote": "أعيد بناء ...",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رفض ادعاء أن الاعتذار يقلل من الإسلاموفوبيا",
+            "responds_to": "الاعتذار والنقد يحسن سمعة الإسلام ويقلل من الإسلاموفوبيا",
+            "evidence_quote": "رفض ...",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار يطبع فكرة أن المسلمين مسؤولون عن الإرهاب",
+            "responds_to": "",
+            "evidence_quote": "هذا ما يجعل كل الناس يؤمنون بان المسلمين مخطئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار لا يوقف الإرهاب",
+            "responds_to": "",
+            "evidence_quote": "هل لو اعتذرت السعودية أو العراق ستتوقف داعش",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار يخلق مسؤولية زائفة للمسلمين",
+            "responds_to": "",
+            "evidence_quote": "يجب عليهم ان يقوموا بالاعتذار عن هؤلاء الناس",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار يستخدم كأداة سياسية لتغيير السياسات",
+            "responds_to": "",
+            "evidence_quote": "مثال السعودية عندما اعتذرت قدمت أمريكا عليها قانون جسته",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار لا يحل المشكلة، نحتاج عقاباً",
+            "responds_to": "",
+            "evidence_quote": "نريد عقاباً شديداً جداً لهؤلاء الناس",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاعتذار لا يساهم في حل جذور المشكلة",
+            "responds_to": "",
+            "evidence_quote": "لا نريد هنا ولا نريد نقده موقفنا واضح",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": []
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "رد على المعارضة التي تقول أن الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+            "responds_to": "الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+            "evidence_quote": "المعارضة تتحدث فقط عن سلبيات الاعتذار بانه يقر على مسؤوليتنا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رد على المعارضة التي تقول أن الاعتذار يقر بالخطأ ويزيد من تطبيع فكرة الإرهاب",
+            "responds_to": "الاعتذار يقر بالخطأ ويزيد من تطبيع فكرة الإرهاب",
+            "evidence_quote": "المعارضة تتوقع أن يقوم الإرهابيون بالاعتذار عن العمليات وهذا مستحيل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "تعريف الاعتذار",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "Both sides present a definition of apology that remains standing after the exchange; neither side successfully refutes the other's definition, so the point is unresolved according to the chain analysis."
+        },
+        {
+          "clash_point": "تأثير الاعتذار على الإسلاموفوبيا",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "Each side presents an argument about the effect of apology on Islamophobia and then refutes the other's claim. Both refutations stand, leaving the point unresolved."
+        },
+        {
+          "clash_point": "ضرورة الاعتذار",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "The proposition argues that apology is necessary; the opposition argues it is unnecessary. The proposition refutes the opposition’s claim, and the opposition does not successfully refute the proposition’s argument. Thus the proposition’s argument remains standing."
+        },
+        {
+          "clash_point": "الاعتذار كمصطلح سياسي يبرئ الجماعات المتطرفة",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "The opposition presents the claim that apology legitimises extremist groups and can be used by governments to legitimize them. No counter‑argument or refutation is offered by the proposition, so the opposition’s argument remains standing."
+        },
+        {
+          "clash_point": "تغيير السياسات عبر الاعتذار والنقد",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "Both sides present arguments that apology and criticism can change policies or that such actions misattribute causes. Neither side refutes the other’s claim, leaving the point unresolved."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "decisive",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "الانتصار في النقطة الأساسية \"ضرورة الاعتذار\"، حيث نجح فريق الموالاة في إقناع القاضي بأن الاعتذار ضروري لتصحيح الصورة العامة للمسلمين.",
+          "evidence_quote": "\"ضرورة الاعتذار\""
+        },
+        {
+          "team": "opposition",
+          "reason": "فريق المعارضة فاز في النقطة الثانوية \"الاعتذار كمصطلح سياسي يبرئ الجماعات المتطرفة\"، لكن هذه النقطة ثانوية ولا تُعادل أهمية النقطة الأساسية.",
+          "evidence_quote": "\"الاعتذار كمصطلح سياسي يبرئ الجماعات المتطرفة\""
+        }
+      ],
+      "justification": "في المناقشة، كان النقاط الأساسية هي الأكثر وزنًا. ففريق الموالاة نجح في إقناع القاضي بأن الاعتذار ضروري، وهو ما يُظهر أن لديهم حجة قوية ومقنعة في هذا الصدد. بينما فاز فريق المعارضة في نقطة ثانوية، لكنها لا تُعادل أهمية النقطة الأساسية التي فاز بها فريق الموالاة. كما أن النقاط الأساسية الأخرى كانت غير محلولة، مما لم يغير نتيجة النقطة التي فاز بها فريق الموالاة. بالتالي، فريق الموالاة هو الأكثر إقناعًا، لأن حججه في النقطة الأساسية كانت أقوى وأقنع القاضي بالموقف الذي يدعيه."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 40,
+      "not_found": [
+        "المسلمون المعتدلون هم المسلمون الذين لا ينتمون إلى الفكر الإرهابي وهم أغلبية المسلمين",
+        "نرى انه على المسلمين المعتدلين الاعتذار ونقد الأعمال الإرهابية التي تحدث باسم الإسلام",
+        "نحن نواجه المعارضة في ان تبرهن لنا ان لا يوجد ضرورة للنقد والاعتذار",
+        "الاعتذار يعني أن تعتذر عن شيء خاطئ قمت به",
+        "إذا اعتذر المسلمون عن خطأ لم يرتكبه، فإن ذلك يزيد من مشكلة الإسلاموفوبيا",
+        "الإسلاموفوبيا لم تبدأ بسبب العمليات الإرهابية وإنما بسبب خطاب الكراهية الموحد ضد الإسلام",
+        "الاعتذار يقر بالخطأ، وبالتالي يزيد من تطبيع فكرة الإرهاب",
+        "الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+        "نحن لا نعتذر لأننا لم نرتكب الخطأ",
+        "الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+        "المسلمين المعتدلين لم يرتكبوا الخطأ",
+        "الموالاة في حجتهم الثانية تحدثوا عن عدم فعالية الحل وقالوا ان هناك عوامل اخرى للاسلاموفوبيا، ولكن هذه العوامل الاخرى خارج نطاق المناظرة",
+        "أعيد بناء ...",
+        "هل لو اعتذرت السعودية أو العراق ستتوقف داعش",
+        "المعارضة تتحدث فقط عن سلبيات الاعتذار بانه يقر على مسؤوليتنا"
+      ]
+    },
+    "decision_quotes": {
+      "total": 2,
+      "not_found": [
+        "\"ضرورة الاعتذار\"",
+        "\"الاعتذار كمصطلح سياسي يبرئ الجماعات المتطرفة\""
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 3,
+    "prompt_tokens": 55452,
+    "output_tokens": 4737
+  }
+}

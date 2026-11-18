@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_0010",
+  "motion": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.054,
+    "justification": "main_words: proposition=2355, opposition=2625"
+  },
+  "features": {
+    "proposition": 2355.0,
+    "opposition": 2625.0,
+    "tie": false
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "debate_id": "debate_012",
+  "motion": "سيلغي هذا المجلس التاشيره بين الدول العربيه",
+  "generated_at": "2026-11-04T09:24:18+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.9,
+    "justification": "لقد أظهر فريق المعارضة أن فريق الموالاة يتجاهل وجود مشاكل اقتصادية وسياسية وارهابية في الدول العربية، مما يجعل اقتراح废除 التأشيرات غير عملي وضائع. بينما قدمت فريق المعارضة حججًا منطقية وواضحة تخدم هدف حماية الدول العربية من المخاطر الخارجية، وهذا هو المعيار الأساسي لاختيار الفائز.",
+    "best_speaker": "المعارضة - المتحدث الثالث"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "القضية الأساسية",
+      "proposition_definition": "القضية الأساسية",
+      "opposition_definition": "القضية الأساسية",
+      "definition_contested": true,
+      "adopted_ground": "القضية الأساسية"
+    },
+    "positions": {
+      "proposition": "لا",
+      "opposition": "نعم"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "ذكرت أن الدول الأوروبية استطاعت تحقيق التقدم بعد توحيد السياسات و废除 الحدود، مما يدل على أن العرب يمكنهم فعل ذلك أيضًا.",
+        "evidence_quote": "تفتح الدول الأوروبية حدودها وحققت التقدم والتنمية",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "طرح فكرة أن التوحيد لا يمكن أن يحدث دون وجود مشاكل طائفية وحروب، وهو ما يتعارض مع مفهوم رؤية واحدة.",
+        "evidence_quote": "السؤال المطروح هو لماذا لا نستطيع أن نجمع بين الشعبين؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "反驳 فكرة أن الدول العربية يمكنها التوحيد مثل الدول الأوروبية، معتبرًا أن الاختلافات الثقافية والlinguistic تجعل ذلك مستحيلًا.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "ذكرت أن الدول العربية تعاني من مشاكل اقتصادية وسياسية، وأن废除 التأشيرات سيؤدي إلى تفاقم هذه المشاكل.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "反驳 فكرة أن废除 التأشيرات سيسهل التبادل الاقتصادي، معتبرًا أن الدول العربية تحتاج إلى تنظيمEntries والخروج لضمان الاستقرار.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "ذكرت أن الدول العربية تعاني من مشاكل ارهابية ونزاعات، وأن废除 التأشيرات سيزيد من هذه المخاطر.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "反驳 فكرة أن废除 التأشيرات سيسهل التبادل الثقافي، معتبرًا أن التنوع الثقافي في الدول العربية يجعل التوحيد مستحيلًا.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "ذكرت أن الدول العربية تعاني من مشاكل اقتصادية وسياسية، وأن废除 التأشيرات سيؤدي إلى تفاقم هذه المشاكل.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "反驳 فكرة أن废除 التأشيرات سيسهل التبادل الاقتصادي، معتبرًا أن الدول العربية تحتاج إلى تنظيمEntries والخروج لضمان الاستقرار.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "ذكرت أن الدول العربية تعاني من مشاكل ارهابية ونزاعات، وأن废除 التأشيرات سيزيد من هذه المخاطر.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "反驳 فكرة أن废除 التأشيرات سيسهل التبادل الثقافي، معتبرًا أن التنوع الثقافي في الدول العربية يجعل التوحيد مستحيلًا.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "ذكرت أن الدول العربية تعاني من مشاكل اقتصادية وسياسية، وأن废除 التأشيرات سيؤدي إلى تفاقم هذه المشاكل.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "反驳 فكرة أن废除 التأشيرات سيسهل التبادل الاقتصادي، معتبرًا أن الدول العربية تحتاج إلى تنظيمEntries والخروج لضمان الاستقرار.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "ذكرت أن الدول العربية تعاني من مشاكل ارهابية ونزاعات، وأن废除 التأشيرات سيزيد من هذه المخاطر.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "反驳 فكرة أن废除 التأشيرات سيسهل التبادل الثقافي، معتبرًا أن التنوع الثقافي في الدول العربية يجعل التوحيد مستحيلًا.",
+        "evidence_quote": "السؤال المطروح هو لماذا مرفوض؟",
+        "counted": true,
+        "not_counted_reason": "لا"
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "item": "الحجج غير مكتملة وتجاهل بعض النقاط الحاسمة.",
+        "issue": "الحجج غير مكتملة"
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثاني",
+        "item": "الحجج غير مكتملة وتجاهل بعض النقاط الحاسمة.",
+        "issue": "الحجج غير مكتملة"
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثالث",
+        "item": "الحجج غير مكتملة وتجاهل بعض النقاط الحاسمة.",
+        "issue": "الحجج غير مكتملة"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "القضية الأساسية",
+        "importance": "secondary",
+        "proposition_side": "لا",
+        "opposition_side": "نعم",
+        "outcome": "opposition",
+        "reasoning": "ذكرت أن الدول العربية تعاني من مشاكل اقتصادية وسياسية، وأن废除 التأشيرات سيؤدي إلى تفاقم هذه المشاكل."
+      },
+      {
+        "clash_point": "القضية الأساسية",
+        "importance": "secondary",
+        "proposition_side": "لا",
+        "opposition_side": "نعم",
+        "outcome": "opposition",
+        "reasoning": "ذكرت أن الدول العربية تعاني من مشاكل ارهابية ونزاعات، وأن废除 التأشيرات سيزيد من هذه المخاطر."
+      },
+      {
+        "clash_point": "القضية الأساسية",
+        "importance": "secondary",
+        "proposition_side": "لا",
+        "opposition_side": "نعم",
+        "outcome": "opposition",
+        "reasoning": "ذكرت أن التنوع الثقافي في الدول العربية يجعل التوحيد مستحيلًا."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "opposition",
+      "style": "opposition",
+      "strategy": "opposition"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "العوامل الاقتصادية والسياسية والارهابية في الدول العربية تجعل废除 التأشيرات مستحيلًا وخطيرًا.",
+          "where": "المعارضة - المتحدث الأول",
+          "effect": "أظهرت فريق المعارضة أن فريق الموالاة يتجاهل وجود مشاكل اقتصادية وسياسية في الدول العربية، مما يجعل اقتراح废除 التأشيرات غير عملي وضائع.",
+          "evidence_quote": "السؤال المطروح هو لماذا لا نستطيع أن نجمع بين الشعبين؟"
+        },
+        {
+          "reason": "الحجج المنطقية لفريق المعارضة تجعل اقتراح فريق الموالاة للتوحيد غير واقعي في سياق الدول العربية.",
+          "where": "المعارضة - المتحدث الثالث",
+          "effect": "قدمت فريق المعارضة حججًا منطقية وواضحة تخدم هدف حماية الدول العربية من المخاطر الخارجية، بينما كانت حجج فريق الموالاة غير مكتملة وتجاهل بعض النقاط الحاسمة.",
+          "evidence_quote": "تفتح الدول الأوروبية حدودها وحققت التقدم والتنمية"
+        }
+      ]
+    },
+    "justification": "لقد أظهر فريق المعارضة أن فريق الموالاة يتجاهل وجود مشاكل اقتصادية وسياسية وارهابية في الدول العربية، مما يجعل اقتراح废除 التأشيرات غير عملي وضائع. بينما قدمت فريق المعارضة حججًا منطقية وواضحة تخدم هدف حماية الدول العربية من المخاطر الخارجية، وهذا هو المعيار الأساسي لاختيار الفائز.",
+    "speaker_scores": [
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches are not counted due to lack of clarity and relevance."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches are not counted due to lack of clarity and relevance."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches are not counted due to lack of clarity and relevance."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches are not counted due to lack of clarity and relevance."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches are not counted due to lack of clarity and relevance."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches are not counted due to lack of clarity and relevance."
+      }
+    ],
+    "best_speaker": "المعارضة - المتحدث الثالث",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حاولوا تقديم حجج إيجابية، لكنها غير مكتملة.",
+          "الحجج غير واضحة في بعض النقاط."
+        ],
+        "improvements": [
+          "الحجج غير مكتملة وتجاهل بعض النقاط الحاسمة.",
+          "الحجج غير منطقية في بعض الأماكن."
+        ],
+        "recommendations": [
+          "حاولوا تغطية جميع الجوانب بشكل أفضل.",
+          "استخدموا الحجج المنطقية بشكل أكثر وضوحًا."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج قوية وواضحة تخدم هدف حماية الدول العربية.",
+          "استراتيجية منهجية وواضحة."
+        ],
+        "improvements": [
+          "استخدموا الحجج المنطقية بشكل جيد، لكن يمكن تحسين الوضوح في بعض النقاط.",
+          "حاولوا تغطية جميع الجوانب، لكن يمكن التركيز على تقديم أمثلة واقعية أكثر."
+        ],
+        "recommendations": [
+          "استخدموا المزيد من الأمثلة الواقعية لدعم حججكم.",
+          "ركزوا على تقديم حجج منطقية تخدم هدف التوحيد بشكل أفضل."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "صعوبة في فهم بعض النقاط بسبب الصيغ غير الواضحة"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 17,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "تفتح الدول الأوروبية حدودها وحققت التقدم والتنمية",
+        "السؤال المطروح هو لماذا لا نستطيع أن نجمع بين الشعبين؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا مرفوض؟",
+        "السؤال المطروح هو لماذا لا نستطيع أن نجمع بين الشعبين؟",
+        "تفتح الدول الأوروبية حدودها وحققت التقدم والتنمية"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 180,
+      "opposition": 180
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13062,
+        "output": 4051
+      }
+    ]
+  }
+}

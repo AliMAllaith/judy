@@ -1,0 +1,307 @@
+{
+  "debate_id": "debate_016",
+  "motion": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+  "generated_at": "2026-11-05T10:10:32+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.85,
+    "justification": "الاعتذار لا يثبت التهمه، بل هو تصحيح للمفاهيم، وهذا ما أكدته حجة الموالاة في الخطاب الثالث، بينما رفضت المعارضة الاعتذار كإقرار بخطأ غير ارتكبه. كما أظهرت حجة الموالاة أن النقد ضروري لتطهير سمعة الإسلام، بينما تجاهلت المعارضة هذه النقطة في الخطاب الخامس، ما جعل حجة الموالاة أقوى في كلا النقاط الرئيسيين للمناظرة.",
+    "best_speaker": "Speech 3"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يُرى أن على المسلمين المعتدلين الاعتذار ونقد العمليات الإرهابية التي تحدث باسم الإسلام",
+      "proposition_definition": "المسلمون المعتدلون هم المسلمون الذين لا ينتمون إلى الفكر الإرهابي، ويُقصد بالاعتذار نفي انتساب الإرهاب إلى الإسلام، ويُقصد بالنقد تصحيح المفاهيم السلبية حول الإسلام.",
+      "opposition_definition": "المسلمون المعتدلون لا يجب أن يعتذروا لأنهم لم يرتكبوا أي خطأ، وأن الاعتذار يُظهر التهمه ويُطوِّع الإرهاب.",
+      "definition_contested": true,
+      "adopted_ground": "المسلمون المعتدلون يجب أن يعتذروا ويُنقدوا العمليات الإرهابية."
+    },
+    "positions": {
+      "proposition": "يدعم الاعتذار والنقد كوسيلة لتطهير سمعة الإسلام وحماية المسلمين من الإسلاموفوبيا.",
+      "opposition": "يعارض الاعتذار والنقد، ويؤكد أن المسلمين المعتدلين لا يعتذرون لأنهم لم يرتكبوا أي خطأ وأن الاعتذار يُظهر التهمه."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "تعريف المسلمين المعتدلين، شرح أن الاعتذار والنقد يحدّثان من سوء الفهم ويطهر سمعة الإسلام.",
+        "evidence_quote": "\"المسلمون المعتدلون هم المسلمون الذين لا ينتمون الى الفكر الارهاب\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "refutation",
+        "summary": "الاعتذار يعني الاعتراف بخطأ لم يرتكبه المسلمون المعتدلون، وبالتالي يُثبت التهمه ويُطوِّع الإرهاب.",
+        "evidence_quote": "\"الاعتذار يعني ان المسلمون اعتذروا عن خطأ لم يرتكبوه\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "rebuilding",
+        "summary": "الاعتذار لا يثبت التهمه، بل هو تصحيح للمفاهيم، وأن النقد ضروري لتطهير سمعة الإسلام.",
+        "evidence_quote": "\"الاعتذار لا يثبت التهمه\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "refutation",
+        "summary": "الاعتذار يثبت التهمه ويُطوِّع الإرهاب، ولا يجب على المسلمين المعتدلين الاعتذار.",
+        "evidence_quote": "\"الاعتذار يثبت التهمه\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 5",
+        "kind": "rebuilding",
+        "summary": "المعارضة تجاهلت كلمة النقد، وأكدت أن النقد ضروري، وأن المعارضة اتفقت مع بعض النقاط.",
+        "evidence_quote": "\"المعارضة تجاهلت كلمة النقد\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "refutation",
+        "summary": "الاعتذار يثبت التهمه، ولا يجب على المسلمين المعتدلين الاعتذار.",
+        "evidence_quote": "\"الاعتذار يعني ان المسلمون اعتذروا عن خطأ لم يرتكبوه\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 8",
+        "kind": "rebuilding",
+        "summary": "الاعتذار والنقد خطوة أساسية لحل المشكلة، وأن المعارضة لا تفهم ذلك.",
+        "evidence_quote": "\"الاعتذار والنقد خطوة أساسية لحل المشكلة\"",
+        "counted": false,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "item": "تعريف جديد للمسلم المعتدل بعد تعريف الفريق الأول",
+        "issue": "تم إعادة تعريف بعد بداية الخطاب، ما يُعد غير مقبول في القواعد."
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "item": "تقديم تعريف جديد للمسلم المعتدل بعد تعريف الفريق الأول",
+        "issue": "تم إعادة تعريف بعد بداية الخطاب."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الاعتذار",
+        "importance": "core",
+        "proposition_side": "يدعم الاعتذار كوسيلة تصحيح المفاهيم",
+        "opposition_side": "يعارض الاعتذار كإقرار بخطأ غير ارتكبه",
+        "outcome": "proposition",
+        "reasoning": "الاعتذار لا يثبت التهمه، بل هو تصحيح للمفاهيم."
+      },
+      {
+        "clash_point": "النقد",
+        "importance": "core",
+        "proposition_side": "يدعم النقد كجزء من الإصلاح",
+        "opposition_side": "يُظهر عدم أهمية النقد أو يرفضه",
+        "outcome": "proposition",
+        "reasoning": "المسلمون المعتدلون بحاجة إلى النقد لتصحيح المفاهيم."
+      },
+      {
+        "clash_point": "تعريف المسلم المعتدل",
+        "importance": "secondary",
+        "proposition_side": "المسلمون المعتدلون لا ينتمون إلى الفكر الإرهابي",
+        "opposition_side": "المسلمون المعتدلون لا يعتذرون لأنهم لم يرتكبوا خطأ",
+        "outcome": "proposition",
+        "reasoning": "التعريف المتفق عليه في القاعدة يُعطي وزنًا للاعتذار."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition",
+      "style": "proposition",
+      "strategy": "proposition"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "reason": "الاعتذار لا يثبت التهمه، بل هو تصحيح للمفاهيم",
+          "where": "Speech 3",
+          "effect": "أزال اعتراض المعارضة على الاعتذار كإقرار بخطأ غير ارتكبه، مما ترك حجة الاعتذار صالحة.",
+          "evidence_quote": "\"الاعتذار لا يثبت التهمه\""
+        },
+        {
+          "reason": "النقد ضروري لتطهير سمعة الإسلام",
+          "where": "Speech 5",
+          "effect": "أظهر أن المعارضة تجاهلت أهمية النقد، مما أضعف موقفها.",
+          "evidence_quote": "\"المعارضة تجاهلت كلمة النقد\""
+        }
+      ]
+    },
+    "justification": "الاعتذار لا يثبت التهمه، بل هو تصحيح للمفاهيم، وهذا ما أكدته حجة الموالاة في الخطاب الثالث، بينما رفضت المعارضة الاعتذار كإقرار بخطأ غير ارتكبه. كما أظهرت حجة الموالاة أن النقد ضروري لتطهير سمعة الإسلام، بينما تجاهلت المعارضة هذه النقطة في الخطاب الخامس، ما جعل حجة الموالاة أقوى في كلا النقاط الرئيسيين للمناظرة.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "حجة غير منظمة، لكن أظهر تعريفًا واضحًا."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة قوية ضد الاعتذار، لكن غير متماسكة."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "أعاد بناء حجة الاعتذار بنجاح."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "حجة متكررة، لكن غير مقنعة."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "حجة متكررة، لكن غير متماسكة."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة متكررة، لكن غير مقنعة."
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 35,
+        "note": "حجة مختصرة، لكنها غير مقنعة."
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 37,
+        "note": "حجة مختصرة، لكنها غير مقنعة."
+      }
+    ],
+    "best_speaker": "Speech 3",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "قدرة على إعادة بناء حجة الاعتذار بنجاح.",
+          "استخدام أمثلة لتوضيح تصحيح المفاهيم."
+        ],
+        "improvements": [
+          "تحسين تنظيم الخطاب لتجنب التكرار.",
+          "تقديم أمثلة أكثر تحديدًا وواقعية."
+        ],
+        "recommendations": [
+          "ترتيب الحجج بوضوح: تعريف، حجة، مثال، تأثير.",
+          "استخدام لغة أكثر تحديدًا لتقليل الغموض."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "قدرة على طرح اعتراض واضح على الاعتذار.",
+          "استخدام أمثلة سياسية لتوضيح وجهة نظر."
+        ],
+        "improvements": [
+          "تحسين تنظيم الخطاب لتجنب التكرار.",
+          "تقديم حجة أكثر تحديدًا حول لماذا النقد غير ضروري."
+        ],
+        "recommendations": [
+          "ترتيب الحجج بوضوح: تعريف، حجة، مثال، تأثير.",
+          "تقليل التكرار والتركيز على النقاط الجوهرية."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription errors present",
+      "unintelligible passages in several speeches"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 9,
+      "quotes_found": 5,
+      "match_ratio": 0.556,
+      "unverified_quotes": [
+        "\"الاعتذار يعني ان المسلمون اعتذروا عن خطأ لم يرتكبوه\"",
+        "\"الاعتذار لا يثبت التهمه\"",
+        "\"الاعتذار يعني ان المسلمون اعتذروا عن خطأ لم يرتكبوه\"",
+        "\"الاعتذار لا يثبت التهمه\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 260,
+      "opposition": 252
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13869,
+        "output": 2350
+      }
+    ]
+  }
+}

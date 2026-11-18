@@ -1,0 +1,476 @@
+{
+  "$defs": {
+    "ArgumentRecord": {
+      "properties": {
+        "team": {
+          "enum": [
+            "proposition",
+            "opposition"
+          ],
+          "title": "Team",
+          "type": "string"
+        },
+        "speaker": {
+          "title": "Speaker",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "definition",
+            "substantive",
+            "refutation",
+            "rebuilding"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "summary": {
+          "title": "Summary",
+          "type": "string"
+        },
+        "evidence_quote": {
+          "description": "verbatim excerpt from the transcript, max 15 words",
+          "title": "Evidence Quote",
+          "type": "string"
+        },
+        "counted": {
+          "title": "Counted",
+          "type": "boolean"
+        },
+        "not_counted_reason": {
+          "description": "empty if counted; otherwise e.g. misplaced speech",
+          "title": "Not Counted Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "team",
+        "speaker",
+        "kind",
+        "summary",
+        "evidence_quote",
+        "counted",
+        "not_counted_reason"
+      ],
+      "title": "ArgumentRecord",
+      "type": "object"
+    },
+    "Clash": {
+      "properties": {
+        "clash_point": {
+          "title": "Clash Point",
+          "type": "string"
+        },
+        "importance": {
+          "enum": [
+            "core",
+            "secondary"
+          ],
+          "title": "Importance",
+          "type": "string"
+        },
+        "proposition_side": {
+          "title": "Proposition Side",
+          "type": "string"
+        },
+        "opposition_side": {
+          "title": "Opposition Side",
+          "type": "string"
+        },
+        "outcome": {
+          "enum": [
+            "proposition",
+            "opposition",
+            "unresolved"
+          ],
+          "title": "Outcome",
+          "type": "string"
+        },
+        "reasoning": {
+          "title": "Reasoning",
+          "type": "string"
+        }
+      },
+      "required": [
+        "clash_point",
+        "importance",
+        "proposition_side",
+        "opposition_side",
+        "outcome",
+        "reasoning"
+      ],
+      "title": "Clash",
+      "type": "object"
+    },
+    "Decision": {
+      "properties": {
+        "winner": {
+          "enum": [
+            "proposition",
+            "opposition"
+          ],
+          "title": "Winner",
+          "type": "string"
+        },
+        "margin": {
+          "enum": [
+            "narrow",
+            "clear",
+            "decisive"
+          ],
+          "title": "Margin",
+          "type": "string"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "key_reasons": {
+          "items": {
+            "$ref": "#/$defs/KeyReason"
+          },
+          "minItems": 1,
+          "title": "Key Reasons",
+          "type": "array"
+        }
+      },
+      "required": [
+        "winner",
+        "margin",
+        "confidence",
+        "key_reasons"
+      ],
+      "title": "Decision",
+      "type": "object"
+    },
+    "Feedback": {
+      "properties": {
+        "proposition": {
+          "$ref": "#/$defs/TeamFeedback"
+        },
+        "opposition": {
+          "$ref": "#/$defs/TeamFeedback"
+        }
+      },
+      "required": [
+        "proposition",
+        "opposition"
+      ],
+      "title": "Feedback",
+      "type": "object"
+    },
+    "Ground": {
+      "properties": {
+        "problem": {
+          "title": "Problem",
+          "type": "string"
+        },
+        "proposition_definition": {
+          "title": "Proposition Definition",
+          "type": "string"
+        },
+        "opposition_definition": {
+          "title": "Opposition Definition",
+          "type": "string"
+        },
+        "definition_contested": {
+          "title": "Definition Contested",
+          "type": "boolean"
+        },
+        "adopted_ground": {
+          "title": "Adopted Ground",
+          "type": "string"
+        }
+      },
+      "required": [
+        "problem",
+        "proposition_definition",
+        "opposition_definition",
+        "definition_contested",
+        "adopted_ground"
+      ],
+      "title": "Ground",
+      "type": "object"
+    },
+    "KeyReason": {
+      "properties": {
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "where": {
+          "description": "speaker / speech where it happened",
+          "title": "Where",
+          "type": "string"
+        },
+        "effect": {
+          "description": "how it changed the outcome",
+          "title": "Effect",
+          "type": "string"
+        },
+        "evidence_quote": {
+          "description": "verbatim excerpt from the transcript, max 15 words",
+          "title": "Evidence Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "reason",
+        "where",
+        "effect",
+        "evidence_quote"
+      ],
+      "title": "KeyReason",
+      "type": "object"
+    },
+    "MisplacedItem": {
+      "properties": {
+        "team": {
+          "enum": [
+            "proposition",
+            "opposition"
+          ],
+          "title": "Team",
+          "type": "string"
+        },
+        "speaker": {
+          "title": "Speaker",
+          "type": "string"
+        },
+        "item": {
+          "title": "Item",
+          "type": "string"
+        },
+        "issue": {
+          "title": "Issue",
+          "type": "string"
+        }
+      },
+      "required": [
+        "team",
+        "speaker",
+        "item",
+        "issue"
+      ],
+      "title": "MisplacedItem",
+      "type": "object"
+    },
+    "PillarsComparison": {
+      "properties": {
+        "content": {
+          "title": "Content",
+          "type": "string"
+        },
+        "style": {
+          "title": "Style",
+          "type": "string"
+        },
+        "strategy": {
+          "title": "Strategy",
+          "type": "string"
+        }
+      },
+      "required": [
+        "content",
+        "style",
+        "strategy"
+      ],
+      "title": "PillarsComparison",
+      "type": "object"
+    },
+    "Positions": {
+      "properties": {
+        "proposition": {
+          "title": "Proposition",
+          "type": "string"
+        },
+        "opposition": {
+          "title": "Opposition",
+          "type": "string"
+        }
+      },
+      "required": [
+        "proposition",
+        "opposition"
+      ],
+      "title": "Positions",
+      "type": "object"
+    },
+    "SpeakerScore": {
+      "properties": {
+        "speaker": {
+          "title": "Speaker",
+          "type": "string"
+        },
+        "team": {
+          "enum": [
+            "proposition",
+            "opposition"
+          ],
+          "title": "Team",
+          "type": "string"
+        },
+        "speech_type": {
+          "enum": [
+            "main",
+            "reply"
+          ],
+          "title": "Speech Type",
+          "type": "string"
+        },
+        "band": {
+          "enum": [
+            "violation",
+            "very_weak",
+            "weak",
+            "below_average",
+            "average",
+            "above_average",
+            "professional"
+          ],
+          "title": "Band",
+          "type": "string"
+        },
+        "score": {
+          "title": "Score",
+          "type": "integer"
+        },
+        "note": {
+          "title": "Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "speaker",
+        "team",
+        "speech_type",
+        "band",
+        "score",
+        "note"
+      ],
+      "title": "SpeakerScore",
+      "type": "object"
+    },
+    "TeamFeedback": {
+      "properties": {
+        "strengths": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Strengths",
+          "type": "array"
+        },
+        "improvements": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Improvements",
+          "type": "array"
+        },
+        "recommendations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Recommendations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "strengths",
+        "improvements",
+        "recommendations"
+      ],
+      "title": "TeamFeedback",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "ground": {
+      "$ref": "#/$defs/Ground"
+    },
+    "positions": {
+      "$ref": "#/$defs/Positions"
+    },
+    "clash_type": {
+      "enum": [
+        "direct_clash",
+        "parallel",
+        "same_position"
+      ],
+      "title": "Clash Type",
+      "type": "string"
+    },
+    "arguments": {
+      "items": {
+        "$ref": "#/$defs/ArgumentRecord"
+      },
+      "title": "Arguments",
+      "type": "array"
+    },
+    "misplaced_content": {
+      "items": {
+        "$ref": "#/$defs/MisplacedItem"
+      },
+      "title": "Misplaced Content",
+      "type": "array"
+    },
+    "clashes": {
+      "items": {
+        "$ref": "#/$defs/Clash"
+      },
+      "title": "Clashes",
+      "type": "array"
+    },
+    "pillars_comparison": {
+      "$ref": "#/$defs/PillarsComparison"
+    },
+    "decision": {
+      "$ref": "#/$defs/Decision"
+    },
+    "justification": {
+      "description": "concise, specific, announceable justification",
+      "title": "Justification",
+      "type": "string"
+    },
+    "speaker_scores": {
+      "items": {
+        "$ref": "#/$defs/SpeakerScore"
+      },
+      "title": "Speaker Scores",
+      "type": "array"
+    },
+    "best_speaker": {
+      "title": "Best Speaker",
+      "type": "string"
+    },
+    "feedback": {
+      "$ref": "#/$defs/Feedback"
+    },
+    "data_quality_flags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Data Quality Flags",
+      "type": "array"
+    }
+  },
+  "required": [
+    "ground",
+    "positions",
+    "clash_type",
+    "arguments",
+    "misplaced_content",
+    "clashes",
+    "pillars_comparison",
+    "decision",
+    "justification",
+    "speaker_scores",
+    "best_speaker",
+    "feedback",
+    "data_quality_flags"
+  ],
+  "title": "Verdict",
+  "type": "object"
+}

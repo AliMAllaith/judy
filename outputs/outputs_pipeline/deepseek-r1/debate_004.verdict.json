@@ -1,0 +1,650 @@
+{
+  "debate_id": "debate_004",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-05T11:18:38+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.95,
+    "justification": "Based on the clash analysis provided, the Opposition team was more persuasive. They successfully defined professional sports as intrinsically linked to ethical conduct and integrity, arguing that professionalism ensures discipline, protects athletes, and preserves the cultural and societal value of sports. The Proposition team's arguments focused on the negative aspects of professional sports but failed to directly address or refute the Opposition's core arguments about ethical integrity and stability. The Opposition won the decisive core clashes, particularly those related to ethical integrity and stability, which are central to the motion's implications."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the preference for a world without professional sports, specifically questioning whether sports should be pursued as a full-time profession or if ethical considerations should be prioritized.",
+        "proposition_definition": "The Proposition defined professional sports as sports pursued as a full-time career, focusing on dedication, training, and financial gain.",
+        "opposition_definition": "The Opposition defined professional sports as involving sportsmanship and ethical behavior in sports, including adherence to sports ethics and integrity.",
+        "definition_contested": true,
+        "adopted_ground": "The debate was fought on the clash between the definition of professional sports."
+      },
+      "proposition_position": "The Proposition argues that professional sports provide financial stability, success through dedication, and societal benefits, but neglects the ethical implications.",
+      "opposition_position": "The Opposition argues that professional sports lead to unethical behavior, negative societal impacts, and the loss of sports' intrinsic values, and that sports should be maintained with ethical principles.",
+      "clash_type": "mixed",
+      "clash_type_reason": "The debate featured a mixed clash where both teams engaged in direct attacks and counter-attacks on each other's arguments, particularly regarding the definition of professional sports and its implications."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعتمد بشكل كامل على الدخل الناتج عن الرياضة، مما قد يؤدي إلى إهمال مستقبل اللاعب.",
+            "responds_to": "",
+            "evidence_quote": "اللاعب المحترف يعتمد بمدخول اليومي بشكل كامل واساسي على هذه الرياضه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يتطلب بدء التدريب المبكر والتركيز الكامل منذ سن مبكرة، مما قد يمنع اللاعب من الاستفادة من فرص التعليمية والمهنية الأخرى.",
+            "responds_to": "",
+            "evidence_quote": "كيف يصبح اللاعب اصلا محترف يبدا الاحتراف او يبدا التدريب على دخول هذه الرياضه او دخول هذا المجال الرياضي من المرحله الصغيره او متقدمه جدا في العمر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التركيز المبكر على الاحتراف الرياضي يمنع اللاعب من استثمار طفولته بشكل متوازن، وغالباً ما يؤدي إلى إهمال التعليم والحياة العملية.",
+            "responds_to": "",
+            "evidence_quote": "لقد استثمر طفولته بشكل خاطئ لم يذهب الى الجامعه لن يلحق بالحياة العملية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي ي剥夺 اللاعب من فرص تطوير مهارات وخبرات أخرى، مما يحد من خياراته المستقبلية.",
+            "responds_to": "",
+            "evidence_quote": "لكل ما يضمن لك انك تاخذ وظائف اخرى على عكس اللاعب الرياضي الذي اصلح اصلا استثمر طفولته بشكل خاطئ",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يتطلب تضحيات كبيرة وتدريب صارم قد يؤدي إلى إرهاق اللاعب وتأثير سلبي على حياته الشخصية.",
+            "responds_to": "",
+            "evidence_quote": "لقد اكدت في مقابلتي انها كانت تجري عديد من التدريبات القاسيه حتى تصل الى هذا المركز",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعرض اللاعبين لضغوط نفسية ومخاطر مهنية كبيرة، حيث يمكن أن ينهيهم فشلهم عن العمل.",
+            "responds_to": "",
+            "evidence_quote": "اللاعب المحترف يواجه مخاطر كبيرة على مستقبله الشخصي والتاريخ الوظيفي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعتمد على مهارات قد تصبح غير مطلوبة بمجرد انتهاء مسيرة اللاعب، مما يقلل من فرص العمل المستقبلية.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف الرياضي يعتمد على مهارات محدودة جدا وليست مطلوبه في سوق العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعتمد على مهارات محدودة جدا وليست مطلوبه في سوق العمل، مما يعرض اللاعبين لفقدان الوظائف بعد انتهاء مCareers.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف الرياضي يعتمد على مهارات محدودة جدا وليست مطلوبه في سوق العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "الاحتراف تشمل الأخلاقيات الرياضية والأخلاق الإنسانية، وليس مجرد مهنة مادية.",
+            "responds_to": "",
+            "evidence_quote": "الاحترافيه تشمل الاخلاقيات الرياضيه بالاضافه الى الاخلاقيات انسانيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تضمن الانضباط اللازم للحفاظ على مستوى عالٍ في الرياضة، وإلا تؤدي إلى تدهور الأداء.",
+            "responds_to": "",
+            "evidence_quote": "فلناخذ على سبيل المثال لاعبا مثل بالو تيلي الذي كان يلعب في نادٍ إيطالي وكان لهذا اللاعب مستوى جيد لكن بسبب عدم الانضباط تدهور مستواه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تضمن نزاهة الرياضة و integritتمنع الممارسات غير الأخلاقية مثل تناول المنشطات.",
+            "responds_to": "",
+            "evidence_quote": "اللا احترافيه الرياضيه مثلا رياضي يتعاطى المنشطات لكي يحسن مستواه اثناء اللعب هذا الامر يدمر شفافيته ونزاهتها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تضمن أن الرياضة تظل نشطة ومحترمة، وإلا تفقد قيمتها الأساسية.",
+            "responds_to": "",
+            "evidence_quote": "فهنا فاننا هنا نتاكد ان اذا فقدت الرياضه هدفها وفقدت روحها النزيهة فاننا لن نهتم بالرياضه اساسا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية ضرورية للحفاظ على مكانة الرياضة في المجتمع وقيمتها الثقافية.",
+            "responds_to": "",
+            "evidence_quote": "الاحترافية تعني انضباطاً رفيعاً وسلوكاً أخلاقياً، وهو ما يضمن استمرار الرياضة في المجتمع.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يخلق فقاعات شهرية غير مستدامة تؤدي إلى انغماض اللاعب في الشهرة بدلاً من المهارات.",
+            "responds_to": "",
+            "evidence_quote": "هذا اللاعب بمجرد ان يدخل في هذه الفقاعه سوف ينغمس في هذه الفقاعه ما معنى ذلك اليوم سوف يظن ان هذه الفقاعه دائمه بمعنى انه سوف يظن ان شهرته هي دوما دائمه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يؤدي إلى تدمير نفسي للرياضيين بعد انتهاء شهرتهم.",
+            "responds_to": "",
+            "evidence_quote": "بعد انفجار فقاعه الاحتراف قد يصبح اللاعب عاطل عن العمل ويعاني من مشاكل نفسية مثل توجهه للcohol ويعيش في عزلة عن المجتمع.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف يخلق فقاعات نجمية مؤثرة على المجتمع من خلال جذب الشباب للانضمام دون النظر لاستقرارها.",
+            "responds_to": "",
+            "evidence_quote": "خلال فتره الفقاعه لديه تاثير كبير على المجتمع حيث يصبح اللاعب قدوة ويؤثر على الشباب في الاندفاع نحو مجال الرياضة دون النظر لاستقراره.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يفتقر إلى الاستقرار مما يعرض مستقبل اللاعبين للخطر.",
+            "responds_to": "",
+            "evidence_quote": "لذلك لا يوجد استقرار في عالم الاحتراف الرياضي، وهذا يشكل عامل خطر كبير للمستقبل المهني للرياضيين.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن الانضباط اللازم للحفاظ على مستوى عالٍ في الرياضة، وإلا تؤدي إلى تدهور الأداء.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن نزاهة الرياضة و integritتمنع الممارسات غير الأخلاقية مثل تناول المنشطات.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية ضرورية للحفاظ على مكانة الرياضة وقيمتها الثقافية في المجتمع.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن أن الرياضة تظل نشطة ومحترمة، وإلا تفقد قيمتها الأساسية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاحتراف لا يعتمد على المصطلحات الدقيقة، بل على مفهوم شامل يشمل الأخلاقيات والالتزام.",
+            "responds_to": "الاحتراف يخلق فقاعات شهرية غير مستدامة، والاحتراف يؤدي إلى تدمير نفسي للرياضيين بعد انتهاء شهرهم، والاحتراف يخلق فقاعات نجمية مؤثرة على المجتمع، والاحتراف الرياضي يفتقر إلى الاستقرار.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اللا احترافية قد تؤدي إلى تآكل القيم المجتمعية وجعل الرياضة عادية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اللا احترافية قد تؤدي إلى تراجع شعبيية الرياضة وتأثير سلبي على المجتمع.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "اللا احترافية قد تؤدي إلى انهيار اقتصادي للنادي والدولة من خلال فقدان الدعم والموارد.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الاحتراف الرياضي يعتمد على ممارسة الرياضة كمسار حياة كامل، مما ي剥夺 اللاعب من الاستقرار.",
+            "responds_to": "الاحترافية تضمن الانضباط والحفاظ على مستوى عالٍ في الرياضة، وإلا تؤدي إلى تدهور الأداء، والاحترافية تضمن نزاهة الرياضة و integritتمنع الممارسات غير الأخلاقية، والاحترافية ضرورية للحفاظ على مكانة الرياضة وقيمتها الثقافية، والاحترافية تضمن أن الرياضة تظل نشطة ومحترمة، وإلا تفقد قيمتها الأساسية.",
+            "evidence_quote": "الاحتراف يعتمد على ممارسة الرياضة كوظيفه، ويعمل كمسار حياة كامل، مما ي剥夺 اللاعب من الاستقرار.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تقدم قيمًا مثل اللياقه والانضباط، لكنها ليست كافية لضمان استمرارية الرياضة.",
+            "responds_to": "",
+            "evidence_quote": "اللياقه والانضباط هما مثالان للقيم التي تقدمها الرياضة، لكنهما ليست كافية لجعلها مهنة مستدامة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعتمد على ممارسة الرياضة كمسار حياة، لكن هذا يعرض اللاعب للإضرار النفسية.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يعتمد على ممارسة الرياضة كمسار حياة، لكن هذا يعرض اللاعب للإضرار النفسية بعد انتهاء مسيرته.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعتمد على ممارسة الرياضة كمسار حياة، مما يمنع تطوير مهارات أخرى.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يعتمد على ممارسة الرياضة كمسار حياة، مما يمنع اللاعب من تطوير مهارات أخرى.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعتمد على ممارسة الرياضة كمسار حياة، مما ي剥夺 اللاعب من وجود وظائف مستقرة.",
+            "responds_to": "",
+            "evidence_quote": "الاحتراف يعتمد على ممارسة الرياضة كمسار حياة، مما ي剥夺 اللاعب من وجود وظائف مستقرة بعد انتهاء مسيرته.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن الانضباط اللازم للحفاظ على مستوى عالٍ في الرياضة، وإلا تؤدي إلى تدهور الأداء.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن نزاهة الرياضة و integritتمنع الممارسات غير الأخلاقية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية ضرورية للحفاظ على مكانة الرياضة وقيمتها الثقافية في المجتمع.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن أن الرياضة تظل نشطة ومحترمة، وإلا تفقد قيمتها الأساسية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تضمن استقرار مهني للرياضيين، مما يحمي مصادر دخلهم.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تمنع تحويل الرياضة إلى مجرد عرض تلفزيوني.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تضمن أن اللاعبين يعيشون حياة مستقرة وليسوا مجرد نجوم مؤقتين.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاحترافية تحمي اللاعبين من التأثيرات السلبية للشهرة الفووقية.",
+            "responds_to": "الاحتراف يؤدي إلى تدمير نفسي للرياضيين بعد انتهاء شهرهم، والاحتراف يخلق فقاعات نجمية مؤثرة على المجتمع، والاحتراف الرياضي يفتقر إلى الاستقرار، والاحتراف يخلق فقاعات شهرية غير مستدامة.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن الانضباط اللازم للحفاظ على مستوى عالٍ في الرياضة، وإلا تؤدي إلى تدهور الأداء.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن نزاهة الرياضة و integritتمنع الممارسات غير الأخلاقية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية ضرورية للحفاظ على مكانة الرياضة وقيمتها الثقافية في المجتمع.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "الاحترافية تضمن أن الرياضة تظل نشطة ومحترمة، وإلا تفقد قيمتها الأساسية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تضمن استقرار مهني للرياضيين، مما يحمي مصادر دخلهم.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تمنع تحويل الرياضة إلى مجرد عرض تلفزيوني.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحترافية تضمن أن اللاعبين يعيشون حياة مستقرة وليسوا مجرد نجوم مؤقتين.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الاحترافية تحمي اللاعبين من التأثيرات السلبية للشهرة الفائقة.",
+            "responds_to": "الاحتراف يؤدي إلى تدمير نفسي للرياضيين بعد انتهاء شهرهم، والاحتراف يخلق فقاعات نجمية مؤثرة على المجتمع، والاحتراف الرياضي يفتقر إلى الاستقرار، والاحتراف يخلق فقاعات شهرية غير مستدامة.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الموالاة يرفض تعريف الاحترافية الذي يركز على الانضباط والنزاهة، معتبراً أنه لا يضمن بالضرورة السلوك الأخلاقي أو الاستقرار، بل قد يتجاهل الجوانب الإنسانية الأساسية.",
+            "responds_to": "الاحترافية تضمن الانضباط اللازم للحفاظ على مستوى عالٍ في الرياضة، وإلا تؤدي إلى تدهور الأداء، والاحترافية تضمن نزاهة الرياضة و integritتمنع الممارسات غير الأخلاقية، والاحترافية ضرورية للحفاظ على مكانة الرياضة وقيمتها الثقافية، والاحترافية تضمن أن الرياضة تظل نشطة ومحترمة، وإلا تفقد قيمتها الأساسية.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": "The argument that the definition of professional sports proposed by the opposition is flawed because it does not inherently guarantee ethical behavior or stability, and that professional sports can still have negative impacts despite the opposition's claims."
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يفتقر إلى الاستقرار مما يعرض اللاعبين لحياة غير مستقرة وخطر الانهيار.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يعتمد على مهارات محدودة ويدفع اللاعبين للمخاطرة بحياتهم المهنية والشخصية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاحتراف الرياضي يخلق فقاعات نجمية تؤثر سلباً على المجتمع من خلال تحويل الرياضة إلى عرض تلفزيوني بدلاً من نشاط صحي.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "الاحترافية تعني الانضباط والالتزام، مما يضمن نزاهة الرياضة وقيمتها الثقافية.",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition defined professionalism as encompassing ethical and moral aspects, while the proposition focused on financial and practical aspects. The opposition's arguments about discipline, integrity, and cultural value are supported by examples like the use of steroids and the importance of maintaining sports' ethical standards, which are not directly contested by the proposition. The proposition does not directly address this definition-based clash, allowing the opposition to maintain their point."
+        },
+        {
+          "clash_point": "الاحترافية تضمن استقرارًا مهنيًا وحماية اللاعب من التأثيرات السلبية بعد انتهاء مسيرته.",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition argues that professionalism ensures stability and security for athletes, while the proposition highlights the lack of stability and the risks of burnout and unemployment. The opposition's arguments about the stability provided by professionalism are not directly addressed or refuted by the proposition, who instead focus on the negative outcomes of professionalism without providing counter-evidence."
+        },
+        {
+          "clash_point": "الاحترافية تقدم قيمًا إيجابية مثل الانضباط والالتزام الأخلاقي، بينما تفتقر إلى الاستقرار وتعتمد على مهارات محدودة.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition emphasizes the positive values of professionalism, while the proposition argues that these values are not guaranteed and that professionalism leads to negative outcomes. The opposition's arguments about the positive values are not directly contested, while the proposition's arguments about the lack of stability are not fully addressed."
+        },
+        {
+          "clash_point": "الاحترافية تحمي الرياضة من التحول إلى عرض تلفزيوني أو نشاط غير جاد.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition argues that professionalism prevents sports from becoming mere entertainment, while the proposition does not directly address this point. The proposition focuses on the negative aspects of professionalism without providing evidence that it leads to sports becoming entertainment."
+        },
+        {
+          "clash_point": "الاحترافية تضمن نموذجًا مهنيًا مستقرًا يحمي اللاعبين من التأثيرات السلبية للمشهرة الفوهرية.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition claims that professionalism provides a stable career model, while the proposition does not directly counter this claim. The proposition's arguments focus on the negative aspects of professional sports without directly addressing the stability aspect."
+        },
+        {
+          "clash_point": "الاحترافية تضمن الحفاظ على مستوى عالٍ من الأداء والانضباط، مما يحافظ على نزاهة الرياضة.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition argues that professionalism ensures high performance and ethical conduct, while the proposition does not directly challenge this. The proposition's arguments are focused on the negative outcomes of professionalism without directly refuting the positive aspects."
+        },
+        {
+          "clash_point": "الاحترافية تضمن استمرارية الرياضة وقيمتها الثقافية في المجتمع.",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition emphasizes the cultural and societal importance of professionalism, while the proposition does not directly address this point. The proposition's arguments are centered on the drawbacks of professional sports without challenging the cultural benefits."
+        },
+        {
+          "clash_point": "الاحترافية تحمي اللاعبين من التأثيرات النفسية والاجتماعية الضارة الناتجة عن الشهرة.",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition argues that professionalism protects athletes from the negative effects of fame, while the proposition does not directly counter this. The proposition's arguments about the negative impacts of professional sports are not directly addressed by the opposition, but the opposition does not provide evidence to counter them."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The Opposition effectively defined professionalism as encompassing ethical and moral standards, linking it to integrity and cultural value. This definition was not adequately challenged by the Proposition, who focused on negatives without directly addressing the ethical framework the Opposition presented.",
+          "evidence_quote": "الاحترافية تعني الانضباط والالتزام، مما يضمن نزاهة الرياضة وقيمتها الثقافية."
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition argued that professionalism provides stability and security for athletes, protecting them from negative outcomes. The Proposition did not directly address this point, instead focusing on the negative aspects without offering a compelling counter-narrative.",
+          "evidence_quote": "الاحترافية تضمن استقرارًا مهنيًا وحماية اللاعب من التأثيرات السلبية بعد انتهاء مسيرته."
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition emphasized the positive ethical outcomes of professionalism, such as maintaining high performance standards and ethical conduct. The Proposition's arguments about the negative aspects of professional sports did not directly challenge these core ethical benefits.",
+          "evidence_quote": "الاحترافية تضمن الحفاظ على مستوى عالٍ من الأداء والانضباط، مما يحافظ على نزاهة الرياضة."
+        }
+      ],
+      "justification": "Based on the clash analysis provided, the Opposition team was more persuasive. They successfully defined professional sports as intrinsically linked to ethical conduct and integrity, arguing that professionalism ensures discipline, protects athletes, and preserves the cultural and societal value of sports. The Proposition team's arguments focused on the negative aspects of professional sports but failed to directly address or refute the Opposition's core arguments about ethical integrity and stability. The Opposition won the decisive core clashes, particularly those related to ethical integrity and stability, which are central to the motion's implications."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 22,
+      "not_found": [
+        "كيف يصبح اللاعب اصلا محترف يبدا الاحتراف او يبدا التدريب على دخول هذه الرياضه او دخول هذا المجال الرياضي من المرحله الصغيره او متقدمه جدا في العمر",
+        "لقد استثمر طفولته بشكل خاطئ لم يذهب الى الجامعه لن يلحق بالحياة العملية",
+        "لكل ما يضمن لك انك تاخذ وظائف اخرى على عكس اللاعب الرياضي الذي اصلح اصلا استثمر طفولته بشكل خاطئ",
+        "لقد اكدت في مقابلتي انها كانت تجري عديد من التدريبات القاسيه حتى تصل الى هذا المركز",
+        "اللاعب المحترف يواجه مخاطر كبيرة على مستقبله الشخصي والتاريخ الوظيفي",
+        "الاحتراف الرياضي يعتمد على مهارات محدودة جدا وليست مطلوبه في سوق العمل",
+        "الاحتراف الرياضي يعتمد على مهارات محدودة جدا وليست مطلوبه في سوق العمل",
+        "فلناخذ على سبيل المثال لاعبا مثل بالو تيلي الذي كان يلعب في نادٍ إيطالي وكان لهذا اللاعب مستوى جيد لكن بسبب عدم الانضباط تدهور مستواه",
+        "اللا احترافيه الرياضيه مثلا رياضي يتعاطى المنشطات لكي يحسن مستواه اثناء اللعب هذا الامر يدمر شفافيته ونزاهتها",
+        "فهنا فاننا هنا نتاكد ان اذا فقدت الرياضه هدفها وفقدت روحها النزيهة فاننا لن نهتم بالرياضه اساسا",
+        "الاحترافية تعني انضباطاً رفيعاً وسلوكاً أخلاقياً، وهو ما يضمن استمرار الرياضة في المجتمع.",
+        "هذا اللاعب بمجرد ان يدخل في هذه الفقاعه سوف ينغمس في هذه الفقاعه ما معنى ذلك اليوم سوف يظن ان هذه الفقاعه دائمه بمعنى انه سوف يظن ان شهرته هي دوما دائمه",
+        "بعد انفجار فقاعه الاحتراف قد يصبح اللاعب عاطل عن العمل ويعاني من مشاكل نفسية مثل توجهه للcohol ويعيش في عزلة عن المجتمع.",
+        "خلال فتره الفقاعه لديه تاثير كبير على المجتمع حيث يصبح اللاعب قدوة ويؤثر على الشباب في الاندفاع نحو مجال الرياضة دون النظر لاستقراره.",
+        "لذلك لا يوجد استقرار في عالم الاحتراف الرياضي، وهذا يشكل عامل خطر كبير للمستقبل المهني للرياضيين.",
+        "الاحتراف يعتمد على ممارسة الرياضة كوظيفه، ويعمل كمسار حياة كامل، مما ي剥夺 اللاعب من الاستقرار.",
+        "اللياقه والانضباط هما مثالان للقيم التي تقدمها الرياضة، لكنهما ليست كافية لجعلها مهنة مستدامة.",
+        "الاحتراف يعتمد على ممارسة الرياضة كمسار حياة، لكن هذا يعرض اللاعب للإضرار النفسية بعد انتهاء مسيرته.",
+        "الاحتراف يعتمد على ممارسة الرياضة كمسار حياة، مما يمنع اللاعب من تطوير مهارات أخرى.",
+        "الاحتراف يعتمد على ممارسة الرياضة كمسار حياة، مما ي剥夺 اللاعب من وجود وظائف مستقرة بعد انتهاء مسيرته."
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "الاحترافية تعني الانضباط والالتزام، مما يضمن نزاهة الرياضة وقيمتها الثقافية.",
+        "الاحترافية تضمن استقرارًا مهنيًا وحماية اللاعب من التأثيرات السلبية بعد انتهاء مسيرته.",
+        "الاحترافية تضمن الحفاظ على مستوى عالٍ من الأداء والانضباط، مما يحافظ على نزاهة الرياضة."
+      ]
+    },
+    "core_clash_leader": "opposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 8,
+    "prompt_tokens": 45853,
+    "output_tokens": 13591
+  }
+}

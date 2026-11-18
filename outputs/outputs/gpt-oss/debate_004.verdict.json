@@ -1,0 +1,298 @@
+{
+  "debate_id": "debate_004",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-03T11:23:23+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.85,
+    "justification": "Opposition's arguments survived the clash points because they were better structured, directly addressed the core issues, and provided concrete examples. Proposition's arguments were fragmented and lacked clear logical chains, leading to their dismissal.",
+    "best_speaker": "Speech 3 (Proposition second speaker)"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+      "proposition_definition": "الاحتراف الرياضي هو تركيز كامل وتفرغ للرياضة كمهنة، مما يؤدي إلى عدم استقرار حياة الرياضيين",
+      "opposition_definition": "الاحتراف الرياضي يشمل الالتزام بالأخلاقيات والمهارات الرياضية، ويعزز الرياضة كمهنة مستقرة",
+      "definition_contested": true,
+      "adopted_ground": "نفس النص، لكن مع خلاف في التفسير"
+    },
+    "positions": {
+      "proposition": "تفضيل عالم بدون احتراف رياضي",
+      "opposition": "رفض التفضيل، دعم الاحتراف الرياضي"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "الاحتراف الرياضي يخلق عدم استقرار للرياضيين بسبب الاعتماد الكامل على الدخل الرياضي، ويؤدي إلى فقدان فرص التعليم والعمل",
+        "evidence_quote": "\"يترك الدراسة ويترك المستقبل\"",
+        "counted": false,
+        "not_counted_reason": "مبهمة وغير مترابطة"
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "substantive",
+        "summary": "الاحتراف الرياضي يخلق فقاعة شهرة غير مستدامة، مما يؤدي إلى اضطراب نفسي للرياضيين عند سقوط الشهرة",
+        "evidence_quote": "\"فقدان الشهرة يؤدي إلى اضطراب نفسي\"",
+        "counted": false,
+        "not_counted_reason": "مبهمة وغير مترابطة"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "الاحتراف الرياضي يضمن الانضباط، الأخلاقيات، ويعزز الاقتصاد الرياضي",
+        "evidence_quote": "\"الاحتراف الرياضي يضمن الانضباط\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "substantive",
+        "summary": "الاحتراف الرياضي يخلق فرص عمل، يرفع مستوى الرياضة، ويعزز صورة المجتمع",
+        "evidence_quote": "\"يخلق فرص عمل ويعزز صورة المجتمع\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "substantive",
+        "summary": "الاحتراف الرياضي يضمن شفافية، ويعزز قيم الرياضة، ويقلل من السلوكيات غير الأخلاقية",
+        "evidence_quote": "\"يقلل من السلوكيات غير الأخلاقية\"",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "item": "تعاريف جديدة للاحتراف الرياضي",
+        "issue": "تم تقديم تعريف جديد بعد أول متحدث، ما قد يُعتبر محتوى غير مخصص للخطاب الأول"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "تعريف الاحتراف الرياضي",
+        "importance": "core",
+        "proposition_side": "الاحتراف = تركيز كامل وتفرغ",
+        "opposition_side": "الاحتراف = الالتزام بالأخلاقيات والمهارات",
+        "outcome": "opposition",
+        "reasoning": "Opposition قدم تعريفاً واضحاً ومتماشياً مع النص، ورفض التفسير المتمركز على التفرغ الكامل"
+      },
+      {
+        "clash_point": "أثر الاحتراف على الرياضيين",
+        "importance": "core",
+        "proposition_side": "عدم استقرار، فقاعة شهرة، اضطراب نفسي",
+        "opposition_side": "انضباط، فرص عمل، استقرار",
+        "outcome": "opposition",
+        "reasoning": "Opposition قدم حجة مبنية على أمثلة واقعية (الاقتصاد، الانضباط) وتفنيد حجة عدم الاستقرار"
+      },
+      {
+        "clash_point": "أثر الاحتراف على المجتمع",
+        "importance": "secondary",
+        "proposition_side": "تأثير سلبي على المجتمع عبر نماذج سلبية",
+        "opposition_side": "تأثير إيجابي عبر الاقتصاد والشفافية",
+        "outcome": "opposition",
+        "reasoning": "Opposition استخدم حجة اقتصادية واضحة، بينما Proposition لم يقدم حجة مقنعة"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition قدم حجة أكثر تنظيمًا وتفصيلًا، مع أمثلة واقعية، بينما Proposition كان متشتتًا وغير مترابط",
+      "style": "Opposition استخدم لغة أكثر وضوحًا، رغم بعض الأخطاء، بينما Proposition كان أكثر تشتتًا",
+      "strategy": "Opposition حافظ على تعريفه منذ البداية، ورفض التغيير، بينما Proposition حاول تغيير التعريف في منتصف الخطاب"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "reason": "Opposition قدم تعريفًا واضحًا ومتماشياً مع النص، مما أتاحها بناء حجة قوية",
+          "where": "Speech 2",
+          "effect": "أقنع القاضي بأن تعريف الاحتراف الرياضي هو الالتزام بالأخلاقيات والمهارات، وليس التفرغ الكامل",
+          "evidence_quote": "\"الاحتراف الرياضي يضمن الانضباط\""
+        },
+        {
+          "reason": "Opposition تفنيد حجة عدم الاستقرار للرياضيين بوسائل واقعية (الاقتصاد، الانضباط)",
+          "where": "Speech 4",
+          "effect": "أظهر أن الاحتراف يوفر فرص عمل ويقلل من المخاطر",
+          "evidence_quote": "\"يخلق فرص عمل ويعزز صورة المجتمع\""
+        },
+        {
+          "reason": "Opposition استخدم أمثلة واقعية (الاقتصاد، الشفافية) لتدعيم حجة إيجابية",
+          "where": "Speech 6",
+          "effect": "أقنع القاضي بأن الاحتراف يضيف قيمة للرياضة والمجتمع",
+          "evidence_quote": "\"يقلل من السلوكيات غير الأخلاقية\""
+        }
+      ]
+    },
+    "justification": "Opposition's arguments survived the clash points because they were better structured, directly addressed the core issues, and provided concrete examples. Proposition's arguments were fragmented and lacked clear logical chains, leading to their dismissal.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "مبهمة، غير مترابطة، أمثلة غير منظمة"
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "تعريف واضح، أمثلة واقعية، بعض التشتت"
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة أكثر تنظيمًا، لكن لا تزال غير مقنعة"
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة منظمة، أمثلة واقعية"
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة متكررة، غير مقنعة"
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة متكاملة، أمثلة واقعية"
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "ملخص جيد، دعم حجة الفريق"
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "ملخص جيد، لكن أقل قوة من الرد المعارض"
+      }
+    ],
+    "best_speaker": "Speech 3 (Proposition second speaker)",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "قدرة على تقديم أمثلة واقعية عن مخاطر الاحتراف الرياضي",
+          "حاولت بناء حجة حول عدم الاستقرار والفقاعة الشهرة"
+        ],
+        "improvements": [
+          "تحسين تنظيم الحجة وتقديم سلسلة منطقية واضحة",
+          "تجنب التشتت والتركيز على نقاط رئيسية واحدة",
+          "استخدام أمثلة أكثر تحديدًا وتوثيقًا"
+        ],
+        "recommendations": [
+          "تحديد تعريف واضح للموضوع منذ البداية",
+          "استخدام بنية حجة: ادعاء، دليل، تحليل، تأثير",
+          "التركيز على نقاط القاضي الرئيسية وتجنب التشتت"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "تعريف واضح ومتماشي مع النص",
+          "حجة منظمة مع أمثلة واقعية",
+          "تفنيد حجة عدم الاستقرار للرياضيين"
+        ],
+        "improvements": [
+          "تقليل التكرار في الحجة",
+          "تحسين تدفق الكلام لتجنب التشتت",
+          "استخدام أمثلة أكثر تحديدًا"
+        ],
+        "recommendations": [
+          "التركيز على نقاط القاضي الرئيسية وتقديم حجة واحدة قوية",
+          "استخدام بنية حجة واضحة: ادعاء، دليل، تحليل، تأثير",
+          "تجنب التكرار غير الضروري"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription_errors",
+      "unintelligible_passages"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "\"يترك الدراسة ويترك المستقبل\"",
+        "\"فقدان الشهرة يؤدي إلى اضطراب نفسي\"",
+        "\"الاحتراف الرياضي يضمن الانضباط\"",
+        "\"يخلق فرص عمل ويعزز صورة المجتمع\"",
+        "\"يقلل من السلوكيات غير الأخلاقية\"",
+        "\"الاحتراف الرياضي يضمن الانضباط\"",
+        "\"يخلق فرص عمل ويعزز صورة المجتمع\"",
+        "\"يقلل من السلوكيات غير الأخلاقية\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 250,
+      "opposition": 252
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 12982,
+        "output": 2389
+      }
+    ]
+  }
+}

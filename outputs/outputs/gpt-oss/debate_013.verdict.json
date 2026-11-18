@@ -1,0 +1,283 @@
+{
+  "debate_id": "debate_013",
+  "motion": "سيلغي هذا المجلس التأشيرة بين الدول العربية",
+  "generated_at": "2026-11-04T08:48:23+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.7,
+    "justification": "Proposition قدم حجة متماسكة حول الأمن والوحدة والاقتصاد، ونجح في تفنيد حجة Opposition حول الأمن. Opposition اعتمدت على ادعاءات عامة بدون أدلة، مما جعل حجتها ضعيفة. لذلك فاز فريق الموالاة.",
+    "best_speaker": "Speech 6"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "هل يجب على المجلس إلغاء التأشيرة بين الدول العربية؟",
+      "proposition_definition": "التأشيرة هي ختم يُمنح لحامها للدخول إلى دولة عربية وفق شروط محددة.",
+      "opposition_definition": "التأشيرة تُعطي إذنًا رسميًا للدخول، ويجب الحفاظ على حدود الدولة.",
+      "definition_contested": false,
+      "adopted_ground": "الموالاة والمعارضة يتفقان على نفس تعريف التأشيرة ويستمرون في مناقشة أثر إلغائها."
+    },
+    "positions": {
+      "proposition": "يدعم إلغاء التأشيرة بين الدول العربية.",
+      "opposition": "يعارض إلغاء التأشيرة بين الدول العربية."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "إلغاء التأشيرة سيعزز الوحدة الوطنية، ويقلل الفساد، ويزيد الاستثمار والسياحة.",
+        "evidence_quote": "\"إلغاء التأشيرة يؤدي إلى تعزيز الروابط القومية بين العرب\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "إلغاء التأشيرة سيهدد الأمن، يفتح الباب للانقسامات والحروب، ويقلل حماية المواطنين.",
+        "evidence_quote": "\"إلغاء التأشيرة يعني تهديد للأمن الوطني\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "refutation",
+        "summary": "رفض تعريف التأشيرة غير صحيح، وأكد أن إلغاء التأشيرة لا يعني إلغاء الأمن.",
+        "evidence_quote": "\"نحن لن نلغي الأمن، لن نلغي الجهات الأمنية\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "refutation",
+        "summary": "رفض مثال الاتحاد الأوروبي، وأكد أن الدول العربية تواجه حروبًا حقيقية.",
+        "evidence_quote": "\"الاتحاد الأوروبي لم يتحد إلا لأجل تحقيق الاستقرار\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 5",
+        "kind": "rebuilding",
+        "summary": "أعاد بناء حجته حول الأمن، واللاجئين، والسياحة، مع ذكر أمثلة واقعية.",
+        "evidence_quote": "\"إلغاء التأشيرة سيساهم في تسهيل حق اللجوء\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "rebuilding",
+        "summary": "أعاد بناء حجته حول الأمن، والاقتصاد، والإنسانية، مع ذكر أمثلة حروب.",
+        "evidence_quote": "\"إلغاء التأشيرة لن يكون فعالاً أبداً\"",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "الأمن",
+        "importance": "core",
+        "proposition_side": "إلغاء التأشيرة لا يهدد الأمن، بل يعزز التعاون الأمني.",
+        "opposition_side": "إلغاء التأشيرة يفتح الباب للانقسامات ويهدد الأمن الوطني.",
+        "outcome": "proposition",
+        "reasoning": "الـProposition قدم حجة واضحة بأن الأمن سيظل قائمًا مع إلغاء التأشيرة، بينما Opposition لم تُظهر دليلًا ملموسًا."
+      },
+      {
+        "clash_point": "الوحدة الوطنية",
+        "importance": "core",
+        "proposition_side": "إلغاء التأشيرة يعزز الروابط القومية ويقوي الوحدة.",
+        "opposition_side": "لا يوجد حجة قوية ضد ذلك.",
+        "outcome": "proposition",
+        "reasoning": "Proposition قدم مثالًا على الاتحاد الأوروبي وأظهر كيف يمكن للتأشيرة أن تعزز الوحدة."
+      },
+      {
+        "clash_point": "الاقتصاد والسياحة",
+        "importance": "secondary",
+        "proposition_side": "إلغاء التأشيرة سيزيد الاستثمار والسياحة.",
+        "opposition_side": "لا يوجد حجة قوية ضد ذلك.",
+        "outcome": "proposition",
+        "reasoning": "Proposition استخدم إحصاءات تقريبية وأمثلة واقعية."
+      },
+      {
+        "clash_point": "التعريف",
+        "importance": "secondary",
+        "proposition_side": "التعريف صحيح ولا يحتاج إلى تعديل.",
+        "opposition_side": "رفض تعريف التأشيرة غير صحيح.",
+        "outcome": "proposition",
+        "reasoning": "Proposition قدم حجة واضحة بأن تعريفه صحيح."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Proposition قدم حججًا أكثر تفصيلًا وإثباتًا، بينما Opposition اعتمدت على ادعاءات عامة.",
+      "style": "Proposition استخدم لغة أكثر وضوحًا، Opposition كانت متكررة وغير منظمة.",
+      "strategy": "Proposition حافظ على دورها في بناء والحماية، Opposition حاولت التفنيد لكن لم ينجح."
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "reason": "Proposition نجحت في إقناع حول الأمن والوحدة والاقتصاد.",
+          "where": "Speech 3 و Speech 5",
+          "effect": "أغلق حجة Opposition حول الأمن وقدم بدائل واقعية.",
+          "evidence_quote": "\"نحن لن نلغي الأمن، لن نلغي الجهات الأمنية\""
+        },
+        {
+          "reason": "Opposition لم يقدم أدلة ملموسة على أن إلغاء التأشيرة سيؤدي إلى حروب.",
+          "where": "Speech 2 و Speech 4",
+          "effect": "ترك حجة غير مدعومة.",
+          "evidence_quote": "\"إلغاء التأشيرة يعني تهديد للأمن الوطني\""
+        }
+      ]
+    },
+    "justification": "Proposition قدم حجة متماسكة حول الأمن والوحدة والاقتصاد، ونجح في تفنيد حجة Opposition حول الأمن. Opposition اعتمدت على ادعاءات عامة بدون أدلة، مما جعل حجتها ضعيفة. لذلك فاز فريق الموالاة.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "محتوى غير منظم، تكرار، نقص في الأدلة."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "محتوى غير منظم، تكرار، نقص في الأدلة."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "تفنيد واضح، إعادة بناء، أمثلة واقعية."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "تفنيد واضح، إعادة بناء، أمثلة واقعية."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "إعادة بناء قوية، أمثلة واقعية، توضيح للأمن والاقتصاد."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "إعادة بناء قوية، أمثلة واقعية، توضيح للأمن والاقتصاد."
+      }
+    ],
+    "best_speaker": "Speech 6",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "قدّم حججًا واضحة حول الأمن والوحدة والاقتصاد.",
+          "استخدم أمثلة واقعية مثل الاتحاد الأوروبي.",
+          "أظهر قدرة على التفنيد وإعادة البناء."
+        ],
+        "improvements": [
+          "تحسين تنظيم الخطاب لتجنب التكرار.",
+          "تقديم أدلة أكثر تفصيلًا وإحصاءات دقيقة.",
+          "تقليل التشتت في الموضوعات."
+        ],
+        "recommendations": [
+          "استخدام مخطط واضح للخطاب (مقدمة، تعريف، حجج، تفنيد، إعادة بناء).",
+          "إضافة أمثلة محددة مع إحصاءات موثوقة.",
+          "التركيز على نقاط الصراع الرئيسية وتجنب التكرار."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "قدّم حججًا حول الأمن والاقتصاد والإنسانية.",
+          "أظهر قدرة على التفنيد وإعادة البناء.",
+          "استخدم أمثلة واقعية مثل حروب السعودية واليمن."
+        ],
+        "improvements": [
+          "تحسين تنظيم الخطاب لتجنب التكرار.",
+          "تقديم أدلة أكثر تفصيلًا وإحصاءات دقيقة.",
+          "تقليل التشتت في الموضوعات."
+        ],
+        "recommendations": [
+          "استخدام مخطط واضح للخطاب (مقدمة، تعريف، حجج، تفنيد، إعادة بناء).",
+          "إضافة أمثلة محددة مع إحصاءات موثوقة.",
+          "التركيز على نقاط الصراع الرئيسية وتجنب التكرار."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription_errors",
+      "incomplete_sections"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 4,
+      "match_ratio": 0.5,
+      "unverified_quotes": [
+        "\"نحن لن نلغي الأمن، لن نلغي الجهات الأمنية\"",
+        "\"الاتحاد الأوروبي لم يتحد إلا لأجل تحقيق الاستقرار\"",
+        "\"إلغاء التأشيرة سيساهم في تسهيل حق اللجوء\"",
+        "\"نحن لن نلغي الأمن، لن نلغي الجهات الأمنية\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 226,
+      "opposition": 226
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 12018,
+        "output": 2294
+      }
+    ]
+  }
+}

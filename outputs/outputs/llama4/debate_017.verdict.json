@@ -1,0 +1,256 @@
+{
+  "debate_id": "debate_017",
+  "motion": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+  "generated_at": "2026-11-05T11:56:47+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.8,
+    "justification": "الموالاة قدمت حجج وبراهين أكثر إقناعا حول حل مشكلة التغير المناخي وتحقيق توازن وعيش كريم للدول المتضررة",
+    "best_speaker": "المتحدث الثالث - الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+      "proposition_definition": "اقتطاع جزء من أراضي دول العالم الأول ومنحها للدول المتضررة من التغير المناخي",
+      "opposition_definition": "لا يمكن حل مشكلة التغير المناخي عبر اقتطاع أراضي دول العالم الأول ومنحها للدول المتضررة",
+      "definition_contested": true,
+      "adopted_ground": "التغير المناخي وتأثيراته على الدول المتضررة"
+    },
+    "positions": {
+      "proposition": "دعم قرار مجلسكم الموقر باقتطاع جزء من أراضي دول العالم الأول ومنحها للدول المتضررة من التغير المناخي",
+      "opposition": "معارضة قرار مجلسكم الموقر باقتطاع جزء من أراضي دول العالم الأول ومنحها للدول المتضررة من التغير المناخي"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "جلب توازن وعيش كريم للدول المتضررة من التغير المناخي وتحمل دول العالم الأول المسؤولية تجاه الدول الأخرى",
+        "evidence_quote": "اهم من الجغرافيا نعم سياده الكرام البشريه اهم من الجغرافيا جئنا اليوم لندعم قرار مجلسكم الموقر القائل بانه سيقتطع هذا المجلس جزءا من اراضي دول العالم ويمنحها للدول المتضرره من التغير المناخي",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "القرار لا يحل مشكلة التغير المناخي من أساسها",
+        "evidence_quote": "نتساءل كيف هذه المشكله سوف تحل من خلال تطبيق هذا الموضوع فلذلك ايها الجمهور الكريم جاءت بالتعريف انه غامض جدا",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "rebuilding",
+        "summary": "حماية اللاجئين البيئيين وتحقيق العدالة الإنسانية",
+        "evidence_quote": "دعونا بقرار مجلسكم الموقر نحل تلك المشاكل ونوطن اللاجئين البيئيين في ارض محدده ونحافظ على هويتهم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "القرار ينتهك حقوق مواطني الدول العالم الأول",
+        "evidence_quote": "عندما جاءت الموالاه لاعطائها جزءا من هذه الاراضي هذا يدل على ان حقوق مواطن الدوله لازال تلك الدوله قد انتهجت",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثالث",
+        "item": "new independent argument",
+        "issue": "mentioning الدول المسببة للمشاكل البيئية"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "حل مشكلة التغير المناخي",
+        "importance": "core",
+        "proposition_side": "proposition",
+        "opposition_side": "opposition",
+        "outcome": "proposition",
+        "reasoning": "البراهين و الحجج التي قدمتها الموالاة كانت أكثر إقناعا وتركيزا على حل المشكلة"
+      },
+      {
+        "clash_point": "حقوق المواطنين",
+        "importance": "core",
+        "proposition_side": "proposition",
+        "opposition_side": "opposition",
+        "outcome": "opposition",
+        "reasoning": "المعارضة قدمت حجج قوية حول انتهاك حقوق المواطنين في دول العالم الأول"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الموالاة",
+      "style": "الموالاة",
+      "strategy": "الموالاة"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.8,
+      "key_reasons": [
+        {
+          "reason": "الموالاة قدمت براهين وحجج أكثر إقناعا",
+          "where": "المتحدث الأول و الثاني من الموالاة",
+          "effect": "إقناع القاضي بأن الموالاة أكثر قدرة على حل المشكلة",
+          "evidence_quote": "جئنا اليوم لندعم قرار مجلسكم الموقر القائل بانه سيقتطع هذا المجلس جزءا من اراضي دول العالم ويمنحها للدول المتضرره من التغير المناخي"
+        }
+      ]
+    },
+    "justification": "الموالاة قدمت حجج وبراهين أكثر إقناعا حول حل مشكلة التغير المناخي وتحقيق توازن وعيش كريم للدول المتضررة",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حجج قوية ومتكاملة حول حل المشكلة"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "حجج جيدة حول عدم واقعية القرار"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "حجج قوية حول حماية اللاجئين البيئيين"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حجج جيدة حول انتهاك حقوق المواطنين"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "حجج قوية حول العدالة والمسؤولية"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حجج جيدة حول المساوئ المحتملة للقرار"
+      },
+      {
+        "speaker": "المتحدث - المعارضة (خطاب الرد)",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "حجج جيدة حول التناقضات في حجج الموالاة"
+      },
+      {
+        "speaker": "المتحدث - الموالاة (خطاب الرد)",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "professional",
+        "score": 40,
+        "note": "حجج قوية حول حل المشكلة وتحقيق العدالة"
+      }
+    ],
+    "best_speaker": "المتحدث الثالث - الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حجج قوية ومتكاملة حول حل المشكلة",
+          "إقناع القاضي بأن الموالاة أكثر قدرة على حل المشكلة"
+        ],
+        "improvements": [
+          "التركيز على تفنيد حجج المعارضة بشكل أكبر",
+          "تقديم أمثلة وتدليل أكثر على فعالية القرار"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم حجج قوية ومتكاملة",
+          "التركيز على نقاط القوة في حجج الموالاة"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج جيدة حول عدم واقعية القرار",
+          "حجج جيدة حول انتهاك حقوق المواطنين"
+        ],
+        "improvements": [
+          "تقديم حجج أكثر إقناعا حول حل المشكلة",
+          "التركيز على نقاط الضعف في حجج الموالاة"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم حجج جيدة ومتماسكة",
+          "التركيز على نقاط الضعف في حجج الموالاة"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcript seems mostly complete and clear"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 4,
+      "match_ratio": 0.8,
+      "unverified_quotes": [
+        "نتساءل كيف هذه المشكله سوف تحل من خلال تطبيق هذا الموضوع فلذلك ايها الجمهور الكريم جاءت بالتعريف انه غامض جدا"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 283,
+      "opposition": 269
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 12560,
+        "output": 2136
+      }
+    ]
+  }
+}

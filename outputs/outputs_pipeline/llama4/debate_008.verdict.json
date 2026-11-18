@@ -1,0 +1,627 @@
+{
+  "debate_id": "debate_008",
+  "motion": "لن يقدم هذا المجلس مساعدات إنمائية للدول التي لا تجري إصلاحات سياسية",
+  "generated_at": "2026-11-03T14:21:25+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "decisive",
+    "confidence": 0.7,
+    "justification": "فريق الموالاة قدم حججً مقنعة حول كيفية استخدام المساعدات الإنمائية لتعزيز فساد الأنظمة في الدول التي لا تجري إصلاحات سياسية، كما أشار إلى أن هذه المساعدات قد لا تصل إلى الشعب. بينما لم يقدم فريق المعارضة ردًّا كافيًّا لرد هذه الحجج، ولم يقدم حججً مقنعة حول كيفية تأثير المساعدات الإنمائية على تعزيز الإصلاح السياسي من داخل الدول. لذلك، يعتبر فريق الموالاة أكثر إقناعًا في هذه المناقشة."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "What is the problem that the motion addresses?",
+        "proposition_definition": "The proposition defines development aid as external assistance provided to developing countries to develop and improve basic sectors such as infrastructure, schools, and roads.",
+        "opposition_definition": "The opposition defines development aid as assistance aimed at developing infrastructure and improving the standard of living for peoples, and does not differ from humanitarian aid in its ultimate goal.",
+        "definition_contested": true,
+        "adopted_ground": "The impact of development aid on promoting political reform and addressing corruption in developing countries, and its role in improving the lives of citizens."
+      },
+      "proposition_position": "The proposition argues that providing development aid to countries that do not conduct political reforms is not justified, as it may be misused by corrupt governments and does not lead to the desired outcomes for the people.",
+      "opposition_position": "The opposition argues that development aid should be provided without conditions, as it can lead to positive changes in the lives of citizens, and that political reform should come from within the country, driven by its people.",
+      "clash_type": "mixed",
+      "clash_type_reason": "The teams engage in both direct clash, addressing each other's arguments, and parallel debate, arguing past each other on the role of development aid in promoting political reform and addressing corruption."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف المساعدات الإنمائية",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الإنمائية وهي مساعدات خارجية تقدم للدول النامية في إنماء وتطور القطاعات الأساسية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "تعريف المساعدات الإنسانية",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الإنسانية تهتم بتوفير الحاجات الأساسية للحياة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "تعريف الإصلاح السياسي",
+            "responds_to": "",
+            "evidence_quote": "الإصلاح السياسي هو سلوك إصلاح تشريعي وقانوني لتحقيق مصلحة وتمثيل أكبر للشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "سبب عدم قيام الأنظمة بإصلاحات سياسية",
+            "responds_to": "",
+            "evidence_quote": "خوف النظام السياسي من وجود الفساد ينخر في أصله في نظامه السياسي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية لا تستغل بشكل أمثل في الدول التي لا تجري إصلاحات سياسية",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الإنمائية تحت نظام رافض للإصلاحات السياسية لا تستغل بشكل أمثل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مشكلة تقديم المساعدات الإنمائية للدول التي لا تجري إصلاحات سياسية",
+            "responds_to": "",
+            "evidence_quote": "غياب التأثير المطلوب للمساعدات الإنمائية على الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "هدف المناظرة",
+            "responds_to": "",
+            "evidence_quote": "تحقيق الانتفاع الأمثل في الدول من المساعدات الإنمائية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الفرق بين المساعدات الإنمائية والمساعدات الإنسانية",
+            "responds_to": "",
+            "evidence_quote": "المساعدات الإنمائية تختلف بشكل مطلق عن المساعدات الإنسانية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التناقض في موقف فريق الموالاة بشأن تقديم المساعدات الإنمائية",
+            "responds_to": "سبب عدم قيام الأنظمة بإصلاحات سياسية",
+            "evidence_quote": "لذا نسأل هنا في فريق المعارضة لما قد يقبل هذا النظام الفاسد بأي نوع من أنواع الابتزاز من قبل الموالاة ليقوم بأي نوع ليقبل أي مساعدات ليحدث إصلاحات سياسية ستكشف فساده",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عدم وجود فرق بين المساعدات الإنمائية والمساعدات الإنسانية",
+            "responds_to": "الفرق بين المساعدات الإنمائية والمساعدات الإنسانية",
+            "evidence_quote": "كلمة المساعدة بحد ذاتها هي فيها نوع من أنواع الإنسانية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "المساعدات الإنمائية تؤدي إلى مساعدات إنسانية على المدى البعيد",
+            "responds_to": "الفرق بين المساعدات الإنمائية والمساعدات الإنسانية",
+            "evidence_quote": "فإذا قمتم ببناء مستشفيات وبناء مدارس، فهذا نوع من أنواع المساعدات الإنسانية في حد ذاتها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الربط المنطقي بين بناء البنية التحتية والفساد",
+            "responds_to": "لن يتم استغلال البنية التحتية والمساعدات بشكل كامل لأن النظام فاسد",
+            "evidence_quote": "الشعب سيستعمله، الشعب سيستعمل مستشفيات، الشعب سيستعمل المدارس، فكيف أن هذا الأمر سيمر من خلال الحكومة وهو بالضرورة فاسد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التغيير يأتي من الشعب وليس من الخارج",
+            "responds_to": "",
+            "evidence_quote": "التغيير يأتي من الشعب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حقوق الدول النامية في الحصول على المساعدات الإنمائية دون شروط",
+            "responds_to": "",
+            "evidence_quote": "باي حق تكون قد سرقتم هذه الموارد من الدول النامية ووضعتم في الحاجة الماسة للمساعدة الإنمائية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مبدأ السيادة وعدم التدخل في شؤون الدول الأخرى",
+            "responds_to": "",
+            "evidence_quote": "بأي حق أن تأتي دولة لتقول أنني سأقرر عن شعبك وسأقرر عن ذلك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "خصائص الدولة الديكتاتورية ورفضها للمساعدات الإنمائية",
+            "responds_to": "",
+            "evidence_quote": "هي دولة لديها هوس بالسلطة، دولة لديها هوس بالتمسك بالسلطة، هوس بأن هذا أولا",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الدول الفاسدة تقبل المساعدات الإنمائية وتستغلها لتعزيز فسادها",
+            "responds_to": "الفرق بين المساعدات الإنمائية والمساعدات الإنسانية",
+            "evidence_quote": "الدول الفاسدة لن تأخذ المساعدات أصلا. أحسنت يا صديقي. يبدو أنك لا تعيش في الوطن العربي معنا. دول غرقانة بالفساد وتقبل على المساعدات وتنهال عليها انهيارا لا حدود له.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الواقع يختلف عن افتراضات فريق المعارضة بشأن عدم استغلال الدول الفاسدة للمساعدات الإنمائية",
+            "responds_to": "سبب عدم قيام الأنظمة بإصلاحات سياسية",
+            "evidence_quote": "ونحن بينا أن الواقع يختلف مع ذلك اختلافا شديدا. الدول العربية معظمها غرقان في الفساد ومعظمها غرقان بالمساعدات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية تعزز مكانة النظام الفاسد وتزيد من فساده",
+            "responds_to": "",
+            "evidence_quote": "فهي توهم الشعب بالفتات على أنه تقبل هذه المساعدات على الدول بالكميات الهائلة، فيبنى مستشفى أو مستشفيان ويذهب ويذهب بقية الأموال والمساعدات إلى جيوب المتنفذين والمتأثرين بالسلطة لأن يعززوا مكانتهم ويعززون نفوذهم في هذه السلطة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "غياب المساعدات الإنمائية يكشف فساد النظام ويدفعه لإجراء إصلاحات سياسية",
+            "responds_to": "",
+            "evidence_quote": "إذا كان لدى هذا النظام غياب في المساعدات، ستتوجه إليه مظاهر المساءلة من الشعب لتسأله عن واقع ضرورته وأفعاله اتجاهه، فهو بالضرورة لا يستطيع أن يبرهن أنه يقوم بواجبه المطلوب من هذه الدولة الى اتجاهه تجاه دولته.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية تمنع إجراء إصلاحات سياسية في الدول الفاسدة",
+            "responds_to": "",
+            "evidence_quote": "تكلمنا سيداتي سادتي على أنه لا تزل أنه لا تجرى الإصلاحات سياسية لخوفها من إطلاع الشعوب على منظومة إدارة البلاد، لأنه في غياب الإصلاحات السياسية يتبين النخر الكبير في البلاد.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية للدول ذات الأنظمة السياسية الضعيفة سبب لانتهاك سيادة الدول من الدول الكبرى",
+            "responds_to": "",
+            "evidence_quote": "الجانب الأخر على أن غياب هذه المساعدات سيكشف بالنظام على حقيقته. سيداتي سادتي، إذا كان لدى هذا النظام غياب في المساعدات، ستتوجه إليه مظاهر المساءلة من الشعب لتسأله عن واقع ضرورته وأفعاله اتجاهه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الديكتاتور يرفض المساعدات الإنمائية لأنه يريد الحفاظ على فساده السياسي",
+            "responds_to": "سبب عدم قيام الأنظمة بإصلاحات سياسية",
+            "evidence_quote": "لانه لن يقوم بالاصلاحات حتى لا يظهر الفساد السياسي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "وضع شرط الإصلاح السياسي على المساعدات الإنمائية يعتبر خرقا للأخلاق",
+            "responds_to": "المساعدات الإنمائية لا تستغل بشكل أمثل في الدول التي لا تجري إصلاحات سياسية",
+            "evidence_quote": "فكرة انك تضع شرط على تقديم مساعدة وهذه بحد ذاتها خرق للاخلاق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية يجب أن تقدم دون شروط لضمان حق الدول النامية في الحصول عليها",
+            "responds_to": "",
+            "evidence_quote": "حقوق الدول النامية في الحصول على المساعدات الإنمائية دون شروط",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الربط بين المساعدات الإنمائية والإصلاح السياسي يمكن أن يستغل لخدمة مصالح الدول المانحة",
+            "responds_to": "المساعدات الإنمائية تعزز مكانة النظام الفاسد وتزيد من فساده",
+            "evidence_quote": "بدلا من تحقيق السياسة او تحقيق الإصلاح السياسي، نصل إلى مرحلة ان هذه الدول قد مررت أجندتها السياسية بحجة أو بغطاء المساعدات المالية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهدف من المساعدات الإنمائية هو تحسين حياة الشعوب وليس إملال جيوب النخب",
+            "responds_to": "",
+            "evidence_quote": "هذه المساعدات حتى ولو لم تكن مساعدات انسانية حتى لو كانت مساعدات للبنية التحتية او ما الى ذلك كما ذكرتم. فانها بالاخير لم تأتي الى هذا الشعب الا لانه يحتاج هذه المساعدة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التناقض في موقف فريق المعارضة بشأن تقديم المساعدات الإنمائية",
+            "responds_to": "حقوق الدول النامية في الحصول على المساعدات الإنمائية دون شروط",
+            "evidence_quote": "لن يأخذ هذه المساعدات من الأساس",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الربط المنطقي بين بناء البنية التحتية والفساد",
+            "responds_to": "الربط بين المساعدات الإنمائية والإصلاح السياسي يمكن أن يستغل لخدمة مصالح الدول المانحة",
+            "evidence_quote": "عندما تأتي هذه المساعدات لهذه المنظومة فإنه يستخدم جزءا منها ويستهلكه في مصالحه الخاصة ليقوي أجهزته الأمنية وتضطهد الشعب أكثر وأكثر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية تعزز فساد الأنظمة",
+            "responds_to": "",
+            "evidence_quote": "تعزيز لمنظومة الفساد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "غياب المساعدات الإنمائية يكشف فساد النظام",
+            "responds_to": "",
+            "evidence_quote": "ستكشف النظام على حقيقته",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية سبب لانتهاك الدول الكبرى على الدول ذات النظام السياسي الضعيف",
+            "responds_to": "",
+            "evidence_quote": "سبب لانتهاك الدول الكبرى على الدول ذات النظام السياسي الضعيف",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الواقع يختلف عن افتراضات فريق المعارضة بشأن عدم استغلال الدول الفاسدة للمساعدات الإنمائية",
+            "responds_to": "الهدف من المساعدات الإنمائية هو تحسين حياة الشعوب وليس إملال جيوب النخب",
+            "evidence_quote": "دولنا العربية تأخذ المساعدات من عشرات السنين كما يطالبها فريق المعارضة، ولم تضمن هذه المساعدات أي فرصة للشعوب لتتقدم أو تحقق أي تنمية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "التناقض في موقف فريق الموالاة بشأن تقديم المساعدات الإنمائية",
+            "responds_to": "سبب عدم قيام الأنظمة بإصلاحات سياسية",
+            "evidence_quote": "انتم تقولون ان الاصلاح ان الاصلاح السياسي سيكشف الفساد والدول تخاف من كشف الفساد.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عدم وجود دولة ديكتاتورية قبلت بشروط الإصلاح السياسي",
+            "responds_to": "المساعدات الإنمائية لا تستغل بشكل أمثل في الدول التي لا تجري إصلاحات سياسية",
+            "evidence_quote": "أعطونا مثالا واحدا. دولة. أعطونا مثالا واحدة دولة ديكتاتورية قبلت بشروط الاصلاح السياسي. لا يوجد اي دولة ديكتاتورية قبلت بشروط الاصلاح السياسي لانها دولة ديكتاتورية.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الواقع يختلف عن افتراضات فريق الموالاة بشأن عدم استغلال الدول الفاسدة للمساعدات الإنمائية",
+            "responds_to": "المساعدات الإنمائية تعزز مكانة النظام الفاسد وتزيد من فساده",
+            "evidence_quote": "مصر تقبل عشرات المساعدات من كل من يقدم لها يدا. وهذا لم؟ لم لم ينفي أنها ما زالت تقبل مساعدة وما زالت فاسدة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التغيير الحقيقي يأتي من الشعب وليس من الخارج",
+            "responds_to": "",
+            "evidence_quote": "الإصلاح السياسي يأتي من الشعب عبر نخب الشعب وعبر وعي الشعب.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية تعزز اقتصاد الدولة ورفع مستوى الشعب",
+            "responds_to": "",
+            "evidence_quote": "هذه المساعدات الإنمائية التي يستفيد منها الشعب والتي لا تجعل الشعب يشتغل 24 ساعة، بل تجعل الشعب يشتغل 8 ساعات فقط، لأن هذه المساعدات الإنمائية لاحقا ستعزز منها اقتصاد الدولة وتجعل الشعب وتجعل الشعب مستواه يرتفع.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الربط بين المساعدات الإنمائية والإصلاح السياسي يمكن أن يستغل لخدمة مصالح الدول المانحة",
+            "responds_to": "المساعدات الإنمائية سبب لانتهاك الدول الكبرى على الدول ذات النظام السياسي الضعيف",
+            "evidence_quote": "لا يوجد انتهاك من الدول الكبرى للدول الصغرى إذا لم تكن هناك شروط، أما إذا كانت هناك شروط فهذا هو الانتهاك في السيادة، وهذا هو الابتزاز للشعب.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "فريق الموالاة لم يرد على نقاط مهمة بشأن حقوق الدول المقدمة للمساعدات",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التناقض في موقف فريق الموالاة بشأن تقديم المساعدات الإنمائية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عرض فريق الموالاة غير مغري ولا يحل مشكلة رفض الدول الديكتاتورية للإصلاح السياسي",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الإصلاح السياسي يجب أن يأتي من الشعب وليس من الخارج",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهدف من المساعدات الإنمائية هو تحسين حياة الشعوب وليس إملال جيوب النخب",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا توجد حكومة ديكتاتورية ستقبل بشروط الإصلاح السياسي",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عرض فريق الموالاة يخرق السيادة الوطنية للدول",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية يجب أن تقدم دون شروط لضمان حق الدول النامية في الحصول عليها",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "weighing",
+            "summary": "التناقض في مواقف فريق المعارضة بشأن تقديم المساعدات الإنمائية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "عدم وجود أدلة على أن المساعدات الإنمائية تصل إلى الشعب",
+            "responds_to": "الهدف من المساعدات الإنمائية هو تحسين حياة الشعوب وليس إملال جيوب النخب",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "فريق المعارضة يتحدث من وحي الخيال وليس من الواقع",
+            "responds_to": "التغيير الحقيقي يأتي من الشعب وليس من الخارج",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المساعدات الإنمائية لا تحقق المنفعة المثلى في الدول الفاسدة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "فريق الموالاة تكلم من باب الحق والواقعية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "هل يجب تقديم المساعدات الإنمائية للدول التي لا تجري إصلاحات سياسية؟",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "تبادل الفريقين وجهات النظر حول تقديم المساعدات الإنمائية دون شروط، ولم يظهر أي فريق تقدم واضح في هذه النقطة."
+        },
+        {
+          "clash_point": "هل المساعدات الإنمائية تعزز فساد الأنظمة في الدول التي لا تجري إصلاحات سياسية؟",
+          "importance": "core",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "proposition",
+          "reasoning": "قدم فريق الموالاة حججًا حول كيفية استخدام المساعدات الإنمائية لتعزيز فساد الأنظمة، بينما لم يقدم فريق المعارضة ردًا كافيًا لرد هذه الحجج."
+        },
+        {
+          "clash_point": "هل الإصلاح السياسي يجب أن يأتي من داخل الدولة نفسها أم يمكن أن يتأثر بالمساعدات الإنمائية؟",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "opposition",
+          "reasoning": "حاج فريق المعارضة إلى التأكيد على أن الإصلاح السياسي يأتي من الشعب نفسه وليس من الخارج، بينما لم يقدم فريق الموالاة ردًا كافيًا لرد هذه الحجج."
+        },
+        {
+          "clash_point": "هل وضع شروط على المساعدات الإنمائية يعتبر انتهاكًا للسيادة الوطنية للدول؟",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "تبادل الفريقين وجهات النظر حول هذه النقطة، ولم يظهر أي فريق تقدم واضح."
+        },
+        {
+          "clash_point": "هل المساعدات الإنمائية تصل إلى الشعب أم تستخدم لخدمة مصالح النخب؟",
+          "importance": "secondary",
+          "proposition_side": "الموالاة",
+          "opposition_side": "المعارضة",
+          "outcome": "unresolved",
+          "reasoning": "تبادل الفريقين وجهات النظر حول هذه النقطة، ولم يظهر أي فريق تقدم واضح."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "decisive",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "قدم فريق الموالاة حججً حول كيفية استخدام المساعدات الإنمائية لتعزيز فساد الأنظمة في الدول التي لا تجري إصلاحات سياسية، مما يجعل من تقديم هذه المساعدات دون شروط أمرًا غير مبرر.",
+          "evidence_quote": "المساعدات الإنمائية تستخدم لتعزيز فساد الأنظمة"
+        },
+        {
+          "team": "proposition",
+          "reason": "أشار فريق الموالاة إلى أن المساعدات الإنمائية قد لا تصل إلى الشعب، بل تستخدم لخدمة مصالح النخب، مما يبرر عدم تقديم هذه المساعدات للدول التي لا تجري إصلاحات سياسية.",
+          "evidence_quote": "المساعدات الإنمائية تصل إلى النخب وليس الشعب"
+        },
+        {
+          "team": "opposition",
+          "reason": "لم يقدم فريق المعارضة ردًّا كافيًّا لرد حجج فريق الموالاة حول استخدام المساعدات الإنمائية لتعزيز فساد الأنظمة، كما لم يقدم حججً مقنعة حول كيفية تأثير المساعدات الإنمائية على تعزيز الإصلاح السياسي من داخل الدول.",
+          "evidence_quote": "لم يقدم فريق المعارضة ردًّا كافيًّا"
+        }
+      ],
+      "justification": "فريق الموالاة قدم حججً مقنعة حول كيفية استخدام المساعدات الإنمائية لتعزيز فساد الأنظمة في الدول التي لا تجري إصلاحات سياسية، كما أشار إلى أن هذه المساعدات قد لا تصل إلى الشعب. بينما لم يقدم فريق المعارضة ردًّا كافيًّا لرد هذه الحجج، ولم يقدم حججً مقنعة حول كيفية تأثير المساعدات الإنمائية على تعزيز الإصلاح السياسي من داخل الدول. لذلك، يعتبر فريق الموالاة أكثر إقناعًا في هذه المناقشة."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 39,
+      "not_found": [
+        "الإصلاح السياسي هو سلوك إصلاح تشريعي وقانوني لتحقيق مصلحة وتمثيل أكبر للشعوب",
+        "خوف النظام السياسي من وجود الفساد ينخر في أصله في نظامه السياسي",
+        "المساعدات الإنمائية تحت نظام رافض للإصلاحات السياسية لا تستغل بشكل أمثل",
+        "هي دولة لديها هوس بالسلطة، دولة لديها هوس بالتمسك بالسلطة، هوس بأن هذا أولا",
+        "حقوق الدول النامية في الحصول على المساعدات الإنمائية دون شروط"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "المساعدات الإنمائية تستخدم لتعزيز فساد الأنظمة",
+        "المساعدات الإنمائية تصل إلى النخب وليس الشعب",
+        "لم يقدم فريق المعارضة ردًّا كافيًّا"
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 1,
+    "prompt_tokens": 53606,
+    "output_tokens": 6671
+  }
+}

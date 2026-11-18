@@ -1,0 +1,262 @@
+{
+  "debate_id": "debate_005",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-03T11:09:19+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "فريق المعارضة قدم حجج أقوى حول التنافس والدافع للاعبين",
+    "best_speaker": "المتحدث الثاني - المعارضة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "الرياضة بدون احتراف",
+      "proposition_definition": "يفضل هذا المجلس عالما بدون احتراف رياضي",
+      "opposition_definition": "لا يفضل هذا المجلس عالما بدون احتراف رياضي",
+      "definition_contested": false,
+      "adopted_ground": "يفضل هذا المجلس عالما بدون احتراف رياضي"
+    },
+    "positions": {
+      "proposition": "يفضل عالما بدون احتراف رياضي",
+      "opposition": "لا يفضل عالما بدون احتراف رياضي"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الرياضة أصبحت مساحة إعلانية واقتصادية أكثر من كونها رياضة",
+        "evidence_quote": "سابدا في 3 اوا 90 دقيقه من اللعب في الملعب اصبح اللاعب يكون كمساحه اعلان يظهر وهو يمشي كانه يروج لشركات ل سبونسر هذا هذا النادي الذي هو يلب الذي هو يلعب فيه",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "لا مشكلة في أن تكون الرياضة اقتصادية",
+        "evidence_quote": "في البدايه نحن في فريق المعارضه قد جئنا لنعرض نص المقوله وهو يفضل هذا المجلس عالما بدون احتراف رياض وفي البدايه اريد ان اف ما جاءت به المتحدثه الاولى",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الاحتراف يولد الضغط على اللاعبين",
+        "evidence_quote": "الرياضه اليوم اصبحت عباره عن اموال من يدفع اكثر من يتطور اكثر وهذه مشكله حقيقيه",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "الضغط على اللاعبين شيء جيد",
+        "evidence_quote": "هل الضغط على اللاعبين شيء جيد هنا اتطرق الى موقفنا نحن في فريق المعارضه وهو انعدام الاحتراف هذا يؤدي الى تراجع هذه الرياضه بشكل",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثالث",
+        "item": "new argument",
+        "issue": "material delivered in the wrong place"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الضغط على اللاعبين",
+        "importance": "core",
+        "proposition_side": "الضغط على اللاعبين بسبب الاحتراف",
+        "opposition_side": "الضغط على اللاعبين شيء جيد",
+        "outcome": "proposition",
+        "reasoning": "الضغط على اللاعبين بسبب الاحتراف يولد مشاعر سلبية"
+      },
+      {
+        "clash_point": "التنافس",
+        "importance": "core",
+        "proposition_side": "التنافس ليس موجودا بدون احتراف",
+        "opposition_side": "التنافس موجود مع الاحتراف",
+        "outcome": "opposition",
+        "reasoning": "التنافس يولد دافع للاعبين"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition",
+      "style": "opposition",
+      "strategy": "opposition"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "التنافس",
+          "where": "speech 2",
+          "effect": "دافع للاعبين",
+          "evidence_quote": "التنافس بين هذه النوادي هو ضريره وهو جيد لان هؤلاء الاشخاص يبحثون عن التطور"
+        },
+        {
+          "reason": "الضغط على اللاعبين",
+          "where": "speech 3",
+          "effect": "مشاعر سلبية",
+          "evidence_quote": "الرياضه اليوم اصبحت عباره عن اموال من يدفع اكثر من يتطور اكثر وهذه مشكله حقيقيه"
+        }
+      ]
+    },
+    "justification": "فريق المعارضة قدم حجج أقوى حول التنافس والدافع للاعبين",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "عرض جيد للمشكلة"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "رد قوي على حجج الموالاة"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "تحليل جيد للضغط على اللاعبين"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "حجج قوية حول التنافس والدافع"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 74,
+        "note": "عرض جيد للمشكلة"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "حجج قوية حول الاحتراف"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة (رد)",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "رد جيد على حجج الموالاة"
+      },
+      {
+        "speaker": "المتحدث الأول - الموالاة (رد)",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "رد مقبول على حجج المعارضة"
+      }
+    ],
+    "best_speaker": "المتحدث الثاني - المعارضة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "عرض جيد للمشكلة",
+          "تحليل جيد للضغط على اللاعبين"
+        ],
+        "improvements": [
+          "تحسين الحجج حول التنافس",
+          "تقليل الضغط على اللاعبين بسبب الاحتراف"
+        ],
+        "recommendations": [
+          "تطوير الحجج حول التنافس",
+          "تحسين العرض"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج قوية حول التنافس والدافع",
+          "رد قوي على حجج الموالاة"
+        ],
+        "improvements": [
+          "تحسين العرض",
+          "تقليل الاعتماد على الأمثلة"
+        ],
+        "recommendations": [
+          "تطوير العرض",
+          "تحسين الحجج حول الاحتراف"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcript may contain transcription errors"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 5,
+      "match_ratio": 0.833,
+      "unverified_quotes": [
+        "التنافس بين هذه النوادي هو ضريره وهو جيد لان هؤلاء الاشخاص يبحثون عن التطور"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 259,
+      "opposition": 279
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14275,
+        "output": 1903
+      }
+    ]
+  }
+}

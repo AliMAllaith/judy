@@ -1,0 +1,2008 @@
+[
+  {
+    "debate_id": "debate_001",
+    "motion": "سيمنع هذا المجلس ترشح القاده الثوريين وعائلاتهم للمناصب السياسيه في مجتمعات ما بعد الصراع",
+    "generated_at": "2026-11-03T12:08:19+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "الموالاة (Proposition) تقدمت بحجج تركز على خطر ترشح القادة الثوريين، لكنها لم تقدم أدلة قوية على أن منعهم ضروري. المعارضه (Opposition) أوضحت بوضوح أن القادة الثوريين هم الأفضل لقيادة الدول ما بعد الصراع، وأن منعهم يتعارض مع مبدأ الديمقراطية. كما أن المعارضه نجحت في تفنيده واعادة البناء لحجج الموالاة، مما جعل حجتها الأقوى."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "الموالاة (Proposition) تقدمت بحجج تركز على خطر ترشح القادة الثوريين، لكنها لم تقدم أدلة قوية على أن منعهم ضروري. المعارضه (Opposition) أوضحت بوضوح أن القادة الثوريين هم الأفضل لقيادة الدول ما بعد الصراع، وأن منعهم يتعارض مع مبدأ الديمقراطية. كما أن المعارضه نجحت في تفنيده واعادة البناء لحجج الموالاة، مما جعل حجتها الأقوى."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.4798,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 11040,
+          "output": 742
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_0010",
+    "motion": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه",
+    "generated_at": "2026-11-03T12:08:34+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.8,
+      "justification": "لقد اعتمد الفريقان على استراتيجيات متنوعة، لكن Opposition نجح في تقديم حجج قوية ومتوازنة تركز على انتهاك السيادة الدولية وافترضوا عدم مؤهلية الغرب بشكل مناسب. Proposition، على الرغم من حماسهم، لم يقدمو تفسيرات كافية للانتقادات المطروحة عليهم، وركزوا بشكل مفرط على حماية حقوق الإنسان دون معالجة الجوانب الأخلاقية والعملية لدعم الجماعات المتمردة. Opposition قدموا أمثلة م concretas على عواقب التدخل الغربي، مثل حالة ليبيا، ووضحوا عدم اتساق الغرب في سياساته، مما جعل حجتهم أكثر ارتباطًا بالواقع وتكتم على نقاط الضعف في Proposition."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.8,
+      "justification": "لقد اعتمد الفريقان على استراتيجيات متنوعة، لكن Opposition نجح في تقديم حجج قوية ومتوازنة تركز على انتهاك السيادة الدولية وافترضوا عدم مؤهلية الغرب بشكل مناسب. Proposition، على الرغم من حماسهم، لم يقدمو تفسيرات كافية للانتقادات المطروحة عليهم، وركزوا بشكل مفرط على حماية حقوق الإنسان دون معالجة الجوانب الأخلاقية والعملية لدعم الجماعات المتمردة. Opposition قدموا أمثلة م concretas على عواقب التدخل الغربي، مثل حالة ليبيا، ووضحوا عدم اتساق الغرب في سياساته، مما جعل حجتهم أكثر ارتباطًا بالواقع وتكتم على نقاط الضعف في Proposition."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.4898,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.4795,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13933,
+          "output": 890
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_002",
+    "motion": "سيحاول هذا المجلس التواصل والاحتكاك بالشعوب الاصليه المنعزله",
+    "generated_at": "2026-11-03T12:08:46+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "الجهاز القضائي ينص على أن فريق الموالى يدعم التواصل مع الشعوب الاصليه المنعزله من أجل تطويرها واستفادتها من الخدمات المقدمة، بينما يعارض فريق المعارضه ذلك، ويعتبر التواصل ضارًا بالثقافات الأصلية والحقوق الإنسانية لهذه الشعوب. تحليل الأقوال ي顯示 أن فريق الموالى يركز على الفوائد العملية للتواصل، لكن فريق المعارضه يSuccessfully refute هذه الفوائد من خلال اعتماد على أمثلة تاريخية وعلمية تظهر تداعيات التواصل السلبية. فريق المعارضه يMaintain a stronger and more coherent argument حول حماية الثقافات الأصلية والحقوق، مما يجعلهم أكثر إقناعًا."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "الجهاز القضائي ينص على أن فريق الموالى يدعم التواصل مع الشعوب الاصليه المنعزله من أجل تطويرها واستفادتها من الخدمات المقدمة، بينما يعارض فريق المعارضه ذلك، ويعتبر التواصل ضارًا بالثقافات الأصلية والحقوق الإنسانية لهذه الشعوب. تحليل الأقوال ي顯示 أن فريق الموالى يركز على الفوائد العملية للتواصل، لكن فريق المعارضه يSuccessfully refute هذه الفوائد من خلال اعتماد على أمثلة تاريخية وعلمية تظهر تداعيات التواصل السلبية. فريق المعارضه يMaintain a stronger and more coherent argument حول حماية الثقافات الأصلية والحقوق، مما يجعلهم أكثر إقناعًا."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.5521,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#1",
+        "score": 0.5046,
+        "query": "debate",
+        "text": "# 0. Judge profile\nBe rational, impartial, reasonably informed and faithful to the debate rules. Judge ONLY what the debaters actually said. Do not use your own opinion about the motion, do not bring in specialist knowledge the debaters did not use, and never add an argument for a team or finish an idea the speaker left incomplete. Summarising an argument must not add anything new to it."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 12141,
+          "output": 810
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_003",
+    "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+    "generated_at": "2026-11-03T12:08:56+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "إن فريق المعارضه قد نجح في إثبات أن الهجرة إلى الغرب ليست الحل الأمثل لشاب مسلم، بل على العكس، تشكل خطرًا على الهوية الإسلامية والمسؤولية الاجتماعية. فقد أظهرت حجج المعارضه أن بقاء الشاب في بلده ومساهمته في المجتمعات الإسلامية المحلية ضروري لتحقيق أهدافه الفردية والاجتماعية، بينما ركز فريق الموالاة على فوائد الهجرة الاقتصادية والتعليمية دون تناول الجوانب السلبية والمخاطر الاجتماعية والثقافية. كما أن فريق المعارضه استخدم أمثلة واقعية مثل الصين والهند لتفنيد فكرة أن المسلمين في دولهم يعانون من اضطهاد كبير، مما جعل حججهم أكثر شمولية وواقعية."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "إن فريق المعارضه قد نجح في إثبات أن الهجرة إلى الغرب ليست الحل الأمثل لشاب مسلم، بل على العكس، تشكل خطرًا على الهوية الإسلامية والمسؤولية الاجتماعية. فقد أظهرت حجج المعارضه أن بقاء الشاب في بلده ومساهمته في المجتمعات الإسلامية المحلية ضروري لتحقيق أهدافه الفردية والاجتماعية، بينما ركز فريق الموالاة على فوائد الهجرة الاقتصادية والتعليمية دون تناول الجوانب السلبية والمخاطر الاجتماعية والثقافية. كما أن فريق المعارضه استخدم أمثلة واقعية مثل الصين والهند لتفنيد فكرة أن المسلمين في دولهم يعانون من اضطهاد كبير، مما جعل حججهم أكثر شمولية وواقعية."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.4822,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13962,
+          "output": 509
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_004",
+    "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+    "generated_at": "2026-11-03T12:09:13+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.99,
+      "justification": "خلال مناظرة اليوم، تناول الفريقان مفهوم الاحتراف الرياضي، لكن فريق المعارض (المعارضة) قدم حججًا قوية وواضحة تؤكد على ضرورة الاحتراف في الوسط الرياضي، مع التركيز على الأخلاقيات والتأثيرات السلبية لعدم الاحتراف. بينما فريق الموالاة (موالاة) اعتمد على تعريفات غير واقعية وخلط بين المفاهيم، ولم ينجح في تفنيد حجج المعارضة بشكل فعال. بناءً على معايير التقييم، اتبعت المعارضة استراتيجية واضحة وصحيحة، بينما ارتكبت الموالاة أخطاء في المنطق وقدمت حججًا ضعيفة. لذلك، فريق المعارض emerges كالفائز الأوضح بفضل حجته الجوهرية القوية واحترامه للمعايير الموضوعية للم Debate."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.99,
+      "justification": "خلال مناظرة اليوم، تناول الفريقان مفهوم الاحتراف الرياضي، لكن فريق المعارض (المعارضة) قدم حججًا قوية وواضحة تؤكد على ضرورة الاحتراف في الوسط الرياضي، مع التركيز على الأخلاقيات والتأثيرات السلبية لعدم الاحتراف. بينما فريق الموالاة (موالاة) اعتمد على تعريفات غير واقعية وخلط بين المفاهيم، ولم ينجح في تفنيد حجج المعارضة بشكل فعال. بناءً على معايير التقييم، اتبعت المعارضة استراتيجية واضحة وصحيحة، بينما ارتكبت الموالاة أخطاء في المنطق وقدمت حججًا ضعيفة. لذلك، فريق المعارض emerges كالفائز الأوضح بفضل حجته الجوهرية القوية واحترامه للمعايير الموضوعية للم Debate."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#1",
+        "score": 0.5072,
+        "query": "debate",
+        "text": "# 0. Judge profile\nBe rational, impartial, reasonably informed and faithful to the debate rules. Judge ONLY what the debaters actually said. Do not use your own opinion about the motion, do not bring in specialist knowledge the debaters did not use, and never add an argument for a team or finish an idea the speaker left incomplete. Summarising an argument must not add anything new to it."
+      },
+      {
+        "id": "rubric_from_notebook#2",
+        "score": 0.4966,
+        "query": "debate",
+        "text": "# 1. Fairness rules (always apply)\n- Ignore speaker names, gender, accent, dialect, age, school or team reputation, and speaking speed. Colloquial dialect is not a weakness; what matters is whether the idea is communicated clearly.\n- The transcript may come from speech recognition. Do not penalise apparent transcription errors, spelling or punctuation. If a passage is unintelligible, do not guess; list it in data_quality_flags.\n- Do not favour a team because it spoke first or last, spoke longer, or made more points.\n- Winning depends on persuasion, never on which side you personally agree with."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        2
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13214,
+          "output": 721
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_005",
+    "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+    "generated_at": "2026-11-03T12:09:43+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.82,
+      "justification": "خلال مناظرة حول مفهوم الاحتراف الرياضي، اعتمد الفريقان على تحليلات متضاربة. اعتبرت الفرقية (موالاة) أن الاحتراف يحول الرياضة إلى مساحة اقتصادية وسياسية، مما يؤدي إلى فقدان جوهرها وانقطاع ارتباط الجمهور. بينما اعتبرت المعارضية (معارضة) أن الاحتراف يعزز التنافس والتطور، ويوفر حافزاً مادياً واجتماعياً للرياضيين والجمهور. استخدمت المعارضية الحجج بشكل أكثر شمولاً، حيث أوضحت تأثير الاحتراف الإيجابي على نمو اللاعبين وزيادة اهتمام الجماهير، مع تقديم أمثلة واقعية تدعم موقفها. بينما تجاهل فريق الموالاة تحليلات معمقة لتأثير الاحتراف الإيجابي، وركز على الجوانب السلبية بشكل مفرط دون تقديم إجابات مقنعة. بناءً على تحليل المحتوى والأسلوب، حظيت قصيدة المعارضية بقوة أكبر في إقناع القاضي، مما جعلها الفائز الأكبر في المناظرة."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.82,
+      "justification": "خلال مناظرة حول مفهوم الاحتراف الرياضي، اعتمد الفريقان على تحليلات متضاربة. اعتبرت الفرقية (موالاة) أن الاحتراف يحول الرياضة إلى مساحة اقتصادية وسياسية، مما يؤدي إلى فقدان جوهرها وانقطاع ارتباط الجمهور. بينما اعتبرت المعارضية (معارضة) أن الاحتراف يعزز التنافس والتطور، ويوفر حافزاً مادياً واجتماعياً للرياضيين والجمهور. استخدمت المعارضية الحجج بشكل أكثر شمولاً، حيث أوضحت تأثير الاحتراف الإيجابي على نمو اللاعبين وزيادة اهتمام الجماهير، مع تقديم أمثلة واقعية تدعم موقفها. بينما تجاهل فريق الموالاة تحليلات معمقة لتأثير الاحتراف الإيجابي، وركز على الجوانب السلبية بشكل مفرط دون تقديم إجابات مقنعة. بناءً على تحليل المحتوى والأسلوب، حظيت قصيدة المعارضية بقوة أكبر في إقناع القاضي، مما جعلها الفائز الأكبر في المناظرة."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#8",
+        "score": 0.5161,
+        "query": "debate",
+        "text": "3. Secondary elements never decide the result alone: eloquence, clarity of expression, number of arguments or refutations, speech length, ordering inside speeches, examples, points of information, reply speeches. Count them only as strengths when they serve the team's position (for example an unanswered point of information that demolishes the opponent's case, or examples that support an argument).\n4. Compare both teams on the same clash points. Never judge one team in isolation.\n5. Whether you agree with an idea is irrelevant. An unanswered argument stands."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        2
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13572,
+          "output": 1778
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_006",
+    "motion": "يدعم هذا المجلس تقسيم الطلاب على الفصول الدراسيه حسب قدراتهم الاكاديميه",
+    "generated_at": "2026-11-03T12:10:02+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "في بداية المناظرة، تطرقت كلا الفرق إلى نفس المفهوم وهو تقسيم الطلاب حسب قدراتهم الأكاديمية، مما يدل على وجود صدام مباشر. فريق الموالاة اعتبر أن التقسيم ضروريًا لضمان تطور الطلاب وتوفير التعليم المناسب، بينما فريق المعارضة أبدع في تفنيد هذه الفكرة من خلال التركيز على الجوانب الاجتماعية والنفسية، وقدم حججًا قوية حول ضرورة الانسجام والتفاعل داخل الفصل الواحد. فريق المعارضة نجح في تفنيدها الفعالة لحجج الموالاة، وبناءً على ذلك، اعتقدت لجنة التحكيم أن فريق المعارضة قد انتصر في النقاط الجوهرية من خلال تقديم حجج شاملة ومؤثرة تغطي جميع جوانب المحتوى."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "في بداية المناظرة، تطرقت كلا الفرق إلى نفس المفهوم وهو تقسيم الطلاب حسب قدراتهم الأكاديمية، مما يدل على وجود صدام مباشر. فريق الموالاة اعتبر أن التقسيم ضروريًا لضمان تطور الطلاب وتوفير التعليم المناسب، بينما فريق المعارضة أبدع في تفنيد هذه الفكرة من خلال التركيز على الجوانب الاجتماعية والنفسية، وقدم حججًا قوية حول ضرورة الانسجام والتفاعل داخل الفصل الواحد. فريق المعارضة نجح في تفنيدها الفعالة لحجج الموالاة، وبناءً على ذلك، اعتقدت لجنة التحكيم أن فريق المعارضة قد انتصر في النقاط الجوهرية من خلال تقديم حجج شاملة ومؤثرة تغطي جميع جوانب المحتوى."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#11",
+        "score": 0.5566,
+        "query": "debate",
+        "text": "76-79   above_average (فوق المتوسط): convincing defence, full command of the topic and clash points, builds own case and demolishes the opponent's effectively and logically, persuasive style, uses the whole role.\n80-82   professional (محترف): deep analysis, strong well-founded arguments that are hard to demolish, refutation that turns the opponent's argument in the team's favour, simplifies complex content, organised strategy.\nReply speeches use half the scale: 29 violation; 30-31 very_weak; 32-33 weak; 34-35 below_average; 36-37 average; 38-39 above_average; 40-41 professional.\nScores are not a formula for the winner; the winner is decided by persuasion at the core clashes. Score every speech in the transcript. Name the best speaker."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13150,
+          "output": 799
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_007",
+    "motion": "يرى هذا المجلس أن تدخُّل الدول الكبرى ومواقفها السياسية سبب رئيسي في تدهور دول العالم الثالث",
+    "generated_at": "2026-11-04T09:10:09+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "إن فريق المعارضة قد نجح في إقناع القاضي بأن تدخل الدول الكبرى ليس سببًا رئيسيًا لتدهور دول العالم الثالث، بل هو نتيجة لمشاكل داخلية مثل الفساد السياسي والديون الخارجية. فريق الموالاة، على الرغم من تأكيده على التدخلات الخارجية، لم يتمكن من تفادي الإجابة على نقاط قوة للفريق المعارض، مما جعل حججهم غير مقنعة. أما فريق المعارضة فقدمت حججًا متينة وواضحة، مستندة إلى حقائق واقعية، وحافظت على الاستمرارية في تفنيد حجج Proposition وبناء موقفها الخاص. لذلك، حكمت لجنة التحكيم أن فريق المعارضة قد قدم الأداء الأكثر إقناعًا وملاءمة لل.motion، وأن رأيهم في تدخل الدول الكبرى كresultado وليس كcausa، هو الأكثر دقة."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "إن فريق المعارضة قد نجح في إقناع القاضي بأن تدخل الدول الكبرى ليس سببًا رئيسيًا لتدهور دول العالم الثالث، بل هو نتيجة لمشاكل داخلية مثل الفساد السياسي والديون الخارجية. فريق الموالاة، على الرغم من تأكيده على التدخلات الخارجية، لم يتمكن من تفادي الإجابة على نقاط قوة للفريق المعارض، مما جعل حججهم غير مقنعة. أما فريق المعارضة فقدمت حججًا متينة وواضحة، مستندة إلى حقائق واقعية، وحافظت على الاستمرارية في تفنيد حجج Proposition وبناء موقفها الخاص. لذلك، حكمت لجنة التحكيم أن فريق المعارضة قد قدم الأداء الأكثر إقناعًا وملاءمة لل.motion، وأن رأيهم في تدخل الدول الكبرى كresultado وليس كcausa، هو الأكثر دقة."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#8",
+        "score": 0.4936,
+        "query": "debate",
+        "text": "3. Secondary elements never decide the result alone: eloquence, clarity of expression, number of arguments or refutations, speech length, ordering inside speeches, examples, points of information, reply speeches. Count them only as strengths when they serve the team's position (for example an unanswered point of information that demolishes the opponent's case, or examples that support an argument).\n4. Compare both teams on the same clash points. Never judge one team in isolation.\n5. Whether you agree with an idea is irrelevant. An unanswered argument stands."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 10465,
+          "output": 866
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_008",
+    "motion": "لن يقدم هذا المجلس مساعدات إنمائية للدول التي لا تجري إصلاحات سياسية",
+    "generated_at": "2026-11-03T12:10:13+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "أكد فريق المعارضة أن المساعدات الإنمائية يجب أن تقدم دون شروط مسبقة، لأن فرض شروطها سيشكل انتهاكاً للسيادة وخرقاً للأخلاقيات. بينما اعترف فريق الموالاة بأن الدول الفاسدة قد ترفض الإصلاحات السياسية، لكن لم يوضحوا تأثير المساعدات بشكل كافٍ دون الاعتماد على افتراضات غير واقعية. بناءً على ذلك، فازت المعارضة بفضل حججها الواضحة والأخلاقية."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "أكد فريق المعارضة أن المساعدات الإنمائية يجب أن تقدم دون شروط مسبقة، لأن فرض شروطها سيشكل انتهاكاً للسيادة وخرقاً للأخلاقيات. بينما اعترف فريق الموالاة بأن الدول الفاسدة قد ترفض الإصلاحات السياسية، لكن لم يوضحوا تأثير المساعدات بشكل كافٍ دون الاعتماد على افتراضات غير واقعية. بناءً على ذلك، فازت المعارضة بفضل حججها الواضحة والأخلاقية."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#1",
+        "score": 0.4791,
+        "query": "debate",
+        "text": "# 0. Judge profile\nBe rational, impartial, reasonably informed and faithful to the debate rules. Judge ONLY what the debaters actually said. Do not use your own opinion about the motion, do not bring in specialist knowledge the debaters did not use, and never add an argument for a team or finish an idea the speaker left incomplete. Summarising an argument must not add anything new to it."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.4883,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13754,
+          "output": 750
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_009",
+    "motion": "سيعطي هذا المجلس الاولويه في التبرع بالاعضاء لمن يمارس اسلوبا صحيا سليما",
+    "generated_at": "2026-11-03T12:10:35+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "لقد اعتمد فريق الموالاة موقفًا يركز على تنظيم عمليات التبرع بالأعضاء بناءً على السلوك الصحي السليم، مستندًا إلى اعتبارات طبية واقتصادية تهدف إلى ضمان نجاح العمليات وتجنب الفشل. بينما اعتمد فريق المعارضه موقفًا يركز على حماية حق الصحة المطلق وعدم التمييز الحكومي على أساس السلوكيات الصحية، مستندين إلى اعتبارات أخلاقية وحقوقية تحمي المواطنين من أي تقييم غير عادل. فريق الموالاة قدم حججًا قوية تربط الأولويات بالنجاح الطبي، لكن فريق المعارضه نجح في تفنيد هذه الحجج بشكل جذعي من خلال التأكيد على أن إنشاء معيار صحي جديد يتعارض مع حقوق المواطنين الأساسية التي لم تُنقض، كما أن فريق الموالاة لم يقدِّم إجابة مكيفة على اعتراضات فريق المعارضه حول الأخلاقيات والحقوق. بناءً على ذلك، فريق المعارضه أظهر تفوقًا في تأطير الحجج وتحقيق معايير الصياغة والتفنيد، مما جعله أكثر إقناعًا."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "لقد اعتمد فريق الموالاة موقفًا يركز على تنظيم عمليات التبرع بالأعضاء بناءً على السلوك الصحي السليم، مستندًا إلى اعتبارات طبية واقتصادية تهدف إلى ضمان نجاح العمليات وتجنب الفشل. بينما اعتمد فريق المعارضه موقفًا يركز على حماية حق الصحة المطلق وعدم التمييز الحكومي على أساس السلوكيات الصحية، مستندين إلى اعتبارات أخلاقية وحقوقية تحمي المواطنين من أي تقييم غير عادل. فريق الموالاة قدم حججًا قوية تربط الأولويات بالنجاح الطبي، لكن فريق المعارضه نجح في تفنيد هذه الحجج بشكل جذعي من خلال التأكيد على أن إنشاء معيار صحي جديد يتعارض مع حقوق المواطنين الأساسية التي لم تُنقض، كما أن فريق الموالاة لم يقدِّم إجابة مكيفة على اعتراضات فريق المعارضه حول الأخلاقيات والحقوق. بناءً على ذلك، فريق المعارضه أظهر تفوقًا في تأطير الحجج وتحقيق معايير الصياغة والتفنيد، مما جعله أكثر إقناعًا."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.5256,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13392,
+          "output": 839
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_011",
+    "motion": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+    "generated_at": "2026-11-04T09:13:57+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "أكد فريق المعارضة أن منح الفلسطينيين الجنسية العربية يعود بفوائد عملية على حياتهم وحقوقهم الأساسية، مما يعزز هويتهم ويساهم في استقرار قضيتهم. بينما اعترف فريق الموالاة بفوائد التجنيس لكنه لم يذكر أمثلة م concretas على تأثيرها الإيجابي، بل ركز على الجانب السلبي فقط. كما أن فريق المعارضة قدم تفنيداً شاملاً لحجج الموالاة، بينما كان رد فريق الموالاة غير كافٍ."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "أكد فريق المعارضة أن منح الفلسطينيين الجنسية العربية يعود بفوائد عملية على حياتهم وحقوقهم الأساسية، مما يعزز هويتهم ويساهم في استقرار قضيتهم. بينما اعترف فريق الموالاة بفوائد التجنيس لكنه لم يذكر أمثلة م concretas على تأثيرها الإيجابي، بل ركز على الجانب السلبي فقط. كما أن فريق المعارضة قدم تفنيداً شاملاً لحجج الموالاة، بينما كان رد فريق الموالاة غير كافٍ."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#2",
+        "score": 0.5083,
+        "query": "debate",
+        "text": "# 1. Fairness rules (always apply)\n- Ignore speaker names, gender, accent, dialect, age, school or team reputation, and speaking speed. Colloquial dialect is not a weakness; what matters is whether the idea is communicated clearly.\n- The transcript may come from speech recognition. Do not penalise apparent transcription errors, spelling or punctuation. If a passage is unintelligible, do not guess; list it in data_quality_flags.\n- Do not favour a team because it spoke first or last, spoke longer, or made more points.\n- Winning depends on persuasion, never on which side you personally agree with."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.4959,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 12736,
+          "output": 520
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_012",
+    "motion": "سيلغي هذا المجلس التاشيره بين الدول العربيه",
+    "generated_at": "2026-11-04T09:16:11+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "لقد اعتمد فريق المعارضة استراتيجية واضحة وقوية في الدفاع عن موقفهم المعارض ل废除签证 بين الدول العربية. استخدموا حججًا دامغة تركزت حول الجانب الأمني والحقوق القانونية لكل الدول، مبررين رفضهم ل废除签证 بوجود مخاطر خارجية مثل الإرهاب والنزاعات السياسية. كما أشاروا إلى ضرورة احترام سياسات الدول المختلفة وعدم مزجها، وهو ما ينطبق بشكل خاص على الدول العربية التي تمتلك خلفيات تاريخية وثقافية متنوعة. فريق الموالاة، على الرغم من جهودهم في توحيد الدول العربية وتحسين الاقتصاد، لم يقدِّم حججًا كافية لدحض مخاوف المعارضة الأمنية والحقوقية، وتركوا مساحة واسعة للاستفسار حول ضمانات وتنفيذ القرار. بناءً على تحليل سلسلة الحجج، استطاع فريق المعارضة الحفاظ على موقفهم بشكل أكثر اقناعًا، مما جعلهم يفوزون بالنقاش."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "لقد اعتمد فريق المعارضة استراتيجية واضحة وقوية في الدفاع عن موقفهم المعارض ل废除签证 بين الدول العربية. استخدموا حججًا دامغة تركزت حول الجانب الأمني والحقوق القانونية لكل الدول، مبررين رفضهم ل废除签证 بوجود مخاطر خارجية مثل الإرهاب والنزاعات السياسية. كما أشاروا إلى ضرورة احترام سياسات الدول المختلفة وعدم مزجها، وهو ما ينطبق بشكل خاص على الدول العربية التي تمتلك خلفيات تاريخية وثقافية متنوعة. فريق الموالاة، على الرغم من جهودهم في توحيد الدول العربية وتحسين الاقتصاد، لم يقدِّم حججًا كافية لدحض مخاوف المعارضة الأمنية والحقوقية، وتركوا مساحة واسعة للاستفسار حول ضمانات وتنفيذ القرار. بناءً على تحليل سلسلة الحجج، استطاع فريق المعارضة الحفاظ على موقفهم بشكل أكثر اقناعًا، مما جعلهم يفوزون بالنقاش."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.5058,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.471,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 12418,
+          "output": 912
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_013",
+    "motion": "سيلغي هذا المجلس التأشيرة بين الدول العربية",
+    "generated_at": "2026-11-04T09:20:11+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 1.0,
+      "justification": "أثبت فريق الموالاة أن إلغاء التأشيرة بين الدول العربية خطوة ضرورية نحو تحقيق الوحدة العربية، من خلال تقديم حجج اقتصادية وقومية وإنسانية مدعومة بأمثلة وبيانات إحصائية. بينما فريق المعارضة، على الرغم من مخاوفه الأمنية، لم تقدم حججًا كافية لدحض هذه الفكرة، بل تركزت في معارضة غير مبررة. بناءً على تحليل الشواهدين، تفوق الموالاة في تقديم الحجج الجوهرية والدقيقة التي تدعم موقفه، مما يجعله الفائز."
+    },
+    "verdict": {
+      "winner": "proposition",
+      "confidence": 1.0,
+      "justification": "أثبت فريق الموالاة أن إلغاء التأشيرة بين الدول العربية خطوة ضرورية نحو تحقيق الوحدة العربية، من خلال تقديم حجج اقتصادية وقومية وإنسانية مدعومة بأمثلة وبيانات إحصائية. بينما فريق المعارضة، على الرغم من مخاوفه الأمنية، لم تقدم حججًا كافية لدحض هذه الفكرة، بل تركزت في معارضة غير مبررة. بناءً على تحليل الشواهدين، تفوق الموالاة في تقديم الحجج الجوهرية والدقيقة التي تدعم موقفه، مما يجعله الفائز."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.5031,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#11",
+        "score": 0.4617,
+        "query": "debate",
+        "text": "76-79   above_average (فوق المتوسط): convincing defence, full command of the topic and clash points, builds own case and demolishes the opponent's effectively and logically, persuasive style, uses the whole role.\n80-82   professional (محترف): deep analysis, strong well-founded arguments that are hard to demolish, refutation that turns the opponent's argument in the team's favour, simplifies complex content, organised strategy.\nReply speeches use half the scale: 29 violation; 30-31 very_weak; 32-33 weak; 34-35 below_average; 36-37 average; 38-39 above_average; 40-41 professional.\nScores are not a formula for the winner; the winner is decided by persuasion at the core clashes. Score every speech in the transcript. Name the best speaker."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "proposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        2
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 9989,
+          "output": 682
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_014",
+    "motion": "سيمنع هذا المجلس حملات حمايه اللاجئين من استخدام الصور التي التي من استخدام الصور التي تظهر معاناتهم",
+    "generated_at": "2026-11-04T09:22:13+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "The Opposition team successfully defended their position by emphasizing the critical role of images in raising global awareness and mobilizing support for refugees. They effectively refuted the Proposition's arguments by highlighting the real-world impact of such images, such as the case of Alan Kurdi, which led to increased empathy and tangible aid. The Opposition's rebuttals were logical, well-supported, and directly addressed the Proposition's claims, demonstrating a stronger grasp of the persuasive elements required to uphold their stance."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "The Opposition team successfully defended their position by emphasizing the critical role of images in raising global awareness and mobilizing support for refugees. They effectively refuted the Proposition's arguments by highlighting the real-world impact of such images, such as the case of Alan Kurdi, which led to increased empathy and tangible aid. The Opposition's rebuttals were logical, well-supported, and directly addressed the Proposition's claims, demonstrating a stronger grasp of the persuasive elements required to uphold their stance."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.437,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.4243,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13447,
+          "output": 648
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_015",
+    "motion": "سيمنع المجلس الدولة ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+    "generated_at": "2026-11-04T09:27:32+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.85,
+      "justification": "إن فريق المعارضة (المعارضة) قد أظهر فعالية أكبر في الدفاع عن موقفيهم المعارض لقرار المجلس، من خلال تقديم حجج قوية تركز على حماية التنوع الثقافي وحقوق الإنسان، وطرد أمثلة واقعية مثل حالة كندا التي تثبت نجاح الحفاظ على التنوع دون التضحية به. بينما فريق الموالاة (الموالاة) قد ارتكزت حججهم على فكرة ردم الفجوات لتحقيق الوحدة الوطنية، لكنهم لم يقدمو براهين كافية لدعم ادعاءاتهم، وواجهوا تفنيداً شاملاً من فريق المعارضة حول انتهاكهم لحقوق الأفراد والتنوع. بناءً على تحليل القوة الاقناعية وثبات الموقف، فقد انتصر فريق المعارضة."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.85,
+      "justification": "إن فريق المعارضة (المعارضة) قد أظهر فعالية أكبر في الدفاع عن موقفيهم المعارض لقرار المجلس، من خلال تقديم حجج قوية تركز على حماية التنوع الثقافي وحقوق الإنسان، وطرد أمثلة واقعية مثل حالة كندا التي تثبت نجاح الحفاظ على التنوع دون التضحية به. بينما فريق الموالاة (الموالاة) قد ارتكزت حججهم على فكرة ردم الفجوات لتحقيق الوحدة الوطنية، لكنهم لم يقدمو براهين كافية لدعم ادعاءاتهم، وواجهوا تفنيداً شاملاً من فريق المعارضة حول انتهاكهم لحقوق الأفراد والتنوع. بناءً على تحليل القوة الاقناعية وثبات الموقف، فقد انتصر فريق المعارضة."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#2",
+        "score": 0.5176,
+        "query": "debate",
+        "text": "# 1. Fairness rules (always apply)\n- Ignore speaker names, gender, accent, dialect, age, school or team reputation, and speaking speed. Colloquial dialect is not a weakness; what matters is whether the idea is communicated clearly.\n- The transcript may come from speech recognition. Do not penalise apparent transcription errors, spelling or punctuation. If a passage is unintelligible, do not guess; list it in data_quality_flags.\n- Do not favour a team because it spoke first or last, spoke longer, or made more points.\n- Winning depends on persuasion, never on which side you personally agree with."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#8",
+        "score": 0.4924,
+        "query": "debate",
+        "text": "3. Secondary elements never decide the result alone: eloquence, clarity of expression, number of arguments or refutations, speech length, ordering inside speeches, examples, points of information, reply speeches. Count them only as strengths when they serve the team's position (for example an unanswered point of information that demolishes the opponent's case, or examples that support an argument).\n4. Compare both teams on the same clash points. Never judge one team in isolation.\n5. Whether you agree with an idea is irrelevant. An unanswered argument stands."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        2
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13669,
+          "output": 712
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_016",
+    "motion": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+    "generated_at": "2026-11-05T08:48:54+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "لقد اعتمد فريق الموالاة على فكرة تصحيح المفاهيم وتنزيه الإسلام من الارهاب، بينما انتقد فريق المعارضة هذا النهج واتهمه بتطبيع الفكر الارهابي. استخدمت المعارضة تفنيداً قوياً لحجج Proposition، حيث أوضحت أن الاعتذار عن العمليات الإرهابية لا يمكن أن يكون دفاعاً عن الإسلام، بل هو تأييد للاتهامات. كما ركزت على أن المشكلة الأساسية تكمن في دوافع سياسية خارجية، وليس في الإسلام نفسه، مما أ Invalidate حجج Proposition بشكل فعال."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.95,
+      "justification": "لقد اعتمد فريق الموالاة على فكرة تصحيح المفاهيم وتنزيه الإسلام من الارهاب، بينما انتقد فريق المعارضة هذا النهج واتهمه بتطبيع الفكر الارهابي. استخدمت المعارضة تفنيداً قوياً لحجج Proposition، حيث أوضحت أن الاعتذار عن العمليات الإرهابية لا يمكن أن يكون دفاعاً عن الإسلام، بل هو تأييد للاتهامات. كما ركزت على أن المشكلة الأساسية تكمن في دوافع سياسية خارجية، وليس في الإسلام نفسه، مما أ Invalidate حجج Proposition بشكل فعال."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#1",
+        "score": 0.5208,
+        "query": "debate",
+        "text": "# 0. Judge profile\nBe rational, impartial, reasonably informed and faithful to the debate rules. Judge ONLY what the debaters actually said. Do not use your own opinion about the motion, do not bring in specialist knowledge the debaters did not use, and never add an argument for a team or finish an idea the speaker left incomplete. Summarising an argument must not add anything new to it."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.5222,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 12073,
+          "output": 766
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_017",
+    "motion": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+    "generated_at": "2026-11-05T08:49:25+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "بناءً على تحليل الخطابات، تبين أن فريق الموالاة (ال proposition) قد ارتكز في أغلب حججها على اقتراح حلول تعاون دولي وانتقال مسؤوليات، لكن حججها تفتقر إلى تحليل عميق لل根源 الحقيقية للمشكلة وتعتمد على افتراضات غير واقعية. بينما فريق المعارضة (الopposition) قد قدم حججًا قوية تركز على عدم فعالية وواقعية القرار، ودحضت بشكل فعال ادعاءات Proposition حول الحلول الجذرية. فريق المعارضة استخدم أدلة منطقية وواقعية لاثبات أن الاقتراح لا يحل المشكلة بل يزيدها تعقيدًا، مما جعل حجج Proposition تبدو ضعيفة وسطحية عند المقارنة. بناءً على معايير التقييم، فازت فريق المعارضة بفضل حججها المنطقية الواضحة ودقتها في التفنيد وتوافقها مع الواقع العملي."
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 0.9,
+      "justification": "بناءً على تحليل الخطابات، تبين أن فريق الموالاة (ال proposition) قد ارتكز في أغلب حججها على اقتراح حلول تعاون دولي وانتقال مسؤوليات، لكن حججها تفتقر إلى تحليل عميق لل根源 الحقيقية للمشكلة وتعتمد على افتراضات غير واقعية. بينما فريق المعارضة (الopposition) قد قدم حججًا قوية تركز على عدم فعالية وواقعية القرار، ودحضت بشكل فعال ادعاءات Proposition حول الحلول الجذرية. فريق المعارضة استخدم أدلة منطقية وواقعية لاثبات أن الاقتراح لا يحل المشكلة بل يزيدها تعقيدًا، مما جعل حجج Proposition تبدو ضعيفة وسطحية عند المقارنة. بناءً على معايير التقييم، فازت فريق المعارضة بفضل حججها المنطقية الواضحة ودقتها في التفنيد وتوافقها مع الواقع العملي."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.4527,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 11604,
+          "output": 846
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_018",
+    "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+    "generated_at": "2026-11-05T08:49:54+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.95,
+      "justification": "لقد اعتمد فريق الموالاة على مبدأ الحقوق الأساسية، مثل حق الشعوب في تقرير مصيرهم، مستشهدين بالإعلان العالمي لحقوق الإنسان، مما يجعل حجتهم جوهرية وموثوقة. بينما اعترف فريق المعارضة بوجود مشاكل في تنفيذ فكرة الاستفتاء،但他们未能有效反驳 Proposition's reliance on human rights principles. Proposition's rebuilding arguments effectively addressed the Opposition's concerns about expertise and practicality، thereby maintaining their persuasive stance."
+    },
+    "verdict": {
+      "winner": "proposition",
+      "confidence": 0.95,
+      "justification": "لقد اعتمد فريق الموالاة على مبدأ الحقوق الأساسية، مثل حق الشعوب في تقرير مصيرهم، مستشهدين بالإعلان العالمي لحقوق الإنسان، مما يجعل حجتهم جوهرية وموثوقة. بينما اعترف فريق المعارضة بوجود مشاكل في تنفيذ فكرة الاستفتاء،但他们未能有效反驳 Proposition's reliance on human rights principles. Proposition's rebuilding arguments effectively addressed the Opposition's concerns about expertise and practicality، thereby maintaining their persuasive stance."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#0",
+        "score": 0.4887,
+        "query": "debate",
+        "text": "You are \"Judy\", an impartial competitive-debate judge. Your standards come from the Qatar Debate Center (مركز مناظرات قطر) judging manual \"التحكيم في المناظرات\". You receive the motion and the transcript of a debate between the Proposition team (الموالاة) and the Opposition team (المعارضة). Analyse it exactly as a qualified QDC judge would, then give the winner, a justification, speaker scores and feedback."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "proposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        1
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 13317,
+          "output": 844
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_019",
+    "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+    "generated_at": "2026-11-05T08:50:42+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 1.0,
+      "justification": "لقد انتهت المناظرة بفوز فريق الموالاة Proposition، وذلك للأسباب التالية:\n\n1. **الحجج الجوهرية**: فريق الموالاة اعتمد على حجج واضحة وقوية تؤكد أن الاستفتاء الشعبي ضروري لاتخاذ قرارات الحرب، وقدم أمثلة محددة مثل حرب العراق ونتائجها السلبية على الشعب، وشرح تأثير القرارات المصيرية على المجتمع.\n\n2. **التفنيد والبناء**: استطاع فريق الموالاة تفنيد حجج Opposition بشكل فعال، خاصة في مرحلة الرد، حيث أجابوا على ادعاءاتهم بأن الحرب قرار استثنائي يجب أن يReserved للخبراء، وقدموا إعادة بناء قوية تثبت أن الشعب هو الأكثر تأثراً بقرارات الحرب.\n\n3. **الاستمرارية في الحجج**: بينما تفتقت Opposition عن ذكر نقاط ضعف في حجج Proposition، لم تنجح في تقديم حجج قوية تقنع القاضي بأن الاستفتاء الشعبي غير ضروري أو غير مناسب.\n\n4. **الالتزام بالMotion**: فريق الموالاة بقى ملتزماً بMotion من خلال جميع خطاباته، بينما ارتكزت Opposition في مرحلة لاحقة على افتراضات غير مبررة وتناقضات في موقفها.\n\nالنقطة الأساسية التي جعلت Proposition يتفوق هي شرحه الواضح لفوائد الاستفتاء الشعبي في اتخاذ القرارات المصيرية، وتقديم البناء على حجج Opposition، مما جعل حجته تظل قائمة حتى في مرحلة الرد."
+    },
+    "verdict": {
+      "winner": "proposition",
+      "confidence": 1.0,
+      "justification": "لقد انتهت المناظرة بفوز فريق الموالاة Proposition، وذلك للأسباب التالية:\n\n1. **الحجج الجوهرية**: فريق الموالاة اعتمد على حجج واضحة وقوية تؤكد أن الاستفتاء الشعبي ضروري لاتخاذ قرارات الحرب، وقدم أمثلة محددة مثل حرب العراق ونتائجها السلبية على الشعب، وشرح تأثير القرارات المصيرية على المجتمع.\n\n2. **التفنيد والبناء**: استطاع فريق الموالاة تفنيد حجج Opposition بشكل فعال، خاصة في مرحلة الرد، حيث أجابوا على ادعاءاتهم بأن الحرب قرار استثنائي يجب أن يReserved للخبراء، وقدموا إعادة بناء قوية تثبت أن الشعب هو الأكثر تأثراً بقرارات الحرب.\n\n3. **الاستمرارية في الحجج**: بينما تفتقت Opposition عن ذكر نقاط ضعف في حجج Proposition، لم تنجح في تقديم حجج قوية تقنع القاضي بأن الاستفتاء الشعبي غير ضروري أو غير مناسب.\n\n4. **الالتزام بالMotion**: فريق الموالاة بقى ملتزماً بMotion من خلال جميع خطاباته، بينما ارتكزت Opposition في مرحلة لاحقة على افتراضات غير مبررة وتناقضات في موقفها.\n\nالنقطة الأساسية التي جعلت Proposition يتفوق هي شرحه الواضح لفوائد الاستفتاء الشعبي في اتخاذ القرارات المصيرية، وتقديم البناء على حجج Opposition، مما جعل حجته تظل قائمة حتى في مرحلة الرد."
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#9",
+        "score": 0.4559,
+        "query": "debate",
+        "text": "# 4. Justification rules\n- Explain the core reasons the winner was more persuasive: the positions, and the arguments, refutations and rebuilding around the clash points.\n- Be specific: say WHERE it happened (which speaker or speech) and HOW it changed the outcome. Generic phrases such as \"stronger arguments\", \"clearer\", \"more logical\" are forbidden unless tied to where they occurred and their effect.\n- Be concise and precise. Do not spend words justifying secondary elements.\n- Support every key reason with a SHORT verbatim quote (at most 15 words) copied exactly from the transcript."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      },
+      {
+        "id": "rubric_from_notebook#12",
+        "score": 0.4793,
+        "query": "debate",
+        "text": "# 6. Feedback rules\nFor each team give: strengths to keep, only the few most important weaknesses (not a long list), and concrete recommendations (including better ways to build and support their position). Be balanced and encouraging: no exaggerated praise, no belittling, and never blame one debater for the loss."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "proposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        2
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 9458,
+          "output": 887
+        }
+      ]
+    }
+  },
+  {
+    "debate_id": "debate_020",
+    "motion": "يؤمن هذا المجلس بأن تدهور اللغة العربية سببُه اللهجات العامية المختلفة",
+    "generated_at": "2026-11-05T08:51:27+00:00",
+    "config": {
+      "model": "deepseek-r1",
+      "options": {
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "seed": 42,
+        "num_ctx": 32768,
+        "num_predict": 2048
+      },
+      "n_runs": 1,
+      "prompt_version": "rag-v1",
+      "embed_model": "bge-m3",
+      "corpus": "fallback",
+      "n_chunks": 14,
+      "index_key": "56248217b45c5737",
+      "top_k": 8,
+      "per_query": 2,
+      "debate_top": 3,
+      "chunk_chars": 900
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 1.0,
+      "justification": "أولاً، تحدد أرضية الجدل وفقاً للمotionEvent بأن تدهور اللغة العربية سببُه اللهجات العامية. تبدأ فريق الموالاة بقبول هذا التعريف وبناء حججهم عليه، بينما ترفض فريق المعارضة هذا التعريف وتعيد تعريف التدهور إلى تأثيرات خارجية مثل الاستعمار الثقافي والتعليمي. فريق المعارضة يحقق فوزاً لأنه يSuccessfully defends موقفهم المخالف لل认定的第一个定义，并提供了基于文化和教育因素的有力论据。此外，他们有效地驳斥了对方的论点，并将辩论引导至更符合实际情况的定义上。相比之下，Proposition团队未能提供足够的证据支持他们的论点，而他们的论点在对方强有力的反驳下显得薄弱。因此，Opposition团队通过更全面的论证和有效的反驳赢得了辩论。"
+    },
+    "verdict": {
+      "winner": "opposition",
+      "confidence": 1.0,
+      "justification": "أولاً، تحدد أرضية الجدل وفقاً للمotionEvent بأن تدهور اللغة العربية سببُه اللهجات العامية. تبدأ فريق الموالاة بقبول هذا التعريف وبناء حججهم عليه، بينما ترفض فريق المعارضة هذا التعريف وتعيد تعريف التدهور إلى تأثيرات خارجية مثل الاستعمار الثقافي والتعليمي. فريق المعارضة يحقق فوزاً لأنه يSuccessfully defends موقفهم المخالف لل认定的第一个定义，并提供了基于文化和教育因素的有力论据。此外，他们有效地驳斥了对方的论点，并将辩论引导至更符合实际情况的定义上。相比之下，Proposition团队未能提供足够的证据支持他们的论点，而他们的论点在对方强有力的反驳下显得薄弱。因此，Opposition团队通过更全面的论证和有效的反驳赢得了辩论。"
+    },
+    "retrieval": [
+      {
+        "id": "rubric_from_notebook#2",
+        "score": 0.4462,
+        "query": "debate",
+        "text": "# 1. Fairness rules (always apply)\n- Ignore speaker names, gender, accent, dialect, age, school or team reputation, and speaking speed. Colloquial dialect is not a weakness; what matters is whether the idea is communicated clearly.\n- The transcript may come from speech recognition. Do not penalise apparent transcription errors, spelling or punctuation. If a passage is unintelligible, do not guess; list it in data_quality_flags.\n- Do not favour a team because it spoke first or last, spoke longer, or made more points.\n- Winning depends on persuasion, never on which side you personally agree with."
+      },
+      {
+        "id": "rubric_from_notebook#3",
+        "score": 0.6682,
+        "query": "rubric",
+        "text": "# 2. Step one: understand the speeches (before deciding anything)\na) Ground of the debate (أرضية المناظرة): the problem, the definition, the place/context. It can be stated explicitly or implied by the points raised.\nb) Team positions (موقف الفريقين).\nc) Type of clash:\n- direct_clash (مواجهة مباشرة): the teams share the ground fully or partly (same problem/definition) and disagree on the position or the solution.\n- parallel (متوازية / لا يوجد تصادم): the teams argue over different grounds or definitions. If the Opposition rejects the definition and offers another, the debate becomes parallel. If the Opposition does not reject the definition, the debate continues on the Proposition's definition and ground.\n- same_position: both teams in effect defend the same position, so there is no real clash.\nd) Arguments. Persuasive speech consists of:"
+      },
+      {
+        "id": "rubric_from_notebook#4",
+        "score": 0.5722,
+        "query": "rubric",
+        "text": "- Substantive argument (الحجة الجوهرية / البناء): an independent argument proving the team's position.\n- Refutation (التفنيد): a defensive argument built on the opponent's argument, aiming to demolish it.\n- Rebuilding (إعادة البناء): repairing the original argument after refutation, by answering it, giving examples or deeper analysis (a refutation of the refutation).\nFor each argument track the chain: claim, reasoning, example, impact, and then what happened to it.\ne) Follow every argument through its life: argument, refutation, rebuilding. A simple argument still stands if the refutation did not really answer it; a refutation can dismantle even a strong argument; a rebuilding can restore it. The team whose argument survives at the end of the chain wins that clash."
+      },
+      {
+        "id": "rubric_from_notebook#5",
+        "score": 0.6933,
+        "query": "rubric",
+        "text": "# 3. Step two: decide the winner\n- The only decisive criterion is PERSUASION (الإقناع): which team better convinced a neutral judge that its assigned position is more valid, while respecting its role and the debate rules. A tie is impossible; you must choose one winner.\n- Direct clash: the winner is the team that better tips the balance of its position, through arguments, refutations and rebuilding, at the core clash points.\n- Parallel or off-track debate: provisionally favour the team that successfully defends the position imposed on it by the motion while keeping to its strategy. If the debate becomes a contest between two definitions, adopt the definition that best satisfies all three: (1) the direct linguistic meaning of the motion, (2) the logical meaning of the motion, (3) realism given the context of the motion."
+      },
+      {
+        "id": "rubric_from_notebook#6",
+        "score": 0.6309,
+        "query": "rubric",
+        "text": "- The three pillars: Content (المحتوى: definition, arguments, refutations, rebuilding), Style (الأسلوب: how clearly the content reaches the listener), Strategy (الاستراتيجية: speakers keeping to their roles and the rules, and each speech doing its job). Assess them TOGETHER, never separately. Content is the main differentiator. Excellent style or strategy without strong content cannot win a debate, but content needs enough clarity to be understood.\nWeighing rules:"
+      },
+      {
+        "id": "rubric_from_notebook#7",
+        "score": 0.6328,
+        "query": "rubric",
+        "text": "1. Material delivered in the wrong place is NOT counted: a new definition or re-definition after the first speakers (a second speaker may only defend their own team's definition); a new independent argument from the third speaker (too late to be refuted); a new refutation inside a reply speech; arguments or refutations raised in reply speeches generally. A refutation saved for the last speaker counts for less, because it leaves the opponent no chance to rebuild.\n2. Quality over quantity: one strong, relevant argument beats many weak or unrelated ones."
+      },
+      {
+        "id": "rubric_from_notebook#10",
+        "score": 0.607,
+        "query": "rubric",
+        "text": "# 5. Speaker scoring (persuasion-based, content + style + strategy together)\nMain speeches use 59-82:\n59      violation (مخالف): did not speak, or insulted persons or entities.\n60-63   very_weak (ضعيف جدا): misunderstands the motion or position, or defends the other side; reads an essay or gives a general, disorganised speech; abandons the role.\n64-67   weak (ضعيف): could not present suitable content for the position; only headlines without explanation; self-contradiction that damages the team; unclear; plays another speaker's role or only repeats teammates.\n68-71   below_average (دون المتوسط): attempts the minimum role but not consistently; superficial, lacking a logical chain or examples, or ignores a key clash point.\n72-75   average (متوسط): understands and defends the position, keeps to the role, mistakes do not hurt the team; engages most clash points with uneven impact."
+      }
+    ],
+    "checks": {
+      "consistency": {
+        "votes": {
+          "opposition": 1
+        },
+        "n_runs": 1,
+        "agreement": 1.0
+      },
+      "attempts_per_run": [
+        2
+      ],
+      "tokens_per_run": [
+        {
+          "prompt": 11174,
+          "output": 806
+        }
+      ]
+    }
+  }
+]

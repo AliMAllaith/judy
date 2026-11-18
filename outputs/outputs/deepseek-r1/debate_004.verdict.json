@@ -1,0 +1,483 @@
+{
+  "debate_id": "debate_004",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-03T10:37:26+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.8,
+    "justification": "The Opposition team was more persuasive because they effectively defended their position by providing clear examples and refutations, while the Proposition team's arguments were weak and lacked substance in comparison. The core clash point was the necessity of professional sports in society, and the Opposition team successfully argued that it is essential for maintaining discipline and values in sports.",
+    "best_speaker": "المعارضة - المتحدث الثاني"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "The impact of professional sports on society and the individual.",
+      "proposition_definition": "Professional sports are the pursuit of sports as a career, with a focus on excellence and dedication.",
+      "opposition_definition": "Professional sports are the pursuit of sports as a career, with a focus on excellence and dedication.",
+      "definition_contested": true,
+      "adopted_ground": "The world without professional sports"
+    },
+    "positions": {
+      "proposition": "The world with professional sports is preferable because it requires dedication and excellence.",
+      "opposition": "The world without professional sports is preferable because it maintains discipline and values in sports."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "rebuilding",
+        "summary": "الموالاة يطرحون مفهوم الاحتراف كركود الحياة في الرياضة، وترك الدراسة والمستقبل كضرورة لتحقيق النجاح، وهو ما يندرج تحت مفهوم الاحتراف الصحيح وفقا ل.motion",
+        "evidence_quote": "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده",
+        "counted": true,
+        "not_counted_reason": "اللاعب المحترف يعتمد على الرياضة كمصدر رزق، وترك الدراسة والمستقبل يعتمد على النجاح والتفوق في الرياضة، وهو ما يندرج تحت مفهوم الاحتراف الصحيح وفقا ل.motion"
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "rebuilding",
+        "summary": "الموالاة يطرحون مفهوم الاحتراف كركود الحياة في الرياضة، وترك الدراسة والمستقبل كضرورة تحقيق النجاح، وهو ما يندرج تحت مفهوم الاحتراف الصحيح وفقا ل.motion",
+        "evidence_quote": "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده",
+        "counted": true,
+        "not_counted_reason": "الموالاة يطرحون مفهوم الاحتراف كركود الحياة في الرياضة، وترك الدراسة والمستقبل كضرورة لتحقيق النجاح، وهو ما يندرج تحت مفهوم الاحتراف الصحيح وفقا ل.motion"
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "item": "Speech 2 | الموالاة - المتحدث الثاني | main speech",
+        "issue": "The Proposition team introduced a new definition of 'professionalism' in their second speech, which is not allowed as it was already defined in the motion."
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "item": "Speech 4 | المعارضة - المتحدث الثاني | reply speech",
+        "issue": "The Opposition team introduced a new definition of 'professionalism' in their fourth speech, which is not allowed as it was already defined in the motion."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الاستقرار",
+        "importance": "secondary",
+        "proposition_side": "المعارضة",
+        "opposition_side": "الموالاة",
+        "outcome": "opposition",
+        "reasoning": "الموالاة يركزون على استقرار اللاعب المحترف، بينما المعارضة يعارضون ذلك بقوة، ويطالبون بضرورة الاحتراف الرياضي في المجتمع، وهو ما يندرج تحت مفهوم الاحتراف الصحيح وفقا ل.motion"
+      },
+      {
+        "clash_point": "التأثير على المجتمع",
+        "importance": "secondary",
+        "proposition_side": "المعارضة",
+        "opposition_side": "الموالاة",
+        "outcome": "proposition",
+        "reasoning": "الموالاة يتحدثون عن تأثير الاحتراف الرياضي على المجتمع، بينما المعارضة يعارضون ذلك بقوة، ويطالبون بضرورة الاحتراف الرياضي في المجتمع، وهو ما يندرج تحت مفهوم الاحتراف الصحيح وفقا ل.motion"
+      },
+      {
+        "clash_point": "الاحتراف الرياضي",
+        "importance": "core",
+        "proposition_side": "موالاة",
+        "opposition_side": "المعارضة",
+        "outcome": "opposition",
+        "reasoning": "الموالاة يركزون على استقرار اللاعب المحترف، بينما المعارضة يعارضون ذلك بقوة، ويطالبون بضرورة الاحتراف الرياضي في المجتمع، وهو ما يندرج تحت مفهوم الاحتراف الصحيح وفقا ل.motion"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Opposition team had stronger and more relevant arguments, supported by clear examples and evidence.",
+      "style": "The Proposition team had clearer and more organized speeches, while the Opposition team's speeches were less structured.",
+      "strategy": "The Opposition team maintained a consistent strategy throughout the debate, while the Proposition team's strategy was less effective."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.8,
+      "key_reasons": [
+        {
+          "reason": "The Opposition team successfully defended their position by providing clear examples and refutations, while the Proposition team's arguments were weak and lacked substance in comparison.",
+          "where": "Speech 4 | المعارضة - المتحدث الثاني | reply speech",
+          "effect": "strong",
+          "evidence_quote": "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده"
+        },
+        {
+          "reason": "The Opposition team effectively used the concept of 'professionalism' to build their case, while the Proposition team's arguments were based on a flawed definition that did not align with the motion.",
+          "where": "Speech 4 | المعارضة - المتحدث الثاني | reply speech",
+          "effect": "strong",
+          "evidence_quote": "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده"
+        },
+        {
+          "reason": "The Opposition team's arguments were more persuasive due to their clear structure and effective use of examples, while the Proposition team's arguments were repetitive and lacked depth.",
+          "where": "Speech 4 | المعارضة - المتحدث الثاني | reply speech",
+          "effect": "strong",
+          "evidence_quote": "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده"
+        }
+      ]
+    },
+    "justification": "The Opposition team was more persuasive because they effectively defended their position by providing clear examples and refutations, while the Proposition team's arguments were weak and lacked substance in comparison. The core clash point was the necessity of professional sports in society, and the Opposition team successfully argued that it is essential for maintaining discipline and values in sports.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuading the judge."
+      },
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches were not effective in persuating the judge."
+      }
+    ],
+    "best_speaker": "المعارضة - المتحدث الثاني",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Good command of the topic and ability to defend their stance.",
+          "Clear articulation of the team's position.",
+          "Effective use of examples to support arguments."
+        ],
+        "improvements": [
+          "Develop a clearer and more structured approach to building arguments.",
+          "Focus on providing substantive evidence to support claims.",
+          "Improve the delivery of refutations to ensure they effectively demolish the opponent's arguments."
+        ],
+        "recommendations": [
+          "Practice summarizing arguments concisely to improve persuasiveness.",
+          "Develop a more comprehensive understanding of the topic to address potential counterarguments effectively.",
+          "Consider using more specific examples to support arguments and enhance clarity."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Effective use of examples to support arguments.",
+          "Clear articulation of the team's position.",
+          "Good command of the topic and ability to defend their stance."
+        ],
+        "improvements": [
+          "Focus on building a stronger case for the necessity of professional sports in society.",
+          "Ensure that arguments are clearly supported with examples and evidence.",
+          "Maintain a consistent and logical structure throughout the debate."
+        ],
+        "recommendations": [
+          "Develop a more comprehensive understanding of the topic to address potential counterarguments effectively.",
+          "Practice delivering arguments in a clear and concise manner to enhance persuasiveness.",
+          "Consider expanding on the impact of professional sports on society to strengthen your position."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some arguments may be unclear due to transcription errors.",
+      "The debate may have been affected by incomplete speeches or unclear roles."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده",
+        "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده",
+        "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده",
+        "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده",
+        "هذا ما لا نحن نريده عندما يتعلق مصيري على رهان اما ان اصبح لاعبا ناجحا اما ان اصبح فاشلا في الارض لا احد يعرفه هذا ما نحن نريده عندما يتعلق الاحتمال على ان هناك نسبه كبيره بمجرد حدوث خطا بسيط ان ينتهي مستقبلي هذا ما لا نحن نريده"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 2040,
+      "opposition": 0
+    },
+    "winner_has_lower_total_score": true,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 21144,
+        "output": 5174
+      }
+    ]
+  }
+}

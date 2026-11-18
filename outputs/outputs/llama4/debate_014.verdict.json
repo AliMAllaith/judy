@@ -1,0 +1,213 @@
+{
+  "debate_id": "debate_014",
+  "motion": "سيمنع هذا المجلس حملات حمايه اللاجئين من استخدام الصور التي التي من استخدام الصور التي تظهر معاناتهم",
+  "generated_at": "2026-11-04T12:22:55+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.8,
+    "justification": "الموالاة قدمت حجج قوية حول ضرورة منع نشر الصور لحماية كرامة اللاجئين وحقوقهم",
+    "best_speaker": "المتحدث الثالث - الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "سيمنع هذا المجلس حملات حماية اللاجئين من استخدام الصور التي تظهر معاناتهم",
+      "proposition_definition": "الموالاة تريد منع حملات حماية اللاجئين من استخدام الصور التي تظهر معاناتهم",
+      "opposition_definition": "المعارضة تعارض منع حملات حماية اللاجئين من استخدام الصور التي تظهر معاناتهم",
+      "definition_contested": false,
+      "adopted_ground": "سيمنع هذا المجلس حملات حماية اللاجئين من استخدام الصور التي تظهر معاناتهم"
+    },
+    "positions": {
+      "proposition": "الموالاة تريد منع حملات حماية اللاجئين من استخدام الصور التي تظهر معاناتهم لتعزيز كرامتهم وحقوقهم",
+      "opposition": "المعارضة تريد السماح لحملات حماية اللاجئين باستخدام الصور التي تظهر معاناتهم لدعمهم وزيادة الوعي بهم"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "نشر صور اللاجئين يؤدي إلى جرح كرامتهم وامتهان إنسانيتهم",
+        "evidence_quote": "عندما ننشر صوره مهينه ومزريه في للاجئ ما فاننا نكون قد جرحنا كرامته ومسناها باذى كبير نفسي يؤثر عليه اولا ويؤثر على عائلته ثانيا ويؤثر على البلد الذي اتى منه ثالثا",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "نشر صور اللاجئين يؤدي إلى تطبيع معاناتهم عند الناس",
+        "evidence_quote": "تكرار الصوره يؤدي الى جعل الصوره عند الناس امر واقع وامر طبيعي",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "تكرار الصور لا يؤدي إلى تطبيع المعاناة",
+        "evidence_quote": "هل نسيت صوره الطفل الذي عمره ثلاث سنوات مات قرقا في البحار",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الصور يمكن أن تؤثر على مشاعر الناس وتدعم اللاجئين",
+        "evidence_quote": "صوره الطفل اريان و الكردي وغيره الكثير من الذين ماتوا مات هذا الطفل وهو عم وعمره ثلاث سنوات هل اثرت هذه الصوره على جميع الامه واصبحوا يتداولونها الى الان",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديدة",
+        "issue": "حاول تقديم حجج جديدة في خطاب الرد"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "هل نشر صور اللاجئين يتعارض مع حقوقهم وكرامتهم؟",
+        "importance": "core",
+        "proposition_side": "الموالاة",
+        "opposition_side": "المعارضة",
+        "outcome": "proposition",
+        "reasoning": "الموالاة قدمت حجج قوية حول ضرورة منع نشر الصور لحماية كرامة اللاجئين وحقوقهم"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الموالاة",
+      "style": "المعارضة",
+      "strategy": "الموالاة"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.8,
+      "key_reasons": [
+        {
+          "reason": "الموالاة قدمت حجج قوية حول ضرورة منع نشر الصور لحماية كرامة اللاجئين وحقوقهم",
+          "where": "المتحدث الأول والثاني",
+          "effect": "قنع القاضي بأن الهدف من منع نشر الصور هو حماية اللاجئين وليس انتهاك حقوقهم",
+          "evidence_quote": "عندما ننشر صوره مهينه ومزريه في للاجئ ما فاننا نكون قد جرحنا كرامته"
+        }
+      ]
+    },
+    "justification": "الموالاة قدمت حجج قوية حول ضرورة منع نشر الصور لحماية كرامة اللاجئين وحقوقهم",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حجج قوية حول ضرورة منع نشر الصور"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حجج جيدة حول أهمية الصور في دعم اللاجئين"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "حجج قوية حول ضرورة منع نشر الصور"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حجج جيدة حول أهمية الصور في دعم اللاجئين"
+      }
+    ],
+    "best_speaker": "المتحدث الثالث - الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حجج قوية حول ضرورة منع نشر الصور لحماية كرامة اللاجئين وحقوقهم"
+        ],
+        "improvements": [
+          "التركيز على تقديم حجج أكثر تنظيماً"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم حجج قوية ومنظمة"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج جيدة حول أهمية الصور في دعم اللاجئين"
+        ],
+        "improvements": [
+          "التركيز على تقديم حجج أكثر قوة"
+        ],
+        "recommendations": [
+          "العمل على تقديم حجج أكثر قوة وتأثير"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "الخطاب الخامس للموالاة يبدو غير منظم."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 1,
+      "match_ratio": 0.2,
+      "unverified_quotes": [
+        "عندما ننشر صوره مهينه ومزريه في للاجئ ما فاننا نكون قد جرحنا كرامته ومسناها باذى كبير نفسي يؤثر عليه اولا ويؤثر على عائلته ثانيا ويؤثر على البلد الذي اتى منه ثالثا",
+        "تكرار الصوره يؤدي الى جعل الصوره عند الناس امر واقع وامر طبيعي",
+        "صوره الطفل اريان و الكردي وغيره الكثير من الذين ماتوا مات هذا الطفل وهو عم وعمره ثلاث سنوات هل اثرت هذه الصوره على جميع الامه واصبحوا يتداولونها الى الان",
+        "عندما ننشر صوره مهينه ومزريه في للاجئ ما فاننا نكون قد جرحنا كرامته"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 162,
+      "opposition": 155
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14003,
+        "output": 1684
+      }
+    ]
+  }
+}

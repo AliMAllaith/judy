@@ -1,0 +1,242 @@
+{
+  "debate_id": "debate_003",
+  "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+  "generated_at": "2026-11-03T10:35:13+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.9,
+    "justification": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+    "best_speaker": "معارضة - المتحدث الثالث"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+      "proposition_definition": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+      "opposition_definition": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+      "definition_contested": true,
+      "adopted_ground": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي"
+    },
+    "positions": {
+      "proposition": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+      "opposition": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "opposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+        "evidence_quote": "فإن بقاء الشاب في دولته يعني قتل الفرص وانعدام الاستقرار",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+        "evidence_quote": "فإن الدول الاسلامية الان هي متطوره وتتطور اكثر من دول الغرب",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "معارضة - المتحدث الثالث",
+        "kind": "substantive",
+        "summary": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+        "evidence_quote": "فإن بقاء الشاب في بلده سيفيد المجتمع وينتقل القيم الاسلامية",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "item": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+        "issue": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+        "importance": "secondary",
+        "proposition_side": "معارضة",
+        "opposition_side": "موالاة",
+        "outcome": "opposition",
+        "reasoning": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+      "style": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+      "strategy": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+          "where": "معارضة - المتحدث الثالث",
+          "effect": "تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+          "evidence_quote": "فإن بقاء الشاب في بلده سيفيد المجتمع وينتقل القيم الاسلامية"
+        }
+      ]
+    },
+    "justification": "الانسجام مع تفكيك المجتمعات المسلمة وتشويه الفكر الاسلامي",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": ""
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 30,
+        "note": ""
+      },
+      {
+        "speaker": "معارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "very_weak",
+        "score": 30,
+        "note": ""
+      }
+    ],
+    "best_speaker": "معارضة - المتحدث الثالث",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "القدرة على تفكيك حج Proposition بفعالية",
+          "الوضوح في التعبير عن الموقف"
+        ],
+        "improvements": [
+          "التركيز على نقاط الضعف في حج Opposition بشكل أعمق",
+          "استخدام أمثلة أكثر وضوحًا لتوضيح تأثير الهجرة على المجتمع"
+        ],
+        "recommendations": [
+          "الاستمرار في بناء الحج الخاص بكم",
+          "الاهتمام بالتفاصيل الدقيقة في الحج"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "القدرة على تفكيك حج Proposition بفعالية",
+          "الوضوح في التعبير عن الموقف"
+        ],
+        "improvements": [
+          "التركيز على نقاط الضعف في حج Proposition بشكل أعمق",
+          "استخدام أمثلة أكثر وضوحًا لتوضيح تأثير الهجرة على المجتمع"
+        ],
+        "recommendations": [
+          "الاستمرار في بناء الحج الخاص بكم",
+          "الاهتمام بالتفاصيل الدقيقة في الحج"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "صعوبة في فهم بعض الأقوال بسبب التهجج والخطاء الإملائي"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 4,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "فإن بقاء الشاب في دولته يعني قتل الفرص وانعدام الاستقرار",
+        "فإن الدول الاسلامية الان هي متطوره وتتطور اكثر من دول الغرب",
+        "فإن بقاء الشاب في بلده سيفيد المجتمع وينتقل القيم الاسلامية",
+        "فإن بقاء الشاب في بلده سيفيد المجتمع وينتقل القيم الاسلامية"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 210,
+      "opposition": 210
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 16780,
+        "output": 7221
+      }
+    ]
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "debate_id": "debate_011",
+  "motion": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+  "generated_at": "2026-11-10T13:59:19+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v2",
+    "prompt_sha256": "c54460df29d2f763",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 1.0,
+    "justification": "The Opposition was more persuasive by effectively challenging the Proposition's definition and providing counterarguments that directly addressed the core clash point regarding the right of return."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the issue of Palestinian self-determination in the context of international politics and the right of return.",
+        "proposition_definition": "The Proposition defined the motion as a call to reject any Arab citizenship, arguing that it serves the cause of the Palestinian state and protects the right of return.",
+        "opposition_definition": "The Opposition did not offer a competing definition but attacked the Proposition's definition.",
+        "definition_contested": true,
+        "adopted_ground": "The debate was fought on the contested definition of the motion."
+      },
+      "proposition_position": "The Proposition argues that granting Arab citizenship to Palestinians undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+      "opposition_position": "The Opposition believes that granting Arab citizenship to Palestinians is necessary for their rights and well-being, and that this strengthens the Palestinian cause by providing stability and cultural exchange.",
+      "clash_type": "mixed",
+      "clash_type_reason": "The debate involved both direct engagement and parallel arguments. The Proposition focused on the legal and political implications of granting citizenship, while the Opposition emphasized the practical and humanitarian benefits."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": []
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "other",
+            "summary": "The speaker begins by addressing the audience formally.",
+            "responds_to": "",
+            "evidence_quote": "بسم الله الرحمن الرحيم أستاذ الحضور والجمهور وأستاذ المحكمون جميعاً",
+            "counted": true,
+            "not_counted_reason": "Opening statement, not an argument."
+          },
+          {
+            "kind": "substantive",
+            "summary": "Arab citizenship would prevent Palestinians from becoming refugees, allowing them to meet basic needs themselves and focus on core issues like Israeli occupation.",
+            "responds_to": "",
+            "evidence_quote": "هذا الإحسان نجم عنه لاجئون ما حدث أن المجتمع الدولي يركز في قضيته ويوجه العالم بأسره إلى قضية اللاجئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Obtaining Arab citizenship would allow Palestinians to address basic needs, enabling them to pursue broader goals like tackling Israeli occupation internationally.",
+            "responds_to": "",
+            "evidence_quote": "الذي ن Forgot طموح الفرد الفلسطيني وأفرغنا القضية الفلسطينية من جوهرها ألا وهو الاحتلال الغاشم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Arab citizenship allows Palestinians to integrate into Arab societies, facilitating cultural exchange and spreading their cause more effectively.",
+            "responds_to": "",
+            "evidence_quote": "التبادل الثقافي للقضية. بكل بساطة فإن حصول الفلسطيني في مصر أو في دونبرا في سوريا أو في الأردن أو في أي دولة عربية أخرى حصوله على الجنسية العربية يعني حصوله على جواز عربي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Having an Arab citizenship empowers Palestinians to become effective international advocates for their cause and identity.",
+            "responds_to": "",
+            "evidence_quote": "بالتالي أكون سفيراً للهوية والقضية الفلسطينية في أنحاء العالم",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي للفلسطينيين ضربٌ لحق العودة وخدمةٌ لأجندة اسرائيل والصهيونية",
+            "responds_to": "",
+            "evidence_quote": "العدد الكبير للاجئين الفلسطينيين في الدول المحيطة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الترخيص العربي للفلسطينيين يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+            "responds_to": "الارقام المقدمة من الأنروا ومن السلطة الفلسطينية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "العدد الكبير للاجئين الفلسطينيين في الأردن يقارب نصف عدد سكان الأردن",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+            "responds_to": "الارقام المقدمة من الأنروا ومن السلطة الفلسطينية",
+            "evidence_quote": "منح الجنسيات العربية للفلسطينيين ضرب لفكرة الوحدة العربية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حقوق الفلسطينيين اللاجئين مضمونة بالقانون الدولي ولا تحتاج التجنيس",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يضمن حياة كريمة للفلسطينيين ويعزز مكانتهم في المجتمع العربي",
+            "responds_to": "",
+            "evidence_quote": "الترخيص العربي للفلسطينيين ضربٌ لحق العودة وخدمةٌ لأجندة اسرائيل والصهيونية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+            "responds_to": "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+            "evidence_quote": "الارقام المقدمة من الأنروا ومن السلطة الفلسطينية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+            "responds_to": "الارقام المقدمة من الأنروا ومن السلطة الفلسطينية",
+            "evidence_quote": "الترخيص العربي للفلسطينيين ضربٌ لحق العودة وخدمةٌ لأجندة اسرائيل والصهيونية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يخدم اجندة اسرائيل والصهيونية",
+            "responds_to": "",
+            "evidence_quote": "لأكّدنا من خلاله أن الاتفاقيات الأموية مؤممية كاتفاقية أنر وأتفضل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+            "responds_to": "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+            "evidence_quote": "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+            "responds_to": "الارقام المقدمة من الأنروا ومن السلطة الفلسطينية",
+            "evidence_quote": "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يساهل التبادل الثقافي ويدخل الفلسطيني للجامعة",
+            "responds_to": "",
+            "evidence_quote": "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يساهل التبادل الثقافي ويدخل الفلسطيني للجامعة",
+            "responds_to": "",
+            "evidence_quote": "حقوق الفلسطينيين أنها مضمونة بالاتفاقيات كما ذكرت واحتدتُنا أيضاً أن هذا يدخل في ضرب أو عقلة لفكرة الوحدة العربي",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يساهل التبادل الثقافي ويدخل الفلسطيني للجامعة",
+            "responds_to": "",
+            "evidence_quote": "«ال Palestinians لا يريدهم»",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يس AOL مفاهيم الفلسطينيين ويعزز مكانتهم في المجتمع العربي",
+            "responds_to": "",
+            "evidence_quote": "«ال Palestinians هم دون هوية حقاً، دون تعليم، دون صحة، ودون عمل»",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترخيص العربي يس AOL التبادل الثقافي ويدخل الفلسطيني للجامعة",
+            "responds_to": "",
+            "evidence_quote": "«ال Palestinians هم دون هوية حقاً، دون تعليم، دون صحة، ودون عمل»",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+            "responds_to": "الترخيص العربي يخدم اجندة اسرائيل والصهيونية",
+            "evidence_quote": "«ال Palestinians لا يريدون هذا»",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+            "responds_to": "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+            "evidence_quote": "«ال Palestinians لا يريدهم»",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "other",
+            "summary": "The speaker begins by addressing the audience formally.",
+            "responds_to": "",
+            "evidence_quote": "لعلّ أكثر ما شبعت منه القضية الفلسطينية العواطف والشعر والدموع والتبرعات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition attacks the Proposition's reliance on emotions and unsubstantiated claims.",
+            "responds_to": "الارقام المقدمة من الأنروا ومن السلطة الفلسطينية",
+            "evidence_quote": "من أهم نقاط الضعف التي وقع فيها فريق الموالاة العواطف والأحلام التي أغرقنا بها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The Opposition challenges the Proposition's failure to answer certain questions related to the necessity of citizenship for Palestinians' rights and stability.",
+            "responds_to": "",
+            "evidence_quote": "لماذا على الفلسطينيين رفضوا الجنسية بحد ذاتها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The Opposition argues that denying Palestinians Arab citizenship prevents them from achieving a dignified life.",
+            "responds_to": "",
+            "evidence_quote": "الترخيص العربي يضمن حياة كريمة للفلسطينيين ويعزز مكانتهم في المجتمع العربي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The Opposition challenges the Proposition's claim that Arab citizenship serves the agenda of Israel and Zionism.",
+            "responds_to": "الترخيص العربي يخدم اجندة اسرائيل والصهيونية",
+            "evidence_quote": "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": []
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "الترخيص العربي للفلسطينيين يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+          "importance": "core",
+          "proposition_side": "The Proposition argues that granting Arab citizenship to Palestinians undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+          "opposition_side": "The Opposition argues that this definition undermines the Palestinian cause by denying them basic rights and dignity, and that rejecting Arab citizenship prevents them from achieving a dignified life.",
+          "outcome": "unresolved",
+          "reasoning": "The Proposition defines the motion as a call to reject Arab citizenship to protect the right of return, while the Opposition attacks this definition by claiming it denies Palestinians basic rights and dignity. The exchange shows that neither side has definitively won the point, as the Opposition challenges the necessity of rejecting citizenship for the Palestinian cause."
+        },
+        {
+          "clash_point": "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+          "importance": "secondary",
+          "proposition_side": "The Proposition argues that granting citizenship undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+          "opposition_side": "The Opposition argues that this definition is false because granting citizenship actually strengthens stability and cultural exchange, allowing Palestinians to integrate and advocate effectively.",
+          "outcome": "unresolved",
+          "reasoning": "The Proposition claims that Arab citizenship disrupts political balances and threatens stability, while the Opposition argues that it actually strengthens stability and cultural exchange. The exchange shows that the Opposition is challenging the truth of the Proposition's claim, but neither side has provided conclusive evidence to definitively win the point."
+        },
+        {
+          "clash_point": "الترخيص العربي ضربٌ لحق العودة وخدمةٌ لأجندة اسرائيل والصهيونية",
+          "importance": "core",
+          "proposition_side": "The Proposition argues that granting Arab citizenship to Palestinians undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+          "opposition_side": "The Opposition argues that this definition is false because Arab citizenship actually protects the right of return by providing stability and preventing the situation from being exploited by Israel.",
+          "outcome": "unresolved",
+          "reasoning": "The Proposition defines the motion as a call to reject Arab citizenship to protect the right of return, while the Opposition attacks this definition by claiming it denies Palestinians basic rights and dignity, and that rejecting citizenship prevents them from achieving a dignified life. The exchange shows that neither side has definitively won the point, as the Opposition challenges the necessity of rejecting citizenship for the Palestinian cause."
+        },
+        {
+          "clash_point": "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+          "importance": "secondary",
+          "proposition_side": "The Proposition argues that granting Arab citizenship to Palestinians undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+          "opposition_side": "The Opposition argues that this definition is false because granting citizenship actually strengthens Palestinian identity and integration into Arab societies.",
+          "outcome": "unresolved",
+          "reasoning": "The Proposition claims that Arab citizenship weakens Palestinian identity and causes disintegration, while the Opposition argues that it actually strengthens identity and integration. The exchange shows that neither side has definitively won the point, as the Opposition challenges the truth of the Proposition's claim."
+        },
+        {
+          "clash_point": "حقوق الفلسطينيين اللاجئين مضمونة بالقانون الدولي ولا تحتاج التجنيس",
+          "importance": "secondary",
+          "proposition_side": "The Proposition argues that granting Arab citizenship to Palestinians undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+          "opposition_side": "The Opposition argues that this definition is false because the legal international framework is not sufficient, and that granting citizenship is necessary to protect their rights.",
+          "outcome": "unresolved",
+          "reasoning": "The Proposition claims that Palestinian rights are protected by international law without needing citizenship, while the Opposition argues that international law is not sufficient and that citizenship is necessary. The exchange shows that neither side has definitively won the point, as the Opposition challenges the adequacy of the international legal framework."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 1.0,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The Opposition attacked this definition, showing that it denies Palestinians basic rights and dignity, which was a stronger rebuttal in terms of human rights principles.",
+          "evidence_quote": "The Proposition argues that granting Arab citizenship to Palestinians undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause."
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition successfully argued that Arab citizenship protects the right of return by providing stability, which directly contradicted the Proposition's core claim.",
+          "evidence_quote": "The Proposition argues that granting citizenship undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause."
+        },
+        {
+          "team": "opposition",
+          "reason": "The Opposition's attack on the definition was more impactful in persuading the audience to question the necessity of rejecting citizenship.",
+          "evidence_quote": "The Proposition argues that granting citizenship undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause."
+        }
+      ],
+      "justification": "The Opposition was more persuasive by effectively challenging the Proposition's definition and providing counterarguments that directly addressed the core clash point regarding the right of return."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 27,
+      "not_found": [
+        "الذي ن Forgot طموح الفرد الفلسطيني وأفرغنا القضية الفلسطينية من جوهرها ألا وهو الاحتلال الغاشم",
+        "العدد الكبير للاجئين الفلسطينيين في الأردن يقارب نصف عدد سكان الأردن",
+        "الترخيص العربي يخلط الموازين السياسية ويهدد استقرار الدول العربية",
+        "الترخيص العربي للفلسطينيين ضربٌ لحق العودة وخدمةٌ لأجندة اسرائيل والصهيونية",
+        "الارقام المقدمة من الأنروا ومن السلطة الفلسطينية",
+        "الترخيص العربي للفلسطينيين ضربٌ لحق العودة وخدمةٌ لأجندة اسرائيل والصهيونية",
+        "لأكّدنا من خلاله أن الاتفاقيات الأموية مؤممية كاتفاقية أنر وأتفضل",
+        "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل",
+        "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+        "الترخيص العربي يعزز التفكك ويسلب الفلسطينيين كونهم مواطنين عرب",
+        "«ال Palestinians لا يريدهم»",
+        "«ال Palestinians هم دون هوية حقاً، دون تعليم، دون صحة، ودون عمل»",
+        "«ال Palestinians هم دون هوية حقاً، دون تعليم، دون صحة، ودون عمل»",
+        "«ال Palestinians لا يريدون هذا»",
+        "«ال Palestinians لا يريدهم»",
+        "الترخيص العربي يضمن حياة كريمة للفلسطينيين ويعزز مكانتهم في المجتمع العربي",
+        "الترخيص العربي يبطّل صفة اللاجئ الفلسطيني ويخدم اسرائيل"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "The Proposition argues that granting Arab citizenship to Palestinians undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+        "The Proposition argues that granting citizenship undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause.",
+        "The Proposition argues that granting citizenship undermines the right of return and serves Israeli interests, and that rejecting any Arab citizenship is essential for maintaining the Palestinian cause."
+      ]
+    },
+    "core_clash_leader": null,
+    "winner_matches_core_clashes": true,
+    "failed_speech_analyses": [
+      1,
+      8
+    ],
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 9,
+    "retries": 10,
+    "prompt_tokens": 32587,
+    "output_tokens": 8382
+  }
+}

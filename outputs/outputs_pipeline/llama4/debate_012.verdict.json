@@ -1,0 +1,716 @@
+{
+  "debate_id": "debate_012",
+  "motion": "سيلغي هذا المجلس التاشيره بين الدول العربيه",
+  "generated_at": "2026-11-04T13:03:32+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "decisive",
+    "confidence": 0.7,
+    "justification": "الطرف المعارض قدم حججً مقنعة حول ضرورة وجود التأشيرة لحماية الدول العربية من الأخطار الخارجية والخلافات بين الدول العربية، بينما الطرف المؤيد لم يقدم حججً كافية لعدم ضرورة التأشيرة. المناظرة دارت حول عدة محاور، ولكن الطرف المعارض نجح في تقديم حجج أقوى حول ضرورة وجود التأشيرة."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "مشكلة التأشيرة بين الدول العربية",
+        "proposition_definition": "الطرف المؤيد اقترح إلغاء التأشيرة بين الدول العربية لتعزيز الوحدة العربية وتقليل البطالة وتحسين التنمية المستدامة.",
+        "opposition_definition": "الطرف المعارض عرف التأشيرة كإجراء تنظيمي لحماية الدول العربية من الأخطار الخارجية، وأكد على ضرورة وجودها بسبب الخلافات والنزاعات بين الدول العربية.",
+        "definition_contested": true,
+        "adopted_ground": "الطرف المؤيد: إلغاء التأشيرة لتعزيز الوحدة العربية وتقليل البطالة. الطرف المعارض: التأشيرة كإجراء تنظيمي لحماية الدول العربية من الأخطار الخارجية والخلافات بين الدول العربية .المناظرة دارت على محورين رئيسيين: إلغاء التأشيرة بين الدول العربية، وضرورة وجودها لحماية الدول العربية من الأخطار الخارجية والخلافات بين الدول العربية .الطرف المؤيد أكد على أن إلغاء التأشيرة سيساهم في توحيد الدول العربية وتحسين التنمية المستدامة، بينما الطرف المعارض رأى أن التأشيرة ضرورية لحماية الدول العربية من الأخطار الخارجية والخلافات بين الدول العربية .المناظرة تناولت عدة محاور، بما في ذلك المحور الاقتصادي، والمحور السياسي والأمني، والمحور الاجتماعي، والمحور التاريخي والثقافي .كل طرف قدم حججًا وبراهين لدعم موقفه، ورد على حجج الطرف الآخر .المناظرة لم تصل إلى توافق أو حل واضح، ولكل طرف وجهة نظره الخاصة .المناظرة كانت بناءة وتعاونية، وهدفت إلى تقديم أفكار وآراء حول موضوع المناظرة .الطرف المؤيد: إلغاء التأشيرة بين الدول العربية. الطرف المعارض: الإبقاء على التأشيرة بين الدول العربية .المناظرة دارت حول أربعة محاور: الأمني، الحقوقي، الاقتصادي، والتاريخي الثقافي .الطرف المؤيد قدم حججًا حول تسهيل التنقل وتوحيد الدول العربية وتحسين الاقتصاد .الطرف المعارض قدم حججًا حول حماية الدول العربية من الأخطار الخارجية والحفاظ على سيادة الدول .المناظرة كانت مباشرة، حيث رد كل طرف على حجج الطرف الآخر ."
+      },
+      "proposition_position": "الطرف المؤيد يريد إلغاء التأشيرة بين الدول العربية لتحقيق الوحدة العربية وتقليل البطالة.",
+      "opposition_position": "الطرف المعارض يريد الإبقاء على التأشيرة بين الدول العربية لحماية الدول العربية من الأخطار الخارجية.",
+      "clash_type": "mixed",
+      "clash_type_reason": "الطرفان يقدمان حججًا مباشرة ومتوازية، ويرد كل طرف على حجج الطرف الآخر، ويتناقشون حول نفس الموضوع من زوايا مختلفة."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف التأشيرة بين الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة هي تصريح الدخول للدولة لدولة أخرى بمختلف الأغراض",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تخفيض نسبة البطالة بتسهيل الحصول على العمل",
+            "responds_to": "",
+            "evidence_quote": "سيحدث أن هذه التأشيرات ستلقى وبالتالي انها قبل أن أخوض ما الذي سيحدث يجب علي أن أوضح نقطة وهي العالم وهو أن هناك أناس لديهم خبرات عالية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "توفير مناخ مناسب لتبادل الخبرات بين الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "عندما تستقطب الناس طبعا يكون منهم أصحاب عمل لا ننكر ذلك فان ذلك سيؤدي الى تحديد الخبرات في الدولة وتحديد الخبرات في الدولة وتعدها وتعدها سيؤدي الى تبادلها مع المواطنين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "توحيد الدول العربية والقضاء على الفساد وتقليل نسبة البطالة",
+            "responds_to": "",
+            "evidence_quote": "توحيد الدول العربية والقضاء على الفساد وتقليل نسبة البطالة لتحقيق التنمية والتقدم للدول العربية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حل مشكلة البطالة عن طريق إلغاء التأشيرة",
+            "responds_to": "",
+            "evidence_quote": "سيحدث أن هذه الجماعة التي لديها الخبرة التي لديها كثرة التي لديها عدة أفراد لديهم عدة خبرات لهم كثيرون ستقوم بنقل هذا الشخص من دولته الى دولة أخرى ليحصل على العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "توفير الحاجة إلى العمل بين الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "دولة أخرى عربية تحتاجه فلماذا لا نطبق هذا القرار لنحل هذه المشكلة ونقتل العها من جذورها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تحقيق توازن بين الخبرات والعمل",
+            "responds_to": "",
+            "evidence_quote": "تطبيق هذا القرار ما الذي سيحدث سيحدث الى توازن بين الخبرات والعمل او حاجة هذه الدول الى العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "ضرورة وجود التأشيرة لحماية الدول العربية من الأخطار الخارجية",
+            "responds_to": "",
+            "evidence_quote": "حماية الدول العربية من الخطر الخارجي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "هناك نزاعات وخلافات بين دول عربيه تجعلنا نقيم مبدا التاشيره دائما موجود",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة تحمي الدول العربية من الهجرة غير الشرعية",
+            "responds_to": "",
+            "evidence_quote": "تشجيعا لهجره الادمغه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "لكل دولة حق الانفراد بنفسها وعدم مزجها مع شعوب أخرى",
+            "responds_to": "",
+            "evidence_quote": "لكل دوله حق الانفراد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يوجد ضمان على قدرة الدول المضيفة على استيعاب العاطلين عن العمل",
+            "responds_to": "تخفيض نسبة البطالة بتسهيل الحصول على العمل",
+            "evidence_quote": "ما هو الضمان ان الدول المستقبله ليديها الامكانيه لاستيعاب هؤلاء العاطلين عن العمل",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إلغاء التأشيرة قد يؤدي إلى نتائج كارثية",
+            "responds_to": "توحيد الدول العربية والقضاء على الفساد وتقليل نسبة البطالة",
+            "evidence_quote": "هذا القرار هو يؤدي يجعل الوضعيه تسير من الاسوا الى الاسوا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة دورها التأكد من النوايا الحسنة لكل من يدخلون الدولة",
+            "responds_to": "",
+            "evidence_quote": "التاشيره دورها التاكد من النوايا الحسنه لكل من يدخلون الدوله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يمكن أن نتحد في ظل وجود فكر وسياسات مختلفة",
+            "responds_to": "توحيد الدول العربية",
+            "evidence_quote": "لا يمكن مرفوض فلا يمكن فلا يمكن مزجها مع بقيه بقيه الشعوب",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يمكن إجبار الناس على الذهاب إلى دول معينة",
+            "responds_to": "لكل دولة حق الانفراد بنفسها وعدم مزجها مع شعوب أخرى",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "وجود التأشيرة لا يحل مشكلة الخلافات بين الدول العربية",
+            "responds_to": "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة سيساهم في حل مشكلة البطالة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة ليست حلاً لمشكلة الهجرة غير الشرعية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة سيؤدي إلى تحفيز أفراد المجتمع بتوسيع رقعة المنافسة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة سيؤدي إلى القضاء على الفساد الداخلي",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "مثال الدول الأوروبية في إلغاء التأشيرة وتحقيق التقدم",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة هي الحل الأمثل لحماية الدول العربية من الأخطار الخارجية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الفجوة الاقتصادية بين الدول العربية تشكل خطرًا هائلًا يهدد الحدود",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة يشجع على هجرة الأدمغة وتضرر الدول الغنية اقتصاديا",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة تمثل ركيزة داعمة في اقتصاديات بعض الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التجارب العربية في فتح الحدود فشلت بسبب الخلافات والنزاعات",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يمكن أن نعمم على الدول العربية صفة دول غنية أو صفة دول فقيرة",
+            "responds_to": "تخفيض نسبة البطالة بتسهيل الحصول على العمل",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إلغاء التأشيرة لا يزيد الوضع إلا سوءًا ولا يزيد المشكلة إلا تعميقًا",
+            "responds_to": "توحيد الدول العربية والقضاء على الفساد وتقليل نسبة البطالة",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التأشيرة ليست إجراءً تنظيميًا فقط بل هي ضرورية لحماية الدول العربية",
+            "responds_to": "إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "لا يمكن أن نعمم على الدول العربية صفة دول غنية أو صفة دول فقيرة",
+            "responds_to": "الفجوة الاقتصادية بين الدول العربية تشكل خطرًا هائلًا يهدد الحدود",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إلغاء التأشيرة لا يزيد الوضع إلا سوءًا ولا يزيد المشكلة إلا تعميقًا",
+            "responds_to": "التأشيرة هي الحل الأمثل لحماية الدول العربية من الأخطار الخارجية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التأشيرة ليست إجراءً تنظيميًا فقط بل هي ضرورية لحماية الدول العربية",
+            "responds_to": "إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة سيساهم في حل مشكلة البطالة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التوازن الاقتصادي للدولة هو الحل الأمثل للفجوة الاقتصادية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التأشيرة لا تمثل ركيزة اقتصادية لكثير من الدول",
+            "responds_to": "التأشيرة تمثل ركيزة داعمة في اقتصاديات بعض الدول العربية",
+            "evidence_quote": "هل بالله عليك التاشيره هي التي سوف تسقف الدول الخليجيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة سيؤدي إلى القضاء على الفساد الداخلي",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تسهيل الإجراءات سيقوم بالتسجيل والتفتيش والمراقبة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "إلغاء التأشيرة لا يحل مشكلة الخلافات بين الدول العربية",
+            "responds_to": "توحيد الدول العربية والقضاء على الفساد وتقليل نسبة البطالة",
+            "evidence_quote": "لا يمكن أن نعمم على الدول العربية صفة دول غنية أو صفة دول فقيرة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التأشيرة ليست إجراءً تنظيميً فقط بل هي ضرورية لحماية الدول العربية",
+            "responds_to": "إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية",
+            "evidence_quote": "التأشيرة ليست إجراءً تنظيميً فقط بل هي ضرورية لحماية الدول العربية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة هي الحل الأمثل لحماية الدول العربية من الأخطار الخارجية",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة هي الحل الأمثل لحماية الدول العربية من الأخطار الخارجية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة يشجع على هجرة الأدمغة وتضرر الدول الغنية اقتصاديا",
+            "responds_to": "",
+            "evidence_quote": "إلغاء التأشيرة يشجع على هجرة الأدمغة وتضرر الدول الغنية اقتصاديا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التجارب العربية في فتح الحدود فشلت بسبب الخلافات والنزاعات",
+            "responds_to": "",
+            "evidence_quote": "التجارب العربية في فتح الحدود فشلت بسبب الخلافات والنزاعات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يمكن إجبار الناس على الذهاب إلى دول معينة",
+            "responds_to": "لكل دولة حق الانفراد بنفسها وعدم مزجها مع شعوب أخرى",
+            "evidence_quote": "لا يمكن إجبار الناس على الذهاب إلى دول معينة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية",
+            "counted": false,
+            "not_counted_reason": "new substantive argument in a late speech"
+          },
+          {
+            "kind": "substantive",
+            "summary": "التأشيرة تمثل ركيزة داعمة في اقتصاديات بعض الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "التأشيرة تمثل ركيزة داعمة في اقتصاديات بعض الدول العربية",
+            "counted": false,
+            "not_counted_reason": "new substantive argument in a late speech"
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "مبدأ التأشيرة لا يزال قائمًا حتى لو تغيرت هيكلته",
+            "responds_to": "إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية",
+            "evidence_quote": "نجدهم ان مبدا التاشيره لا يزال قائما وانما هيكله هو الذي يختلف",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "هناك تناقض في موقف الفريق المؤيد",
+            "responds_to": "إلغاء التأشيرة بين الدول العربية",
+            "evidence_quote": "قالوا مصر لديها اليد العامله وليس لها المال قالوا قطر لديها المال وليس الد العامله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يوجد ضمان على قدرة الدول المستقبلية على توفير فرص العمل",
+            "responds_to": "إلغاء التأشيرة سيساهم في حل مشكلة البطالة",
+            "evidence_quote": "من يضمن لنا ان الدول المستقبله لديها تخمه من الوظائف فرص فرص التوظيف",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إلغاء التأشيرة لا يخدم هدف الوحدة العربية",
+            "responds_to": "إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية",
+            "evidence_quote": "فهذه الحجه لا تخدم هدفكم وهو الوحده العربيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "جئنا في الجانب الامني وتحدثنا عن تلك النزاعات الي تفرض وجود التاشيره",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لكل دولة حق الانفراد بذاتها",
+            "responds_to": "",
+            "evidence_quote": "تحدثنا عن حق قائم بذاته وهو حق الانفراد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "جميع المحاولات القديمة لفتح الحدود فشلت",
+            "responds_to": "",
+            "evidence_quote": "تحدثنا ان في ان جميع المحاولات القديمه كانت فاشله",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لكل دولة أيديولوجية فكرية وسياسية خاصة",
+            "responds_to": "",
+            "evidence_quote": "ان لكل دوله ايديولوجي فكرها وسياستها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "لا يوجد تناقض في موقف الفريق المؤيد",
+            "responds_to": "هناك تناقض في موقف الفريق المؤيد",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "إلغاء التأشيرة لا يزيد الوضع إلا سوءً",
+            "responds_to": "إلغاء التأشيرة لا يخدم هدف الوحدة العربية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "التأشيرة ليست إجراءً تنظيميً فقط بل هي ضرورية لحماية الدول العربية",
+            "responds_to": "التأشيرة ليست إجراءً تنظيميً فقط بل هي ضرورية لحماية الدول العربية",
+            "evidence_quote": "",
+            "counted": false,
+            "not_counted_reason": "New argument in reply speech"
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يمكن إجبار الناس على الذهاب إلى دول معينة",
+            "responds_to": "لكل دولة حق الانفراد بذاتها",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "دول الخليج لا يوجد بها تأشيرة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "إلغاء التأشيرة سيساهم في حل مشكلة البطالة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التشابه بين الدول العربية و الأوروبية في إلغاء التأشيرة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "إلغاء التأشيرة بين الدول العربية",
+          "importance": "core",
+          "proposition_side": "الطرف المؤيد يريد إلغاء التأشيرة بين الدول العربية لتحقيق الوحدة العربية وتقليل البطالة.",
+          "opposition_side": "الطرف المعارض يريد الإبقاء على التأشيرة بين الدول العربية لحماية الدول العربية من الأخطار الخارجية.",
+          "outcome": "unresolved",
+          "reasoning": "الطرفان قدم حججًا متعارضة حول إلغاء التأشيرة، ولم ينجح أي طرف في إثبات وجهة نظره بشكل قاطع."
+        },
+        {
+          "clash_point": "ضرورة وجود التأشيرة لحماية الدول العربية من الأخطار الخارجية",
+          "importance": "core",
+          "proposition_side": "الطرف المؤيد لم يقدم حججًا كافية لعدم ضرورة التأشيرة.",
+          "opposition_side": "الطرف المعارض قدم حججًا حول ضرورة وجود التأشيرة لحماية الدول العربية من الأخطار الخارجية.",
+          "outcome": "opposition",
+          "reasoning": "الطرف المعارض نجح في تقديم حجج مقنعة حول ضرورة وجود التأشيرة لحماية الدول العربية."
+        },
+        {
+          "clash_point": "إلغاء التأشيرة سيساهم في حل مشكلة البطالة",
+          "importance": "secondary",
+          "proposition_side": "الطرف المؤيد قدم حججًا حول إلغاء التأشيرة يساهم في حل مشكلة البطالة.",
+          "opposition_side": "الطرف المعارض قدم حججًا حول لا يوجد ضمان على قدرة الدول المستقبلية على توفير فرص العمل.",
+          "outcome": "unresolved",
+          "reasoning": "الطرفان قدم حججًا متعارضة حول تأثير إلغاء التأشيرة على البطالة، ولم ينجح أي طرف في إثبات وجهة نظره بشكل قاطع."
+        },
+        {
+          "clash_point": "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية",
+          "importance": "secondary",
+          "proposition_side": "الطرف المؤيد قدم حججًا حول إلغاء التأشيرة لا يزيد الوضع إلا سوءً.",
+          "opposition_side": "الطرف المعارض قدم حججًا حول التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية.",
+          "outcome": "opposition",
+          "reasoning": "الطرف المعارض نجح في تقديم حجج مقنعة حول ضرورة وجود التأشيرة بسبب النزاعات والخلافات."
+        },
+        {
+          "clash_point": "توحيد الدول العربية",
+          "importance": "core",
+          "proposition_side": "الطرف المؤيد قدم حججًا حول إلغاء التأشيرة بين الدول العربية سيؤدي إلى توحيد الدول العربية.",
+          "opposition_side": "الطرف المعارض قدم حججًا حول لا يمكن أن نتحد في ظل وجود فكر وسياسات مختلفة.",
+          "outcome": "unresolved",
+          "reasoning": "الطرفان قدم حججًا متعارضة حول تأثير إلغاء التأشيرة على توحيد الدول العربية، ولم ينجح أي طرف في إثبات وجهة نظره بشكل قاطع."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "decisive",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "التأشيرة ضرورية لحماية الدول العربية من الأخطار الخارجية",
+          "evidence_quote": "التأشيرة كإجراء تنظيمي لحماية الدول العربية من الأخطار الخارجية"
+        },
+        {
+          "team": "opposition",
+          "reason": "ضرورة وجود التأشيرة بسبب النزاعات والخلافات بين الدول العربية",
+          "evidence_quote": "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية"
+        }
+      ],
+      "justification": "الطرف المعارض قدم حججً مقنعة حول ضرورة وجود التأشيرة لحماية الدول العربية من الأخطار الخارجية والخلافات بين الدول العربية، بينما الطرف المؤيد لم يقدم حججً كافية لعدم ضرورة التأشيرة. المناظرة دارت حول عدة محاور، ولكن الطرف المعارض نجح في تقديم حجج أقوى حول ضرورة وجود التأشيرة."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 32,
+      "not_found": [
+        "سيحدث أن هذه التأشيرات ستلقى وبالتالي انها قبل أن أخوض ما الذي سيحدث يجب علي أن أوضح نقطة وهي العالم وهو أن هناك أناس لديهم خبرات عالية",
+        "عندما تستقطب الناس طبعا يكون منهم أصحاب عمل لا ننكر ذلك فان ذلك سيؤدي الى تحديد الخبرات في الدولة وتحديد الخبرات في الدولة وتعدها وتعدها سيؤدي الى تبادلها مع المواطنين",
+        "سيحدث أن هذه الجماعة التي لديها الخبرة التي لديها كثرة التي لديها عدة أفراد لديهم عدة خبرات لهم كثيرون ستقوم بنقل هذا الشخص من دولته الى دولة أخرى ليحصل على العمل",
+        "لا يمكن أن نعمم على الدول العربية صفة دول غنية أو صفة دول فقيرة",
+        "التأشيرة ليست إجراءً تنظيميً فقط بل هي ضرورية لحماية الدول العربية",
+        "التأشيرة هي الحل الأمثل لحماية الدول العربية من الأخطار الخارجية",
+        "إلغاء التأشيرة يشجع على هجرة الأدمغة وتضرر الدول الغنية اقتصاديا",
+        "التجارب العربية في فتح الحدود فشلت بسبب الخلافات والنزاعات",
+        "لا يمكن إجبار الناس على الذهاب إلى دول معينة",
+        "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية",
+        "التأشيرة تمثل ركيزة داعمة في اقتصاديات بعض الدول العربية",
+        "جئنا في الجانب الامني وتحدثنا عن تلك النزاعات الي تفرض وجود التاشيره"
+      ]
+    },
+    "decision_quotes": {
+      "total": 2,
+      "not_found": [
+        "التأشيرة كإجراء تنظيمي لحماية الدول العربية من الأخطار الخارجية",
+        "التأشيرة ضرورية بسبب النزاعات والخلافات بين الدول العربية"
+      ]
+    },
+    "core_clash_leader": "opposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 3,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 0,
+    "prompt_tokens": 50749,
+    "output_tokens": 6990
+  }
+}

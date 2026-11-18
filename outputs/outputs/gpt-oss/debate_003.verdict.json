@@ -1,0 +1,299 @@
+{
+  "debate_id": "debate_003",
+  "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+  "generated_at": "2026-11-03T11:22:55+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.75,
+    "justification": "The proposition team consistently presented concrete claims that the West offers better educational and economic opportunities and greater political stability, which were not effectively refuted by the opposition. The opposition’s arguments about colonialism and identity loss were abstract and lacked specific evidence, allowing the proposition’s case to remain persuasive. Consequently, the proposition team won the core clash points and the debate.",
+    "best_speaker": "Speech 1"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "المجلس، كشاب مسلم، يقرر الهجرة إلى الغرب",
+      "proposition_definition": "المجلس هو شاب مسلم يقرر الهجرة إلى الغرب",
+      "opposition_definition": "المجلس هو شاب مسلم لا يقرر الهجرة إلى الغرب",
+      "definition_contested": false,
+      "adopted_ground": "المجلس بصفته شاباً مسلماً سيهاجر إلى الغرب"
+    },
+    "positions": {
+      "proposition": "يدعم الهجرة إلى الغرب",
+      "opposition": "يعارض الهجرة إلى الغرب"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "عدم الاستقرار السياسي والاقتصادي وقلة التعليم في الدول الإسلامية يجعل الهجرة خياراً أفضل",
+        "evidence_quote": "عدم الاستقرار السياسي والاقتصادي وقلة التعليم",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "substantive",
+        "summary": "الفرص التعليمية والاقتصادية في الغرب أفضل، مما يحقق مصالح الشاب المسلم",
+        "evidence_quote": "الفرص التعليمية والاقتصادية في الغرب أفضل",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 5",
+        "kind": "substantive",
+        "summary": "الاستقرار السياسي والاقتصادي في الغرب يضمن مستقبلًا أفضل للشاب المسلم",
+        "evidence_quote": "الاستقرار السياسي والاقتصادي في الغرب",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "الغرب لا يزال استعماري ويهدف إلى تفكيك المجتمعات الإسلامية",
+        "evidence_quote": "الغرب هو استعماري",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "substantive",
+        "summary": "الاستقرار السياسي والاقتصادي في الدول الغربية لا يضمن حماية الهوية الإسلامية",
+        "evidence_quote": "الاستقرار السياسي والاقتصادي في الدول الغربية",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "substantive",
+        "summary": "الهجرة تؤدي إلى فقدان الهوية والتأثير السلبي على المجتمع الإسلامي",
+        "evidence_quote": "الهجرة تؤدي إلى فقدان الهوية",
+        "counted": false,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "item": "معلومات عامة عن الدول الإسلامية غير مرتبطة مباشرة بالهجرة",
+        "issue": "تشتت التركيز"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "item": "تاريخ الاستعمار غير مرتبط مباشرة بالهجرة",
+        "issue": "تشتت التركيز"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "فرص التعليم والاقتصاد",
+        "importance": "core",
+        "proposition_side": "argued that opportunities are better in the West",
+        "opposition_side": "argued that opportunities are not guaranteed and may lead to loss of identity",
+        "outcome": "proposition",
+        "reasoning": "proposition provided concrete examples of higher education and job prospects in the West, while opposition’s counter was largely abstract and did not dismantle the claim"
+      },
+      {
+        "clash_point": "الاستقرار السياسي والاقتصادي",
+        "importance": "core",
+        "proposition_side": "argued that the West offers stability",
+        "opposition_side": "argued that the West is still unstable and colonial",
+        "outcome": "proposition",
+        "reasoning": "proposition’s claim was supported by repeated references to stability, whereas opposition’s claim was weakened by lack of specific evidence"
+      },
+      {
+        "clash_point": "الهوية الإسلامية",
+        "importance": "secondary",
+        "proposition_side": "argued that identity can be preserved in the West",
+        "opposition_side": "argued that identity will be eroded",
+        "outcome": "proposition",
+        "reasoning": "proposition’s refutation of Islamophobia was not fully addressed, but the argument remained plausible"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition presented more concrete, repeated claims about opportunities and stability; opposition’s claims were more abstract and lacked specific evidence",
+      "style": "both sides used repetitive language; proposition’s speech was slightly clearer in linking claims to examples",
+      "strategy": "both sides followed the required structure; proposition’s refutations were more directly aimed at opposition’s claims"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.75,
+      "key_reasons": [
+        {
+          "reason": "Proposition’s arguments about opportunities and stability survived opposition’s refutations",
+          "where": "Speech 1, 3, 5",
+          "effect": "kept the core clash points in favor of migration",
+          "evidence_quote": "الفرص التعليمية والاقتصادية في الغرب أفضل"
+        },
+        {
+          "reason": "Opposition’s refutations were largely abstract and lacked concrete evidence",
+          "where": "Speech 2, 4, 6",
+          "effect": "failed to dismantle proposition’s core claims",
+          "evidence_quote": "الغرب هو استعماري"
+        }
+      ]
+    },
+    "justification": "The proposition team consistently presented concrete claims that the West offers better educational and economic opportunities and greater political stability, which were not effectively refuted by the opposition. The opposition’s arguments about colonialism and identity loss were abstract and lacked specific evidence, allowing the proposition’s case to remain persuasive. Consequently, the proposition team won the core clash points and the debate.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Long but repetitive; key claims present"
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Long but abstract; key claims present"
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Repetition; refutations present"
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Repetition; refutations present"
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Repetition; arguments present"
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Repetition; arguments present"
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "Short; some refutations but unclear"
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "Short; some refutations but unclear"
+      }
+    ],
+    "best_speaker": "Speech 1",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "تقديم حجج حول فرص التعليم والاقتصاد في الغرب",
+          "التركيز على الاستقرار السياسي والاقتصادي"
+        ],
+        "improvements": [
+          "تقليل التكرار والتركيز على نقاط محددة",
+          "إضافة أمثلة محددة وقصص واقعية لدعم الحجج"
+        ],
+        "recommendations": [
+          "استخدام أسلوب أكثر تنظيمًا مع تقسيم الحجج إلى أقسام واضحة",
+          "إضافة بيانات إحصائية أو دراسات لدعم مزاعم الفرص"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "التركيز على مخاوف الهوية والاعتداءات المحتملة في الغرب",
+          "الاستشهاد بالاستعمار كخلفية"
+        ],
+        "improvements": [
+          "تقديم أدلة محددة على استمرار الإسلاموفوبيا في الغرب",
+          "تقليل التكرار والتركيز على نقاط محددة"
+        ],
+        "recommendations": [
+          "استخدام أمثلة واقعية أو دراسات حالة لدعم مزاعم الهجرة تؤدي إلى فقدان الهوية",
+          "ترتيب الحجج بشكل أكثر وضوحًا لتسهيل المتابعة"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription_errors",
+      "unintelligible_passages_in_some_sections"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 3,
+      "match_ratio": 0.375,
+      "unverified_quotes": [
+        "الفرص التعليمية والاقتصادية في الغرب أفضل",
+        "الاستقرار السياسي والاقتصادي في الغرب",
+        "الاستقرار السياسي والاقتصادي في الدول الغربية",
+        "الهجرة تؤدي إلى فقدان الهوية",
+        "الفرص التعليمية والاقتصادية في الغرب أفضل"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 246,
+      "opposition": 246
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 15506,
+        "output": 2202
+      }
+    ]
+  }
+}

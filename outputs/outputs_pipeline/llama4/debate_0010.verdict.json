@@ -1,0 +1,649 @@
+{
+  "debate_id": "debate_0010",
+  "motion": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه",
+  "generated_at": "2026-11-03T14:03:39+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "decisive",
+    "confidence": 0.7,
+    "justification": "The opposition team was more persuasive because they effectively highlighted the potential risks and negative consequences of providing military and financial support to opposition groups, particularly with regards to international security and stability. While the proposition team presented some arguments in favor of support, they failed to adequately address the opposition's concerns, leaving their arguments less convincing. The opposition's success in casting doubt on the proposition's assumptions and presenting a coherent counter-narrative ultimately made them more persuasive."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "الغرب يجب أن يقدم الدعم المادي والعسكري للجماعات المعارضة للنظم القمعية",
+        "proposition_definition": "الجماعات المعارضة للنظم القمعية هي الجماعات التي تسعى لإحلال الديمقراطية، والدعم المادي والعسكري هو حماية للإنسان وطريق للديمقراطية والسلم العالمي",
+        "opposition_definition": "لا يوجد تعريف محدد من قبل المعارضة لمفهوم الجماعات المعارضة أو الدعم المادي والعسكري، ولكن ركزوا على أن هذا الدعم يضر بالأمن والاستقرار الدوليين",
+        "definition_contested": true,
+        "adopted_ground": "حماية الإنسان وطريق للديمقراطية والسلم العالمي من خلال الدعم المادي والعسكري للجماعات المعارضة للنظم القمعية"
+      },
+      "proposition_position": "الموالاة تؤكد أن تقديم الدعم المادي والعسكري للجماعات المعارضة للنظم القمعية هو حماية للإنسان وطريق للديمقراطية والسلم العالمي",
+      "opposition_position": "المعارضة تعارض تقديم الدعم المادي والعسكري للجماعات المعارضة للنظم القمعية، مؤكدة أن هذا الدعم يضر بالأمن والاستقرار الدوليين",
+      "clash_type": "mixed",
+      "clash_type_reason": "الفرق بين الفريقين في الرأي حول مشروعية الدعم المادي والعسكري للجماعات المعارضة، وتأثيره على الأمن والاستقرار الدوليين، وعلى إحلال الديمقراطية وحقوق الإنسان"
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف الدعم المادي والعسكري والجماعات المعارضة",
+            "responds_to": "",
+            "evidence_quote": "الدعم المادي نعني الاموال التي تسمح بالعمليات الانسانيه تسمح بتوفير الغذاء والمال في حالات القمع في حالات التشريد نعم بالدعم العسكري السلاح الذي يسمح في حاله نظام يواجهك باعت اشكال القمع ان تواجهه وان تسعى الى الحصول على حريتك نعني بالجماعات المعارضه للانظمه القمعيه بشكل واضح هي الجماعات التي تسعى الى احلال الديمقراطيه لا غيرها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدول الغربية هي أكثر الدول التي تفهم قيمة الإنسان وحقوق الإنسان",
+            "responds_to": "",
+            "evidence_quote": "الدول الغربيه هي هته الدول المتشبعه بالافكار الديمقراطيه وبحقوق الانسان وهي الدول التي تفهم قيمه الانسان وتعرف ويلات عدم تطبيق حقوق الانسان وما تسببه من كوارث",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأنظمة الشمولية هي كارثة على الشعب والمنطقة",
+            "responds_to": "",
+            "evidence_quote": "الانظمه الشموليه هي كارثه على شعبها وعلى كل المنطقه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "دعم المعارضة التي تؤمن بالديمقراطية هو طريق لديمقراطية وسلام عالمي",
+            "responds_to": "",
+            "evidence_quote": "دعم المعارضه التي تؤمن بالديمقراطيه وتكوينها تكوينها قبل ان تصبح حتى تكون هي البديل على ذلك النظام لاحلال الديمقراطيه في تلك الدول",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "حماية الإنسان ودعم الديمقراطية هو الهدف من تقديم الدعم المادي والعسكري",
+            "responds_to": "",
+            "evidence_quote": "حمايه الانسان وطريق للديمقراطيه ولسلي وهدفنا الذي لا حياد عنه هو احلال الديمقراطيه وتكريس مبادئ حقوق الانسان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا نريد تدخل عسكري أجنبي",
+            "responds_to": "",
+            "evidence_quote": "لم نقل احلال الديمقراطيه بالقوه لم اتحدث عن تدخل عسكري اجنبي تحدثت عن الدعم المادي والعسكري للجماعات المعارضه في البلاد",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الغرب لديه أجندة واضحة ويسير وفقًا لمصالحه",
+            "responds_to": "الدول الغربية هي أكثر الدول التي تفهم قيمة الإنسان وحقوق الإنسان",
+            "evidence_quote": "نعلم جميعا أن هذه الدول انما لديها اجنده واضحه وانها انما تتحرك وفقا لهذه الاجنده ووفقا لهذه المصالح",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مثال ليبيا يظهر فشل التدخل العسكري الغربي",
+            "responds_to": "الأنظمة الشمولية هي كارثة على الشعب والمنطقة",
+            "evidence_quote": "نحن نعلم ايها الساده ما حدث في العراق نحن نعلم ما جلبته الحرب على العراق ايها الساده يعني اي اي دمار واي فساد يعيش فيه العراق هذا اليوم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم المادي والعسكري ينتهك السيادة الدولية",
+            "responds_to": "",
+            "evidence_quote": "النظام الدولي ايها الساده ان ما يقوم بالاساس على مبدا السياده الدوليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب ليس مؤهلًا لتقديم الدعم بسبب أجندته الخاصة",
+            "responds_to": "",
+            "evidence_quote": "لقد علمتنا تجربتنا الطويله مع هذه الدول الغربيه انها دول لا تتحرك الا لمصالحها الخاصه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم المادي والعسكري يؤدي إلى تازم الوضع بدلاً من إصلاحه",
+            "responds_to": "",
+            "evidence_quote": "هذا الدعم انما يدفع باتجاه تازم الوضع بدلا عن اصلاحه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "طبيعة الجماعات المعارضة غير مضمونة",
+            "responds_to": "",
+            "evidence_quote": "لا نضمن انها ستوفي بهذه الاحتياجات او انها قد تسير مسارا اخر",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الغرب ليس لديه أجندة خاصة بل يريد حماية الإنسان",
+            "responds_to": "الغرب لديه أجندة واضحة ويسير وفقًًا لمصالحه",
+            "evidence_quote": "ان كانت هذه الاجندات والمصالح الخاصه ستنقذ الشعوب من انتهاكات الفظيعه لحقوق الانسان وان كانت ستنشر الديمقراطيه فبهذه الاجندات فمرحبا بهذه الاجندات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مثال العراق يظهر نجاح التدخل العسكري",
+            "responds_to": "مثال ليبيا يظهر فشل التدخل العسكري الغربي",
+            "evidence_quote": "مثال العراق مثال خاطئ في العراق ما حدث ليس دعما ماديا وعسكريا للجماعات المعارضه وانما تدخل عسكري على الميدان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأنظمة القمعية تنتهك حقوق الإنسان",
+            "responds_to": "",
+            "evidence_quote": "ان الانظمه القمعيه تنتهك حقوق الانسان ومن واجب الغرب ايقاف هذه الانتهاكات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم المادي والعسكري للجماعات المعارضة هو حماية للإنسان",
+            "responds_to": "",
+            "evidence_quote": "حمايه الانسان من خلال تعديل ميزان القوه حينما يصبح للمعارض يصبح سلاح ودعم مادي يحمي به نفسه ويستطيع به الرد على هذه الانظمه انظمه الدكتاتوريه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأنظمة القمعية هي خطر على السلم في المنطقة",
+            "responds_to": "",
+            "evidence_quote": "الان القمعيه هي خطر على السلم في المنطقه ويجب ازالتها ويجب محوها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الديمقراطية لا يمكن أن تفرض بالقوة",
+            "responds_to": "دعم المعارضة التي تؤمن بالديمقراطية هو طريق لديمقراطية وسلام عالمي",
+            "evidence_quote": "الديمقراطية لا يمكن أن تفرض بالقوة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التغيير يجب أن يكون خيار الشعب نفسه",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مثال تونس ومصر يظهران التغيير السلمي",
+            "responds_to": "الأنظمة الشمولية هي كارثة على الشعب والمنطقة",
+            "evidence_quote": "تونس على سبيل المثال قامت بتغيير هذا الوضع دون تدخل ودون أي شيء بامر سلمي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يجب فرض أمر على الشعوب",
+            "responds_to": "حماية الإنسان ودعم الديمقراطية هو الهدف من تقديم الدعم المادي والعسكري",
+            "evidence_quote": "لماذا نقوم بالثورة؟ الأمر الثاني",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التدخل العسكري يزيد من تازم الأوضاع",
+            "responds_to": "",
+            "evidence_quote": "كل تدخل تم فيه تدخل بالقوة أو امداد المعارضة أو كل ما تم باسم حقوق الإنسان في العراق في أفغانستان في كل تلك الأشياء قد جرت هذه الدول إلى الحروب إلى النزاعات الطائفية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "طبيعة الجماعات المعارضة غير مضمونة",
+            "responds_to": "",
+            "evidence_quote": "لا يمكننا أن نضمن تمسكها بمفهوم القيم وأنها فعلا تقوم بتطبيق ما تدعو إليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تقديم الدعم لجماعات غير مضمونة يهدّر الأموال",
+            "responds_to": "",
+            "evidence_quote": "الدراسة التي أجراها مركز واتسون الأمريكي في عام 2013 تحدث عن أن الدعومات التي قدمت في أو أن الأموال التي استهلكت في حرب العراق وأفغانستان تجاوزت 3.7 بليار دولار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب ليس محلًا للثقة",
+            "responds_to": "الدول الغربية هي أكثر الدول التي تفهم قيمة الإنسان وحقوق الإنسان",
+            "evidence_quote": "الغرب في ذاته ليس محلًا للثقة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الغرب ليس لديه أجندة خاصة بل يريد حماية الإنسان",
+            "responds_to": "الغرب لديه أجندة واضحة ويسير وفقًا لمصالحه",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الأنظمة القمعية هي التي تهدد الاستقرار العالمي",
+            "responds_to": "مثل هذا الدعم يضرب الأمن والاستقرار الدولي",
+            "evidence_quote": "هذه الأنظمة القمعية أنظمة مجنونة كانت هي التي تضرب الاستقرار العالمي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مثال ليبيا يظهر نتيجة نظام معمر القذافي",
+            "responds_to": "مثال ليبيا يظهر فشل التدخل العسكري الغربي",
+            "evidence_quote": "ما يحدث في ليبيا الآن من الاختلالات هو نتيجة نظام معمر القذافي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب مؤهل لتقديم الدعم بسبب مبادئ الديمقراطية وحقوق الإنسان",
+            "responds_to": "الغرب ليس مؤهلًا لتقديم الدعم بسبب أجندته الخاصة",
+            "evidence_quote": "الغرب هو الذي يروج لنفسه كمصدر لمبادئ الديمقراطية وحقوق الإنسان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأنظمة القمعية تنتهك حقوق الإنسان",
+            "responds_to": "",
+            "evidence_quote": "الأنظمة القمعية تنتهك حقوق الإنسان ومن واجب الغرب إيقاف هذه الانتهاكات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم المادي والعسكري لتكريس حق الشعب في تقرير مصيره",
+            "responds_to": "",
+            "evidence_quote": "وجوب الدعم المادي والعسكري لتكريس حق الشعب في تقرير مصيره وفي العيش بسلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يجب أن نهمل حقوق الشعب",
+            "responds_to": "حماية الإنسان ودعم الديمقراطية هو الهدف من تقديم الدعم المادي والعسكري",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "على الدول الغربية أن تتحمل مسؤولياتها تجاه شعوب العالم",
+            "responds_to": "",
+            "evidence_quote": "على الدول الغربية أن تتحمل مسؤولياتها تجاه شعوب العالم وأن تحاول تكريس هذه الديمقراطية",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الغرب لديه أجندة خاصة ويسير وفقًا لمصالحه",
+            "responds_to": "الدول الغربية هي أكثر الدول التي تفهم قيمة الإنسان وحقوق الإنسان",
+            "evidence_quote": "يا اعزائي ان كانت هذه الدول ديمقراطيه وطبقت الديمقراطيه على اراضيها فكيف نضمن انها بتقديم هذا الدعم تدعم الجانب الصحيح",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يجب فرض ديمقراطية بالقوة",
+            "responds_to": "دعم المعارضة التي تؤمن بالديمقراطية هو طريق لديمقراطية وسلام عالمي",
+            "evidence_quote": "الديمقراطيه لا تفرض بالقوه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الدعم المادي والعسكري يضر بالأمن والاستقرار العالميين",
+            "responds_to": "",
+            "evidence_quote": "ان تقديم الدعم المادي والعسكر المقدمه للجماعات المعارضه للانظمه القمعيه انما يضر بالامن والاستقرار العالميين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "انتهاك السيادة الدولية",
+            "responds_to": "",
+            "evidence_quote": "دعم المعارضه والاجزاء والجماعات المارقه على الحكومه في دوله معينه انما هو انتهاك واضح وسافر وصريح لسياسات هذه الدوله على اراضيها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب ليس مؤهلًا لتقديم الدعم بسبب أجندته الخاصة",
+            "responds_to": "الغرب ليس مؤهلًا لتقديم الدعم بسبب أجندته الخاصة",
+            "evidence_quote": "للغرب اجندته الخاصه ومن الواضح سياسه الكيل بمكيالين التي تتبعها الدول الغربيه في تعاملها مع الازمات المتكرره التي تحدث في اطراف اخرى من العالم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الاضرار المتربة على تقديم الدعم المادي والعسكري",
+            "responds_to": "",
+            "evidence_quote": "عندما نعطي المعارضه ماده وسلاحا فانها وبصوره واضحه سنذكر الحروب الاهليه وسنك الخلافات السياسيه داخل البلدان المعينه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "طبيعة الجماعات المعارضة غير مضمونة",
+            "responds_to": "",
+            "evidence_quote": "طبيعه الجماعات المعارضه واننا لا نضمن الاجنده التي تسعى اليها هذه الجماعات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "لا يجب أن نهمل حقوق الشعب",
+            "responds_to": "حماية الإنسان ودعم الديمقراطية هو الهدف من تقديم الدعم المادي والعسكري",
+            "evidence_quote": "انه وبهذا الدعم الخارجي سنخلق داخل هذه الدوله وهو اخلال واضح وصريح بحقوق الانسان",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الغرب لديه أجندة خاصة ويسير وفقًا لمصالحه",
+            "responds_to": "الغرب ليس لديه أجندة خاصة بل يريد حماية الإنسان",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "مثال ليبيا وسوريا ومصر يظهر تناقض الغرب في الدعم",
+            "responds_to": "الغرب مؤهل لتقديم الدعم بسبب مبادئ الديمقراطية وحقوق الإنسان",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الدعم المادي والعسكري يؤزم الأوضاع بدلاً من حلها",
+            "responds_to": "الدعم المادي والعسكري للجماعات المعارضة هو حماية للإنسان",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب ليس مؤهلاً لتقديم الدعم بسبب انتهاك حقوق الإنسان",
+            "responds_to": "الغرب مؤهل لتقديم الدعم بسبب مبادئ الديمقراطية وحقوق الإنسان",
+            "evidence_quote": "جوان تنمو، سجن أبو غريب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الشعوب هي الوحيدة القادرة على التغيير",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "انتهاك السيادة الدولية يؤدي إلى تهديد الأمن العالمي",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "طبيعة الجماعات المعارضة غير مضمونة",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "فريق المعارضة كان أقوى حجة وأرسخ بنيانًا",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "فريق المعارضة لم يفند تعريفنا للجماعات المعارضة",
+            "responds_to": "الجماعات المعارضة هي الجماعات المشبعة بالديمقراطية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "فريق المعارضة يخلط بين الدعم المادي والعسكري والتدخل العسكري المباشر",
+            "responds_to": "التدخل العسكري المباشر",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "فريق المعارضة لم يقدم حججًا قوية",
+            "responds_to": "حجج فريق المعارضة",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "فريق الموالاة قدم حججًا قوية في ثلاثة محاور سياسية وإنسانية وحقوقية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "فريق الموالاة لديه صرح ثابت المبدأ وهدف واضح",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "فريق الموالاة يعتبر نفسه الفريق الفائز",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "تعريف الجماعات المعارضة ومدى مشروعية دعمها",
+          "importance": "core",
+          "proposition_side": "الموالاة تعرف الجماعات المعارضة كالجماعات التي تسعى لإحلال الديمقراطية وتؤمن بحقوق الإنسان",
+          "opposition_side": "المعارضة تشكك في تعريف الجماعات المعارضة ومدى التزامها بالقيم الديمقراطية",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة قدمت تعريفًا واضحًا للجماعات المعارضة، بينما المعارضة لم تقدم تعريفًا بديلاً ولكنها تشككت في مشروعية الدعم"
+        },
+        {
+          "clash_point": "مدى تأثير الدعم المادي والعسكري على الأمن والاستقرار الدوليين",
+          "importance": "core",
+          "proposition_side": "الموالاة تؤكد أن الدعم المادي والعسكري للجماعات المعارضة يساهم في حماية الإنسان ويدعم الديمقراطية",
+          "opposition_side": "المعارضة تؤكد أن الدعم المادي والعسكري يضر بالأمن والاستقرار الدوليين وينتهك السيادة الدولية",
+          "outcome": "opposition",
+          "reasoning": "المعارضة قدمت حججًا قوية حول مخاطر الدعم المادي والعسكري على الأمن والاستقرار، بينما الموالاة لم تضعف هذه الحجج بشكل كافٍ"
+        },
+        {
+          "clash_point": "مدى مؤهلية الغرب لتقديم الدعم المادي والعسكري",
+          "importance": "secondary",
+          "proposition_side": "الموالاة تؤكد أن الغرب مؤهل لتقديم الدعم بسبب مبادئ الديمقراطية وحقوق الإنسان",
+          "opposition_side": "المعارضة تشكك في مؤهلية الغرب لتقديم الدعم بسبب أجندته الخاصة وانتهاك حقوق الإنسان",
+          "outcome": "unresolved",
+          "reasoning": "الطرفان قدموا حججًا حول مؤهلية الغرب، ولم يضعف أحد الطرفين حجج الآخر بشكل قاطع"
+        },
+        {
+          "clash_point": "أثر التدخل العسكري على الوضع في الدول المعنية",
+          "importance": "secondary",
+          "proposition_side": "الموالاة تقدم أمثلة لنجاح التدخل العسكري في بعض الدول",
+          "opposition_side": "المعارضة تقدم أمثلة لفشل التدخل العسكري في دول أخرى",
+          "outcome": "unresolved",
+          "reasoning": "الطرفان قدموا أمثلة متناقضة حول تأثير التدخل العسكري، ولم يثبت أحد الطرفين بشكل قاطع"
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "decisive",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The opposition effectively argued that providing military and financial support to opposition groups undermines international security and stability, as evidenced by their statement: \"الدعم المادي والعسكري يضر بالأمن والاستقرار الدوليين\" (Material support harms international security and stability).",
+          "evidence_quote": "الدعم المادي والعسكري يضر بالأمن والاستقرار الدوليين"
+        },
+        {
+          "team": "opposition",
+          "reason": "The opposition successfully challenged the proposition's assumption that Western support would lead to democracy and human rights, highlighting the potential for negative consequences: \"هذا الدعم قد يؤدي إلى مزيد من الفوضى وعدم الاستقرار\" (This support could lead to more chaos and instability).",
+          "evidence_quote": "هذا الدعم قد يؤدي إلى مزيد من الفوضى وعدم الاستقرار"
+        },
+        {
+          "team": "proposition",
+          "reason": "The proposition failed to adequately address the opposition's concerns about the risks of military and financial intervention, such as the potential for exacerbating conflicts: \"الغرب ليس لديه سجل جيد في التدخلات العسكرية\" (The West does not have a good record in military interventions).",
+          "evidence_quote": "الغرب ليس لديه سجل جيد في التدخلات العسكرية"
+        }
+      ],
+      "justification": "The opposition team was more persuasive because they effectively highlighted the potential risks and negative consequences of providing military and financial support to opposition groups, particularly with regards to international security and stability. While the proposition team presented some arguments in favor of support, they failed to adequately address the opposition's concerns, leaving their arguments less convincing. The opposition's success in casting doubt on the proposition's assumptions and presenting a coherent counter-narrative ultimately made them more persuasive."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 39,
+      "not_found": [
+        "حمايه الانسان وطريق للديمقراطيه ولسلي وهدفنا الذي لا حياد عنه هو احلال الديمقراطيه وتكريس مبادئ حقوق الانسان",
+        "نعلم جميعا أن هذه الدول انما لديها اجنده واضحه وانها انما تتحرك وفقا لهذه الاجنده ووفقا لهذه المصالح",
+        "هذا الدعم انما يدفع باتجاه تازم الوضع بدلا عن اصلاحه",
+        "تونس على سبيل المثال قامت بتغيير هذا الوضع دون تدخل ودون أي شيء بامر سلمي",
+        "كل تدخل تم فيه تدخل بالقوة أو امداد المعارضة أو كل ما تم باسم حقوق الإنسان في العراق في أفغانستان في كل تلك الأشياء قد جرت هذه الدول إلى الحروب إلى النزاعات الطائفية",
+        "الدراسة التي أجراها مركز واتسون الأمريكي في عام 2013 تحدث عن أن الدعومات التي قدمت في أو أن الأموال التي استهلكت في حرب العراق وأفغانستان تجاوزت 3.7 بليار دولار",
+        "ما يحدث في ليبيا الآن من الاختلالات هو نتيجة نظام معمر القذافي",
+        "الغرب هو الذي يروج لنفسه كمصدر لمبادئ الديمقراطية وحقوق الإنسان",
+        "على الدول الغربية أن تتحمل مسؤولياتها تجاه شعوب العالم وأن تحاول تكريس هذه الديمقراطية",
+        "ان تقديم الدعم المادي والعسكر المقدمه للجماعات المعارضه للانظمه القمعيه انما يضر بالامن والاستقرار العالميين",
+        "جوان تنمو، سجن أبو غريب"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "الدعم المادي والعسكري يضر بالأمن والاستقرار الدوليين",
+        "هذا الدعم قد يؤدي إلى مزيد من الفوضى وعدم الاستقرار",
+        "الغرب ليس لديه سجل جيد في التدخلات العسكرية"
+      ]
+    },
+    "core_clash_leader": "opposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 1,
+    "prompt_tokens": 52747,
+    "output_tokens": 6751
+  }
+}

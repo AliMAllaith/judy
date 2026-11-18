@@ -1,0 +1,298 @@
+{
+  "debate_id": "debate_020",
+  "motion": "يؤمن هذا المجلس بأن تدهور اللغة العربية سببُه اللهجات العامية المختلفة",
+  "generated_at": "2026-11-05T10:34:53+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.7,
+    "justification": "Opposition’s refutation in Speech 6 dismantled the proposition’s claim that dialects are the cause of decline, and their subsequent arguments offered plausible alternative causes, thereby tipping the balance in their favor.",
+    "best_speaker": "Speech 6"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "تدهور اللغة العربية",
+      "proposition_definition": "السبب هو اللهجات العامية المختلفة",
+      "opposition_definition": "اللهجات العامية ليست سبباً بل نتيجة لتدهور اللغة العربية",
+      "definition_contested": true,
+      "adopted_ground": "تدهور اللغة العربية"
+    },
+    "positions": {
+      "proposition": "يؤمن أن اللهجات العامية المختلفة هي السبب الرئيسي لتدهور اللغة العربية",
+      "opposition": "يؤمن أن اللهجات العامية ليست سبباً لتدهور اللغة العربية، بل هي نتيجة لتدهورها"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "اللهجات العامية تختلف في الصوت، الصرف، النحو، وتنتشر بسرعة، ما يؤدي إلى تدهور اللغة العربية",
+        "evidence_quote": "\"أين اللام؟ أين الميم؟\"",
+        "counted": false,
+        "not_counted_reason": "لا يوجد ربط واضح بين الاختلافات والسبب في التدهور"
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "سهولة استخدام اللهجات العامية تجعلها تنتشر وتضعف اللغة العربية",
+        "evidence_quote": "\"سهل الانتشار\"",
+        "counted": false,
+        "not_counted_reason": "مكرر، لا يضيف جديداً"
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "substantive",
+        "summary": "الوسائل الإعلامية (TV, social media) تروج للهجات العامية وتقلل من استخدام العربية الفصحى",
+        "evidence_quote": "\"البرامج اللبنانية... تتحدث بالعامية\"",
+        "counted": false,
+        "not_counted_reason": "مكرر، لا يضيف جديداً"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "اللهجات العامية ليست لغة، بل نتيجة للثقافة والتاريخ، ولا تسبب التدهور",
+        "evidence_quote": "\"اللهجة العامية ليست لغة\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "التعليم باللغات الأجنبية (الفرنسية، الإنجليزية) يضعف العربية",
+        "evidence_quote": "\"التعليم بالفرنسية في المغرب\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "substantive",
+        "summary": "قلة القراءة وممارسة اللغة العربية يساهم في التدهور، وليس اللهجات",
+        "evidence_quote": "\"قليل من القراءة\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "refutation",
+        "summary": "يُفنِّد حُجَج الموالاة حول الصوت والصرف، ويُظهر أن العربية لا تُضعف بسبب اللهجات",
+        "evidence_quote": "\"لا يوجد ربط واضح بين الاختلافات والسبب\"",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "item": "إعادة تعريف اللهجات العامية كـ \"طريقة شعبيّة\"",
+        "issue": "تم تقديم تعريف جديد بعد أول متحدث، غير مسموح في القواعد"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "تعريف السبب",
+        "importance": "core",
+        "proposition_side": "اللهجات العامية هي السبب",
+        "opposition_side": "اللهجات العامية ليست السبب، بل نتيجة",
+        "outcome": "opposition",
+        "reasoning": "أدلة على أن اللهجات ليست لغة، وتقديم أمثلة على تأثير التعليم والقراءة"
+      },
+      {
+        "clash_point": "دليل على التدهور",
+        "importance": "core",
+        "proposition_side": "اختلافات صوتية وصرفية تؤدي إلى تدهور",
+        "opposition_side": "التدهور ناتج عن عوامل ثقافية وتعليمية",
+        "outcome": "opposition",
+        "reasoning": "عدم وجود ربط واضح بين الاختلافات والسبب، وتقديم أمثلة على التعليم باللغات الأجنبية"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "opposition stronger due to clear refutation and addressing definition",
+      "style": "both teams used colloquial style; opposition slightly clearer",
+      "strategy": "opposition maintained focus on definition and refutation; proposition repeated points without refutation"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "reason": "Opposition refuted proposition’s core claim about cause",
+          "where": "Speech 6",
+          "effect": "removed proposition’s main argument from the clash",
+          "evidence_quote": "\"لا يوجد ربط واضح بين الاختلافات والسبب\""
+        },
+        {
+          "reason": "Opposition provided alternative causes (colonial influence, foreign language education)",
+          "where": "Speech 2",
+          "effect": "shifted balance toward opposition’s position",
+          "evidence_quote": "\"التعليم بالفرنسية في المغرب\""
+        }
+      ]
+    },
+    "justification": "Opposition’s refutation in Speech 6 dismantled the proposition’s claim that dialects are the cause of decline, and their subsequent arguments offered plausible alternative causes, thereby tipping the balance in their favor.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "Repetitive, lacked refutation"
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Clear refutation of definition, but limited evidence"
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Repeated earlier points, no new refutation"
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "Introduced new evidence (reading habits), but lacked strong refutation"
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Repetition of earlier arguments, no new evidence"
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "Comprehensive refutation and summary"
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "Average reply, some refutation but not fully persuasive"
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "Attempted refutation but lacked clarity"
+      }
+    ],
+    "best_speaker": "Speech 6",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "تقديم أمثلة على اختلافات صوتية وصرفية",
+          "التركيز على الوسائل الإعلامية"
+        ],
+        "improvements": [
+          "تقديم أدلة واضحة تربط الاختلافات بالسبب",
+          "إجراء تفنيد فعّال للمعارضة",
+          "تجنب التكرار والتركيز على نقاط جديدة"
+        ],
+        "recommendations": [
+          "استخدام بيانات إحصائية أو دراسات تثبت تأثير اللهجات على الفصحى",
+          "إعداد خطة تفنيد واضحة للرد على حُجَج المعارضة"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "تفنيد واضح لتعريف السبب",
+          "تقديم أمثلة على التعليم باللغات الأجنبية",
+          "توضيح أن اللهجات ليست لغة"
+        ],
+        "improvements": [
+          "تقديم أدلة أكثر تحديداً على تأثير العوامل الثقافية والتعليمية",
+          "تقليل التكرار في الردود"
+        ],
+        "recommendations": [
+          "استخدام دراسات أو إحصائيات تدعم تأثير التعليم باللغات الأجنبية على العربية",
+          "تركيز أكثر على نقاط التدهور التي لا تتعلق باللهجات"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription errors present",
+      "unintelligible passages in several speeches"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 9,
+      "quotes_found": 2,
+      "match_ratio": 0.222,
+      "unverified_quotes": [
+        "\"سهل الانتشار\"",
+        "\"البرامج اللبنانية... تتحدث بالعامية\"",
+        "\"التعليم بالفرنسية في المغرب\"",
+        "\"قليل من القراءة\"",
+        "\"لا يوجد ربط واضح بين الاختلافات والسبب\"",
+        "\"لا يوجد ربط واضح بين الاختلافات والسبب\"",
+        "\"التعليم بالفرنسية في المغرب\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 244,
+      "opposition": 255
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 12891,
+        "output": 2170
+      }
+    ]
+  }
+}

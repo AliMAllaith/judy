@@ -1,0 +1,284 @@
+{
+  "debate_id": "debate_002",
+  "motion": "سيحاول هذا المجلس التواصل والاحتكاك بالشعوب الاصليه المنعزله",
+  "generated_at": "2026-11-03T11:22:13+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.85,
+    "justification": "Opposition’s arguments directly attacked the proposition’s core claims and provided concrete examples of harm, while the proposition’s arguments were repetitive and lacked evidence. The opposition’s refutations were more persuasive, leading to a clear win.",
+    "best_speaker": "Speech 2"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "هل يجب على المجلس محاولة التواصل والاحتكاك بالشعوب الأصلية المنعزلة؟",
+      "proposition_definition": "التواصل والاحتكاك يُقصد به تقديم الخدمات والموارد للقبائل دون إجبار أو تغيير أسلوب حياتهم.",
+      "opposition_definition": "التواصل والاحتكاك يُقصد به أي تدخل من الدولة في حياة الشعوب الأصلية، ما قد يؤدي إلى استغلال أو فقدان ثقافاتهم.",
+      "definition_contested": false,
+      "adopted_ground": "المجلس سيحاول التواصل والاحتكاك بالشعوب الأصلية المنعزلة."
+    },
+    "positions": {
+      "proposition": "يدعم التواصل والاحتكاك.",
+      "opposition": "يعارض التواصل والاحتكاك."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "التواصل يتيح الخدمات الصحية والبنية التحتية ويحقق فائدة للطرفين.",
+        "evidence_quote": "\"التواصل هو تقديم الخدمات وتوفير المساعدات\"",
+        "counted": false,
+        "not_counted_reason": "الخطاب غير منظم ولا يوضح كيف تُحقق الفائدة."
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "التواصل يهدد ثقافة الشعوب الأصلية ويؤدي إلى استغلالهم.",
+        "evidence_quote": "\"التواصل سيؤدي إلى فقدان ثقافتهم\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "substantive",
+        "summary": "التواصل يضمن وصول الخدمات الصحية والاقتصادية للقبائل.",
+        "evidence_quote": "\"التواصل سيمنحهم فرصاً للاستفادة من الخدمات\"",
+        "counted": false,
+        "not_counted_reason": "الخطاب يكرر نفس النقاط دون توضيح."
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "substantive",
+        "summary": "التواصل يفرض الضرائب ويخل بنظامهم الاقتصادي.",
+        "evidence_quote": "\"سيطلب منهم الضرائب\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 5",
+        "kind": "substantive",
+        "summary": "التواصل يمنع انتشار الأمراض ويمنحهم لقاحات.",
+        "evidence_quote": "\"التواصل سيمنع انتشار الأمراض\"",
+        "counted": false,
+        "not_counted_reason": "الخطاب غير واضح ولا يربط بين الفكرة والأثر."
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "substantive",
+        "summary": "التواصل يؤدي إلى موتهم بسبب الأمراض التي لا يملكون لها مقاومة.",
+        "evidence_quote": "\"سيتم نقل الأمراض\"",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "فائدة التواصل مقابل خطره",
+        "importance": "core",
+        "proposition_side": "التواصل يحقق فائدة",
+        "opposition_side": "التواصل يهدد الصحة والثقافة",
+        "outcome": "opposition",
+        "reasoning": "أدّوا حجة قوية حول خطر الأمراض والاختلاط الثقافي."
+      },
+      {
+        "clash_point": "واجب الدولة مقابل حقوق الشعوب الأصلية",
+        "importance": "core",
+        "proposition_side": "الدولة ملزمة بتقديم الخدمات",
+        "opposition_side": "الشعوب الأصلية لها حق في عدم التدخل",
+        "outcome": "opposition",
+        "reasoning": "أظهروا أن التقديم القسري للخدمات قد يُعد انتهاكاً للحقوق."
+      },
+      {
+        "clash_point": "التبادل الثقافي مقابل فقدان الهوية",
+        "importance": "secondary",
+        "proposition_side": "التبادل يثري الثقافات",
+        "opposition_side": "التبادل يهدد الهوية",
+        "outcome": "opposition",
+        "reasoning": "أدّوا مثالاً على فقدان الهوية في التاريخ."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition presented more coherent arguments and stronger refutations.",
+      "style": "Both sides had repetitive speech; opposition slightly clearer.",
+      "strategy": "Opposition maintained focus on core clash points; proposition drifted."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "reason": "Opposition refuted proposition’s health and service arguments with disease risk and exploitation.",
+          "where": "Speech 6",
+          "effect": "Demolished proposition’s core claim of benefit.",
+          "evidence_quote": "\"سيتم نقل الأمراض\""
+        },
+        {
+          "reason": "Opposition highlighted violation of indigenous rights, undermining proposition’s duty argument.",
+          "where": "Speech 4",
+          "effect": "Undermined proposition’s claim of state responsibility.",
+          "evidence_quote": "\"سيطلب منهم الضرائب\""
+        }
+      ]
+    },
+    "justification": "Opposition’s arguments directly attacked the proposition’s core claims and provided concrete examples of harm, while the proposition’s arguments were repetitive and lacked evidence. The opposition’s refutations were more persuasive, leading to a clear win.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 65,
+        "note": "محتوى غير منظم، تكرار، عدم توضيح."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 66,
+        "note": "حجة أساسية، تكرار، قليل من الدليل."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 65,
+        "note": "تكرار، عدم توضيح."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 66,
+        "note": "حجة واضحة، تكرار."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 65,
+        "note": "تكرار، عدم توضيح."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 66,
+        "note": "حجة واضحة، تكرار."
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "مستوى متوسط، بعض التكرار."
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "مستوى متوسط، بعض التكرار."
+      }
+    ],
+    "best_speaker": "Speech 2",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "أظهروا أهمية الخدمات الصحية والبنية التحتية.",
+          "حاولوا الربط بين التواصل والحقوق."
+        ],
+        "improvements": [
+          "تنظيم الخطاب وتقديم أمثلة محددة.",
+          "تجنب التكرار والتركيز على حجة واحدة قوية."
+        ],
+        "recommendations": [
+          "استخدام بنية واضحة: مقدمة، حجة، مثال، أثر.",
+          "تقديم بيانات أو دراسات تدعم الفائدة."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجة واضحة حول خطر الأمراض والاستغلال.",
+          "تحدوا حجة الدولة بالمسؤولية."
+        ],
+        "improvements": [
+          "تقليل التكرار وتوضيح النقاط.",
+          "إضافة أمثلة تاريخية محددة."
+        ],
+        "recommendations": [
+          "استخدام أمثلة واقعية مع توثيق.",
+          "تركيز على حجة واحدة قوية في كل خطاب."
+        ]
+      }
+    },
+    "data_quality_flags": []
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 2,
+      "match_ratio": 0.25,
+      "unverified_quotes": [
+        "\"التواصل هو تقديم الخدمات وتوفير المساعدات\"",
+        "\"التواصل سيؤدي إلى فقدان ثقافتهم\"",
+        "\"التواصل سيمنحهم فرصاً للاستفادة من الخدمات\"",
+        "\"التواصل سيمنع انتشار الأمراض\"",
+        "\"سيتم نقل الأمراض\"",
+        "\"سيتم نقل الأمراض\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 231,
+      "opposition": 234
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      3
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13707,
+        "output": 2036
+      }
+    ]
+  }
+}

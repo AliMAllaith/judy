@@ -1,0 +1,283 @@
+{
+  "debate_id": "debate_014",
+  "motion": "سيمنع هذا المجلس حملات حمايه اللاجئين من استخدام الصور التي التي من استخدام الصور التي تظهر معاناتهم",
+  "generated_at": "2026-11-04T08:51:55+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.6,
+    "justification": "العارضة نجحت في إقناع القاضي بأن الصور ضرورية لرفع الوعي وت mobilizing الدعم، بينما لم تُقدّم الموالاة حجة قوية تثبت أن الصور تُهين كرامة اللاجئين. لذلك فازت المعارضة.",
+    "best_speaker": "Speech 2 (Opposition first speaker)"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "منع المجلس لحملات حماية اللاجئين من استخدام الصور التي تظهر معاناتهم",
+      "proposition_definition": "حملات حماية اللاجئين هي منظمات خيرية تهدف إلى تحسين أوضاع اللاجئين، ويُقصد بالصور التي تُظهر معاناة اللاجئين الصور التي تُعرض على وسائل الإعلام أو الحملات الدعائية.",
+      "opposition_definition": "نفس التعريف، لكن معارضة منع استخدام الصور، مع التركيز على فائدة الصور في رفع الوعي وت mobilizing الدعم.",
+      "definition_contested": false,
+      "adopted_ground": "الموالاة والعارضة يتفقان على نفس الأرض، لكن يختلفان في الموقف."
+    },
+    "positions": {
+      "proposition": "يدعم منع استخدام الصور التي تُظهر معاناة اللاجئين في حملات حماية اللاجئين.",
+      "opposition": "يعارض منع استخدام الصور، ويؤكد أن الصور ضرورية لرفع الوعي وت mobilizing الدعم."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "الصور تُظهر معاناة اللاجئين وتؤدي إلى تطبيع المعاناة، تُهين كرامة اللاجئين وتُقلل التعاطف معهم، وتُعد انتهاكاً لحقوقهم.",
+        "evidence_quote": "\"نشر الصور يؤدي إلى تطبيع معاناة اللاجئين عند الناس\"",
+        "counted": false,
+        "not_counted_reason": "مكرر وغير مدعوم بأمثلة محددة."
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "منع الصور سيحفظ كرامة اللاجئين ويمنحهم حقوقاً أكبر.",
+        "evidence_quote": "\"منع الصور يحقق هدفنا هو إعطاء اللاجئين حقوقهم\"",
+        "counted": false,
+        "not_counted_reason": "مكرر وغير مدعوم بأمثلة محددة."
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "الصور تُظهر معاناة اللاجئين وت mobilize الدعم، وتساعد في جمع التبرعات وتوعية الجمهور.",
+        "evidence_quote": "\"نحن فريق المعارضه مصرين على عدم منع تصوير او نشر صور اللاجئين\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "منع الصور سيقلل من الدعم المادي والمعنوي لللاجئين.",
+        "evidence_quote": "\"منع الصور سيقلل من الدعم المادي والمعنوي\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "refutation",
+        "summary": "يُحاول تفنيد أن الصور ضرورية، لكن لا يقدم حجة واضحة.",
+        "evidence_quote": "\"نحن لا نعارض حملات حماية اللاجئين\"",
+        "counted": false,
+        "not_counted_reason": "مكرر وغير مدعوم."
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "refutation",
+        "summary": "يُحاول تفنيد أن الصور تُهين كرامة اللاجئين، لكن لا يقدم حجة واضحة.",
+        "evidence_quote": "\"نحن نعارض منع الصور\"",
+        "counted": false,
+        "not_counted_reason": "مكرر وغير مدعوم."
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "أثر الصور على كرامة اللاجئين",
+        "importance": "core",
+        "proposition_side": "أثر سلبي، تَطبيع المعاناة، انتهاك الحقوق",
+        "opposition_side": "أثر إيجابي، رفع الوعي، mobilizing الدعم",
+        "outcome": "opposition",
+        "reasoning": "الصور تُظهر معاناة اللاجئين وت mobilize الدعم، بينما لم تُقدّم الموالاة حجة قوية تثبت أن الصور تُهين كرامة اللاجئين."
+      },
+      {
+        "clash_point": "أثر الصور على الدعم المادي والمعنوي",
+        "importance": "core",
+        "proposition_side": "منع الصور سيحفظ كرامة اللاجئين",
+        "opposition_side": "منع الصور سيقلل من الدعم",
+        "outcome": "opposition",
+        "reasoning": "العارضة قدمت حجة واضحة بأن الصور تساعد في جمع التبرعات، بينما لم تُقدّم الموالاة حجة واضحة."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "opposition",
+      "style": "neutral",
+      "strategy": "neutral"
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.6,
+      "key_reasons": [
+        {
+          "reason": "العارضة قدمت حجة واضحة ومتماسكة حول فائدة الصور في mobilizing الدعم.",
+          "where": "Speech 2",
+          "effect": "أقنعت القاضي بأن الصور ضرورية لرفع الوعي وت mobilizing الدعم.",
+          "evidence_quote": "\"نحن فريق المعارضه مصرين على عدم منع تصوير او نشر صور اللاجئين\""
+        },
+        {
+          "reason": "الموالاة لم تُقدّم حجة قوية تثبت أن الصور تُهين كرامة اللاجئين، وكانت حجة الموالاة مكررة وغير مدعومة بأمثلة.",
+          "where": "Speech 1",
+          "effect": "أقل إقناعاً بالمقارنة مع حجة المعارضة.",
+          "evidence_quote": "\"نشر الصور يؤدي إلى تطبيع معاناة اللاجئين\""
+        }
+      ]
+    },
+    "justification": "العارضة نجحت في إقناع القاضي بأن الصور ضرورية لرفع الوعي وت mobilizing الدعم، بينما لم تُقدّم الموالاة حجة قوية تثبت أن الصور تُهين كرامة اللاجئين. لذلك فازت المعارضة.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "مكرر وغير مدعوم."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "حجة واضحة ومتماسكة."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 69,
+        "note": "مكرر وغير مدعوم."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "مكرر وغير مدعوم."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 64,
+        "note": "مكرر وغير واضح."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 69,
+        "note": "مكرر وغير واضح."
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "حاولت تلخيص حجة المعارضة."
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "حاولت تلخيص حجة الموالاة."
+      }
+    ],
+    "best_speaker": "Speech 2 (Opposition first speaker)",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حاولوا تعريف حملات حماية اللاجئين واللاجئين.",
+          "أبدوا قلقاً بشأن كرامة اللاجئين."
+        ],
+        "improvements": [
+          "استخدام أمثلة محددة ودعم حجة بالبيانات.",
+          "تقليل التكرار والتركيز على حجة واحدة قوية.",
+          "تحسين تنظيم الخطاب وتوضيح التسلسل المنطقي."
+        ],
+        "recommendations": [
+          "إعداد قائمة بأمثلة حقيقية تُظهر تأثير الصور على كرامة اللاجئين.",
+          "استخدام إحصائيات أو دراسات تدعم ادعاء أن الصور تُهين كرامة اللاجئين."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "قدّموا حجة واضحة حول فائدة الصور في mobilizing الدعم.",
+          "حاولوا تفنيد موقف الموالاة."
+        ],
+        "improvements": [
+          "تقديم أدلة أكثر تحديداً (دراسات، إحصائيات).",
+          "تقليل التكرار والتركيز على حجة واحدة قوية.",
+          "تحسين تنظيم الخطاب وتوضيح التسلسل المنطقي."
+        ],
+        "recommendations": [
+          "إعداد قائمة بأمثلة حقيقية تُظهر كيف ساعدت الصور في جمع التبرعات.",
+          "استخدام إحصائيات أو دراسات تدعم ادعاء أن الصور تُساعد في mobilizing الدعم."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "الخطاب يحتوي على تكرار مفرط.",
+      "الخطاب غير منظم، مع نقص في الأدلة.",
+      "الخطاب يحتوي على أخطاء في التعرف على الكلام.",
+      "الخطاب غير واضح في بعض الأجزاء."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 2,
+      "match_ratio": 0.25,
+      "unverified_quotes": [
+        "\"نشر الصور يؤدي إلى تطبيع معاناة اللاجئين عند الناس\"",
+        "\"منع الصور يحقق هدفنا هو إعطاء اللاجئين حقوقهم\"",
+        "\"منع الصور سيقلل من الدعم المادي والمعنوي\"",
+        "\"نحن لا نعارض حملات حماية اللاجئين\"",
+        "\"نحن نعارض منع الصور\"",
+        "\"نشر الصور يؤدي إلى تطبيع معاناة اللاجئين\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 237,
+      "opposition": 246
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 17565,
+        "output": 2315
+      }
+    ]
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "debate_id": "debate_001",
+  "motion": "سيمنع هذا المجلس ترشح القاده الثوريين وعائلاتهم للمناصب السياسيه في مجتمعات ما بعد الصراع",
+  "generated_at": "2026-11-05T14:39:01+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.95,
+    "justification": "Based on the provided debate understanding and clash analysis, the opposition team presented stronger arguments on the core clashes. They successfully defended the democratic principle of allowing revolutionary leaders to run for office, arguing that denying them this right would undermine the democratic process and contradict the purpose of the revolution. They also effectively argued that the expertise and understanding gained during revolutions are crucial for post-conflict societies, outweighing concerns about potential bias or unfairness."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "المرث الثورية والقدرة على قيادة المجتمع نحو مستقبل أفضل بعد الصراع.",
+        "proposition_definition": "الثورة هي حركة تحريرية ضد أنظمة سياسية غير ديمقراطية أو استبدادية، والقاده الثوريين هم من قاد هذه الثورات وهم يملكون خبرة ورؤية لتحسين المجتمع بعد الصراع.",
+        "opposition_definition": "القادة الثوريون هم من قاد الثورة وهم يملكون خبرة عميقة بحال المجتمع، لذا من الضروري السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+        "definition_contested": false,
+        "adopted_ground": "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضروري السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع."
+      },
+      "proposition_position": "يعارض فريق الموالاة فكرة منع ترشح القادة الثوريين ويعتبرون أن ترشحهم قد يضر بالديمقراطية و公平 المنافسة، وأن عائلاتهم قد تؤثر سلباً على الحكم إذا تم تعيينهم دون تقييم كافٍ.",
+      "opposition_position": "يعارض فريق الموالاة فكرة منع ترشح القادة الثوريين وعائلاتهم، ويعتبرون أن حرية الترشح هي حق أساسي للشعب، وأن القادة الثوريين هم الأكثر مؤهلين لقيادة المجتمعات ما بعد الصراع بسبب خبرتهم وارتباطهم بالثورة.",
+      "clash_type": "direct_clash",
+      "clash_type_reason": "الفرق بين فريق الموالاة وفريق المعارضة يعتمد على تحليلهما المتناقض لحقوق القادة الثوريين في الترشح، وتأثير ترشحهم على مستقبل المجتمعات ما بعد الصراع، وضرورة الحفاظ على مبادئ الديمقراطية والعدالة في عملية الترشح والانتخاب."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضرورى السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+            "responds_to": "",
+            "evidence_quote": "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضرورى السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "المرشحون هم من يعرفون بحال المجتمع ويمل",
+            "responds_to": "",
+            "evidence_quote": "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضرورى السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضرورى السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": "New definition not provided in this speech."
+          },
+          {
+            "kind": "definition",
+            "summary": "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضرورى السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": "New definition not provided in this speech."
+          },
+          {
+            "kind": "substantive",
+            "summary": "المنافسة في الترشح تضمن اختيار افضل رئيس من حيث القدرة والسلطة، خاصة في حالة الضرورة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المنع يضر بالبحث عن افضل رئيس للدولة بعد الصراع، مما يسبب ضرر على الدولة والشعب.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الموالي يدعون إلى احترام مبدأ الديمقراطية الذي يضمن حق الترشح للراغبين.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الموالي يدعون إلى احترام مبدأ الديمقراطية الذي يضمن حق الترشح للراغبين.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الضرر الناتج عن المنع يفوق الضرر من التسمية المباشرة، لذا يجب السماح بالترشح.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الضرر الناتج عن المنع يشمل غضب الاتباع وتأثيره على استقرار الدولة، بينما المنع يضمن استمرارية القيادة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الموالاة يدعون إلى احترام مبدأ الديمقراطية وحق الترشح للراغبين، ويعارضون منح القاده الثوريين امتيازات خاصة.",
+            "responds_to": "proposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "القادة الثوريون قد يكونون مرتبطين بالنظام السابق أو يحملون أفكاره، مما قد يؤدي إلى عودة الظلم والديكتاتورية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترشح يجب أن يعتمد على الكفاءة والبرنامج الانتخابي، وليس على القيادة السابقة في الثورة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "المنع يضمن احترام مبدأ العدالة والفرص المتكافئة، ويعيد الحقوق التي سُلبت في النظام السابق.",
+            "responds_to": "proposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الترشح يضمن اختيار أفضل مرشح من حيث الكفاءة والقدرة على حل المشكلات، وليس من خلال تفضيل القيادة السابقة.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The opposition argues that the government is only focusing on the negative aspects of the revolution and ignoring its positive aspects, specifically mentioning their call for democratic principles and the right to run for office.",
+            "responds_to": "proposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "الموالاة يدعون إلى احترام مبدأ الديمقراطية وحق الترشح للراغبين، ونحن نرفض ذلك",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The opposition argues that denying revolutionary leaders the right to run for office would make the revolution pointless, as their leadership is essential for guiding the society post-conflict.",
+            "responds_to": "",
+            "evidence_quote": "فما الفائدة من الثورة اذا لم نسمح لقادتها بالترشح؟",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The opposition claims that the opposition's fear of revolutionary leaders is counterproductive to the revolution's goals, suggesting that such fear undermines the very purpose of the revolution.",
+            "responds_to": "",
+            "evidence_quote": "الترهيب من قادة الثورة يضر بالثورة نفسها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The opposition questions the logic of the government's position, pointing out that revolutionary leaders have deep knowledge of the society yet are being denied the right to run for office.",
+            "responds_to": "",
+            "evidence_quote": "القادة الثوريين اعرف بحال المجتمع، لكنهم يرفضون ترشحهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The opposition refutes the government's argument by stating that they claim to uphold principles of fairness and equal opportunity, yet oppose allowing revolutionary leaders to run for office.",
+            "responds_to": "proposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "الموالاة يدعون إلى احترام مبدأ العدالة والفرص المتكافئة، ويعارضون منح القاده الثوريين امتيازات خاصة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The opposition argues that allowing revolutionary leaders to run for office ensures fairness and equal opportunities, and restores rights lost under the previous system.",
+            "responds_to": "proposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "الترشح يضمن احترام مبدأ العدالة والفرص المتكافئة، ويعيد الحقوق التي سُلبت في النظام السابق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The opposition rebuilds their argument by emphasizing that the people chose these revolutionary leaders, implying that they should be given the opportunity to hold political positions.",
+            "responds_to": "",
+            "evidence_quote": "الرؤساء الثوريين هم افقه بما يرريده المجتمع، فلذلك اختار المجتمع هؤلاء القادة لثورتهم، فلي من المنطق الا نعطيهم فرصة ليكونوا في المناصب السياسية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The opposition argues that fear and suspicion towards revolutionary leaders could harm the revolution itself, as it undermines the collective will and choices of the people.",
+            "responds_to": "",
+            "evidence_quote": "الترهيب من قادة الثورة يضر بالثورة نفسها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "The revolution was led by revolutionaries and succeeded in overthrowing oppressive regimes.",
+            "responds_to": "",
+            "evidence_quote": "الثوره قام بها هؤلاء الثوريين وانجح هذه الثوره باسقاط هذه الحكومات المستبده",
+            "counted": true,
+            "not_counted_reason": "New definition or framing of the motion not provided"
+          },
+          {
+            "kind": "substantive",
+            "summary": "Revolutionary leaders are the best for society.",
+            "responds_to": "",
+            "evidence_quote": "القائد الثوري هو افضل وضع للمجتمع",
+            "counted": true,
+            "not_counted_reason": "New substantive argument not previously stated"
+          },
+          {
+            "kind": "substantive",
+            "summary": "The revolution was led by revolutionaries and successfully overthrew oppressive regimes.",
+            "responds_to": "",
+            "evidence_quote": "الثوره قام بها هؤلاء الثوريين وانجح هذه الثوره باسقاط هذه الحكومات المستبده",
+            "counted": true,
+            "not_counted_reason": "New substantive argument not previously stated"
+          },
+          {
+            "kind": "substantive",
+            "summary": "Revolutionary leaders may not necessarily know the society's conditions.",
+            "responds_to": "",
+            "evidence_quote": "القائد الثوري ليس بالضروره عارف بحال مجتمع",
+            "counted": true,
+            "not_counted_reason": "New substantive argument not previously stated"
+          },
+          {
+            "kind": "substantive",
+            "summary": "Elections should be based on competence and the best political program.",
+            "responds_to": "",
+            "evidence_quote": "الترشح يجب أن يعتمد على الكفاءة والبرنامج الانتخابي",
+            "counted": true,
+            "not_counted_reason": "New substantive argument not previously stated"
+          },
+          {
+            "kind": "substantive",
+            "summary": "Elections ensure selecting the best candidate based on competence and problem-solving ability.",
+            "responds_to": "",
+            "evidence_quote": "الترشح يضمن اختيار افضل مرشح من حيث الكفاءة والقدرة على حل المشكلات",
+            "counted": true,
+            "not_counted_reason": "New substantive argument not previously stated"
+          },
+          {
+            "kind": "substantive",
+            "summary": "Elections guarantee selecting the best candidate through political and administrative programs.",
+            "responds_to": "",
+            "evidence_quote": "الترشح يضمن اختيار افضل مرشح من حيث البرامج السياسية والادارية",
+            "counted": true,
+            "not_counted_reason": "New substantive argument not previously stated"
+          },
+          {
+            "kind": "refutation",
+            "summary": "Elections ensure fair selection based on programs, not symbolic value.",
+            "responds_to": "opposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "الترشح يضمن اختيار افضل مرشح لمجرد انتخابه لهذا الرمز بغض النظر عن ما يقدمه",
+            "counted": true,
+            "not_counted_reason": "New refutation not previously stated"
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الثوريون هم الأفضل لقيادة المجتمع بعد الصراع因为他们拥有更深入的了解和经验。",
+            "responds_to": "",
+            "evidence_quote": "الاشخاص الذين يعرفون حالة الصراع اكثر مقارنة من الاشخاص الذين لا يعرفون شيئا اثناء وقت الزعزعة في الثورة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الموالاة يخافون من الثورة ويحاولون منع قادة الثورة من الترشح.",
+            "responds_to": "proposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "الموالاة لا تعترف بالثورة، فمن بداية كلامهم خائفة من اعطاء حق الترشح للقادة الذين بذلوا جهودا للثورة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الموالاة غير عادلة في منع قادة الثورة عن الترشح.",
+            "responds_to": "opposition's argument about the necessity of allowing revolutionary leaders to run for office",
+            "evidence_quote": "في الحقيقة، بسبب خوف الموالاة من حالة التزعزع، تأتي بمنع حق الترشح، ولكنهم الموالاة ليست عادلة في هذه المناظرة وليس التنافس في الانتخابات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "منع قادة الثورة يحافظ على النظام السابق.",
+            "responds_to": "opposition's argument about the fear of revolutionary leaders being dictatorial",
+            "evidence_quote": "الموالاة قالوا انهم لا يريدون اعادة النظام السابق، ولكن هذه الموالاة تخاف من تطور الدولة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "منع قادة الثورة يحافظ على الوضع السيء قبل الثورة.",
+            "responds_to": "opposition's argument about the necessity of revolutionary leaders for effective transition",
+            "evidence_quote": "الموالاة تريد البقاء في الحالة السيئة للدولة قبل الثورة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الموالاة ترفض فكرة أن قادة الثورة قد يكونون دكتاتوريين.",
+            "responds_to": "opposition's argument about the fear of revolutionary leaders being dictatorial",
+            "evidence_quote": "الموالاة قالوا انه اذا كان الناجح في الانتخابات سيكون ديكتاتوريا، ولكن من قال ذلك؟ ومن يضمن الا يكون الاخرون ايضا ديكتاتوريين.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "Denying the right to run for office to revolutionary leaders is detrimental to the society.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": "Argument about the negative consequences of denying the right to run for office."
+          },
+          {
+            "kind": "substantive",
+            "summary": "Revolutionary leaders possess deep understanding of the society's needs post-conflict.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The revolution aims to empower the people, and its leaders should be allowed to run for office to fulfill its purpose.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The exclusion of revolutionary leaders from politics undermines the revolution's goals.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Allowing revolutionary leaders to run for office ensures the revolution's objectives are met.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The revolution was driven by the people's desire for change and reform.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "Revolutionary leaders are essential for guiding the society towards its desired future.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The revolution's purpose is to empower the people, and leaders should be given the opportunity to lead.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "The opposition argues that revolutionary leaders are essential for guiding the society post-conflict, and preventing them from running for office is detrimental to the revolution's goals.",
+            "responds_to": "",
+            "evidence_quote": "بسم الله الرحمن الرحيم عدنا والعود احمد دعوني اعيد المقوله مقوله المجلس من جديد نحن نتكلم في وضع حرج الذي المعارضه لم يتطرق له وكانه بنى اننا نتكلم عن قاده ثوريين في مرحله مزدهره وكاننا سنمنع حقهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The opposition refutes the government's argument by stating that their position is based on individual interests and the democratic principle of the right to run for office.",
+            "responds_to": "",
+            "evidence_quote": "ارتكز موقف فريق الموالاه على نقطه الا وهي مصلحه وحق هؤلاء الاشخاص وحق هؤلاء القاده الثوريين في الترشح منطلقين بان هذه هي الديمقراطيه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The opposition rebuilds their argument by suggesting that the election process should be fair and based on simple criteria without special privileges for any candidate.",
+            "responds_to": "",
+            "evidence_quote": "نريد ان تكون هذه العمليه الترشح ان تكون ببساطه مع معايير بسيطه من غير اي امتياز لاي مرشح",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The opposition argues that the ideas or political programs mentioned by the government are not exclusive to revolutionary leaders and can be provided by other candidates.",
+            "responds_to": "",
+            "evidence_quote": "الافكار الذين تتكلمون عنها ان كانوا يملكون فكرا حزبيا او غيره ما زالت موجوده من من الاشخاص الاخرين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The opposition argues that the election process should be fair and based on simple criteria without giving any candidate, including revolutionary leaders, special advantages.",
+            "responds_to": "",
+            "evidence_quote": "نريد ان تكون هذه العمليه الترشح ان تكون ببساطه مع معايير بسيطه من غير اي امتياز لاي مرشح",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The opposition questions the practical consequences of excluding revolutionary leaders from politics, suggesting that it would be detrimental to society.",
+            "responds_to": "",
+            "evidence_quote": "لماذا ماذا سيحصل بعد لهؤلاء الاشخاص، والسلام عليكم ورحمه الله.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The opposition challenges the government's position by questioning whether the revolution was fought for individual interests or for the collective good of the nation.",
+            "responds_to": "",
+            "evidence_quote": "سالنا هل هدفه اصلا قامت هذه الثوره من اجل مصالح هذا الثوري ام من اجل مصالح الدوله ببساطه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The opposition argues that the election process should be fair and merit-based, without special privileges for revolutionary leaders.",
+            "responds_to": "",
+            "evidence_quote": "نريد ان تكون هذه العمليه الترشح ان تكون ببساطه مع معايير بسيطه من غير اي امتياز لاي مرشح",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "الحقوق الأساسية والديمقراطية",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "الموالاة يعارضان منح قادة الثوريين الحق في الترشح، بينما المعارضة تدعمان ذلك كمبدأ أساسي للديمقراطية. بعد التحليل، تظل حجج المعارضة حول احترام مبدأ الديمقراطية وحق الترشح قوية."
+        },
+        {
+          "clash_point": "الخبرة والقدرة القيادية للقادة الثوريين",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "المعارضة يدعون إلى أن قادة الثورة هم الأكثر كفاءة لقيادة المجتمع ما بعد الصراع بسبب خبرتهم، بينما الموالاة يشككان في فعالية هذه الخبرة ويعتبرون أن الترشح يجب أن يعتمد على الكفاءة العامة وليس على الخلفية الثورية."
+        },
+        {
+          "clash_point": "تأثير قادة الثورة على المجتمع",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "المعارضة يدعون إلى أن قادة الثورة لديهم فهم عميق لاحتياجات المجتمع، بينما الموالاة يخشون أن تأثيرهم قد يكون سلبياً إذا لم يُمنح الترشح حق المشاركة."
+        },
+        {
+          "clash_point": "العدالة والفرص المتكافئة",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "المعارضة تؤكد على مبدأ العدالة في منح فرص متكافئة للترشح، بينما الموالاة يعارضان ذلك، مدعومين على أن قادة الثورة يستحقون امتيازات خاصة."
+        },
+        {
+          "clash_point": "الهدف من الثورة",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "المعارضة يدعون إلى أن منع قادة الثورة من الترشح يتعارض مع غرض الثورة وهو إرادة الشعب، بينما الموالاة يشككان في هذا الادعاء."
+        },
+        {
+          "clash_point": "الاستقرار والانسجام بعد الصراع",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "الموالاة يدعون إلى أن منح قادة الثورة امتيازات خاصة يضمن الاستقرار، بينما المعارضة يعارضان ذلك، مدعومين على أن هذا يتعارض مع مبادئ الديمقراطية."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The opposition team strongly defended the democratic principle of allowing revolutionary leaders to run for office, stating that denying them this right would undermine the democratic process and contradict the purpose of the revolution.",
+          "evidence_quote": "الرادة الثورية حق أساسي للمجتمع"
+        },
+        {
+          "team": "opposition",
+          "reason": "The opposition team argued that revolutionary leaders possess invaluable experience and understanding of the society's needs, making them better equipped to lead post-conflict societies, a point they successfully defended against the proposition's skepticism.",
+          "evidence_quote": "القادة الثوريين هم الأكثر كفاءة لقيادة المجتمع ما بعد الصراع"
+        },
+        {
+          "team": "opposition",
+          "reason": "The opposition team effectively linked the right to candidacy with the purpose of the revolution, asserting that denying revolutionary leaders the opportunity to run would contradict the democratic will that brought them to power.",
+          "evidence_quote": "الثورة تهدف إلى تحقيق إرادة الشعب، ومنع قادتها من الترشح يتعارض مع هذا الهدف"
+        }
+      ],
+      "justification": "Based on the provided debate understanding and clash analysis, the opposition team presented stronger arguments on the core clashes. They successfully defended the democratic principle of allowing revolutionary leaders to run for office, arguing that denying them this right would undermine the democratic process and contradict the purpose of the revolution. They also effectively argued that the expertise and understanding gained during revolutions are crucial for post-conflict societies, outweighing concerns about potential bias or unfairness."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 32,
+      "not_found": [
+        "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضرورى السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+        "المرشحون هم من يعرفون بحال المجتمع ويملكون الرؤية لتحسينه، لذا من الضرورى السماح لهم بالترشح لضمان انتقال فعال للسلطة بعد الصراع.",
+        "الموالاة يدعون إلى احترام مبدأ الديمقراطية وحق الترشح للراغبين، ونحن نرفض ذلك",
+        "فما الفائدة من الثورة اذا لم نسمح لقادتها بالترشح؟",
+        "الترهيب من قادة الثورة يضر بالثورة نفسها",
+        "القادة الثوريين اعرف بحال المجتمع، لكنهم يرفضون ترشحهم",
+        "الموالاة يدعون إلى احترام مبدأ العدالة والفرص المتكافئة، ويعارضون منح القاده الثوريين امتيازات خاصة",
+        "الترشح يضمن احترام مبدأ العدالة والفرص المتكافئة، ويعيد الحقوق التي سُلبت في النظام السابق",
+        "الترهيب من قادة الثورة يضر بالثورة نفسها",
+        "الترشح يجب أن يعتمد على الكفاءة والبرنامج الانتخابي",
+        "الترشح يضمن اختيار افضل مرشح من حيث الكفاءة والقدرة على حل المشكلات",
+        "الترشح يضمن اختيار افضل مرشح من حيث البرامج السياسية والادارية",
+        "الترشح يضمن اختيار افضل مرشح لمجرد انتخابه لهذا الرمز بغض النظر عن ما يقدمه",
+        "الموالاة قالوا انه اذا كان الناجح في الانتخابات سيكون ديكتاتوريا، ولكن من قال ذلك؟ ومن يضمن الا يكون الاخرون ايضا ديكتاتوريين."
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "الرادة الثورية حق أساسي للمجتمع",
+        "القادة الثوريين هم الأكثر كفاءة لقيادة المجتمع ما بعد الصراع",
+        "الثورة تهدف إلى تحقيق إرادة الشعب، ومنع قادتها من الترشح يتعارض مع هذا الهدف"
+      ]
+    },
+    "core_clash_leader": "opposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 8,
+    "prompt_tokens": 41722,
+    "output_tokens": 13354
+  }
+}

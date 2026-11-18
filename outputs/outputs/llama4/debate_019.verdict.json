@@ -1,0 +1,260 @@
+{
+  "debate_id": "debate_019",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-05T12:10:15+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "الموالاة أثبتت أن للشعب حقا في تقرير مصيره فيما يتعلق بقرار الحرب وأن هذا يعزز مبادئ الديمقراطية. كما قدمت أمثلة واقعية لدعم فكرة الاستفتاء الشعبي في قرارات الحرب.",
+    "best_speaker": "الموالاة   - المتحدث الثاني"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "io يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+      "proposition_definition": "الموالاة: يجب على الدول اجراء استفتاء شعبي قبل اعلان الحرب",
+      "opposition_definition": "المعارضة: لا يجب على الدول اجراء استفتاء شعبي قبل اعلان الحرب",
+      "definition_contested": false,
+      "adopted_ground": "الحروب واثارها على الشعوب"
+    },
+    "positions": {
+      "proposition": "يجب على الدول اجراء استفتاء شعبي قبل اعلان الحرب",
+      "opposition": "لا يجب على الدول اجراء استفتاء شعبي قبل اعلان الحرب"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الحروب تؤثر سلبا على الشعوب وينبغي أن يكون لها رأي في القرار",
+        "evidence_quote": "هذه الحروب صارت تستنجد ارواحا واموالا هائلة وطائلة وقتلوا فيها الالاف وتتقتلوا في النساء فيها الاطفال",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "الاستفتاء الشعبي غير مناسب لاعلان الحرب",
+        "evidence_quote": "طبيعة الاستفتاء الشعبي التي تكون غير مناسبة لاعلان الحرب",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "rebuilding",
+        "summary": "الاستفتاء الشعبي يعزز مبادئ الديمقراطية",
+        "evidence_quote": "نحن نعتقد انه مثل هذه القرارات المصيرية يجب علينا استفتاء الشعب في تقرير هذا القرار",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "الخبراء هم الأقدر على اتخاذ قرار الحرب",
+        "evidence_quote": "هناك خبراء يستطيعون ان يتخذوا هذه القرارات",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثالث",
+        "item": "مثال خروج بريطانيا من الاتحاد الأوروبي",
+        "issue": "جاء في الرد"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "دور الشعب في قرار الحرب",
+        "importance": "core",
+        "proposition_side": "يجب أن يكون للشعب رأي في قرار الحرب",
+        "opposition_side": "لا يجب أن يكون للشعب رأي في قرار الحرب",
+        "outcome": "proposition",
+        "reasoning": "الموالاة استطاعت أن تثبت أن للشعب حقا في تقرير مصيره فيما يتعلق بقرار الحرب وأن هذا يعزز مبادئ الديمقراطية"
+      },
+      {
+        "clash_point": "الاستفتاء الشعبي كآلية لاتخاذ القرار",
+        "importance": "core",
+        "proposition_side": "الاستفتاء الشعبي هو الآلية المناسبة لاتخاذ قرار الحرب",
+        "opposition_side": "الاستفتاء الشعبي غير مناسب لاتخاذ قرار الحرب",
+        "outcome": "proposition",
+        "reasoning": "الموالاة قدمت أمثلة واقعية لدعم فكرة الاستفتاء الشعبي في قرارات الحرب"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الموالاة",
+      "style": "متقارب",
+      "strategy": "متقارب"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "الموالاة استطاعت أن تثبت أن للشعب حقا في تقرير مصيره فيما يتعلق بقرار الحرب وأن هذا يعزز مبادئ الديمقراطية",
+          "where": "Speech 3",
+          "effect": "تغيير ميزان القوة لصالح الموالاة في النقاط الحاسمة",
+          "evidence_quote": "نحن نعتقد انه مثل هذه القرارات المصيرية يجب علينا استفتاء الشعب في تقرير هذا القرار"
+        },
+        {
+          "reason": "الموالاة قدمت أمثلة واقعية لدعم فكرة الاستفتاء الشعبي في قرارات الحرب",
+          "where": "Speech 5",
+          "effect": "تعزيز موقف الموالاة",
+          "evidence_quote": "حرب العراق كلفته امريكا 1.7 مليار دولار"
+        }
+      ]
+    },
+    "justification": "الموالاة أثبتت أن للشعب حقا في تقرير مصيره فيما يتعلق بقرار الحرب وأن هذا يعزز مبادئ الديمقراطية. كما قدمت أمثلة واقعية لدعم فكرة الاستفتاء الشعبي في قرارات الحرب.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة   - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 71,
+        "note": "عرض جيد للمفاهيم الأساسية"
+      },
+      {
+        "speaker": "المعارضة   - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "البداية كانت جيدة ولكن التكملة لم تكن كذلك"
+      },
+      {
+        "speaker": "الموالاة   - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "فند بشكل جيد نقاط المعارضة"
+      },
+      {
+        "speaker": "المعارضة   - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "جيد ولكن لم يستطع الرد بشكل كاف"
+      },
+      {
+        "speaker": "الموالاة   - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "أكمل بشكل جيد نقاط الموالاة"
+      },
+      {
+        "speaker": "المعارضة   - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 71,
+        "note": "جيد ولكن لم يستطع الرد بشكل كاف"
+      },
+      {
+        "speaker": "المعارضة   - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "لم يستطع الرد بشكل كاف على نقاط الموالاة"
+      },
+      {
+        "speaker": "الموالاة   - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "أكمل بشكل جيد نقاط الموالاة"
+      }
+    ],
+    "best_speaker": "الموالاة   - المتحدث الثاني",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "الموالاة استطاعت أن تثبت أن للشعب حقا في تقرير مصيره فيما يتعلق بقرار الحرب",
+          "الموالاة قدمت أمثلة واقعية لدعم فكرة الاستفتاء الشعبي في قرارات الحرب"
+        ],
+        "improvements": [
+          "التركيز على نقاط الضعف في حجج المعارضة",
+          "تطوير استراتيجية الرد بشكل أفضل"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم الأمثلة الواقعية لدعم الفكر",
+          "التركيز على نقاط الضعف في حجج المعارضة"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "البداية كانت جيدة",
+          "المعارضة قدمت حجج جيدة"
+        ],
+        "improvements": [
+          "تطوير استراتيجية الرد بشكل أفضل",
+          "التركيز على نقاط الضعف في حجج الموالاة"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم الحجج الجيدة",
+          "التركيز على نقاط الضعف في حجج الموالاة"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "ال transcript قد يكون غير مكتمل"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 6,
+      "match_ratio": 1.0,
+      "unverified_quotes": []
+    },
+    "team_score_totals": {
+      "proposition": 270,
+      "opposition": 253
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      3
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 15173,
+        "output": 2116
+      }
+    ]
+  }
+}

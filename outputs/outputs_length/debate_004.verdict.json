@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_004",
+  "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "proposition",
+    "confidence": 0.042,
+    "justification": "main_words: proposition=2583, opposition=2373"
+  },
+  "features": {
+    "proposition": 2583.0,
+    "opposition": 2373.0,
+    "tie": false
+  }
+}

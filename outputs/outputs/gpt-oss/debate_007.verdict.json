@@ -1,0 +1,279 @@
+{
+  "debate_id": "debate_007",
+  "motion": "يرى هذا المجلس أن تدخُّل الدول الكبرى ومواقفها السياسية سبب رئيسي في تدهور دول العالم الثالث",
+  "generated_at": "2026-11-04T08:41:16+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.78,
+    "justification": "The Proposition team presented a more coherent argument chain on the core clash point, effectively refuting the Opposition’s claim that internal factors are the main cause. Their use of specific examples and a clear refutation of the internal‑cause argument shifted the balance in their favor. The Opposition’s arguments were more general and lacked the same level of evidence, making them less persuasive.",
+    "best_speaker": "الموالاة - المتحدث الثاني"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "هل تدخل الدول الكبرى ومواقفها السياسية سبب رئيسي في تدهور دول العالم الثالث؟",
+      "proposition_definition": "الدول الكبرى = الدول ذات القوة الاقتصادية والسياسية (مثل أمريكا وفرنسا). دول العالم الثالث = الدول النامية التي لم تحقق المعايير الاقتصادية والسياسية والاجتماعية.",
+      "opposition_definition": "نفس التعريفات، لكن يرفض أن تكون التدخلات السبب الرئيسي، ويؤكد أن العوامل الداخلية (فساد، نقص الديمقراطية، أزمات اقتصادية) هي التي تؤدي إلى التدهور.",
+      "definition_contested": false,
+      "adopted_ground": "نفس الأرضية، مع اختلاف في الموقف."
+    },
+    "positions": {
+      "proposition": "تدخل الدول الكبرى ومواقفها السياسية هو السبب الرئيسي في تدهور دول العالم الثالث.",
+      "opposition": "التدخلات ليست السبب الرئيسي؛ العوامل الداخلية (فساد، نقص الديمقراطية، أزمات اقتصادية) هي التي تؤدي إلى التدهور."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "التدخلات الاقتصادية والاستعمارية، الديون، شروط IMF، أمثلة على تركيا، العراق، سوريا، فلسطين.",
+        "evidence_quote": "\"الولايات المتحدة والحكومات الغربية تبرعت بمليوني ونصف تريليون دولار لمساعدة البلاد الأفريقية\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "العوامل الداخلية: فساد، نقص الديمقراطية، أزمات اقتصادية، أزمات ملكية، أمثلة على ماليزيا.",
+        "evidence_quote": "\"التنمية هي عملية تغيير شامل في إطار نموذج تمويلي يحقق الاستدامة\"",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "يُفنّد ادعاء المعارضة بأن العوامل الداخلية هي السبب، ويُظهر أن الديون والضغط الخارجي يسببان التدهور.",
+        "evidence_quote": "\"الديون أولاً التي هي وسيلة ضغط بيد الدول الكبرى\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "يُفنّد ادعاء الموالاة بأن التدخلات هي السبب الرئيسي، ويُظهر أن التدخلات غالباً إيجابية أو نتيجة للتدهور.",
+        "evidence_quote": "\"التدخلات الخارجية للدول الكبرى هي نتيجة للتدهور وليس سببًا\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الثالث",
+        "kind": "refutation",
+        "summary": "يُفنّد مزاعم المعارضة بأن التدخلات إيجابية، ويُظهر أن التدخلات تؤدي إلى نزاعات داخلية وتدهور.",
+        "evidence_quote": "\"التدخل الروسي المباشر في الصراع السوري أدى إلى تدهور\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الثالث",
+        "kind": "refutation",
+        "summary": "يُفنّد مزاعم الموالاة بأن التدخلات هي السبب الرئيسي، ويُظهر أن التدخلات غالباً نتيجة للتدهور.",
+        "evidence_quote": "\"التدخلات الخارجية هي نتيجة لأخطاء الدول النامية وليس سببها\"",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "هل التدخلات هي السبب الرئيسي في تدهور دول العالم الثالث؟",
+        "importance": "core",
+        "proposition_side": "argues yes",
+        "opposition_side": "argues no, internal causes are main reason",
+        "outcome": "proposition",
+        "reasoning": "Proposition presented more concrete examples (IMF, Turkey, Iraq, Syria) and refuted opposition's internal cause argument with debt and external pressure arguments."
+      },
+      {
+        "clash_point": "هل التدخلات الإيجابية (مساعدات، حفظ السلام) تؤثر على التدهور؟",
+        "importance": "secondary",
+        "proposition_side": "argues negative impact",
+        "opposition_side": "argues positive or neutral",
+        "outcome": "proposition",
+        "reasoning": "Proposition refuted opposition's positive intervention claim by citing examples of conflict escalation."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Proposition had more specific, historically grounded examples and a clearer refutation chain against opposition's internal cause argument. Opposition's arguments were more general and lacked strong evidence.",
+      "style": "Both sides used colloquial Arabic; Proposition's speech was more repetitive but clearer in linking examples to claims. Opposition's speech was more fragmented.",
+      "strategy": "Proposition maintained focus on the core clash point and consistently refuted opposition's main claim. Opposition attempted to broaden the debate but did not fully counter Proposition's evidence."
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.78,
+      "key_reasons": [
+        {
+          "reason": "Proposition successfully dismantled opposition's claim that internal causes are primary by linking debt and external pressure to decline.",
+          "where": "Speech 3 (Proposition) and Speech 5 (Proposition)",
+          "effect": "shifted balance toward Proposition's position on the core clash point.",
+          "evidence_quote": "\"الديون أولاً التي هي وسيلة ضغط بيد الدول الكبرى\""
+        },
+        {
+          "reason": "Proposition provided concrete historical examples (Turkey, Iraq, Syria, Palestine) that illustrated the negative impact of major power interventions.",
+          "where": "Speech 1 (Proposition)",
+          "effect": "strengthened Proposition's case and made it more persuasive.",
+          "evidence_quote": "\"الولايات المتحدة والحكومات الغربية تبرعت بمليوني ونصف تريليون دولار\""
+        }
+      ]
+    },
+    "justification": "The Proposition team presented a more coherent argument chain on the core clash point, effectively refuting the Opposition’s claim that internal factors are the main cause. Their use of specific examples and a clear refutation of the internal‑cause argument shifted the balance in their favor. The Opposition’s arguments were more general and lacked the same level of evidence, making them less persuasive.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "Good attempt at case building but repetitive and unclear."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "Presented internal causes but lacked strong evidence."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "Effective refutation of opposition’s internal‑cause claim."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "Refuted Proposition’s claim but with weaker evidence."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "Strong refutation of positive‑intervention claim."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "Refuted but lacked depth."
+      },
+      {
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 35,
+        "note": "No new arguments, mostly summary."
+      },
+      {
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 35,
+        "note": "Summary with some refutation, but no new evidence."
+      }
+    ],
+    "best_speaker": "الموالاة - المتحدث الثاني",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "استخدام أمثلة تاريخية محددة (تركيا، العراق، سوريا، فلسطين).",
+          "قدرة على تفنيد حجة المعارضة حول العوامل الداخلية.",
+          "تركيز واضح على النقطة المركزية للمناظرة."
+        ],
+        "improvements": [
+          "تقليل التكرار وتحسين تنظيم الأفكار.",
+          "تقديم أدلة أكثر تفصيلًا (إحصائيات، بيانات IMF).",
+          "تحسين الوضوح في بعض الجمل المعقدة."
+        ],
+        "recommendations": [
+          "استخدام مخططات أو جداول لتوضيح تأثير الديون على النمو.",
+          "تحديد أكثر من مثال لتقليل الاعتماد على مثال واحد."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "تسليط الضوء على العوامل الداخلية (فساد، نقص الديمقراطية).",
+          "إظهار أن التدخلات قد تكون إيجابية أو نتيجة للتدهور."
+        ],
+        "improvements": [
+          "تقديم أدلة أكثر تحديدًا (دراسات حالة، إحصائيات).",
+          "تركيز أكثر على النقطة المركزية وتجنب التشتت."
+        ],
+        "recommendations": [
+          "استخدام أمثلة محددة لتوضيح كيف أدت العوامل الداخلية إلى التدهور.",
+          "تقوية حجة تفنيد التدخلات الإيجابية بإظهار أمثلة على نجاحات محدودة."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "بعض الجمل غير مفهومة بسبب تشويه النص (مثلاً: \"أمريكا وفرنسا\" بدون سياق واضح).",
+      "تكرار بعض العبارات بدون إضافة قيمة جديدة."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 4,
+      "match_ratio": 0.5,
+      "unverified_quotes": [
+        "\"التنمية هي عملية تغيير شامل في إطار نموذج تمويلي يحقق الاستدامة\"",
+        "\"التدخلات الخارجية للدول الكبرى هي نتيجة للتدهور وليس سببًا\"",
+        "\"التدخل الروسي المباشر في الصراع السوري أدى إلى تدهور\"",
+        "\"التدخلات الخارجية هي نتيجة لأخطاء الدول النامية وليس سببها\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 262,
+      "opposition": 254
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      3
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 15445,
+        "output": 2447
+      }
+    ]
+  }
+}

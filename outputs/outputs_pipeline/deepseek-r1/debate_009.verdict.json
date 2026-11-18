@@ -1,0 +1,717 @@
+{
+  "debate_id": "debate_009",
+  "motion": "سيعطي هذا المجلس الاولويه في التبرع بالاعضاء لمن يمارس اسلوبا صحيا سليما",
+  "generated_at": "2026-11-05T11:52:57+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.85,
+    "justification": "Based on the provided clash analysis, the Opposition won the debate. They successfully defended their position by arguing that prioritizing organ allocation based on lifestyle violates fundamental human rights and contradicts the principle of equal access to healthcare, despite the Proposition's arguments on efficiency and cost-effectiveness being partially supported."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the issue of prioritizing organ allocation based on a recipient's healthy lifestyle to address the shortage of organs and improve transplant success rates.",
+        "proposition_definition": "The Proposition defined the motion as giving priority in organ donation to individuals who practice a healthy lifestyle, based on scientific criteria like absence of smoking, alcohol consumption, and other health behaviors, to ensure efficient and successful organ transplantation due to the shortage of donors and high failure rates in unhealthy recipients.",
+        "opposition_definition": "The Opposition defined the motion as advocating for prioritizing organ allocation based on a recipient's healthy lifestyle, but contested the ethical justification, arguing that it violates human rights and contradicts government-sanctioned behaviors.",
+        "definition_contested": false,
+        "adopted_ground": "The debate was fought on the ground of prioritizing organ allocation based on a scientifically defined healthy lifestyle criterion."
+      },
+      "proposition_position": "The Proposition argued that prioritizing healthy lifestyles is necessary to ensure successful organ transplants, reduce healthcare costs, and address the shortage of organs by maximizing the effectiveness of limited resources.",
+      "opposition_position": "The Opposition argued that prioritizing organ allocation based on lifestyle is unethical, discriminatory, and violates human rights, as it contradicts the principle of equal access to healthcare and the fact that governments allow unhealthy behaviors like smoking.",
+      "clash_type": "mixed",
+      "clash_type_reason": "The debate featured a mixed clash, where the Proposition focused on medical and economic efficiency while the Opposition concentrated on ethical and moral implications, with limited direct engagement on each other's arguments."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان أن الأشخاص ذوي الأسلوب الصحي السليم هم أكثر قدرة على نجاح عمليات زراعة الأعضاء، مقارنةً بمن يمارسون أسلوب حياة غير صحي.",
+            "responds_to": "",
+            "evidence_quote": "المريض بقصور كلوي مثلا والمتمتع قبل ذلك بنمط عيش سليم لا يوجد عوامل خطر مثل التدخين لا يوجد عوامل خطر مثل البقاء في المجلس يمارس رياضه بشكل مستمر في حياته له قابليه للنجاح بكثير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان أن نجاح عمليات زراعة الأعضاء يعتمد على حياة الناجح على أسلوب صحي سليم، حيث يذكران أن عمليات زراعة الكلى لدى الأشخاص غير المدخنين تنجح بنسبة 100% بينما لدى المدخنين النجاح أقل.",
+            "responds_to": "",
+            "evidence_quote": "العمليه لها نسب نجاح اعلى بكثير مقابل المدخن او غيره في عمليه زرعه كلوي وينجح",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان على التكلفة العالية لعمليات زراعة الأعضاء، ويوضحان أن التبرع بناءً على الأسلوب الصحي السليم يقلل من خسائر الميزانية الصحية والدولية.",
+            "responds_to": "",
+            "evidence_quote": "العمليه زرع كلوي تكلف 5000 دولار وفي دول اخرى تصل إلى 10000 دولار وتصل في الولايات المتحدة الامريكية إلى 500000 دولار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان أن التكلفة العالية للزراعة تجعل ضمان نجاحها ضرورياً، لذا يجب التأكد من أن المريض يمارس أسلوباً صحياً سليماً قبل إجراء العملية.",
+            "responds_to": "",
+            "evidence_quote": "العمل الواحده كما اسلفت الذكر لزرع كلوي مثلا هي 5000 دولار وفي الولايات المتحدة الامericية 00000 دولار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يوضحان أن التبرع بناءً على الأسلوب الصحي السليم يحمي صندوق التامين الاجتماعي من خسائر مالية كبيرة ناتجة عن عمليات زراعية فاشلة.",
+            "responds_to": "",
+            "evidence_quote": "لذلك بالنظر إلى انها عملية مكلفة فصنا التامين الاجتماعي لا تغطيها إلا ان تاكدت نسبه مؤكدة انها ناجحة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يذكران مثالاً محدداً لتكلفة عملية زرع كلى في الولايات المتحدة (حوالي 550 ألف دولار) لدعم فكرة ضرورة التأكد من نجاح العملية قبل إجرائها.",
+            "responds_to": "",
+            "evidence_quote": "الا انها في مثالي الذي اوضحت عمليه زرع كلوي تكلف 550 الف دولار في الولايات المتحدة الامericية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يدعمان فكرة استخدام معايير علمية موضوعية تتعلق بالأسلوب الصحي السليم في تحديد أولوية التبرع.",
+            "responds_to": "",
+            "evidence_quote": "ومن ذلك من ذلك المعايير هو الأسلوب الصحي السليم كغياب التدخين في تاريخ حياة المريض وغياب عوامل خطر أخرى",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يربطان مبدأ التبرع لمن يمارسون أسلوباً صحياً سليماً بحماية التكاليف المرتفعة للزراعة من عدم تحملها من قبل المؤسسات الصحية والحكومة.",
+            "responds_to": "",
+            "evidence_quote": "لذلك بالنظر إلى انها عملية مكلفة فصنا التامين الاجتماعي لا تغطيها الا ان تاكدت نسبه مؤكدة انها ناجحة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الحكومة مسؤولة عن السماح بالأنشطة الضاره التي تؤدي إلى أمراض.",
+            "responds_to": "The proposition's argument about the cause of the organ shortage being solely due to unhealthy lifestyles.",
+            "evidence_quote": "الانشطه التي انت ذكرتها والتي لم تحدد مجالاً أو منطقة جغرافية، هذه الأنشطة منحتها الحكومة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "تقييم المريض بناءً على عادته الصحية وليس على حالته الصحية أمر غير أخلاقي.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle.",
+            "evidence_quote": "هل هو من الأخلاقي تقييم حالة المريض ليس بسبب مرضه بل بسبب ممارساته الصحية؟",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "تقييم الحالات الصحية يجب أن يعتمد على الحاجة الطبية، وليس على العادات الصحية.",
+            "responds_to": "The proposition's argument about using lifestyle as a criterion for allocation.",
+            "evidence_quote": "عندما نقيم الحالات الصحية نتحدث عن الحاجة الطبية للعضو، وليس عن تنظيم البشر بناءً على عاداتهم.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الزراعة قد تكون مكلفة، بينما العلاج بالأجهزة الطبية أقل تكلفة وفعال.",
+            "responds_to": "",
+            "evidence_quote": "عندما ذكرت النسبة الكبيرة من المحتاجين وشح المتبرعين، لكني أعود وأقول أن استخدام الأجهزة الطبية لعلاج الحالات غير المناسبة للزراعة هو أكثر فعالية وتكاليف أقل.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحكومة مسؤولة عن السماح بالسلوكيات الضارة التي تؤدي إلى نقص الأعضاء.",
+            "responds_to": "The proposition's argument about the government's role in implementing the policy.",
+            "evidence_quote": "الحكومة مرفوضه، لأنها سمحت بالأنشطة الضارة مثل التدخين وشرب الكحول.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "السياسة الصحية يجب أن تحمي حقوق جميع الناس، وليس التضحية بها.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle.",
+            "evidence_quote": "الهدف هو الحفاظ على قدسية حق الصحة المطلق، ومنع الدولة من التنصل من أدوارها الأساسية.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يدعمان فكرة استخدام معيار الأسلوب الصحي السليم في التبرع بالاعضاء، معتبرين أنه معيار موضوعي ومتاح لجميع الناس.",
+            "responds_to": "",
+            "evidence_quote": "السلوك الصحي السليم هو معيار في المنظومه الصحيه ومن الممكن الرجوع وهو موثق",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يذكران أن 60% من عمليات زراعة الأعضاء تفشل بسبب عدم تقييد المتلقي بأسلوب صحي سليم.",
+            "responds_to": "",
+            "evidence_quote": "60% من العمليات الزراعه تفشل لماذا لعدم التقيد باسلوب صحي سليم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان على ضرورة استخدام معيار موضوعي وعلمي للتصنيف الأولوي في التبرع بالاعضاء.",
+            "responds_to": "",
+            "evidence_quote": "السلوك الصحي السليم هو معيار نستطيع من خلاله تنظيم رشيد لهذه العمليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان ي反驳 اتهامات الحكومة بتساهلها في السماح بسلوكيات ضارة، ويؤكدان على أن هذه السلوكيات غير مشروعة في معظم الدول.",
+            "responds_to": "",
+            "evidence_quote": "السلوكيات الضارة مثل التدخين، والزنا، والشرب، غير مشروعة في معظم الدول، مما يبرر استخدامها كمعيار للتصنيف الأولوي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الجانبان يؤكدان على أن معيار الأسلوب الصحي السليم هو معيار موضوعي وعادل، ويعيدان بناء حجتهما على فكرة أن التبرع بالأعضاء يتطلب تقييدا صارما على الصحة.",
+            "responds_to": "The opposition's argument about prioritizing allocation based on lifestyle being unethical.",
+            "evidence_quote": "العمليات الزراعه حساسه جدا وقد تتسبب في العديد من الحزازيات نحن لم نختر لا المال ولا اللون ولا الجنس كمعيار للتصنيف",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يهدفان إلى إنشاء نظام توزيع عادل للأعضاء بناءً على معايير علمية موضوعية.",
+            "responds_to": "",
+            "evidence_quote": "الهدف هو ارساء معيار علمي يحدد الاولويه ويضمن نجاح هذه العمليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الجانبان يعيدان تأكيد أن استخدام معيار الأسلوب الصحي السليم مبرر لأنه يتوافق مع قوانين وممارسات المجتمع في محاربة السلوكيات الضارة.",
+            "responds_to": "The opposition's argument about prioritizing allocation based on lifestyle being unethical.",
+            "evidence_quote": "السلوكيات الضارة غير مشروعة، وغالباً ما تُكافح في المجتمع، مما يجعلها معياراً مقبولاً للتصنيف الأولوي.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الجانبان يبرران استخدام معيار الأسلوب الصحي السليم على أساس أن السلوكيات غير الصحية غير قانونية ومحرم.",
+            "responds_to": "The opposition's argument about prioritizing allocation based on lifestyle being unethical.",
+            "evidence_quote": "السلوكيات الضارة غير مشروعة في معظم المجتمعات، ولهذا السبب يمكن استخدامها كمعيار للتصنيف الأولوي.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "العديد من الدول تسمح بالتدخين وشرب الكحول، مما يتعارض مع فرضية التبرع بناءً على الأسلوب الصحي السليم.",
+            "responds_to": "The proposition's argument about the cause of the organ shortage being solely due to unhealthy lifestyles.",
+            "evidence_quote": "الحكومة تسمح بالأنشطة الضاره التي تؤدي إلى أمراض.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التبرع بناءً على الأسلوب الصحي السليم سيؤدي إلى تفاقم الوضع الصحي للأشخاص غير الصحيين، مما يزيد من التكاليف الطبية والازدحام في المستشفيات.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle to reduce healthcare costs.",
+            "evidence_quote": "الشخص الذي يمارس أسلوباً غير صحي، مثل التدخين، قد يضطر لزيادة التكاليف الطبية بعد زراعته.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الزراعة لمن يمارس أسلوب حياة صحي قد يشجع عدداً أقل من الأشخاص على تغيير سلوكهم غير الصحي، مما يزيد من حالات الفشل.",
+            "responds_to": "The proposition's argument about ensuring long-term success of organ transplants.",
+            "evidence_quote": "الناس قد يعودون إلى التدخين بعد زراعة الأعضاء، مما يزيد من فشل العمليات.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحكومة تسمح بالأنشطة الضارة مثل التدخين وشرب الكحول، مما يجعل التمييز على أساس الأسلوب الصحي غير عادل.",
+            "responds_to": "The proposition's argument about using lifestyle as a criterion for allocation.",
+            "evidence_quote": "العديد من الدول تسمح بالتدخين وشرب الكحول، مما يتعارض مع مبدأ التمييز بناءً على الصحة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "التبرع بناءً على الأسلوب الصحي السليم سيؤدي إلى ازدحام أكبر في قطاع الصحة العامة، مما يزيد التكاليف والموارد المطلوبة.",
+            "responds_to": "The proposition's argument about reducing healthcare costs by prioritizing healthy recipients.",
+            "evidence_quote": "الزراعة لمن يمارس أسلوب حياة صحي سيؤدي إلى ازدحام في المستشفيات وزيادة التكاليف.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "استمرار السماح بالسلوكيات الضارة مثل التدخين وشرب الكحول يبطل فكرة أن الأسلوب الصحي السليم هو معيار عادل للتمييز.",
+            "responds_to": "The proposition's argument about the fairness of lifestyle-based allocation.",
+            "evidence_quote": "العديد من الدول تسمح بالأنشطة الضارة، مما يتعارض مع فكرة أن الأسلوب الصحي السليم هو معيار عادل.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "العديد من الدول تسمح بالأنشطة الضارة مثل التدخين وشرب الكحول، مما يجعل التبرع بناءً على الأسلوب الصحي السليم غير عادل.",
+            "responds_to": "The proposition's argument about the fairness of lifestyle-based allocation.",
+            "evidence_quote": "العديد من الدول تسمح بالأنشطة الضارة، مما يتعارض مع مبدأ العدالة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "العديد من الدول تسمح بالأنشطة الضاره مثل التدخين وشرب الكحول، مما يتعارض مع فكرة أن الأسلوب الصحي السليم هو معيار موضوعي للتمييز.",
+            "responds_to": "The proposition's argument about the scientific basis of lifestyle criteria.",
+            "evidence_quote": "العديد من الدول تسمح بالأنشطة الضاره، مما يتعارض مع فرضية التبرع بناءً على الأسلوب الصحي السليم.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان على أن التبرع بناءً على الأسلوب الصحي السليم يضمن نجاح عمليات الزرع، معتبرين أنه معيار موضوعي وعلمي.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان على ضرورة وضع معيار علمي واضح للتصنيف الأولوي في التبرع بالأعضاء.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الجانبان ي反驳 اتهامات المعارضين بأن التبرع بناءً على الأسلوب الصحي السليم ينتهك حقوق المرضى، ويؤكدان على أن الحكومة مسؤولة عن فرض المعايير الصحية.",
+            "responds_to": "The opposition's argument about prioritizing allocation based on lifestyle being unethical.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الجانبان يبرران استخدام معيار الأسلوب الصحي السليم على أساس أن السلوكيات غير الصحية غير قانونية ومحرم.",
+            "responds_to": "The opposition's argument about prioritizing allocation based on lifestyle being unethical.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يؤكدان على أن التبرع بناءً على الأسلوب الصحي السليم يضمن حماية للموارد الصحية المحدودة وتجنب الفشل.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الجانبان يوضحان أن التبرع بناءً على الأسلوب الصحي السليم ضروري لضمان نجاح العمليات وتجنب الفشل.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الجانبان يعيدان تأكيد أن معيار الأسلوب الصحي السليم هو عادلاً وضروري للحفاظ على العدالة بين المرضى.",
+            "responds_to": "The opposition's argument about prioritizing allocation based on lifestyle being unethical.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الجانبان ي反驳 اتهام المعارضين بأن التبرع بناءً على الأسلوب الصحي السليم غير عادل، ويؤكدان على أن الحكومة تعارض السلوكيات الضارة.",
+            "responds_to": "The opposition's argument about prioritizing allocation based on lifestyle being unethical.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الحكومة ليس لها الحق في قمع حق التدخين.",
+            "responds_to": "The proposition's argument about the government's role in promoting healthy lifestyles.",
+            "evidence_quote": "الحكومة ليس لها حق قمع حق التدخين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الصحة حق مطلق يجب حمايتها دون تمييز.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle.",
+            "evidence_quote": "الصحة حق مطلق يجب حمايته دون تمييز",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الطلب والعرض غير متناسبين، وسعر زراعة الكلى في الولايات المتحدة لا ينطبق على تونس.",
+            "responds_to": "The proposition's argument about reducing healthcare costs by prioritizing healthy recipients.",
+            "evidence_quote": "الطلب والعرض غير متناسبين، فكل عملية زرع كلى تكلف ما بين خمسة إلى خمسين ألف دولار",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصحة حق مطلق يجب حمايتها.",
+            "responds_to": "",
+            "evidence_quote": "الصحة حق مطلق يجب حمايته",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الصحة حق مطلق يجب حمايتها دون تمييز.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle.",
+            "evidence_quote": "الصحة حق مطلق يجب حمايته",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحكومة ملزمة بواجبات لحماية الصحة.",
+            "responds_to": "",
+            "evidence_quote": "الحكومة ملزمة بواجبات لحماية الصحة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الجهاز التنفسي للصحة حق مطلق يجب حمايته دون تمييز.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle being effective and necessary.",
+            "evidence_quote": "لقد افتراضتم أن التبرع بناءً على الأسلوب الصحي السليم يضمن نجاح العمليات، لكن هذا المعيار يسلب حق المريض في الصحة.",
+            "counted": true,
+            "not_counted_reason": "The proposition's argument about the effectiveness of prioritizing healthy lifestyles is being refuted by the opposition."
+          },
+          {
+            "kind": "refutation",
+            "summary": "الطلب والعرض غير متناسبين، وسعر زراعة الكلى في الولايات المتحدة لا ينطبق على تونس.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle being effective and necessary.",
+            "evidence_quote": "وقد افترضوا معياراً آخر خارج عن نص القضية عندما يربطون قابلية نجاح العملية بسلوك المريض، بينما نحن نؤكد أن هذا التمييز غير مبرر.",
+            "counted": true,
+            "not_counted_reason": "The proposition's argument about the effectiveness of prioritizing healthy lifestyles is being refuted by the opposition."
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الصحة حق مطلق يجب حمايتها دون تمييز.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle being fair.",
+            "evidence_quote": "بما أن الشخصان قد تساوا أمام الدولة على مستوى الحقوق، وأنهما غير محاسبين على الدولة، فالمدخن لا يحاسب الدولة، لذا لا يمكن للدولة أن تلغي هذا الحق.",
+            "counted": true,
+            "not_counted_reason": "The proposition's argument about the fairness of lifestyle-based allocation is being rebuilt by the opposition."
+          },
+          {
+            "kind": "refutation",
+            "summary": "الدولة لم تمنع التدخين، لذا لا يمكنها الآن تقييد التبرع بناءً على هذا المعيار.",
+            "responds_to": "The proposition's argument about the need for prioritizing healthy lifestyles to address the organ shortage.",
+            "evidence_quote": "لقد افتراضوا أن بقاء الشخص غير الصحي دون عضية هو تبرير لسلب هذا الحق، وهذا غير صحيح.",
+            "counted": true,
+            "not_counted_reason": "The proposition's argument about the necessity of prioritizing healthy lifestyles is being refuted by the opposition."
+          },
+          {
+            "kind": "substantive",
+            "summary": "الطلب والعرض غير متناسبين، وسعر زراعة الكلى في الولايات المتحدة لا ينطبق على تونس.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle being effective and necessary.",
+            "evidence_quote": "وقد اثبتنا مره اخرى ان على مستوى الاثار المترتبه ان مثل نص القضيه هذا يضر الدولة على مستويين على مستوى المجتمع وعلى مستوى المريض نفسه.",
+            "counted": true,
+            "not_counted_reason": "The proposition's argument about the benefits of prioritizing healthy lifestyles is being weighed by the opposition."
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "الصحة حق مطلق يجب حمايتها دون تمييز.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle being fair.",
+            "evidence_quote": "بما أن الشخصان قد تساوا أمام الدولة على مستوى الحقوق، وأنهما غير محاسبين على الدولة، فالمدخن لا يحاسب الدولة، لذا لا يمكن للدولة أن تلغي هذا الحق.",
+            "counted": true,
+            "not_counted_reason": "The proposition's argument about the fairness of lifestyle-based allocation is being rebuilt by the opposition."
+          },
+          {
+            "kind": "refutation",
+            "summary": "الدولة لم تمنع التدخين، لذا لا يمكنها الآن تقييد التبرع بناءً على هذا المعيار.",
+            "responds_to": "The proposition's argument about prioritizing allocation based on lifestyle being effective and necessary.",
+            "evidence_quote": "لقد افتراضوا أن بقاء الشخص غير الصحي دون عضية هو تبرير لسلب هذا الحق، وهذا غير صحيح.",
+            "counted": true,
+            "not_counted_reason": "The proposition's argument about the necessity of prioritizing healthy lifestyles is being refuted by the opposition."
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "The speaker accuses the opposition of not providing a coherent counter-argument and fails to address the core issue of the organ shortage, instead focusing on unrelated points.",
+            "responds_to": "The opposition's argument that the proposition's approach is not based on a general principle.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker emphasizes the urgency of the organ shortage problem, stating that it necessitates a systematic approach to allocation.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "The speaker argues that establishing a scientific standard for allocation is necessary to ensure successful organ transplants and allocate resources effectively.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker refutes the opposition's implication that prioritizing healthy lifestyles contradicts government promotion of health, stating that the government's promotion does not mean they should be prioritized for organ allocation.",
+            "responds_to": "The opposition's argument that the proposition's approach contradicts government efforts to promote healthy lifestyles.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "The speaker argues that the cost-effectiveness argument is flawed because the opposition does not provide evidence that prioritizing healthy recipients actually reduces overall healthcare costs.",
+            "responds_to": "The opposition's argument that prioritizing healthy lifestyles is cost-effective.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker rebuilds their position by emphasizing that prioritizing allocation based on lifestyle is a necessary measure to address the existing organ shortage crisis, framing it as a practical solution rather than an ethical attack.",
+            "responds_to": "The opposition's ethical arguments against prioritizing lifestyle.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "rebuilding",
+            "summary": "The speaker reinforces the need for a systematic and principle-based approach to organ allocation, stating that the opposition's vague arguments do not provide a clear alternative.",
+            "responds_to": "The opposition's argument that the proposition's approach is not based on a general principle.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "Effectiveness of Lifestyle-Based Allocation",
+          "importance": "core",
+          "proposition_side": "The proposition argues that prioritizing healthy lifestyles ensures higher success rates for organ transplants, citing examples like kidney transplants being more successful in non-smokers and the high failure rate (60%) of transplants in unhealthy individuals.",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The opposition argues that prioritizing allocation based on lifestyle is unethical and violates human rights, as it contradicts the principle of equal access to healthcare and the fact that governments allow unhealthy behaviors like smoking."
+        },
+        {
+          "clash_point": "Cost-Effectiveness and Healthcare Costs",
+          "importance": "secondary",
+          "proposition_side": "The proposition argues that prioritizing healthy recipients reduces healthcare costs by ensuring successful transplants and minimizing the need for costly treatments for failed ones.",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "The opposition counters that healthy recipients might not necessarily reduce overall costs, as unhealthy individuals may still require treatment even after transplant, and they question the applicability of US cost figures to Tunisia."
+        },
+        {
+          "clash_point": "Fairness and Equality",
+          "importance": "core",
+          "proposition_side": "The proposition claims that prioritizing lifestyle is fair because it uses an objective scientific criterion, and unhealthy behaviors like smoking are illegal in most countries.",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition argues that health is a universal right and that prioritizing based on lifestyle is discriminatory, especially since governments allow or do not prohibit harmful behaviors like smoking."
+        },
+        {
+          "clash_point": "Role of Government and Policy",
+          "importance": "secondary",
+          "proposition_side": "The proposition suggests that governments should promote and enforce healthy lifestyles to justify prioritizing them for organ allocation.",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition argues that governments cannot enforce lifestyle criteria for organ allocation because they do not control individual behaviors and allow such behaviors to exist."
+        },
+        {
+          "clash_point": "Legal and Ethical Basis",
+          "importance": "secondary",
+          "proposition_side": "The proposition argues that unhealthy behaviors are illegal and thus can be used as a basis for prioritization.",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "The opposition counters that health is a fundamental right and cannot be forfeited, even if certain behaviors are illegal, and that prioritizing based on lifestyle is not a valid justification for denying healthcare."
+        },
+        {
+          "clash_point": "Availability of Organ Supply",
+          "importance": "secondary",
+          "proposition_side": "The proposition states that prioritizing healthy individuals can help address the shortage by ensuring efficient use of scarce resources.",
+          "opposition_side": "opposition",
+          "outcome": "unresolved",
+          "reasoning": "The opposition argues that the organ shortage exists regardless of lifestyle, and prioritizing based on lifestyle does not address the root cause but rather exacerbates inequality."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "The Opposition effectively highlighted the ethical contradiction in allowing harmful behaviors while denying healthcare benefits to those affected, strengthening their case against the motion's discriminatory nature.",
+          "evidence_quote": "The opposition argues that health is a fundamental right and cannot be forfeited, even if certain behaviors are illegal."
+        },
+        {
+          "team": "opposition",
+          "reason": "By directly challenging the Proposition's assumption that lifestyle can be a valid basis for denying healthcare access, the Opposition presented a strong ethical counter-argument that undermines the motion's justification.",
+          "evidence_quote": "The opposition counters that prioritizing based on lifestyle is not a valid justification for denying healthcare, emphasizing the universal right to health."
+        },
+        {
+          "team": "opposition",
+          "reason": "This point effectively exposed the illogical inconsistency in the Proposition's stance, showing that if governments permit harmful behaviors, they cannot ethically justify denying life-saving treatment based on the consequences.",
+          "evidence_quote": "The opposition argues that governments allow or do not prohibit harmful behaviors like smoking, yet prioritize them for organ allocation, highlighting inconsistency."
+        }
+      ],
+      "justification": "Based on the provided clash analysis, the Opposition won the debate. They successfully defended their position by arguing that prioritizing organ allocation based on lifestyle violates fundamental human rights and contradicts the principle of equal access to healthcare, despite the Proposition's arguments on efficiency and cost-effectiveness being partially supported."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 43,
+      "not_found": [
+        "المريض بقصور كلوي مثلا والمتمتع قبل ذلك بنمط عيش سليم لا يوجد عوامل خطر مثل التدخين لا يوجد عوامل خطر مثل البقاء في المجلس يمارس رياضه بشكل مستمر في حياته له قابليه للنجاح بكثير",
+        "العمليه لها نسب نجاح اعلى بكثير مقابل المدخن او غيره في عمليه زرعه كلوي وينجح",
+        "العمليه زرع كلوي تكلف 5000 دولار وفي دول اخرى تصل إلى 10000 دولار وتصل في الولايات المتحدة الامريكية إلى 500000 دولار",
+        "العمل الواحده كما اسلفت الذكر لزرع كلوي مثلا هي 5000 دولار وفي الولايات المتحدة الامericية 00000 دولار",
+        "الا انها في مثالي الذي اوضحت عمليه زرع كلوي تكلف 550 الف دولار في الولايات المتحدة الامericية",
+        "الانشطه التي انت ذكرتها والتي لم تحدد مجالاً أو منطقة جغرافية، هذه الأنشطة منحتها الحكومة.",
+        "هل هو من الأخلاقي تقييم حالة المريض ليس بسبب مرضه بل بسبب ممارساته الصحية؟",
+        "عندما نقيم الحالات الصحية نتحدث عن الحاجة الطبية للعضو، وليس عن تنظيم البشر بناءً على عاداتهم.",
+        "عندما ذكرت النسبة الكبيرة من المحتاجين وشح المتبرعين، لكني أعود وأقول أن استخدام الأجهزة الطبية لعلاج الحالات غير المناسبة للزراعة هو أكثر فعالية وتكاليف أقل.",
+        "الحكومة مرفوضه، لأنها سمحت بالأنشطة الضارة مثل التدخين وشرب الكحول.",
+        "الهدف هو الحفاظ على قدسية حق الصحة المطلق، ومنع الدولة من التنصل من أدوارها الأساسية.",
+        "السلوك الصحي السليم هو معيار في المنظومه الصحيه ومن الممكن الرجوع وهو موثق",
+        "السلوك الصحي السليم هو معيار نستطيع من خلاله تنظيم رشيد لهذه العمليه",
+        "السلوكيات الضارة مثل التدخين، والزنا، والشرب، غير مشروعة في معظم الدول، مما يبرر استخدامها كمعيار للتصنيف الأولوي.",
+        "العمليات الزراعه حساسه جدا وقد تتسبب في العديد من الحزازيات نحن لم نختر لا المال ولا اللون ولا الجنس كمعيار للتصنيف",
+        "الهدف هو ارساء معيار علمي يحدد الاولويه ويضمن نجاح هذه العمليه",
+        "السلوكيات الضارة غير مشروعة، وغالباً ما تُكافح في المجتمع، مما يجعلها معياراً مقبولاً للتصنيف الأولوي.",
+        "السلوكيات الضارة غير مشروعة في معظم المجتمعات، ولهذا السبب يمكن استخدامها كمعيار للتصنيف الأولوي.",
+        "الحكومة تسمح بالأنشطة الضاره التي تؤدي إلى أمراض.",
+        "الشخص الذي يمارس أسلوباً غير صحي، مثل التدخين، قد يضطر لزيادة التكاليف الطبية بعد زراعته.",
+        "الناس قد يعودون إلى التدخين بعد زراعة الأعضاء، مما يزيد من فشل العمليات.",
+        "العديد من الدول تسمح بالتدخين وشرب الكحول، مما يتعارض مع مبدأ التمييز بناءً على الصحة.",
+        "الزراعة لمن يمارس أسلوب حياة صحي سيؤدي إلى ازدحام في المستشفيات وزيادة التكاليف.",
+        "العديد من الدول تسمح بالأنشطة الضارة، مما يتعارض مع فكرة أن الأسلوب الصحي السليم هو معيار عادل.",
+        "العديد من الدول تسمح بالأنشطة الضارة، مما يتعارض مع مبدأ العدالة.",
+        "العديد من الدول تسمح بالأنشطة الضاره، مما يتعارض مع فرضية التبرع بناءً على الأسلوب الصحي السليم.",
+        "الحكومة ليس لها حق قمع حق التدخين",
+        "الصحة حق مطلق يجب حمايته دون تمييز",
+        "الطلب والعرض غير متناسبين، فكل عملية زرع كلى تكلف ما بين خمسة إلى خمسين ألف دولار",
+        "الصحة حق مطلق يجب حمايته",
+        "الصحة حق مطلق يجب حمايته",
+        "الحكومة ملزمة بواجبات لحماية الصحة",
+        "لقد افتراضتم أن التبرع بناءً على الأسلوب الصحي السليم يضمن نجاح العمليات، لكن هذا المعيار يسلب حق المريض في الصحة.",
+        "وقد افترضوا معياراً آخر خارج عن نص القضية عندما يربطون قابلية نجاح العملية بسلوك المريض، بينما نحن نؤكد أن هذا التمييز غير مبرر.",
+        "بما أن الشخصان قد تساوا أمام الدولة على مستوى الحقوق، وأنهما غير محاسبين على الدولة، فالمدخن لا يحاسب الدولة، لذا لا يمكن للدولة أن تلغي هذا الحق.",
+        "لقد افتراضوا أن بقاء الشخص غير الصحي دون عضية هو تبرير لسلب هذا الحق، وهذا غير صحيح.",
+        "وقد اثبتنا مره اخرى ان على مستوى الاثار المترتبه ان مثل نص القضيه هذا يضر الدولة على مستويين على مستوى المجتمع وعلى مستوى المريض نفسه.",
+        "بما أن الشخصان قد تساوا أمام الدولة على مستوى الحقوق، وأنهما غير محاسبين على الدولة، فالمدخن لا يحاسب الدولة، لذا لا يمكن للدولة أن تلغي هذا الحق.",
+        "لقد افتراضوا أن بقاء الشخص غير الصحي دون عضية هو تبرير لسلب هذا الحق، وهذا غير صحيح."
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "The opposition argues that health is a fundamental right and cannot be forfeited, even if certain behaviors are illegal.",
+        "The opposition counters that prioritizing based on lifestyle is not a valid justification for denying healthcare, emphasizing the universal right to health.",
+        "The opposition argues that governments allow or do not prohibit harmful behaviors like smoking, yet prioritize them for organ allocation, highlighting inconsistency."
+      ]
+    },
+    "core_clash_leader": null,
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 8,
+    "prompt_tokens": 52891,
+    "output_tokens": 18144
+  }
+}

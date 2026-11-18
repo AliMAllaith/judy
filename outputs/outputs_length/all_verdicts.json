@@ -1,0 +1,422 @@
+[
+  {
+    "debate_id": "debate_001",
+    "motion": "سيمنع هذا المجلس ترشح القاده الثوريين وعائلاتهم للمناصب السياسيه في مجتمعات ما بعد الصراع",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.576,
+      "justification": "main_words: proposition=3305, opposition=888"
+    },
+    "features": {
+      "proposition": 3305.0,
+      "opposition": 888.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_0010",
+    "motion": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.054,
+      "justification": "main_words: proposition=2355, opposition=2625"
+    },
+    "features": {
+      "proposition": 2355.0,
+      "opposition": 2625.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_002",
+    "motion": "سيحاول هذا المجلس التواصل والاحتكاك بالشعوب الاصليه المنعزله",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.028,
+      "justification": "main_words: proposition=2442, opposition=2311"
+    },
+    "features": {
+      "proposition": 2442.0,
+      "opposition": 2311.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_003",
+    "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.037,
+      "justification": "main_words: proposition=2922, opposition=2713"
+    },
+    "features": {
+      "proposition": 2922.0,
+      "opposition": 2713.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_004",
+    "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.042,
+      "justification": "main_words: proposition=2583, opposition=2373"
+    },
+    "features": {
+      "proposition": 2583.0,
+      "opposition": 2373.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_005",
+    "motion": "يفضل هذا المجلس عالما بدون الاحتراف الرياضي",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.023,
+      "justification": "main_words: proposition=2667, opposition=2549"
+    },
+    "features": {
+      "proposition": 2667.0,
+      "opposition": 2549.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_006",
+    "motion": "يدعم هذا المجلس تقسيم الطلاب على الفصول الدراسيه حسب قدراتهم الاكاديميه",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.03,
+      "justification": "main_words: proposition=2578, opposition=2738"
+    },
+    "features": {
+      "proposition": 2578.0,
+      "opposition": 2738.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_007",
+    "motion": "يرى هذا المجلس أن تدخُّل الدول الكبرى ومواقفها السياسية سبب رئيسي في تدهور دول العالم الثالث",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.019,
+      "justification": "main_words: proposition=1712, opposition=1649"
+    },
+    "features": {
+      "proposition": 1712.0,
+      "opposition": 1649.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_008",
+    "motion": "لن يقدم هذا المجلس مساعدات إنمائية للدول التي لا تجري إصلاحات سياسية",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.082,
+      "justification": "main_words: proposition=2460, opposition=2899"
+    },
+    "features": {
+      "proposition": 2460.0,
+      "opposition": 2899.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_009",
+    "motion": "سيعطي هذا المجلس الاولويه في التبرع بالاعضاء لمن يمارس اسلوبا صحيا سليما",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.059,
+      "justification": "main_words: proposition=2257, opposition=2540"
+    },
+    "features": {
+      "proposition": 2257.0,
+      "opposition": 2540.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_011",
+    "motion": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.057,
+      "justification": "main_words: proposition=2011, opposition=2256"
+    },
+    "features": {
+      "proposition": 2011.0,
+      "opposition": 2256.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_012",
+    "motion": "سيلغي هذا المجلس التاشيره بين الدول العربيه",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.035,
+      "justification": "main_words: proposition=2319, opposition=2162"
+    },
+    "features": {
+      "proposition": 2319.0,
+      "opposition": 2162.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_013",
+    "motion": "سيلغي هذا المجلس التأشيرة بين الدول العربية",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.109,
+      "justification": "main_words: proposition=2275, opposition=1828"
+    },
+    "features": {
+      "proposition": 2275.0,
+      "opposition": 1828.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_014",
+    "motion": "سيمنع هذا المجلس حملات حمايه اللاجئين من استخدام الصور التي التي من استخدام الصور التي تظهر معاناتهم",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.054,
+      "justification": "main_words: proposition=2508, opposition=2251"
+    },
+    "features": {
+      "proposition": 2508.0,
+      "opposition": 2251.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_015",
+    "motion": "سيمنع المجلس الدولة ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.083,
+      "justification": "main_words: proposition=2294, opposition=2712"
+    },
+    "features": {
+      "proposition": 2294.0,
+      "opposition": 2712.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_016",
+    "motion": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.363,
+      "justification": "main_words: proposition=1411, opposition=3017"
+    },
+    "features": {
+      "proposition": 1411.0,
+      "opposition": 3017.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_017",
+    "motion": "سيقتطع هذا المجلس جزءا من اراضي الدول العالم الاول ويمنحها للدول المتضرره من التغير المناخي",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.085,
+      "justification": "main_words: proposition=1940, opposition=2301"
+    },
+    "features": {
+      "proposition": 1940.0,
+      "opposition": 2301.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_018",
+    "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.068,
+      "justification": "main_words: proposition=2318, opposition=2658"
+    },
+    "features": {
+      "proposition": 2318.0,
+      "opposition": 2658.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_019",
+    "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "proposition",
+      "confidence": 0.152,
+      "justification": "main_words: proposition=1881, opposition=1385"
+    },
+    "features": {
+      "proposition": 1881.0,
+      "opposition": 1385.0,
+      "tie": false
+    }
+  },
+  {
+    "debate_id": "debate_020",
+    "motion": "يؤمن هذا المجلس بأن تدهور اللغة العربية سببُه اللهجات العامية المختلفة",
+    "generated_at": "2026-11-05T08:37:43+00:00",
+    "config": {
+      "system": "length-only",
+      "feature": "main_words",
+      "longer_wins": true,
+      "tie_break": "proposition"
+    },
+    "result": {
+      "winner": "opposition",
+      "confidence": 0.012,
+      "justification": "main_words: proposition=1618, opposition=1657"
+    },
+    "features": {
+      "proposition": 1618.0,
+      "opposition": 1657.0,
+      "tie": false
+    }
+  }
+]

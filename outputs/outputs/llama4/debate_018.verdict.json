@@ -1,0 +1,245 @@
+{
+  "debate_id": "debate_018",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-05T12:00:08+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "الموالاة قدمت حجج أكثر قوة وانسجاما حول حق الشعوب في تقرير مصيرها واختيار الحرب من عدمها، وكيفية تهيئة ظروف النجاح للحروب من خلال الاستفتاء الشعبي",
+    "best_speaker": "المتحدث الثالث - الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+      "proposition_definition": "الموالاة: يجب على الدول اجراء استفتاء شعبي قبل اعلان الحروب",
+      "opposition_definition": "المعارضة: لا يجب على الدول اجراء استفتاء شعبي قبل اعلان الحروب",
+      "definition_contested": false,
+      "adopted_ground": "الحروب وعلاقتها بالشعوب وارادتهم"
+    },
+    "positions": {
+      "proposition": "الموالاة: يجب على الدول اجراء استفتاء شعبي قبل اعلان الحروب",
+      "opposition": "المعارضة: لا يجب على الدول اجراء استفتاء شعبي قبل اعلان الحروب"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "للشعب حق في اختيار الحرب من عدمها لانه من حقهم تقرير مصيرهم",
+        "evidence_quote": "الاعلان العالمي لحقوق الانسان فصلين ينص على حق الشعوب في تقرير مصيرها بنفسها واختيار من يمثلهم",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "البرلمان هو من يحدد الاستعداد والاراده للشعب",
+        "evidence_quote": "البرلمان يمثل الشعب بشكل متخصص",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "rebuilding",
+        "summary": "اجراء الاستفتاء الشعبي يهيئ ظروف النجاح للحروب",
+        "evidence_quote": "الشعب هو الذي سيتحمل تبعات الحرب",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "الاستفتاء الشعبي سيزيد الوضع سوءا",
+        "evidence_quote": "الاستفتاء الشعبي سيقوم باضافه الوضع سوءا عن طريق الترويج والدعاية",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديدة لا علاقة لها بالموضوع",
+        "issue": "العدوان الخارجي"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الحق في اختيار الحرب",
+        "importance": "core",
+        "proposition_side": "الموالاة",
+        "opposition_side": "المعارضة",
+        "outcome": "proposition",
+        "reasoning": "الموالاة قدمت حجج قوية حول حق الشعوب في تقرير مصيرها واختيار الحرب من عدمها"
+      },
+      {
+        "clash_point": "تهيئة ظروف النجاح للحروب",
+        "importance": "core",
+        "proposition_side": "الموالاة",
+        "opposition_side": "المعارضة",
+        "outcome": "proposition",
+        "reasoning": "الموالاة قدمت حجج قوية حول كيفية تهيئة ظروف النجاح للحروب من خلال الاستفتاء الشعبي"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الموالاة قدمت حجج أكثر قوة وانسجاما",
+      "style": "كلا الفريقين قدم أسلوبا جيدا",
+      "strategy": "الموالاة استخدمت استراتيجية أكثر فعالية"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "الموالاة قدمت حجج قوية حول حق الشعوب في تقرير مصيرها واختيار الحرب من عدمها",
+          "where": "المتحدث الأول",
+          "effect": "قنع القاضي بأن الموالاة أكثر إقناعا في هذه النقطة",
+          "evidence_quote": "الاعلان العالمي لحقوق الانسان فصلين ينص على حق الشعوب في تقرير مصيرها بنفسها واختيار من يمثلهم"
+        },
+        {
+          "reason": "الموالاة قدمت حجج قوية حول كيفية تهيئة ظروف النجاح للحروب من خلال الاستفتاء الشعبي",
+          "where": "المتحدث الثاني",
+          "effect": "قنع القاضي بأن الموالاة أكثر إقناعا في هذه النقطة",
+          "evidence_quote": "الشعب هو الذي سيتحمل تبعات الحرب"
+        }
+      ]
+    },
+    "justification": "الموالاة قدمت حجج أكثر قوة وانسجاما حول حق الشعوب في تقرير مصيرها واختيار الحرب من عدمها، وكيفية تهيئة ظروف النجاح للحروب من خلال الاستفتاء الشعبي",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "جيد جدا في تقديم الحجج"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "جيد في الرد على حجج الموالاة"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "ممتاز في تقديم الحجج وتهيئة الظروف"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "جيد في الرد على حجج الموالاة"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "ممتاز في تقديم الحجج وتهيئة الظروف"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "جيد في الرد على حجج الموالاة"
+      }
+    ],
+    "best_speaker": "المتحدث الثالث - الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "تقديم حجج قوية وانسجاما حول حق الشعوب في تقرير مصيرها واختيار الحرب من عدمها"
+        ],
+        "improvements": [
+          "التركيز على نقاط الضعف في حجج المعارضة"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم الحجج القوية وانسجاما"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "الرد على حجج الموالاة بشكل جيد"
+        ],
+        "improvements": [
+          "تقديم حجج أكثر قوة وانسجاما"
+        ],
+        "recommendations": [
+          "التركيز على نقاط القوة في حجج الموالاة والرد عليها بشكل أفضل"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "ال transcript قد يحتوي على بعض الأخطاء في التعرف على الكلام"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "الاعلان العالمي لحقوق الانسان فصلين ينص على حق الشعوب في تقرير مصيرها بنفسها واختيار من يمثلهم",
+        "البرلمان يمثل الشعب بشكل متخصص",
+        "الشعب هو الذي سيتحمل تبعات الحرب",
+        "الاستفتاء الشعبي سيقوم باضافه الوضع سوءا عن طريق الترويج والدعاية",
+        "الاعلان العالمي لحقوق الانسان فصلين ينص على حق الشعوب في تقرير مصيرها بنفسها واختيار من يمثلهم",
+        "الشعب هو الذي سيتحمل تبعات الحرب"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 243,
+      "opposition": 231
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13900,
+        "output": 1868
+      }
+    ]
+  }
+}

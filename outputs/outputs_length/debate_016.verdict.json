@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_016",
+  "motion": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.363,
+    "justification": "main_words: proposition=1411, opposition=3017"
+  },
+  "features": {
+    "proposition": 1411.0,
+    "opposition": 3017.0,
+    "tie": false
+  }
+}

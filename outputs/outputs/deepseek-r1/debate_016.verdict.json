@@ -1,0 +1,324 @@
+{
+  "debate_id": "debate_016",
+  "motion": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+  "generated_at": "2026-11-05T08:58:02+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "The Opposition's redefinition of the motion is more persuasive as it aligns with the logical meaning and reduces the need for persuasion on the original ground. Their arguments effectively demolish the Proposition's reliance on apology by showing that it is an admission of wrongdoing not supported by evidence. The Proposition's arguments were not strong enough to counter the Opposition's refutation.",
+    "best_speaker": "المعارضة - المتحدث الثاني"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "The debate revolves around the definition of 'Muslims' and 'Islamic terrorism'.",
+      "proposition_definition": "Terrorism is an Islamic issue that requires apology and criticism.",
+      "opposition_definition": "Terrorism is a political issue unrelated to Islam.",
+      "definition_contested": true,
+      "adopted_ground": "The Opposition's redefined ground."
+    },
+    "positions": {
+      "proposition": "Terrorism is an Islamic issue that requires apology and criticism.",
+      "opposition": "Terrorism is a political issue unrelated to Islam."
+    },
+    "clash_type": "parallel",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "kind": "rebuilding",
+        "summary": "الموالاة تقدم مثالاً على تصحيح المفاهيم من خلال البحوث، مصححاً ادعاءات الارهابيين بناءً على مخطوطات مغلوطة، لإثبات أن الإسلام لم يشجع على الارهاب.",
+        "evidence_quote": "العالم وجد ان ابن تيمية لم يقل ان غير المسلمين \"يقاتلون\" بل قال انهم \"يعاملون\" وليس \"يقاتلون\".",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي المسلمين من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي المسلمين من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي Muslims من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي Muslims من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي Muslims من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي Muslims من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي Muslims من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي Muslims من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "kind": "rebuilding",
+        "summary": "الموالاة تؤكد أن الاعتذار عن العمليات الإرهابية يعكس مبدأ الإنسانية، ويحمي Muslims من التصنيف الخاطئ، مع تقديم أمثلة على تأثير ذلك على الرأي العام.",
+        "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الأول",
+        "item": "The Proposition's main speech focused on apology without providing clear reasoning or examples.",
+        "issue": "The Proposition's arguments were not fully developed and lacked clarity."
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثاني",
+        "item": "The Proposition's main speech focused on apology without providing clear reasoning or examples.",
+        "issue": "The Proposition's arguments were not fully developed and lacked clarity."
+      },
+      {
+        "team": "proposition",
+        "speaker": "موالاة - المتحدث الثالث",
+        "item": "The Proposition's main speech focused on apology without providing clear reasoning or examples.",
+        "issue": "The Proposition's arguments were not fully developed and lacked clarity."
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الاعتراف النصي للمسلمين",
+        "importance": "core",
+        "proposition_side": "المعارضة",
+        "opposition_side": "موالاة",
+        "outcome": "opposition",
+        "reasoning": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "The Opposition's arguments are more persuasive due to their clear redefinition and effective refutation.",
+      "style": "The Proposition's style was less clear and more disorganized.",
+      "strategy": "The Opposition's strategy is more effective as they consistently defend their position."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "The Opposition's redefinition aligns better with the logical meaning of the motion and reduces the need for persuasion on the original ground.",
+          "where": "Speech 4 and 6 of the Opposition",
+          "effect": "The Opposition successfully redefined the motion, shifting the debate to a parallel track where they argue that terrorism is a political issue unrelated to Islam.",
+          "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة."
+        },
+        {
+          "reason": "The Opposition effectively demolishes the Proposition's reliance on apology by showing that it is an admission of wrongdoing, which is not supported by the evidence.",
+          "where": "Speech 4 and 6 of the Opposition",
+          "effect": "The Opposition's arguments are more persuasive in their refutation of the Proposition's stance, as they provide clear examples and counterpoints that undermine the need for apology.",
+          "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة."
+        },
+        {
+          "reason": "This approach better satisfies the realism criterion by focusing on the actual perpetrators and motivations behind terrorism.",
+          "where": "Speech 4 and 6 of the Opposition",
+          "effect": "The Opposition's redefinition leads to a more realistic and logical clash resolution, as it addresses the core issue of terrorism being a political tool rather than an Islamic one.",
+          "evidence_quote": "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة."
+        }
+      ]
+    },
+    "justification": "The Opposition's redefinition of the motion is more persuasive as it aligns with the logical meaning and reduces the need for persuasion on the original ground. Their arguments effectively demolish the Proposition's reliance on apology by showing that it is an admission of wrongdoing not supported by evidence. The Proposition's arguments were not strong enough to counter the Opposition's refutation.",
+    "speaker_scores": [
+      {
+        "speaker": "موالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches lack clear definition and argument development."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches lack clear definition and argument development."
+      },
+      {
+        "speaker": "موالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches lack clear definition and argument development."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches lack clear definition and argument development."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches lack clear definition and argument development."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "very_weak",
+        "score": 60,
+        "note": "These speeches lack clear definition and argument development."
+      }
+    ],
+    "best_speaker": "المعارضة - المتحدث الثاني",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "Good effort in presenting arguments, though they were not fully developed.",
+          "Attempted to engage with the topic, showing some understanding."
+        ],
+        "improvements": [
+          "Clarify the definition of 'Muslims' and 'Islamic terrorism' to avoid confusion.",
+          "Provide more specific evidence to support your arguments."
+        ],
+        "recommendations": [
+          "Focus on the core clash points to ensure your arguments are persuasive.",
+          "Develop a clearer strategy to address the Opposition's refutations."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "Excellent redefinition of the motion that aligns with the logical meaning.",
+          "Strong refutation of the Proposition's arguments, effectively dismantling their position."
+        ],
+        "improvements": [
+          "Consider providing more concrete examples to strengthen your arguments.",
+          "Ensure clarity in your refutations to avoid any ambiguity."
+        ],
+        "recommendations": [
+          "Focus on the logical meaning of the motion to maintain a clear debate ground.",
+          "Address the realism aspect by highlighting how your arguments align with the actual context."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Some arguments appear to be repetitions or lack clear distinction.",
+      "The transcript may contain transcription errors or unclear phrasing.",
+      "Some points of information were not addressed properly."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 13,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "العالم وجد ان ابن تيمية لم يقل ان غير المسلمين \"يقاتلون\" بل قال انهم \"يعاملون\" وليس \"يقاتلون\".",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة.",
+        "الاعتراف النصي للمسلمين يبرز المبدأ الإنساني، وعندما يخصص المسلمون أنفسهم للانتقاد، فإنه يبعد عنهم اتهامات غير عادلة."
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 180,
+      "opposition": 180
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 12728,
+        "output": 3987
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "winner": {
+      "enum": [
+        "proposition",
+        "opposition"
+      ],
+      "title": "Winner",
+      "type": "string"
+    },
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "justification": {
+      "title": "Justification",
+      "type": "string"
+    }
+  },
+  "required": [
+    "winner",
+    "confidence",
+    "justification"
+  ],
+  "title": "VerdictWinnerFirst",
+  "type": "object"
+}

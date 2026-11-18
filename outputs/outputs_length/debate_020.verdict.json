@@ -1,0 +1,21 @@
+{
+  "debate_id": "debate_020",
+  "motion": "يؤمن هذا المجلس بأن تدهور اللغة العربية سببُه اللهجات العامية المختلفة",
+  "generated_at": "2026-11-05T08:37:43+00:00",
+  "config": {
+    "system": "length-only",
+    "feature": "main_words",
+    "longer_wins": true,
+    "tie_break": "proposition"
+  },
+  "result": {
+    "winner": "opposition",
+    "confidence": 0.012,
+    "justification": "main_words: proposition=1618, opposition=1657"
+  },
+  "features": {
+    "proposition": 1618.0,
+    "opposition": 1657.0,
+    "tie": false
+  }
+}

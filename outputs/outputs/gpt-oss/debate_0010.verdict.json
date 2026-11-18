@@ -1,0 +1,316 @@
+{
+  "debate_id": "debate_0010",
+  "motion": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضه للانظمه القمعيه",
+  "generated_at": "2026-11-03T11:20:42+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.85,
+    "justification": "Opposition’s arguments on sovereignty, agenda, and instability were well‑structured, directly addressed the core clash points, and were supported by specific examples (Iraq, Libya). Proposition’s arguments were generic, lacked concrete evidence, and its refutations did not effectively dismantle the opposition’s claims. Consequently, the opposition achieved a higher level of persuasion.",
+    "best_speaker": "Speech 2 (Opposition)"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يجب على الغرب تقديم الدعم المادي والعسكري للجماعات المعارضة للأنظمة القمعية",
+      "proposition_definition": "الدعم المادي = الأموال للعمليات الإنسانية، الدعم العسكري = الأسلحة للمعارضة",
+      "opposition_definition": "مستند إلى نفس التعريفات، لكن يرفض تطبيقها",
+      "definition_contested": false,
+      "adopted_ground": "الموالاة"
+    },
+    "positions": {
+      "proposition": "يدعم",
+      "opposition": "يعارض"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "الدعم السياسي للغرب ضروري لفرض الديمقراطية وحماية حقوق الإنسان",
+        "evidence_quote": "\"نحن كفريق موالاه نرى انه قرار سديد وصحيح\"",
+        "counted": false,
+        "not_counted_reason": "مكررة وغير محددة"
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "substantive",
+        "summary": "الدعم العسكري يوازن القوة ويمنح المعارضة القدرة على مقاومة القمع",
+        "evidence_quote": "\"الدعم العسكري يوازن القوة\"",
+        "counted": false,
+        "not_counted_reason": "مكررة وغير محددة"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "الدعم يخرق سيادة الدول ويؤدي إلى عدم الاستقرار",
+        "evidence_quote": "\"الدعم يخرق سيادة الدول\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "الغرب ليس مؤهلاً بسبب أجندته الخاصة",
+        "evidence_quote": "\"الغرب ليس مؤهلاً بسبب أجندته الخاصة\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "الدعم يؤدي إلى حروب داخلية وتدمير الدول",
+        "evidence_quote": "\"الدعم يؤدي إلى حروب داخلية\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "عدم وضوح طبيعة الجماعات المعارضة وعدم ضمانها للانتماء للحقوق",
+        "evidence_quote": "\"عدم وضوح طبيعة الجماعات المعارضة\"",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "refutation",
+        "summary": "الدفاع عن سيادة الدول غير مناسب لأن الأنظمة القمعية تنتهك حقوق الإنسان",
+        "evidence_quote": "\"الدفاع عن سيادة الدول غير مناسب\"",
+        "counted": false,
+        "not_counted_reason": "مكررة وغير محددة"
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "refutation",
+        "summary": "الغرب قادر على دعم الديمقراطية بسبب تاريخها الديمقراطي",
+        "evidence_quote": "\"الغرب قادر على دعم الديمقراطية\"",
+        "counted": false,
+        "not_counted_reason": "مكررة وغير محددة"
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "سيادة الدول",
+        "importance": "core",
+        "proposition_side": "refuted",
+        "opposition_side": "survived",
+        "outcome": "opposition",
+        "reasoning": "Opposition presented concrete examples (Iraq, Libya) showing that intervention led to instability, while proposition failed to counter."
+      },
+      {
+        "clash_point": "أهلية الغرب",
+        "importance": "core",
+        "proposition_side": "refuted",
+        "opposition_side": "survived",
+        "outcome": "opposition",
+        "reasoning": "Opposition highlighted hidden agenda and lack of trust, proposition offered vague justification."
+      },
+      {
+        "clash_point": "أثر الدعم على الديمقراطية",
+        "importance": "core",
+        "proposition_side": "refuted",
+        "opposition_side": "survived",
+        "outcome": "opposition",
+        "reasoning": "Opposition cited failed interventions; proposition lacked evidence."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition stronger due to structured arguments and concrete examples.",
+      "style": "Both sides had repetition; opposition slightly clearer.",
+      "strategy": "Opposition maintained focus on core clash points; proposition drifted."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.85,
+      "key_reasons": [
+        {
+          "reason": "Opposition successfully defended sovereignty and agenda arguments.",
+          "where": "Speech 2",
+          "effect": "removed proposition's key claim about legitimacy of intervention",
+          "evidence_quote": "\"الدعم يخرق سيادة الدول\""
+        },
+        {
+          "reason": "Opposition provided concrete examples of instability caused by support.",
+          "where": "Speech 2",
+          "effect": "undermined proposition's humanitarian claim",
+          "evidence_quote": "\"الدعم يؤدي إلى حروب داخلية\""
+        },
+        {
+          "reason": "Proposition's refutations were vague and repetitive.",
+          "where": "Speech 1 & 3",
+          "effect": "failed to counter opposition's points",
+          "evidence_quote": "\"الدفاع عن سيادة الدول غير مناسب\""
+        }
+      ]
+    },
+    "justification": "Opposition’s arguments on sovereignty, agenda, and instability were well‑structured, directly addressed the core clash points, and were supported by specific examples (Iraq, Libya). Proposition’s arguments were generic, lacked concrete evidence, and its refutations did not effectively dismantle the opposition’s claims. Consequently, the opposition achieved a higher level of persuasion.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "weak",
+        "score": 65,
+        "note": "Long but repetitive, weak structure."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "Structured with four points and examples."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "Repetitive, lacked clear refutations."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "Good structure but some repetition."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 69,
+        "note": "Repetitive, weak arguments."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 73,
+        "note": "Structured but repetitive."
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 37,
+        "note": "Summarized but lacked new refutations."
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "below_average",
+        "score": 35,
+        "note": "Repetitive, no new arguments."
+      }
+    ],
+    "best_speaker": "Speech 2 (Opposition)",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "قدمت تعريف واضح للدعم المادي والعسكري.",
+          "حاولت ربط الدعم بالحقوق والإنسانية."
+        ],
+        "improvements": [
+          "تنظيم أكثر للخطاب مع تقسيم واضح للمواضيع.",
+          "تقديم أمثلة محددة لدعم حجتها.",
+          "إعادة بناء قوية للردود على حجج المعارضة."
+        ],
+        "recommendations": [
+          "استخدام أمثلة تاريخية مختارة (مثل دعم الديمقراطية في جنوب أفريقيا).",
+          "توضيح كيف يحقق الدعم الديمقراطية دون انتهاك السيادة."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "عرضت أربعة نقاط رئيسية واضحة.",
+          "استخدمت أمثلة واقعية (العراق، ليبيا).",
+          "حافظت على تركيزها على نقاط الصراع الأساسية."
+        ],
+        "improvements": [
+          "تقليل التكرار في الخطاب.",
+          "تقديم ردود أكثر تحديداً على حجج الدعم الإنساني."
+        ],
+        "recommendations": [
+          "إضافة أمثلة على نجاح دعم غير عسكري (مبادرات إنسانية).",
+          "توضيح كيف يمكن للغرب أن يضمن أن الدعم يذهب إلى الجماعات الموثوقة."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "Transcription errors present, but did not affect key arguments."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 11,
+      "quotes_found": 1,
+      "match_ratio": 0.091,
+      "unverified_quotes": [
+        "\"الدعم العسكري يوازن القوة\"",
+        "\"الدعم يخرق سيادة الدول\"",
+        "\"الغرب ليس مؤهلاً بسبب أجندته الخاصة\"",
+        "\"الدعم يؤدي إلى حروب داخلية\"",
+        "\"عدم وضوح طبيعة الجماعات المعارضة\"",
+        "\"الدفاع عن سيادة الدول غير مناسب\"",
+        "\"الغرب قادر على دعم الديمقراطية\"",
+        "\"الدعم يخرق سيادة الدول\"",
+        "\"الدعم يؤدي إلى حروب داخلية\"",
+        "\"الدفاع عن سيادة الدول غير مناسب\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 239,
+      "opposition": 255
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 15505,
+        "output": 2223
+      }
+    ]
+  }
+}

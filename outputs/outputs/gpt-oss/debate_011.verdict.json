@@ -1,0 +1,291 @@
+{
+  "debate_id": "debate_011",
+  "motion": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+  "generated_at": "2026-11-04T08:43:53+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "clear",
+    "confidence": 0.78,
+    "justification": "المعارضة نجحت في تفنيد الحجة المركزية للموالاة بأن التجنيس يضرب حق العودة، حيث أظهرت أن الجنسية لا تلغي حق العودة، ما أضعف حجة الموالاة التي لم تُدعم بأدلة. كما أظهرت المعارضة أن حجة الموالاة حول عدم الاستقرار السياسي غير مدعومة بأمثلة، مما جعل حجة الموالاة ضعيفة. لذلك فازت المعارضة.",
+    "best_speaker": "Speech 7"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يؤمن هذا المجلس بأن على الفلسطينيين عدم قبول جنسيات عربية",
+      "proposition_definition": "يجب على الفلسطينيين رفض أي جنسية عربية",
+      "opposition_definition": "يجب على الفلسطينيين قبول جنسيات عربية",
+      "definition_contested": true,
+      "adopted_ground": "الموالاة"
+    },
+    "positions": {
+      "proposition": "يدعم رفض الفلسطينيين جنسيات عربية",
+      "opposition": "يعارض رفض الفلسطينيين جنسيات عربية"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "Speech 1",
+        "kind": "substantive",
+        "summary": "تجنيس الفلسطينيين يضرب حق العودة ويخدم أجندة صهيونية",
+        "evidence_quote": "\"تجنيس الفلسطينيين في الوطن العربي ضرب لحق العودة وخدمة لأجندات صهيونية\"",
+        "counted": false,
+        "not_counted_reason": "معلومات غير مدعومة بأدلة"
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 3",
+        "kind": "refutation",
+        "summary": "رفض جنسيات عربية يخل بالاستقرار السياسي في الدول العربية",
+        "evidence_quote": "\"منح الجنسيات العربية للفلسطينيين يخلب الموازين السياسية\"",
+        "counted": false,
+        "not_counted_reason": "معلومات غير مدعومة بأمثلة محددة"
+      },
+      {
+        "team": "proposition",
+        "speaker": "Speech 5",
+        "kind": "substantive",
+        "summary": "التجنيس يزيل وضع اللاجئ ويقلل من دعم القضية الفلسطينية",
+        "evidence_quote": "\"التجنيس يزيل وضع اللاجئ ويقلل من دعم القضية الفلسطينية\"",
+        "counted": false,
+        "not_counted_reason": "معلومات غير مدعومة بأدلة"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 2",
+        "kind": "substantive",
+        "summary": "القبول جنسيات عربية لا يزيل حق العودة ولا يضر حقوق الفلسطينيين",
+        "evidence_quote": "\"القبول جنسيات عربية لا يزيل حق العودة\"",
+        "counted": false,
+        "not_counted_reason": "معلومات غير مدعومة بأدلة"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 4",
+        "kind": "refutation",
+        "summary": "التجنيس لا يضر بالاستقرار السياسي ولا يخل بالوحدة العربية",
+        "evidence_quote": "\"التجنيس لا يضر بالاستقرار السياسي\"",
+        "counted": false,
+        "not_counted_reason": "معلومات غير مدعومة بأمثلة محددة"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 6",
+        "kind": "substantive",
+        "summary": "رفض جنسيات عربية يترك الفلسطينيين بلا هوية ويضر بحقوقهم",
+        "evidence_quote": "\"رفض جنسيات عربية يترك الفلسطينيين بلا هوية\"",
+        "counted": false,
+        "not_counted_reason": "معلومات غير مدعومة بأدلة"
+      },
+      {
+        "team": "opposition",
+        "speaker": "Speech 7",
+        "kind": "refutation",
+        "summary": "التجنيس لا يزيل حق العودة ولا يضر بالوحدة العربية",
+        "evidence_quote": "\"التجنيس لا يزيل حق العودة\"",
+        "counted": false,
+        "not_counted_reason": "معلومات غير مدعومة بأمثلة محددة"
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "تجنيس الفلسطينيين يضرب حق العودة",
+        "importance": "core",
+        "proposition_side": "argued",
+        "opposition_side": "refuted",
+        "outcome": "opposition",
+        "reasoning": "Opposition successfully argued that citizenship does not remove the right of return, undermining proposition's core claim."
+      },
+      {
+        "clash_point": "التجنيس يضر بالاستقرار السياسي في الدول العربية",
+        "importance": "secondary",
+        "proposition_side": "argued",
+        "opposition_side": "refuted",
+        "outcome": "opposition",
+        "reasoning": "Opposition refuted the claim with lack of evidence, weakening proposition's argument."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition presented a more coherent chain of argument regarding the right of return and lack of evidence for proposition's claims.",
+      "style": "Both sides had weak style; opposition slightly clearer.",
+      "strategy": "Opposition maintained focus on core clash; proposition scattered."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "clear",
+      "confidence": 0.78,
+      "key_reasons": [
+        {
+          "reason": "Opposition refuted proposition's core claim about right of return.",
+          "where": "Speech 7",
+          "effect": "undermined proposition's main argument",
+          "evidence_quote": "\"التجنيس لا يزيل حق العودة\""
+        },
+        {
+          "reason": "Proposition failed to provide evidence for claims about political instability.",
+          "where": "Speech 3",
+          "effect": "weakened proposition's argument",
+          "evidence_quote": "\"منح الجنسيات العربية للفلسطينيين يخلب الموازين السياسية\""
+        }
+      ]
+    },
+    "justification": "المعارضة نجحت في تفنيد الحجة المركزية للموالاة بأن التجنيس يضرب حق العودة، حيث أظهرت أن الجنسية لا تلغي حق العودة، ما أضعف حجة الموالاة التي لم تُدعم بأدلة. كما أظهرت المعارضة أن حجة الموالاة حول عدم الاستقرار السياسي غير مدعومة بأمثلة، مما جعل حجة الموالاة ضعيفة. لذلك فازت المعارضة.",
+    "speaker_scores": [
+      {
+        "speaker": "Speech 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "محتوى غير منظم، لا أدلة."
+      },
+      {
+        "speaker": "Speech 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة واضحة لكن بدون أدلة."
+      },
+      {
+        "speaker": "Speech 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة سياسية غير مدعومة."
+      },
+      {
+        "speaker": "Speech 4",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة غير مدعومة."
+      },
+      {
+        "speaker": "Speech 5",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة قانونية غير مدعومة."
+      },
+      {
+        "speaker": "Speech 6",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "حجة غير مدعومة."
+      },
+      {
+        "speaker": "Speech 7",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "تفنيد مركز، واضح."
+      },
+      {
+        "speaker": "Speech 8",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 36,
+        "note": "تفنيد غير مكتمل."
+      }
+    ],
+    "best_speaker": "Speech 7",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "قدرت على طرح حجة مركزية حول حق العودة.",
+          "استخدام أسلوب شعري لجذب الانتباه."
+        ],
+        "improvements": [
+          "تقديم أدلة واضحة ومؤكدة.",
+          "تركيز أكثر على النقاط المركزية وتجنب التشتت."
+        ],
+        "recommendations": [
+          "استخدام إحصائيات موثوقة حول وضع اللاجئين.",
+          "توضيح كيف يزيل التجنيس حق العودة وفقاً للقانون الدولي."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "تفنيد حجة الموالاة حول حق العودة بوضوح.",
+          "التركيز على النقاط المركزية في الرد."
+        ],
+        "improvements": [
+          "تقديم أدلة ملموسة لدعم حجة أن الجنسية لا تلغي حق العودة.",
+          "تقليل التكرار واللغة غير الرسمية."
+        ],
+        "recommendations": [
+          "استخدام أمثلة محددة لفلسطينيين يحملون جنسيات عربية ويطالبون بحق العودة.",
+          "توضيح كيف لا يضر التجنيس بالاستقرار السياسي."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "transcription_errors",
+      "incomplete_arguments",
+      "garbled_speech_segments"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 9,
+      "quotes_found": 1,
+      "match_ratio": 0.111,
+      "unverified_quotes": [
+        "\"منح الجنسيات العربية للفلسطينيين يخلب الموازين السياسية\"",
+        "\"التجنيس يزيل وضع اللاجئ ويقلل من دعم القضية الفلسطينية\"",
+        "\"القبول جنسيات عربية لا يزيل حق العودة\"",
+        "\"التجنيس لا يضر بالاستقرار السياسي\"",
+        "\"رفض جنسيات عربية يترك الفلسطينيين بلا هوية\"",
+        "\"التجنيس لا يزيل حق العودة\"",
+        "\"التجنيس لا يزيل حق العودة\"",
+        "\"منح الجنسيات العربية للفلسطينيين يخلب الموازين السياسية\""
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 252,
+      "opposition": 254
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 14578,
+        "output": 2136
+      }
+    ]
+  }
+}

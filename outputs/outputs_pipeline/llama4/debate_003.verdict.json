@@ -1,0 +1,699 @@
+{
+  "debate_id": "debate_003",
+  "motion": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+  "generated_at": "2026-11-03T14:08:43+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v1",
+    "prompt_sha256": "8ec547a4e1a97550",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "decisive",
+    "confidence": 0.7,
+    "justification": "فريق الموالاة قدم حججً ا مقنعة حول عدم فقدان الهوية الإسلامية عند الهجرة إلى الغرب وتوفر الفرص التعليمية والوظيفية في الغرب. بينما لم تقدم المعارضة ردً ا كافيً ا لرد هذه الحجج، كما أن نقاط الاصطدام الرئيسية لم يتم حسمها لصالح المعارضة."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "هذا المجلس بصفته شابا مسلما سيهاجر الى الغرب",
+        "proposition_definition": "الموالاة قدمت تعريفًا للمجلس بأنه شاب مسلم يفكر في الهجرة إلى الغرب بسبب عدم الاستقرار السياسي والاقتصادي وقلة التعليم وعدم توافر الفرص في بلده.",
+        "opposition_definition": "المعارضة قدمت تعريفًا للمجلس بأنه شاب مسلم يعتبر هجرته إلى الغرب قرارًا طوعيًا يجب أن يأخذه بعد تفكير ودراسة إيجابيات وسلبياته.",
+        "definition_contested": true,
+        "adopted_ground": "تم تبني تعريف الموالاة للمجلس كشاب مسلم يفكر في الهجرة إلى الغرب بسبب ظروف معينة في بلده، ولكنه لم يتم تحديد إيجابيات وسلبيات هذا القرار بشكل واضح حتى خطاب الرد من المعارضة، حيث جرى التأكيد على أن القرار يجب أن يكون طوعيًا ومدروسًا بعناية من قبل الشاب المسلم."
+      },
+      "proposition_position": "الموالاة ترى أن هجرة الشاب المسلم إلى الغرب هي الخيار الأفضل له بسبب عدم الاستقرار السياسي والاقتصادي وقلة التعليم وعدم توافر الفرص في بلده، وأن الغرب يوفر فرصًا أفضل للتعليم والعمل.",
+      "opposition_position": "المعارضة ترى أن وجود الشاب المسلم في بلده ضروري ومحوري، وأن هجرته إلى الغرب لها آثار سلبية على الفرد والمجتمع، وأن هناك فرصًا متاحة في بلدان مسلمة يمكن أن توفر له ما يحتاجه.",
+      "clash_type": "mixed",
+      "clash_type_reason": "المناظرة شهدت مناقشات مباشرة حول تعريف المجلس وآراء الفريقين، مع تقديم حجج وبراهين من كلا الجانبين، ولكنها لم تصل إلى مستوى الحوار المباشر حول نفس النقاط، حيث قدم كل فريق حججًا مستقلة."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تعريف المجلس كشاب مسلم يفكر في الهجرة إلى الغرب بسبب ظروف معينة في بلده.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم الاستقرار السياسي والاقتصادي وقلة التعليم وعدم توافر الفرص في بلد الشاب المسلم.",
+            "responds_to": "",
+            "evidence_quote": "عدم الاستقرار السياسي والاقتصادي وقله التعليم وحتى عدم توافر الفرص بل ومحدوديتها بشكل كريم كبير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تطور القبول تجاه المسلمين في الغرب بعد 11/9.",
+            "responds_to": "",
+            "evidence_quote": "لم تعد النظره موجوده بنفس الصوره لماذا اتى هذا القبول اولا لان اليوم اتجاه الغرب ينساق نحو الاحزاب اليساريه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نجاح الجاليات الإسلامية في تقديم نظرة مغايرة للإعلام في الغرب.",
+            "responds_to": "",
+            "evidence_quote": "هؤلاء المسلمين نجحوا اليوم في تقديم نظره مغايره للاعلام",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب هو المكان الأكثر ملاءمة للشاب المسلم بسبب تقبل الأفكار الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "في الغرب يوجد تقبل اكثر لهذه الفكره فناخذ مثال على ذلك الاخوان المسلمين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تفضيل الدول للخبرات الأجنبية على الوطنية.",
+            "responds_to": "",
+            "evidence_quote": "الجميع يعلم ان مستوى التعليم الجامعي في الدول الغربيه دائما يكون بتفضيل على اي شهاده وطنيه او محليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الفساد في الحكومات العربية يمنع الشاب المسلم من الحصول على فرص.",
+            "responds_to": "",
+            "evidence_quote": "جراء الفساد اليوم اتي واتقدم على وظيفه في شركه يتقدم احد اقارب رئيس هذه الشركه فاجابه بالربط",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "بقاء الشاب المسلم في بلده يعني قتل الفرص وانعدام الاستقرار.",
+            "responds_to": "",
+            "evidence_quote": "بقاء اليوم كشاب مسلم في ظل هذه التوترات السياسيه الصاعده والاقتصاديه ربما قد تعني انني التعليم الذي حصلت عليه هو غير كافي بالاساس",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "تناقض فريق الموالاة في الحديث عن تأثير الجاليات المسلمة في الغرب وخوفهم من هذه الجاليات.",
+            "responds_to": "الموالاة: تطور القبول تجاه المسلمين في الغرب بعد 11/9، نجاح الجاليات الإسلامية في تقديم نظرة مغايرة للإعلام في الغرب، الغرب هو المكان الأكثر ملاءمة للشاب المسلم بسبب تقبل الأفكار الإسلامية",
+            "evidence_quote": "كيف يتم التناقض الان بانهم يخافون من هذه افكار هذه الجاليات وما تقوم به هذه الجاليات",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "وجود الشاب المسلم في البلاد المسلمة ضروري ومحوري، وقرار الهجرة له آثار سلبية على الفرد والمجتمع.",
+            "responds_to": "",
+            "evidence_quote": "هدف فريق المعارضه هو اظهار ان وجودي كشاب مسلم في البلاد المسلمه وعدم هجرتي ضروري ومحوري في هذه البلدان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهجرة إلى الغرب قد تؤدي إلى تماهي الفرد مع المجتمع الغربي وفقدان هويته المسلمة.",
+            "responds_to": "",
+            "evidence_quote": "هذا يتعارض كليا هذا تقديمنا لهذه التنازلات والقيود على حساب الثقافه التي نحملها وعلى حساب الهويه التي نحملها",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المجتمعات الغربية تهدف إلى تفكيك المجتمعات المسلمة وتجريد الأفراد من هوياتهم الثقافية.",
+            "responds_to": "",
+            "evidence_quote": "هدف هذه المجتمعات الغربيه كما ذكرت سابقا ان يتماهى الفرد مع المجتمع الغربي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "رفض فريق الموالاة للمداخلة التي تهدف إلى توضيح موقفهم من الهجرة.",
+            "responds_to": "الموالاة:  رفضت المداخلة",
+            "evidence_quote": "حاولنا ان ناخذ مداخله لنجعلهم يتدارك الم الموقف لكن المداخله رفضت",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأسرة المسلمة في الغرب تواجه تحديات في الحفاظ على قيمها ومنظومتها الثقافية.",
+            "responds_to": "",
+            "evidence_quote": "كيف ستحافظ هذه الاسره وهذا المسلم واسرته المسلمه على قيمه ومنظومته الثقافيه التي يحملها",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "المتحدث يفنّد ما جاءت به المتحدثة الأولى من فريق المعارضة حول الإسلاموفوبيا في بلاد الغرب.",
+            "responds_to": "المعارضة: الإسلاموفوبيا في بلاد الغرب",
+            "evidence_quote": "الاسلاموفوبيا اليوم لا تقارن بصوره الاسلاموفوبيا في 11 سبتمبر",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "المتحدث يفنّد فكرة أن الإسلاموفوبيا موجودة فقط في بلاد الغرب.",
+            "responds_to": "المعارضة: الإسلاموفوبيا في بلاد الغرب",
+            "evidence_quote": "الاسلاموفوبيا هي ايضا موجوده وبقوه في البلدان المسلمه وفي البلدان غير المسلمه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "المتحدث يرد على فريق المعارضة بشأن هدف الغرب من تفكيك المجتمعات المسلمة.",
+            "responds_to": "المعارضة: المجتمعات الغربية تهدف إلى تفكيك المجتمعات المسلمة",
+            "evidence_quote": "نحن نفضل التخلي عن هذا العامل الجغرافي بهدف زياده فاعليه هذا الفرد",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "عدم الاستقرار السياسي والاقتصادي في الدول ذات الأغلبية المسلمة.",
+            "responds_to": "",
+            "evidence_quote": "معظم هذه الدول تعاني من مشاكل انعدام امن سياسي ومشاكل انعدام ثبات اقتصادي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تأثير الربيع العربي على عدم الاستقرار في الدول المسلمة.",
+            "responds_to": "",
+            "evidence_quote": "الربيع العربي سنجد ان انه ادى الى ان جيلا كامل قضى شبابه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الفساد في الدول المسلمة يؤثر على فرص الشباب.",
+            "responds_to": "",
+            "evidence_quote": "هذه الكفاءات تظلم هذه الكفاءات تظلم في في هذه الدول بسبب تفشي الواسطه والرشاوي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "توفير الفرص في بلاد الغرب.",
+            "responds_to": "",
+            "evidence_quote": "نجد في بلاد الغرب استقرار سياسي واقتصادي نسبي يفوق بكثير استقرار منطقه الشرق الاوسط وشمال افريقيا",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تحقيق مصالح الشاب المسلم في بلاد الغرب.",
+            "responds_to": "",
+            "evidence_quote": "تحقيق النجاح الوظيف اليفي والعملي والعلمي والمادي يضمن لاسره الشاب مستقبل افضل",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الغرب لا يحتوي على الإسلام السياسي بشكل صحيح، ولكنه يحتوي على مشوهات كجماعات المتطرفين التي تدعي أنها مسلمة.",
+            "responds_to": "الموالاة: الغرب هو المكان الأكثر ملاءمة للشاب المسلم بسبب تقبل الأفكار الإسلامية",
+            "evidence_quote": "الغرب الاسلام السياسي فيحتوي مشوها يعني كجماعات المتطرفه التي تدعي انها مسلمه وهي ليست بمسلمه ولا تمثل الاسلام بل هي صنعتها الغرب",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "دول الخليج تعتبر أكبر مثال على الدول الإسلامية الرائدة في مجال التطوير.",
+            "responds_to": "الموالاة: عدم الاستقرار السياسي والاقتصادي وقلة التعليم وعدم توافر الفرص في بلد الشاب المسلم",
+            "evidence_quote": "دول الخليج اليوم وهي اكبر مثال على الدول المسلمه دول رائده في مجال التطوير تطوير القطاعات المختلفه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تجربة المهاجرين في قطر تساهم في صنع هوية مجتمعية.",
+            "responds_to": "",
+            "evidence_quote": "تجربتي هنا في قطر وهي ليست بتجربه هجره ولكن تجربه المهاجرين هنا في قطر سمسون",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يمارس حربًا ناعمة على المجتمعات الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "الغرب يمارس الحرب الناعمه على مجتمعاتنا الاسلاميه فيدخل الى عمق مبادئ هذه المجتمعات وينقل الانحراف الفكري الغربي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "بقاء الشاب المسلم في بلاده ضروري لمقاومة الفكر الغربي.",
+            "responds_to": "",
+            "evidence_quote": "اذا بقيت انا كشاب مسلم لتطبيق مسؤوليتي الاجتماعيه فانا اساهم في مقاومه الفكر الغربي الذي يسعى بعدائه للفكر الاسلامي",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "قرار الهجرة له آثار سلبية على المجتمع الإسلامي.",
+            "responds_to": "",
+            "evidence_quote": "قرار الهجره له اثار سلبيه تعود على مجتمعي بشكل واضح",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "المجتمع الإسلامي سيخسر الشاب المسلم المفكر إذا هاجر.",
+            "responds_to": "",
+            "evidence_quote": "المجتمع الاسلامي سيخسرني كشاب مسلم مفكر لدي ثقافه اسلاميه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الخطاب الإسلامي الموحد يحتاج إلى شباب مسلمين مثقفين.",
+            "responds_to": "",
+            "evidence_quote": "صنع خطاب اسلامي موحد يعني الصوت الاسلامي النابع من الفكر والشريعه الاسلاميه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "المعارضة تناقض نفسها في الحديث عن تأثير الجاليات المسلمة في الغرب وخوفهم من هذه الجاليات.",
+            "responds_to": "المعارضة: الهجرة إلى الغرب قد تؤدي إلى تماهي الفرد مع المجتمع الغربي وفقدان هويته المسلمة.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "فريق المعارضة يتحدث عن وجود جماعات متطرفة في الغرب، لكنها موجودة في الدول الإسلامية التي تعاني من زعزعة وعدم استقرار سياسي.",
+            "responds_to": "المعارضة: وجود الجماعات المتطرفه ودعمها",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "دول الخليج ليست أفضل من الدول الغربية في توفير الفرص للشباب المسلم.",
+            "responds_to": "المعارضة: دول الخليج تعتبر أكبر مثال على الدول الإسلامية الرائدة في مجال التطوير.",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الوضع الاقتصادي والسياسي في الدول الإسلامية لا يسمح للشاب المسلم بالحصول على فرص.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يوفر فرصًا أفضل للشاب المسلم في التعليم والعمل.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الهجرة إلى الغرب لا تؤدي إلى فقدان الهوية الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الوضع المعيشي للشاب المسلم في الغرب أفضل من الوضع المعيشي في الدول الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "توفير فرص العمل والتعليم في الغرب أفضل من الدول الإسلامية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "فريق الموالاة يريد بناء شاب مسلم فارغ فكريا ولكن غني رأس ماليا",
+            "responds_to": "الموالاة: تطور القبول تجاه المسلمين في الغرب بعد 11/9، نجاح الجاليات الإسلامية في تقديم نظرة مغايرة للإعلام في الغرب، الغرب هو المكان الأكثر ملاءمة للشاب المسلم بسبب تقبل الأفكار الإسلامية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "فريق الموالاة لا يهتم لخصوصية الشاب المسلم وفكره الإسلامي",
+            "responds_to": "الموالاة:  رفضت المداخلة",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب هو من خلق الإسلاموفوبيا ويعيد ترميمها دائما",
+            "responds_to": "الموالاة: الغرب هو المكان الأكثر ملاءمة للشاب المسلم بسبب تقبل الأفكار الإسلامية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب ساهم في تقسيم بلادنا وتشويه فكرنا الإسلامي",
+            "responds_to": "الموالاة: الهجرة إلى الغرب لا تؤدي إلى فقدان الهوية الإسلامية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "وجود الشاب المسلم في البلاد المسلمة ضروري ومحوري",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "قرار الهجرة له آثار سلبية على الفرد والمجتمع",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "يجب بناء الفرد المسلم فكرا قبل اقتصاده",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأسرة المسلمة في الغرب تواجه تحديات في الحفاظ على قيمها ومنظومتها الثقافية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "فريق الموالاة يتناقض في خطابه حول تأثير الجاليات المسلمة في الغرب",
+            "responds_to": "الموالاة: تطور القبول تجاه المسلمين في الغرب بعد 11/9، نجاح الجاليات الإسلامية في تقديم نظرة مغايرة للإعلام في الغرب، الغرب هو المكان الأكثر ملاءمة للشاب المسلم بسبب تقبل الأفكار الإسلامية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "فريق الموالاة لا يهتم لخصوصية الشاب المسلم وفكره الإسلامي",
+            "responds_to": "الموالاة:  رفضت المداخلة",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب هو من خلق الإسلاموفوبيا ويعيد ترميمها دائما",
+            "responds_to": "الموالاة: الغرب هو المكان الأكثر ملاءمة للشاب المسلم بسبب تقبل الأفكار الإسلامية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الغرب ساهم في تقسيم بلادنا وتشويه فكرنا الإسلامي",
+            "responds_to": "الموالاة: الهجرة إلى الغرب لا تؤدي إلى فقدان الهوية الإسلامية",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "وجود الشاب المسلم في البلاد المسلمة ضروري ومحوري",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "قرار الهجرة له آثار سلبية على الفرد والمجتمع",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "يجب بناء الفرد المسلم فكرا قبل اقتصاده",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الأسرة المسلمة في الغرب تواجه تحديات في الحفاظ على قيمها ومنظومتها الثقافية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "فريق المعارضة قدم نظرة غير واقعية حول الإسلاموفوبيا في الغرب",
+            "responds_to": "المعارضة: الإسلاموفوبيا في بلاد الغرب",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "المعارضة تناقض نفسها في الحديث عن تأثير الجاليات المسلمة في الغرب",
+            "responds_to": "المعارضة: الهجرة إلى الغرب قد تؤدي إلى تماهي الفرد مع المجتمع الغربي وفقدان هويته المسلمة",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الوضع الاقتصادي والسياسي في الدول الإسلامية لا يسمح للشاب المسلم بالحصول على فرص",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الفساد في الدول المسلمة يؤثر على فرص الشباب",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "دول الخليج ليست أفضل من الدول الغربية في توفير الفرص للشباب المسلم",
+            "responds_to": "المعارضة: دول الخليج تعتبر أكبر مثال على الدول الإسلامية الرائدة في مجال التطوير",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تفضيل حاملي الشهادات الأجنبية على الوطنية في الدول الإسلامية",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الغرب يوفر فرصًا أفضل للشاب المسلم في التعليم والعمل",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "مقارنة بين الوضع في الدول الإسلامية والغرب",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "الاستقرار السياسي و الاقتصادي",
+          "importance": "core",
+          "proposition_side": "الوضع الاقتصادي والسياسي في الدول الإسلامية لا يسمح للشاب المسلم بالحصول على فرص",
+          "opposition_side": "دول الخليج تعتبر أكبر مثال على الدول الإسلامية الرائدة في مجال التطوير",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة قدمت حججًا حول عدم الاستقرار السياسي والاقتصادي في الدول الإسلامية، بينما قدمت المعارضة مثالًا عن دول الخليج كدول رائدة في التطوير. لم يتم حسم هذه النقطة بشكل واضح."
+        },
+        {
+          "clash_point": "الهوية الإسلامية في الغرب",
+          "importance": "core",
+          "proposition_side": "الهجرة إلى الغرب لا تؤدي إلى فقدان الهوية الإسلامية",
+          "opposition_side": "الهجرة إلى الغرب قد تؤدي إلى تماهي الفرد مع المجتمع الغربي وفقدان هويته المسلمة",
+          "outcome": "proposition",
+          "reasoning": "الموالاة قدمت حججًا حول تقبل الأفكار الإسلامية في الغرب وعدم فقدان الهوية الإسلامية، بينما لم تقدم المعارضة ردًا كافيًا لرد هذه الحجج."
+        },
+        {
+          "clash_point": "تأثير الجاليات المسلمة في الغرب",
+          "importance": "secondary",
+          "proposition_side": "نجاح الجاليات الإسلامية في تقديم نظرة مغايرة للإعلام في الغرب",
+          "opposition_side": "تناقض فريق الموالاة في الحديث عن تأثير الجاليات المسلمة في الغرب وخوفهم من هذه الجاليات",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة قدمت حججًا حول نجاح الجاليات المسلمة، بينما أشارت المعارضة إلى التناقض في خطاب الموالاة. لم يتم حسم هذه النقطة بشكل واضح."
+        },
+        {
+          "clash_point": "الفرص التعليمية و الوظيفية",
+          "importance": "core",
+          "proposition_side": "الغرب يوفر فرصًًا أفضل للشاب المسلم في التعليم والعمل",
+          "opposition_side": "وجود الشاب المسلم في البلاد المسلمة ضروري ومحوري",
+          "outcome": "proposition",
+          "reasoning": "الموالاة قدمت حججًا حول توفير الفرص التعليمية والوظيفية في الغرب، بينما لم تقدم المعارضة ردًا كافيًا لرد هذه الحجج."
+        },
+        {
+          "clash_point": "الإسلاموفوبيا",
+          "importance": "secondary",
+          "proposition_side": "الاسلاموفوبيا لا تقارن بصوره الاسلاموفوبيا في 11 سبتمبر",
+          "opposition_side": "الغرب هو من خلق الإسلاموفوبيا ويعيد ترميمها دائما",
+          "outcome": "unresolved",
+          "reasoning": "الموالاة قدمت حججًا حول تطور القبول تجاه المسلمين في الغرب، بينما أشارت المعارضة إلى أن الغرب هو من خلق الإسلاموفوبيا. لم يتم حسم هذه النقطة بشكل واضح."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "decisive",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "team": "proposition",
+          "reason": "الهجرة إلى الغرب لا تؤدي إلى فقدان الهوية الإسلامية",
+          "evidence_quote": "الهجرة إلى الغرب لا تؤدي إلى فقدان الهوية الإسلامية"
+        },
+        {
+          "team": "proposition",
+          "reason": "الغرب يوفر فرصًًا أفضل للشاب المسلم في التعليم والعمل",
+          "evidence_quote": "الغرب يوفر فرصًًا أفضل للشاب المسلم في التعليم والعمل"
+        }
+      ],
+      "justification": "فريق الموالاة قدم حججً ا مقنعة حول عدم فقدان الهوية الإسلامية عند الهجرة إلى الغرب وتوفر الفرص التعليمية والوظيفية في الغرب. بينما لم تقدم المعارضة ردً ا كافيً ا لرد هذه الحجج، كما أن نقاط الاصطدام الرئيسية لم يتم حسمها لصالح المعارضة."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 29,
+      "not_found": [
+        "هدف فريق المعارضه هو اظهار ان وجودي كشاب مسلم في البلاد المسلمه وعدم هجرتي ضروري ومحوري في هذه البلدان",
+        "تجربتي هنا في قطر وهي ليست بتجربه هجره ولكن تجربه المهاجرين هنا في قطر سمسون",
+        "صنع خطاب اسلامي موحد يعني الصوت الاسلامي النابع من الفكر والشريعه الاسلاميه"
+      ]
+    },
+    "decision_quotes": {
+      "total": 2,
+      "not_found": [
+        "الهجرة إلى الغرب لا تؤدي إلى فقدان الهوية الإسلامية",
+        "الغرب يوفر فرصًًا أفضل للشاب المسلم في التعليم والعمل"
+      ]
+    },
+    "core_clash_leader": "proposition",
+    "winner_matches_core_clashes": true,
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 11,
+    "retries": 0,
+    "prompt_tokens": 53592,
+    "output_tokens": 7282
+  }
+}

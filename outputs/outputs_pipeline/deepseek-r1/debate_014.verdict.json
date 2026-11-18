@@ -1,0 +1,477 @@
+{
+  "debate_id": "debate_014",
+  "motion": "سيمنع هذا المجلس حملات حمايه اللاجئين من استخدام الصور التي التي من استخدام الصور التي تظهر معاناتهم",
+  "generated_at": "2026-11-10T10:55:39+00:00",
+  "config": {
+    "model": "deepseek-r1",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 4096
+    },
+    "n_runs": 1,
+    "prompt_version": "pipeline-v2",
+    "prompt_sha256": "c54460df29d2f763",
+    "output_language": "Arabic",
+    "include_transcript_in_decision": false
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.95,
+    "justification": "لقد قدم الفريق المعارض (Opposition) حججًا أكثر إقناعًا في تأثير الصور على كرامة اللاجئين وفعاليتها في رفع الوعي المجتمعي. بينما قدم الفريق المؤيد (Proposition) حججًا قوية في بعض النزاعات الثانوية، إلا أن النزاعات الرئيسية ترجح كفاه Opposition."
+  },
+  "steps": {
+    "understanding": {
+      "ground": {
+        "problem": "The motion addresses the issue of whether displaying the suffering of refugees through images in protection campaigns is harmful to their dignity and rights, and whether such campaigns should be banned.",
+        "proposition_definition": "The Proposition defined 'protection campaigns' as organized charitable efforts aimed at improving the conditions of refugees, and 'refugees' as people who fled their countries due to various reasons, primarily humanitarian, political, and religious ones.",
+        "opposition_definition": "The Opposition defined 'protection campaigns' as any efforts by individuals or organizations to support refugees, and 'refugees' as people living in different countries from their home countries.",
+        "definition_contested": false,
+        "adopted_ground": "The debate was fought on a mixed ground, with the Proposition arguing from a psychological and legal perspective, and the Opposition from a practical and awareness-based perspective."
+      },
+      "proposition_position": "The Proposition argues that displaying the suffering of refugees through images violates their dignity and rights, and that it should be banned to protect them and ensure their rights are upheld.",
+      "opposition_position": "The Opposition believes that displaying the suffering of refugees through images is effective in raising awareness and support, and that it should not be banned as it helps in securing the rights and dignity of refugees.",
+      "clash_type": "mixed",
+      "clash_type_reason": "The debate contained elements of both direct and parallel arguments. The Proposition focused on the psychological and legal impacts of using such images, while the Opposition emphasized the effectiveness of these images in raising awareness and support."
+    },
+    "speech_analyses": [
+      {
+        "speech": 1,
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "تبيين نطاق حملات الحمايه كجهود خيرية تهدف لتحسين اوضاع اللاجئين المترديين.",
+            "responds_to": "",
+            "evidence_quote": "سيمنع هذا المجلس حملات حمايه اللاجئين من استخدام الصور التي تظهر معاناتهم",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور المزريه تؤذي نفسياً اللاجئين وعائلاتهم وترسخ فكرة تطبيع معاناتهم في المجتمعات.",
+            "responds_to": "",
+            "evidence_quote": "عندما ننشر صوره مهينه ومزريه في للاجئ ما فاننا نكون قد جرحنا كرامته ومسناها باذى كبير",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "تكرار الصور الم depicting لل苦难 يضعف التعاطف ويؤدي إلى ترسيخ الصورة السلبية لللاجئين.",
+            "responds_to": "",
+            "evidence_quote": "التصورات المتكررة تؤدي إلى تقليل التعاطف وكره الناس بهؤلاء اللاجئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "نشر صور اللاجئين دون موافقتهم ينتهك حقهم في الخصوصية وكرامتهم.",
+            "responds_to": "",
+            "evidence_quote": "ليس من حقنا ان ننشر صوره لاي شخص من دون اذنه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "definition",
+            "summary": "تبيين تعريف اللاجئين كأشخاص فروا من بلادهم خوفاً على حياتهم.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 2,
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": []
+      },
+      {
+        "speech": 3,
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": []
+      },
+      {
+        "speech": 4,
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "الصورة تساعد في رفع الوعي المجتمعي وتقديم دليل على الحاجة الإنسانية الملحة.",
+            "responds_to": "speech_3_opposition",
+            "evidence_quote": "الاف الاشخاص يموتون على شواطئ البحر المتوسط الاف Syrian يموتون على شواطئ البحر المتوسط",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور الحقيقية تضمن وعي المجتمع وضغط المؤسسات لتقديم المساعدة.",
+            "responds_to": "speech_3_opposition",
+            "evidence_quote": "الاف Syrian يموتون على شواطئ البحر المتوسط وهذا ما لا نريده ونريد تبينه للناس",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "السماح باستخدام الصور يعزز التوازن بين حماية الكرامة وضمان توفير المساعدة.",
+            "responds_to": "speech_3_opposition",
+            "evidence_quote": "الصورة الحقيقية تضمن وعي المجتمع وضغط المؤسسات لتقديم المساعدة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور تساعد في تصحيح المفاهيم الخاطئة وضمان فهم المجتمع الحقيقي لحالة اللاجئين.",
+            "responds_to": "speech_3_opposition",
+            "evidence_quote": "الصورة الحقيقية تضمن وعي المجتمع وضغط المؤسسات لتقديم المساعدة",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور تساهم في الحفاظ على كرامة اللاجئين من خلال تعزيز الدعم المجتمعي بدلاً من انتهاكه.",
+            "responds_to": "speech_3_opposition",
+            "evidence_quote": "الصورة الحقيقية تضمن وعي المجتمع وضغط المؤسسات لتقديم المساعدة",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 5,
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الصور تنتهك كرامة اللاجئين، لكن الحلول البديلة مثل تقديم المساعدة المباشرة تحمي حقوقهم وتزيد فعالية الحماية.",
+            "responds_to": "speech_4_opposition",
+            "evidence_quote": "في القول السابق، اعترضنا على استخدام الصور في حملات غير فعالة، وذكرنا أن هناك طرقًا أفضل لتحسين حالة اللاجئين.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "السماح باستخدام الصور يعزز التوازن بين حماية الكرامة وضمان فعالية الحملات.",
+            "responds_to": "speech_4_opposition",
+            "evidence_quote": "في القول السابق، ذكرنا أن عدم نشر الصور يمنع إثقال كرامة اللاجئين، ونعمل على تحقيق التوازن بين الوعي المجتمعي وحماية الكرامة.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور تؤذي نفسياً اللاجئين، لكن هناك بدائل فعالة تحمي كرامتهم وتحقق أهداف الحماية.",
+            "responds_to": "speech_4_opposition",
+            "evidence_quote": "في القول السابق، اعترضنا على نشر صور تظهر معاناة اللاجئين، وذكرنا أن هناك طرقًا أخرى توصل الحقيقة دون انتهاك كرامتهم.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحملات التي تعتمد على الوعي المجتمعي دون استخدام الصور يمكن أن تكون أكثر فعالية في حماية كرامة اللاجئين.",
+            "responds_to": "speech_4_opposition",
+            "evidence_quote": "في القول السابق، اعترضنا على أن الصور تساعد في رفع الوعي المجتمعي، وذكرنا أن جمعية الزكاه في قطر جذبت تبرعات كبيرة دون استخدام الصور.",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الحملات التي تعتمد على الوعي المجتمعي دون استخدام الصور يمكن أن تكون أكثر فعالية في حماية كرامة اللاجئين.",
+            "responds_to": "speech_4_opposition",
+            "evidence_quote": "في القول السابق، اعترضنا على أن عدم نشر الصور يحافظ على حقوق اللاجئين، وذكرنا أن جمعية الزكاه في قطر جذبت تبرعات كبيرة دون استخدام الصور.",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 6,
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "arguments": [
+          {
+            "kind": "definition",
+            "summary": "الحملات التي تعتمد على الوعي المجتمعي يمكن أن تكون أكثر فعالية في حماية كرامة اللاجئين.",
+            "responds_to": "",
+            "evidence_quote": "كل الدول تدعو اليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور تنتهك كرامة اللاجئين، لكن هناك بدائل فعالة تحمي كرامتهم وتحقق أهداف الحماية.",
+            "responds_to": "",
+            "evidence_quote": "كل الدول تدعو اليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحملات التي تعتمد على الوعي المجتمعي دون استخدام الصور يمكن أن تكون أكثر فعالية في حماية كرامة اللاجئين.",
+            "responds_to": "speech_5_opposition",
+            "evidence_quote": "كل الدول تدعو اليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "السماح باستخدام الصور يعزز التوازن بين حماية الكرامة وضمان فعالية الحملات.",
+            "responds_to": "speech_5_opposition",
+            "evidence_quote": "كل الدول تدعو اليه",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور تساهم في الحفاظ على كرامة اللاجئين من خلال تعزيز الدعم المجتمعي بدلاً من انتهاكها.",
+            "responds_to": "speech_5_opposition",
+            "evidence_quote": "كل الدول تدعو اليه",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 7,
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "substantive",
+            "summary": "الحملات التي تستخدم الصور تحصل على دعم مالي كبير، مما يتناقض مع ادعاءات Proposition بضعف الفعالية.",
+            "responds_to": "",
+            "evidence_quote": "فلان نرى ملايين الملايين من الاموال لدعم هذه اللاجئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "الصور تؤثر بشكل كبير على المجتمع وتسليط الضوء على الحاجة الإنسانية، مما يضمن توفير الحقوق الأساسية.",
+            "responds_to": "",
+            "evidence_quote": "",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "السماح باستخدام الصور يعزز فعالية الحملات في كسب دعم المجتمع وضمان الحقوق الأساسية.",
+            "responds_to": "speech_5_opposition",
+            "evidence_quote": "فلان حددنا هدفا واضحا منذ البداية وهو ضمان توفير الحقوق الأساسية",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "substantive",
+            "summary": "استخدام الصور فعال في دعم اللاجئين وتحقيق أهداف الحماية، ويعكس كسب قلوب الناس.",
+            "responds_to": "",
+            "evidence_quote": "فلان قلنا بان هذه الصوره تؤثر وبشكل كبير على الناس حيث ان هذه الصوره تؤثر او هذه الصوره سلاح لا يحمله اي شيء من الاشياء في دعم هؤلاء اللاجئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحملات التي تعتمد على الصور تساعد في رفع الوعي المجتمعي وضغط المؤسسات لتقديم المساعدة.",
+            "responds_to": "speech_5_opposition",
+            "evidence_quote": "فلان سيداتي وسادتي اعلن مره اخرى فوز فريقنا بهذه المناظره",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      },
+      {
+        "speech": 8,
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "arguments": [
+          {
+            "kind": "refutation",
+            "summary": "المعارضون يتناقضون في ادعاءاتهم حول استخدام الصور.",
+            "responds_to": "speech_7_opposition",
+            "evidence_quote": "وقال متحدثهم الثالث باننا لم نصور اموات ولكنهم ولكنهم ولكنهم قالوا في البدايه انهم صوروا لنا الكردي وهو ميت",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "الحملات التي تركز على الصور لا تحتاج لتفاصيل شخصية عن اللاجئين.",
+            "responds_to": "speech_7_opposition",
+            "evidence_quote": "وقالوا عن وتكلموا ايضا ولا ادري عن اي ربط ل ولا ادري اي علاقه لها بالهدف حيث قالوا انهم لن يع سوفم لن يضعوا اسم هذا الشخص",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "حملات الحماية ليست مسؤولة عن نشر صور الأطفال المأسوف عليهم.",
+            "responds_to": "speech_7_opposition",
+            "evidence_quote": "وقالوا هذا الامر بان وسائل الاعلام هي من نشرت فكره ايلان ولم يكن سببها حملات حمايه اللاجئين",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "refutation",
+            "summary": "وسائل الإعلام هي المصدر الرئيسي للفكرة التي جذبت الانتباه.",
+            "responds_to": "speech_7_opposition",
+            "evidence_quote": "وقالوا هذا الامر بان صوره ايلان ادى الى انفجار اعلامي فشكرا لكم على انكم ايتمونا بان وسائل الاعلام هي من نشرت فكره ايلان",
+            "counted": true,
+            "not_counted_reason": ""
+          },
+          {
+            "kind": "weighing",
+            "summary": "الاستناد إلى التعاطف العاطفي يقلل من فعالية الدعم على المدى الطويل.",
+            "responds_to": "speech_7_opposition",
+            "evidence_quote": "وقالوا عن ان هذا الامر سوف يؤدي على التعاطف مع الناس ورددنا عليهم بان التعاطف لن يدوم الا مره او مرتين",
+            "counted": true,
+            "not_counted_reason": ""
+          }
+        ]
+      }
+    ],
+    "clashes": {
+      "clashes": [
+        {
+          "clash_point": "تأثير الصور على كرامة اللاجئين",
+          "importance": "core",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "الصور تنتهك كرامة اللاجئين وحقهم في الخصوصية، خاصة دون موافقتهم، مما يضعف التعاطف المجتمعي على المدى الطويل."
+        },
+        {
+          "clash_point": "فعالية الصور في رفع الوعي المجتمعي",
+          "importance": "core",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "الصور تساعد في رفع الوعي وضغط المؤسسات لتقديم المساعدة، مما يضمن حماية حقوق اللاجئين."
+        },
+        {
+          "clash_point": "وجود بدائل فعالة للصور",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "الحملات التي تعتمد على الوعي المجتمعي دون استخدام الصور يمكن أن تكون أكثر فعالية في حماية كرامة اللاجئين."
+        },
+        {
+          "clash_point": "المسؤولية عن نشر الصور",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "الصور تنتشر غالبًا عبر وسائل الإعلام وليس من خلال حملات الحماية، مما يتناقض مع ادعاءات Opposition."
+        },
+        {
+          "clash_point": "التأثير النفسي للصور على المجتمع",
+          "importance": "secondary",
+          "proposition_side": "proposition",
+          "opposition_side": "opposition",
+          "outcome": "opposition",
+          "reasoning": "الصور تؤثر بشكل كبير على المجتمع وتسليط الضوء على الحاجة الإنسانية، مما يضمن توفير الحقوق الأساسية."
+        },
+        {
+          "clash_point": "الاستخدام المتكرر للصور",
+          "importance": "secondary",
+          "proposition_side": "opposition",
+          "opposition_side": "proposition",
+          "outcome": "proposition",
+          "reasoning": "الصور المتكررة تضعف التعاطف وتعزز الصورة السلبية لللاجئين، مما يتعارض مع فعالية Opposition."
+        }
+      ]
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.95,
+      "key_reasons": [
+        {
+          "team": "opposition",
+          "reason": "الProposition اعتبرت استخدام الصور دون موافقة اللاجئين انتهاكًا لكرامتهم، وهو حجج قوي، لكن Opposition أوضحت أن هذه الصور تساعد في رفع الوعي وضمان الحقوق.",
+          "evidence_quote": "الصور تنتهك كرامة اللاجئين وحقهم في الخصوصية، خاصة دون موافقتهم، مما يضعف التعاطف المجتمعي على المدى الطويل."
+        },
+        {
+          "team": "opposition",
+          "reason": "الOpposition أوضحت بشكل واضح أن الصور فعالة في رفع الوعي وضمان الحقوق، بينما Proposition لم تقدم أدلة كافية على ضرر هذه الصور على المدى الطويل.",
+          "evidence_quote": "الصور تساعد في رفع الوعي وضغط المؤسسات لتقديم المساعدة، مما يضمن حماية حقوق اللاجئين."
+        },
+        {
+          "team": "opposition",
+          "reason": "الOpposition قدمت حججًا مدعومةً بمقتطفات من النقاش حول التأثير النفسي للصور، مما جعلها أكثر إقناعًا.",
+          "evidence_quote": "الصور تؤثر بشكل كبير على المجتمع وتسليط الضوء على الحاجة الإنسانية، مما يضمن توفير الحقوق الأساسية."
+        }
+      ],
+      "justification": "لقد قدم الفريق المعارض (Opposition) حججًا أكثر إقناعًا في تأثير الصور على كرامة اللاجئين وفعاليتها في رفع الوعي المجتمعي. بينما قدم الفريق المؤيد (Proposition) حججًا قوية في بعض النزاعات الثانوية، إلا أن النزاعات الرئيسية ترجح كفاه Opposition."
+    }
+  },
+  "checks": {
+    "argument_quotes": {
+      "total": 28,
+      "not_found": [
+        "عندما ننشر صوره مهينه ومزريه في للاجئ ما فاننا نكون قد جرحنا كرامته ومسناها باذى كبير",
+        "التصورات المتكررة تؤدي إلى تقليل التعاطف وكره الناس بهؤلاء اللاجئين",
+        "ليس من حقنا ان ننشر صوره لاي شخص من دون اذنه",
+        "الاف الاشخاص يموتون على شواطئ البحر المتوسط الاف Syrian يموتون على شواطئ البحر المتوسط",
+        "الاف Syrian يموتون على شواطئ البحر المتوسط وهذا ما لا نريده ونريد تبينه للناس",
+        "الصورة الحقيقية تضمن وعي المجتمع وضغط المؤسسات لتقديم المساعدة",
+        "الصورة الحقيقية تضمن وعي المجتمع وضغط المؤسسات لتقديم المساعدة",
+        "الصورة الحقيقية تضمن وعي المجتمع وضغط المؤسسات لتقديم المساعدة",
+        "في القول السابق، اعترضنا على استخدام الصور في حملات غير فعالة، وذكرنا أن هناك طرقًا أفضل لتحسين حالة اللاجئين.",
+        "في القول السابق، ذكرنا أن عدم نشر الصور يمنع إثقال كرامة اللاجئين، ونعمل على تحقيق التوازن بين الوعي المجتمعي وحماية الكرامة.",
+        "في القول السابق، اعترضنا على نشر صور تظهر معاناة اللاجئين، وذكرنا أن هناك طرقًا أخرى توصل الحقيقة دون انتهاك كرامتهم.",
+        "في القول السابق، اعترضنا على أن الصور تساعد في رفع الوعي المجتمعي، وذكرنا أن جمعية الزكاه في قطر جذبت تبرعات كبيرة دون استخدام الصور.",
+        "في القول السابق، اعترضنا على أن عدم نشر الصور يحافظ على حقوق اللاجئين، وذكرنا أن جمعية الزكاه في قطر جذبت تبرعات كبيرة دون استخدام الصور.",
+        "فلان نرى ملايين الملايين من الاموال لدعم هذه اللاجئين",
+        "فلان حددنا هدفا واضحا منذ البداية وهو ضمان توفير الحقوق الأساسية",
+        "فلان قلنا بان هذه الصوره تؤثر وبشكل كبير على الناس حيث ان هذه الصوره تؤثر او هذه الصوره سلاح لا يحمله اي شيء من الاشياء في دعم هؤلاء اللاجئين",
+        "فلان سيداتي وسادتي اعلن مره اخرى فوز فريقنا بهذه المناظره",
+        "وقال متحدثهم الثالث باننا لم نصور اموات ولكنهم ولكنهم ولكنهم قالوا في البدايه انهم صوروا لنا الكردي وهو ميت",
+        "وقالوا عن وتكلموا ايضا ولا ادري عن اي ربط ل ولا ادري اي علاقه لها بالهدف حيث قالوا انهم لن يع سوفم لن يضعوا اسم هذا الشخص",
+        "وقالوا هذا الامر بان وسائل الاعلام هي من نشرت فكره ايلان ولم يكن سببها حملات حمايه اللاجئين",
+        "وقالوا عن ان هذا الامر سوف يؤدي على التعاطف مع الناس ورددنا عليهم بان التعاطف لن يدوم الا مره او مرتين"
+      ]
+    },
+    "decision_quotes": {
+      "total": 3,
+      "not_found": [
+        "الصور تنتهك كرامة اللاجئين وحقهم في الخصوصية، خاصة دون موافقتهم، مما يضعف التعاطف المجتمعي على المدى الطويل.",
+        "الصور تساعد في رفع الوعي وضغط المؤسسات لتقديم المساعدة، مما يضمن حماية حقوق اللاجئين.",
+        "الصور تؤثر بشكل كبير على المجتمع وتسليط الضوء على الحاجة الإنسانية، مما يضمن توفير الحقوق الأساسية."
+      ]
+    },
+    "core_clash_leader": null,
+    "winner_matches_core_clashes": true,
+    "failed_speech_analyses": [
+      2,
+      3
+    ],
+    "arguments_not_counted": 0,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    }
+  },
+  "usage": {
+    "llm_calls": 9,
+    "retries": 6,
+    "prompt_tokens": 34461,
+    "output_tokens": 9805
+  }
+}

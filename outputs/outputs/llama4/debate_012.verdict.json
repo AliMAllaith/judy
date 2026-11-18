@@ -1,0 +1,257 @@
+{
+  "debate_id": "debate_012",
+  "motion": "سيلغي هذا المجلس التاشيره بين الدول العربيه",
+  "generated_at": "2026-11-04T12:16:28+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.8,
+    "justification": "فريق الموالاة قدم حجج أكثر إقناعا في الجانب الأمني والاقتصادي، خاصة فيما يتعلق بوضع حدود مشروطة مثل دول الخليج وتأثير الغاء التاشيرة على البطالة.",
+    "best_speaker": "المتحدث الثاني - الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "سيلغي هذا المجلس التاشيرة بين الدول العربية",
+      "proposition_definition": "الغاء التاشيرة بين الدول العربية",
+      "opposition_definition": "عدم الغاء التاشيرة بين الدول العربية",
+      "definition_contested": false,
+      "adopted_ground": "الغاء التاشيرة بين الدول العربية"
+    },
+    "positions": {
+      "proposition": "الغاء التاشيرة بين الدول العربية لتعزيز الوحدة العربية وتقليل البطالة",
+      "opposition": "عدم الغاء التاشيرة بين الدول العربية لحماية الدول العربية من المخاطر الخارجية"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "تخفيض نسبة البطالة بتسهيل الحصول على العمل",
+        "evidence_quote": "سيحدث أن هذه الجماعة التي لديها الخبرة التي لديها كثرة التي لديها عدة أفراد لديهم عدة خبرات لهم كثيرون ستقوم بنقل هذا الشخص من دولته إلى دولة أخرى ليحصل على العمل",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "الغاء التاشيرة يشجع على الهجرة غير الشرعية",
+        "evidence_quote": "ما هو الضمان أن الدول المستقبلة لديها الإمكانية لاستيعاب هؤلاء العاطلين عن العمل",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "rebuilding",
+        "summary": "وضع حدود مشروطة مثل دول الخليج",
+        "evidence_quote": "نحن وضعنا حدود مشروطة مثل الذي في دول الخليج",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "التاشيرة تمثل ركيزة داعمة في اقتصاديات بعض الدول العربية",
+        "evidence_quote": "التاشيرة هي الحل الأمثل لخدمة دولنا العربية من خطر من الاخطار الخارجية",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديدة",
+        "issue": "حاول فريق الموالاة تقديم حجج جديدة في الرد"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الجانب الأمني",
+        "importance": "core",
+        "proposition_side": "الغاء التاشيرة",
+        "opposition_side": "عدم الغاء التاشيرة",
+        "outcome": "proposition",
+        "reasoning": "حجج فريق الموالاة كانت أكثر إقناعا"
+      },
+      {
+        "clash_point": "الجانب الاقتصادي",
+        "importance": "core",
+        "proposition_side": "الغاء التاشيرة",
+        "opposition_side": "عدم الغاء التاشيرة",
+        "outcome": "proposition",
+        "reasoning": "حجج فريق الموالاة كانت أكثر إقناعا"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition",
+      "style": "tie",
+      "strategy": "proposition"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.8,
+      "key_reasons": [
+        {
+          "reason": "حجج فريق الموالاة كانت أكثر إقناعا في الجانب الأمني والاقتصادي",
+          "where": "speech 3, speech 5",
+          "effect": "غيرت نتيجة المناظرة لصالح فريق الموالاة",
+          "evidence_quote": "نحن وضعنا حدود مشروطة مثل الذي في دول الخليج"
+        }
+      ]
+    },
+    "justification": "فريق الموالاة قدم حجج أكثر إقناعا في الجانب الأمني والاقتصادي، خاصة فيما يتعلق بوضع حدود مشروطة مثل دول الخليج وتأثير الغاء التاشيرة على البطالة.",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حجج قوية ومتقنة"
+      },
+      {
+        "speaker": "المتحدث الأول - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث الثاني - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 82,
+        "note": "حجج قوية ومتقنة"
+      },
+      {
+        "speaker": "المتحدث الثاني - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث الثالث - الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "حجج قوية ومتقنة"
+      },
+      {
+        "speaker": "المتحدث الثالث - المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث - المعارضة (خطاب الرد)",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "حجج جيدة ولكن غير كافية"
+      },
+      {
+        "speaker": "المتحدث - الموالاة (خطاب الرد)",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "professional",
+        "score": 40,
+        "note": "حجج قوية ومتقنة"
+      }
+    ],
+    "best_speaker": "المتحدث الثاني - الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "حجج قوية ومتقنة",
+          "إجابة على أسئلة المعارضة"
+        ],
+        "improvements": [
+          "التركيز على الجانب الأمني أكثر",
+          "تجنب التناقض في بعض النقاط"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم حجج قوية ومتقنة",
+          "تحسين الإجابة على أسئلة المعارضة"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج جيدة ومتقنة",
+          "إجابة على أسئلة الموالاة"
+        ],
+        "improvements": [
+          "التركيز على الجانب الأمني أكثر",
+          "تجنب التناقض في بعض النقاط"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم حجج جيدة ومتقنة",
+          "تحسين الإجابة على أسئلة الموالاة"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "المناظرة قد تحولت إلى مسرح درامي في بعض الأحيان"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 5,
+      "quotes_found": 3,
+      "match_ratio": 0.6,
+      "unverified_quotes": [
+        "سيحدث أن هذه الجماعة التي لديها الخبرة التي لديها كثرة التي لديها عدة أفراد لديهم عدة خبرات لهم كثيرون ستقوم بنقل هذا الشخص من دولته إلى دولة أخرى ليحصل على العمل",
+        "ما هو الضمان أن الدول المستقبلة لديها الإمكانية لاستيعاب هؤلاء العاطلين عن العمل"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 283,
+      "opposition": 269
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13147,
+        "output": 1846
+      }
+    ]
+  }
+}

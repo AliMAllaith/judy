@@ -1,0 +1,282 @@
+{
+  "debate_id": "debate_015",
+  "motion": "سيمنع المجلس الدولة ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية",
+  "generated_at": "2026-11-04T08:55:26+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "opposition",
+    "margin": "narrow",
+    "confidence": 0.6,
+    "justification": "المعارضة نجحت في إقناع القاضي بأن حظر التسجيل لا يزيل الانقسامات ولا يقلل التمييز، بينما لم تُظهر الموالاة أدلة كافية لدعم ادعائها بأن التسجيل يسبب النزاعات. لذلك فاز فريق المعارضة.",
+    "best_speaker": "المعارضة 2"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "المجلس يقرر منع الدول ذات التنوع العرقي من تسجيل خلفيات مواطنيها العرقية والعقائدية.",
+      "proposition_definition": "يؤيد منع التسجيل كوسيلة لتقليل الانقسامات وتعزيز الوحدة الوطنية.",
+      "opposition_definition": "يعارض منع التسجيل، ويؤكد أن التسجيل يساعد على تنظيم الدولة ويعزز حقوق الأفراد.",
+      "definition_contested": false,
+      "adopted_ground": "المحور المشترك هو نفس النص، لذا يُعتبر النزاع مباشرًا."
+    },
+    "positions": {
+      "proposition": "يدعم منع التسجيل.",
+      "opposition": "يعارض منع التسجيل."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة 1",
+        "kind": "substantive",
+        "summary": "التسجيل يزيد من الانقسامات ويؤدي إلى حروب، لذلك يجب حظره.",
+        "evidence_quote": "«…تسجيل الانتماءات العرقية والعقائدية… يزيد من الاختلاف بين الناس… يؤدي إلى حروب…»",
+        "counted": false,
+        "not_counted_reason": "لم يُرد على حجة أن التسجيل يساعد على تنظيم الدولة."
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة 1",
+        "kind": "refutation",
+        "summary": "التسجيل لا يسبب الانقسامات؛ إن التمييز ناتج عن عدم المساواة في الحقوق.",
+        "evidence_quote": "«…التمييز العنصري لا يأتي بسبب تسجيل… بل بسبب غياب الدولة التي تساوي بين جميع مواطنيها…»",
+        "counted": false,
+        "not_counted_reason": "لم يُرد على حجة أن حظر التسجيل سيقلل من الانقسامات."
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة 2",
+        "kind": "substantive",
+        "summary": "حظر التسجيل سيقلل من التمييز في سوق العمل ويعزز المساواة.",
+        "evidence_quote": "«…حظر التسجيل سيمنع التمييز في التوظيف…»",
+        "counted": false,
+        "not_counted_reason": "لم يُرد على حجة أن التسجيل يساعد على تنظيم الدولة."
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة 2",
+        "kind": "refutation",
+        "summary": "التسجيل يساعد على بناء المراكز الدينية وتوزيع الموارد، ولا يسبب التمييز.",
+        "evidence_quote": "«…التسجيل يساعد الدولة على بناء المساجد والكنائس…»",
+        "counted": false,
+        "not_counted_reason": "لم يُرد على حجة أن حظر التسجيل سيقلل من الانقسامات."
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة 3",
+        "kind": "substantive",
+        "summary": "حظر التسجيل يقلل من النزاعات المسلحة ويعزز الأمن.",
+        "evidence_quote": "«…التسجيل يؤدي إلى حروب… حظر التسجيل يقلل من النزاعات…»",
+        "counted": false,
+        "not_counted_reason": "لم يُرد على حجة أن التسجيل يساعد على تنظيم الدولة."
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة 3",
+        "kind": "refutation",
+        "summary": "حظر التسجيل ينتهك حق الخصوصية ويقلل من حرية التعبير.",
+        "evidence_quote": "«…حظر التسجيل ينتهك حق الخصوصية في الفكر والتعبير…»",
+        "counted": false,
+        "not_counted_reason": "لم يُرد على حجة أن حظر التسجيل سيقلل من الانقسامات."
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "أثر التسجيل على الانقسامات",
+        "importance": "core",
+        "proposition_side": "حظر التسجيل يقلل الانقسامات",
+        "opposition_side": "التسجيل لا يسبب الانقسامات",
+        "outcome": "opposition",
+        "reasoning": "Opposition provided a counter‑argument that the root cause of discrimination is lack of equal treatment, not registration, and did not address the proposition’s claim that registration fuels conflict."
+      },
+      {
+        "clash_point": "أثر التسجيل على المساواة في سوق العمل",
+        "importance": "core",
+        "proposition_side": "حظر التسجيل يعزز المساواة",
+        "opposition_side": "التسجيل يساعد على تنظيم الدولة ويقلل التمييز",
+        "outcome": "opposition",
+        "reasoning": "Opposition argued that registration allows the state to allocate resources and build institutions, thereby reducing discrimination, and did not refute the proposition’s claim that banning would improve equality."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "Opposition presented more concrete examples (Canada, US) and addressed the proposition’s core claims, whereas proposition relied on repetitive, unsupported assertions.",
+      "style": "Both sides used colloquial Arabic; opposition’s speech was slightly clearer in linking claims to examples.",
+      "strategy": "Opposition maintained focus on the motion and consistently refuted proposition’s arguments; proposition’s speakers often repeated points without fully addressing refutations."
+    },
+    "decision": {
+      "winner": "opposition",
+      "margin": "narrow",
+      "confidence": 0.6,
+      "key_reasons": [
+        {
+          "reason": "Opposition provided concrete examples and counter‑arguments that addressed the proposition’s core claims.",
+          "where": "المعارضة 1 و 2",
+          "effect": "قلبت النقطة حول الانقسامات والتمييز، مما جعل حجة الموالاة غير مقنعة في هذه النقاط الأساسية.",
+          "evidence_quote": "«…التسجيل يساعد الدولة على بناء المساجد والكنائس…»"
+        },
+        {
+          "reason": "Proposition’s arguments were largely repetitive and lacked evidence to support the claim that banning would reduce conflict.",
+          "where": "الموالاة 1 و 2 و 3",
+          "effect": "أدى إلى ضعف الإقناع في النقاط الجوهرية.",
+          "evidence_quote": "«…التسجيل يؤدي إلى حروب…»"
+        }
+      ]
+    },
+    "justification": "المعارضة نجحت في إقناع القاضي بأن حظر التسجيل لا يزيل الانقسامات ولا يقلل التمييز، بينما لم تُظهر الموالاة أدلة كافية لدعم ادعائها بأن التسجيل يسبب النزاعات. لذلك فاز فريق المعارضة.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة 1",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 68,
+        "note": "تكرار، نقص أدلة."
+      },
+      {
+        "speaker": "المعارضة 1",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "أمثلة، حجة واضحة."
+      },
+      {
+        "speaker": "الموالاة 2",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "تكرار، نقص أدلة."
+      },
+      {
+        "speaker": "المعارضة 2",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حجة واضحة، أمثلة."
+      },
+      {
+        "speaker": "الموالاة 3",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 69,
+        "note": "تكرار، نقص أدلة."
+      },
+      {
+        "speaker": "المعارضة 3",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حجة واضحة، أمثلة."
+      },
+      {
+        "speaker": "الموالاة رد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "average",
+        "score": 37,
+        "note": "ملخص، قليل من النقاط."
+      },
+      {
+        "speaker": "المعارضة رد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 39,
+        "note": "ملخص، حجة واضحة."
+      }
+    ],
+    "best_speaker": "المعارضة 2",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "استخدموا تعريفًا واضحًا للنقطة.",
+          "حاولوا الربط بين حظر التسجيل والأمن."
+        ],
+        "improvements": [
+          "تقديم أدلة واقعية تدعم ادعاءاتهم.",
+          "التركيز على الرد على حجة المعارضة بدلاً من التكرار."
+        ],
+        "recommendations": [
+          "استخدام دراسات حالة أو إحصائيات تدعم أن حظر التسجيل يقلل من الانقسامات.",
+          "توضيح كيف سيؤثر حظر التسجيل على المساواة في سوق العمل."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "استخدام أمثلة واقعية (كندا، الولايات المتحدة).",
+          "حجة واضحة حول أن التسجيل يساعد على تنظيم الدولة."
+        ],
+        "improvements": [
+          "تقديم أدلة إضافية حول تأثير التسجيل على المساواة.",
+          "التركيز على الرد على حجة الموالاة حول الانقسامات."
+        ],
+        "recommendations": [
+          "إضافة إحصائيات حول التمييز في الدول التي لا تسجل الخلفيات.",
+          "توضيح كيف يساهم التسجيل في حماية حقوق الخصوصية."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "التحويل الصوتي يحتوي على فقرات غير مفهومة.",
+      "التركيب اللغوي غير منظم في بعض الأجزاء.",
+      "العديد من الجمل غير مكتملة أو متقطعة."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 8,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "«…تسجيل الانتماءات العرقية والعقائدية… يزيد من الاختلاف بين الناس… يؤدي إلى حروب…»",
+        "«…التمييز العنصري لا يأتي بسبب تسجيل… بل بسبب غياب الدولة التي تساوي بين جميع مواطنيها…»",
+        "«…حظر التسجيل سيمنع التمييز في التوظيف…»",
+        "«…التسجيل يساعد الدولة على بناء المساجد والكنائس…»",
+        "«…التسجيل يؤدي إلى حروب… حظر التسجيل يقلل من النزاعات…»",
+        "«…حظر التسجيل ينتهك حق الخصوصية في الفكر والتعبير…»",
+        "«…التسجيل يساعد الدولة على بناء المساجد والكنائس…»",
+        "«…التسجيل يؤدي إلى حروب…»"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 244,
+      "opposition": 271
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "opposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      2
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 15162,
+        "output": 2322
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "debate_id": "debate_016",
+  "motion": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+  "generated_at": "2026-11-05T11:53:25+00:00",
+  "config": {
+    "model": "llama4",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.9,
+    "justification": "فريق الموالاة قدم حجج قوية حول أهمية الاعتذار والنقد في تنزيه سمعة الإسلام وحماية المسلمين من الآثار السلبية المترتبة على الإسلاموفوبيا. كما أن فريق المعارضة لم يستطع دحض هذه الحجج بشكل مقنع.",
+    "best_speaker": "المتحدث الثاني، فريق الموالاة"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "يرى هذا المجلس ان على المسلمين المعتدلين الاعتذار ونقد العمليات الارهابيه التي تحدث باسم الاسلام",
+      "proposition_definition": "المسلمون المعتدلون يجب أن يعتذروا وينتقدوا العمليات الإرهابية التي تحدث باسم الإسلام",
+      "opposition_definition": "المسلمون المعتدلون لا يجب أن يعتذروا أو ينقدوا العمليات الإرهابية التي تحدث باسم الإسلام",
+      "definition_contested": false,
+      "adopted_ground": "تنزيه سمعة الإسلام وحماية المسلمين من الآثار السلبية المترتبة عن الإسلاموفوبيا وحماية المسلمين من المشاركة في الأنشطة المؤدية إلى عمليات إرهابية"
+    },
+    "positions": {
+      "proposition": "المسلمون المعتدلون يجب أن يعتذروا وينتقدوا العمليات الإرهابية التي تحدث باسم الإسلام",
+      "opposition": "المسلمون المعتدلون لا يجب أن يعتذروا أو ينقدوا العمليات الإرهابية التي تحدث باسم الإسلام"
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الأول",
+        "kind": "substantive",
+        "summary": "تصحيح فهم المسلمين للاسلام وهذا يؤدي الى تنزيه الاسلام والمسلمين عن الافتراءات والاتهامات الباطلة",
+        "evidence_quote": "لأن الجزء الذي يؤدي الى انتشار هذه الفكره هي سوء الفهم عن مفهوم الجهاد في الاسلام، مما يؤدي الى انتشار الارهاب.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الأول",
+        "kind": "refutation",
+        "summary": "الاعتذار لا يكون الا عن خطا اذا لم تخطئ اذا انت ابدا لست مجبر على الاعتذار",
+        "evidence_quote": "لذلك عندما ياتي المسلمون ليعتذروا يقرون بهذا الخطا بالتالي انت تزيد من مشكله الاسلاموفوبيا ولا تحلها",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "substantive",
+        "summary": "القرار يغير الانطباع السيء عن الاسلام حول العالم",
+        "evidence_quote": "فعندما قامت هذه التجمعات المسلمة بالاعتذار عن هذه الحادثة وقاموا بنقد الحادثة هذا يؤدي الى تغيير الانطباع السير عن الاسلام الى انطباع ايجابي.",
+        "counted": true,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثاني",
+        "kind": "refutation",
+        "summary": "الاعتذار يثبت فكره ان هؤلاء الجماعات تنتمي للاسلام بينما الواقع يقول ان هذه الجماعات ليست من الاسلام في شيء",
+        "evidence_quote": "نحن اول من نقوم بمحاربتها لان الاعتذار عنهم او تمهيد ما يقال او تبرئتهم او ما الى ذلك او نقدهم ايضا",
+        "counted": true,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [
+      {
+        "team": "opposition",
+        "speaker": "المتحدث الثالث",
+        "item": "جديدة لا تساهم في حل المشكلة",
+        "issue": "الحديث عن خطاب الكراهية الموجود عند الغرب ضد المسلمين"
+      }
+    ],
+    "clashes": [
+      {
+        "clash_point": "الاعتذار عن العمليات الإرهابية",
+        "importance": "core",
+        "proposition_side": "المسلمون المعتدلون يجب أن يعتذروا",
+        "opposition_side": "المسلمون المعتدلون لا يجب أن يعتذروا",
+        "outcome": "proposition",
+        "reasoning": "الاعتذار لا يقر بالخطأ فحسب بل يساهم في تنزيه سمعة الإسلام"
+      },
+      {
+        "clash_point": "تأثير الاعتذار على المسلمين",
+        "importance": "core",
+        "proposition_side": "الاعتذار يحمي المسلمين من الآثار السلبية",
+        "opposition_side": "الاعتذار يزيد من مشكلة الإسلاموفوبيا",
+        "outcome": "proposition",
+        "reasoning": "الاعتذار يساهم في تغيير الانطباع السيء عن الإسلام"
+      }
+    ],
+    "pillars_comparison": {
+      "content": "proposition",
+      "style": "tie",
+      "strategy": "proposition"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.9,
+      "key_reasons": [
+        {
+          "reason": "الاعتذار يساهم في تنزيه سمعة الإسلام",
+          "where": "المتحدث الأول، فريق الموالاة",
+          "effect": "غير الانطباع السيء عن الإسلام",
+          "evidence_quote": "تصحيح فهم المسلمين للاسلام وهذا يؤدي الى تنزيه الاسلام والمسلمين عن الافتراءات والاتهامات الباطلة"
+        },
+        {
+          "reason": "الاعتذار يحمي المسلمين من الآثار السلبية",
+          "where": "المتحدث الثاني، فريق الموالاة",
+          "effect": "تغيير السياسات في الدول",
+          "evidence_quote": "القرار يغير الانطباع السيء عن الاسلام حول العالم"
+        }
+      ]
+    },
+    "justification": "فريق الموالاة قدم حجج قوية حول أهمية الاعتذار والنقد في تنزيه سمعة الإسلام وحماية المسلمين من الآثار السلبية المترتبة على الإسلاموفوبيا. كما أن فريق المعارضة لم يستطع دحض هذه الحجج بشكل مقنع.",
+    "speaker_scores": [
+      {
+        "speaker": "المتحدث الأول، فريق الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حجج قوية، تقديم مفهوم واضح"
+      },
+      {
+        "speaker": "المتحدث الأول، فريق المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 76,
+        "note": "حجج معاكسة، أسلوب جيد"
+      },
+      {
+        "speaker": "المتحدث الثاني، فريق الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 81,
+        "note": "حجج قوية، أمثلة مؤثرة"
+      },
+      {
+        "speaker": "المتحدث الثاني، فريق المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 77,
+        "note": "حجج معاكسة، أسلوب جيد"
+      },
+      {
+        "speaker": "المتحدث الثالث، فريق الموالاة",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "professional",
+        "score": 80,
+        "note": "حجج قوية، رد على المعارضة"
+      },
+      {
+        "speaker": "المتحدث الثالث، فريق المعارضة",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "above_average",
+        "score": 78,
+        "note": "حجج معاكسة، أسلوب جيد"
+      },
+      {
+        "speaker": "فريق الموالاة، خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "professional",
+        "score": 40,
+        "note": "حجج قوية، رد على المعارضة"
+      },
+      {
+        "speaker": "فريق المعارضة، خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "حجج معاكسة، أسلوب جيد"
+      }
+    ],
+    "best_speaker": "المتحدث الثاني، فريق الموالاة",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "تقديم حجج قوية ومتسلسلة",
+          "أمثلة مؤثرة"
+        ],
+        "improvements": [
+          "التركيز على نقاط الضعف في حجج المعارضة بدلاً من الهجوم الشخصي"
+        ],
+        "recommendations": [
+          "الاستمرار في تقديم الحجج القوية والمنظمة"
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حجج معاكسة قوية",
+          "أسلوب جيد"
+        ],
+        "improvements": [
+          "التركيز على نقاط القوة في حججهم بدلاً من الضعف في حجج المعارضة"
+        ],
+        "recommendations": [
+          "تحسين تنظيم الحجج وتركيزها"
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "الخطاب قد يكون غير مكتمل أو غير دقيق في بعض الأماكن"
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 4,
+      "match_ratio": 0.667,
+      "unverified_quotes": [
+        "لذلك عندما ياتي المسلمون ليعتذروا يقرون بهذا الخطا بالتالي انت تزيد من مشكله الاسلاموفوبيا ولا تحلها",
+        "نحن اول من نقوم بمحاربتها لان الاعتذار عنهم او تمهيد ما يقال او تبرئتهم او ما الى ذلك او نقدهم ايضا"
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 281,
+      "opposition": 269
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13172,
+        "output": 2241
+      }
+    ]
+  }
+}

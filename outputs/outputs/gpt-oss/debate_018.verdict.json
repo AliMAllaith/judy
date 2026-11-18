@@ -1,0 +1,262 @@
+{
+  "debate_id": "debate_018",
+  "motion": "يجب على الدول اجراء استفتاء شعبي قبل اعلانها الدخول في الحروب",
+  "generated_at": "2026-11-05T10:19:25+00:00",
+  "config": {
+    "model": "gpt-oss",
+    "ollama_host": "http://localhost:11434",
+    "options": {
+      "temperature": 0.0,
+      "top_p": 0.9,
+      "seed": 42,
+      "num_ctx": 32768,
+      "num_predict": 8192
+    },
+    "n_runs": 1,
+    "run_temperature": null,
+    "prompt_version": "judy-qdc-v1",
+    "prompt_sha256": "cbfb78281f8f2de8",
+    "output_language": "Arabic"
+  },
+  "result": {
+    "winner": "proposition",
+    "margin": "clear",
+    "confidence": 0.7,
+    "justification": "الموالاة نجحت في إقناع القاضي بأن الاستفتاء يحقق حق تقرير المصير ويمنع حروبًا تتعارض مع إرادة الشعوب، بينما لم تُقنع المعارضة بما يكفي حول جدوى العملية.",
+    "best_speaker": "الموالاة - المتحدث الأول"
+  },
+  "verdict": {
+    "ground": {
+      "problem": "تحديد ما إذا كان يجب على الدول إجراء استفتاء شعبي قبل إعلانها الدخول في الحروب.",
+      "proposition_definition": "الموالاة يعتقد أن الاستفتاء الشعبي يضمن أن الحرب تتماشى مع إرادة الشعوب ويمنع حروبًا تتعارض مع مصالح الدول.",
+      "opposition_definition": "المعارضة ترى أن الاستفتاء غير عملي وأن البرلمان أو الجهات المختصة يجب أن تقرر، وأن الاستفتاء قد يعيق الاستجابة السريعة للتهديدات الأمنية.",
+      "definition_contested": false,
+      "adopted_ground": "الموالاة"
+    },
+    "positions": {
+      "proposition": "يجب على الدول إجراء استفتاء شعبي قبل إعلانها الدخول في الحروب.",
+      "opposition": "لا يجب على الدول إجراء استفتاء شعبي قبل إعلانها الدخول في الحروب."
+    },
+    "clash_type": "direct_clash",
+    "arguments": [
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الاستفتاء يحقق حق الشعوب في تقرير مصيرها ويمنع حروبًا تتعارض مع إرادتهم.",
+        "evidence_quote": "\"الحق في تقرير المصير\" وفقًا للاتفاق العالمي لحقوق الإنسان.",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "proposition",
+        "speaker": "الموالاة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "الاستفتاء لا يعيق الاستجابة السريعة، بل يضيف شرعية للقرار.",
+        "evidence_quote": "\"الاستفتاء يضيف شرعية للقرار\".",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "substantive",
+        "summary": "الاستفتاء غير عملي ويؤخر اتخاذ القرار في حالات الطوارئ.",
+        "evidence_quote": "\"الاستفتاء غير عملي ويؤخر اتخاذ القرار\".",
+        "counted": false,
+        "not_counted_reason": ""
+      },
+      {
+        "team": "opposition",
+        "speaker": "المعارضة - المتحدث الأول",
+        "kind": "refutation",
+        "summary": "البرلمان أو الجهات المختصة أكثر قدرة على اتخاذ قرار مبني على الخبرة.",
+        "evidence_quote": "\"البرلمان أكثر قدرة على اتخاذ قرار مبني على الخبرة\".",
+        "counted": false,
+        "not_counted_reason": ""
+      }
+    ],
+    "misplaced_content": [],
+    "clashes": [
+      {
+        "clash_point": "الشرعية والحقوق",
+        "importance": "core",
+        "proposition_side": "أدعم",
+        "opposition_side": "معارض",
+        "outcome": "proposition",
+        "reasoning": "الاستفتاء يحقق حق تقرير المصير ويمنع حروبًا تتعارض مع إرادة الشعوب."
+      },
+      {
+        "clash_point": "العملية والسرعة",
+        "importance": "core",
+        "proposition_side": "معارض",
+        "opposition_side": "أدعم",
+        "outcome": "opposition",
+        "reasoning": "الاستفتاء يعيق الاستجابة السريعة للتهديدات الأمنية ويعتمد على عملية معقدة."
+      }
+    ],
+    "pillars_comparison": {
+      "content": "الموالاة",
+      "style": "الموالاة",
+      "strategy": "الموالاة"
+    },
+    "decision": {
+      "winner": "proposition",
+      "margin": "clear",
+      "confidence": 0.7,
+      "key_reasons": [
+        {
+          "reason": "الموالاة قدمت حجة قوية حول حق تقرير المصير.",
+          "where": "الموالاة - المتحدث الأول",
+          "effect": "أقنع القاضي بأن الاستفتاء يضيف شرعية للقرار.",
+          "evidence_quote": "\"الحق في تقرير المصير\" وفقًا للاتفاق العالمي لحقوق الإنسان."
+        },
+        {
+          "reason": "المعارضة لم تقدم حجة مقنعة حول كيفية معالجة مخاطر التأخير.",
+          "where": "المعارضة - المتحدث الأول",
+          "effect": "أبقيت القاضي غير مقتنعًا بالجدوى العملية للاستفتاء.",
+          "evidence_quote": "\"الاستفتاء غير عملي ويؤخر اتخاذ القرار\"."
+        }
+      ]
+    },
+    "justification": "الموالاة نجحت في إقناع القاضي بأن الاستفتاء يحقق حق تقرير المصير ويمنع حروبًا تتعارض مع إرادة الشعوب، بينما لم تُقنع المعارضة بما يكفي حول جدوى العملية.",
+    "speaker_scores": [
+      {
+        "speaker": "الموالاة - المتحدث الأول",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "average",
+        "score": 72,
+        "note": "قدّم تعريفًا واضحًا وحجة أساسية حول حق تقرير المصير."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الأول",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "حاولت تقديم حجة حول العملية لكن التكرار أثر على الوضوح."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثاني",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "أعاد بعض النقاط لكن لم يُضيف حجة جديدة قوية."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثاني",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "حاولت تفنيد حجة الموالاة لكن التكرار أثر على الفعالية."
+      },
+      {
+        "speaker": "الموالاة - المتحدث الثالث",
+        "team": "proposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "أعاد بعض النقاط دون تقديم حجة جديدة."
+      },
+      {
+        "speaker": "المعارضة - المتحدث الثالث",
+        "team": "opposition",
+        "speech_type": "main",
+        "band": "below_average",
+        "score": 70,
+        "note": "حاولت تفنيد حجة الموالاة لكن التكرار أثر على الوضوح."
+      },
+      {
+        "speaker": "المعارضة - خطاب الرد",
+        "team": "opposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "أعاد النقاط الرئيسية مع بعض التفنيد."
+      },
+      {
+        "speaker": "الموالاة - خطاب الرد",
+        "team": "proposition",
+        "speech_type": "reply",
+        "band": "above_average",
+        "score": 38,
+        "note": "أعاد النقاط الرئيسية مع بعض التفنيد."
+      }
+    ],
+    "best_speaker": "الموالاة - المتحدث الأول",
+    "feedback": {
+      "proposition": {
+        "strengths": [
+          "قدّم تعريفًا واضحًا للموضوع.",
+          "استخدمت مثالًا من الإعلان العالمي لحقوق الإنسان.",
+          "حافظت على تركيزها على حق تقرير المصير."
+        ],
+        "improvements": [
+          "تحسين تنظيم الأفكار لتجنب التكرار.",
+          "استخدام أمثلة أكثر تحديدًا لدعم حجة الشرعية."
+        ],
+        "recommendations": [
+          "تطوير خطة واضحة للعرض مع تقسيم النقاط الرئيسية.",
+          "استخدام لغة أكثر تحديدًا لتقليل الغموض."
+        ]
+      },
+      "opposition": {
+        "strengths": [
+          "حاولت تقديم حجة حول العملية والسرعة.",
+          "أشارت إلى دور البرلمان كجهة مختصة."
+        ],
+        "improvements": [
+          "تقليل التكرار والتركيز على حجة واحدة قوية.",
+          "تقديم أمثلة واقعية تدعم حجة عدم جدوى الاستفتاء."
+        ],
+        "recommendations": [
+          "تحضير حجة واحدة مركزية مع دعمها بأمثلة واضحة.",
+          "استخدام لغة أكثر تحديدًا لتقليل الغموض."
+        ]
+      }
+    },
+    "data_quality_flags": [
+      "التحويل الصوتي يحتوي على أخطاء إملائية ونص غير واضح في بعض الأجزاء.",
+      "بعض الجمل غير مفهومة بالكامل."
+    ]
+  },
+  "checks": {
+    "quote_verification": {
+      "quotes_total": 6,
+      "quotes_found": 0,
+      "match_ratio": 0.0,
+      "unverified_quotes": [
+        "\"الحق في تقرير المصير\" وفقًا للاتفاق العالمي لحقوق الإنسان.",
+        "\"الاستفتاء يضيف شرعية للقرار\".",
+        "\"الاستفتاء غير عملي ويؤخر اتخاذ القرار\".",
+        "\"البرلمان أكثر قدرة على اتخاذ قرار مبني على الخبرة\".",
+        "\"الحق في تقرير المصير\" وفقًا للاتفاق العالمي لحقوق الإنسان.",
+        "\"الاستفتاء غير عملي ويؤخر اتخاذ القرار\"."
+      ]
+    },
+    "team_score_totals": {
+      "proposition": 250,
+      "opposition": 248
+    },
+    "winner_has_lower_total_score": false,
+    "consistency": {
+      "votes": {
+        "proposition": 1
+      },
+      "n_runs": 1,
+      "agreement": 1.0
+    },
+    "attempts_per_run": [
+      1
+    ],
+    "tokens_per_run": [
+      {
+        "prompt": 13771,
+        "output": 1991
+      }
+    ]
+  }
+}
