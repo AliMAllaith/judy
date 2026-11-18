@@ -8,10 +8,10 @@
 body.light{--bg:#f3f6fb;--panel:#fff;--panel2:#edf2f8;--line:#d6dfeb;--text:#182338;--muted:#60718a;--cyan:#087e96;--violet:#6851b8;--green:#16865b;--red:#c63f58;--amber:#9a6500;background:radial-gradient(ellipse at 15% -10%,#dce9f8 0,transparent 42%),var(--bg)}
 body.light .card{background:linear-gradient(155deg,#fff,#f4f7fb)}body.light button{background:#edf2f8;color:var(--text)}body.light .toolbar select,body.light .toolbar input{background:#fff;color:var(--text)}body.light .notice{background:#e7f1fa;color:#30445e;border-color:#c4d7e9}body.light .json{background:#f7f9fc;color:#24334a}body.light .speech{background:#f4f7fb;color:#24334a}body.light .transcript{color:#24334a}body.light .listitem:hover,body.light .listitem.active{background:#e7eef8}body.light .tab.active{background:#e2edf8}body.light .pill{background:#e4ebf4;color:#34465f}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -10%,#1d3150 0,transparent 40%),var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
-button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--line);background:#1a2942;color:var(--text);padding:9px 13px;border-radius:10px}button:hover{border-color:var(--cyan);background:#203450}.primary{background:linear-gradient(120deg,#257e91,#6554b5);border:0;font-weight:700}.top{padding:28px clamp(16px,4vw,56px) 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.brand{display:flex;gap:14px;align-items:center}.logo{width:92px;height:92px;border-radius:15px;background:linear-gradient(135deg,#5ee2e8,#9278ff);display:grid;place-items:center;color:#081323;font-size:22px;font-weight:900}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.17em;font-weight:800}.title{font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.04em}.sub{color:var(--muted);margin-top:3px}.actions{display:flex;gap:9px;flex-wrap:wrap}.wrap{max-width:1600px;margin:auto;padding:24px clamp(14px,3vw,42px) 60px}.notice{background:#17263b;border:1px solid #31516a;padding:13px 16px;border-radius:12px;color:#c9d9ec;margin-bottom:20px}.notice strong{color:var(--cyan)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.toolbar select,.toolbar input{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 12px;min-width:180px}.status{margin-left:auto;color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card{background:linear-gradient(155deg,#17233a,#111a2c);border:1px solid var(--line);border-radius:16px;padding:17px;min-width:0}.metric-label{color:var(--muted);font-size:12px}.metric{font-size:30px;font-weight:800;letter-spacing:-.04em;margin:5px 0}.metric-note{color:var(--muted);font-size:11px}.section{margin-top:24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}.section h2{font-size:17px;margin:0;letter-spacing:-.02em}.hint{font-size:12px;color:var(--muted)}.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}.chart{height:260px;display:flex;align-items:end;gap:13px;padding:18px 8px 24px;overflow-x:auto}.barwrap{height:100%;min-width:65px;flex:1;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:7px}.bararea{height:190px;width:100%;display:flex;align-items:end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 46px,#26355055 47px,#26355055 48px)}.bar{width:min(38px,65%);border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,var(--cyan),#4b77c9);min-height:2px;position:relative}.barval{font-size:11px;color:var(--text);font-weight:700;margin-bottom:4px}.barlabel{font-size:10px;color:var(--muted);text-align:center;max-width:90px;overflow-wrap:anywhere}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.tablebox{overflow:auto}.data{width:100%;border-collapse:collapse;min-width:600px}.data th,.data td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);font-size:12px}.data th{color:var(--muted);font-weight:600}.data tr:hover td{background:#ffffff08}.pill{display:inline-block;padding:3px 8px;border-radius:99px;background:#263651;color:#c6d8f2;font-size:10px}.good{color:var(--green)}.bad{color:var(--red)}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}.tab{background:transparent;color:var(--muted)}.tab.active{background:#253957;color:var(--cyan);border-color:#42617e}.browser{display:grid;grid-template-columns:280px minmax(0,1fr);gap:13px;min-height:440px}.side{max-height:650px;overflow:auto}.listitem{padding:10px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}.listitem:hover,.listitem.active{background:#20324d}.listitem small{display:block;color:var(--muted);font-size:10px}.detail{min-width:0}.detailhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}.json{white-space:pre-wrap;overflow-wrap:anywhere;background:#080e1a;border:1px solid var(--line);border-radius:12px;padding:16px;max-height:650px;overflow:auto;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;color:#c6d7f2}.search{width:min(320px,100%)}.empty{padding:40px;text-align:center;color:var(--muted)}.transcript{white-space:pre-wrap;line-height:1.8;color:#d4def0}.speech{padding:13px;margin:9px 0;background:#0e192b;border:1px solid var(--line);border-radius:10px}.speechhead{display:flex;justify-content:space-between;color:var(--cyan);font-size:11px;margin-bottom:7px}.footer{color:var(--muted);font-size:11px;margin-top:26px}.justification{max-width:440px;white-space:pre-wrap;overflow-wrap:anywhere}.justification.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.expand{padding:3px 8px;margin-top:6px;font-size:12px;border-radius:7px;min-width:28px}.just-cell{min-width:230px}.ground-table{direction:rtl;text-align:right;min-width:1120px}.ground-table th,.ground-table td{text-align:right;white-space:normal;vertical-align:top}.ground-table td:nth-child(2){direction:ltr;text-align:left;min-width:230px}.ground-table a{color:var(--cyan);text-decoration:none}.ground-table a:hover{text-decoration:underline}.ground-count{color:var(--muted);font-size:12px;margin:8px 0 12px}.ground-panel[hidden],.browser[hidden]{display:none}
+button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--line);background:#1a2942;color:var(--text);padding:9px 13px;border-radius:10px}button:hover{border-color:var(--cyan);background:#203450}.primary{background:linear-gradient(120deg,#257e91,#6554b5);border:0;font-weight:700}.top{padding:28px clamp(16px,4vw,56px) 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.brand{display:flex;gap:14px;align-items:center}.logo{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,#5ee2e8,#9278ff);display:grid;place-items:center;color:#081323;font-size:22px;font-weight:900}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.17em;font-weight:800}.title{font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.04em}.sub{color:var(--muted);margin-top:3px}.actions{display:flex;gap:9px;flex-wrap:wrap}.wrap{max-width:1600px;margin:auto;padding:24px clamp(14px,3vw,42px) 60px}.notice{background:#17263b;border:1px solid #31516a;padding:13px 16px;border-radius:12px;color:#c9d9ec;margin-bottom:20px}.notice strong{color:var(--cyan)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.toolbar select,.toolbar input{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 12px;min-width:180px}.status{margin-left:auto;color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card{background:linear-gradient(155deg,#17233a,#111a2c);border:1px solid var(--line);border-radius:16px;padding:17px;min-width:0}.metric-label{color:var(--muted);font-size:12px}.metric{font-size:30px;font-weight:800;letter-spacing:-.04em;margin:5px 0}.metric-note{color:var(--muted);font-size:11px}.section{margin-top:24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}.section h2{font-size:17px;margin:0;letter-spacing:-.02em}.hint{font-size:12px;color:var(--muted)}.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}.chart{height:260px;display:flex;align-items:end;gap:13px;padding:18px 8px 24px;overflow-x:auto}.barwrap{height:100%;min-width:65px;flex:1;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:7px}.bararea{height:190px;width:100%;display:flex;align-items:end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 46px,#26355055 47px,#26355055 48px)}.bar{width:min(38px,65%);border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,var(--cyan),#4b77c9);min-height:2px;position:relative}.barval{font-size:11px;color:var(--text);font-weight:700;margin-bottom:4px}.barlabel{font-size:10px;color:var(--muted);text-align:center;max-width:90px;overflow-wrap:anywhere}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.tablebox{overflow:auto}.data{width:100%;border-collapse:collapse;min-width:600px}.data th,.data td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);font-size:12px}.data th{color:var(--muted);font-weight:600}.data tr:hover td{background:#ffffff08}.pill{display:inline-block;padding:3px 8px;border-radius:99px;background:#263651;color:#c6d8f2;font-size:10px}.good{color:var(--green)}.bad{color:var(--red)}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}.tab{background:transparent;color:var(--muted)}.tab.active{background:#253957;color:var(--cyan);border-color:#42617e}.browser{display:grid;grid-template-columns:280px minmax(0,1fr);gap:13px;min-height:440px}.side{max-height:650px;overflow:auto}.listitem{padding:10px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}.listitem:hover,.listitem.active{background:#20324d}.listitem small{display:block;color:var(--muted);font-size:10px}.detail{min-width:0}.detailhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}.json{white-space:pre-wrap;overflow-wrap:anywhere;background:#080e1a;border:1px solid var(--line);border-radius:12px;padding:16px;max-height:650px;overflow:auto;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;color:#c6d7f2}.search{width:min(320px,100%)}.empty{padding:40px;text-align:center;color:var(--muted)}.transcript{white-space:pre-wrap;line-height:1.8;color:#d4def0}.speech{padding:13px;margin:9px 0;background:#0e192b;border:1px solid var(--line);border-radius:10px}.speechhead{display:flex;justify-content:space-between;color:var(--cyan);font-size:11px;margin-bottom:7px}.footer{color:var(--muted);font-size:11px;margin-top:26px}.justification{max-width:440px;white-space:pre-wrap;overflow-wrap:anywhere}.justification.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.expand{padding:3px 8px;margin-top:6px;font-size:12px;border-radius:7px;min-width:28px}.just-cell{min-width:230px}.ground-table{direction:rtl;text-align:right;min-width:1120px}.ground-table th,.ground-table td{text-align:right;white-space:normal;vertical-align:top}.ground-table td:nth-child(2){direction:ltr;text-align:left;min-width:230px}.ground-table a{color:var(--cyan);text-decoration:none}.ground-table a:hover{text-decoration:underline}.ground-count{color:var(--muted);font-size:12px;margin:8px 0 12px}.ground-panel[hidden],.browser[hidden]{display:none}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.twocol{grid-template-columns:1fr}.browser{grid-template-columns:1fr}.side{max-height:240px}}
 @media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.metric{font-size:24px}.top{align-items:flex-start}.status{margin-left:0;width:100%}}
-.logo{width:150px;height:150px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.logo{width:55px;height:55px;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .logo img{width:100%;height:100%;object-fit:contain}
 /* Pagination */
 .pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin:14px 0 4px}
@@ -31,6 +31,16 @@ html[dir="rtl"] .section-head{flex-direction:row}
 html[dir="rtl"] .browser{grid-template-columns:minmax(0,1fr) 280px}
 @media(max-width:900px){html[dir="rtl"] .browser{grid-template-columns:1fr}}
 html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
+/* About / reference */
+.info-badge{display:inline-grid;place-items:center;width:16px;height:16px;border-radius:50%;background:var(--panel2);border:1px solid var(--line);color:var(--muted);font-size:11px;font-weight:700;cursor:help;margin-inline-start:6px;vertical-align:middle}
+.info-badge:hover{color:var(--cyan);border-color:var(--cyan)}
+details summary::-webkit-details-marker{display:none}
+details summary{cursor:pointer;list-style:none}
+.ref-table{width:100%;border-collapse:collapse;margin-top:10px}
+.ref-table th,.ref-table td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:12px;vertical-align:top;text-align:start}
+.ref-table th{color:var(--muted);font-weight:600}
+.ref-table code{background:var(--panel2);padding:1px 5px;border-radius:4px;font-size:11px}
+.ref-section-title{margin:16px 0 4px;font-size:13px;color:var(--cyan);font-weight:700;letter-spacing:.04em}
 </style>
 </head>
 <body>
@@ -40,7 +50,7 @@ html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
     <div>
       <div class="eyebrow" data-i18n="eyebrow">JUDY · RESEARCH CONSOLE</div>
       <div class="title" data-i18n="title">Experiment Observatory</div>
-      <div class="sub" data-i18n="subtitle">Exploring how AI models judge competitive debates — and how often they agree with human experts.</div>
+      <div class="sub" data-i18n="subtitle">Debate adjudication · model evaluation · ground-truth benchmarking</div>
     </div>
   </div>
   <div class="actions">
@@ -51,6 +61,16 @@ html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
 </header>
 <main class="wrap">
 <div class="notice" id="loadNotice"><strong data-i18n="loadingStrong">Loading research data from GitHub…</strong> <span data-i18n="loadingText">The dashboard automatically reads the JSON files stored alongside this page in the GitHub repository.</span></div>
+
+<div class="notice" id="aboutNotice">
+  <details>
+    <summary style="font-weight:700;color:var(--cyan)">
+      <span data-i18n="aboutTitle">About this dashboard · experiments &amp; models explained</span>
+    </summary>
+    <div id="aboutBody" style="margin-top:10px;line-height:1.7"></div>
+  </details>
+</div>
+
 <div class="toolbar">
   <select id="experiment" disabled><option value="" data-i18n="allExperiments">All experiments</option></select>
   <select id="model" disabled><option value="" data-i18n="allModels">All models</option></select>
@@ -69,7 +89,11 @@ html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
   <div class="card"><div class="section-head"><h2 data-i18n="verdictDist">Verdict distribution</h2><span class="hint" data-i18n="propVsOpp">Proposition vs Opposition</span></div><div id="winnerChart" class="chart"></div><div class="legend"><span><i class="dot" style="background:var(--cyan)"></i><span data-i18n="proposition">Proposition</span></span><span><i class="dot" style="background:var(--violet)"></i><span data-i18n="opposition">Opposition</span></span></div></div>
 </div>
 <div class="section card">
-  <div class="section-head"><h2 data-i18n="expModelPerf">Experiment × model performance</h2><span class="hint" data-i18n="perfHint">Accuracy, agreement and coverage</span></div>
+  <div class="section-head">
+    <h2 data-i18n="expModelPerf">Experiment × model performance</h2>
+    <span class="info-badge" data-i18n-title="perfBadgeTitle" title="Experiments: zero-shot · QDC rubric prompt · RAG retrieval · multi-step pipeline. Models: gemma3:12b (local), gemma4, llama4, qwen3.5, deepseek-r1, gpt-oss.">?</span>
+    <span class="hint" data-i18n="perfHint">Accuracy, agreement and coverage</span>
+  </div>
   <div class="tablebox"><table class="data"><thead><tr>
     <th data-i18n="thExperiment">Experiment</th><th data-i18n="thModel">Model</th><th data-i18n="thCorrect">Correct</th><th data-i18n="thAccuracy">Accuracy</th><th data-i18n="thCoverage">Coverage</th><th data-i18n="thMeanConf">Mean confidence</th>
   </tr></thead><tbody id="performance"></tbody></table></div>
@@ -90,8 +114,10 @@ html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
     <button class="tab" data-tab="detailed-ground" data-i18n="tabDetailed">Detailed Ground Truth (CSV)</button>
     <button class="tab" data-tab="debates" data-i18n="tabDebates">Debate transcripts</button>
     <button class="tab" data-tab="files" data-i18n="tabFiles">All JSON files</button>
+    <button class="tab" data-tab="reference" data-i18n="tabReference">Reference · experiments &amp; models</button>
   </div>
   <div id="detailedGroundPanel" class="ground-panel" hidden><div class="ground-count" id="groundCount" data-i18n="groundCountDefault">20 detailed debate records · Source: detailed_ground_truth.csv</div><div class="tablebox"><table class="data ground-table"><thead><tr><th>#</th><th data-i18n="thYouTube">YouTube URL</th><th>البطولة</th><th>مستوى المناظرة</th><th>الموالاة</th><th>المعارصة</th><th>الفريق الفائز</th><th>ID</th></tr></thead><tbody id="detailedGroundRows"><tr><td colspan="8" data-i18n="loadingDetailed">Loading detailed ground truth…</td></tr></tbody></table></div></div>
+  <div id="referencePanel" class="ground-panel" hidden><div id="referenceBody"></div></div>
   <div class="browser" id="sourceBrowser">
     <div class="card side" id="fileList"><div class="empty" data-i18n="loadingData">Loading data…</div></div>
     <div class="detail">
@@ -101,7 +127,7 @@ html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
     </div>
   </div>
 </div>
-<div class="footer" data-i18n="footer"></div>
+<div class="footer" data-i18n="footer">Runs entirely in your browser. On GitHub Pages, data is fetched from the public repository when the page opens. For a private repository or custom domain, set the repository constants near the top of the script.</div>
 </main>
 
 <script>
@@ -197,13 +223,26 @@ const I18N = {
     of: "of",
     items: "items",
     perPage: "/page",
-    youtubeUrl: "YouTube URL",
-    languageName: "العربية"
+    languageName: "العربية",
+    aboutTitle: "About this dashboard · experiments & models explained",
+    tabReference: "Reference · experiments & models",
+    perfBadgeTitle: "Experiments: zero-shot · QDC rubric prompt · RAG retrieval · multi-step pipeline. Models: gemma3:12b (local), gemma4, llama4, qwen3.5, deepseek-r1, gpt-oss.",
+    refExperiments: "Experiments",
+    refModels: "Models",
+    refContext: "Evaluation context",
+    refSource: "Source: Judy: Leveraging Artificial Intelligence to Standardize and Debias Debate Judging — §3 Dataset, §5.1 Experimental Setup, §5.2 Models, §5.3 Metrics, §6 Results.",
+    refFolderKey: "Folder key",
+    refExperiment: "Experiment",
+    refWhat: "What it does",
+    refWhy: "Why it exists",
+    refModelKey: "Model key",
+    refFamily: "Family",
+    refDescription: "Description"
   },
   ar: {
     eyebrow: "JUDY · لوحة البحث",
     title: "مرصد التجارب",
-    subtitle: "استكشاف كيفية تقييم نماذج الذكاء الاصطناعي للمناظرات التنافسية، ومدى توافقها مع آراء الخبراء البشريين.",
+    subtitle: "تحكيم المناظرات · تقييم النماذج · مقارنة بالحقيقة المرجعية",
     themeLight: "الوضع الفاتح",
     themeDark: "الوضع الداكن",
     reload: "إعادة تحميل البيانات",
@@ -255,7 +294,7 @@ const I18N = {
     selectFile: "اختر ملفًا",
     copyJson: "نسخ JSON",
     jsonPlaceholder: "سيظهر محتوى JSON الكامل هنا.",
-    footer: "",
+    footer: "يعمل بالكامل داخل متصفحك. على GitHub Pages، يتم جلب البيانات من المستودع العام عند فتح الصفحة. للمستودع الخاص أو النطاق المخصص، اضبط ثوابت المستودع أعلى السكربت.",
     loadingData: "جارٍ تحميل البيانات…",
     noMatchVerdicts: "لا توجد أحكام مطابقة.",
     noWinnerLabels: "لم يتم العثور على تسميات فائز.",
@@ -290,22 +329,132 @@ const I18N = {
     of: "من",
     items: "عنصر",
     perPage: "/صفحة",
-    youtubeUrl: "رابط يوتيوب",
-    languageName: "English"
+    languageName: "English",
+    aboutTitle: "حول هذه اللوحة · شرح التجارب والنماذج",
+    tabReference: "مرجع · التجارب والنماذج",
+    perfBadgeTitle: "التجارب: بدون أمثلة · دليل QDC · استرجاع RAG · خط متعدد الخطوات. النماذج: gemma3:12b (محلي)، gemma4، llama4، qwen3.5، deepseek-r1، gpt-oss.",
+    refExperiments: "التجارب",
+    refModels: "النماذج",
+    refContext: "سياق التقييم",
+    refSource: "المصدر: Judy: Leveraging Artificial Intelligence to Standardize and Debias Debate Judging — القسم 3 البيانات، القسم 5.1 الإعداد التجريبي، القسم 5.2 النماذج، القسم 5.3 المقاييس، القسم 6 النتائج.",
+    refFolderKey: "مفتاح المجلد",
+    refExperiment: "التجربة",
+    refWhat: "ما الذي تفعله",
+    refWhy: "لماذا وُجدت",
+    refModelKey: "مفتاح النموذج",
+    refFamily: "العائلة",
+    refDescription: "الوصف"
   }
 };
 
 let LANG = localStorage.getItem('judy_lang') || 'en';
 function t(key){ return (I18N[LANG] && I18N[LANG][key]) || I18N.en[key] || key; }
+
+// ============ Reference data (from the paper) ============
+const EXPERIMENT_INFO = {
+  en: [
+    { key: "outputs", name: "Zero-shot generic prompt",
+      desc: "Minimal instruction: act as an expert judge, read the motion + transcript, pick a winner. No QDC rules, no examples, no steps.",
+      role: "Baseline for the model's general knowledge." },
+    { key: "QDC rubric prompt", name: "QDC rubric prompt",
+      desc: "System prompt contains the Qatar Debate Center manual: persuasion standard, clash analysis, content/style/strategy, placement rules, fairness (ignore names, no personal opinion). Returns structured JSON (ground, arguments, clashes, decision, speaker scores, feedback).",
+      role: "Tests whether grounding in official criteria improves alignment (RQ2)." },
+    { key: "RAG", name: "RAG over QDC materials",
+      desc: "QDC manual chunked at ≤900 chars, embedded with bge-m3, queried with 6 fixed judging questions + motion. Top-8 chunks fed into a short prompt.",
+      role: "Tests whether the model needs the whole rubric or only the relevant parts." },
+    { key: "pipeline", name: "Multi-step pipeline",
+      desc: "4 model calls: (1) problem + definitions + clash type, (2) per-speech argument extraction with exact quotes, (3) clash analysis from step 1–2 output, (4) verdict + margin + reasons using QDC weighing rules.",
+      role: "Tests whether decomposing the task helps and improves explainability." },
+    { key: "Length-only", name: "Length-only predictor (control)",
+      desc: "No LLM. Counts words in main speeches only; the longer team wins.",
+      role: "Verbosity control — a model that isn't better than this may be rewarding length, not argument quality." }
+  ],
+  ar: [
+    { key: "outputs", name: "موجّه عام بدون أمثلة",
+      desc: "تعليمات مختصرة: تصرّف كخبير تحكيم، اقرأ الاقتراح والنص، واختر فائزًا. لا قواعد QDC، لا أمثلة، لا خطوات.",
+      role: "خط الأساس للمعرفة العامة للنموذج." },
+    { key: "QDC rubric prompt", name: "موجّه بدليل QDC",
+      desc: "يحتوي موجه النظام على دليل مركز قطر للمناظرات: معيار الإقناع، تحليل التعارض، المحتوى والأسلوب والاستراتيجية، قواعد الموضع، والإنصاف (تجاهل الأسماء، لا رأي شخصي). يعيد JSON منظمًا (الأرضية، الحجج، التعارضات، القرار، درجات المتحدثين، الملاحظات).",
+      role: "يختبر ما إذا كان التأصيل في المعايير الرسمية يحسّن التوافق (سؤال البحث 2)." },
+    { key: "RAG", name: "استرجاع RAG من مواد QDC",
+      desc: "يُقسَّم دليل QDC إلى مقاطع ≤900 حرف، تُضمَّن بـ bge-m3، وتُستعلم بـ6 أسئلة تحكيم ثابتة + الاقتراح. تُغذّى أفضل 8 مقاطع في موجه قصير.",
+      role: "يختبر ما إذا كان النموذج يحتاج الدليل كاملًا أم الأجزاء ذات الصلة فقط." },
+    { key: "pipeline", name: "خط متعدد الخطوات",
+      desc: "4 استدعاءات للنموذج: (1) المشكلة والتعريفات ونوع التعارض، (2) استخراج الحجج لكل خطاب مع اقتباسات دقيقة، (3) تحليل التعارض من مخرجات الخطوتين 1–2، (4) الحكم والهامش والأسباب باستخدام قواعد ترجيح QDC.",
+      role: "يختبر ما إذا كان تقسيم المهمة يساعد ويحسّن قابلية التفسير." },
+    { key: "Length-only", name: "متنبئ الطول فقط (ضابط)",
+      desc: "بدون نموذج لغوي. يعدّ الكلمات في الخطابات الرئيسية فقط؛ يفوز الفريق الأطول.",
+      role: "ضابط الإسهاب — النموذج الذي ليس أفضل من هذا قد يكافئ الطول لا جودة الحجة." }
+  ]
+};
+
+const MODEL_INFO = {
+  en: [
+    { key: "gemma3:12b", family: "Google DeepMind", desc: "Common local model used in the §5.1 setup. Efficient multilingual reasoning and structured generation." },
+    { key: "gemma4",     family: "Google DeepMind", desc: "Successor; efficient multilingual reasoning + structured generation." },
+    { key: "llama4",     family: "Meta",            desc: "Multilingual understanding and long-context processing." },
+    { key: "qwen3.5",    family: "Alibaba Qwen",    desc: "Multilingual instruction following, reasoning, and structured generation. Best overall in the study (mean accuracy 0.70; 0.80 with QDC prompt)." },
+    { key: "deepseek-r1",family: "DeepSeek",        desc: "Open-weight reasoning model trained with large-scale RL." },
+    { key: "gpt-oss",    family: "OpenAI",          desc: "Open-weight MoE family (including a 20B variant) for efficient local deployment." }
+  ],
+  ar: [
+    { key: "gemma3:12b", family: "Google DeepMind", desc: "النموذج المحلي المشترك المستخدم في إعداد القسم 5.1. استدلال متعدد اللغات فعّال وتوليد منظم." },
+    { key: "gemma4",     family: "Google DeepMind", desc: "الخلف؛ استدلال متعدد اللغات فعّال + توليد منظم." },
+    { key: "llama4",     family: "Meta",            desc: "فهم متعدد اللغات ومعالجة سياق طويل." },
+    { key: "qwen3.5",    family: "Alibaba Qwen",    desc: "اتباع تعليمات متعدد اللغات، استدلال، وتوليد منظم. الأفضل إجمالًا في الدراسة (متوسط دقة 0.70؛ 0.80 مع دليل QDC)." },
+    { key: "deepseek-r1",family: "DeepSeek",        desc: "نموذج استدلال مفتوح الأوزان دُرِّب بتعلم معزز واسع النطاق." },
+    { key: "gpt-oss",    family: "OpenAI",          desc: "عائلة MoE مفتوحة الأوزان (بما في ذلك نسخة 20B) للنشر المحلي الفعّال." }
+  ]
+};
+
+const METRIC_CONTEXT = {
+  en: {
+    dataset: "20 Arabic debates from Qatar Debate Center (QDC) · 19.30 h · 114,528 words · ground truth = QDC official winner.",
+    baselines: "Majority class = 0.55 · Length-only control = 0.65 (κ = 0.30).",
+    best: "Best system: qwen3.5 + QDC rubric prompt → 0.80 accuracy (95% CI [0.58, 0.92]), κ = 0.59."
+  },
+  ar: {
+    dataset: "20 مناظرة عربية من مركز قطر للمناظرات (QDC) · 19.30 ساعة · 114,528 كلمة · الحقيقة المرجعية = الفائز الرسمي لـ QDC.",
+    baselines: "فئة الأغلبية = 0.55 · ضابط الطول فقط = 0.65 (κ = 0.30).",
+    best: "أفضل نظام: qwen3.5 + دليل QDC → دقة 0.80 (فاصل ثقة 95% [0.58, 0.92])، κ = 0.59."
+  }
+};
+
+function renderAbout(){
+  const experiments = EXPERIMENT_INFO[LANG] || EXPERIMENT_INFO.en;
+  const models = MODEL_INFO[LANG] || MODEL_INFO.en;
+  const ctx = METRIC_CONTEXT[LANG] || METRIC_CONTEXT.en;
+  const expRows = experiments.map(e =>
+    `<tr><td><code>${esc(e.key)}</code></td><td><strong>${esc(e.name)}</strong></td><td>${esc(e.desc)}</td><td>${esc(e.role)}</td></tr>`
+  ).join("");
+  const modRows = models.map(m =>
+    `<tr><td><code>${esc(m.key)}</code></td><td>${esc(m.family)}</td><td>${esc(m.desc)}</td></tr>`
+  ).join("");
+  const html = `
+    <p style="margin:0 0 10px"><strong>${esc(ctx.dataset)}</strong> ${esc(ctx.baselines)} ${esc(ctx.best)}</p>
+    <div class="ref-section-title">${esc(t('refExperiments'))}</div>
+    <table class="ref-table"><thead><tr>
+      <th>${esc(t('refFolderKey'))}</th><th>${esc(t('refExperiment'))}</th><th>${esc(t('refWhat'))}</th><th>${esc(t('refWhy'))}</th>
+    </tr></thead><tbody>${expRows}</tbody></table>
+    <div class="ref-section-title">${esc(t('refModels'))}</div>
+    <table class="ref-table"><thead><tr>
+      <th>${esc(t('refModelKey'))}</th><th>${esc(t('refFamily'))}</th><th>${esc(t('refDescription'))}</th>
+    </tr></thead><tbody>${modRows}</tbody></table>
+    <p style="margin:14px 0 0;color:var(--muted);font-size:12px">${esc(t('refSource'))}</p>`;
+  if ($('aboutBody')) $('aboutBody').innerHTML = html;
+  if ($('referenceBody')) $('referenceBody').innerHTML = html;
+}
+
 function applyI18n(){
   document.documentElement.lang = LANG;
   document.documentElement.dir = LANG === 'ar' ? 'rtl' : 'ltr';
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
+  document.querySelectorAll('[data-i18n-title]').forEach(el => { el.title = t(el.dataset.i18nTitle); });
   $('theme').innerHTML = '☼ <span>' + (document.body.classList.contains('light') ? t('themeDark') : t('themeLight')) + '</span>';
   $('langLabel').textContent = t('languageName');
-  // Re-render dynamic content so translated labels appear
   if (typeof records !== 'undefined' && records.length){ render(); renderList(); renderDetailedGround(); }
+  renderAbout();
 }
 
 // ============ App constants ============
@@ -408,6 +557,20 @@ function filtered(){
   let e=$('experiment').value,m=$('model').value,d=$('debate').value,q=norm($('globalSearch').value);
   return records.filter(r=>(!e||r.experiment===e)&&(!m||r.model===m)&&(!d||r.id===d)&&(!q||norm(JSON.stringify(r.data)).includes(q)||norm(r.id).includes(q)));
 }
+
+// Tooltip helpers
+function expTip(name){
+  const list = EXPERIMENT_INFO[LANG] || EXPERIMENT_INFO.en;
+  const info = list.find(e => String(name).toLowerCase().includes(e.key.toLowerCase())) ||
+               list.find(e => e.name.toLowerCase().includes(String(name).toLowerCase()));
+  return info ? `<span title="${esc(info.desc)}">${esc(name)}</span>` : esc(name);
+}
+function modelTip(name){
+  const list = MODEL_INFO[LANG] || MODEL_INFO.en;
+  const info = list.find(m => String(name).toLowerCase().includes(m.key.toLowerCase()));
+  return info ? `<span title="${esc(info.desc)}">${esc(name)}</span>` : esc(name);
+}
+
 function render(){
   let rs=filtered(),known=Object.keys(ground);
   let correct=rs.filter(r=>Object.hasOwn(ground,r.id)&&r.winner===norm(ground[r.id])).length;
@@ -428,7 +591,7 @@ function render(){
 
   renderComparisonTable(rs);
 
-  $('performance').innerHTML=byModel.length?unique(rs.map(r=>r.experiment)).flatMap(e=>unique(rs.filter(r=>r.experiment===e).map(r=>r.model)).map(m=>{let a=rs.filter(r=>r.experiment===e&&r.model===m),s=a.filter(r=>Object.hasOwn(ground,r.id)),c=s.filter(r=>r.winner===norm(ground[r.id])).length,cf=a.map(r=>r.confidence).filter(x=>x!==null);return `<tr><td>${esc(e)}</td><td>${esc(m)}</td><td>${c}/${s.length}</td><td>${fmt(s.length?c/s.length:NaN)}</td><td>${fmt(a.length/Math.max(1,known.length))}</td><td>${cf.length?(cf.reduce((x,y)=>x+y,0)/cf.length).toFixed(2):'—'}</td></tr>`})).join(''):`<tr><td colspan="6">${t('noVerdictFiles')}</td></tr>`;
+  $('performance').innerHTML=byModel.length?unique(rs.map(r=>r.experiment)).flatMap(e=>unique(rs.filter(r=>r.experiment===e).map(r=>r.model)).map(m=>{let a=rs.filter(r=>r.experiment===e&&r.model===m),s=a.filter(r=>Object.hasOwn(ground,r.id)),c=s.filter(r=>r.winner===norm(ground[r.id])).length,cf=a.map(r=>r.confidence).filter(x=>x!==null);return `<tr><td>${expTip(e)}</td><td>${modelTip(m)}</td><td>${c}/${s.length}</td><td>${fmt(s.length?c/s.length:NaN)}</td><td>${fmt(a.length/Math.max(1,known.length))}</td><td>${cf.length?(cf.reduce((x,y)=>x+y,0)/cf.length).toFixed(2):'—'}</td></tr>`})).join(''):`<tr><td colspan="6">${t('noVerdictFiles')}</td></tr>`;
   renderList();
 }
 
@@ -449,8 +612,8 @@ function renderComparisonTable(rs){
         return `<tr>
           <td>${esc(r.id)}</td>
           <td><span class="pill">${esc(gt)}</span></td>
-          <td>${esc(r.experiment)}</td>
-          <td>${esc(r.model)}</td>
+          <td>${expTip(r.experiment)}</td>
+          <td>${modelTip(r.model)}</td>
           <td>${esc(r.winner || '—')}</td>
           <td class="${gt === '—' ? '' : match ? 'good' : 'bad'}">${gt === '—' ? t('notScored') : match ? t('correct') : t('different')}</td>
           <td class="just-cell">
@@ -541,9 +704,15 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
   activeTab=b.dataset.tab;
   pageState.files.page=1;
   const detailed=activeTab==='detailed-ground';
+  const reference=activeTab==='reference';
   $('detailedGroundPanel').hidden=!detailed;
-  $('sourceBrowser').hidden=detailed;
-  if(!detailed){
+  $('referencePanel').hidden=!reference;
+  $('sourceBrowser').hidden=detailed||reference;
+  if(reference){
+    document.querySelector('#aboutNotice details').open = true;
+    renderAbout();
+  }
+  if(!detailed && !reference){
     selected=null;
     $('detailTitle').textContent=t('selectFile');
     $('detailContent').textContent=t('jsonPlaceholder');
