@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JUDY · Experiment Observatory</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2d;--panel2:#172239;--line:#263550;--text:#edf3ff;--muted:#91a1bd;--cyan:#62d6e8;--violet:#a99bff;--green:#69d6a6;--red:#ff8294;--amber:#f5c56b}
+body.light{--bg:#f3f6fb;--panel:#fff;--panel2:#edf2f8;--line:#d6dfeb;--text:#182338;--muted:#60718a;--cyan:#087e96;--violet:#6851b8;--green:#16865b;--red:#c63f58;--amber:#9a6500;background:radial-gradient(ellipse at 15% -10%,#dce9f8 0,transparent 42%),var(--bg)}
+body.light .card{background:linear-gradient(155deg,#fff,#f4f7fb)}body.light button{background:#edf2f8;color:var(--text)}body.light .toolbar select,body.light .toolbar input{background:#fff;color:var(--text)}body.light .notice{background:#e7f1fa;color:#30445e;border-color:#c4d7e9}body.light .json{background:#f7f9fc;color:#24334a}body.light .speech{background:#f4f7fb;color:#24334a}body.light .transcript{color:#24334a}body.light .listitem:hover,body.light .listitem.active{background:#e7eef8}body.light .tab.active{background:#e2edf8}body.light .pill{background:#e4ebf4;color:#34465f}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -10%,#1d3150 0,transparent 40%),var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
+button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--line);background:#1a2942;color:var(--text);padding:9px 13px;border-radius:10px}button:hover{border-color:var(--cyan);background:#203450}.primary{background:linear-gradient(120deg,#257e91,#6554b5);border:0;font-weight:700}.top{padding:28px clamp(16px,4vw,56px) 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.brand{display:flex;gap:14px;align-items:center}.logo{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,#5ee2e8,#9278ff);display:grid;place-items:center;color:#081323;font-size:22px;font-weight:900}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.17em;font-weight:800}.title{font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.04em}.sub{color:var(--muted);margin-top:3px}.actions{display:flex;gap:9px;flex-wrap:wrap}.wrap{max-width:1600px;margin:auto;padding:24px clamp(14px,3vw,42px) 60px}.notice{background:#17263b;border:1px solid #31516a;padding:13px 16px;border-radius:12px;color:#c9d9ec;margin-bottom:20px}.notice strong{color:var(--cyan)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.toolbar select,.toolbar input{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 12px;min-width:180px}.status{margin-left:auto;color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card{background:linear-gradient(155deg,#17233a,#111a2c);border:1px solid var(--line);border-radius:16px;padding:17px;min-width:0}.metric-label{color:var(--muted);font-size:12px}.metric{font-size:30px;font-weight:800;letter-spacing:-.04em;margin:5px 0}.metric-note{color:var(--muted);font-size:11px}.section{margin-top:24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}.section h2{font-size:17px;margin:0;letter-spacing:-.02em}.hint{font-size:12px;color:var(--muted)}.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}.chart{height:260px;display:flex;align-items:end;gap:13px;padding:18px 8px 24px;overflow-x:auto}.barwrap{height:100%;min-width:65px;flex:1;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:7px}.bararea{height:190px;width:100%;display:flex;align-items:end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 46px,#26355055 47px,#26355055 48px)}.bar{width:min(38px,65%);border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,var(--cyan),#4b77c9);min-height:2px;position:relative}.barval{font-size:11px;color:var(--text);font-weight:700;margin-bottom:4px}.barlabel{font-size:10px;color:var(--muted);text-align:center;max-width:90px;overflow-wrap:anywhere}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.tablebox{overflow:auto}.data{width:100%;border-collapse:collapse;min-width:600px}.data th,.data td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);font-size:12px}.data th{color:var(--muted);font-weight:600}.data tr:hover td{background:#ffffff08}.pill{display:inline-block;padding:3px 8px;border-radius:99px;background:#263651;color:#c6d8f2;font-size:10px}.good{color:var(--green)}.bad{color:var(--red)}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}.tab{background:transparent;color:var(--muted)}.tab.active{background:#253957;color:var(--cyan);border-color:#42617e}.browser{display:grid;grid-template-columns:280px minmax(0,1fr);gap:13px;min-height:440px}.side{max-height:650px;overflow:auto}.listitem{padding:10px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}.listitem:hover,.listitem.active{background:#20324d}.listitem small{display:block;color:var(--muted);font-size:10px}.detail{min-width:0}.detailhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}.json{white-space:pre-wrap;overflow-wrap:anywhere;background:#080e1a;border:1px solid var(--line);border-radius:12px;padding:16px;max-height:650px;overflow:auto;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;color:#c6d7f2}.search{width:min(320px,100%)}.empty{padding:40px;text-align:center;color:var(--muted)}.transcript{white-space:pre-wrap;line-height:1.8;color:#d4def0}.speech{padding:13px;margin:9px 0;background:#0e192b;border:1px solid var(--line);border-radius:10px}.speechhead{display:flex;justify-content:space-between;color:var(--cyan);font-size:11px;margin-bottom:7px}.footer{color:var(--muted);font-size:11px;margin-top:26px}.justification{max-width:440px;white-space:pre-wrap;overflow-wrap:anywhere}.justification.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.expand{padding:3px 8px;margin-top:6px;font-size:12px;border-radius:7px;min-width:28px}.just-cell{min-width:230px}.ground-table{direction:rtl;text-align:right;min-width:1120px}.ground-table th,.ground-table td{text-align:right;white-space:normal;vertical-align:top}.ground-table td:nth-child(2){direction:ltr;text-align:left;min-width:230px}.ground-table a{color:var(--cyan);text-decoration:none}.ground-table a:hover{text-decoration:underline}.ground-count{color:var(--muted);font-size:12px;margin:8px 0 12px}.ground-panel[hidden],.browser[hidden]{display:none}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.twocol{grid-template-columns:1fr}.browser{grid-template-columns:1fr}.side{max-height:240px}}
+@media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.metric{font-size:24px}.top{align-items:flex-start}.status{margin-left:0;width:100%}}
+.logo{width:55px;height:55px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.logo img{width:100%;height:100%;object-fit:contain}
+/* Pagination */
+.pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin:14px 0 4px}
+.pager button{padding:6px 11px;border-radius:8px;min-width:36px}
+.pager button:disabled{opacity:.4;cursor:not-allowed}
+.pager .pager-info{color:var(--muted);font-size:12px;margin:0 6px}
+.pager .pager-size{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+body.light .pager .pager-size{background:#fff;color:var(--text)}
+/* RTL adjustments */
+html[dir="rtl"] body{font-family:"Segoe UI","Tahoma","Arial",Inter,sans-serif}
+html[dir="rtl"] .status{margin-left:0;margin-right:auto}
+html[dir="rtl"] .data th,html[dir="rtl"] .data td{text-align:right}
+html[dir="rtl"] .ground-table{min-width:1120px}
+html[dir="rtl"] .ground-table td:nth-child(2){direction:ltr;text-align:left}
+html[dir="rtl"] .justification{text-align:right}
+html[dir="rtl"] .section-head{flex-direction:row}
+html[dir="rtl"] .browser{grid-template-columns:minmax(0,1fr) 280px}
+@media(max-width:900px){html[dir="rtl"] .browser{grid-template-columns:1fr}}
+html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo"><img src="judy-logo.png" alt="JUDY Logo"></div>
+    <div>
+      <div class="eyebrow" data-i18n="eyebrow">JUDY · RESEARCH CONSOLE</div>
+      <div class="title" data-i18n="title">Experiment Observatory</div>
+      <div class="sub" data-i18n="subtitle">Debate adjudication · model evaluation · ground-truth benchmarking</div>
+    </div>
+  </div>
+  <div class="actions">
+    <button id="theme">☼ <span data-i18n="themeLight">Light theme</span></button>
+    <button id="lang" title="Switch language">🌐 <span id="langLabel">العربية</span></button>
+    <button id="rescan">↻ <span data-i18n="reload">Reload data</span></button>
+  </div>
+</header>
+<main class="wrap">
+<div class="notice" id="loadNotice"><strong data-i18n="loadingStrong">Loading research data from GitHub…</strong> <span data-i18n="loadingText">The dashboard automatically reads the JSON files stored alongside this page in the GitHub repository.</span></div>
+<div class="toolbar">
+  <select id="experiment" disabled><option value="" data-i18n="allExperiments">All experiments</option></select>
+  <select id="model" disabled><option value="" data-i18n="allModels">All models</option></select>
+  <select id="debate" disabled><option value="" data-i18n="allDebates">All debates</option></select>
+  <input id="globalSearch" class="search" placeholder="Search debates, justifications, JSON…" data-i18n-placeholder="searchPlaceholder" disabled>
+  <span class="status" id="status" data-i18n="noFolder">No folder selected</span>
+</div>
+<div class="grid">
+  <div class="card"><div class="metric-label" data-i18n="mDebatesLabel">Debates in ground truth</div><div class="metric" id="mDebates">—</div><div class="metric-note" data-i18n="mDebatesNote">Unique debate IDs</div></div>
+  <div class="card"><div class="metric-label" data-i18n="mVerdictsLabel">Model verdicts loaded</div><div class="metric" id="mVerdicts">—</div><div class="metric-note" data-i18n="mVerdictsNote">Across experiment × model folders</div></div>
+  <div class="card"><div class="metric-label" data-i18n="mAccuracyLabel">Overall accuracy</div><div class="metric" id="mAccuracy">—</div><div class="metric-note" data-i18n="mAccuracyNote">Against official winners · filtered view</div></div>
+  <div class="card"><div class="metric-label" data-i18n="mConfidenceLabel">Mean confidence</div><div class="metric" id="mConfidence">—</div><div class="metric-note" data-i18n="mConfidenceNote">Available confidence values</div></div>
+</div>
+<div class="section twocol">
+  <div class="card"><div class="section-head"><h2 data-i18n="accuracyByModel">Accuracy by model</h2><span class="hint" data-i18n="filteredVerdicts">Filtered verdicts</span></div><div id="accuracyChart" class="chart"><div class="empty" data-i18n="loadingData">Loading data…</div></div></div>
+  <div class="card"><div class="section-head"><h2 data-i18n="verdictDist">Verdict distribution</h2><span class="hint" data-i18n="propVsOpp">Proposition vs Opposition</span></div><div id="winnerChart" class="chart"></div><div class="legend"><span><i class="dot" style="background:var(--cyan)"></i><span data-i18n="proposition">Proposition</span></span><span><i class="dot" style="background:var(--violet)"></i><span data-i18n="opposition">Opposition</span></span></div></div>
+</div>
+<div class="section card">
+  <div class="section-head"><h2 data-i18n="expModelPerf">Experiment × model performance</h2><span class="hint" data-i18n="perfHint">Accuracy, agreement and coverage</span></div>
+  <div class="tablebox"><table class="data"><thead><tr>
+    <th data-i18n="thExperiment">Experiment</th><th data-i18n="thModel">Model</th><th data-i18n="thCorrect">Correct</th><th data-i18n="thAccuracy">Accuracy</th><th data-i18n="thCoverage">Coverage</th><th data-i18n="thMeanConf">Mean confidence</th>
+  </tr></thead><tbody id="performance"></tbody></table></div>
+</div>
+<div class="section card">
+  <div class="section-head"><h2 data-i18n="exploreData">Explore source data</h2><span class="hint" data-i18n="exploreHint">Inspect complete JSON, including nested fields and justifications</span></div>
+  <div class="section card">
+    <div class="section-head"><h2 data-i18n="gtVsModel">Ground truth vs model decisions</h2><span class="hint" data-i18n="gtVsModelHint">Every loaded verdict compared with the official debate outcome</span></div>
+    <div class="tablebox"><table class="data" style="min-width:900px"><thead><tr>
+      <th data-i18n="thDebate">Debate</th><th data-i18n="thGT">Ground truth</th><th data-i18n="thExperiment">Experiment</th><th data-i18n="thModel">Model</th><th data-i18n="thModelOutput">Model output</th><th data-i18n="thMatch">Match</th><th data-i18n="thJustification">Justification</th>
+    </tr></thead><tbody id="comparison"><tr><td colspan="7" data-i18n="loadingData">Loading data…</td></tr></tbody></table></div>
+    <div class="pager" id="comparisonPager"></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="verdicts" data-i18n="tabVerdicts">Model output JSON</button>
+    <button class="tab" data-tab="ground" data-i18n="tabGround">Ground truth JSON</button>
+    <button class="tab" data-tab="detailed-ground" data-i18n="tabDetailed">Detailed Ground Truth (CSV)</button>
+    <button class="tab" data-tab="debates" data-i18n="tabDebates">Debate transcripts</button>
+    <button class="tab" data-tab="files" data-i18n="tabFiles">All JSON files</button>
+  </div>
+  <div id="detailedGroundPanel" class="ground-panel" hidden><div class="ground-count" id="groundCount" data-i18n="groundCountDefault">20 detailed debate records · Source: detailed_ground_truth.csv</div><div class="tablebox"><table class="data ground-table"><thead><tr><th>#</th><th data-i18n="thYouTube">YouTube URL</th><th>البطولة</th><th>مستوى المناظرة</th><th>الموالاة</th><th>المعارصة</th><th>الفريق الفائز</th><th>ID</th></tr></thead><tbody id="detailedGroundRows"><tr><td colspan="8" data-i18n="loadingDetailed">Loading detailed ground truth…</td></tr></tbody></table></div></div>
+  <div class="browser" id="sourceBrowser">
+    <div class="card side" id="fileList"><div class="empty" data-i18n="loadingData">Loading data…</div></div>
+    <div class="detail">
+      <div class="detailhead"><strong id="detailTitle" data-i18n="selectFile">Select a file</strong><button id="copy" data-i18n="copyJson" disabled>Copy JSON</button></div>
+      <div id="detailContent" class="json"><div class="empty" data-i18n="jsonPlaceholder">Full JSON content will appear here.</div></div>
+      <div class="pager" id="filePager"></div>
+    </div>
+  </div>
+</div>
+<div class="footer" data-i18n="footer">Runs entirely in your browser. On GitHub Pages, data is fetched from the public repository when the page opens. For a private repository or custom domain, set the repository constants near the top of the script.</div>
+</main>
+
+<script>
+// ============ i18n dictionary ============
+const I18N = {
+  en: {
+    eyebrow: "JUDY · RESEARCH CONSOLE",
+    title: "Experiment Observatory",
+    subtitle: "Debate adjudication · model evaluation · ground-truth benchmarking",
+    themeLight: "Light theme",
+    themeDark: "Dark theme",
+    reload: "Reload data",
+    loadingStrong: "Loading research data from GitHub…",
+    loadingText: "The dashboard automatically reads the JSON files stored alongside this page in the GitHub repository.",
+    allExperiments: "All experiments",
+    allModels: "All models",
+    allDebates: "All debates",
+    searchPlaceholder: "Search debates, justifications, JSON…",
+    noFolder: "No folder selected",
+    mDebatesLabel: "Debates in ground truth",
+    mDebatesNote: "Unique debate IDs",
+    mVerdictsLabel: "Model verdicts loaded",
+    mVerdictsNote: "Across experiment × model folders",
+    mAccuracyLabel: "Overall accuracy",
+    mAccuracyNote: "Against official winners · filtered view",
+    mConfidenceLabel: "Mean confidence",
+    mConfidenceNote: "Available confidence values",
+    accuracyByModel: "Accuracy by model",
+    filteredVerdicts: "Filtered verdicts",
+    verdictDist: "Verdict distribution",
+    propVsOpp: "Proposition vs Opposition",
+    proposition: "Proposition",
+    opposition: "Opposition",
+    expModelPerf: "Experiment × model performance",
+    perfHint: "Accuracy, agreement and coverage",
+    thExperiment: "Experiment",
+    thModel: "Model",
+    thCorrect: "Correct",
+    thAccuracy: "Accuracy",
+    thCoverage: "Coverage",
+    thMeanConf: "Mean confidence",
+    exploreData: "Explore source data",
+    exploreHint: "Inspect complete JSON, including nested fields and justifications",
+    gtVsModel: "Ground truth vs model decisions",
+    gtVsModelHint: "Every loaded verdict compared with the official debate outcome",
+    thDebate: "Debate",
+    thGT: "Ground truth",
+    thModelOutput: "Model output",
+    thMatch: "Match",
+    thJustification: "Justification",
+    tabVerdicts: "Model output JSON",
+    tabGround: "Ground truth JSON",
+    tabDetailed: "Detailed Ground Truth (CSV)",
+    tabDebates: "Debate transcripts",
+    tabFiles: "All JSON files",
+    thYouTube: "YouTube URL",
+    loadingDetailed: "Loading detailed ground truth…",
+    selectFile: "Select a file",
+    copyJson: "Copy JSON",
+    jsonPlaceholder: "Full JSON content will appear here.",
+    footer: "Runs entirely in your browser. On GitHub Pages, data is fetched from the public repository when the page opens. For a private repository or custom domain, set the repository constants near the top of the script.",
+    loadingData: "Loading data…",
+    noMatchVerdicts: "No matching verdicts.",
+    noWinnerLabels: "No winner labels found.",
+    noVerdictsFilter: "No verdicts match the current filters.",
+    noFilesMatch: "No files match this view.",
+    noVerdictFiles: "No verdict files found. Check the outputs folder layout.",
+    notScored: "Not scored",
+    correct: "✓ Correct",
+    different: "✕ Different",
+    noJustification: "No justification available.",
+    showMore: "Show more justification",
+    showLess: "Show less justification",
+    copy: "Copy JSON",
+    allFiles: "JSON file",
+    officialOutcomes: "Official outcomes",
+    debateTranscript: "Debate transcript",
+    connecting: "Connecting to GitHub…",
+    fetching: "Fetching the repository file list and JSON contents.",
+    couldNotLoad: "Could not load repository data",
+    autoLoadFailed: "Automatic loading failed.",
+    loadHint: "Make sure the GitHub repository is public, DATA_ROOT points to the folder containing ground_truth.json, debates/, and outputs/, and GitHub Pages is enabled.",
+    dataLoadedFrom: "Data loaded from",
+    readFiles: "Read",
+    jsonFiles: "JSON files",
+    verdicts: "verdicts",
+    debatesCount: "debates",
+    couldNotRead: "could not be read",
+    reloadHint: "Reload the page or use “Reload data” to fetch the latest version.",
+    groundCount: "detailed debate records · Source: detailed_ground_truth.csv",
+    groundMissing: "Detailed ground truth CSV was not found or could not be read. Add detailed_ground_truth.csv to the repository root.",
+    page: "Page",
+    of: "of",
+    items: "items",
+    perPage: "/page",
+    youtubeUrl: "YouTube URL",
+    languageName: "العربية"
+  },
+  ar: {
+    eyebrow: "JUDY · لوحة البحث",
+    title: "مرصد التجارب",
+    subtitle: "تحكيم المناظرات · تقييم النماذج · مقارنة بالحقيقة المرجعية",
+    themeLight: "الوضع الفاتح",
+    themeDark: "الوضع الداكن",
+    reload: "إعادة تحميل البيانات",
+    loadingStrong: "جارٍ تحميل بيانات البحث من GitHub…",
+    loadingText: "تقرأ لوحة المعلومات تلقائيًا ملفات JSON المخزنة بجانب هذه الصفحة في مستودع GitHub.",
+    allExperiments: "جميع التجارب",
+    allModels: "جميع النماذج",
+    allDebates: "جميع المناظرات",
+    searchPlaceholder: "ابحث في المناظرات والتبريرات وملفات JSON…",
+    noFolder: "لم يتم تحديد مجلد",
+    mDebatesLabel: "المناظرات في الحقيقة المرجعية",
+    mDebatesNote: "معرّفات مناظرات فريدة",
+    mVerdictsLabel: "أحكام النماذج المحمّلة",
+    mVerdictsNote: "عبر مجلدات التجارب × النماذج",
+    mAccuracyLabel: "الدقة الإجمالية",
+    mAccuracyNote: "مقارنة بالفائزين الرسميين · العرض المفلتر",
+    mConfidenceLabel: "متوسط الثقة",
+    mConfidenceNote: "قيم الثقة المتاحة",
+    accuracyByModel: "الدقة حسب النموذج",
+    filteredVerdicts: "الأحكام المفلترة",
+    verdictDist: "توزيع الأحكام",
+    propVsOpp: "الموالاة مقابل المعارضة",
+    proposition: "الموالاة",
+    opposition: "المعارضة",
+    expModelPerf: "أداء التجربة × النموذج",
+    perfHint: "الدقة والتوافق والتغطية",
+    thExperiment: "التجربة",
+    thModel: "النموذج",
+    thCorrect: "صحيح",
+    thAccuracy: "الدقة",
+    thCoverage: "التغطية",
+    thMeanConf: "متوسط الثقة",
+    exploreData: "استكشاف البيانات المصدرية",
+    exploreHint: "افحص ملف JSON الكامل، بما في ذلك الحقول المتداخلة والتبريرات",
+    gtVsModel: "الحقيقة المرجعية مقابل قرارات النموذج",
+    gtVsModelHint: "كل حكم محمّل مقارنة بالنتيجة الرسمية للمناظرة",
+    thDebate: "المناظرة",
+    thGT: "الحقيقة المرجعية",
+    thModelOutput: "مخرجات النموذج",
+    thMatch: "التطابق",
+    thJustification: "التبرير",
+    tabVerdicts: "JSON مخرجات النموذج",
+    tabGround: "JSON الحقيقة المرجعية",
+    tabDetailed: "الحقيقة المرجعية المفصلة (CSV)",
+    tabDebates: "نصوص المناظرات",
+    tabFiles: "جميع ملفات JSON",
+    thYouTube: "رابط يوتيوب",
+    loadingDetailed: "جارٍ تحميل الحقيقة المرجعية المفصلة…",
+    selectFile: "اختر ملفًا",
+    copyJson: "نسخ JSON",
+    jsonPlaceholder: "سيظهر محتوى JSON الكامل هنا.",
+    footer: "يعمل بالكامل داخل متصفحك. على GitHub Pages، يتم جلب البيانات من المستودع العام عند فتح الصفحة. للمستودع الخاص أو النطاق المخصص، اضبط ثوابت المستودع أعلى السكربت.",
+    loadingData: "جارٍ تحميل البيانات…",
+    noMatchVerdicts: "لا توجد أحكام مطابقة.",
+    noWinnerLabels: "لم يتم العثور على تسميات فائز.",
+    noVerdictsFilter: "لا توجد أحكام تطابق عوامل التصفية الحالية.",
+    noFilesMatch: "لا توجد ملفات تطابق هذا العرض.",
+    noVerdictFiles: "لم يتم العثور على ملفات أحكام. تحقق من تخطيط مجلد المخرجات.",
+    notScored: "غير مُقيَّم",
+    correct: "✓ صحيح",
+    different: "✕ مختلف",
+    noJustification: "لا يوجد تبرير متاح.",
+    showMore: "عرض المزيد من التبرير",
+    showLess: "عرض أقل من التبرير",
+    copy: "نسخ JSON",
+    allFiles: "ملف JSON",
+    officialOutcomes: "النتائج الرسمية",
+    debateTranscript: "نص المناظرة",
+    connecting: "جارٍ الاتصال بـ GitHub…",
+    fetching: "جارٍ جلب قائمة ملفات المستودع ومحتويات JSON.",
+    couldNotLoad: "تعذّر تحميل بيانات المستودع",
+    autoLoadFailed: "فشل التحميل التلقائي.",
+    loadHint: "تأكد من أن مستودع GitHub عام، وأن DATA_ROOT يشير إلى المجلد الذي يحتوي على ground_truth.json و debates/ و outputs/، وأن GitHub Pages مفعّل.",
+    dataLoadedFrom: "تم تحميل البيانات من",
+    readFiles: "تمت قراءة",
+    jsonFiles: "ملفات JSON",
+    verdicts: "أحكام",
+    debatesCount: "مناظرات",
+    couldNotRead: "تعذّرت قراءتها",
+    reloadHint: "أعد تحميل الصفحة أو استخدم «إعادة تحميل البيانات» لجلب أحدث إصدار.",
+    groundCount: "سجلات مناظرات مفصلة · المصدر: detailed_ground_truth.csv",
+    groundMissing: "لم يتم العثور على ملف CSV للحقيقة المرجعية المفصلة أو تعذّرت قراءته. أضف detailed_ground_truth.csv إلى جذر المستودع.",
+    page: "صفحة",
+    of: "من",
+    items: "عنصر",
+    perPage: "/صفحة",
+    youtubeUrl: "رابط يوتيوب",
+    languageName: "English"
+  }
+};
+
+let LANG = localStorage.getItem('judy_lang') || 'en';
+function t(key){ return (I18N[LANG] && I18N[LANG][key]) || I18N.en[key] || key; }
+function applyI18n(){
+  document.documentElement.lang = LANG;
+  document.documentElement.dir = LANG === 'ar' ? 'rtl' : 'ltr';
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
+  $('theme').innerHTML = '☼ <span>' + (document.body.classList.contains('light') ? t('themeDark') : t('themeLight')) + '</span>';
+  $('langLabel').textContent = t('languageName');
+  // Re-render dynamic content so translated labels appear
+  if (typeof records !== 'undefined' && records.length){ render(); renderList(); renderDetailedGround(); }
+}
+
+// ============ App constants ============
+const GITHUB_OWNER = '';
+const GITHUB_REPO = '';
+const DATA_ROOT = '';
+const $=id=>document.getElementById(id);
+let ground={}, debates=[], records=[], allFiles=[], selected=null, activeTab='verdicts', detailedGroundTruth=[];
+
+const PAGE_SIZE_DEFAULT = 20;
+let pageState = {
+  comparison: { page: 1, size: PAGE_SIZE_DEFAULT },
+  files:      { page: 1, size: PAGE_SIZE_DEFAULT }
+};
+
+const norm=s=>String(s??'').toLowerCase().trim();
+const winnerOf=o=>o?.result?.winner??o?.winner??o?.verdict?.winner??o?.decision?.winner??'';
+const confidenceOf=o=>{let x=o?.result?.confidence??o?.confidence??o?.verdict?.confidence;return typeof x==='number'?x:null};
+const debateId=o=>o?.debate_id??o?.id??'';
+const fmt=x=>Number.isFinite(x)?(x*100).toFixed(1)+'%':'—';
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+async function readJson(f){if(f.data!==undefined)return f.data;try{const r=await fetch(f.url);if(!r.ok)throw Error('HTTP '+r.status);return await r.json()}catch(e){return {__parse_error:String(e)}}}
+function repoInfo(){let owner=GITHUB_OWNER,repo=GITHUB_REPO;if(owner&&repo)return {owner,repo};const host=location.hostname;const path=location.pathname.split('/').filter(Boolean);if(host.endsWith('.github.io')){owner=host.split('.')[0];repo=path[0]||`${owner}.github.io`;return {owner,repo}}if(host==='github.com'&&path.length>=2)return {owner:path[0],repo:path[1]};throw Error('Cannot detect the GitHub repository from this URL. Set GITHUB_OWNER and GITHUB_REPO near the top of the dashboard script.');}
+async function fetchJson(url){const r=await fetch(url,{headers:{Accept:'application/vnd.github+json'}});if(!r.ok)throw Error(`GitHub request failed (${r.status}) for ${url}`);return r.json()}
+function parseCSV(text){const out=[];let row=[],cell='',quoted=false;for(let i=0;i<text.length;i++){const c=text[i];if(quoted){if(c==='"'&&text[i+1]==='"'){cell+='"';i++}else if(c==='"')quoted=false;else cell+=c}else if(c==='"')quoted=true;else if(c===','){row.push(cell);cell=''}else if(c==='\n'){row.push(cell.replace(/\r$/,''));if(row.some(v=>v!==''))out.push(row);row=[];cell=''}else cell+=c}row.push(cell.replace(/\r$/,''));if(row.some(v=>v!==''))out.push(row);return out}
+function renderDetailedGround(){
+  const body=$('detailedGroundRows');
+  if(!detailedGroundTruth.length){
+    body.innerHTML='<tr><td colspan="8">'+esc(t('groundMissing'))+'</td></tr>';
+    return;
+  }
+  body.innerHTML=detailedGroundTruth.map(r=>`<tr><td>${esc(r[0])}</td><td><a href="${esc(r[1])}" target="_blank" rel="noopener noreferrer">${esc(r[1])}</a></td><td>${esc(r[2])}</td><td>${esc(r[3])}</td><td>${esc(r[4])}</td><td>${esc(r[5])}</td><td><strong>${esc(r[6])}</strong></td><td>${esc(r[7])}</td></tr>`).join('');
+  $('groundCount').textContent = `${detailedGroundTruth.length} ${t('groundCount')}`;
+}
+async function load(){
+  const notice=$('loadNotice');
+  $('status').textContent=t('connecting');
+  $('rescan').disabled=true;
+  notice.innerHTML='<strong>'+t('loadingStrong')+'</strong> '+t('fetching');
+  try{
+    const {owner,repo}=repoInfo();
+    const meta=await fetchJson(`https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`);
+    const branch=meta.default_branch||'main';
+    const tree=await fetchJson(`https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/git/trees/${encodeURIComponent(branch)}?recursive=1`);
+    if(tree.truncated)throw Error('GitHub returned a truncated repository file list.');
+    let root='';
+    if(DATA_ROOT){root=DATA_ROOT.replace(/^\/+|\/+$/g,'')+'/'}
+    else{
+      const gtPath=tree.tree.find(x=>x.type==='blob'&&x.path.endsWith('ground_truth.json')&&tree.tree.some(y=>y.type==='blob'&&y.path.startsWith(x.path.replace(/ground_truth\.json$/,'debates/')))&&tree.tree.some(y=>y.type==='blob'&&y.path.startsWith(x.path.replace(/ground_truth\.json$/,'outputs'))));
+      if(gtPath)root=gtPath.path.slice(0,-'ground_truth.json'.length);
+    }
+    const csvPath=tree.tree.find(x=>x.type==='blob'&&x.path===root+'detailed_ground_truth.csv')||tree.tree.find(x=>x.type==='blob'&&x.path.split('/').pop().toLowerCase()==='detailed_ground_truth.csv');
+    if(csvPath){
+      const csvUrl=`https://raw.githubusercontent.com/${owner}/${repo}/${encodeURIComponent(branch)}/${csvPath.path.split('/').map(encodeURIComponent).join('/')}`;
+      const csvResponse=await fetch(csvUrl);
+      if(csvResponse.ok){const csvRows=parseCSV(await csvResponse.text());detailedGroundTruth=csvRows.slice(1).map(r=>r.slice(0,8));renderDetailedGround();}
+    }
+    const jsonPaths=tree.tree.filter(x=>x.type==='blob'&&x.path.startsWith(root)&&x.path.toLowerCase().endsWith('.json'));
+    if(!jsonPaths.some(x=>x.path===root+'ground_truth.json'))throw Error(`Could not find ground_truth.json with its debates/ and outputs/ folders.`);
+    allFiles=jsonPaths.map(x=>{const path=x.path.slice(root.length);return {name:path.split('/').pop(),path,url:`https://raw.githubusercontent.com/${owner}/${repo}/${encodeURIComponent(branch)}/${x.path.split('/').map(encodeURIComponent).join('/')}`,data:undefined}});
+    let cursor=0,failed=0;
+    async function worker(){while(cursor<allFiles.length){const i=cursor++;const f=allFiles[i];try{const r=await fetch(f.url);if(!r.ok)throw Error('HTTP '+r.status);f.data=await r.json()}catch(e){f.data={__parse_error:String(e)};failed++}}}
+    await Promise.all(Array.from({length:8},worker));
+    const gt=allFiles.find(f=>f.name==='ground_truth.json'&&f.path.split('/').length===1);
+    ground=gt?.data||{};
+    debates=allFiles.filter(f=>f.path.startsWith('debates/')&&!f.data?.__parse_error).map(f=>({file:f,data:f.data}));
+    records=[];
+    for(const f of allFiles){
+      if(!/\.verdict\.json$/i.test(f.name)||f.data?.__parse_error)continue;
+      const parts=f.path.split('/');
+      const outputsIndex=parts.findIndex(p=>p.startsWith('outputs'));
+      if(outputsIndex<0)continue;
+      const base=parts[outputsIndex];
+      let experiment,model;
+      if(base==='outputs'){experiment=parts[outputsIndex+1]||'outputs';model=parts.length>outputsIndex+3?parts[outputsIndex+2]:'Length-only'}
+      else{experiment=base;model=parts.length>outputsIndex+2?parts[outputsIndex+1]:'Length-only'}
+      const data=f.data;
+      records.push({file:f,experiment,model,data,id:debateId(data)||f.name.replace('.verdict.json',''),winner:norm(winnerOf(data)),confidence:confidenceOf(data)});
+    }
+    $('status').textContent=`${allFiles.length} ${t('jsonFiles')} · ${records.length} ${t('verdicts')} · ${debates.length} ${t('debatesCount')}`;
+    $('rescan').disabled=false;
+    ['experiment','model','debate','globalSearch'].forEach(id=>$(id).disabled=false);
+    populateFilters(); render(); renderList();
+    notice.innerHTML=`<strong>${t('dataLoadedFrom')} ${esc(owner)}/${esc(repo)} (${esc(branch)}).</strong> ${t('readFiles')} ${allFiles.length} ${t('jsonFiles')}${failed?`; ${failed} ${t('couldNotRead')}`:''}. ${t('reloadHint')}`;
+  }catch(e){
+    $('status').textContent=t('couldNotLoad');
+    $('rescan').disabled=false;
+    notice.innerHTML=`<strong>${t('autoLoadFailed')}</strong> ${esc(e.message)}<br><span>${t('loadHint')}</span>`;
+    $('comparison').innerHTML=`<tr><td colspan="7">${esc(e.message)}</td></tr>`;
+  }
+}
+function unique(a){return [...new Set(a)].sort()}
+function populateFilters(){
+  const fill=(id,vals,label)=>{let el=$(id),old=el.value;el.innerHTML=`<option value="">${esc(label)}</option>`+vals.map(v=>`<option>${esc(v)}</option>`).join('');if(vals.includes(old))el.value=old};
+  fill('experiment',unique(records.map(r=>r.experiment)),t('allExperiments'));
+  fill('model',unique(records.map(r=>r.model)),t('allModels'));
+  fill('debate',unique([...Object.keys(ground),...records.map(r=>r.id)]),t('allDebates'));
+}
+function filtered(){
+  let e=$('experiment').value,m=$('model').value,d=$('debate').value,q=norm($('globalSearch').value);
+  return records.filter(r=>(!e||r.experiment===e)&&(!m||r.model===m)&&(!d||r.id===d)&&(!q||norm(JSON.stringify(r.data)).includes(q)||norm(r.id).includes(q)));
+}
+function render(){
+  let rs=filtered(),known=Object.keys(ground);
+  let correct=rs.filter(r=>Object.hasOwn(ground,r.id)&&r.winner===norm(ground[r.id])).length;
+  let scored=rs.filter(r=>Object.hasOwn(ground,r.id));
+  let confs=rs.map(r=>r.confidence).filter(x=>x!==null);
+  $('mDebates').textContent=known.length||debates.length;
+  $('mVerdicts').textContent=rs.length;
+  $('mAccuracy').textContent=fmt(scored.length?correct/scored.length:NaN);
+  $('mConfidence').textContent=confs.length?(confs.reduce((a,b)=>a+b,0)/confs.length).toFixed(2):'—';
+
+  let byModel=unique(rs.map(r=>r.model)).map(m=>{let a=rs.filter(r=>r.model===m),s=a.filter(r=>Object.hasOwn(ground,r.id)),c=s.filter(r=>r.winner===norm(ground[r.id])).length;return {m,a,s,c,acc:s.length?c/s.length:0}});
+  $('accuracyChart').innerHTML=byModel.length?byModel.map(x=>`<div class="barwrap"><div class="barval">${fmt(x.acc)}</div><div class="bararea"><div class="bar" style="height:${x.acc*100}%"></div></div><div class="barlabel">${esc(x.m)}</div></div>`).join(''):`<div class="empty">${t('noMatchVerdicts')}</div>`;
+
+  let prop=rs.filter(r=>r.winner.includes('proposition')).length;
+  let opp=rs.filter(r=>r.winner.includes('opposition')).length;
+  let total=prop+opp;
+  $('winnerChart').innerHTML=total?`<div style="width:100%;align-self:center"><div style="display:flex;height:28px;border-radius:8px;overflow:hidden;background:#263550"><div style="width:${prop/total*100}%;background:var(--cyan)"></div><div style="width:${opp/total*100}%;background:var(--violet)"></div></div><div style="display:flex;justify-content:space-between;margin-top:14px"><span>${t('proposition')} <b>${prop}</b> · ${fmt(prop/total)}</span><span>${t('opposition')} <b>${opp}</b> · ${fmt(opp/total)}</span></div><div class="hint" style="margin-top:8px">${total}</div></div>`:`<div class="empty">${t('noWinnerLabels')}</div>`;
+
+  renderComparisonTable(rs);
+
+  $('performance').innerHTML=byModel.length?unique(rs.map(r=>r.experiment)).flatMap(e=>unique(rs.filter(r=>r.experiment===e).map(r=>r.model)).map(m=>{let a=rs.filter(r=>r.experiment===e&&r.model===m),s=a.filter(r=>Object.hasOwn(ground,r.id)),c=s.filter(r=>r.winner===norm(ground[r.id])).length,cf=a.map(r=>r.confidence).filter(x=>x!==null);return `<tr><td>${esc(e)}</td><td>${esc(m)}</td><td>${c}/${s.length}</td><td>${fmt(s.length?c/s.length:NaN)}</td><td>${fmt(a.length/Math.max(1,known.length))}</td><td>${cf.length?(cf.reduce((x,y)=>x+y,0)/cf.length).toFixed(2):'—'}</td></tr>`})).join(''):`<tr><td colspan="6">${t('noVerdictFiles')}</td></tr>`;
+  renderList();
+}
+
+function renderComparisonTable(rs){
+  const st = pageState.comparison;
+  const total = rs.length;
+  const pages = Math.max(1, Math.ceil(total / st.size));
+  if (st.page > pages) st.page = pages;
+  const start = (st.page - 1) * st.size;
+  const slice = rs.slice(start, start + st.size);
+
+  $('comparison').innerHTML = slice.length
+    ? slice.map((r, i) => {
+        const gi = start + i;
+        const gt = ground[r.id] ?? '—';
+        const match = gt !== '—' && r.winner === norm(gt);
+        const j = r.data?.result?.justification ?? r.data?.justification ?? '';
+        return `<tr>
+          <td>${esc(r.id)}</td>
+          <td><span class="pill">${esc(gt)}</span></td>
+          <td>${esc(r.experiment)}</td>
+          <td>${esc(r.model)}</td>
+          <td>${esc(r.winner || '—')}</td>
+          <td class="${gt === '—' ? '' : match ? 'good' : 'bad'}">${gt === '—' ? t('notScored') : match ? t('correct') : t('different')}</td>
+          <td class="just-cell">
+            <div class="justification collapsed" id="just-${gi}">${esc(j || t('noJustification'))}</div>
+            ${j.length > 160 ? `<button class="expand" data-expand="just-${gi}" aria-expanded="false" title="${t('showMore')}">+</button>` : ''}
+          </td>
+        </tr>`;
+      }).join('')
+    : `<tr><td colspan="7">${t('noVerdictsFilter')}</td></tr>`;
+
+  document.querySelectorAll('[data-expand]').forEach(b => b.onclick = () => {
+    const el = $(b.dataset.expand);
+    const open = b.getAttribute('aria-expanded') !== 'true';
+    el.classList.toggle('collapsed', !open);
+    b.setAttribute('aria-expanded', String(open));
+    b.textContent = open ? '−' : '+';
+    b.title = open ? t('showLess') : t('showMore');
+  });
+
+  renderPager('comparisonPager', pageState.comparison, total, () => renderComparisonTable(filtered()));
+}
+
+function candidates(){
+  let e=$('experiment').value,m=$('model').value,d=$('debate').value,q=norm($('globalSearch').value);
+  if(activeTab==='verdicts')return records.filter(r=>(!e||r.experiment===e)&&(!m||r.model===m)&&(!d||r.id===d)&&(!q||norm(JSON.stringify(r.data)).includes(q))).map(r=>({label:`${r.id} · ${r.model}`,sub:r.experiment+' · '+r.winner,file:r.file,data:r.data}));
+  if(activeTab==='ground')return allFiles.filter(f=>f.name==='ground_truth.json').map(f=>({label:f.name,sub:t('officialOutcomes'),file:f,data:ground}));
+  if(activeTab==='debates')return debates.filter(r=>(!d||r.data.id===d)&&(!q||norm(JSON.stringify(r.data)).includes(q))).map(r=>({label:r.data.id||r.file.name,sub:r.data.motion||t('debateTranscript'),file:r.file,data:r.data}));
+  return allFiles.filter(f=>(!q||norm(f.path).includes(q))).map(f=>({label:f.path,sub:t('allFiles'),file:f,data:f.data}));
+}
+
+function renderList(){
+  const arr = candidates();
+  const st = pageState.files;
+  const total = arr.length;
+  const pages = Math.max(1, Math.ceil(total / st.size));
+  if (st.page > pages) st.page = pages;
+  const start = (st.page - 1) * st.size;
+  const slice = arr.slice(start, start + st.size);
+
+  $('fileList').innerHTML = slice.length
+    ? slice.map((x, i) => {
+        const gi = start + i;
+        return `<div class="listitem ${selected?.file.path === x.file.path ? 'active' : ''}" data-i="${gi}">${esc(x.label)}<small>${esc(x.sub)}</small></div>`;
+      }).join('')
+    : `<div class="empty">${t('noFilesMatch')}</div>`;
+
+  [...$('fileList').querySelectorAll('.listitem')].forEach(el => {
+    el.onclick = () => { const item = candidates()[+el.dataset.i]; showItem(item); };
+  });
+
+  renderPager('filePager', pageState.files, total, () => renderList());
+}
+
+function renderPager(elId, state, total, onUpdate){
+  const el = $(elId);
+  if (!el) return;
+  const pages = Math.max(1, Math.ceil(total / state.size));
+  if (total === 0){ el.innerHTML = ''; return; }
+  const btn = (label, page, disabled, active = false) =>
+    `<button ${disabled ? 'disabled' : ''} class="${active ? 'primary' : ''}" data-page="${page}">${label}</button>`;
+
+  let html = '';
+  html += btn('«', 1, state.page === 1);
+  html += btn('‹', state.page - 1, state.page === 1);
+  html += `<span class="pager-info">${t('page')} ${state.page} ${t('of')} ${pages} · ${total} ${t('items')}</span>`;
+  html += btn('›', state.page + 1, state.page === pages);
+  html += btn('»', pages, state.page === pages);
+  html += `<select class="pager-size" data-size>${[10,20,50,100].map(n => `<option value="${n}" ${n === state.size ? 'selected' : ''}>${n}${t('perPage')}</option>`).join('')}</select>`;
+  el.innerHTML = html;
+
+  el.querySelectorAll('button[data-page]').forEach(b => {
+    b.onclick = () => { const p = +b.dataset.page; if (p >= 1 && p <= pages && p !== state.page){ state.page = p; onUpdate(); } };
+  });
+  const sel = el.querySelector('select[data-size]');
+  if (sel) sel.onchange = () => { state.size = +sel.value; state.page = 1; onUpdate(); };
+}
+
+function showItem(item){
+  selected=item;
+  $('detailTitle').textContent=item.file.path;
+  $('detailContent').textContent=JSON.stringify(item.data,null,2);
+  $('copy').disabled=false;
+  renderList();
+}
+$('copy').onclick=()=>{if(selected)navigator.clipboard.writeText(JSON.stringify(selected.data,null,2));};
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));
+  activeTab=b.dataset.tab;
+  pageState.files.page=1;
+  const detailed=activeTab==='detailed-ground';
+  $('detailedGroundPanel').hidden=!detailed;
+  $('sourceBrowser').hidden=detailed;
+  if(!detailed){
+    selected=null;
+    $('detailTitle').textContent=t('selectFile');
+    $('detailContent').textContent=t('jsonPlaceholder');
+    $('copy').disabled=true;
+    renderList();
+  }
+});
+$('rescan').onclick=load;
+$('theme').onclick=()=>{
+  document.body.classList.toggle('light');
+  $('theme').innerHTML='☼ <span>'+(document.body.classList.contains('light')?t('themeDark'):t('themeLight'))+'</span>';
+};
+$('lang').onclick=()=>{
+  LANG = LANG === 'en' ? 'ar' : 'en';
+  localStorage.setItem('judy_lang', LANG);
+  applyI18n();
+};
+['experiment','model','debate','globalSearch'].forEach(id=>$(id).addEventListener(id==='globalSearch'?'input':'change',()=>{
+  pageState.comparison.page = 1;
+  pageState.files.page = 1;
+  render();
+  renderList();
+}));
+
+// Initialize
+applyI18n();
+load();
+</script>
+</body></html>
