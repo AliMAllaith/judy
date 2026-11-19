@@ -1,46 +1,569 @@
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>JUDY · Experiment Observatory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0b1020;--panel:#121a2d;--panel2:#172239;--line:#263550;--text:#edf3ff;--muted:#91a1bd;--cyan:#62d6e8;--violet:#a99bff;--green:#69d6a6;--red:#ff8294;--amber:#f5c56b}
-body.light{--bg:#f3f6fb;--panel:#fff;--panel2:#edf2f8;--line:#d6dfeb;--text:#182338;--muted:#60718a;--cyan:#087e96;--violet:#6851b8;--green:#16865b;--red:#c63f58;--amber:#9a6500;background:radial-gradient(ellipse at 15% -10%,#dce9f8 0,transparent 42%),var(--bg)}
-body.light .card{background:linear-gradient(155deg,#fff,#f4f7fb)}body.light button{background:#edf2f8;color:var(--text)}body.light .toolbar select,body.light .toolbar input{background:#fff;color:var(--text)}body.light .notice{background:#e7f1fa;color:#30445e;border-color:#c4d7e9}body.light .json{background:#f7f9fc;color:#24334a}body.light .speech{background:#f4f7fb;color:#24334a}body.light .transcript{color:#24334a}body.light .listitem:hover,body.light .listitem.active{background:#e7eef8}body.light .tab.active{background:#e2edf8}body.light .pill{background:#e4ebf4;color:#34465f}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -10%,#1d3150 0,transparent 40%),var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
-button,input,select{font:inherit}button{cursor:pointer;border:1px solid var(--line);background:#1a2942;color:var(--text);padding:9px 13px;border-radius:10px}button:hover{border-color:var(--cyan);background:#203450}.primary{background:linear-gradient(120deg,#257e91,#6554b5);border:0;font-weight:700}.top{padding:28px clamp(16px,4vw,56px) 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.brand{display:flex;gap:14px;align-items:center}.logo{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,#5ee2e8,#9278ff);display:grid;place-items:center;color:#081323;font-size:22px;font-weight:900}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.17em;font-weight:800}.title{font-size:clamp(22px,3vw,32px);font-weight:800;letter-spacing:-.04em}.sub{color:var(--muted);margin-top:3px}.actions{display:flex;gap:9px;flex-wrap:wrap}.wrap{max-width:1600px;margin:auto;padding:24px clamp(14px,3vw,42px) 60px}.notice{background:#17263b;border:1px solid #31516a;padding:13px 16px;border-radius:12px;color:#c9d9ec;margin-bottom:20px}.notice strong{color:var(--cyan)}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}.toolbar select,.toolbar input{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 12px;min-width:180px}.status{margin-left:auto;color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.card{background:linear-gradient(155deg,#17233a,#111a2c);border:1px solid var(--line);border-radius:16px;padding:17px;min-width:0}.metric-label{color:var(--muted);font-size:12px}.metric{font-size:30px;font-weight:800;letter-spacing:-.04em;margin:5px 0}.metric-note{color:var(--muted);font-size:11px}.section{margin-top:24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:12px}.section h2{font-size:17px;margin:0;letter-spacing:-.02em}.hint{font-size:12px;color:var(--muted)}.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}.chart{height:260px;display:flex;align-items:end;gap:13px;padding:18px 8px 24px;overflow-x:auto}.barwrap{height:100%;min-width:65px;flex:1;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:7px}.bararea{height:190px;width:100%;display:flex;align-items:end;justify-content:center;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to top,transparent 0,transparent 46px,#26355055 47px,#26355055 48px)}.bar{width:min(38px,65%);border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,var(--cyan),#4b77c9);min-height:2px;position:relative}.barval{font-size:11px;color:var(--text);font-weight:700;margin-bottom:4px}.barlabel{font-size:10px;color:var(--muted);text-align:center;max-width:90px;overflow-wrap:anywhere}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.tablebox{overflow:auto}.data{width:100%;border-collapse:collapse;min-width:600px}.data th,.data td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);font-size:12px}.data th{color:var(--muted);font-weight:600}.data tr:hover td{background:#ffffff08}.pill{display:inline-block;padding:3px 8px;border-radius:99px;background:#263651;color:#c6d8f2;font-size:10px}.good{color:var(--green)}.bad{color:var(--red)}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}.tab{background:transparent;color:var(--muted)}.tab.active{background:#253957;color:var(--cyan);border-color:#42617e}.browser{display:grid;grid-template-columns:280px minmax(0,1fr);gap:13px;min-height:440px}.side{max-height:650px;overflow:auto}.listitem{padding:10px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}.listitem:hover,.listitem.active{background:#20324d}.listitem small{display:block;color:var(--muted);font-size:10px}.detail{min-width:0}.detailhead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}.json{white-space:pre-wrap;overflow-wrap:anywhere;background:#080e1a;border:1px solid var(--line);border-radius:12px;padding:16px;max-height:650px;overflow:auto;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;color:#c6d7f2}.search{width:min(320px,100%)}.empty{padding:40px;text-align:center;color:var(--muted)}.transcript{white-space:pre-wrap;line-height:1.8;color:#d4def0}.speech{padding:13px;margin:9px 0;background:#0e192b;border:1px solid var(--line);border-radius:10px}.speechhead{display:flex;justify-content:space-between;color:var(--cyan);font-size:11px;margin-bottom:7px}.footer{color:var(--muted);font-size:11px;margin-top:26px}.justification{max-width:440px;white-space:pre-wrap;overflow-wrap:anywhere}.justification.collapsed{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.expand{padding:3px 8px;margin-top:6px;font-size:12px;border-radius:7px;min-width:28px}.just-cell{min-width:230px}.ground-table{direction:rtl;text-align:right;min-width:1120px}.ground-table th,.ground-table td{text-align:right;white-space:normal;vertical-align:top}.ground-table td:nth-child(2){direction:ltr;text-align:left;min-width:230px}.ground-table a{color:var(--cyan);text-decoration:none}.ground-table a:hover{text-decoration:underline}.ground-count{color:var(--muted);font-size:12px;margin:8px 0 12px}.ground-panel[hidden],.browser[hidden]{display:none}
-@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.twocol{grid-template-columns:1fr}.browser{grid-template-columns:1fr}.side{max-height:240px}}
-@media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.metric{font-size:24px}.top{align-items:flex-start}.status{margin-left:0;width:100%}}
-.logo{width:55px;height:55px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.logo img{width:100%;height:100%;object-fit:contain}
-/* Pagination */
-.pager{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin:14px 0 4px}
-.pager button{padding:6px 11px;border-radius:8px;min-width:36px}
-.pager button:disabled{opacity:.4;cursor:not-allowed}
-.pager .pager-info{color:var(--muted);font-size:12px;margin:0 6px}
-.pager .pager-size{background:#111c30;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+/* ============ Design Tokens ============ */
+:root{
+  --bg:#080b16;
+  --bg-grad-1:#1a2b5c;
+  --panel:#121a30;
+  --panel-2:#172239;
+  --panel-3:#1d2944;
+  --line:#2a3654;
+  --line-soft:#1f2a44;
+  --text:#eef3ff;
+  --text-dim:#c5d2ea;
+  --muted:#8d9eb8;
+  --muted-2:#69788f;
+  --cyan:#5ee7f5;
+  --cyan-d:#2bc7d8;
+  --cyan-soft:rgba(94,231,245,0.12);
+  --violet:#b3a4ff;
+  --violet-d:#8b76f0;
+  --violet-soft:rgba(179,164,255,0.12);
+  --green:#5ed898;
+  --red:#ff7a8e;
+  --amber:#ffc870;
+  --shadow-card:0 1px 0 rgba(255,255,255,0.04) inset, 0 12px 32px -10px rgba(0,0,0,0.5);
+  --glow-cyan:0 0 28px rgba(94,231,245,0.22);
+  --glow-violet:0 0 28px rgba(179,164,255,0.22);
+  --r-sm:8px; --r-md:12px; --r-lg:16px; --r-xl:22px;
+  --font-display:'Space Grotesk','Inter',system-ui,sans-serif;
+  --font-body:'Inter',system-ui,-apple-system,Segoe UI,sans-serif;
+  --font-mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Consolas,monospace;
+}
+body.light{
+  --bg:#f4f7fc;
+  --bg-grad-1:#dbe9fb;
+  --panel:#ffffff;
+  --panel-2:#f1f5fb;
+  --panel-3:#e8eef7;
+  --line:#d6dfeb;
+  --line-soft:#e3e9f3;
+  --text:#0e1a30;
+  --text-dim:#34465f;
+  --muted:#5e7090;
+  --muted-2:#8595b0;
+  --cyan:#0891b2; --cyan-d:#0a7494; --cyan-soft:rgba(8,145,178,0.10);
+  --violet:#6851b8; --violet-d:#4e3da0; --violet-soft:rgba(104,81,184,0.10);
+  --green:#1a8456; --red:#c63f58; --amber:#a06a00;
+  --shadow-card:0 1px 0 rgba(255,255,255,0.7) inset, 0 8px 24px -10px rgba(20,40,80,0.12);
+  --glow-cyan:0 0 24px rgba(8,145,178,0.16);
+  --glow-violet:0 0 24px rgba(104,81,184,0.16);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(ellipse 60% 40% at 15% 0%, var(--bg-grad-1) 0, transparent 50%),
+    radial-gradient(ellipse 50% 50% at 90% 10%, rgba(139,118,240,0.13) 0, transparent 50%),
+    var(--bg);
+  background-attachment:fixed;
+  color:var(--text);
+  font:14px/1.55 var(--font-body);
+  -webkit-font-smoothing:antialiased;
+  letter-spacing:-0.005em;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--line);border-radius:99px;border:2px solid transparent;background-clip:padding-box}
+::-webkit-scrollbar-thumb:hover{background:var(--muted-2);background-clip:padding-box}
+
+button,input,select{font:inherit;color:inherit}
+button{
+  cursor:pointer;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,var(--panel-3),var(--panel-2));
+  color:var(--text);
+  padding:9px 14px;
+  border-radius:var(--r-md);
+  font-weight:500;
+  transition:all .18s ease;
+  display:inline-flex;align-items:center;gap:6px;
+}
+button:hover{
+  border-color:var(--cyan);
+  box-shadow:0 0 0 3px var(--cyan-soft);
+  transform:translateY(-1px);
+}
+button:active{transform:translateY(0)}
+button:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none}
+.primary{
+  background:linear-gradient(135deg,var(--cyan-d),var(--violet-d));
+  border:0;color:#fff;font-weight:600;
+  box-shadow:0 8px 20px -8px rgba(94,231,245,0.4);
+}
+.primary:hover{
+  background:linear-gradient(135deg,var(--cyan),var(--violet));
+  box-shadow:0 12px 28px -8px rgba(94,231,245,0.5);
+}
+
+/* ============ Header ============ */
+.top{
+  padding:26px clamp(16px,4vw,56px) 22px;
+  display:flex;justify-content:space-between;gap:20px;
+  align-items:center;flex-wrap:wrap;
+  background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line-soft);
+  position:relative;
+}
+.top::after{
+  content:'';position:absolute;left:0;right:0;bottom:-1px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--cyan),var(--violet),transparent);
+  opacity:.45;
+}
+.brand{display:flex;gap:16px;align-items:center}
+.logo{
+  width:88px;height:88px;
+  border-radius:var(--r-lg);
+  background:linear-gradient(135deg,rgba(94,231,245,0.12),rgba(179,164,255,0.12));
+  border:1px solid var(--line);
+  display:grid;place-items:center;
+  padding:8px;
+  box-shadow:var(--glow-cyan), 0 8px 24px -8px rgba(0,0,0,0.4);
+  position:relative;overflow:hidden;
+}
+.logo::before{
+  content:'';position:absolute;inset:-50%;
+  background:conic-gradient(from 0deg,transparent,rgba(94,231,245,0.28),transparent 30%);
+  animation:logoSpin 8s linear infinite;
+}
+.logo img{
+  position:relative;z-index:1;
+  width:100%;height:100%;object-fit:contain;
+  filter:drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+}
+@keyframes logoSpin{to{transform:rotate(360deg)}}
+
+.eyebrow{
+  color:var(--cyan);
+  font-size:11px;letter-spacing:.22em;
+  font-weight:600;text-transform:uppercase;
+  font-family:var(--font-mono);
+}
+.title{
+  font-family:var(--font-display);
+  font-size:clamp(24px,3vw,34px);
+  font-weight:700;letter-spacing:-.035em;
+  line-height:1.1;margin:5px 0 0;
+  background:linear-gradient(135deg,var(--text),var(--text-dim));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.sub{color:var(--muted);margin-top:7px;max-width:560px;font-size:13px}
+.actions{display:flex;gap:9px;flex-wrap:wrap}
+
+.wrap{max-width:1600px;margin:auto;padding:28px clamp(14px,3vw,42px) 60px}
+
+/* ============ Notice ============ */
+.notice{
+  background:linear-gradient(135deg,var(--cyan-soft),var(--violet-soft));
+  border:1px solid var(--line);
+  padding:14px 18px;
+  border-radius:var(--r-md);
+  color:var(--text-dim);
+  margin-bottom:22px;
+  display:flex;align-items:flex-start;gap:14px;
+}
+.notice::before{
+  content:'';flex:0 0 auto;width:4px;align-self:stretch;
+  background:linear-gradient(180deg,var(--cyan),var(--violet));
+  border-radius:99px;
+}
+.notice strong{color:var(--cyan);font-weight:600}
+
+body.light .notice{background:linear-gradient(135deg,var(--cyan-soft),var(--violet-soft))}
+
+/* ============ Toolbar ============ */
+.toolbar{
+  display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+  margin-bottom:22px;padding:14px;
+  background:linear-gradient(180deg,var(--panel),var(--panel-2));
+  border:1px solid var(--line);
+  border-radius:var(--r-lg);
+  box-shadow:var(--shadow-card);
+}
+.toolbar select,.toolbar input{
+  background:var(--bg);color:var(--text);
+  border:1px solid var(--line);
+  border-radius:var(--r-sm);
+  padding:10px 14px;min-width:180px;
+  transition:all .18s;
+}
+.toolbar select:focus,.toolbar input:focus{
+  outline:0;border-color:var(--cyan);
+  box-shadow:0 0 0 3px var(--cyan-soft);
+}
+.status{
+  margin-left:auto;color:var(--muted);
+  font-size:12px;font-family:var(--font-mono);
+  padding:7px 12px;background:var(--bg);
+  border-radius:99px;border:1px solid var(--line);
+}
+
+/* ============ Cards & Metrics ============ */
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.card{
+  background:linear-gradient(155deg,var(--panel) 0%,var(--panel-2) 100%);
+  border:1px solid var(--line);
+  border-radius:var(--r-lg);
+  padding:18px;min-width:0;
+  box-shadow:var(--shadow-card);
+  transition:all .2s ease;
+  position:relative;overflow:hidden;
+  animation:fadeUp .5s ease both;
+}
+.card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.10),transparent);
+}
+.card:hover{
+  border-color:var(--cyan);
+  transform:translateY(-2px);
+  box-shadow:var(--shadow-card),var(--glow-cyan);
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+.metric-label{
+  color:var(--muted);
+  font-size:10.5px;font-weight:600;
+  letter-spacing:.08em;text-transform:uppercase;
+}
+.metric{
+  font-family:var(--font-display);
+  font-size:34px;font-weight:700;
+  letter-spacing:-.04em;margin:8px 0 4px;
+  background:linear-gradient(135deg,var(--cyan),var(--violet));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  line-height:1;
+}
+.metric-note{color:var(--muted-2);font-size:11px}
+
+.section{margin-top:26px}
+.section-head{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:10px;margin-bottom:14px;
+}
+.section h2{
+  font-family:var(--font-display);
+  font-size:18px;margin:0;
+  letter-spacing:-.02em;font-weight:600;
+  position:relative;padding-left:14px;
+}
+.section h2::before{
+  content:'';position:absolute;left:0;top:50%;
+  transform:translateY(-50%);
+  width:4px;height:18px;
+  background:linear-gradient(180deg,var(--cyan),var(--violet));
+  border-radius:99px;
+}
+.hint{
+  font-size:11px;color:var(--muted);
+  font-family:var(--font-mono);
+  padding:4px 10px;background:var(--bg);
+  border-radius:99px;border:1px solid var(--line);
+}
+
+.twocol{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}
+
+/* ============ Chart ============ */
+.chart{
+  height:280px;display:flex;align-items:end;gap:14px;
+  padding:18px 8px 24px;overflow-x:auto;
+}
+.barwrap{
+  height:100%;min-width:65px;flex:1;
+  display:flex;flex-direction:column;
+  justify-content:end;align-items:center;gap:8px;
+}
+.bararea{
+  height:190px;width:100%;
+  display:flex;align-items:end;justify-content:center;
+  border-bottom:1px solid var(--line);
+  background:repeating-linear-gradient(to top,
+    transparent 0,transparent 46px,
+    rgba(94,231,245,0.06) 47px,rgba(94,231,245,0.06) 48px);
+  position:relative;
+}
+.bar{
+  width:min(38px,65%);
+  border-radius:8px 8px 2px 2px;
+  background:linear-gradient(180deg,var(--cyan),var(--violet-d));
+  min-height:2px;position:relative;
+  box-shadow:0 -4px 16px rgba(94,231,245,0.4);
+  animation:barGrow .7s cubic-bezier(.4,0,.2,1);
+  transform-origin:bottom;
+}
+@keyframes barGrow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.bar::after{
+  content:'';position:absolute;top:0;left:0;right:0;height:30%;
+  background:linear-gradient(180deg,rgba(255,255,255,0.3),transparent);
+  border-radius:8px 8px 0 0;
+}
+.barval{
+  font-family:var(--font-mono);font-size:11px;
+  color:var(--text);font-weight:600;margin-bottom:4px;
+}
+.barlabel{
+  font-size:10px;color:var(--muted);
+  text-align:center;max-width:90px;overflow-wrap:anywhere;
+}
+
+.legend{
+  display:flex;gap:16px;flex-wrap:wrap;
+  color:var(--muted);font-size:11px;
+  margin-top:14px;padding-top:14px;
+  border-top:1px solid var(--line-soft);
+}
+.dot{
+  display:inline-block;width:9px;height:9px;
+  border-radius:50%;margin-right:6px;
+  box-shadow:0 0 8px currentColor;
+}
+
+/* ============ Tables ============ */
+.tablebox{
+  overflow:auto;border-radius:var(--r-md);
+  border:1px solid var(--line-soft);
+}
+.data{width:100%;border-collapse:collapse;min-width:600px}
+.data th{
+  text-align:left;padding:13px 14px;
+  background:linear-gradient(180deg,var(--panel-3),var(--panel-2));
+  color:var(--muted);
+  font-weight:600;font-size:11px;
+  letter-spacing:.06em;text-transform:uppercase;
+  border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:1;
+}
+.data td{
+  padding:12px 14px;
+  border-bottom:1px solid var(--line-soft);
+  font-size:12.5px;vertical-align:top;
+}
+.data tr{transition:background .15s}
+.data tr:hover td{background:var(--cyan-soft)}
+.data tr:last-child td{border-bottom:0}
+
+.pill{
+  display:inline-block;padding:4px 10px;
+  border-radius:99px;
+  background:linear-gradient(135deg,var(--cyan-soft),var(--violet-soft));
+  border:1px solid var(--line);
+  color:var(--text-dim);
+  font-size:10px;font-weight:600;
+  font-family:var(--font-mono);letter-spacing:.04em;
+}
+.good{color:var(--green);font-weight:600}
+.bad{color:var(--red);font-weight:600}
+
+/* ============ Tabs ============ */
+.tabs{
+  display:flex;gap:6px;flex-wrap:wrap;
+  margin-bottom:14px;padding:6px;
+  background:var(--panel-2);
+  border:1px solid var(--line);
+  border-radius:var(--r-md);
+}
+.tab{
+  background:transparent;color:var(--muted);
+  border:0;padding:8px 14px;
+  font-weight:500;font-size:13px;
+}
+.tab:hover{
+  color:var(--text);background:var(--panel-3);
+  transform:none;box-shadow:none;
+}
+.tab.active{
+  background:linear-gradient(135deg,var(--cyan-soft),var(--violet-soft));
+  color:var(--cyan);
+  box-shadow:inset 0 0 0 1px var(--line);
+}
+
+/* ============ Browser ============ */
+.browser{
+  display:grid;grid-template-columns:300px minmax(0,1fr);
+  gap:14px;min-height:440px;
+}
+.side{max-height:650px;overflow:auto;padding:8px}
+.listitem{
+  padding:11px 12px;border-radius:var(--r-sm);
+  cursor:pointer;transition:all .15s;
+  border:1px solid transparent;margin-bottom:4px;
+}
+.listitem:hover{
+  background:var(--panel-3);border-color:var(--line);
+  transform:translateX(2px);box-shadow:none;
+}
+.listitem.active{
+  background:linear-gradient(135deg,var(--cyan-soft),var(--violet-soft));
+  border-color:var(--cyan);
+  box-shadow:var(--glow-cyan);
+}
+.listitem small{
+  display:block;color:var(--muted);
+  font-size:10px;margin-top:3px;
+  font-family:var(--font-mono);
+}
+
+.detail{min-width:0}
+.detailhead{
+  display:flex;justify-content:space-between;gap:10px;
+  flex-wrap:wrap;align-items:center;margin-bottom:14px;
+}
+.detailhead strong{
+  font-family:var(--font-mono);font-size:13px;
+  color:var(--text-dim);font-weight:500;word-break:break-all;
+}
+.json{
+  white-space:pre-wrap;overflow-wrap:anywhere;
+  background:var(--bg);
+  border:1px solid var(--line);
+  border-radius:var(--r-md);
+  padding:18px;max-height:650px;overflow:auto;
+  font:12.5px/1.7 var(--font-mono);color:var(--text-dim);
+}
+.search{width:min(320px,100%)}
+.empty{
+  padding:50px 20px;text-align:center;
+  color:var(--muted);font-style:italic;
+}
+
+.transcript{white-space:pre-wrap;line-height:1.8;color:var(--text-dim)}
+.speech{
+  padding:14px;margin:10px 0;
+  background:var(--panel-3);
+  border:1px solid var(--line);
+  border-radius:var(--r-md);
+  border-left:3px solid var(--cyan);
+}
+.speechhead{
+  display:flex;justify-content:space-between;
+  color:var(--cyan);font-size:11px;
+  margin-bottom:8px;
+  font-family:var(--font-mono);font-weight:600;
+}
+
+.footer{
+  color:var(--muted);font-size:11px;
+  margin:30px auto 0;padding:20px 0 0;
+  border-top:1px solid var(--line-soft);
+  text-align:center;max-width:760px;
+}
+
+.justification{
+  max-width:440px;white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  font-size:12px;color:var(--text-dim);line-height:1.6;
+}
+.justification.collapsed{
+  display:-webkit-box;-webkit-line-clamp:3;
+  -webkit-box-orient:vertical;overflow:hidden;
+}
+.expand{
+  padding:3px 9px;margin-top:6px;
+  font-size:12px;border-radius:6px;
+  min-width:28px;background:var(--panel-3);
+  border:1px solid var(--line);font-weight:600;
+}
+.expand:hover{
+  background:var(--cyan-soft);border-color:var(--cyan);
+  color:var(--cyan);transform:none;box-shadow:none;
+}
+.just-cell{min-width:230px}
+
+.ground-table{direction:rtl;text-align:right;min-width:1120px}
+.ground-table th,.ground-table td{text-align:right;white-space:normal;vertical-align:top}
+.ground-table td:nth-child(2){direction:ltr;text-align:left;min-width:230px}
+.ground-table a{
+  color:var(--cyan);text-decoration:none;
+  font-family:var(--font-mono);font-size:11px;
+}
+.ground-table a:hover{text-decoration:underline}
+.ground-count{
+  color:var(--muted);font-size:12px;
+  margin:8px 0 14px;font-family:var(--font-mono);
+}
+.ground-panel[hidden],.browser[hidden]{display:none}
+
+/* ============ Pagination ============ */
+.pager{
+  display:flex;gap:6px;align-items:center;
+  justify-content:center;flex-wrap:wrap;
+  margin:16px 0 4px;padding:10px;
+}
+.pager button{
+  padding:6px 11px;border-radius:var(--r-sm);
+  min-width:36px;background:var(--panel-3);
+  border:1px solid var(--line);
+}
+.pager button:hover:not(:disabled){
+  background:var(--cyan-soft);border-color:var(--cyan);
+  color:var(--cyan);transform:none;box-shadow:none;
+}
+.pager button:disabled{opacity:.35;cursor:not-allowed}
+.pager .pager-info{
+  color:var(--muted);font-size:12px;
+  margin:0 10px;font-family:var(--font-mono);
+}
+.pager .pager-size{
+  background:var(--bg);color:var(--text);
+  border:1px solid var(--line);
+  border-radius:var(--r-sm);padding:6px 10px;
+}
+
+/* ============ Light theme specifics ============ */
+body.light .card{background:linear-gradient(155deg,#fff,#f6f9fd)}
+body.light .toolbar{background:linear-gradient(180deg,#fff,#f5f8fc)}
+body.light .data th{background:linear-gradient(180deg,#f5f8fc,#eef3f9)}
+body.light .json{background:#f7f9fc;color:#24334a}
+body.light .speech{background:#f5f8fc;border-color:var(--line)}
+body.light .transcript{color:#24334a}
+body.light .listitem:hover,body.light .listitem.active{
+  background:linear-gradient(135deg,var(--cyan-soft),var(--violet-soft));
+}
+body.light .tab.active{background:linear-gradient(135deg,var(--cyan-soft),var(--violet-soft))}
+body.light .pager button{background:#fff;border-color:var(--line)}
 body.light .pager .pager-size{background:#fff;color:var(--text)}
-/* RTL adjustments */
-html[dir="rtl"] body{font-family:"Segoe UI","Tahoma","Arial",Inter,sans-serif}
+
+/* ============ RTL ============ */
+html[dir="rtl"] body{font-family:"Segoe UI","Tahoma","Arial",var(--font-body)}
 html[dir="rtl"] .status{margin-left:0;margin-right:auto}
 html[dir="rtl"] .data th,html[dir="rtl"] .data td{text-align:right}
 html[dir="rtl"] .ground-table{min-width:1120px}
 html[dir="rtl"] .ground-table td:nth-child(2){direction:ltr;text-align:left}
 html[dir="rtl"] .justification{text-align:right}
 html[dir="rtl"] .section-head{flex-direction:row}
-html[dir="rtl"] .browser{grid-template-columns:minmax(0,1fr) 280px}
+html[dir="rtl"] .browser{grid-template-columns:minmax(0,1fr) 300px}
+html[dir="rtl"] .section h2{padding-left:0;padding-right:14px}
+html[dir="rtl"] .section h2::before{left:auto;right:0}
 @media(max-width:900px){html[dir="rtl"] .browser{grid-template-columns:1fr}}
 html[dir="rtl"] .tabs{flex-direction:row-reverse;justify-content:flex-end}
-/* About / reference */
-.info-badge{display:inline-grid;place-items:center;width:16px;height:16px;border-radius:50%;background:var(--panel2);border:1px solid var(--line);color:var(--muted);font-size:11px;font-weight:700;cursor:help;margin-inline-start:6px;vertical-align:middle}
-.info-badge:hover{color:var(--cyan);border-color:var(--cyan)}
-details summary::-webkit-details-marker{display:none}
-details summary{cursor:pointer;list-style:none}
-.ref-table{width:100%;border-collapse:collapse;margin-top:10px}
-.ref-table th,.ref-table td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:12px;vertical-align:top;text-align:start}
-.ref-table th{color:var(--muted);font-weight:600}
-.ref-table code{background:var(--panel2);padding:1px 5px;border-radius:4px;font-size:11px}
-.ref-section-title{margin:16px 0 4px;font-size:13px;color:var(--cyan);font-weight:700;letter-spacing:.04em}
+
+/* ============ Responsive ============ */
+@media(max-width:900px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .twocol{grid-template-columns:1fr}
+  .browser{grid-template-columns:1fr}
+  .side{max-height:240px}
+}
+@media(max-width:520px){
+  .grid{grid-template-columns:1fr 1fr}
+  .metric{font-size:26px}
+  .top{align-items:flex-start}
+  .status{margin-left:0;width:100%}
+  .logo{width:64px;height:64px}
+}
 </style>
 </head>
 <body>
@@ -50,7 +573,7 @@ details summary{cursor:pointer;list-style:none}
     <div>
       <div class="eyebrow" data-i18n="eyebrow">JUDY · RESEARCH CONSOLE</div>
       <div class="title" data-i18n="title">Experiment Observatory</div>
-      <div class="sub" data-i18n="subtitle">Debate adjudication · model evaluation · ground-truth benchmarking</div>
+      <div class="sub" data-i18n="subtitle">Exploring how AI models judge competitive debates — and how often they agree with human experts.</div>
     </div>
   </div>
   <div class="actions">
@@ -61,16 +584,6 @@ details summary{cursor:pointer;list-style:none}
 </header>
 <main class="wrap">
 <div class="notice" id="loadNotice"><strong data-i18n="loadingStrong">Loading research data from GitHub…</strong> <span data-i18n="loadingText">The dashboard automatically reads the JSON files stored alongside this page in the GitHub repository.</span></div>
-
-<div class="notice" id="aboutNotice">
-  <details>
-    <summary style="font-weight:700;color:var(--cyan)">
-      <span data-i18n="aboutTitle">About this dashboard · experiments &amp; models explained</span>
-    </summary>
-    <div id="aboutBody" style="margin-top:10px;line-height:1.7"></div>
-  </details>
-</div>
-
 <div class="toolbar">
   <select id="experiment" disabled><option value="" data-i18n="allExperiments">All experiments</option></select>
   <select id="model" disabled><option value="" data-i18n="allModels">All models</option></select>
@@ -89,11 +602,7 @@ details summary{cursor:pointer;list-style:none}
   <div class="card"><div class="section-head"><h2 data-i18n="verdictDist">Verdict distribution</h2><span class="hint" data-i18n="propVsOpp">Proposition vs Opposition</span></div><div id="winnerChart" class="chart"></div><div class="legend"><span><i class="dot" style="background:var(--cyan)"></i><span data-i18n="proposition">Proposition</span></span><span><i class="dot" style="background:var(--violet)"></i><span data-i18n="opposition">Opposition</span></span></div></div>
 </div>
 <div class="section card">
-  <div class="section-head">
-    <h2 data-i18n="expModelPerf">Experiment × model performance</h2>
-    <span class="info-badge" data-i18n-title="perfBadgeTitle" title="Experiments: zero-shot · QDC rubric prompt · RAG retrieval · multi-step pipeline. Models: gemma3:12b (local), gemma4, llama4, qwen3.5, deepseek-r1, gpt-oss.">?</span>
-    <span class="hint" data-i18n="perfHint">Accuracy, agreement and coverage</span>
-  </div>
+  <div class="section-head"><h2 data-i18n="expModelPerf">Experiment × model performance</h2><span class="hint" data-i18n="perfHint">Accuracy, agreement and coverage</span></div>
   <div class="tablebox"><table class="data"><thead><tr>
     <th data-i18n="thExperiment">Experiment</th><th data-i18n="thModel">Model</th><th data-i18n="thCorrect">Correct</th><th data-i18n="thAccuracy">Accuracy</th><th data-i18n="thCoverage">Coverage</th><th data-i18n="thMeanConf">Mean confidence</th>
   </tr></thead><tbody id="performance"></tbody></table></div>
@@ -114,10 +623,8 @@ details summary{cursor:pointer;list-style:none}
     <button class="tab" data-tab="detailed-ground" data-i18n="tabDetailed">Detailed Ground Truth (CSV)</button>
     <button class="tab" data-tab="debates" data-i18n="tabDebates">Debate transcripts</button>
     <button class="tab" data-tab="files" data-i18n="tabFiles">All JSON files</button>
-    <button class="tab" data-tab="reference" data-i18n="tabReference">Reference · experiments &amp; models</button>
   </div>
   <div id="detailedGroundPanel" class="ground-panel" hidden><div class="ground-count" id="groundCount" data-i18n="groundCountDefault">20 detailed debate records · Source: detailed_ground_truth.csv</div><div class="tablebox"><table class="data ground-table"><thead><tr><th>#</th><th data-i18n="thYouTube">YouTube URL</th><th>البطولة</th><th>مستوى المناظرة</th><th>الموالاة</th><th>المعارصة</th><th>الفريق الفائز</th><th>ID</th></tr></thead><tbody id="detailedGroundRows"><tr><td colspan="8" data-i18n="loadingDetailed">Loading detailed ground truth…</td></tr></tbody></table></div></div>
-  <div id="referencePanel" class="ground-panel" hidden><div id="referenceBody"></div></div>
   <div class="browser" id="sourceBrowser">
     <div class="card side" id="fileList"><div class="empty" data-i18n="loadingData">Loading data…</div></div>
     <div class="detail">
@@ -127,7 +634,7 @@ details summary{cursor:pointer;list-style:none}
     </div>
   </div>
 </div>
-<div class="footer" data-i18n="footer">Runs entirely in your browser. On GitHub Pages, data is fetched from the public repository when the page opens. For a private repository or custom domain, set the repository constants near the top of the script.</div>
+<div class="footer" data-i18n="footer"></div>
 </main>
 
 <script>
@@ -223,26 +730,13 @@ const I18N = {
     of: "of",
     items: "items",
     perPage: "/page",
-    languageName: "العربية",
-    aboutTitle: "About this dashboard · experiments & models explained",
-    tabReference: "Reference · experiments & models",
-    perfBadgeTitle: "Experiments: zero-shot · QDC rubric prompt · RAG retrieval · multi-step pipeline. Models: gemma3:12b (local), gemma4, llama4, qwen3.5, deepseek-r1, gpt-oss.",
-    refExperiments: "Experiments",
-    refModels: "Models",
-    refContext: "Evaluation context",
-    refSource: "Source: Judy: Leveraging Artificial Intelligence to Standardize and Debias Debate Judging — §3 Dataset, §5.1 Experimental Setup, §5.2 Models, §5.3 Metrics, §6 Results.",
-    refFolderKey: "Folder key",
-    refExperiment: "Experiment",
-    refWhat: "What it does",
-    refWhy: "Why it exists",
-    refModelKey: "Model key",
-    refFamily: "Family",
-    refDescription: "Description"
+    youtubeUrl: "YouTube URL",
+    languageName: "العربية"
   },
   ar: {
     eyebrow: "JUDY · لوحة البحث",
     title: "مرصد التجارب",
-    subtitle: "تحكيم المناظرات · تقييم النماذج · مقارنة بالحقيقة المرجعية",
+    subtitle: "استكشاف كيفية تقييم نماذج الذكاء الاصطناعي للمناظرات التنافسية، ومدى توافقها مع آراء الخبراء البشريين.",
     themeLight: "الوضع الفاتح",
     themeDark: "الوضع الداكن",
     reload: "إعادة تحميل البيانات",
@@ -294,7 +788,7 @@ const I18N = {
     selectFile: "اختر ملفًا",
     copyJson: "نسخ JSON",
     jsonPlaceholder: "سيظهر محتوى JSON الكامل هنا.",
-    footer: "يعمل بالكامل داخل متصفحك. على GitHub Pages، يتم جلب البيانات من المستودع العام عند فتح الصفحة. للمستودع الخاص أو النطاق المخصص، اضبط ثوابت المستودع أعلى السكربت.",
+    footer: "",
     loadingData: "جارٍ تحميل البيانات…",
     noMatchVerdicts: "لا توجد أحكام مطابقة.",
     noWinnerLabels: "لم يتم العثور على تسميات فائز.",
@@ -329,132 +823,21 @@ const I18N = {
     of: "من",
     items: "عنصر",
     perPage: "/صفحة",
-    languageName: "English",
-    aboutTitle: "حول هذه اللوحة · شرح التجارب والنماذج",
-    tabReference: "مرجع · التجارب والنماذج",
-    perfBadgeTitle: "التجارب: بدون أمثلة · دليل QDC · استرجاع RAG · خط متعدد الخطوات. النماذج: gemma3:12b (محلي)، gemma4، llama4، qwen3.5، deepseek-r1، gpt-oss.",
-    refExperiments: "التجارب",
-    refModels: "النماذج",
-    refContext: "سياق التقييم",
-    refSource: "المصدر: Judy: Leveraging Artificial Intelligence to Standardize and Debias Debate Judging — القسم 3 البيانات، القسم 5.1 الإعداد التجريبي، القسم 5.2 النماذج، القسم 5.3 المقاييس، القسم 6 النتائج.",
-    refFolderKey: "مفتاح المجلد",
-    refExperiment: "التجربة",
-    refWhat: "ما الذي تفعله",
-    refWhy: "لماذا وُجدت",
-    refModelKey: "مفتاح النموذج",
-    refFamily: "العائلة",
-    refDescription: "الوصف"
+    youtubeUrl: "رابط يوتيوب",
+    languageName: "English"
   }
 };
 
 let LANG = localStorage.getItem('judy_lang') || 'en';
 function t(key){ return (I18N[LANG] && I18N[LANG][key]) || I18N.en[key] || key; }
-
-// ============ Reference data (from the paper) ============
-const EXPERIMENT_INFO = {
-  en: [
-    { key: "outputs", name: "Zero-shot generic prompt",
-      desc: "Minimal instruction: act as an expert judge, read the motion + transcript, pick a winner. No QDC rules, no examples, no steps.",
-      role: "Baseline for the model's general knowledge." },
-    { key: "QDC rubric prompt", name: "QDC rubric prompt",
-      desc: "System prompt contains the Qatar Debate Center manual: persuasion standard, clash analysis, content/style/strategy, placement rules, fairness (ignore names, no personal opinion). Returns structured JSON (ground, arguments, clashes, decision, speaker scores, feedback).",
-      role: "Tests whether grounding in official criteria improves alignment (RQ2)." },
-    { key: "RAG", name: "RAG over QDC materials",
-      desc: "QDC manual chunked at ≤900 chars, embedded with bge-m3, queried with 6 fixed judging questions + motion. Top-8 chunks fed into a short prompt.",
-      role: "Tests whether the model needs the whole rubric or only the relevant parts." },
-    { key: "pipeline", name: "Multi-step pipeline",
-      desc: "4 model calls: (1) problem + definitions + clash type, (2) per-speech argument extraction with exact quotes, (3) clash analysis from step 1–2 output, (4) verdict + margin + reasons using QDC weighing rules.",
-      role: "Tests whether decomposing the task helps and improves explainability." },
-    { key: "Length-only", name: "Length-only predictor (control)",
-      desc: "No LLM. Counts words in main speeches only; the longer team wins.",
-      role: "Verbosity control — a model that isn't better than this may be rewarding length, not argument quality." }
-  ],
-  ar: [
-    { key: "outputs", name: "موجّه عام بدون أمثلة",
-      desc: "تعليمات مختصرة: تصرّف كخبير تحكيم، اقرأ الاقتراح والنص، واختر فائزًا. لا قواعد QDC، لا أمثلة، لا خطوات.",
-      role: "خط الأساس للمعرفة العامة للنموذج." },
-    { key: "QDC rubric prompt", name: "موجّه بدليل QDC",
-      desc: "يحتوي موجه النظام على دليل مركز قطر للمناظرات: معيار الإقناع، تحليل التعارض، المحتوى والأسلوب والاستراتيجية، قواعد الموضع، والإنصاف (تجاهل الأسماء، لا رأي شخصي). يعيد JSON منظمًا (الأرضية، الحجج، التعارضات، القرار، درجات المتحدثين، الملاحظات).",
-      role: "يختبر ما إذا كان التأصيل في المعايير الرسمية يحسّن التوافق (سؤال البحث 2)." },
-    { key: "RAG", name: "استرجاع RAG من مواد QDC",
-      desc: "يُقسَّم دليل QDC إلى مقاطع ≤900 حرف، تُضمَّن بـ bge-m3، وتُستعلم بـ6 أسئلة تحكيم ثابتة + الاقتراح. تُغذّى أفضل 8 مقاطع في موجه قصير.",
-      role: "يختبر ما إذا كان النموذج يحتاج الدليل كاملًا أم الأجزاء ذات الصلة فقط." },
-    { key: "pipeline", name: "خط متعدد الخطوات",
-      desc: "4 استدعاءات للنموذج: (1) المشكلة والتعريفات ونوع التعارض، (2) استخراج الحجج لكل خطاب مع اقتباسات دقيقة، (3) تحليل التعارض من مخرجات الخطوتين 1–2، (4) الحكم والهامش والأسباب باستخدام قواعد ترجيح QDC.",
-      role: "يختبر ما إذا كان تقسيم المهمة يساعد ويحسّن قابلية التفسير." },
-    { key: "Length-only", name: "متنبئ الطول فقط (ضابط)",
-      desc: "بدون نموذج لغوي. يعدّ الكلمات في الخطابات الرئيسية فقط؛ يفوز الفريق الأطول.",
-      role: "ضابط الإسهاب — النموذج الذي ليس أفضل من هذا قد يكافئ الطول لا جودة الحجة." }
-  ]
-};
-
-const MODEL_INFO = {
-  en: [
-    { key: "gemma3:12b", family: "Google DeepMind", desc: "Common local model used in the §5.1 setup. Efficient multilingual reasoning and structured generation." },
-    { key: "gemma4",     family: "Google DeepMind", desc: "Successor; efficient multilingual reasoning + structured generation." },
-    { key: "llama4",     family: "Meta",            desc: "Multilingual understanding and long-context processing." },
-    { key: "qwen3.5",    family: "Alibaba Qwen",    desc: "Multilingual instruction following, reasoning, and structured generation. Best overall in the study (mean accuracy 0.70; 0.80 with QDC prompt)." },
-    { key: "deepseek-r1",family: "DeepSeek",        desc: "Open-weight reasoning model trained with large-scale RL." },
-    { key: "gpt-oss",    family: "OpenAI",          desc: "Open-weight MoE family (including a 20B variant) for efficient local deployment." }
-  ],
-  ar: [
-    { key: "gemma3:12b", family: "Google DeepMind", desc: "النموذج المحلي المشترك المستخدم في إعداد القسم 5.1. استدلال متعدد اللغات فعّال وتوليد منظم." },
-    { key: "gemma4",     family: "Google DeepMind", desc: "الخلف؛ استدلال متعدد اللغات فعّال + توليد منظم." },
-    { key: "llama4",     family: "Meta",            desc: "فهم متعدد اللغات ومعالجة سياق طويل." },
-    { key: "qwen3.5",    family: "Alibaba Qwen",    desc: "اتباع تعليمات متعدد اللغات، استدلال، وتوليد منظم. الأفضل إجمالًا في الدراسة (متوسط دقة 0.70؛ 0.80 مع دليل QDC)." },
-    { key: "deepseek-r1",family: "DeepSeek",        desc: "نموذج استدلال مفتوح الأوزان دُرِّب بتعلم معزز واسع النطاق." },
-    { key: "gpt-oss",    family: "OpenAI",          desc: "عائلة MoE مفتوحة الأوزان (بما في ذلك نسخة 20B) للنشر المحلي الفعّال." }
-  ]
-};
-
-const METRIC_CONTEXT = {
-  en: {
-    dataset: "20 Arabic debates from Qatar Debate Center (QDC) · 19.30 h · 114,528 words · ground truth = QDC official winner.",
-    baselines: "Majority class = 0.55 · Length-only control = 0.65 (κ = 0.30).",
-    best: "Best system: qwen3.5 + QDC rubric prompt → 0.80 accuracy (95% CI [0.58, 0.92]), κ = 0.59."
-  },
-  ar: {
-    dataset: "20 مناظرة عربية من مركز قطر للمناظرات (QDC) · 19.30 ساعة · 114,528 كلمة · الحقيقة المرجعية = الفائز الرسمي لـ QDC.",
-    baselines: "فئة الأغلبية = 0.55 · ضابط الطول فقط = 0.65 (κ = 0.30).",
-    best: "أفضل نظام: qwen3.5 + دليل QDC → دقة 0.80 (فاصل ثقة 95% [0.58, 0.92])، κ = 0.59."
-  }
-};
-
-function renderAbout(){
-  const experiments = EXPERIMENT_INFO[LANG] || EXPERIMENT_INFO.en;
-  const models = MODEL_INFO[LANG] || MODEL_INFO.en;
-  const ctx = METRIC_CONTEXT[LANG] || METRIC_CONTEXT.en;
-  const expRows = experiments.map(e =>
-    `<tr><td><code>${esc(e.key)}</code></td><td><strong>${esc(e.name)}</strong></td><td>${esc(e.desc)}</td><td>${esc(e.role)}</td></tr>`
-  ).join("");
-  const modRows = models.map(m =>
-    `<tr><td><code>${esc(m.key)}</code></td><td>${esc(m.family)}</td><td>${esc(m.desc)}</td></tr>`
-  ).join("");
-  const html = `
-    <p style="margin:0 0 10px"><strong>${esc(ctx.dataset)}</strong> ${esc(ctx.baselines)} ${esc(ctx.best)}</p>
-    <div class="ref-section-title">${esc(t('refExperiments'))}</div>
-    <table class="ref-table"><thead><tr>
-      <th>${esc(t('refFolderKey'))}</th><th>${esc(t('refExperiment'))}</th><th>${esc(t('refWhat'))}</th><th>${esc(t('refWhy'))}</th>
-    </tr></thead><tbody>${expRows}</tbody></table>
-    <div class="ref-section-title">${esc(t('refModels'))}</div>
-    <table class="ref-table"><thead><tr>
-      <th>${esc(t('refModelKey'))}</th><th>${esc(t('refFamily'))}</th><th>${esc(t('refDescription'))}</th>
-    </tr></thead><tbody>${modRows}</tbody></table>
-    <p style="margin:14px 0 0;color:var(--muted);font-size:12px">${esc(t('refSource'))}</p>`;
-  if ($('aboutBody')) $('aboutBody').innerHTML = html;
-  if ($('referenceBody')) $('referenceBody').innerHTML = html;
-}
-
 function applyI18n(){
   document.documentElement.lang = LANG;
   document.documentElement.dir = LANG === 'ar' ? 'rtl' : 'ltr';
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => { el.placeholder = t(el.dataset.i18nPlaceholder); });
-  document.querySelectorAll('[data-i18n-title]').forEach(el => { el.title = t(el.dataset.i18nTitle); });
   $('theme').innerHTML = '☼ <span>' + (document.body.classList.contains('light') ? t('themeDark') : t('themeLight')) + '</span>';
   $('langLabel').textContent = t('languageName');
   if (typeof records !== 'undefined' && records.length){ render(); renderList(); renderDetailedGround(); }
-  renderAbout();
 }
 
 // ============ App constants ============
@@ -557,20 +940,6 @@ function filtered(){
   let e=$('experiment').value,m=$('model').value,d=$('debate').value,q=norm($('globalSearch').value);
   return records.filter(r=>(!e||r.experiment===e)&&(!m||r.model===m)&&(!d||r.id===d)&&(!q||norm(JSON.stringify(r.data)).includes(q)||norm(r.id).includes(q)));
 }
-
-// Tooltip helpers
-function expTip(name){
-  const list = EXPERIMENT_INFO[LANG] || EXPERIMENT_INFO.en;
-  const info = list.find(e => String(name).toLowerCase().includes(e.key.toLowerCase())) ||
-               list.find(e => e.name.toLowerCase().includes(String(name).toLowerCase()));
-  return info ? `<span title="${esc(info.desc)}">${esc(name)}</span>` : esc(name);
-}
-function modelTip(name){
-  const list = MODEL_INFO[LANG] || MODEL_INFO.en;
-  const info = list.find(m => String(name).toLowerCase().includes(m.key.toLowerCase()));
-  return info ? `<span title="${esc(info.desc)}">${esc(name)}</span>` : esc(name);
-}
-
 function render(){
   let rs=filtered(),known=Object.keys(ground);
   let correct=rs.filter(r=>Object.hasOwn(ground,r.id)&&r.winner===norm(ground[r.id])).length;
@@ -591,7 +960,7 @@ function render(){
 
   renderComparisonTable(rs);
 
-  $('performance').innerHTML=byModel.length?unique(rs.map(r=>r.experiment)).flatMap(e=>unique(rs.filter(r=>r.experiment===e).map(r=>r.model)).map(m=>{let a=rs.filter(r=>r.experiment===e&&r.model===m),s=a.filter(r=>Object.hasOwn(ground,r.id)),c=s.filter(r=>r.winner===norm(ground[r.id])).length,cf=a.map(r=>r.confidence).filter(x=>x!==null);return `<tr><td>${expTip(e)}</td><td>${modelTip(m)}</td><td>${c}/${s.length}</td><td>${fmt(s.length?c/s.length:NaN)}</td><td>${fmt(a.length/Math.max(1,known.length))}</td><td>${cf.length?(cf.reduce((x,y)=>x+y,0)/cf.length).toFixed(2):'—'}</td></tr>`})).join(''):`<tr><td colspan="6">${t('noVerdictFiles')}</td></tr>`;
+  $('performance').innerHTML=byModel.length?unique(rs.map(r=>r.experiment)).flatMap(e=>unique(rs.filter(r=>r.experiment===e).map(r=>r.model)).map(m=>{let a=rs.filter(r=>r.experiment===e&&r.model===m),s=a.filter(r=>Object.hasOwn(ground,r.id)),c=s.filter(r=>r.winner===norm(ground[r.id])).length,cf=a.map(r=>r.confidence).filter(x=>x!==null);return `<tr><td>${esc(e)}</td><td>${esc(m)}</td><td>${c}/${s.length}</td><td>${fmt(s.length?c/s.length:NaN)}</td><td>${fmt(a.length/Math.max(1,known.length))}</td><td>${cf.length?(cf.reduce((x,y)=>x+y,0)/cf.length).toFixed(2):'—'}</td></tr>`})).join(''):`<tr><td colspan="6">${t('noVerdictFiles')}</td></tr>`;
   renderList();
 }
 
@@ -612,8 +981,8 @@ function renderComparisonTable(rs){
         return `<tr>
           <td>${esc(r.id)}</td>
           <td><span class="pill">${esc(gt)}</span></td>
-          <td>${expTip(r.experiment)}</td>
-          <td>${modelTip(r.model)}</td>
+          <td>${esc(r.experiment)}</td>
+          <td>${esc(r.model)}</td>
           <td>${esc(r.winner || '—')}</td>
           <td class="${gt === '—' ? '' : match ? 'good' : 'bad'}">${gt === '—' ? t('notScored') : match ? t('correct') : t('different')}</td>
           <td class="just-cell">
@@ -698,21 +1067,15 @@ function showItem(item){
   $('copy').disabled=false;
   renderList();
 }
-$('copy').onclick=()=>{if(selected)navigator.clipboard.writeText(JSON.stringify(selected.data,null,2));};
+ $('copy').onclick=()=>{if(selected)navigator.clipboard.writeText(JSON.stringify(selected.data,null,2));};
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
   document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));
   activeTab=b.dataset.tab;
   pageState.files.page=1;
   const detailed=activeTab==='detailed-ground';
-  const reference=activeTab==='reference';
   $('detailedGroundPanel').hidden=!detailed;
-  $('referencePanel').hidden=!reference;
-  $('sourceBrowser').hidden=detailed||reference;
-  if(reference){
-    document.querySelector('#aboutNotice details').open = true;
-    renderAbout();
-  }
-  if(!detailed && !reference){
+  $('sourceBrowser').hidden=detailed;
+  if(!detailed){
     selected=null;
     $('detailTitle').textContent=t('selectFile');
     $('detailContent').textContent=t('jsonPlaceholder');
@@ -720,12 +1083,12 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
     renderList();
   }
 });
-$('rescan').onclick=load;
-$('theme').onclick=()=>{
+ $('rescan').onclick=load;
+ $('theme').onclick=()=>{
   document.body.classList.toggle('light');
   $('theme').innerHTML='☼ <span>'+(document.body.classList.contains('light')?t('themeDark'):t('themeLight'))+'</span>';
 };
-$('lang').onclick=()=>{
+ $('lang').onclick=()=>{
   LANG = LANG === 'en' ? 'ar' : 'en';
   localStorage.setItem('judy_lang', LANG);
   applyI18n();
